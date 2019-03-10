@@ -1,0 +1,737 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  10 MAR 2019 22:48
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"Data Engineering Cookbook.tex"
+(./Data Engineering Cookbook.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2018/03/30 v3.25 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box26
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 134.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2114.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (12pt
+)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count80
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1706.
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@section@maxnumwidth=\skip48
+\scr@dte@subsection@maxnumwidth=\skip49
+\scr@dte@subsubsection@maxnumwidth=\skip50
+\scr@dte@paragraph@maxnumwidth=\skip51
+\scr@dte@subparagraph@maxnumwidth=\skip52
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@pti@nb@sid@b@x=\box27
+\scr@dte@figure@maxnumwidth=\skip55
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 5439.
+\c@figure=\count87
+\scr@dte@table@maxnumwidth=\skip56
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 5451.
+\c@table=\count88
+Class scrartcl Info: Redefining `\numberline' on input line 5615.
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks16
+\thm@bodyfont=\toks17
+\thm@headfont=\toks18
+\thm@notefont=\toks19
+\thm@headpunct=\toks20
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
+\dth@everypar=\toks21
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen113
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen114
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks23
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks24
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks25
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip63
+\L@UnitsRaiseTextstyle=\skip64
+\L@UnitsRaiseScriptstyle=\skip65
+LaTeX Info: Redefining \nicefrac on input line 131.
+))
+
+Class scrartcl Warning: Usage of package `parskip' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use option
+(scrartcl)              `parskip' with one of it's several values.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `parskip' on input line 10.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(./Data Engineering Cookbook.aux
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+)
+\openout1 = `"Data Engineering Cookbook.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.96796pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50696pt, 72.26999pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=452.96796pt
+* \textheight=700.50696pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-39.875pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen122
+\scratchbox=\box30
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen123
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Data Engineering Cookbook.toc [2] [3] [4] [5])
+\tf@toc=\write3
+\openout3 = `"Data Engineering Cookbook.toc"'.
+
+ [6] [7]
+<images/Machine-Learning-Pipeline.png, id=28, 979.66pt x 280.04625pt>
+File: images/Machine-Learning-Pipeline.png Graphic file (type png)
+<use images/Machine-Learning-Pipeline.png>
+Package pdftex.def Info: images/Machine-Learning-Pipeline.png  used on input li
+ne 91.
+(pdftex.def)             Requested size: 407.6684pt x 116.53323pt.
+ [8 <./images/Machine-Learning-Pipeline.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
+ [9]
+Overfull \hbox (53.65689pt too wide) in paragraph at lines 153--155
+[]\OT1/cmr/m/n/12 Where to Learn? There's a Java Course on Udemy you could look
+ at: https://www.udemy.com/java-
+ []
+
+[10]
+Overfull \hbox (173.50749pt too wide) in paragraph at lines 182--183
+[]\OT1/cmr/m/n/12 This great GitHub com-mands cheat sheet saved my butt mul-ti-
+ple times: https://www.atlassian.com/git/tutorials/atlassian-
+ []
+
+[11] [12]
+Overfull \hbox (8.82318pt too wide) in paragraph at lines 282--283
+\OT1/cmr/m/n/12 I talked about this in this Pod-cast: https://anchor.fm/andreas
+kayy/embed/episodes/Agile-
+ []
+
+
+Overfull \hbox (190.76028pt too wide) in paragraph at lines 292--293
+\OT1/cmr/m/n/12 I talked about com-puter hard-ware and GPU pro-cess-ing in this
+ pod-cast: https://anchor.fm/andreaskayy/embed/episodes/Why-
+ []
+
+[13]
+Overfull \hbox (172.89091pt too wide) in paragraph at lines 306--307
+\OT1/cmr/m/n/12 I talked about Net-work In-fras-truc-ture and Tech-niques in th
+is pod-cast: https://anchor.fm/andreaskayy/embed/episodes/IT-
+ []
+
+
+Overfull \hbox (54.91428pt too wide) in paragraph at lines 327--328
+\OT1/cmr/m/n/12 Linux Tips are the sec-ond part of this pod-cast: https://ancho
+r.fm/andreaskayy/embed/episodes/IT-
+ []
+
+[14]
+Overfull \hbox (116.76642pt too wide) in paragraph at lines 336--337
+\OT1/cmr/m/n/12 Listen to a few thoughts about the cloud in this pod-cast: http
+s://anchor.fm/andreaskayy/embed/episodes/Dont-
+ []
+
+[15]
+<images/Big-Data-Platform-Blueprint-Title-Original.png, id=57, 3795.17876pt x 2
+076.75874pt>
+File: images/Big-Data-Platform-Blueprint-Title-Original.png Graphic file (type 
+png)
+<use images/Big-Data-Platform-Blueprint-Title-Original.png>
+Package pdftex.def Info: images/Big-Data-Platform-Blueprint-Title-Original.png 
+ used on input line 357.
+(pdftex.def)             Requested size: 407.6684pt x 223.05708pt.
+ [16 <./images/Big-Data-Platform-Blueprint-Title-Original.png>] [17]
+[18]
+Overfull \hbox (211.08635pt too wide) in paragraph at lines 436--437
+\OT1/cmr/m/n/12 I talked about se-cu-rity zone de-sign and lambda ar-chi-tec-tu
+re in this pod-cast: https://anchor.fm/andreaskayy/embed/episodes/How-
+ []
+
+<images/Simple-Batch-Processing-Workflow.png, id=68, 1031.855pt x 151.56625pt>
+File: images/Simple-Batch-Processing-Workflow.png Graphic file (type png)
+<use images/Simple-Batch-Processing-Workflow.png>
+Package pdftex.def Info: images/Simple-Batch-Processing-Workflow.png  used on i
+nput line 455.
+(pdftex.def)             Requested size: 407.6684pt x 59.88072pt.
+[19 <./images/Simple-Batch-Processing-Workflow.png>]
+<images/Simple-Stream-Processing-Workflow.png, id=74, 1046.91125pt x 134.5025pt
+>
+File: images/Simple-Stream-Processing-Workflow.png Graphic file (type png)
+<use images/Simple-Stream-Processing-Workflow.png>
+Package pdftex.def Info: images/Simple-Stream-Processing-Workflow.png  used on 
+input line 486.
+(pdftex.def)             Requested size: 407.6684pt x 52.37366pt.
+ [20 <./images/Simple-Stream-Processing-Workflow.png>] [21]
+Overfull \hbox (42.702pt too wide) in paragraph at lines 558--559
+\OT1/cmr/m/n/12 I talked about the dif-fer-ence in this pod-cast: https://ancho
+r.fm/andreaskayy/embed/episodes/BI-
+ []
+
+[22]
+Overfull \hbox (6.70375pt too wide) in paragraph at lines 587--588
+[]\OT1/cmr/m/n/12 I talked about the 4Vs in this pod-cast: https://anchor.fm/an
+dreaskayy/embed/episodes/4-
+ []
+
+[23] [24]
+<images/Common-SQL-Architecture.png, id=91, 652.4375pt x 527.9725pt>
+File: images/Common-SQL-Architecture.png Graphic file (type png)
+<use images/Common-SQL-Architecture.png>
+Package pdftex.def Info: images/Common-SQL-Architecture.png  used on input line
+ 624.
+(pdftex.def)             Requested size: 317.07619pt x 256.59805pt.
+ [25 <./images/Common-SQL-Architecture.png>]
+<images/SQL-Scaling-UP.png, id=97, 862.22125pt x 329.23pt>
+File: images/SQL-Scaling-UP.png Graphic file (type png)
+<use images/SQL-Scaling-UP.png>
+Package pdftex.def Info: images/SQL-Scaling-UP.png  used on input line 653.
+(pdftex.def)             Requested size: 317.07619pt x 121.06969pt.
+<images/SQL-Scaling-Out.png, id=98, 676.5275pt x 588.1975pt>
+File: images/SQL-Scaling-Out.png Graphic file (type png)
+<use images/SQL-Scaling-Out.png>
+Package pdftex.def Info: images/SQL-Scaling-Out.png  used on input line 669.
+(pdftex.def)             Requested size: 317.07619pt x 275.681pt.
+ [26 <./images/SQL-Scaling-UP.png>] [27 <./images/SQL-Scaling-Out.png>] [28]
+<images/Hadoop-Ecosystem.png, id=110, 710.655pt x 692.5875pt>
+File: images/Hadoop-Ecosystem.png Graphic file (type png)
+<use images/Hadoop-Ecosystem.png>
+Package pdftex.def Info: images/Hadoop-Ecosystem.png  used on input line 732.
+(pdftex.def)             Requested size: 407.6684pt x 397.31529pt.
+<images/Hadoop-Ecosystem-Connections.png, id=111, 611.28375pt x 443.6575pt>
+File: images/Hadoop-Ecosystem-Connections.png Graphic file (type png)
+<use images/Hadoop-Ecosystem-Connections.png>
+Package pdftex.def Info: images/Hadoop-Ecosystem-Connections.png  used on input
+ line 745.
+(pdftex.def)             Requested size: 407.6684pt x 295.87473pt.
+ [29 <./images/Hadoop-Ecosystem.png>]
+<images/Hadoop-Ecosystem-Connections-Flume.png, id=116, 621.32124pt x 445.16313
+pt>
+File: images/Hadoop-Ecosystem-Connections-Flume.png Graphic file (type png)
+<use images/Hadoop-Ecosystem-Connections-Flume.png>
+Package pdftex.def Info: images/Hadoop-Ecosystem-Connections-Flume.png  used on
+ input line 773.
+(pdftex.def)             Requested size: 407.6684pt x 292.08325pt.
+ [30 <./images/Hadoop-Ecosystem-Connections.png>] [31 <./images/Hadoop-Ecosyste
+m-Connections-Flume.png>] [32] [33]
+Overfull \hbox (201.9836pt too wide) in paragraph at lines 869--870
+\OT1/cmr/m/n/12 Podcast about how data sci-ence learn-ers use Docker (for data 
+sci-en-tists): https://anchor.fm/andreaskayy/embed/episodes/Learn-
+ []
+
+
+Overfull \hbox (103.40683pt too wide) in paragraph at lines 875--876
+\OT1/cmr/m/n/12 Check out my pod-cast about how APIs rule the world: https://an
+chor.fm/andreaskayy/embed/episodes/How-
+ []
+
+[34] [35]
+<images/MapReduce-Process-Detailed.png, id=138, 757.83125pt x 705.63625pt>
+File: images/MapReduce-Process-Detailed.png Graphic file (type png)
+<use images/MapReduce-Process-Detailed.png>
+Package pdftex.def Info: images/MapReduce-Process-Detailed.png  used on input l
+ine 914.
+(pdftex.def)             Requested size: 407.6684pt x 379.59511pt.
+ [36 <./images/MapReduce-Process-Detailed.png>] [37]
+<images/MapReduce-Time-Series-example.png, id=147, 963.6pt x 436.63126pt>
+File: images/MapReduce-Time-Series-example.png Graphic file (type png)
+<use images/MapReduce-Time-Series-example.png>
+Package pdftex.def Info: images/MapReduce-Time-Series-example.png  used on inpu
+t line 964.
+(pdftex.def)             Requested size: 407.6684pt x 184.72302pt.
+<images/MapReduce-Process.png, id=148, 816.04875pt x 49.18375pt>
+File: images/MapReduce-Process.png Graphic file (type png)
+<use images/MapReduce-Process.png>
+Package pdftex.def Info: images/MapReduce-Process.png  used on input line 984.
+(pdftex.def)             Requested size: 407.6684pt x 24.57079pt.
+ [38 <./images/MapReduce-Time-Series-example.png>]
+Overfull \hbox (174.20895pt too wide) in paragraph at lines 1004--1005
+\OT1/cmr/m/n/12 I talked about the three meth-ods of data stream-ing in this po
+d-cast: https://anchor.fm/andreaskayy/embed/episodes/Three-
+ []
+
+[39 <./images/MapReduce-Process.png>]
+<images/Table-Hadoop-and-Spark.png, id=157, 819.06pt x 160.6pt>
+File: images/Table-Hadoop-and-Spark.png Graphic file (type png)
+<use images/Table-Hadoop-and-Spark.png>
+Package pdftex.def Info: images/Table-Hadoop-and-Spark.png  used on input line 
+1027.
+(pdftex.def)             Requested size: 407.6684pt x 79.9371pt.
+ [40 <./images/Table-Hadoop-and-Spark.png>] [41]
+<images/Spark-Data-Locality.png, id=165, 1028.84375pt x 578.16pt>
+File: images/Spark-Data-Locality.png Graphic file (type png)
+<use images/Spark-Data-Locality.png>
+Package pdftex.def Info: images/Spark-Data-Locality.png  used on input line 110
+5.
+(pdftex.def)             Requested size: 407.6684pt x 229.08969pt.
+ [42] [43 <./images/Spark-Data-Locality.png>]
+<images/Spark-Yarn.png, id=174, 1047.915pt x 412.54124pt>
+File: images/Spark-Yarn.png Graphic file (type png)
+<use images/Spark-Yarn.png>
+Package pdftex.def Info: images/Spark-Yarn.png  used on input line 1146.
+(pdftex.def)             Requested size: 407.6684pt x 160.48756pt.
+ [44 <./images/Spark-Yarn.png>]
+Overfull \hbox (158.34375pt too wide) in paragraph at lines 1165--1166
+\OT1/cmr/m/n/12 My pod-cast about how to do ma-chine learn-ing in pro-duc-tion:
+ https://anchor.fm/andreaskayy/embed/episodes/Machine-
+ []
+
+[45]
+Overfull \hbox (0.8979pt too wide) in paragraph at lines 1198--1199
+ \OT1/cmr/bx/n/12 Where The Plat-forms That Sup-port This?[] \OT1/cmr/m/n/12 Au
+-to-matic re-training and re-deploying
+ []
+
+[46] [47]
+Overfull \hbox (162.74243pt too wide) in paragraph at lines 1293--1294
+\OT1/cmr/m/n/12 Check out my pod-cast how to de-cide be-tween SQL and NoSQL: ht
+tps://anchor.fm/andreaskayy/embed/episodes/NoSQL-
+ []
+
+[48] [49]
+<images/HDFS-Master-DataNodes.png, id=195, 776.9025pt x 574.145pt>
+File: images/HDFS-Master-DataNodes.png Graphic file (type png)
+<use images/HDFS-Master-DataNodes.png>
+Package pdftex.def Info: images/HDFS-Master-DataNodes.png  used on input line 1
+331.
+(pdftex.def)             Requested size: 407.6684pt x 301.28171pt.
+<images/HDFS-Distributed-FileSystem.png, id=196, 1039.885pt x 270.00874pt>
+File: images/HDFS-Distributed-FileSystem.png Graphic file (type png)
+<use images/HDFS-Distributed-FileSystem.png>
+Package pdftex.def Info: images/HDFS-Distributed-FileSystem.png  used on input 
+line 1348.
+(pdftex.def)             Requested size: 407.6684pt x 105.85094pt.
+ [50 <./images/HDFS-Master-DataNodes.png>] [51 <./images/HDFS-Distributed-FileS
+ystem.png>] [52]
+<images/Netflix-Chuckwa-Pipeline.png, id=209, 1017.8025pt x 363.3575pt>
+File: images/Netflix-Chuckwa-Pipeline.png Graphic file (type png)
+<use images/Netflix-Chuckwa-Pipeline.png>
+Package pdftex.def Info: images/Netflix-Chuckwa-Pipeline.png  used on input lin
+e 1425.
+(pdftex.def)             Requested size: 407.6684pt x 145.54001pt.
+ [53 <./images/Netflix-Chuckwa-Pipeline.png>]
+<images/Netflix-Trending-Now-Screenshot.png, id=214, 1180.41pt x 192.72pt>
+File: images/Netflix-Trending-Now-Screenshot.png Graphic file (type png)
+<use images/Netflix-Trending-Now-Screenshot.png>
+Package pdftex.def Info: images/Netflix-Trending-Now-Screenshot.png  used on in
+put line 1473.
+(pdftex.def)             Requested size: 407.6684pt x 66.55609pt.
+ [54]
+<images/Netflix-Streaming-Pipeline.png, id=218, 1001.7425pt x 437.635pt>
+File: images/Netflix-Streaming-Pipeline.png Graphic file (type png)
+<use images/Netflix-Streaming-Pipeline.png>
+Package pdftex.def Info: images/Netflix-Streaming-Pipeline.png  used on input l
+ine 1503.
+(pdftex.def)             Requested size: 407.6684pt x 178.10263pt.
+
+[55 <./images/Netflix-Trending-Now-Screenshot.png>] [56 <./images/Netflix-Strea
+ming-Pipeline.png>] (./Data Engineering Cookbook.lof)
+\tf@lof=\write4
+\openout4 = `"Data Engineering Cookbook.lof"'.
+
+
+(./Data Engineering Cookbook.lot)
+\tf@lot=\write5
+\openout5 = `"Data Engineering Cookbook.lot"'.
+
+ [57] (./Data Engineering Cookbook.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5295 strings out of 492649
+ 89746 string characters out of 6129621
+ 254823 words of memory out of 5000000
+ 9068 multiletter control sequences out of 15000+600000
+ 11814 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 51i,7n,51p,9185b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Data Engineering Cookbook.pdf" (57 pages, 3364223 bytes).
+PDF statistics:
+ 252 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
