@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  10 MAR 2019 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  12 MAR 2019 00:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -257,6 +257,118 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen122
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count106
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `linktocpage' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count107
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen123
+\Fld@menulength=\count108
+\Field@Width=\dimen124
+\Fld@charsize=\dimen125
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count112
+\c@bookmark@seq@number=\count113
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip66
+)
 (./Data Engineering Cookbook.aux
 
 LaTeX Warning: Label `fig:Bild1' multiply defined.
@@ -333,6 +445,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -370,57 +484,22 @@ LaTeX Font Info:    ... okay on input line 18.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen122
+\scratchcounter=\count114
+\scratchdimen=\dimen126
 \scratchbox=\box30
-\nofMPsegments=\count105
-\nofMParguments=\count106
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen123
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen127
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -433,6 +512,25 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 18.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count120
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
+
+(./Data Engineering Cookbook.out) (./Data Engineering Cookbook.out)
+\@outlinefile=\write3
+\openout3 = `"Data Engineering Cookbook.out"'.
+
 LaTeX Font Info:    Try loading font information for U+msa on input line 20.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -446,292 +544,542 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Data Engineering Cookbook.toc [2] [3] [4] [5])
-\tf@toc=\write3
-\openout3 = `"Data Engineering Cookbook.toc"'.
+(./Data Engineering Cookbook.toc [2] [3] [4])
+\tf@toc=\write4
+\openout4 = `"Data Engineering Cookbook.toc"'.
 
- [6] [7]
-<images/Machine-Learning-Pipeline.png, id=28, 979.66pt x 280.04625pt>
+ [5] [6] [7]
+<images/Machine-Learning-Pipeline.png, id=667, 979.66pt x 280.04625pt>
 File: images/Machine-Learning-Pipeline.png Graphic file (type png)
 <use images/Machine-Learning-Pipeline.png>
 Package pdftex.def Info: images/Machine-Learning-Pipeline.png  used on input li
-ne 91.
+ne 93.
 (pdftex.def)             Requested size: 407.6684pt x 116.53323pt.
  [8 <./images/Machine-Learning-Pipeline.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
  [9]
-Overfull \hbox (53.65689pt too wide) in paragraph at lines 153--155
+Overfull \hbox (53.65689pt too wide) in paragraph at lines 154--156
 []\OT1/cmr/m/n/12 Where to Learn? There's a Java Course on Udemy you could look
  at: https://www.udemy.com/java-
  []
 
 [10]
-Overfull \hbox (173.50749pt too wide) in paragraph at lines 182--183
+Overfull \hbox (173.50749pt too wide) in paragraph at lines 183--184
 []\OT1/cmr/m/n/12 This great GitHub com-mands cheat sheet saved my butt mul-ti-
 ple times: https://www.atlassian.com/git/tutorials/atlassian-
  []
 
 [11] [12]
-Overfull \hbox (8.82318pt too wide) in paragraph at lines 282--283
+Overfull \hbox (8.82318pt too wide) in paragraph at lines 283--284
 \OT1/cmr/m/n/12 I talked about this in this Pod-cast: https://anchor.fm/andreas
 kayy/embed/episodes/Agile-
  []
 
 
-Overfull \hbox (190.76028pt too wide) in paragraph at lines 292--293
+Overfull \hbox (190.76028pt too wide) in paragraph at lines 291--292
 \OT1/cmr/m/n/12 I talked about com-puter hard-ware and GPU pro-cess-ing in this
  pod-cast: https://anchor.fm/andreaskayy/embed/episodes/Why-
  []
 
 [13]
-Overfull \hbox (172.89091pt too wide) in paragraph at lines 306--307
+Overfull \hbox (172.89091pt too wide) in paragraph at lines 305--306
 \OT1/cmr/m/n/12 I talked about Net-work In-fras-truc-ture and Tech-niques in th
 is pod-cast: https://anchor.fm/andreaskayy/embed/episodes/IT-
  []
 
 
-Overfull \hbox (54.91428pt too wide) in paragraph at lines 327--328
+Overfull \hbox (54.91428pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/12 Linux Tips are the sec-ond part of this pod-cast: https://ancho
 r.fm/andreaskayy/embed/episodes/IT-
  []
 
 [14]
-Overfull \hbox (116.76642pt too wide) in paragraph at lines 336--337
+Overfull \hbox (116.76642pt too wide) in paragraph at lines 335--336
 \OT1/cmr/m/n/12 Listen to a few thoughts about the cloud in this pod-cast: http
 s://anchor.fm/andreaskayy/embed/episodes/Dont-
  []
 
 [15]
-<images/Big-Data-Platform-Blueprint-Title-Original.png, id=57, 3795.17876pt x 2
-076.75874pt>
-File: images/Big-Data-Platform-Blueprint-Title-Original.png Graphic file (type 
-png)
-<use images/Big-Data-Platform-Blueprint-Title-Original.png>
-Package pdftex.def Info: images/Big-Data-Platform-Blueprint-Title-Original.png 
- used on input line 357.
-(pdftex.def)             Requested size: 407.6684pt x 223.05708pt.
- [16 <./images/Big-Data-Platform-Blueprint-Title-Original.png>] [17]
-[18]
-Overfull \hbox (211.08635pt too wide) in paragraph at lines 436--437
+Overfull \hbox (211.08635pt too wide) in paragraph at lines 344--345
 \OT1/cmr/m/n/12 I talked about se-cu-rity zone de-sign and lambda ar-chi-tec-tu
 re in this pod-cast: https://anchor.fm/andreaskayy/embed/episodes/How-
  []
 
-<images/Simple-Batch-Processing-Workflow.png, id=68, 1031.855pt x 151.56625pt>
+<images/Simple-Batch-Processing-Workflow.png, id=710, 1031.855pt x 151.56625pt>
+
 File: images/Simple-Batch-Processing-Workflow.png Graphic file (type png)
 <use images/Simple-Batch-Processing-Workflow.png>
 Package pdftex.def Info: images/Simple-Batch-Processing-Workflow.png  used on i
-nput line 455.
+nput line 363.
 (pdftex.def)             Requested size: 407.6684pt x 59.88072pt.
-[19 <./images/Simple-Batch-Processing-Workflow.png>]
-<images/Simple-Stream-Processing-Workflow.png, id=74, 1046.91125pt x 134.5025pt
->
+[16 <./images/Simple-Batch-Processing-Workflow.png>]
+<images/Simple-Stream-Processing-Workflow.png, id=718, 1046.91125pt x 134.5025p
+t>
 File: images/Simple-Stream-Processing-Workflow.png Graphic file (type png)
 <use images/Simple-Stream-Processing-Workflow.png>
 Package pdftex.def Info: images/Simple-Stream-Processing-Workflow.png  used on 
-input line 486.
+input line 394.
 (pdftex.def)             Requested size: 407.6684pt x 52.37366pt.
- [20 <./images/Simple-Stream-Processing-Workflow.png>] [21]
-Overfull \hbox (42.702pt too wide) in paragraph at lines 558--559
+ [17 <./images/Simple-Stream-Processing-Workflow.png>] [18]
+Overfull \hbox (42.702pt too wide) in paragraph at lines 466--467
 \OT1/cmr/m/n/12 I talked about the dif-fer-ence in this pod-cast: https://ancho
 r.fm/andreaskayy/embed/episodes/BI-
  []
 
-[22]
-Overfull \hbox (6.70375pt too wide) in paragraph at lines 587--588
+[19]
+Overfull \hbox (6.70375pt too wide) in paragraph at lines 495--496
 []\OT1/cmr/m/n/12 I talked about the 4Vs in this pod-cast: https://anchor.fm/an
 dreaskayy/embed/episodes/4-
  []
 
-[23] [24]
-<images/Common-SQL-Architecture.png, id=91, 652.4375pt x 527.9725pt>
+[20]
+<images/Common-SQL-Architecture.png, id=745, 652.4375pt x 527.9725pt>
 File: images/Common-SQL-Architecture.png Graphic file (type png)
 <use images/Common-SQL-Architecture.png>
 Package pdftex.def Info: images/Common-SQL-Architecture.png  used on input line
- 624.
+ 532.
 (pdftex.def)             Requested size: 317.07619pt x 256.59805pt.
- [25 <./images/Common-SQL-Architecture.png>]
-<images/SQL-Scaling-UP.png, id=97, 862.22125pt x 329.23pt>
+ [21]
+<images/SQL-Scaling-UP.png, id=752, 862.22125pt x 329.23pt>
 File: images/SQL-Scaling-UP.png Graphic file (type png)
 <use images/SQL-Scaling-UP.png>
-Package pdftex.def Info: images/SQL-Scaling-UP.png  used on input line 653.
+Package pdftex.def Info: images/SQL-Scaling-UP.png  used on input line 561.
 (pdftex.def)             Requested size: 317.07619pt x 121.06969pt.
-<images/SQL-Scaling-Out.png, id=98, 676.5275pt x 588.1975pt>
+ [22 <./images/Common-SQL-Architecture.png>]
+<images/SQL-Scaling-Out.png, id=760, 676.5275pt x 588.1975pt>
 File: images/SQL-Scaling-Out.png Graphic file (type png)
 <use images/SQL-Scaling-Out.png>
-Package pdftex.def Info: images/SQL-Scaling-Out.png  used on input line 669.
+Package pdftex.def Info: images/SQL-Scaling-Out.png  used on input line 577.
 (pdftex.def)             Requested size: 317.07619pt x 275.681pt.
- [26 <./images/SQL-Scaling-UP.png>] [27 <./images/SQL-Scaling-Out.png>] [28]
-<images/Hadoop-Ecosystem.png, id=110, 710.655pt x 692.5875pt>
+ [23 <./images/SQL-Scaling-UP.png> <./images/SQL-Scaling-Out.png>] [24]
+<images/Hadoop-Ecosystem.png, id=775, 710.655pt x 692.5875pt>
 File: images/Hadoop-Ecosystem.png Graphic file (type png)
 <use images/Hadoop-Ecosystem.png>
-Package pdftex.def Info: images/Hadoop-Ecosystem.png  used on input line 732.
+Package pdftex.def Info: images/Hadoop-Ecosystem.png  used on input line 640.
 (pdftex.def)             Requested size: 407.6684pt x 397.31529pt.
-<images/Hadoop-Ecosystem-Connections.png, id=111, 611.28375pt x 443.6575pt>
+<images/Hadoop-Ecosystem-Connections.png, id=776, 611.28375pt x 443.6575pt>
 File: images/Hadoop-Ecosystem-Connections.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem-Connections.png  used on input
- line 745.
+ line 653.
 (pdftex.def)             Requested size: 407.6684pt x 295.87473pt.
- [29 <./images/Hadoop-Ecosystem.png>]
-<images/Hadoop-Ecosystem-Connections-Flume.png, id=116, 621.32124pt x 445.16313
+ [25] [26 <./images/Hadoop-Ecosystem.png>]
+<images/Hadoop-Ecosystem-Connections-Flume.png, id=790, 621.32124pt x 445.16313
 pt>
 File: images/Hadoop-Ecosystem-Connections-Flume.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections-Flume.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem-Connections-Flume.png  used on
- input line 773.
+ input line 681.
 (pdftex.def)             Requested size: 407.6684pt x 292.08325pt.
- [30 <./images/Hadoop-Ecosystem-Connections.png>] [31 <./images/Hadoop-Ecosyste
-m-Connections-Flume.png>] [32] [33]
-Overfull \hbox (201.9836pt too wide) in paragraph at lines 869--870
+ [27 <./images/Hadoop-Ecosystem-Connections.png>] [28 <./images/Hadoop-Ecosyste
+m-Connections-Flume.png>] [29] [30]
+Overfull \hbox (201.9836pt too wide) in paragraph at lines 777--778
 \OT1/cmr/m/n/12 Podcast about how data sci-ence learn-ers use Docker (for data 
 sci-en-tists): https://anchor.fm/andreaskayy/embed/episodes/Learn-
  []
 
-
-Overfull \hbox (103.40683pt too wide) in paragraph at lines 875--876
+<images/Big-Data-Platform-Blueprint-Title-Original.png, id=817, 3795.17876pt x 
+2076.75874pt>
+File: images/Big-Data-Platform-Blueprint-Title-Original.png Graphic file (type 
+png)
+<use images/Big-Data-Platform-Blueprint-Title-Original.png>
+Package pdftex.def Info: images/Big-Data-Platform-Blueprint-Title-Original.png 
+ used on input line 800.
+(pdftex.def)             Requested size: 407.6684pt x 223.05708pt.
+[31]
+Overfull \hbox (103.40683pt too wide) in paragraph at lines 828--829
 \OT1/cmr/m/n/12 Check out my pod-cast about how APIs rule the world: https://an
 chor.fm/andreaskayy/embed/episodes/How-
  []
 
-[34] [35]
-<images/MapReduce-Process-Detailed.png, id=138, 757.83125pt x 705.63625pt>
+[32 <./images/Big-Data-Platform-Blueprint-Title-Original.png>]
+Overfull \hbox (162.74243pt too wide) in paragraph at lines 848--849
+[]\OT1/cmr/m/n/12 Check out my pod-cast how to de-cide be-tween SQL and NoSQL: 
+https://anchor.fm/andreaskayy/embed/episodes/NoSQL-
+ []
+
+[33]
+<images/HDFS-Master-DataNodes.png, id=834, 776.9025pt x 574.145pt>
+File: images/HDFS-Master-DataNodes.png Graphic file (type png)
+<use images/HDFS-Master-DataNodes.png>
+Package pdftex.def Info: images/HDFS-Master-DataNodes.png  used on input line 8
+84.
+(pdftex.def)             Requested size: 407.6684pt x 301.28171pt.
+ [34]
+<images/HDFS-Distributed-FileSystem.png, id=843, 1039.885pt x 270.00874pt>
+File: images/HDFS-Distributed-FileSystem.png Graphic file (type png)
+<use images/HDFS-Distributed-FileSystem.png>
+Package pdftex.def Info: images/HDFS-Distributed-FileSystem.png  used on input 
+line 901.
+(pdftex.def)             Requested size: 407.6684pt x 105.85094pt.
+ [35 <./images/HDFS-Master-DataNodes.png>] [36 <./images/HDFS-Distributed-FileS
+ystem.png>]
+<images/MapReduce-Process-Detailed.png, id=857, 757.83125pt x 705.63625pt>
 File: images/MapReduce-Process-Detailed.png Graphic file (type png)
 <use images/MapReduce-Process-Detailed.png>
 Package pdftex.def Info: images/MapReduce-Process-Detailed.png  used on input l
-ine 914.
+ine 973.
 (pdftex.def)             Requested size: 407.6684pt x 379.59511pt.
- [36 <./images/MapReduce-Process-Detailed.png>] [37]
-<images/MapReduce-Time-Series-example.png, id=147, 963.6pt x 436.63126pt>
+ [37] [38 <./images/MapReduce-Process-Detailed.png>]
+[39]
+<images/MapReduce-Time-Series-example.png, id=875, 963.6pt x 436.63126pt>
 File: images/MapReduce-Time-Series-example.png Graphic file (type png)
 <use images/MapReduce-Time-Series-example.png>
 Package pdftex.def Info: images/MapReduce-Time-Series-example.png  used on inpu
-t line 964.
+t line 1023.
 (pdftex.def)             Requested size: 407.6684pt x 184.72302pt.
-<images/MapReduce-Process.png, id=148, 816.04875pt x 49.18375pt>
+ [40 <./images/MapReduce-Time-Series-example.png>]
+<images/MapReduce-Process.png, id=882, 816.04875pt x 49.18375pt>
 File: images/MapReduce-Process.png Graphic file (type png)
 <use images/MapReduce-Process.png>
-Package pdftex.def Info: images/MapReduce-Process.png  used on input line 984.
+Package pdftex.def Info: images/MapReduce-Process.png  used on input line 1043.
+
 (pdftex.def)             Requested size: 407.6684pt x 24.57079pt.
- [38 <./images/MapReduce-Time-Series-example.png>]
-Overfull \hbox (174.20895pt too wide) in paragraph at lines 1004--1005
+
+Overfull \hbox (174.20895pt too wide) in paragraph at lines 1063--1064
 \OT1/cmr/m/n/12 I talked about the three meth-ods of data stream-ing in this po
 d-cast: https://anchor.fm/andreaskayy/embed/episodes/Three-
  []
 
-[39 <./images/MapReduce-Process.png>]
-<images/Table-Hadoop-and-Spark.png, id=157, 819.06pt x 160.6pt>
+[41 <./images/MapReduce-Process.png>]
+<images/Table-Hadoop-and-Spark.png, id=892, 819.06pt x 160.6pt>
 File: images/Table-Hadoop-and-Spark.png Graphic file (type png)
 <use images/Table-Hadoop-and-Spark.png>
 Package pdftex.def Info: images/Table-Hadoop-and-Spark.png  used on input line 
-1027.
+1086.
 (pdftex.def)             Requested size: 407.6684pt x 79.9371pt.
- [40 <./images/Table-Hadoop-and-Spark.png>] [41]
-<images/Spark-Data-Locality.png, id=165, 1028.84375pt x 578.16pt>
+ [42 <./images/Table-Hadoop-and-Spark.png>] [43]
+<images/Spark-Data-Locality.png, id=910, 1028.84375pt x 578.16pt>
 File: images/Spark-Data-Locality.png Graphic file (type png)
 <use images/Spark-Data-Locality.png>
-Package pdftex.def Info: images/Spark-Data-Locality.png  used on input line 110
-5.
+Package pdftex.def Info: images/Spark-Data-Locality.png  used on input line 116
+4.
 (pdftex.def)             Requested size: 407.6684pt x 229.08969pt.
- [42] [43 <./images/Spark-Data-Locality.png>]
-<images/Spark-Yarn.png, id=174, 1047.915pt x 412.54124pt>
+ [44] [45 <./images/Spark-Data-Locality.png>]
+<images/Spark-Yarn.png, id=932, 1047.915pt x 412.54124pt>
 File: images/Spark-Yarn.png Graphic file (type png)
 <use images/Spark-Yarn.png>
-Package pdftex.def Info: images/Spark-Yarn.png  used on input line 1146.
+Package pdftex.def Info: images/Spark-Yarn.png  used on input line 1203.
 (pdftex.def)             Requested size: 407.6684pt x 160.48756pt.
- [44 <./images/Spark-Yarn.png>]
-Overfull \hbox (158.34375pt too wide) in paragraph at lines 1165--1166
+
+Overfull \hbox (158.34375pt too wide) in paragraph at lines 1222--1223
 \OT1/cmr/m/n/12 My pod-cast about how to do ma-chine learn-ing in pro-duc-tion:
  https://anchor.fm/andreaskayy/embed/episodes/Machine-
  []
 
-[45]
-Overfull \hbox (0.8979pt too wide) in paragraph at lines 1198--1199
- \OT1/cmr/bx/n/12 Where The Plat-forms That Sup-port This?[] \OT1/cmr/m/n/12 Au
--to-matic re-training and re-deploying
+[46 <./images/Spark-Yarn.png>] [47]
+Overfull \hbox (0.8979pt too wide) in paragraph at lines 1255--1256
+ []\OT1/cmr/bx/n/12 Where The Plat-forms That Sup-port This?[] \OT1/cmr/m/n/12 
+Au-to-matic re-training and re-deploying
  []
 
-[46] [47]
-Overfull \hbox (162.74243pt too wide) in paragraph at lines 1293--1294
-\OT1/cmr/m/n/12 Check out my pod-cast how to de-cide be-tween SQL and NoSQL: ht
-tps://anchor.fm/andreaskayy/embed/episodes/NoSQL-
+[48] [49] [50]
+Overfull \hbox (17.83228pt too wide) in paragraph at lines 1386--1387
+[]$\OT1/cmtt/m/n/12 https : / / medium . com / airbnb-[]engineering / airbnb-[]
+engineering-[]infrastructure / home$[] 
  []
 
-[48] [49]
-<images/HDFS-Master-DataNodes.png, id=195, 776.9025pt x 574.145pt>
-File: images/HDFS-Master-DataNodes.png Graphic file (type png)
-<use images/HDFS-Master-DataNodes.png>
-Package pdftex.def Info: images/HDFS-Master-DataNodes.png  used on input line 1
-331.
-(pdftex.def)             Requested size: 407.6684pt x 301.28171pt.
-<images/HDFS-Distributed-FileSystem.png, id=196, 1039.885pt x 270.00874pt>
-File: images/HDFS-Distributed-FileSystem.png Graphic file (type png)
-<use images/HDFS-Distributed-FileSystem.png>
-Package pdftex.def Info: images/HDFS-Distributed-FileSystem.png  used on input 
-line 1348.
-(pdftex.def)             Requested size: 407.6684pt x 105.85094pt.
- [50 <./images/HDFS-Master-DataNodes.png>] [51 <./images/HDFS-Distributed-FileS
-ystem.png>] [52]
-<images/Netflix-Chuckwa-Pipeline.png, id=209, 1017.8025pt x 363.3575pt>
+[51]
+Overfull \hbox (457.08249pt too wide) in paragraph at lines 1389--1390
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / spark-[]s
+ql-[]adaptive-[]execution-[]unleashes-[]the-[]power-[]of-[]cluster-[]in-[]large
+-[]scale-[]with-[]chenzhao-[]guo-[]and-[]carson-[]wang$[] 
+ []
+
+
+Overfull \hbox (317.73242pt too wide) in paragraph at lines 1392--1393
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / DataStax / maintaining
+-[]consistency-[]across-[]data-[]centers-[]randy-[]fradin-[]blackrock-[]cassand
+ra-[]summit-[]2016$[] 
+ []
+
+
+Overfull \hbox (105.28232pt too wide) in paragraph at lines 1398--1400
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / ConfluentInc / data-[]
+streaming-[]ecosystem-[]management-[]at-[]bookingcom ?
+ []
+
+
+Overfull \hbox (55.8823pt too wide) in paragraph at lines 1398--1400
+\OT1/cmtt/m/n/12 ref = https : / / www . confluent . io / kafka-[]summit-[]sf18
+ / data-[]streaming-[]ecosystem-[]management$[]
+ []
+
+
+Overfull \hbox (554.88254pt too wide) in paragraph at lines 1398--1400
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / producti
+onizing-[]behavioural-[]features-[]for-[]machine-[]learning-[]with-[]apache-[]s
+park-[]streaming-[]with-[]ben-[]teeuwen-[]and-[]roman-[]studenikin$[] 
+ []
+
+
+Overfull \hbox (287.3574pt too wide) in paragraph at lines 1402--1404
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / cerns-[]n
+ext-[]generation-[]data-[]analysis-[]platform-[]with-[]apache-[]spark-[]with-[]
+enric-[]tejedor$[]
+ []
+
+
+Overfull \hbox (536.85753pt too wide) in paragraph at lines 1402--1404
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / realtime
+-[]detection-[]of-[]anomalies-[]in-[]the-[]database-[]infrastructure-[]using-[]
+apache-[]spark-[]with-[]daniel-[]lanza-[]and-[]prasanth-[]kothuri$[] 
+ []
+
+
+Overfull \hbox (231.78238pt too wide) in paragraph at lines 1406--1407
+[]$\OT1/cmtt/m/n/12 https : / / medium . com / disney-[]streaming / delivering-
+[]data-[]in-[]real-[]time-[]via-[]auto-[]scaling-[]kinesis-[]streams-[]72a0236b
+2cd9$[] 
+ []
+
+
+Overfull \hbox (161.85735pt too wide) in paragraph at lines 1409--1411
+[]$\OT1/cmtt/m/n/12 https : / / berlin-[]2017 . flink-[]forward . org / kb _ se
+ssions / drivetribes-[]kappa-[]architecture-[]with-[]apache-[]flink/$[]
+ []
+
+
+Overfull \hbox (417.53247pt too wide) in paragraph at lines 1409--1411
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / FlinkForward / flink-[
+]forward-[]berlin-[]2017-[]aris-[]kyriakos-[]koliopoulos-[]drivetribes-[]kappa-
+[]architecture-[]with-[]apache-[]flink$[] 
+ []
+
+[52]
+Overfull \hbox (149.00734pt too wide) in paragraph at lines 1413--1414
+[]$\OT1/cmtt/m/n/12 https : / / blogs . dropbox . com / tech / 2019 / 01 / find
+ing-[]kafkas-[]throughput-[]limit-[]in-[]dropbox-[]infrastructure/$[] 
+ []
+
+
+Overfull \hbox (507.98251pt too wide) in paragraph at lines 1416--1418
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / moving-[]
+ebays-[]data-[]warehouse-[]over-[]to-[]apache-[]spark-[]spark-[]as-[]core-[]etl
+-[]platform-[]at-[]ebay-[]with-[]kim-[]curtis-[]and-[]brian-[]knauss$[]
+ []
+
+
+Overfull \hbox (337.75743pt too wide) in paragraph at lines 1416--1418
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / analytica
+l-[]dbms-[]to-[]apache-[]spark-[]auto-[]migration-[]framework-[]with-[]edward-[
+]zhang-[]and-[]lipeng-[]zhu$[] 
+ []
+
+
+Overfull \hbox (130.98233pt too wide) in paragraph at lines 1420--1422
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / BrandonOBrien / spark-
+[]streaming-[]kafka-[]best-[]practices-[]w-[]brandon-[]obrien$[]
+ []
+
+
+Overfull \hbox (27.00728pt too wide) in paragraph at lines 1424--1425
+[]$\OT1/cmtt/m/n/12 https : / / code . fb . com / core-[]data / apache-[]spark-
+[]scale-[]a-[]60-[]tb-[]production-[]use-[]case/$[] 
+ []
+
+
+Overfull \hbox (318.73242pt too wide) in paragraph at lines 1427--1428
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / building-
+[]a-[]versatile-[]analytics-[]pipeline-[]on-[]top-[]of-[]apache-[]spark-[]with-
+[]mikhail-[]chernetsov$[] 
+ []
+
+
+Overfull \hbox (256.98239pt too wide) in paragraph at lines 1430--1431
+[]$\OT1/cmtt/m/n/12 https : / / sf-[]2017 . flink-[]forward . org / kb _ sessio
+ns / streaming-[]models-[]how-[]ing-[]adds-[]models-[]at-[]runtime-[]to-[]catch
+-[]fraudsters/$[] 
+ []
+
+
+Overfull \hbox (461.75749pt too wide) in paragraph at lines 1433--1434
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / lessons-
+[]learned-[]developing-[]and-[]managing-[]massive-[]300tb-[]apache-[]spark-[]pi
+pelines-[]in-[]production-[]with-[]brandon-[]carl$[] 
+ []
+
+
+Overfull \hbox (25.11836pt too wide) in paragraph at lines 1436--1438
+[]$\OT1/cmtt/m/n/12 https : / / engineering . linkedin . com / teams / data # 0
+$[] []$http : / / www . bigdatausecases . info /
+ []
+
+[53]
+Overfull \hbox (152.68234pt too wide) in paragraph at lines 1443--1444
+[]$\OT1/cmtt/m/n/12 http : / / www . socallinuxexpo . org / sites / default / f
+iles / presentations / OnSightCloudArchitecture-[]scale14x .
+ []
+
+[54]
+<images/Netflix-Chuckwa-Pipeline.png, id=1030, 1017.8025pt x 363.3575pt>
 File: images/Netflix-Chuckwa-Pipeline.png Graphic file (type png)
 <use images/Netflix-Chuckwa-Pipeline.png>
 Package pdftex.def Info: images/Netflix-Chuckwa-Pipeline.png  used on input lin
-e 1425.
+e 1468.
 (pdftex.def)             Requested size: 407.6684pt x 145.54001pt.
- [53 <./images/Netflix-Chuckwa-Pipeline.png>]
-<images/Netflix-Trending-Now-Screenshot.png, id=214, 1180.41pt x 192.72pt>
+ [55 <./images/Netflix-Chuckwa-Pipeline.png>]
+<images/Netflix-Trending-Now-Screenshot.png, id=1040, 1180.41pt x 192.72pt>
 File: images/Netflix-Trending-Now-Screenshot.png Graphic file (type png)
 <use images/Netflix-Trending-Now-Screenshot.png>
 Package pdftex.def Info: images/Netflix-Trending-Now-Screenshot.png  used on in
-put line 1473.
+put line 1516.
 (pdftex.def)             Requested size: 407.6684pt x 66.55609pt.
- [54]
-<images/Netflix-Streaming-Pipeline.png, id=218, 1001.7425pt x 437.635pt>
+ [56 <./images/Netflix-Trending-Now-Screenshot.png>]
+<images/Netflix-Streaming-Pipeline.png, id=1049, 1001.7425pt x 437.635pt>
 File: images/Netflix-Streaming-Pipeline.png Graphic file (type png)
 <use images/Netflix-Streaming-Pipeline.png>
 Package pdftex.def Info: images/Netflix-Streaming-Pipeline.png  used on input l
-ine 1503.
+ine 1546.
 (pdftex.def)             Requested size: 407.6684pt x 178.10263pt.
 
-[55 <./images/Netflix-Trending-Now-Screenshot.png>] [56 <./images/Netflix-Strea
-ming-Pipeline.png>] (./Data Engineering Cookbook.lof)
-\tf@lof=\write4
-\openout4 = `"Data Engineering Cookbook.lof"'.
+Overfull \hbox (162.85735pt too wide) in paragraph at lines 1559--1560
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / spark-[]
+summit-[]eu-[]talk-[]by-[]sebastian-[]schroeder-[]and-[]ralf-[]sigmund$[] 
+ []
+
+[57 <./images/Netflix-Streaming-Pipeline.png>]
+Overfull \hbox (393.33246pt too wide) in paragraph at lines 1565--1567
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / ConfluentInc / pintere
+sts-[]story-[]of-[]streaming-[]hundreds-[]of-[]terabytes-[]of-[]pins-[]from-[]m
+ysql-[]to-[]s3hadoop-[]continuously ?
+ []
 
 
-(./Data Engineering Cookbook.lot)
-\tf@lot=\write5
-\openout5 = `"Data Engineering Cookbook.lot"'.
+Overfull \hbox (156.18234pt too wide) in paragraph at lines 1565--1567
+\OT1/cmtt/m/n/12 ref = https : / / www . confluent . io / kafka-[]summit-[]sf18
+ / pinterests-[]story-[]of-[]streaming-[]hundreds-[]of-[]terabytes$[]
+ []
 
- [57] (./Data Engineering Cookbook.aux)
+
+Overfull \hbox (174.20735pt too wide) in paragraph at lines 1565--1567
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / ConfluentInc / buildin
+g-[]pinterest-[]realtime-[]ads-[]platform-[]using-[]kafka-[]streams ?
+ []
+
+
+Overfull \hbox (218.93237pt too wide) in paragraph at lines 1565--1567
+\OT1/cmtt/m/n/12 ref = https : / / www . confluent . io / kafka-[]summit-[]sf18
+ / building-[]pinterest-[]real-[]time-[]ads-[]platform-[]using-[]kafka-[]stream
+s$[] 
+ []
+
+
+Overfull \hbox (224.60738pt too wide) in paragraph at lines 1569--1570
+[]$\OT1/cmtt/m/n/12 https : / / engineering . salesforce . com / building-[]a-[
+]scalable-[]event-[]pipeline-[]with-[]heroku-[]and-[]salesforce-[]2549cb20ce06$
+[] 
+ []
+
+
+Overfull \hbox (101.10732pt too wide) in paragraph at lines 1575--1577
+[]$\OT1/cmtt/m/n/12 https : / / labs . spotify . com / 2016 / 02 / 25 / spotify
+s-[]event-[]delivery-[]the-[]road-[]to-[]the-[]cloud-[]part-[]i/$[]
+ []
+
+
+Overfull \hbox (149.00734pt too wide) in paragraph at lines 1579--1580
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / planetcassandra / syma
+ntec-[]cassandra-[]data-[]modelling-[]techniques-[]in-[]action$[] 
+ []
+
+
+Overfull \hbox (236.95738pt too wide) in paragraph at lines 1582--1583
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / scalable-
+[]monitoring-[]using-[]apache-[]spark-[]and-[]friends-[]with-[]utkarsh-[]bhatna
+gar$[] 
+ []
+
+
+Overfull \hbox (125.30733pt too wide) in paragraph at lines 1585--1587
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / sawjd / real-[]time-[]
+processing-[]using-[]twitter-[]heron-[]by-[]karthik-[]ramasamy$[]
+ []
+
+
+Overfull \hbox (375.80745pt too wide) in paragraph at lines 1585--1587
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / sawjd / big-[]data-[]d
+ay-[]la-[]2016-[]big-[]data-[]track-[]twitter-[]heron-[]scale-[]karthik-[]ramas
+amy-[]engineering-[]manager-[]twitter$[] 
+ []
+
+[58]
+Overfull \hbox (288.3574pt too wide) in paragraph at lines 1593--1594
+[]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / how-[]to-
+[]rebuild-[]an-[]endtoend-[]ml-[]pipeline-[]with-[]databricks-[]and-[]upwork-[]
+with-[]thanh-[]tran$[] 
+ []
+
+
+Overfull \hbox (233.28238pt too wide) in paragraph at lines 1596--1597
+[]$\OT1/cmtt/m/n/12 https : / / aws . amazon . com / de / blogs / big-[]data / 
+our-[]data-[]lake-[]story-[]how-[]woot-[]com-[]built-[]a-[]serverless-[]data-[]
+lake-[]on-[]aws/$[] 
+ []
+
+
+Overfull \hbox (32.18228pt too wide) in paragraph at lines 1599--1601
+[]$\OT1/cmtt/m/n/12 https : / / jobs . zalando . com / tech / blog / what-[]is-
+[]hardcore-[]data-[]science-[]-[]in-[]practice /
+ []
+
+
+Overfull \hbox (332.19351pt too wide) in paragraph at lines 1599--1601
+\OT1/cmtt/m/n/12 ?gh _ src = 4n3gxh1$[] []$https : / / jobs . zalando . com / t
+ech / blog / complex-[]event-[]generation-[]for-[]business-[]process-[]monitori
+ng-[]using-[]apache-[]flink/$[] 
+ []
+
+[59] (./Data Engineering Cookbook.lof)
+\tf@lof=\write5
+\openout5 = `"Data Engineering Cookbook.lof"'.
+
+ (./Data Engineering Cookbook.lot)
+\tf@lot=\write6
+\openout6 = `"Data Engineering Cookbook.lot"'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1620.
+
+[60]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1620.
+ (./Data Engineering Cookbook.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1620.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1620.
+
+Package rerunfilecheck Info: File `"Data Engineering Cookbook".out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 5EC5E5D45BFDB51FE5A0181305E3871E;9815.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1620.
  ) 
 Here is how much of TeX's memory you used:
- 5295 strings out of 492649
- 89746 string characters out of 6129621
- 254823 words of memory out of 5000000
- 9068 multiletter control sequences out of 15000+600000
- 11814 words of font info for 45 fonts, out of 8000000 for 9000
+ 9186 strings out of 492649
+ 148693 string characters out of 6129621
+ 334707 words of memory out of 5000000
+ 12644 multiletter control sequences out of 15000+600000
+ 11983 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,7n,51p,9185b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,51p,9185b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Data Engineering Cookbook.pdf" (57 pages, 3364223 bytes).
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "Data Engineering Cookbook.pdf" (60 pages, 3398280 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1206 PDF objects out of 1440 (max. 8388607)
+ 1085 compressed objects within 11 object streams
+ 297 named destinations out of 1000 (max. 500000)
+ 1106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
