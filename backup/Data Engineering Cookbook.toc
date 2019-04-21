@@ -177,34 +177,4 @@
 \contentsline {subsection}{\numberline {5.5}Data Sciecne @BMW}{52}{subsection.5.5}
 \contentsline {subsection}{\numberline {5.6}Data Sciecne @Booking.com}{52}{subsection.5.6}
 \contentsline {subsection}{\numberline {5.7}Data Sciecne @CERN}{52}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Data Sciecne @Disney}{53}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Data Sciecne @Drivetribe}{53}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}Data Sciecne @Dropbox}{53}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Data Sciecne @Ebay}{53}{subsection.5.11}
-\contentsline {subsection}{\numberline {5.12}Data Sciecne @Expedia}{53}{subsection.5.12}
-\contentsline {subsection}{\numberline {5.13}Data Sciecne @Facebook}{54}{subsection.5.13}
-\contentsline {subsection}{\numberline {5.14}Data Sciecne @@Grammarly}{54}{subsection.5.14}
-\contentsline {subsection}{\numberline {5.15}Data Sciecne @ING Fraud}{54}{subsection.5.15}
-\contentsline {subsection}{\numberline {5.16}Data Sciecne @Instagram}{54}{subsection.5.16}
-\contentsline {subsection}{\numberline {5.17}Data Sciecne @LinkedIn}{54}{subsection.5.17}
-\contentsline {subsection}{\numberline {5.18}Data Sciecne @Lyft}{54}{subsection.5.18}
-\contentsline {subsection}{\numberline {5.19}Data Sciecne @NASA}{54}{subsection.5.19}
-\contentsline {subsection}{\numberline {5.20}Data Science @Netflix -- available}{55}{subsection.5.20}
-\contentsline {paragraph}{\nonumberline The Netflix batch processing pipeline}{55}{section*.82}
-\contentsline {paragraph}{\nonumberline Know what customers want:}{56}{section*.83}
-\contentsline {paragraph}{\nonumberline Batch processing is not enough}{56}{section*.84}
-\contentsline {paragraph}{\nonumberline The trending now feature}{57}{section*.85}
-\contentsline {paragraph}{\nonumberline Netflix real-time streaming architecture}{57}{section*.86}
-\contentsline {subsection}{\numberline {5.21}Data Sciecne @OTTO}{58}{subsection.5.21}
-\contentsline {subsection}{\numberline {5.22}Data Sciecne @Paypal}{58}{subsection.5.22}
-\contentsline {subsection}{\numberline {5.23}Data Sciecne @Pinterest}{58}{subsection.5.23}
-\contentsline {subsection}{\numberline {5.24}Data Sciecne @Salesforce}{59}{subsection.5.24}
-\contentsline {subsection}{\numberline {5.25}Data Sciecne @Slack}{59}{subsection.5.25}
-\contentsline {subsection}{\numberline {5.26}Data Sciecne @Spotify}{59}{subsection.5.26}
-\contentsline {subsection}{\numberline {5.27}Data Sciecne @Symantec}{59}{subsection.5.27}
-\contentsline {subsection}{\numberline {5.28}Data Science @Tinder}{59}{subsection.5.28}
-\contentsline {subsection}{\numberline {5.29}Data Science @Twitter}{60}{subsection.5.29}
-\contentsline {subsection}{\numberline {5.30}Data Science @Uber}{60}{subsection.5.30}
-\contentsline {subsection}{\numberline {5.31}Data Science @Upwork}{60}{subsection.5.31}
-\contentsline {subsection}{\numberline {5.32}Data Sciecne @Woot}{60}{subsection.5.32}
-\contentsline {subsection}{\numberline {5.33}Data Sciecne @Zalando}{60}{subsection.5.33}
+\contentsline {subsection}{\numberline {5.8}Data Sciecne @Disney}{52}{s
