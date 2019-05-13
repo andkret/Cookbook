@@ -30,7 +30,7 @@
  
 \pagebreak
  
-\section{Introduction}
+\section{How To Use This Cookbook}
 What do you actually need to learn to become an awesome data engineer? 
 Look no further, you find it here.
 
@@ -45,13 +45,16 @@ You will always find the newest version on my Patreon \textbf{https://www.patreo
 Help make this collection awesome!
 Join the discussion on Patreon or write me an email to andreaskayy@gmail.com. Tell me your thoughts, what you value, you think should be included, or where I am wrong. 
 
--- Andreas
-
+\begin{itemize}
+\item Twitter data to predict best time to post using the hashtag datascience or ai
+\item Find top tweets for the day
+\item Top users
+\item Analyze sentiment and keywords
+\end{itemize}
 
 \pagebreak
 
-\section{What is Data Science?}
-sdfs
+\section{Data Engineer vs Data Scientists}
 
 \subsection{Data Scientist}
 Data scientists aren’t like every other scientist.
@@ -103,17 +106,17 @@ What they do is building the platforms that enable data scientists to do their m
 
 These platforms are usually used in four different ways:
 
--- Data ingestion and storage of large amounts of data
--- Algorithm creation by data scientists
--- Automation of the data scientist’s machine learning models and algorithms for production use
---Data visualisation for employees and customers
--- Most of the time these guys start as traditional solution architects for systems that involve SQL databases, web servers, SAP installations and other “standard” systems.
+\begin{itemize}
+\item  Data ingestion and storage of large amounts of data
+\item Algorithm creation by data scientists
+\item Automation of the data scientist’s machine learning models and algorithms for production use
+\item Data visualisation for employees and customers
+\item  Most of the time these guys start as traditional solution architects for systems that involve SQL databases, web servers, SAP installations and other “standard” systems.
+\end{itemize}
 
 But to create big data platforms the engineer needs to be an expert in specifying, setting up and maintaining big data technologies like: Hadoop, Spark, HBase, Cassandra, MongoDB, Kafka, Redis and more.
 
 What they also need is experience on how to deploy systems on cloud infrastructure like at Amazon or Google or on premise hardware.
-
-\subsection{Data Analyst}
 
 \subsection{Who Companies Need}
 For a good company it is absolutely important to get well trained data engineers and data scientists.
@@ -129,8 +132,204 @@ Thats why companies are looking for people with Spark experience. It is a common
 Spark gives data scientists the tools to do analytics and helps engineers to bring the data scientist’s algorithms into production.
 
 After all, those two decide how good the data platform is, how good the analytics insight is and how fast the whole system gets into a production ready state.
+
+\section{Data Engineering Example}
+
+\section{Building A Data Platform}
+
+\subsection{ Lambda Architecture}
+
+\subsubsection{Batch Processing} Ask the big questions. Remember your last yearly tax statement?
+
+You break out the folders. You run around the house searching for the receipts.
+
+All that fun stuff.
+
+When you finally found everything you fill out the form and send it on its way.
+
+Doing the tax statement is a prime example of a batch process.
+
+Data comes in and gets stored, analytics loads the data from storage and creates an output (insight):
+
+\begin{figure}[htbp] 
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/Simple-Batch-Processing-Workflow}
+  \caption{Batch Processing Pipeline}
+  \label{fig:Bild1}
+\end{figure}
+
+Batch processing is something you do either without a schedule or on a schedule (tax statement). It is used to ask the big questions and gain the insights by looking at the big picture.
+
+To do so, batch processing jobs use large amounts of data. This data is provided by storage systems like Hadoop HDFS.
+
+They can store lots of data (petabytes) without a problem.
+
+Results from batch jobs are very useful, but the execution time is high. Because the amount of used data is high.
+
+It can take minutes or sometimes hours until you get your results.
+
+
+
+\subsubsection{Stream Processing} Gain instant insight into your data.
+
+Streaming allows users to make quick decisions and take actions based on “real-time” insight. Contrary to batch processing, streaming processes data on the fly, as it comes in.
+
+With streaming you don’t have to wait minutes or hours to get results. You gain instant insight into your data.
+
+In the batch processing pipeline, the analytics was after the data storage. It had access to all the available data.
+
+Stream processing creates insight before the data storage. It has only access to fragments of data as it comes in.
+
+As a result the scope of the produced insight is also limited. Because the big picture is missing.
+
+\begin{figure}[htbp] 
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/Simple-Stream-Processing-Workflow}
+  \caption{Stream Processing Pipeline}
+  \label{fig:Bild1}
+\end{figure}
+
+Only with streaming analytics you are able to create advanced services for the customer. Netflix for instance incorporated stream processing into Chuckwa V2.0 and the new Keystone pipeline.
+
+One example of advanced services through stream processing is the Netflix “Trending Now” feature.
+Check out the Netflix case study.
+
+\paragraph{Should you do stream or batch processing?}
+
+It is a good idea to start with batch processing. Batch processing is the foundation of every good big data platform.
+
+A batch processing architecture is simple, and therefore quick to set up. Platform simplicity means, it will also be relatively cheap to run.
+
+A batch processing platform will enable you to quickly ask the big questions. They will give you invaluable insight into your data and customers.
+
+When the time comes and you also need to do analytics on the fly, then add a streaming pipeline to your batch processing big data platform.
+
+
+\subsection {My Big Data Platform Blueprint}
+Some time ago I have created a simple and modular big data platform blueprint for myself. It is based on what I have seen in the field and read in tech blogs all over the internet.
+
+Today I am going to share it with you.
+
+Why do I believe it will be super useful to you?
+
+Because, unlike other blueprints it is not focused on technology. It is based on four common big data platform design patterns.
+
+Following my blueprint will allow you to create the big data platform that fits exactly your needs. Building the perfect platform will allow data scientists to discover new insights.
+
+It will enable you to perfectly handle big data and allow you to make data driven decisions.
+
+\paragraph{THE BLUEPRINT}
+The blueprint is focused on the four key areas: Ingest, store, analyse and display.
+
+\begin{figure}[htbp] 
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/Big-Data-Platform-Blueprint-Title-Original.png}
+  \caption{Platfrom Blueprint}
+  \label{fig:Bild1}
+\end{figure}
+
+
+Having the platform split like this turns it it a modular platform with loosely coupled interfaces.
+
+Why is it so important to have a modular platform?
+
+If you have a platform that is not modular you end up with something that is fixed or hard to modify. This means you can not adjust the platform to changing requirements of the company.
+
+Because of modularity it is possible to switch out every component, if you need it.
+
+Now, lets talk more about each key area.
+
+\subsubsection{Ingest}
+Ingestion is all about getting the data in from the source and making it available to later stages. Sources can be everything form tweets, server logs to IoT sensor data like from cars.
+
+Sources send data to your API Services. The API is going to push the data into a temporary storage.
+
+The temporary storage allows other stages simple and fast access to incoming data.
+
+A great solution is to use messaging queue systems like Apache Kafka, RabbitMQ or AWS Kinesis. Sometimes people also use caches for specialised applications like Redis.
+
+A good practice is that the temporary storage follows the publish, subscribe pattern. This way APIs can publish messages and Analytics can quickly consume them.
+
+\subsubsection{Analyse / Process}
+The analyse stage is where the actual analytics is done. Analytics, in the form of stream and batch processing.
+
+Streaming data is taken from ingest and fed into analytics. Streaming analyses the “live” data thus, so generates fast results.
+
+As the central and most important stage, analytics also has access to the big data storage. Because of that connection, analytics can take a big chunk of data and analyse it.
+
+This type of analysis is called batch processing. It will deliver you answers for the big questions.
+
+To learn more about stream and batch processing read my blog post: How to Create New and Exciting Big Data Aided Products
+
+The analytics process, batch or streaming, is not a one way process. Analytics also can write data back to the big data storage.
+
+Often times writing data back to the storage makes sense. It allows you to combine previous analytics outputs with the raw data.
+
+Analytics insight can give meaning to the raw data when you combine them. This combination will often times allow you to create even more useful insight.
+
+A wide variety of analytics tools are available. Ranging from MapReduce or AWS Elastic MapReduce to Apache Spark and AWS lambda.
+
+\subsubsection{Store}
+This is the typical big data storage where you just store everything. It enables you to analyse the big picture.
+
+Most of the data might seem useless for now, but it is of upmost importance to keep it. Throwing data away is a big no no.
+
+Why not throw something away when it is useless?
+
+Although it seems useless for now, data scientists can work with the data. They might find new ways to analyse the data and generate valuable insight from it.
+
+What kind of systems can be used to store big data?
+
+Systems like Hadoop HDFS, Hbase, Amazon S3 or DynamoDB are a perfect fit to store big data.
+
+Check out my podcast how to decide between SQL and NoSQL: https://anchor.fm/andreaskayy/embed/episodes/NoSQL-Vs-SQL-How-To-Choose-e12f1o
  
-\section{The Basic Skills}
+\subsubsection{Display}
+Displaying data is as important as ingesting, storing and analysing it. People need to be able to make data driven decisions.
+
+This is why it is important to have a good visual presentation of the data. Sometimes you have a lot of different use cases or projects using the platform.
+
+It might not be possible for you to build the perfect UI that fits everyone. What you should do in this case is enable others to build the perfect UI themselves.
+
+How to do that? By creating APIs to access the data and making them available to developers.
+
+Either way, UI or API the trick is to give the display stage direct access to the data in the big data cluster. This kind of access will allow the developers to use analytics results as well as raw data to build the the perfect application.
+
+\subsection{Lambda Architecture Alternative }
+\subsubsection{Kappa Architecture}
+\subsubsection{Kappa Architecture with Kudu}
+
+
+\subsection{Thoughts On Choosing The Target Environment}
+
+\subsubsection{Cloud vs On-Premise}
+
+\subsubsection{Cloud Native or Independent Vendors}
+
+\subsection{Thoughts On Choosing A Development Environment}
+
+\subsubsection{Cloud As Dev Environment}
+
+\subsubsection{Local Dev Environment}
+
+ 
+ 
+
+\section{Data Architecture}
+
+\subsection{Source Data} 
+
+\subsection{Analytics Requirements For Streaming}  
+
+\subsection{Analytics Requirements For Batch Processing}
+
+\subsection{Data Visualization}
+ 
+\section{Milestone 1 | Tool Decisions} 
+ 
+ 
+ 
+\section{Basic Data Engineering Skills}
 
 Why this is important: Without coding you cannot do much in data engineering. I cannot count the number of times I needed a quick Java hack.
 
@@ -312,6 +511,7 @@ I talked about Network Infrastructure and Techniques in this podcast: https://an
 
 \subsubsection{JAva Web Tokens}
 
+
 \subsubsection{GDPR regulations}
 
 \subsubsection{Privacy by design}
@@ -344,74 +544,8 @@ Listen to a few thoughts about the cloud in this podcast: https://anchor.fm/andr
 
 I talked about security zone design and lambda architecture in this podcast: https://anchor.fm/andreaskayy/embed/episodes/How-to-Design-Security-Zones-and-Lambda-Architecture--PoDS-032-e248q2
  
-\subsection{ Lambda Architecture}
-\subsubsection{Stream and Batch processing -- available}
-
-\paragraph{Batch Processing:} Ask the big questions. Remember your last yearly tax statement?
-
-You break out the folders. You run around the house searching for the receipts.
-
-All that fun stuff.
-
-When you finally found everything you fill out the form and send it on its way.
-
-Doing the tax statement is a prime example of a batch process.
-
-Data comes in and gets stored, analytics loads the data from storage and creates an output (insight):
-
-\begin{figure}[htbp] 
-  \centering
-     \includegraphics[width=0.9\textwidth]{images/Simple-Batch-Processing-Workflow}
-  \caption{Batch Processing Pipeline}
-  \label{fig:Bild1}
-\end{figure}
-
-Batch processing is something you do either without a schedule or on a schedule (tax statement). It is used to ask the big questions and gain the insights by looking at the big picture.
-
-To do so, batch processing jobs use large amounts of data. This data is provided by storage systems like Hadoop HDFS.
-
-They can store lots of data (petabytes) without a problem.
-
-Results from batch jobs are very useful, but the execution time is high. Because the amount of used data is high.
-
-It can take minutes or sometimes hours until you get your results.
-
-
-
-\paragraph{Stream Processing:} Gain instant insight into your data.
-
-Streaming allows users to make quick decisions and take actions based on “real-time” insight. Contrary to batch processing, streaming processes data on the fly, as it comes in.
-
-With streaming you don’t have to wait minutes or hours to get results. You gain instant insight into your data.
-
-In the batch processing pipeline, the analytics was after the data storage. It had access to all the available data.
-
-Stream processing creates insight before the data storage. It has only access to fragments of data as it comes in.
-
-As a result the scope of the produced insight is also limited. Because the big picture is missing.
-
-\begin{figure}[htbp] 
-  \centering
-     \includegraphics[width=0.9\textwidth]{images/Simple-Stream-Processing-Workflow}
-  \caption{Stream Processing Pipeline}
-  \label{fig:Bild1}
-\end{figure}
-
-Only with streaming analytics you are able to create advanced services for the customer. Netflix for instance incorporated stream processing into Chuckwa V2.0 and the new Keystone pipeline.
-
-One example of advanced services through stream processing is the Netflix “Trending Now” feature.
-Check out the Netflix case study.
-
-\paragraph{Should you do stream or batch processing?}
-
-It is a good idea to start with batch processing. Batch processing is the foundation of every good big data platform.
-
-A batch processing architecture is simple, and therefore quick to set up. Platform simplicity means, it will also be relatively cheap to run.
-
-A batch processing platform will enable you to quickly ask the big questions. They will give you invaluable insight into your data and customers.
-
-When the time comes and you also need to do analytics on the fly, then add a streaming pipeline to your batch processing big data platform.
-
+\subsubsection{Kerberos Tickets} 
+ 
 \subsection{Three methods of streaming | available}
 
 In stream processing sometimes it is ok to drop messages, other times it is not. Sometimes it is fine to process a message multiple times, other times that needs to be avoided like hell.
@@ -780,52 +914,8 @@ Podcast about how data science learners use Docker (for data scientists): https:
  
  
 
-\section {My Big Data Platform Blueprint -- available}
-Some time ago I have created a simple and modular big data platform blueprint for myself. It is based on what I have seen in the field and read in tech blogs all over the internet.
 
-Today I am going to share it with you.
-
-Why do I believe it will be super useful to you?
-
-Because, unlike other blueprints it is not focused on technology. It is based on four common big data platform design patterns.
-
-Following my blueprint will allow you to create the big data platform that fits exactly your needs. Building the perfect platform will allow data scientists to discover new insights.
-
-It will enable you to perfectly handle big data and allow you to make data driven decisions.
-
-\paragraph{THE BLUEPRINT -- available}
-The blueprint is focused on the four key areas: Ingest, store, analyse and display.
-
-\begin{figure}[htbp] 
-  \centering
-     \includegraphics[width=0.9\textwidth]{images/Big-Data-Platform-Blueprint-Title-Original.png}
-  \caption{Platfrom Blueprint}
-  \label{fig:Bild1}
-\end{figure}
-
-
-Having the platform split like this turns it it a modular platform with loosely coupled interfaces.
-
-Why is it so important to have a modular platform?
-
-If you have a platform that is not modular you end up with something that is fixed or hard to modify. This means you can not adjust the platform to changing requirements of the company.
-
-Because of modularity it is possible to switch out every component, if you need it.
-
-Now, lets talk more about each key area.
-
-\subsection{Ingest -- available}
-Ingestion is all about getting the data in from the source and making it available to later stages. Sources can be everything form tweets, server logs to IoT sensor data like from cars.
-
-Sources send data to your API Services. The API is going to push the data into a temporary storage.
-
-The temporary storage allows other stages simple and fast access to incoming data.
-
-A great solution is to use messaging queue systems like Apache Kafka, RabbitMQ or AWS Kinesis. Sometimes people also use caches for specialised applications like Redis.
-
-A good practice is that the temporary storage follows the publish, subscribe pattern. This way APIs can publish messages and Analytics can quickly consume them.
-
-\subsubsection{REST APIs}
+\subsection{REST APIs}
 Check out my podcast about how APIs rule the world: https://anchor.fm/andreaskayy/embed/episodes/How-APIs-Rule-The-World--PoDS-033-e24ttq
 \subsubsection{HTTP Post/Get}
 \subsubsection{API Design}
@@ -833,32 +923,19 @@ Check out my podcast about how APIs rule the world: https://anchor.fm/andreaskay
 \subsubsection{OAuth security}
 
 
-\subsection{Store -- available}
-This is the typical big data storage where you just store everything. It enables you to analyse the big picture.
-
-Most of the data might seem useless for now, but it is of upmost importance to keep it. Throwing data away is a big no no.
-
-Why not throw something away when it is useless?
-
-Although it seems useless for now, data scientists can work with the data. They might find new ways to analyse the data and generate valuable insight from it.
-
-What kind of systems can be used to store big data?
-
-Systems like Hadoop HDFS, Hbase, Amazon S3 or DynamoDB are a perfect fit to store big data.
-
-Check out my podcast how to decide between SQL and NoSQL: https://anchor.fm/andreaskayy/embed/episodes/NoSQL-Vs-SQL-How-To-Choose-e12f1o
-\subsubsection{Data Modeling}
+\subsection{Data Modeling}
 
 \subsubsection{How to find out how you need to store data for the business case}
 \subsubsection{How to decide what kind of storage you need to use}
 
-\subsubsection{SQL}
+\subsection{SQL Databases}
 
 \paragraph{Database Design}
 \paragraph{SQL Queries}
 \paragraph{Stored Procedures}
 \paragraph{ODBC/JDBC Server Connections}
 
+\subsection{NoSQL Stores}
 \subsubsection{KeyValue Stores (HBase)}
 \subsubsection{Document Store HDFS | available}
 
@@ -914,8 +991,9 @@ See the MapReduce section for an example.
 \subsubsection{Document Store MongoDB}
 \subsubsection{Hive Warehouse}
 \subsubsection{Impala}
+\subsubsection{Kudu}
 
-\subsubsection{Time Series Databases (?)}
+\subsubsection{Time Series Databases}
 DalmatinerDB 
 InfluxDB 
 Prometheus 
@@ -928,26 +1006,7 @@ Druid
 
 
 
-\subsection{Analyse / Process -- available}
-The analyse stage is where the actual analytics is done. Analytics, in the form of stream and batch processing.
-
-Streaming data is taken from ingest and fed into analytics. Streaming analyses the “live” data thus, so generates fast results.
-
-As the central and most important stage, analytics also has access to the big data storage. Because of that connection, analytics can take a big chunk of data and analyse it.
-
-This type of analysis is called batch processing. It will deliver you answers for the big questions.
-
-To learn more about stream and batch processing read my blog post: How to Create New and Exciting Big Data Aided Products
-
-The analytics process, batch or streaming, is not a one way process. Analytics also can write data back to the big data storage.
-
-Often times writing data back to the storage makes sense. It allows you to combine previous analytics outputs with the raw data.
-
-Analytics insight can give meaning to the raw data when you combine them. This combination will often times allow you to create even more useful insight.
-
-A wide variety of analytics tools are available. Ranging from MapReduce or AWS Elastic MapReduce to Apache Spark and AWS lambda.
-
-\subsubsection{MapReduce -- available}
+\subsection{MapReduce -- available}
 
 Since the early days of the Hadoop eco system, the MapReduce framework is one of the main components of Hadoop alongside the Hadoop file system HDFS.
 
@@ -1060,10 +1119,10 @@ This is a big negative point in a more and more real time data processing world.
 
 
  
-\subsubsection{Apache Spark}
+\subsection{Apache Spark}
 I talked about the three methods of data streaming in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Three-Methods-of-Streaming-Data-e15r6o
 
-\paragraph{Spark Basics}
+\subsubsection{Spark Basics}
 
 \paragraph{What is the difference to MapReduce? -- available}
 Spark is a complete in memory framework. Data gets loaded from, for instance hdfs, into the memory of workers.
@@ -1207,7 +1266,7 @@ Having a single resource manager instead of two independent ones makes it a lot 
 \end{figure}
 
 
-\subsubsection{Message queues with Apache Kafka}
+\subsection{Apache Kafka}
 
 \paragraph{Why a message queue tool?}
 \paragraph{Kakfa architecture}
@@ -1219,7 +1278,7 @@ My YouTube video how to set up Kafka at home: https://youtu.be/7F9tBwTUSeY
 
 My YouTube video how to write to Kafka: https://youtu.be/RboQBZvZCh0
 
-\subsubsection{Machine Learning}
+\subsection{Machine Learning}
 My podcast about how to do machine learning in production: https://anchor.fm/andreaskayy/embed/episodes/Machine-Learning-In-Production-e11bbk
 
 \paragraph{Training and Applying models}
@@ -1345,18 +1404,7 @@ Companies like Tesla, they have it very easy. Because the data is already there.
 \textbf{They just need to show us that the algorithms work. The end.}
 
 
-
-
-\subsection{Display -- available}
-Displaying data is as important as ingesting, storing and analysing it. People need to be able to make data driven decisions.
-
-This is why it is important to have a good visual presentation of the data. Sometimes you have a lot of different use cases or projects using the platform.
-
-It might not be possible for you to build the perfect UI that fits everyone. What you should do in this case is enable others to build the perfect UI themselves.
-
-How to do that? By creating APIs to access the data and making them available to developers.
-
-Either way, UI or API the trick is to give the display stage direct access to the data in the big data cluster. This kind of access will allow the developers to use analytics results as well as raw data to build the the perfect application.
+\subsection{Data Visualization}
 
 \subsubsection{Mobile Apps}
 

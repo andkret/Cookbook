@@ -1,21 +1,21 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces The Machine Learning Pipeline}}{8}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Batch Processing Pipeline}}{16}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Stream Processing Pipeline}}{17}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Common SQL Platform Architecture}}{22}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Scaling up a SQL Database}}{23}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Scaling out a SQL Database}}{23}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Hadoop Ecosystem Components}}{26}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Connections between tools}}{27}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Flume Integration}}{28}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Platfrom Blueprint}}{32}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces HDFS Master and Data Nodes}}{35}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Distribution of Blocks for a 512MB File}}{36}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Mapping of input files and reducing of mapped records}}{38}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces MapReduce Example of Time Series Data}}{40}{figure.14}
+\contentsline {figure}{\numberline {2}{\ignorespaces Batch Processing Pipeline}}{10}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Stream Processing Pipeline}}{11}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Platfrom Blueprint}}{12}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Common SQL Platform Architecture}}{26}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Scaling up a SQL Database}}{27}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Scaling out a SQL Database}}{28}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Hadoop Ecosystem Components}}{30}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Connections between tools}}{31}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Flume Integration}}{32}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces HDFS Master and Data Nodes}}{37}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Distribution of Blocks for a 512MB File}}{37}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Mapping of input files and reducing of mapped records}}{39}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces MapReduce Example of Time Series Data}}{41}{figure.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces The Map Reduce Process}}{41}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Hadoop vs Spark capabilities}}{42}{figure.16}
+\contentsline {figure}{\numberline {16}{\ignorespaces Hadoop vs Spark capabilities}}{43}{figure.16}
 \contentsline {figure}{\numberline {17}{\ignorespaces Spark Using Hadoop Data Locality}}{45}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Spark Resource Management With YARN}}{46}{figure.18}
+\contentsline {figure}{\numberline {18}{\ignorespaces Spark Resource Management With YARN}}{47}{figure.18}
 \contentsline {figure}{\numberline {19}{\ignorespaces Old Netflix Batch Processing Pipeline}}{56}{figure.19}
 \contentsline {figure}{\numberline {20}{\ignorespaces Netflix Trending Now Feature}}{57}{figure.20}
 \contentsline {figure}{\numberline {21}{\ignorespaces Netflix Streaming Pipeline}}{58}{figure.21}

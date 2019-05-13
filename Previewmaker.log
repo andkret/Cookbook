@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  6 JAN 2019 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  1 MAY 2019 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -208,96 +208,71 @@ File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
 <use Data-Engineering-Cookbook.pdf>
 Package pdftex.def Info: Data-Engineering-Cookbook.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<Data-Engineering-Cookbook.pdf, id=4, page=2, 597.50829pt x 845.0471pt>
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf  used on input line 4.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf  used on input line 4.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<Data-Engineering-Cookbook.pdf, id=6, page=1, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 1>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page1 used on input li
+<use Data-Engineering-Cookbook.pdf, page 2>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
 ne 4.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 1>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page1 used on input li
+<use Data-Engineering-Cookbook.pdf, page 2>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 1>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page1 used on input li
+<use Data-Engineering-Cookbook.pdf, page 2>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 1>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page1 used on input li
+<use Data-Engineering-Cookbook.pdf, page 2>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 1>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page1 used on input li
+<use Data-Engineering-Cookbook.pdf, page 2>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [1
 
  <./Data-Engineering-Cookbook.pdf{/usr/local/texlive/2018/texmf-var/fonts/map/p
 dftex/updmap/pdftex.map}>]
-<Data-Engineering-Cookbook.pdf, id=28, page=2, 597.50829pt x 845.0471pt>
+<Data-Engineering-Cookbook.pdf, id=21, page=3, 597.50829pt x 845.0471pt>
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 2>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
+<use Data-Engineering-Cookbook.pdf, page 3>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page3 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 2>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
+<use Data-Engineering-Cookbook.pdf, page 3>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page3 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 2>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page2 used on input li
+<use Data-Engineering-Cookbook.pdf, page 3>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page3 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [2 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=32, page=3, 597.50829pt x 845.0471pt>
+<Data-Engineering-Cookbook.pdf, id=25, page=4, 597.50829pt x 845.0471pt>
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 3>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page3 used on input li
+<use Data-Engineering-Cookbook.pdf, page 4>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page4 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 3>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page3 used on input li
+<use Data-Engineering-Cookbook.pdf, page 4>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page4 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 3>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page3 used on input li
+<use Data-Engineering-Cookbook.pdf, page 4>
+Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page4 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [3 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=36, page=4, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 4>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page4 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 4>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page4 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 4>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page4 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [4 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=40, page=5, 597.50829pt x 845.0471pt>
+<Data-Engineering-Cookbook.pdf, id=29, page=5, 597.50829pt x 845.0471pt>
 File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
 <use Data-Engineering-Cookbook.pdf, page 5>
 Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page5 used on input li
@@ -313,178 +288,22 @@ File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
 Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page5 used on input li
 ne 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [5 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=44, page=6, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 6>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page6 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 6>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page6 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 6>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page6 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [6 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=48, page=7, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 7>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page7 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 7>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page7 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 7>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page7 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [7 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=53, page=8, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 8>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page8 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 8>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page8 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 8>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page8 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [8 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=60, page=9, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 9>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page9 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 9>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page9 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 9>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page9 used on input li
-ne 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [9 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=69, page=16, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 16>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page16 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 16>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page16 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 16>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page16 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [10 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=76, page=17, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 17>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page17 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 17>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page17 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 17>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page17 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [11 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=80, page=18, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 18>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page18 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 18>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page18 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 18>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page18 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [12 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=84, page=19, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 19>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page19 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 19>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page19 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 19>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page19 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [13 <./Data-Engineering-Cookbook.pdf>]
-<Data-Engineering-Cookbook.pdf, id=92, page=57, 597.50829pt x 845.0471pt>
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 57>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page57 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 57>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page57 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: Data-Engineering-Cookbook.pdf Graphic file (type pdf)
-<use Data-Engineering-Cookbook.pdf, page 57>
-Package pdftex.def Info: Data-Engineering-Cookbook.pdf , page57 used on input l
-ine 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [14 <./Data-Engineering-Cookbook.pdf>] (./Previewmaker.aux) ) 
+ [4 <./Data-Engineering-Cookbook.pdf>] (./Previewmaker.aux) ) 
 Here is how much of TeX's memory you used:
- 2766 strings out of 492649
- 41737 string characters out of 6129621
+ 2736 strings out of 492649
+ 40332 string characters out of 6129621
  107751 words of memory out of 5000000
- 6629 multiletter control sequences out of 15000+600000
+ 6599 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,46p,279b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Previewmaker.pdf (14 pages, 660273 bytes).
+</usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Previewmaker.pdf (4 pages, 52798 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
