@@ -188,34 +188,36 @@
 \BOOKMARK [-1][-]{part.4}{Case Studies}{}% 188
 \BOOKMARK [0][-]{chapter.28}{How I do Case Studies}{part.4}% 189
 \BOOKMARK [1][-]{section.28.1}{Data Science @Airbnb}{chapter.28}% 190
-\BOOKMARK [1][-]{section.28.2}{Data Sciecne @Baidu}{chapter.28}% 191
-\BOOKMARK [1][-]{section.28.3}{Data Sciecne @Blackrock}{chapter.28}% 192
-\BOOKMARK [1][-]{section.28.4}{Data Sciecne @BMW}{chapter.28}% 193
-\BOOKMARK [1][-]{section.28.5}{Data Sciecne @Booking.com}{chapter.28}% 194
-\BOOKMARK [1][-]{section.28.6}{Data Sciecne @CERN}{chapter.28}% 195
-\BOOKMARK [1][-]{section.28.7}{Data Sciecne @Disney}{chapter.28}% 196
-\BOOKMARK [1][-]{section.28.8}{Data Sciecne @Drivetribe}{chapter.28}% 197
-\BOOKMARK [1][-]{section.28.9}{Data Sciecne @Dropbox}{chapter.28}% 198
-\BOOKMARK [1][-]{section.28.10}{Data Sciecne @Ebay}{chapter.28}% 199
-\BOOKMARK [1][-]{section.28.11}{Data Sciecne @Expedia}{chapter.28}% 200
-\BOOKMARK [1][-]{section.28.12}{Data Sciecne @Facebook}{chapter.28}% 201
-\BOOKMARK [1][-]{section.28.13}{Data Sciecne @@Grammarly}{chapter.28}% 202
-\BOOKMARK [1][-]{section.28.14}{Data Sciecne @ING Fraud}{chapter.28}% 203
-\BOOKMARK [1][-]{section.28.15}{Data Sciecne @Instagram}{chapter.28}% 204
-\BOOKMARK [1][-]{section.28.16}{Data Sciecne @LinkedIn}{chapter.28}% 205
-\BOOKMARK [1][-]{section.28.17}{Data Sciecne @Lyft}{chapter.28}% 206
-\BOOKMARK [1][-]{section.28.18}{Data Sciecne @NASA}{chapter.28}% 207
-\BOOKMARK [1][-]{section.28.19}{Data Science @Netflix \205 available}{chapter.28}% 208
-\BOOKMARK [1][-]{section.28.20}{Data Sciecne @OTTO}{chapter.28}% 209
-\BOOKMARK [1][-]{section.28.21}{Data Sciecne @Paypal}{chapter.28}% 210
-\BOOKMARK [1][-]{section.28.22}{Data Sciecne @Pinterest}{chapter.28}% 211
-\BOOKMARK [1][-]{section.28.23}{Data Sciecne @Salesforce}{chapter.28}% 212
-\BOOKMARK [1][-]{section.28.24}{Data Sciecne @Slack}{chapter.28}% 213
-\BOOKMARK [1][-]{section.28.25}{Data Sciecne @Spotify}{chapter.28}% 214
-\BOOKMARK [1][-]{section.28.26}{Data Sciecne @Symantec}{chapter.28}% 215
-\BOOKMARK [1][-]{section.28.27}{Data Science @Tinder}{chapter.28}% 216
-\BOOKMARK [1][-]{section.28.28}{Data Science @Twitter}{chapter.28}% 217
-\BOOKMARK [1][-]{section.28.29}{Data Science @Uber}{chapter.28}% 218
-\BOOKMARK [1][-]{section.28.30}{Data Science @Upwork}{chapter.28}% 219
-\BOOKMARK [1][-]{section.28.31}{Data Sciecne @Woot}{chapter.28}% 220
-\BOOKMARK [1][-]{section.28.32}{Data Sciecne @Zalando}{chapter.28}% 221
+\BOOKMARK [2][-]{subsection.28.1.1}{Data Science @Amazon}{section.28.1}% 191
+\BOOKMARK [1][-]{section.28.2}{Data Science @Baidu}{chapter.28}% 192
+\BOOKMARK [1][-]{section.28.3}{Data Sciecne @Blackrock}{chapter.28}% 193
+\BOOKMARK [1][-]{section.28.4}{Data Sciecne @BMW}{chapter.28}% 194
+\BOOKMARK [1][-]{section.28.5}{Data Sciecne @Booking.com}{chapter.28}% 195
+\BOOKMARK [1][-]{section.28.6}{Data Science @CERN}{chapter.28}% 196
+\BOOKMARK [1][-]{section.28.7}{Data Science @Disney}{chapter.28}% 197
+\BOOKMARK [1][-]{section.28.8}{Data Science @Drivetribe}{chapter.28}% 198
+\BOOKMARK [1][-]{section.28.9}{Data Science @Dropbox}{chapter.28}% 199
+\BOOKMARK [1][-]{section.28.10}{Data Science @Ebay}{chapter.28}% 200
+\BOOKMARK [1][-]{section.28.11}{Data Science @Expedia}{chapter.28}% 201
+\BOOKMARK [1][-]{section.28.12}{Data Science @Facebook}{chapter.28}% 202
+\BOOKMARK [2][-]{subsection.28.12.1}{Data Science @Google}{section.28.12}% 203
+\BOOKMARK [1][-]{section.28.13}{Data Science @@Grammarly}{chapter.28}% 204
+\BOOKMARK [1][-]{section.28.14}{Data Science @ING Fraud}{chapter.28}% 205
+\BOOKMARK [1][-]{section.28.15}{Data Science @Instagram}{chapter.28}% 206
+\BOOKMARK [1][-]{section.28.16}{Data Science @LinkedIn}{chapter.28}% 207
+\BOOKMARK [1][-]{section.28.17}{Data Science @Lyft}{chapter.28}% 208
+\BOOKMARK [1][-]{section.28.18}{Data Science @NASA}{chapter.28}% 209
+\BOOKMARK [1][-]{section.28.19}{Data Science @Netflix \205 available}{chapter.28}% 210
+\BOOKMARK [1][-]{section.28.20}{Data Science @OTTO}{chapter.28}% 211
+\BOOKMARK [1][-]{section.28.21}{Data Science @Paypal}{chapter.28}% 212
+\BOOKMARK [1][-]{section.28.22}{Data Science @Pinterest}{chapter.28}% 213
+\BOOKMARK [1][-]{section.28.23}{Data Science @Salesforce}{chapter.28}% 214
+\BOOKMARK [1][-]{section.28.24}{Data Science @Slack}{chapter.28}% 215
+\BOOKMARK [1][-]{section.28.25}{Data Science @Spotify}{chapter.28}% 216
+\BOOKMARK [1][-]{section.28.26}{Data Science @Symantec}{chapter.28}% 217
+\BOOKMARK [1][-]{section.28.27}{Data Science @Tinder}{chapter.28}% 218
+\BOOKMARK [1][-]{section.28.28}{Data Science @Twitter}{chapter.28}% 219
+\BOOKMARK [1][-]{section.28.29}{Data Science @Uber}{chapter.28}% 220
+\BOOKMARK [1][-]{section.28.30}{Data Science @Upwork}{chapter.28}% 221
+\BOOKMARK [1][-]{section.28.31}{Data Science @Woot}{chapter.28}% 222
+\BOOKMARK [1][-]{section.28.32}{Data Science @Zalando}{chapter.28}% 223
