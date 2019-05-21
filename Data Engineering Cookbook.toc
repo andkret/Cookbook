@@ -63,7 +63,7 @@
 \contentsline {subsubsection}{\numberline {7.7.3}Cron jobs}{21}{subsubsection.7.7.3}
 \contentsline {subsubsection}{\numberline {7.7.4}Packet management}{21}{subsubsection.7.7.4}
 \contentsline {subsection}{\numberline {7.8}The Cloud}{21}{subsection.7.8}
-\contentsline {subsubsection}{\numberline {7.8.1}AWS,Azure, IBM, Google Cloud basics}{21}{subsubsection.7.8.1}
+\contentsline {subsubsection}{\numberline {7.8.1}AWS, Azure, IBM, Google Cloud basics}{21}{subsubsection.7.8.1}
 \contentsline {subsubsection}{\numberline {7.8.2}cloud vs on premise}{21}{subsubsection.7.8.2}
 \contentsline {subsubsection}{\numberline {7.8.3}up \& downsides}{21}{subsubsection.7.8.3}
 \contentsline {subsubsection}{\numberline {7.8.4}Security}{21}{subsubsection.7.8.4}
@@ -191,39 +191,39 @@
 \contentsline {section}{\numberline {8}Case Studies}{52}{section.8}
 \contentsline {subsection}{\numberline {8.1}7 Steps to Successfull Data Science Project}{52}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Data Science @Airbnb}{52}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Data Sciecne @Baidu}{52}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Data Sciecne @Blackrock}{52}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Data Sciecne @BMW}{52}{subsection.8.5}
-\contentsline {subsection}{\numberline {8.6}Data Sciecne @Booking.com}{53}{subsection.8.6}
-\contentsline {subsection}{\numberline {8.7}Data Sciecne @CERN}{53}{subsection.8.7}
-\contentsline {subsection}{\numberline {8.8}Data Sciecne @Disney}{53}{subsection.8.8}
-\contentsline {subsection}{\numberline {8.9}Data Sciecne @Drivetribe}{54}{subsection.8.9}
-\contentsline {subsection}{\numberline {8.10}Data Sciecne @Dropbox}{54}{subsection.8.10}
-\contentsline {subsection}{\numberline {8.11}Data Sciecne @Ebay}{54}{subsection.8.11}
-\contentsline {subsection}{\numberline {8.12}Data Sciecne @Expedia}{54}{subsection.8.12}
-\contentsline {subsection}{\numberline {8.13}Data Sciecne @Facebook}{54}{subsection.8.13}
-\contentsline {subsection}{\numberline {8.14}Data Sciecne @@Grammarly}{54}{subsection.8.14}
-\contentsline {subsection}{\numberline {8.15}Data Sciecne @ING Fraud}{54}{subsection.8.15}
-\contentsline {subsection}{\numberline {8.16}Data Sciecne @Instagram}{54}{subsection.8.16}
-\contentsline {subsection}{\numberline {8.17}Data Sciecne @LinkedIn}{55}{subsection.8.17}
-\contentsline {subsection}{\numberline {8.18}Data Sciecne @Lyft}{55}{subsection.8.18}
-\contentsline {subsection}{\numberline {8.19}Data Sciecne @NASA}{55}{subsection.8.19}
+\contentsline {subsection}{\numberline {8.3}Data Science @Baidu}{52}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Data Science @Blackrock}{52}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Data Science @BMW}{52}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Data Science @Booking.com}{53}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.7}Data Science @CERN}{53}{subsection.8.7}
+\contentsline {subsection}{\numberline {8.8}Data Science @Disney}{53}{subsection.8.8}
+\contentsline {subsection}{\numberline {8.9}Data Science @Drivetribe}{54}{subsection.8.9}
+\contentsline {subsection}{\numberline {8.10}Data Science @Dropbox}{54}{subsection.8.10}
+\contentsline {subsection}{\numberline {8.11}Data Science @Ebay}{54}{subsection.8.11}
+\contentsline {subsection}{\numberline {8.12}Data Science @Expedia}{54}{subsection.8.12}
+\contentsline {subsection}{\numberline {8.13}Data Science @Facebook}{54}{subsection.8.13}
+\contentsline {subsection}{\numberline {8.14}Data Science @@Grammarly}{54}{subsection.8.14}
+\contentsline {subsection}{\numberline {8.15}Data Science @ING Fraud}{54}{subsection.8.15}
+\contentsline {subsection}{\numberline {8.16}Data Science @Instagram}{54}{subsection.8.16}
+\contentsline {subsection}{\numberline {8.17}Data Science @LinkedIn}{55}{subsection.8.17}
+\contentsline {subsection}{\numberline {8.18}Data Science @Lyft}{55}{subsection.8.18}
+\contentsline {subsection}{\numberline {8.19}Data Science @NASA}{55}{subsection.8.19}
 \contentsline {subsection}{\numberline {8.20}Data Science @Netflix -- available}{55}{subsection.8.20}
 \contentsline {paragraph}{\nonumberline The Netflix batch processing pipeline}{56}{section*.79}
 \contentsline {paragraph}{\nonumberline Know what customers want:}{56}{section*.80}
 \contentsline {paragraph}{\nonumberline Batch processing is not enough}{57}{section*.81}
 \contentsline {paragraph}{\nonumberline The trending now feature}{57}{section*.82}
 \contentsline {paragraph}{\nonumberline Netflix real-time streaming architecture}{58}{section*.83}
-\contentsline {subsection}{\numberline {8.21}Data Sciecne @OTTO}{59}{subsection.8.21}
-\contentsline {subsection}{\numberline {8.22}Data Sciecne @Paypal}{59}{subsection.8.22}
-\contentsline {subsection}{\numberline {8.23}Data Sciecne @Pinterest}{59}{subsection.8.23}
-\contentsline {subsection}{\numberline {8.24}Data Sciecne @Salesforce}{59}{subsection.8.24}
-\contentsline {subsection}{\numberline {8.25}Data Sciecne @Slack}{60}{subsection.8.25}
-\contentsline {subsection}{\numberline {8.26}Data Sciecne @Spotify}{60}{subsection.8.26}
-\contentsline {subsection}{\numberline {8.27}Data Sciecne @Symantec}{60}{subsection.8.27}
+\contentsline {subsection}{\numberline {8.21}Data Science @OTTO}{59}{subsection.8.21}
+\contentsline {subsection}{\numberline {8.22}Data Science @Paypal}{59}{subsection.8.22}
+\contentsline {subsection}{\numberline {8.23}Data Science @Pinterest}{59}{subsection.8.23}
+\contentsline {subsection}{\numberline {8.24}Data Science @Salesforce}{59}{subsection.8.24}
+\contentsline {subsection}{\numberline {8.25}Data Science @Slack}{60}{subsection.8.25}
+\contentsline {subsection}{\numberline {8.26}Data Science @Spotify}{60}{subsection.8.26}
+\contentsline {subsection}{\numberline {8.27}Data Science @Symantec}{60}{subsection.8.27}
 \contentsline {subsection}{\numberline {8.28}Data Science @Tinder}{60}{subsection.8.28}
 \contentsline {subsection}{\numberline {8.29}Data Science @Twitter}{60}{subsection.8.29}
 \contentsline {subsection}{\numberline {8.30}Data Science @Uber}{60}{subsection.8.30}
 \contentsline {subsection}{\numberline {8.31}Data Science @Upwork}{60}{subsection.8.31}
-\contentsline {subsection}{\numberline {8.32}Data Sciecne @Woot}{61}{subsection.8.32}
-\contentsline {subsection}{\numberline {8.33}Data Sciecne @Zalando}{61}{subsection.8.33}
+\contentsline {subsection}{\numberline {8.32}Data Science @Woot}{61}{subsection.8.32}
+\contentsline {subsection}{\numberline {8.33}Data Science @Zalando}{61}{subsection.8.33}
