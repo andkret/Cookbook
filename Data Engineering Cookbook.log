@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  21 MAY 2019 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  21 MAY 2019 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -577,7 +577,7 @@ chapter 2.
 [11
 
 ]
-<images/Machine-Learning-Pipeline.png, id=1167, 979.66pt x 280.04625pt>
+<images/Machine-Learning-Pipeline.png, id=1177, 979.66pt x 280.04625pt>
 File: images/Machine-Learning-Pipeline.png Graphic file (type png)
 <use images/Machine-Learning-Pipeline.png>
 Package pdftex.def Info: images/Machine-Learning-Pipeline.png  used on input li
@@ -695,20 +695,20 @@ dreaskayy/embed/episodes/4-
  []
 
 [30]
-<images/Common-SQL-Architecture.png, id=1251, 652.4375pt x 527.9725pt>
+<images/Common-SQL-Architecture.png, id=1261, 652.4375pt x 527.9725pt>
 File: images/Common-SQL-Architecture.png Graphic file (type png)
 <use images/Common-SQL-Architecture.png>
 Package pdftex.def Info: images/Common-SQL-Architecture.png  used on input line
  475.
 (pdftex.def)             Requested size: 317.07619pt x 256.59805pt.
  [31 <./images/Common-SQL-Architecture.png>]
-<images/SQL-Scaling-UP.png, id=1259, 862.22125pt x 329.23pt>
+<images/SQL-Scaling-UP.png, id=1269, 862.22125pt x 329.23pt>
 File: images/SQL-Scaling-UP.png Graphic file (type png)
 <use images/SQL-Scaling-UP.png>
 Package pdftex.def Info: images/SQL-Scaling-UP.png  used on input line 504.
 (pdftex.def)             Requested size: 317.07619pt x 121.06969pt.
  [32 <./images/SQL-Scaling-UP.png>]
-<images/SQL-Scaling-Out.png, id=1266, 676.5275pt x 588.1975pt>
+<images/SQL-Scaling-Out.png, id=1276, 676.5275pt x 588.1975pt>
 File: images/SQL-Scaling-Out.png Graphic file (type png)
 <use images/SQL-Scaling-Out.png>
 Package pdftex.def Info: images/SQL-Scaling-Out.png  used on input line 520.
@@ -722,19 +722,19 @@ chapter 15.
 [36
 
 ]
-<images/Hadoop-Ecosystem.png, id=1285, 710.655pt x 692.5875pt>
+<images/Hadoop-Ecosystem.png, id=1295, 710.655pt x 692.5875pt>
 File: images/Hadoop-Ecosystem.png Graphic file (type png)
 <use images/Hadoop-Ecosystem.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem.png  used on input line 581.
 (pdftex.def)             Requested size: 407.6684pt x 397.31529pt.
-<images/Hadoop-Ecosystem-Connections.png, id=1286, 611.28375pt x 443.6575pt>
+<images/Hadoop-Ecosystem-Connections.png, id=1296, 611.28375pt x 443.6575pt>
 File: images/Hadoop-Ecosystem-Connections.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem-Connections.png  used on input
  line 594.
 (pdftex.def)             Requested size: 407.6684pt x 295.87473pt.
  [37 <./images/Hadoop-Ecosystem.png>]
-<images/Hadoop-Ecosystem-Connections-Flume.png, id=1294, 621.32124pt x 445.1631
+<images/Hadoop-Ecosystem-Connections-Flume.png, id=1304, 621.32124pt x 445.1631
 3pt>
 File: images/Hadoop-Ecosystem-Connections-Flume.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections-Flume.png>
@@ -776,13 +776,13 @@ chapter 19.
 [46
 
 ]
-<images/HDFS-Master-DataNodes.png, id=1337, 776.9025pt x 574.145pt>
+<images/HDFS-Master-DataNodes.png, id=1347, 776.9025pt x 574.145pt>
 File: images/HDFS-Master-DataNodes.png Graphic file (type png)
 <use images/HDFS-Master-DataNodes.png>
 Package pdftex.def Info: images/HDFS-Master-DataNodes.png  used on input line 7
 64.
 (pdftex.def)             Requested size: 407.6684pt x 301.28171pt.
-<images/HDFS-Distributed-FileSystem.png, id=1338, 1039.885pt x 270.00874pt>
+<images/HDFS-Distributed-FileSystem.png, id=1348, 1039.885pt x 270.00874pt>
 File: images/HDFS-Distributed-FileSystem.png Graphic file (type png)
 <use images/HDFS-Distributed-FileSystem.png>
 Package pdftex.def Info: images/HDFS-Distributed-FileSystem.png  used on input 
@@ -791,7 +791,7 @@ line 781.
  [47 <./images/HDFS-Master-DataNodes.png>] [48 <./images/HDFS-Distributed-FileS
 ystem.png>]
 chapter 20.
-<images/MapReduce-Process-Detailed.png, id=1351, 757.83125pt x 705.63625pt>
+<images/MapReduce-Process-Detailed.png, id=1361, 757.83125pt x 705.63625pt>
 File: images/MapReduce-Process-Detailed.png Graphic file (type png)
 <use images/MapReduce-Process-Detailed.png>
 Package pdftex.def Info: images/MapReduce-Process-Detailed.png  used on input l
@@ -800,14 +800,14 @@ ine 835.
 [49
 
 ] [50 <./images/MapReduce-Process-Detailed.png>] [51]
-<images/MapReduce-Time-Series-example.png, id=1367, 963.6pt x 436.63126pt>
+<images/MapReduce-Time-Series-example.png, id=1377, 963.6pt x 436.63126pt>
 File: images/MapReduce-Time-Series-example.png Graphic file (type png)
 <use images/MapReduce-Time-Series-example.png>
 Package pdftex.def Info: images/MapReduce-Time-Series-example.png  used on inpu
 t line 885.
 (pdftex.def)             Requested size: 407.6684pt x 184.72302pt.
  [52 <./images/MapReduce-Time-Series-example.png>]
-<images/MapReduce-Process.png, id=1374, 816.04875pt x 49.18375pt>
+<images/MapReduce-Process.png, id=1384, 816.04875pt x 49.18375pt>
 File: images/MapReduce-Process.png Graphic file (type png)
 <use images/MapReduce-Process.png>
 Package pdftex.def Info: images/MapReduce-Process.png  used on input line 905.
@@ -819,21 +819,21 @@ d-cast: https://anchor.fm/andreaskayy/embed/episodes/Three-
  []
 
 [53 <./images/MapReduce-Process.png>]
-<images/Table-Hadoop-and-Spark.png, id=1381, 819.06pt x 160.6pt>
+<images/Table-Hadoop-and-Spark.png, id=1391, 819.06pt x 160.6pt>
 File: images/Table-Hadoop-and-Spark.png Graphic file (type png)
 <use images/Table-Hadoop-and-Spark.png>
 Package pdftex.def Info: images/Table-Hadoop-and-Spark.png  used on input line 
 947.
 (pdftex.def)             Requested size: 407.6684pt x 79.9371pt.
  [54 <./images/Table-Hadoop-and-Spark.png>] [55] [56]
-<images/Spark-Data-Locality.png, id=1397, 1028.84375pt x 578.16pt>
+<images/Spark-Data-Locality.png, id=1407, 1028.84375pt x 578.16pt>
 File: images/Spark-Data-Locality.png Graphic file (type png)
 <use images/Spark-Data-Locality.png>
 Package pdftex.def Info: images/Spark-Data-Locality.png  used on input line 102
 5.
 (pdftex.def)             Requested size: 407.6684pt x 229.08969pt.
  [57 <./images/Spark-Data-Locality.png>] [58]
-<images/Spark-Yarn.png, id=1408, 1047.915pt x 412.54124pt>
+<images/Spark-Yarn.png, id=1418, 1047.915pt x 412.54124pt>
 File: images/Spark-Yarn.png Graphic file (type png)
 <use images/Spark-Yarn.png>
 Package pdftex.def Info: images/Spark-Yarn.png  used on input line 1064.
@@ -865,7 +865,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 ]
 chapter 24.
-<images/Big-Data-Platform-Blueprint-Title-Original.png, id=1454, 3795.17876pt x
+<images/Big-Data-Platform-Blueprint-Title-Original.png, id=1464, 3795.17876pt x
  2076.75874pt>
 File: images/Big-Data-Platform-Blueprint-Title-Original.png Graphic file (type 
 png)
@@ -883,7 +883,7 @@ https://anchor.fm/andreaskayy/embed/episodes/NoSQL-
 
 [71] [72]
 chapter 25.
-<images/Simple-Batch-Processing-Workflow.png, id=1474, 1031.855pt x 151.56625pt
+<images/Simple-Batch-Processing-Workflow.png, id=1484, 1031.855pt x 151.56625pt
 >
 File: images/Simple-Batch-Processing-Workflow.png Graphic file (type png)
 <use images/Simple-Batch-Processing-Workflow.png>
@@ -893,7 +893,7 @@ nput line 1341.
 [73
 
  <./images/Simple-Batch-Processing-Workflow.png>]
-<images/Simple-Stream-Processing-Workflow.png, id=1482, 1046.91125pt x 134.5025
+<images/Simple-Stream-Processing-Workflow.png, id=1492, 1046.91125pt x 134.5025
 pt>
 File: images/Simple-Stream-Processing-Workflow.png Graphic file (type png)
 <use images/Simple-Stream-Processing-Workflow.png>
@@ -1140,21 +1140,21 @@ Overfull \hbox (5.48227pt too wide) in paragraph at lines 1562--1563
 []at-[]nasajplchris-[]mattmann ? qid =
  []
 
-<images/Netflix-Chuckwa-Pipeline.png, id=1584, 1017.8025pt x 363.3575pt>
+<images/Netflix-Chuckwa-Pipeline.png, id=1593, 1017.8025pt x 363.3575pt>
 File: images/Netflix-Chuckwa-Pipeline.png Graphic file (type png)
 <use images/Netflix-Chuckwa-Pipeline.png>
 Package pdftex.def Info: images/Netflix-Chuckwa-Pipeline.png  used on input lin
 e 1589.
 (pdftex.def)             Requested size: 407.6684pt x 145.54001pt.
 [83] [84 <./images/Netflix-Chuckwa-Pipeline.png>]
-<images/Netflix-Trending-Now-Screenshot.png, id=1602, 1180.41pt x 192.72pt>
+<images/Netflix-Trending-Now-Screenshot.png, id=1610, 1180.41pt x 192.72pt>
 File: images/Netflix-Trending-Now-Screenshot.png Graphic file (type png)
 <use images/Netflix-Trending-Now-Screenshot.png>
 Package pdftex.def Info: images/Netflix-Trending-Now-Screenshot.png  used on in
 put line 1637.
 (pdftex.def)             Requested size: 407.6684pt x 66.55609pt.
  [85 <./images/Netflix-Trending-Now-Screenshot.png>]
-<images/Netflix-Streaming-Pipeline.png, id=1612, 1001.7425pt x 437.635pt>
+<images/Netflix-Streaming-Pipeline.png, id=1620, 1001.7425pt x 437.635pt>
 File: images/Netflix-Streaming-Pipeline.png Graphic file (type png)
 <use images/Netflix-Streaming-Pipeline.png>
 Package pdftex.def Info: images/Netflix-Streaming-Pipeline.png  used on input l
@@ -1325,26 +1325,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1762.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1762.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1762.
 
+Package rerunfilecheck Info: File `"Data Engineering Cookbook".out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 4AF1F0683F39147117DC98C69099F1F2;16371.
 
-
-Package rerunfilecheck Warning: File `"Data Engineering Cookbook".out' has chan
-ged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Data Engineering Cookbook".out':
-(rerunfilecheck)             Before: F4FEB48319372D1D0AE0347151C140A6;16215
-(rerunfilecheck)             After:  4AF1F0683F39147117DC98C69099F1F2;16371.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1762.
  ) 
 Here is how much of TeX's memory you used:
- 9461 strings out of 492649
- 152367 string characters out of 6129621
+ 9463 strings out of 492649
+ 152406 string characters out of 6129621
  344322 words of memory out of 5000000
- 12868 multiletter control sequences out of 15000+600000
+ 12870 multiletter control sequences out of 15000+600000
  12281 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,66p,9185b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1354,10 +1348,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Data Engineering Cookbook.pdf" (92 pages, 3426201 bytes).
+Output written on "Data Engineering Cookbook.pdf" (92 pages, 3426368 bytes).
 PDF statistics:
- 1801 PDF objects out of 2073 (max. 8388607)
- 1642 compressed objects within 17 object streams
+ 1809 PDF objects out of 2073 (max. 8388607)
+ 1650 compressed objects within 17 object streams
  348 named destinations out of 1000 (max. 500000)
- 1874 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1890 words of extra memory for PDF output out of 10000 (max. 10000000)
 
