@@ -1,6 +1,6 @@
 \documentclass[12pt]{scrartcl} %use komascript instead of just article
 \setkomafont{disposition}{\normalcolor\bfseries} %use the standard article look
-\usepackage[margin=1in]{geometry}          
+\usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{cite}
 \usepackage{amsthm, amsmath, amssymb}
@@ -15,11 +15,11 @@
 \subtitle{Mastering The Plumbing Of Data Science}
 \author{Andreas Kretz}
 \date{\today\\v1.0}
- 
+
 \begin{document}
 \maketitle
- 
- %\begin{abstract} 
+
+ %\begin{abstract}
 %Purpous of this document and its conclusion
 %\end{abstract}
 
@@ -27,11 +27,11 @@
 
 \setcounter{tocdepth}{3}
 \tableofcontents
- 
+
 \pagebreak
- 
+
 \section{How To Use This Cookbook}
-What do you actually need to learn to become an awesome data engineer? 
+What do you actually need to learn to become an awesome data engineer?
 Look no further, you find it here.
 
 How to use this document: This is not a training! It's a collection of skills, that I value highly in my daily work as a data engineer. It's intended to be a starting point for you to find the topics to look into.
@@ -39,11 +39,11 @@ How to use this document: This is not a training! It's a collection of skills, t
 This project is a work in progress!
 Over the next weeks I am going to share with you my thoughts on why each topic is important. I also try to include links to useful resources.
 
-How to find out what is new? 
+How to find out what is new?
 You will always find the newest version on my Patreon \textbf{https://www.patreon.com/plumbersofds}
 
 Help make this collection awesome!
-Join the discussion on Patreon or write me an email to andreaskayy@gmail.com. Tell me your thoughts, what you value, you think should be included, or where I am wrong. 
+Join the discussion on Patreon or write me an email to andreaskayy@gmail.com. Tell me your thoughts, what you value, you think should be included, or where I am wrong.
 
 \begin{itemize}
 \item Twitter data to predict best time to post using the hashtag datascience or ai
@@ -92,7 +92,7 @@ A unreliable model for predicting machine failure would tell you that your machi
 
 Model outputs are very abstract. You also need to post-process the model outputs to receive health values from 0 to 100.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Machine-Learning-Pipeline}
   \caption{The Machine Learning Pipeline}
@@ -151,7 +151,7 @@ Doing the tax statement is a prime example of a batch process.
 
 Data comes in and gets stored, analytics loads the data from storage and creates an output (insight):
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Simple-Batch-Processing-Workflow}
   \caption{Batch Processing Pipeline}
@@ -182,7 +182,7 @@ Stream processing creates insight before the data storage. It has only access to
 
 As a result the scope of the produced insight is also limited. Because the big picture is missing.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Simple-Stream-Processing-Workflow}
   \caption{Stream Processing Pipeline}
@@ -221,7 +221,7 @@ It will enable you to perfectly handle big data and allow you to make data drive
 \paragraph{THE BLUEPRINT}
 The blueprint is focused on the four key areas: Ingest, store, analyse and display.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Big-Data-Platform-Blueprint-Title-Original.png}
   \caption{Platfrom Blueprint}
@@ -283,7 +283,7 @@ What kind of systems can be used to store big data?
 Systems like Hadoop HDFS, Hbase, Amazon S3 or DynamoDB are a perfect fit to store big data.
 
 Check out my podcast how to decide between SQL and NoSQL: https://anchor.fm/andreaskayy/embed/episodes/NoSQL-Vs-SQL-How-To-Choose-e12f1o
- 
+
 \subsubsection{Display}
 Displaying data is as important as ingesting, storing and analysing it. People need to be able to make data driven decisions.
 
@@ -312,23 +312,23 @@ Either way, UI or API the trick is to give the display stage direct access to th
 
 \subsubsection{Local Dev Environment}
 
- 
- 
+
+
 
 \section{Data Architecture}
 
-\subsection{Source Data} 
+\subsection{Source Data}
 
-\subsection{Analytics Requirements For Streaming}  
+\subsection{Analytics Requirements For Streaming}
 
 \subsection{Analytics Requirements For Batch Processing}
 
 \subsection{Data Visualization}
- 
-\section{Milestone 1 | Tool Decisions} 
- 
- 
- 
+
+\section{Milestone 1 | Tool Decisions}
+
+
+
 \section{Basic Data Engineering Skills}
 
 Why this is important: Without coding you cannot do much in data engineering. I cannot count the number of times I needed a quick Java hack.
@@ -369,11 +369,11 @@ Why this is important: One of the major problems with coding is to keep track 
 
 Another is the topic of collaboration and documentation. Which is super Important.
 
-Let’s say you work on a Spark application and your colleges need to make changes while you are on holiday. Without some code management they are in huge trouble:
+Let’s say you work on a Spark application and your colleagues need to make changes while you are on holiday. Without some code management they are in huge trouble:
 
 Where is the code? What have you changed last? Where is the documentation? How do we mark what we have changed?
 
-But if you put your code on GitHub your colleges can find your code. They can understand it through your documentation (please also have in-line comments)
+But if you put your code on GitHub your colleagues can find your code. They can understand it through your documentation (please also have in-line comments)
 
 Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application
 
@@ -467,7 +467,7 @@ At first glance this makes no sense!
 If you look closer it all comes down to control and knowledge. You, your team, your company, needs to as much as possible on your own. Self-reliance is king.
 
 Build up your knowledge and therefore the teams knowledge. When you have the ability to do everything yourself, you are in full control.
-		
+
 You can build electric cars, rocket engines or bore tunnels.
 
 Don’t largely rely on others and be confident to just do stuff on your own.
@@ -481,15 +481,15 @@ PS. Don’t get me wrong. You can still outsource work. Just do it in a smart wa
 \subsubsection{OKR}
 
 I talked about this in this Podcast: https://anchor.fm/andreaskayy/embed/episodes/Agile-Development-Is-Important-But-Please-Dont-Do-Scrum--PoDS-041-e2e2j4
- 
+
  \subsection{Learn how a Computer Works}
- 
+
 \subsubsection{CPU,RAM,GPU,HDD}
 
 \subsubsection{Differences between PCs and Servers}
 
 I talked about computer hardware and GPU processing in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Why-the-hardware-and-the-GPU-is-super-important--PoDS-030-e23rig
- 
+
 \subsection{Computer Networking}
 
 \subsubsection{ISO/OSI Model}
@@ -534,18 +534,18 @@ Linux Tips are the second part of this podcast: https://anchor.fm/andreaskayy/em
 \subsubsection{Security}
 
 Listen to a few thoughts about the cloud in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Dont-Be-Arrogant-The-Cloud-is-Safer-Then-Your-On-Premise-e16k9s
- 
 
-\subsection{Security Zone Design} 
-\subsubsection{How to secure a multi layered application} 
+
+\subsection{Security Zone Design}
+\subsubsection{How to secure a multi layered application}
 (UI in different zone then SQL DB)
 
 \subsubsection{Cluster security with Kerberos}
 
 I talked about security zone design and lambda architecture in this podcast: https://anchor.fm/andreaskayy/embed/episodes/How-to-Design-Security-Zones-and-Lambda-Architecture--PoDS-032-e248q2
- 
-\subsubsection{Kerberos Tickets} 
- 
+
+\subsubsection{Kerberos Tickets}
+
 \subsection{Three methods of streaming | available}
 
 In stream processing sometimes it is ok to drop messages, other times it is not. Sometimes it is fine to process a message multiple times, other times that needs to be avoided like hell.
@@ -662,7 +662,7 @@ But in the long run it will help you a lot. Good planning will get a lot of prob
 \paragraph{The Problem With ETL}
 A typical old-school platform deployment would look like the picture below. Devices use a data API to upload data that gets stored in a SQL database. An external analytics tool is querying data and uploading the results back to the SQL db. Users then use the user interface to display data stored in the database.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.7\textwidth]{images/Common-SQL-Architecture}
   \caption{Common SQL Platform Architecture}
@@ -691,7 +691,7 @@ Using more powerful CPU’s for better transform performance (more RAM helps her
 Increasing or optimising networking performance for faster data delivery to the front end and analytics
 Scaling up the system is fairly easy.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.7\textwidth]{images/SQL-Scaling-UP}
   \caption{Scaling up a SQL Database}
@@ -707,7 +707,7 @@ Scaling out is the opposite of scaling up. Instead of building bigger systems th
 
 The simplest way of scaling out an SQL database is using a storage area network (SAN) to store the data. You can then use up to eight SQL servers, attach them to the SAN and let them handle queries. This way load gets distributed between those eight servers.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.7\textwidth]{images/SQL-Scaling-Out}
   \caption{Scaling out a SQL Database}
@@ -741,7 +741,7 @@ On the other side: If you really need big data tools they will save your ass :)
 
 
 \subsection{What is the difference between a Data Warehouse and a Data Lake}
- 
+
 \subsection{Hadoop Platforms | available}
 When people talk about big data, one of the first things come to mind is Hadoop. Google’s search for Hadoop returns about 28 million results.
 
@@ -770,7 +770,7 @@ To better visualize this eco system I have drawn you the following graphic. It s
 
 It is not a complete list. There are many more tools that even I don’t know. Maybe I am drawing a complete map in the future.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Hadoop-Ecosystem.png}
   \caption{Hadoop Ecosystem Components}
@@ -783,7 +783,7 @@ Remember my big data platform blueprint? The blueprint has four stages: Ingest, 
 Because of the Hadoop ecosystem” the different tools in these stages can work together perfectly.
 
 Here’s an example:
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Hadoop-Ecosystem-Connections.png}
   \caption{Connections between tools}
@@ -811,7 +811,7 @@ It can act as an agent to consume messages from Kafka and store them into HDFS. 
 
 Flume can use Hadoop’s YARN resource manager out of the box.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Hadoop-Ecosystem-Connections-Flume.png}
   \caption{Flume Integration}
@@ -844,19 +844,19 @@ Not in depth, but to the point that you know how they work and how you can use t
 
 Plus, most of the technologies are open source. You can try them out for free.
 \subsubsection{How does a Hadoop System architecture look like}
-\subsubsection{What tools are usually in a with Hadoop Cluster} 
-Yarn 
-Zookeeper 
-HDFS 
-Oozie 
+\subsubsection{What tools are usually in a with Hadoop Cluster}
+Yarn
+Zookeeper
+HDFS
+Oozie
 Flume
 Hive
-\subsubsection{How to select Hadoop Cluster Hardware} 
- 
+\subsubsection{How to select Hadoop Cluster Hardware}
+
 \subsection{Is ETL still relevant for Analytics?}
 I talked about this in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Is-ETL-Dead-For-Data-Science--Big-Data---PoDS-039-e2b604
- 
- 
+
+
 \subsection{Docker}
 
 \subsubsection{What is docker and what do you use it for | available}
@@ -910,9 +910,9 @@ Perfect for Data Science.
 \subsubsection{Kubernetes}
 \subsubsection{Why and how to do Docker container orchestration}
 Podcast about how data science learners use Docker (for data scientists): https://anchor.fm/andreaskayy/embed/episodes/Learn-Data-Science-Go-Docker-e10n7u
-  
- 
- 
+
+
+
 
 
 \subsection{REST APIs}
@@ -957,7 +957,7 @@ HDFS will automatically place your files somewhere in the Hadoop server collecti
 
 It will not only store your file, Hadoop will also replicate it two or three times (you can define that). Replication means replicas of the file will be distributed to different servers.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/HDFS-Master-DataNodes}
   \caption{HDFS Master and Data Nodes}
@@ -974,7 +974,7 @@ HDFS physically stores files different then a normal file system. It splits the 
 
 These blocks are then distributed and replicated on the Hadoop cluster. The splitting happens automatically.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/HDFS-Distributed-FileSystem}
   \caption{Distribution of Blocks for a 512MB File}
@@ -994,14 +994,14 @@ See the MapReduce section for an example.
 \subsubsection{Kudu}
 
 \subsubsection{Time Series Databases}
-DalmatinerDB 
-InfluxDB 
-Prometheus 
+DalmatinerDB
+InfluxDB
+Prometheus
 Riak TS
 OpenTSDB
-KairosDB 
-Elasticsearch 
-Druid 
+KairosDB
+Elasticsearch
+Druid
 \subsubsection{MPP Databases (Greenplum)}
 
 
@@ -1028,7 +1028,7 @@ The map and reduce phases are parallelised. What that means is, that you have mu
 
 Here's an example how such a map and reduce process works with data:
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/MapReduce-Process-Detailed}
   \caption{Mapping of input files and reducing of mapped records}
@@ -1078,7 +1078,7 @@ After all parallel map phases are done, each key/value pair gets sent to the one
 
 Every reducer input record then has a list of values and you can calculate (1+5+9)/3, (2+6+7)/3 and (3+4+8)/3. That’s all.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/MapReduce-Time-Series-example}
   \caption{MapReduce Example of Time Series Data}
@@ -1098,7 +1098,7 @@ That means, if your dataset would be 10 times as big and you’d have 10 times t
 \paragraph{What is the limitation of MapReduce? -- available}
 MapReduce is awesome for simpler analytics tasks, like counting stuff. It just has one flaw: It has only two stages Map and Reduce.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/MapReduce-Process}
   \caption{The Map Reduce Process}
@@ -1118,7 +1118,7 @@ Another issue with MapReduce is that it is not capable of streaming analytics. J
 This is a big negative point in a more and more real time data processing world.
 
 
- 
+
 \subsection{Apache Spark}
 I talked about the three methods of data streaming in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Three-Methods-of-Streaming-Data-e15r6o
 
@@ -1141,7 +1141,7 @@ As a result, Spark can deliver you results from streaming data in “real time�
 \paragraph{How does Spark fit to Hadoop? -- available}
 There are some very misleading articles out there titled Spark or Hadoop, Spark is better than Hadoop or even Spark is replacing Hadoop.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Table-Hadoop-and-Spark}
   \caption{Hadoop vs Spark capabilities}
@@ -1219,7 +1219,7 @@ That’s exactly what Spark is doing. You can and should run Spark workers direc
 
 Spark can then natively identify on what data node the needed data is stored. This enables Spark to use the worker running on the machine where the data is stored to load the data into the memory.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Spark-Data-Locality}
   \caption{Spark Using Hadoop Data Locality}
@@ -1258,7 +1258,7 @@ It allows YARN to efficiently allocate resources to your Hadoop and Spark proces
 
 Having a single resource manager instead of two independent ones makes it a lot easier to configure the resource management.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Spark-Yarn}
   \caption{Spark Resource Management With YARN}
@@ -1372,7 +1372,7 @@ Somehow you need to convince people that it is a viable approach. That learning 
 
 \paragraph{You Have The Data. USE IT!}
 
-As a data scientist you have one ace up your sleeve, it’s the obvious one: 
+As a data scientist you have one ace up your sleeve, it’s the obvious one:
 
 It’s the data and it’s statistics.
 
@@ -1380,7 +1380,7 @@ You can use that data and those statistics to counter peoples preconceptions. It
 
 You bring the data. You show the statistics and you show that it works reliably.
 
-A lot of discussions end there. 
+A lot of discussions end there.
 
 Data doesn’t lie. You can’t fight data.
 The data is always right.
@@ -1410,19 +1410,19 @@ Companies like Tesla, they have it very easy. Because the data is already there.
 
 \paragraph{Android \& IOS basics}
 \paragraph{How to design APIs for mobile apps}
- 
+
 \subsubsection{How to use Webservers to display content}
 This section does not contain any text that's why the page is messed up
 \paragraph{Tomcat}
 \paragraph{Jetty}
 \paragraph{NodeRED}
 \paragraph{React}
- 
+
 \subsubsection{Business Intelligence Tools}
 \paragraph{Tableau}
 \paragraph{PowerBI}
 \paragraph{Quliksense}
- 
+
 \subsubsection{Identity \& Device Management}
 
 \paragraph{What is a digital twin?}
@@ -1434,10 +1434,10 @@ This section does not contain any text that's why the page is messed up
 \subsection{Data Science @Airbnb}
 \url{https://medium.com/airbnb-engineering/airbnb-engineering-infrastructure/home}
 
-Airbnb Engineering Blog: 
+Airbnb Engineering Blog:
 \url{https://medium.com/airbnb-engineering}
 
-Data Infrastructure: 
+Data Infrastructure:
 \url{https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c}
 
 Scaling the serving tier:
@@ -1452,6 +1452,9 @@ Spark Streaming for logging events:
 -Druid Wiki:
 \url{https://en.wikipedia.org/wiki/Apache_Druid}
 
+\subsection{Data Science @Amazon}
+\url{https://www.datasciencecentral.com/profiles/blogs/20-data-science-systems-used-by-amazon-to-operate-its-business} \\
+\url{https://aws.amazon.com/solutions/case-studies/amazon-migration-analytics/}
 
 \subsection{Data Science @Baidu}
 \url{https://www.slideshare.net/databricks/spark-sql-adaptive-execution-unleashes-the-power-of-cluster-in-large-scale-with-chenzhao-guo-and-carson-wang}
@@ -1523,7 +1526,17 @@ Confluent Platform:
 \subsection{Data Science @Facebook}
 \url{https://code.fb.com/core-data/apache-spark-scale-a-60-tb-production-use-case/}
 
+
 \subsection{Data Science @@Grammarly}
+
+\subsection{Data Science @Google}
+\url{http://www.unofficialgoogledatascience.com/} \\
+\url{https://ai.google/research/teams/ai-fundamentals-applications/} \\
+\url{https://cloud.google.com/solutions/big-data/} \\
+\url{https://datafloq.com/read/google-applies-big-data-infographic/385}
+
+\subsection{Data Science @Grammarly}
+
 \url{https://www.slideshare.net/databricks/building-a-versatile-analytics-pipeline-on-top-of-apache-spark-with-mikhail-chernetsov}
 
 \subsection{Data Science @ING Fraud}
@@ -1554,7 +1567,7 @@ Confluent Platform:
 \subsection{Data Science @Netflix -- available}
 
 Netflix revolutionized how we watch movies and tv. Currently over 75 million users watch 125 million hours of Netflix content every day!
-	
+
 Netflix’s revenue comes from a monthly subscription service. So, the goal for Netflix is to keep you subscribed and to get new subscribers.
 
 To achieve this, Netflix is licensing movies from studios as well as creating its own original movies and tv series.
@@ -1572,7 +1585,7 @@ When Netflix started out, they had a very simple batch processing system archite
 
 The key components were Chuckwa, a scalable data collection system, Amazon S3 and Elastic MapReduce.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Netflix-Chuckwa-Pipeline}
   \caption{Old Netflix Batch Processing Pipeline}
@@ -1590,7 +1603,7 @@ Because you are looking at the big picture you can create new products. Netflix 
 
 They created House of Cards based on data. There is a very interesting Ted talk about this you should watch:
 
-How to use data to make a hit TV show | Sebastian Wernicke: 
+How to use data to make a hit TV show | Sebastian Wernicke:
 
 
 Batch processing also helps Netflix to know the exact episode of a TV show that gets you hooked. Not only globally but for every country where Netflix is available.
@@ -1620,7 +1633,7 @@ This is what I get displayed as trending while I am writing this on a Saturday m
 
 What is currently being watched is only a part of the data that is used to generate “Trending Now”.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Netflix-Trending-Now-Screenshot}
   \caption{Netflix Trending Now Feature}
@@ -1650,7 +1663,7 @@ Beacon and Viewing History publish messages to Kafka topics. The analytics subsc
 
 After the analytics the workflow is straight forward. The trending data is stored in a Cassandra Key-Value store. The recommender service has access to Cassandra and is making the data available to the Netflix client.
 
-\begin{figure}[htbp] 
+\begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Netflix-Streaming-Pipeline}
   \caption{Netflix Streaming Pipeline}
@@ -1718,6 +1731,8 @@ They also stated, that Netflix is going to replace the custom made analytics too
 
 \url{https://eng.uber.com/aresdb/}
 
+\url{https://www.uber.com/us/en/uberai/}
+
 \subsection{Data Science @Upwork}
 \url{https://www.slideshare.net/databricks/how-to-rebuild-an-endtoend-ml-pipeline-with-databricks-and-upwork-with-thanh-tran}
 
@@ -1729,16 +1744,16 @@ They also stated, that Netflix is going to replace the custom made analytics too
 
 \url{https://jobs.zalando.com/tech/blog/complex-event-generation-for-business-process-monitoring-using-apache-flink/}
 
- 
+
 \newpage
 
 \begin{thebibliography}{99}
- 
-\bibitem{einstein} 
-J.~Ely and I.~Stavrov, 
+
+\bibitem{einstein}
+J.~Ely and I.~Stavrov,
 \emph{Analyzing chalk dust and writing speeds: computational and geometric approaches},
-BoDine Journal of Mathematics \textbf{3} (2001), 14-159. 
- 
+BoDine Journal of Mathematics \textbf{3} (2001), 14-159.
+
 \end{thebibliography}
 
 
