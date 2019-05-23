@@ -15,6 +15,8 @@ I split this cookbook into multiple parts
 ## Join me writing this book
 If you have some cool links or topics for the cookbook, please become a contributor, pull the repo add them and create a pull request
 
+Please pull only the newest release-x.x branch. \
+This way we keep the master branch clean and I don't have to mess around resolving conflicts.
 
 ## Support
 
