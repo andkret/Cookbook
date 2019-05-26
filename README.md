@@ -12,11 +12,15 @@ I split this cookbook into multiple parts
 + In part one you will learn the basics
 + Part two will contain a real world data engineering example
 + The third part contains over 30 case studies with links to interesting presentations
-## Join me writing this book
-If you have some cool links or topics for the cookbook, please become a contributor, pull the repo add them and create a pull request
+
+## How to contribute
+If you have some cool links or topics for the cookbook, please become a contributor.
+Pull the repo, add them and create a pull request.
 
 Please pull only the newest release-x.x branch. \
-This way we keep the master branch clean and I don't have to mess around resolving conflicts.
+This way we keep the master branch clean and I don't have to mess around resolving conflicts. You just need to change the .tex file. I'll recompile it later when I merge the branch with the master
+
+For comments please use the "Issues" function.
 
 ## Support
 
