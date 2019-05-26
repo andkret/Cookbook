@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  26 MAY 2019 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  26 MAY 2019 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,20 +708,20 @@ dreaskayy/embed/episodes/4-
  []
 
 [31]
-<images/Common-SQL-Architecture.png, id=1309, 652.4375pt x 527.9725pt>
+<images/Common-SQL-Architecture.png, id=1310, 652.4375pt x 527.9725pt>
 File: images/Common-SQL-Architecture.png Graphic file (type png)
 <use images/Common-SQL-Architecture.png>
 Package pdftex.def Info: images/Common-SQL-Architecture.png  used on input line
  529.
 (pdftex.def)             Requested size: 317.07619pt x 256.59805pt.
  [32 <./images/Common-SQL-Architecture.png>]
-<images/SQL-Scaling-UP.png, id=1316, 862.22125pt x 329.23pt>
+<images/SQL-Scaling-UP.png, id=1317, 862.22125pt x 329.23pt>
 File: images/SQL-Scaling-UP.png Graphic file (type png)
 <use images/SQL-Scaling-UP.png>
 Package pdftex.def Info: images/SQL-Scaling-UP.png  used on input line 558.
 (pdftex.def)             Requested size: 317.07619pt x 121.06969pt.
  [33 <./images/SQL-Scaling-UP.png>]
-<images/SQL-Scaling-Out.png, id=1323, 676.5275pt x 588.1975pt>
+<images/SQL-Scaling-Out.png, id=1324, 676.5275pt x 588.1975pt>
 File: images/SQL-Scaling-Out.png Graphic file (type png)
 <use images/SQL-Scaling-Out.png>
 Package pdftex.def Info: images/SQL-Scaling-Out.png  used on input line 574.
@@ -735,19 +735,19 @@ chapter 15.
 [37
 
 ]
-<images/Hadoop-Ecosystem.png, id=1343, 710.655pt x 692.5875pt>
+<images/Hadoop-Ecosystem.png, id=1344, 710.655pt x 692.5875pt>
 File: images/Hadoop-Ecosystem.png Graphic file (type png)
 <use images/Hadoop-Ecosystem.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem.png  used on input line 635.
 (pdftex.def)             Requested size: 407.6684pt x 397.31529pt.
-<images/Hadoop-Ecosystem-Connections.png, id=1344, 611.28375pt x 443.6575pt>
+<images/Hadoop-Ecosystem-Connections.png, id=1345, 611.28375pt x 443.6575pt>
 File: images/Hadoop-Ecosystem-Connections.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem-Connections.png  used on input
  line 648.
 (pdftex.def)             Requested size: 407.6684pt x 295.87473pt.
  [38 <./images/Hadoop-Ecosystem.png>]
-<images/Hadoop-Ecosystem-Connections-Flume.png, id=1351, 621.32124pt x 445.1631
+<images/Hadoop-Ecosystem-Connections-Flume.png, id=1352, 621.32124pt x 445.1631
 3pt>
 File: images/Hadoop-Ecosystem-Connections-Flume.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections-Flume.png>
@@ -1342,16 +1342,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1819.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1819.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1819.
 
+Package rerunfilecheck Info: File `"Data Engineering Cookbook".out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 5701883BCDFD2E1A0B1A2FE226B8AEF2;16483.
 
-
-Package rerunfilecheck Warning: File `"Data Engineering Cookbook".out' has chan
-ged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Data Engineering Cookbook".out':
-(rerunfilecheck)             Before: 16861591EF0761A3FD6BF9361B4249EF;16487
-(rerunfilecheck)             After:  5701883BCDFD2E1A0B1A2FE226B8AEF2;16483.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1371,7 +1365,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Data Engineering Cookbook.pdf" (94 pages, 3433124 bytes).
+Output written on "Data Engineering Cookbook.pdf" (94 pages, 3433122 bytes).
 PDF statistics:
  1861 PDF objects out of 2073 (max. 8388607)
  1700 compressed objects within 17 object streams
