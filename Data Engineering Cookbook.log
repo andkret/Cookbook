@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  21 MAY 2019 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  26 MAY 2019 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -577,7 +577,7 @@ chapter 2.
 [11
 
 ]
-<images/Machine-Learning-Pipeline.png, id=1167, 979.66pt x 280.04625pt>
+<images/Machine-Learning-Pipeline.png, id=1187, 979.66pt x 280.04625pt>
 File: images/Machine-Learning-Pipeline.png Graphic file (type png)
 <use images/Machine-Learning-Pipeline.png>
 Package pdftex.def Info: images/Machine-Learning-Pipeline.png  used on input li
@@ -614,18 +614,18 @@ ple times: https://www.atlassian.com/git/tutorials/atlassian-
 chapter 5.
 [17
 
-] [18]
-Overfull \hbox (8.82318pt too wide) in paragraph at lines 291--292
-\OT1/cmr/m/n/12 I talked about this in this Pod-cast: https://anchor.fm/andreas
-kayy/embed/episodes/Agile-
+] [18] [19]
+Overfull \hbox (2.1596pt too wide) in paragraph at lines 305--306
+[]\OT1/cmr/m/n/12 I talked about this in this Pod-cast: []$\OT1/cmtt/m/n/12 htt
+ps : / / anchor . fm / andreaskayy / embed / episodes /
  []
 
-[19] [20]
+[20]
 chapter 6.
 
-Overfull \hbox (190.76028pt too wide) in paragraph at lines 299--300
-\OT1/cmr/m/n/12 I talked about com-puter hard-ware and GPU pro-cess-ing in this
- pod-cast: https://anchor.fm/andreaskayy/embed/episodes/Why-
+Overfull \hbox (176.70735pt too wide) in paragraph at lines 315--316
+\OT1/cmtt/m/n/12 anchor . fm / andreaskayy / embed / episodes / Why-[]the-[]har
+dware-[]and-[]the-[]GPU-[]is-[]super-[]important-[]-[]PoDS-[]030-[]e23rig$[] 
  []
 
 [21
@@ -633,718 +633,729 @@ Overfull \hbox (190.76028pt too wide) in paragraph at lines 299--300
 ]
 chapter 7.
 
-Overfull \hbox (172.89091pt too wide) in paragraph at lines 313--314
-\OT1/cmr/m/n/12 I talked about Net-work In-fras-truc-ture and Tech-niques in th
-is pod-cast: https://anchor.fm/andreaskayy/embed/episodes/IT-
+Overfull \hbox (38.25781pt too wide) in paragraph at lines 323--324
+[]\OT1/cmr/m/n/12 Cisco page that shows the lay-ers of the OSI model and how it
+ works: []$\OT1/cmtt/m/n/12 https : / / learningnetwork .
+ []
+
+
+Overfull \hbox (56.37419pt too wide) in paragraph at lines 325--326
+[]\OT1/cmr/m/n/12 Check out this page: []$\OT1/cmtt/m/n/12 https : / / www . st
+udytonight . com / computer-[]networks / complete-[]osi-[]model$[] 
+ []
+
+
+Overfull \hbox (69.2323pt too wide) in paragraph at lines 344--345
+\OT1/cmtt/m/n/12 fm / andreaskayy / embed / episodes / IT-[]Networking-[]Infras
+tructure-[]and-[]Linux-[]031-[]PoDS-[]e242bh$[] 
  []
 
 [22
 
-]
+] [23]
 chapter 8.
-[23
+[24
 
 ]
 chapter 9.
-
-Overfull \hbox (54.91428pt too wide) in paragraph at lines 335--336
-\OT1/cmr/m/n/12 Linux Tips are the sec-ond part of this pod-cast: https://ancho
-r.fm/andreaskayy/embed/episodes/IT-
- []
-
-[24
+[25
 
 ]
 chapter 10.
 
-Overfull \hbox (116.76642pt too wide) in paragraph at lines 344--345
-\OT1/cmr/m/n/12 Listen to a few thoughts about the cloud in this pod-cast: http
-s://anchor.fm/andreaskayy/embed/episodes/Dont-
+Overfull \hbox (18.29167pt too wide) in paragraph at lines 398--399
+\OT1/cmr/m/n/12 Listen to a few thoughts about the cloud in this pod-cast: []$\
+OT1/cmtt/m/n/12 https : / / anchor . fm / andreaskayy /
  []
 
-[25
 
-]
-chapter 11.
-
-Overfull \hbox (211.08635pt too wide) in paragraph at lines 352--353
-\OT1/cmr/m/n/12 I talked about se-cu-rity zone de-sign and lambda ar-chi-tec-tu
-re in this pod-cast: https://anchor.fm/andreaskayy/embed/episodes/How-
+Overfull \hbox (34.18228pt too wide) in paragraph at lines 398--399
+\OT1/cmtt/m/n/12 embed / episodes / Dont-[]Be-[]Arrogant-[]The-[]Cloud-[]is-[]S
+afer-[]Then-[]Your-[]On-[]Premise-[]e16k9s$[] 
  []
 
 [26
 
 ]
-chapter 12.
+chapter 11.
+
+Overfull \hbox (207.08237pt too wide) in paragraph at lines 406--407
+\OT1/cmtt/m/n/12 anchor . fm / andreaskayy / embed / episodes / How-[]to-[]Desi
+gn-[]Security-[]Zones-[]and-[]Lambda-[]Architecture-[]-[]PoDS-[]032-[]e248q2$[]
+ 
+ []
+
 [27
 
-] [28]
+]
+chapter 12.
+[28
+
+] [29]
 chapter 13.
 
-Overfull \hbox (42.702pt too wide) in paragraph at lines 409--410
+Overfull \hbox (42.702pt too wide) in paragraph at lines 463--464
 \OT1/cmr/m/n/12 I talked about the dif-fer-ence in this pod-cast: https://ancho
 r.fm/andreaskayy/embed/episodes/BI-
  []
 
-[29
+[30
 
 ]
-Overfull \hbox (6.70375pt too wide) in paragraph at lines 438--439
+Overfull \hbox (6.70375pt too wide) in paragraph at lines 492--493
 []\OT1/cmr/m/n/12 I talked about the 4Vs in this pod-cast: https://anchor.fm/an
 dreaskayy/embed/episodes/4-
  []
 
-[30]
-<images/Common-SQL-Architecture.png, id=1251, 652.4375pt x 527.9725pt>
+[31]
+<images/Common-SQL-Architecture.png, id=1310, 652.4375pt x 527.9725pt>
 File: images/Common-SQL-Architecture.png Graphic file (type png)
 <use images/Common-SQL-Architecture.png>
 Package pdftex.def Info: images/Common-SQL-Architecture.png  used on input line
- 475.
+ 529.
 (pdftex.def)             Requested size: 317.07619pt x 256.59805pt.
- [31 <./images/Common-SQL-Architecture.png>]
-<images/SQL-Scaling-UP.png, id=1259, 862.22125pt x 329.23pt>
+ [32 <./images/Common-SQL-Architecture.png>]
+<images/SQL-Scaling-UP.png, id=1317, 862.22125pt x 329.23pt>
 File: images/SQL-Scaling-UP.png Graphic file (type png)
 <use images/SQL-Scaling-UP.png>
-Package pdftex.def Info: images/SQL-Scaling-UP.png  used on input line 504.
+Package pdftex.def Info: images/SQL-Scaling-UP.png  used on input line 558.
 (pdftex.def)             Requested size: 317.07619pt x 121.06969pt.
- [32 <./images/SQL-Scaling-UP.png>]
-<images/SQL-Scaling-Out.png, id=1266, 676.5275pt x 588.1975pt>
+ [33 <./images/SQL-Scaling-UP.png>]
+<images/SQL-Scaling-Out.png, id=1324, 676.5275pt x 588.1975pt>
 File: images/SQL-Scaling-Out.png Graphic file (type png)
 <use images/SQL-Scaling-Out.png>
-Package pdftex.def Info: images/SQL-Scaling-Out.png  used on input line 520.
+Package pdftex.def Info: images/SQL-Scaling-Out.png  used on input line 574.
 (pdftex.def)             Requested size: 317.07619pt x 275.681pt.
- [33 <./images/SQL-Scaling-Out.png>] [34]
+ [34 <./images/SQL-Scaling-Out.png>] [35]
 chapter 14.
-[35
-
-]
-chapter 15.
 [36
 
 ]
-<images/Hadoop-Ecosystem.png, id=1285, 710.655pt x 692.5875pt>
+chapter 15.
+[37
+
+]
+<images/Hadoop-Ecosystem.png, id=1344, 710.655pt x 692.5875pt>
 File: images/Hadoop-Ecosystem.png Graphic file (type png)
 <use images/Hadoop-Ecosystem.png>
-Package pdftex.def Info: images/Hadoop-Ecosystem.png  used on input line 581.
+Package pdftex.def Info: images/Hadoop-Ecosystem.png  used on input line 635.
 (pdftex.def)             Requested size: 407.6684pt x 397.31529pt.
-<images/Hadoop-Ecosystem-Connections.png, id=1286, 611.28375pt x 443.6575pt>
+<images/Hadoop-Ecosystem-Connections.png, id=1345, 611.28375pt x 443.6575pt>
 File: images/Hadoop-Ecosystem-Connections.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem-Connections.png  used on input
- line 594.
+ line 648.
 (pdftex.def)             Requested size: 407.6684pt x 295.87473pt.
- [37 <./images/Hadoop-Ecosystem.png>]
-<images/Hadoop-Ecosystem-Connections-Flume.png, id=1294, 621.32124pt x 445.1631
+ [38 <./images/Hadoop-Ecosystem.png>]
+<images/Hadoop-Ecosystem-Connections-Flume.png, id=1352, 621.32124pt x 445.1631
 3pt>
 File: images/Hadoop-Ecosystem-Connections-Flume.png Graphic file (type png)
 <use images/Hadoop-Ecosystem-Connections-Flume.png>
 Package pdftex.def Info: images/Hadoop-Ecosystem-Connections-Flume.png  used on
- input line 622.
+ input line 676.
 (pdftex.def)             Requested size: 407.6684pt x 292.08325pt.
- [38 <./images/Hadoop-Ecosystem-Connections.png>] [39 <./images/Hadoop-Ecosyste
+ [39 <./images/Hadoop-Ecosystem-Connections.png>] [40 <./images/Hadoop-Ecosyste
 m-Connections-Flume.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 652.
+(hyperref)                than one, level fixed on input line 706.
 
-[40]
+[41]
 chapter 16.
-[41
-
-]
-chapter 17.
 [42
 
 ]
-Overfull \hbox (201.9836pt too wide) in paragraph at lines 718--719
+chapter 17.
+[43
+
+]
+Overfull \hbox (201.9836pt too wide) in paragraph at lines 772--773
 \OT1/cmr/m/n/12 Podcast about how data sci-ence learn-ers use Docker (for data 
 sci-en-tists): https://anchor.fm/andreaskayy/embed/episodes/Learn-
  []
 
-[43] [44]
+[44] [45]
 chapter 18.
 
-Overfull \hbox (103.40683pt too wide) in paragraph at lines 725--726
+Overfull \hbox (103.40683pt too wide) in paragraph at lines 779--780
 \OT1/cmr/m/n/12 Check out my pod-cast about how APIs rule the world: https://an
 chor.fm/andreaskayy/embed/episodes/How-
  []
 
-[45
-
-]
-chapter 19.
 [46
 
 ]
-<images/HDFS-Master-DataNodes.png, id=1337, 776.9025pt x 574.145pt>
+chapter 19.
+[47
+
+]
+<images/HDFS-Master-DataNodes.png, id=1395, 776.9025pt x 574.145pt>
 File: images/HDFS-Master-DataNodes.png Graphic file (type png)
 <use images/HDFS-Master-DataNodes.png>
-Package pdftex.def Info: images/HDFS-Master-DataNodes.png  used on input line 7
-64.
+Package pdftex.def Info: images/HDFS-Master-DataNodes.png  used on input line 8
+18.
 (pdftex.def)             Requested size: 407.6684pt x 301.28171pt.
-<images/HDFS-Distributed-FileSystem.png, id=1338, 1039.885pt x 270.00874pt>
+<images/HDFS-Distributed-FileSystem.png, id=1396, 1039.885pt x 270.00874pt>
 File: images/HDFS-Distributed-FileSystem.png Graphic file (type png)
 <use images/HDFS-Distributed-FileSystem.png>
 Package pdftex.def Info: images/HDFS-Distributed-FileSystem.png  used on input 
-line 781.
+line 835.
 (pdftex.def)             Requested size: 407.6684pt x 105.85094pt.
- [47 <./images/HDFS-Master-DataNodes.png>] [48 <./images/HDFS-Distributed-FileS
+ [48 <./images/HDFS-Master-DataNodes.png>] [49 <./images/HDFS-Distributed-FileS
 ystem.png>]
 chapter 20.
-<images/MapReduce-Process-Detailed.png, id=1351, 757.83125pt x 705.63625pt>
+<images/MapReduce-Process-Detailed.png, id=1410, 757.83125pt x 705.63625pt>
 File: images/MapReduce-Process-Detailed.png Graphic file (type png)
 <use images/MapReduce-Process-Detailed.png>
 Package pdftex.def Info: images/MapReduce-Process-Detailed.png  used on input l
-ine 835.
+ine 889.
 (pdftex.def)             Requested size: 407.6684pt x 379.59511pt.
-[49
+[50
 
-] [50 <./images/MapReduce-Process-Detailed.png>] [51]
-<images/MapReduce-Time-Series-example.png, id=1367, 963.6pt x 436.63126pt>
+] [51 <./images/MapReduce-Process-Detailed.png>] [52]
+<images/MapReduce-Time-Series-example.png, id=1425, 963.6pt x 436.63126pt>
 File: images/MapReduce-Time-Series-example.png Graphic file (type png)
 <use images/MapReduce-Time-Series-example.png>
 Package pdftex.def Info: images/MapReduce-Time-Series-example.png  used on inpu
-t line 885.
+t line 939.
 (pdftex.def)             Requested size: 407.6684pt x 184.72302pt.
- [52 <./images/MapReduce-Time-Series-example.png>]
-<images/MapReduce-Process.png, id=1374, 816.04875pt x 49.18375pt>
+ [53 <./images/MapReduce-Time-Series-example.png>]
+<images/MapReduce-Process.png, id=1432, 816.04875pt x 49.18375pt>
 File: images/MapReduce-Process.png Graphic file (type png)
 <use images/MapReduce-Process.png>
-Package pdftex.def Info: images/MapReduce-Process.png  used on input line 905.
+Package pdftex.def Info: images/MapReduce-Process.png  used on input line 959.
 (pdftex.def)             Requested size: 407.6684pt x 24.57079pt.
 
-Overfull \hbox (174.20895pt too wide) in paragraph at lines 925--926
+Overfull \hbox (174.20895pt too wide) in paragraph at lines 979--980
 \OT1/cmr/m/n/12 I talked about the three meth-ods of data stream-ing in this po
 d-cast: https://anchor.fm/andreaskayy/embed/episodes/Three-
  []
 
-[53 <./images/MapReduce-Process.png>]
-<images/Table-Hadoop-and-Spark.png, id=1381, 819.06pt x 160.6pt>
+[54 <./images/MapReduce-Process.png>]
+<images/Table-Hadoop-and-Spark.png, id=1439, 819.06pt x 160.6pt>
 File: images/Table-Hadoop-and-Spark.png Graphic file (type png)
 <use images/Table-Hadoop-and-Spark.png>
 Package pdftex.def Info: images/Table-Hadoop-and-Spark.png  used on input line 
-947.
+1001.
 (pdftex.def)             Requested size: 407.6684pt x 79.9371pt.
- [54 <./images/Table-Hadoop-and-Spark.png>] [55] [56]
-<images/Spark-Data-Locality.png, id=1397, 1028.84375pt x 578.16pt>
+ [55 <./images/Table-Hadoop-and-Spark.png>] [56] [57]
+<images/Spark-Data-Locality.png, id=1456, 1028.84375pt x 578.16pt>
 File: images/Spark-Data-Locality.png Graphic file (type png)
 <use images/Spark-Data-Locality.png>
-Package pdftex.def Info: images/Spark-Data-Locality.png  used on input line 102
-5.
+Package pdftex.def Info: images/Spark-Data-Locality.png  used on input line 107
+9.
 (pdftex.def)             Requested size: 407.6684pt x 229.08969pt.
- [57 <./images/Spark-Data-Locality.png>] [58]
-<images/Spark-Yarn.png, id=1408, 1047.915pt x 412.54124pt>
+ [58 <./images/Spark-Data-Locality.png>] [59]
+<images/Spark-Yarn.png, id=1467, 1047.915pt x 412.54124pt>
 File: images/Spark-Yarn.png Graphic file (type png)
 <use images/Spark-Yarn.png>
-Package pdftex.def Info: images/Spark-Yarn.png  used on input line 1064.
+Package pdftex.def Info: images/Spark-Yarn.png  used on input line 1118.
 (pdftex.def)             Requested size: 407.6684pt x 160.48756pt.
- [59 <./images/Spark-Yarn.png>]
+ [60 <./images/Spark-Yarn.png>]
 chapter 21.
-[60
+[61
 
 ]
 chapter 22.
 
-Overfull \hbox (158.34375pt too wide) in paragraph at lines 1083--1084
+Overfull \hbox (158.34375pt too wide) in paragraph at lines 1137--1138
 \OT1/cmr/m/n/12 My pod-cast about how to do ma-chine learn-ing in pro-duc-tion:
  https://anchor.fm/andreaskayy/embed/episodes/Machine-
  []
 
-[61
+[62
 
-] [62] [63] [64] [65]
+] [63] [64] [65] [66]
 chapter 23.
-[66
+[67
 
-] [67]
+] [68]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1233.
-[68
+(scrkbase)              on input line 1287.
+[69
 
 ]
 chapter 24.
-<images/Big-Data-Platform-Blueprint-Title-Original.png, id=1454, 3795.17876pt x
+<images/Big-Data-Platform-Blueprint-Title-Original.png, id=1512, 3795.17876pt x
  2076.75874pt>
 File: images/Big-Data-Platform-Blueprint-Title-Original.png Graphic file (type 
 png)
 <use images/Big-Data-Platform-Blueprint-Title-Original.png>
 Package pdftex.def Info: images/Big-Data-Platform-Blueprint-Title-Original.png 
- used on input line 1253.
+ used on input line 1307.
 (pdftex.def)             Requested size: 407.6684pt x 223.05708pt.
-[69
+[70
 
- <./images/Big-Data-Platform-Blueprint-Title-Original.png>] [70]
-Overfull \hbox (162.74243pt too wide) in paragraph at lines 1312--1313
+ <./images/Big-Data-Platform-Blueprint-Title-Original.png>] [71]
+Overfull \hbox (162.74243pt too wide) in paragraph at lines 1366--1367
 []\OT1/cmr/m/n/12 Check out my pod-cast how to de-cide be-tween SQL and NoSQL: 
 https://anchor.fm/andreaskayy/embed/episodes/NoSQL-
  []
 
-[71] [72]
+[72] [73]
 chapter 25.
-<images/Simple-Batch-Processing-Workflow.png, id=1474, 1031.855pt x 151.56625pt
+<images/Simple-Batch-Processing-Workflow.png, id=1534, 1031.855pt x 151.56625pt
 >
 File: images/Simple-Batch-Processing-Workflow.png Graphic file (type png)
 <use images/Simple-Batch-Processing-Workflow.png>
 Package pdftex.def Info: images/Simple-Batch-Processing-Workflow.png  used on i
-nput line 1341.
+nput line 1395.
 (pdftex.def)             Requested size: 407.6684pt x 59.88072pt.
-[73
+[74
 
  <./images/Simple-Batch-Processing-Workflow.png>]
-<images/Simple-Stream-Processing-Workflow.png, id=1482, 1046.91125pt x 134.5025
+<images/Simple-Stream-Processing-Workflow.png, id=1541, 1046.91125pt x 134.5025
 pt>
 File: images/Simple-Stream-Processing-Workflow.png Graphic file (type png)
 <use images/Simple-Stream-Processing-Workflow.png>
 Package pdftex.def Info: images/Simple-Stream-Processing-Workflow.png  used on 
-input line 1372.
+input line 1426.
 (pdftex.def)             Requested size: 407.6684pt x 52.37366pt.
- [74 <./images/Simple-Stream-Processing-Workflow.png>] [75]
+ [75 <./images/Simple-Stream-Processing-Workflow.png>] [76]
 chapter 26.
-[76
+[77
 
 ]
 chapter 27.
-[77
+[78
+
+]
+chapter 28.
+[79
 
 ]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1433.
-[78
+(scrkbase)              on input line 1490.
+[80
 
 ]
-chapter 28.
+chapter 29.
 
-Overfull \hbox (17.83228pt too wide) in paragraph at lines 1438--1439
+Overfull \hbox (17.83228pt too wide) in paragraph at lines 1495--1496
 []$\OT1/cmtt/m/n/12 https : / / medium . com / airbnb-[]engineering / airbnb-[]
 engineering-[]infrastructure / home$[] 
  []
 
 
-Overfull \hbox (150.48257pt too wide) in paragraph at lines 1443--1445
+Overfull \hbox (150.48257pt too wide) in paragraph at lines 1500--1502
 []\OT1/cmr/m/n/12 Data In-fras-truc-ture: []$\OT1/cmtt/m/n/12 https : / / mediu
 m . com / airbnb-[]engineering / data-[]infrastructure-[]at-[]airbnb-[]8adfb34f
 169c$[] 
  []
 
 
-Overfull \hbox (334.71721pt too wide) in paragraph at lines 1446--1448
+Overfull \hbox (334.71721pt too wide) in paragraph at lines 1503--1505
 []\OT1/cmr/m/n/12 Scaling the serv-ing tier: []$\OT1/cmtt/m/n/12 https : / / me
 dium . com / airbnb-[]engineering / unlocking-[]horizontal-[]scalability-[]in-[
 ]our-[]web-[]serving-[]tier-[]d907449cdbcf$[] 
  []
 
 
-Overfull \hbox (113.67998pt too wide) in paragraph at lines 1449--1451
+Overfull \hbox (113.67998pt too wide) in paragraph at lines 1506--1508
 []\OT1/cmr/m/n/12 Druid An-a-lyt-ics: []$\OT1/cmtt/m/n/12 https : / / medium . 
 com / airbnb-[]engineering / druid-[]airbnb-[]data-[]platform-[]601c312f2a4c$[]
  
  []
 
 
-Overfull \hbox (363.39713pt too wide) in paragraph at lines 1452--1454
+Overfull \hbox (363.39713pt too wide) in paragraph at lines 1509--1511
 []\OT1/cmr/m/n/12 Spark Stream-ing for log-ging events: []$\OT1/cmtt/m/n/12 htt
 ps : / / medium . com / airbnb-[]engineering / scaling-[]spark-[]streaming-[]fo
 r-[]logging-[]event-[]ingestion-[]4a03141d135d$[] 
  []
 
 
-Overfull \hbox (243.63239pt too wide) in paragraph at lines 1459--1461
+Overfull \hbox (243.63239pt too wide) in paragraph at lines 1516--1518
 []$\OT1/cmtt/m/n/12 https : / / www . datasciencecentral . com / profiles / blo
 gs / 20-[]data-[]science-[]systems-[]used-[]by-[]amazon-[]to-[]operate-[]its-[]
 business$[] 
  []
 
 
-Overfull \hbox (457.08249pt too wide) in paragraph at lines 1463--1464
+Overfull \hbox (457.08249pt too wide) in paragraph at lines 1520--1521
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / spark-[]s
 ql-[]adaptive-[]execution-[]unleashes-[]the-[]power-[]of-[]cluster-[]in-[]large
 -[]scale-[]with-[]chenzhao-[]guo-[]and-[]carson-[]wang$[] 
  []
 
 
-Overfull \hbox (317.73242pt too wide) in paragraph at lines 1466--1467
+Overfull \hbox (317.73242pt too wide) in paragraph at lines 1523--1524
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / DataStax / maintaining
 -[]consistency-[]across-[]data-[]centers-[]randy-[]fradin-[]blackrock-[]cassand
 ra-[]summit-[]2016$[] 
  []
 
-[79
+[81
 
 ]
-Overfull \hbox (105.28232pt too wide) in paragraph at lines 1472--1473
+Overfull \hbox (105.28232pt too wide) in paragraph at lines 1529--1530
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / ConfluentInc / data-[]
 streaming-[]ecosystem-[]management-[]at-[]bookingcom ?
  []
 
 
-Overfull \hbox (55.8823pt too wide) in paragraph at lines 1472--1473
+Overfull \hbox (55.8823pt too wide) in paragraph at lines 1529--1530
 \OT1/cmtt/m/n/12 ref = https : / / www . confluent . io / kafka-[]summit-[]sf18
  / data-[]streaming-[]ecosystem-[]management$[] 
  []
 
 
-Overfull \hbox (554.88254pt too wide) in paragraph at lines 1474--1475
+Overfull \hbox (554.88254pt too wide) in paragraph at lines 1531--1532
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / produc
 tionizing-[]behavioural-[]features-[]for-[]machine-[]learning-[]with-[]apache-[
 ]spark-[]streaming-[]with-[]ben-[]teeuwen-[]and-[]roman-[]studenikin$[] 
  []
 
 
-Overfull \hbox (105.28232pt too wide) in paragraph at lines 1476--1477
+Overfull \hbox (105.28232pt too wide) in paragraph at lines 1533--1534
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / ConfluentInc / data-
 []streaming-[]ecosystem-[]management-[]at-[]bookingcom ?
  []
 
 
-Overfull \hbox (55.8823pt too wide) in paragraph at lines 1476--1477
+Overfull \hbox (55.8823pt too wide) in paragraph at lines 1533--1534
 \OT1/cmtt/m/n/12 ref = https : / / www . confluent . io / kafka-[]summit-[]sf18
  / data-[]streaming-[]ecosystem-[]management$[] 
  []
 
 
-Overfull \hbox (35.35728pt too wide) in paragraph at lines 1493--1494
+Overfull \hbox (35.35728pt too wide) in paragraph at lines 1550--1551
 [][]$\OT1/cmtt/m/n/12 https : / / openlab . cern / sites / openlab . web . cern
  . ch / files / 2018-[]09 / 2017 _ ESADE _ Madrid _
  []
 
 
-Overfull \hbox (147.50734pt too wide) in paragraph at lines 1495--1496
+Overfull \hbox (147.50734pt too wide) in paragraph at lines 1552--1553
 [][]$\OT1/cmtt/m/n/12 https : / / openlab . cern / sites / openlab . web . cern
  . ch / files / 2018-[]05 / kubeconeurope2018-[]cern-[]180507122303 .
  []
 
 
-Overfull \hbox (137.15733pt too wide) in paragraph at lines 1497--1498
+Overfull \hbox (137.15733pt too wide) in paragraph at lines 1554--1555
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / next-[
 ]cern-[]accelerator-[]logging-[]service-[]with-[]jakub-[]wozniak$[] 
  []
 
 
-Overfull \hbox (119.13232pt too wide) in paragraph at lines 1499--1500
+Overfull \hbox (119.13232pt too wide) in paragraph at lines 1556--1557
 [][]$\OT1/cmtt/m/n/12 https : / / databricks . com / session / the-[]architectu
 re-[]of-[]the-[]next-[]cern-[]accelerator-[]logging-[]service$[] 
  []
 
 
-Overfull \hbox (287.3574pt too wide) in paragraph at lines 1505--1506
+Overfull \hbox (287.3574pt too wide) in paragraph at lines 1562--1563
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / cerns-[
 ]next-[]generation-[]data-[]analysis-[]platform-[]with-[]apache-[]spark-[]with-
 []enric-[]tejedor$[] 
  []
 
 
-Overfull \hbox (536.85753pt too wide) in paragraph at lines 1507--1508
+Overfull \hbox (536.85753pt too wide) in paragraph at lines 1564--1565
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / realti
 me-[]detection-[]of-[]anomalies-[]in-[]the-[]database-[]infrastructure-[]using-
 []apache-[]spark-[]with-[]daniel-[]lanza-[]and-[]prasanth-[]kothuri$[] 
  []
 
-[80]
-Overfull \hbox (231.78238pt too wide) in paragraph at lines 1511--1512
+[82]
+Overfull \hbox (231.78238pt too wide) in paragraph at lines 1568--1569
 []$\OT1/cmtt/m/n/12 https : / / medium . com / disney-[]streaming / delivering-
 []data-[]in-[]real-[]time-[]via-[]auto-[]scaling-[]kinesis-[]streams-[]72a0236b
 2cd9$[] 
  []
 
 
-Overfull \hbox (161.85735pt too wide) in paragraph at lines 1514--1515
+Overfull \hbox (161.85735pt too wide) in paragraph at lines 1571--1572
 []$\OT1/cmtt/m/n/12 https : / / berlin-[]2017 . flink-[]forward . org / kb _ se
 ssions / drivetribes-[]kappa-[]architecture-[]with-[]apache-[]flink/$[] 
  []
 
 
-Overfull \hbox (417.53247pt too wide) in paragraph at lines 1516--1517
+Overfull \hbox (417.53247pt too wide) in paragraph at lines 1573--1574
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / FlinkForward / flink
 -[]forward-[]berlin-[]2017-[]aris-[]kyriakos-[]koliopoulos-[]drivetribes-[]kapp
 a-[]architecture-[]with-[]apache-[]flink$[] 
  []
 
 
-Overfull \hbox (149.00734pt too wide) in paragraph at lines 1519--1520
+Overfull \hbox (149.00734pt too wide) in paragraph at lines 1576--1577
 []$\OT1/cmtt/m/n/12 https : / / blogs . dropbox . com / tech / 2019 / 01 / find
 ing-[]kafkas-[]throughput-[]limit-[]in-[]dropbox-[]infrastructure/$[] 
  []
 
 
-Overfull \hbox (507.98251pt too wide) in paragraph at lines 1522--1524
+Overfull \hbox (507.98251pt too wide) in paragraph at lines 1579--1581
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / moving-[]
 ebays-[]data-[]warehouse-[]over-[]to-[]apache-[]spark-[]spark-[]as-[]core-[]etl
 -[]platform-[]at-[]ebay-[]with-[]kim-[]curtis-[]and-[]brian-[]knauss$[]
  []
 
 
-Overfull \hbox (337.75743pt too wide) in paragraph at lines 1522--1524
+Overfull \hbox (337.75743pt too wide) in paragraph at lines 1579--1581
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / analytica
 l-[]dbms-[]to-[]apache-[]spark-[]auto-[]migration-[]framework-[]with-[]edward-[
 ]zhang-[]and-[]lipeng-[]zhu$[] 
  []
 
 
-Overfull \hbox (130.98233pt too wide) in paragraph at lines 1526--1528
+Overfull \hbox (130.98233pt too wide) in paragraph at lines 1583--1585
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / BrandonOBrien / spark-
 []streaming-[]kafka-[]best-[]practices-[]w-[]brandon-[]obrien$[]
  []
 
 
-Overfull \hbox (27.00728pt too wide) in paragraph at lines 1530--1531
+Overfull \hbox (27.00728pt too wide) in paragraph at lines 1587--1588
 []$\OT1/cmtt/m/n/12 https : / / code . fb . com / core-[]data / apache-[]spark-
 []scale-[]a-[]60-[]tb-[]production-[]use-[]case/$[] 
  []
 
-[81]
-Overfull \hbox (318.73242pt too wide) in paragraph at lines 1539--1540
+[83]
+Overfull \hbox (318.73242pt too wide) in paragraph at lines 1596--1597
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / building-
 []a-[]versatile-[]analytics-[]pipeline-[]on-[]top-[]of-[]apache-[]spark-[]with-
 []mikhail-[]chernetsov$[] 
  []
 
 
-Overfull \hbox (256.98239pt too wide) in paragraph at lines 1542--1543
+Overfull \hbox (256.98239pt too wide) in paragraph at lines 1599--1600
 []$\OT1/cmtt/m/n/12 https : / / sf-[]2017 . flink-[]forward . org / kb _ sessio
 ns / streaming-[]models-[]how-[]ing-[]adds-[]models-[]at-[]runtime-[]to-[]catch
 -[]fraudsters/$[] 
  []
 
 
-Overfull \hbox (461.75749pt too wide) in paragraph at lines 1545--1546
+Overfull \hbox (461.75749pt too wide) in paragraph at lines 1602--1603
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / lessons-
 []learned-[]developing-[]and-[]managing-[]massive-[]300tb-[]apache-[]spark-[]pi
 pelines-[]in-[]production-[]with-[]brandon-[]carl$[] 
  []
 
 
-Overfull \hbox (10.15727pt too wide) in paragraph at lines 1556--1557
+Overfull \hbox (10.15727pt too wide) in paragraph at lines 1613--1614
 []$\OT1/cmtt/m/n/12 http : / / sites . nationalacademies . org / cs / groups / 
 ssbsite / documents / webpage / ssb _
  []
 
 
-Overfull \hbox (3.98227pt too wide) in paragraph at lines 1558--1559
+Overfull \hbox (3.98227pt too wide) in paragraph at lines 1615--1616
 [][]$\OT1/cmtt/m/n/12 https : / / esip . figshare . com / articles / Apache _ S
 cience _ Data _ Analytics _ Platform /
  []
 
-[82]
-Overfull \hbox (152.68234pt too wide) in paragraph at lines 1560--1561
+[84]
+Overfull \hbox (152.68234pt too wide) in paragraph at lines 1617--1618
 [][]$\OT1/cmtt/m/n/12 http : / / www . socallinuxexpo . org / sites / default /
  files / presentations / OnSightCloudArchitecture-[]scale14x .
  []
 
 
-Overfull \hbox (5.48227pt too wide) in paragraph at lines 1562--1563
+Overfull \hbox (5.48227pt too wide) in paragraph at lines 1619--1620
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / spark-
 []at-[]nasajplchris-[]mattmann ? qid =
  []
 
-<images/Netflix-Chuckwa-Pipeline.png, id=1584, 1017.8025pt x 363.3575pt>
+<images/Netflix-Chuckwa-Pipeline.png, id=1644, 1017.8025pt x 363.3575pt>
 File: images/Netflix-Chuckwa-Pipeline.png Graphic file (type png)
 <use images/Netflix-Chuckwa-Pipeline.png>
 Package pdftex.def Info: images/Netflix-Chuckwa-Pipeline.png  used on input lin
-e 1589.
+e 1646.
 (pdftex.def)             Requested size: 407.6684pt x 145.54001pt.
-[83] [84 <./images/Netflix-Chuckwa-Pipeline.png>]
-<images/Netflix-Trending-Now-Screenshot.png, id=1602, 1180.41pt x 192.72pt>
+[85] [86 <./images/Netflix-Chuckwa-Pipeline.png>]
+<images/Netflix-Trending-Now-Screenshot.png, id=1662, 1180.41pt x 192.72pt>
 File: images/Netflix-Trending-Now-Screenshot.png Graphic file (type png)
 <use images/Netflix-Trending-Now-Screenshot.png>
 Package pdftex.def Info: images/Netflix-Trending-Now-Screenshot.png  used on in
-put line 1637.
+put line 1694.
 (pdftex.def)             Requested size: 407.6684pt x 66.55609pt.
- [85 <./images/Netflix-Trending-Now-Screenshot.png>]
-<images/Netflix-Streaming-Pipeline.png, id=1612, 1001.7425pt x 437.635pt>
+ [87 <./images/Netflix-Trending-Now-Screenshot.png>]
+<images/Netflix-Streaming-Pipeline.png, id=1671, 1001.7425pt x 437.635pt>
 File: images/Netflix-Streaming-Pipeline.png Graphic file (type png)
 <use images/Netflix-Streaming-Pipeline.png>
 Package pdftex.def Info: images/Netflix-Streaming-Pipeline.png  used on input l
-ine 1667.
+ine 1724.
 (pdftex.def)             Requested size: 407.6684pt x 178.10263pt.
 
-Overfull \hbox (162.85735pt too wide) in paragraph at lines 1680--1681
+Overfull \hbox (162.85735pt too wide) in paragraph at lines 1737--1738
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / SparkSummit / spark-[]
 summit-[]eu-[]talk-[]by-[]sebastian-[]schroeder-[]and-[]ralf-[]sigmund$[] 
  []
 
-[86 <./images/Netflix-Streaming-Pipeline.png>]
-Overfull \hbox (393.33246pt too wide) in paragraph at lines 1686--1687
+[88 <./images/Netflix-Streaming-Pipeline.png>]
+Overfull \hbox (393.33246pt too wide) in paragraph at lines 1743--1744
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / ConfluentInc / pintere
 sts-[]story-[]of-[]streaming-[]hundreds-[]of-[]terabytes-[]of-[]pins-[]from-[]m
 ysql-[]to-[]s3hadoop-[]continuously ?
  []
 
 
-Overfull \hbox (156.18234pt too wide) in paragraph at lines 1686--1687
+Overfull \hbox (156.18234pt too wide) in paragraph at lines 1743--1744
 \OT1/cmtt/m/n/12 ref = https : / / www . confluent . io / kafka-[]summit-[]sf18
  / pinterests-[]story-[]of-[]streaming-[]hundreds-[]of-[]terabytes$[] 
  []
 
 
-Overfull \hbox (174.20735pt too wide) in paragraph at lines 1688--1689
+Overfull \hbox (174.20735pt too wide) in paragraph at lines 1745--1746
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / ConfluentInc / build
 ing-[]pinterest-[]realtime-[]ads-[]platform-[]using-[]kafka-[]streams ?
  []
 
 
-Overfull \hbox (218.93237pt too wide) in paragraph at lines 1688--1689
+Overfull \hbox (218.93237pt too wide) in paragraph at lines 1745--1746
 \OT1/cmtt/m/n/12 ref = https : / / www . confluent . io / kafka-[]summit-[]sf18
  / building-[]pinterest-[]real-[]time-[]ads-[]platform-[]using-[]kafka-[]stream
 s$[] 
  []
 
 
-Overfull \hbox (225.10738pt too wide) in paragraph at lines 1690--1691
+Overfull \hbox (225.10738pt too wide) in paragraph at lines 1747--1748
 [][]$\OT1/cmtt/m/n/12 https : / / medium . com / @Pinterest _ Engineering / bui
 lding-[]a-[]real-[]time-[]user-[]action-[]counting-[]system-[]for-[]ads-[]88a60
 d9c9a$[] 
  []
 
 
-Overfull \hbox (331.08243pt too wide) in paragraph at lines 1692--1693
+Overfull \hbox (331.08243pt too wide) in paragraph at lines 1749--1750
 [][]$\OT1/cmtt/m/n/12 https : / / medium . com / pinterest-[]engineering / goku
 -[]building-[]a-[]scalable-[]and-[]high-[]performant-[]time-[]series-[]database
 -[]system-[]a8ff5758a181$[] 
  []
 
 
-Overfull \hbox (149.50734pt too wide) in paragraph at lines 1694--1695
+Overfull \hbox (149.50734pt too wide) in paragraph at lines 1751--1752
 [][]$\OT1/cmtt/m/n/12 https : / / medium . com / pinterest-[]engineering / buil
 ding-[]a-[]dynamic-[]and-[]responsive-[]pinterest-[]7d410e99f0a9$[] 
  []
 
 
-Overfull \hbox (173.70735pt too wide) in paragraph at lines 1698--1699
+Overfull \hbox (173.70735pt too wide) in paragraph at lines 1755--1756
 [][]$\OT1/cmtt/m/n/12 https : / / medium . com / @Pinterest _ Engineering / imp
 roving-[]hbase-[]backup-[]efficiency-[]at-[]pinterest-[]86159da4b954$[] 
  []
 
 
-Overfull \hbox (211.25737pt too wide) in paragraph at lines 1700--1701
+Overfull \hbox (211.25737pt too wide) in paragraph at lines 1757--1758
 [][]$\OT1/cmtt/m/n/12 https : / / medium . com / @Pinterest _ Engineering / pin
 terest-[]joins-[]the-[]cloud-[]native-[]computing-[]foundation-[]e3b3e66cb4f$[]
  
  []
 
 
-Overfull \hbox (186.55736pt too wide) in paragraph at lines 1702--1703
+Overfull \hbox (186.55736pt too wide) in paragraph at lines 1759--1760
 [][]$\OT1/cmtt/m/n/12 https : / / medium . com / @Pinterest _ Engineering / usi
 ng-[]kafka-[]streams-[]api-[]for-[]predictive-[]budgeting-[]9f58d206c996$[] 
  []
 
 
-Overfull \hbox (24.00728pt too wide) in paragraph at lines 1704--1705
+Overfull \hbox (24.00728pt too wide) in paragraph at lines 1761--1762
 [][]$\OT1/cmtt/m/n/12 https : / / medium . com / @Pinterest _ Engineering / aut
 o-[]scaling-[]pinterest-[]df1d2beb4d64$[] 
  []
 
 
-Overfull \hbox (224.60738pt too wide) in paragraph at lines 1707--1708
+Overfull \hbox (224.60738pt too wide) in paragraph at lines 1764--1765
 []$\OT1/cmtt/m/n/12 https : / / engineering . salesforce . com / building-[]a-[
 ]scalable-[]event-[]pipeline-[]with-[]heroku-[]and-[]salesforce-[]2549cb20ce06$
 [] 
  []
 
 
-Overfull \hbox (101.10732pt too wide) in paragraph at lines 1713--1714
+Overfull \hbox (101.10732pt too wide) in paragraph at lines 1770--1771
 []$\OT1/cmtt/m/n/12 https : / / labs . spotify . com / 2016 / 02 / 25 / spotify
 s-[]event-[]delivery-[]the-[]road-[]to-[]the-[]cloud-[]part-[]i/$[] 
  []
 
-[87]
-Overfull \hbox (149.00734pt too wide) in paragraph at lines 1718--1719
+[89]
+Overfull \hbox (149.00734pt too wide) in paragraph at lines 1775--1776
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / planetcassandra / syma
 ntec-[]cassandra-[]data-[]modelling-[]techniques-[]in-[]action$[] 
  []
 
 
-Overfull \hbox (236.95738pt too wide) in paragraph at lines 1721--1722
+Overfull \hbox (236.95738pt too wide) in paragraph at lines 1778--1779
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / scalable-
 []monitoring-[]using-[]apache-[]spark-[]and-[]friends-[]with-[]utkarsh-[]bhatna
 gar$[] 
  []
 
 
-Overfull \hbox (125.30733pt too wide) in paragraph at lines 1724--1725
+Overfull \hbox (125.30733pt too wide) in paragraph at lines 1781--1782
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / sawjd / real-[]time-[]
 processing-[]using-[]twitter-[]heron-[]by-[]karthik-[]ramasamy$[] 
  []
 
 
-Overfull \hbox (375.80745pt too wide) in paragraph at lines 1726--1727
+Overfull \hbox (375.80745pt too wide) in paragraph at lines 1783--1784
 [][]$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / sawjd / big-[]data-[
 ]day-[]la-[]2016-[]big-[]data-[]track-[]twitter-[]heron-[]scale-[]karthik-[]ram
 asamy-[]engineering-[]manager-[]twitter$[] 
  []
 
 
-Overfull \hbox (288.3574pt too wide) in paragraph at lines 1736--1737
+Overfull \hbox (288.3574pt too wide) in paragraph at lines 1793--1794
 []$\OT1/cmtt/m/n/12 https : / / www . slideshare . net / databricks / how-[]to-
 []rebuild-[]an-[]endtoend-[]ml-[]pipeline-[]with-[]databricks-[]and-[]upwork-[]
 with-[]thanh-[]tran$[] 
  []
 
 
-Overfull \hbox (233.28238pt too wide) in paragraph at lines 1739--1740
+Overfull \hbox (233.28238pt too wide) in paragraph at lines 1796--1797
 []$\OT1/cmtt/m/n/12 https : / / aws . amazon . com / de / blogs / big-[]data / 
 our-[]data-[]lake-[]story-[]how-[]woot-[]com-[]built-[]a-[]serverless-[]data-[]
 lake-[]on-[]aws/$[] 
  []
 
 
-Overfull \hbox (32.18228pt too wide) in paragraph at lines 1742--1743
+Overfull \hbox (32.18228pt too wide) in paragraph at lines 1799--1800
 []$\OT1/cmtt/m/n/12 https : / / jobs . zalando . com / tech / blog / what-[]is-
 []hardcore-[]data-[]science-[]-[]in-[]practice /
  []
 
-[88]
-Overfull \hbox (236.95738pt too wide) in paragraph at lines 1744--1745
+[90]
+Overfull \hbox (236.95738pt too wide) in paragraph at lines 1801--1802
 [][]$\OT1/cmtt/m/n/12 https : / / jobs . zalando . com / tech / blog / complex-
 []event-[]generation-[]for-[]business-[]process-[]monitoring-[]using-[]apache-[
 ]flink/$[] 
  []
 
-[89] [90
+[91] [92
 
 ] (./Data Engineering Cookbook.lof)
 \tf@lof=\write5
 \openout5 = `"Data Engineering Cookbook.lof"'.
 
- [91
+ [93
 
 ]
 (./Data Engineering Cookbook.lot)
 \tf@lot=\write6
 \openout6 = `"Data Engineering Cookbook.lot"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1762.
- [92
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1819.
+ [94
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1762.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1819.
  (./Data Engineering Cookbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1762.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1762.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1819.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1819.
 
+Package rerunfilecheck Info: File `"Data Engineering Cookbook".out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 5701883BCDFD2E1A0B1A2FE226B8AEF2;16483.
 
-
-Package rerunfilecheck Warning: File `"Data Engineering Cookbook".out' has chan
-ged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Data Engineering Cookbook".out':
-(rerunfilecheck)             Before: F4FEB48319372D1D0AE0347151C140A6;16215
-(rerunfilecheck)             After:  4AF1F0683F39147117DC98C69099F1F2;16371.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1762.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1819.
  ) 
 Here is how much of TeX's memory you used:
- 9461 strings out of 492649
- 152367 string characters out of 6129621
- 344322 words of memory out of 5000000
- 12868 multiletter control sequences out of 15000+600000
+ 9470 strings out of 492649
+ 152479 string characters out of 6129621
+ 345322 words of memory out of 5000000
+ 12872 multiletter control sequences out of 15000+600000
  12281 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,66p,9185b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1354,10 +1365,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Data Engineering Cookbook.pdf" (92 pages, 3426201 bytes).
+Output written on "Data Engineering Cookbook.pdf" (94 pages, 3433122 bytes).
 PDF statistics:
- 1801 PDF objects out of 2073 (max. 8388607)
- 1642 compressed objects within 17 object streams
- 348 named destinations out of 1000 (max. 500000)
- 1874 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1861 PDF objects out of 2073 (max. 8388607)
+ 1700 compressed objects within 17 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 1906 words of extra memory for PDF output out of 10000 (max. 10000000)
 

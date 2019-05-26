@@ -14,7 +14,7 @@
 \title{The Data Engineering Cookbook}
 \subtitle{Mastering The Plumbing Of Data Science}
 \author{Andreas Kretz}
-\date{\today\\v1.1}
+\date{\today\\v1.2}
 
 \begin{document}
 \maketitle
@@ -189,9 +189,14 @@ Check out the GitHub Guides page where you can learn all the basics: https://gui
 
 This great GitHub commands cheat sheet saved my butt multiple times: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
-Pull, Push, Branching, Forking
+Also look into:
+\begin{itemize}
+\item Pull
+\item Push
+\item Branching
+\item Forking
+\end{itemize}
 
-Also talked about it in this podcast:
 
 \chapter{Agile Development  -- available}
 Agility, the ability to adapt quickly to changing circumstances.
@@ -283,12 +288,23 @@ Dream big and JUST DO IT!
 
 PS. Don’t get me wrong. You can still outsource work. Just do it in a smart way by outsourcing small independent parts.
 
-\section{Agile Techniques}
+\section{Agile Frameworks}
 \subsection{Scrum}
+
+There's a interesting Scrum Medium publication with a lot of details about Scrum: \url{https://medium.com/serious-scrum}
+
+Also this scrum guide webpage has good infos about Scrum: \url{https://www.scrumguides.org/scrum-guide.html}
 
 \subsection{OKR}
 
-I talked about this in this Podcast: https://anchor.fm/andreaskayy/embed/episodes/Agile-Development-Is-Important-But-Please-Dont-Do-Scrum--PoDS-041-e2e2j4
+I personally love OKR, been doing it for years. Especially for smaller teams OKR is great. You don't have a lot of overhead and get work done.
+It helps you stay focused and look at the bigger picture. 
+
+I recommend to do a sync meeting every Monday. There you talk about what happened last week and what you are going to work on this week.
+
+I talked about this in this Podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/Agile-Development-Is-Important-But-Please-Dont-Do-Scrum--PoDS-041-e2e2j4}
+
+This is also this awesome 1,5 hours Startup guide from Google: \url{https://youtu.be/mJB83EZtAjc} I really love this video, I rewatched it multiple times.
 
  \chapter{Learn how a Computer Works}
 
@@ -296,13 +312,28 @@ I talked about this in this Podcast: https://anchor.fm/andreaskayy/embed/episode
 
 \section{Differences between PCs and Servers}
 
-I talked about computer hardware and GPU processing in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Why-the-hardware-and-the-GPU-is-super-important--PoDS-030-e23rig
+I talked about computer hardware and GPU processing in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/Why-the-hardware-and-the-GPU-is-super-important--PoDS-030-e23rig}
 
 \chapter{Computer Networking - Data Transmission}
 
-\section{ISO/OSI Model}
+\section{OSI Model}
+
+The OSI Model describes how data is flowing through the network. It consists of layers starting from physical layers, basically how the data is transmitted over the line or optic fiber. 
+
+Cisco page that shows the layers of the OSI model and how it works: \url{https://learningnetwork.cisco.com/docs/DOC-30382}
+ 
+Check out this page: \url{https://www.studytonight.com/computer-networks/complete-osi-model}
+
+The Wikipedia page is also very good: \url{https://en.wikipedia.org/wiki/OSI_model}
+
+\paragraph{Which protocol lives on which layer?} Check out this network protocol map. Unfortunately it is really hard to find it theses days:
+\url{https://www.blackmagicboxes.com/wp-content/uploads/2016/12/Network-Protocols-Map-Poster.jpg}
 
 \section{IP Subnetting}
+
+Check out this IP Adress and Subnet guide from Cisco: \url{https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html}
+
+A calculator for Subnets: \url{https://www.calculator.net/ip-subnet-calculator.html}
 
 \section{Switch, Level 3 Switch}
 
@@ -310,38 +341,61 @@ I talked about computer hardware and GPU processing in this podcast: https://anc
 
 \section{Firewalls}
 
-I talked about Network Infrastructure and Techniques in this podcast: https://anchor.fm/andreaskayy/embed/episodes/IT-Networking-Infrastructure-and-Linux-031-PoDS-e242bh
+I talked about Network Infrastructure and Techniques in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/IT-Networking-Infrastructure-and-Linux-031-PoDS-e242bh}
 
 \chapter{Security and Privacy}
 \section{SSL Public \& Private Key Certificates}
 
 \section{What is a certificate authority}
 
-\section{JAva Web Tokens}
+\section{JSON Web Tokens}
 
+Link to the Wiki page: \url{https://en.wikipedia.org/wiki/JSON_Web_Token}
 
 \section{GDPR regulations}
 
 \section{Privacy by design}
 
 \chapter{Linux}
+
+Linux is very important to learn, at least the basics. Most Big Data tools or NoSQL databases are running on Linux. 
+
+From time to time you need to modify stuff through the operation system. Especially if you run a infrastructure as a service solution like Cloudera CDH, Hortonworks or a MapR Hadoop distribution
+
 \section{OS Basics}
 
 \section{Shell scripting}
 
 \section{Cron jobs}
 
+Cron jobs are super important to automate simple processes or jobs in Linux. You need this here and there I promise.
+Check out this three guides:
+
+\url{https://linuxconfig.org/linux-crontab-reference-guide}
+
+\url{https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/}
+
+And of course Wikipedia, which is surprisingly good: \url{https://en.wikipedia.org/wiki/Cron}
+
+Pro tip: Don't forget to end your cron files with an empty line or a comment, otherwise it will not work.
+
 \section{Packet management}
-Linux Tips are the second part of this podcast: https://anchor.fm/andreaskayy/embed/episodes/IT-Networking-Infrastructure-and-Linux-031-PoDS-e242bh
+Linux Tips are the second part of this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/IT-Networking-Infrastructure-and-Linux-031-PoDS-e242bh}
 
 \chapter{The Cloud}
+\section{IaaS vs PaaS vs SaaS}
+
+In this podcast I talked about the differences between infrastructure as a service, platform as a service and software as a service. 
+\url{https://youtu.be/pWuT4UAocUY}
+
+This will help you understand and decide on what you are going to use.
 
 \section{AWS,Azure, IBM, Google Cloud basics}
 \section{cloud vs on premise}
 \section{up \& downsides}
 \section{Security}
 
-Listen to a few thoughts about the cloud in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Dont-Be-Arrogant-The-Cloud-is-Safer-Then-Your-On-Premise-e16k9s
+Listen to a few thoughts about the cloud in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/Dont-Be-Arrogant-The-Cloud-is-Safer-Then-Your-On-Premise-e16k9s}
 
 \chapter{Security Zone Design}
 \section{How to secure a multi layered application}
@@ -349,7 +403,7 @@ Listen to a few thoughts about the cloud in this podcast: https://anchor.fm/andr
 
 \section{Cluster security with Kerberos}
 
-I talked about security zone design and lambda architecture in this podcast: https://anchor.fm/andreaskayy/embed/episodes/How-to-Design-Security-Zones-and-Lambda-Architecture--PoDS-032-e248q2
+I talked about security zone design and lambda architecture in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/How-to-Design-Security-Zones-and-Lambda-Architecture--PoDS-032-e248q2}
 
 \section{Kerberos Tickets}
 
@@ -640,7 +694,7 @@ Guess what the tech behind S3 is. Yes, HDFS. That’s why AWS also has the equiv
 
 The great thing about S3 is that you can start very small. When your system grows you don’t have to worry about s3’s server scaling.
 
-\section{SHOULD YOU LEARN HADOOP? }
+\section{Should you learn Hadoop? }
 
 Yes, I definitely recommend you to get to now how Hadoop works and how to use it. As I have shown you in this article, the ecosystem is quite large.
 
@@ -1393,6 +1447,9 @@ When the time comes and you also need to do analytics on the fly, then add a str
 \section{Lambda Architecture Alternative }
 \subsection{Kappa Architecture}
 \subsection{Kappa Architecture with Kudu}
+
+\chapter(What We Want To Do)
+
 
 
 \chapter{Thoughts On Choosing The Target Environment}
