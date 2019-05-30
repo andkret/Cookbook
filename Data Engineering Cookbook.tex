@@ -9,6 +9,18 @@
 \usepackage[loose,nice]{units} %replace "nice" by "ugly" for units in upright fractions
 \usepackage{parskip} % dont't need to du double backslash for linebreak
 \usepackage[linktocpage=true]{hyperref}
+\usepackage{tabularx} % in the preamble
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+
 
 
 \title{The Data Engineering Cookbook}
@@ -1734,6 +1746,29 @@ What is known, is the analytics tool they use. Back in Feb. 2015 they wrote in t
 
 They also stated, that Netflix is going to replace the custom made analytics tool with Apache Spark streaming in the future. My guess is, that they did the switch to Spark some time ago, because their post is more than a year old.
 
+\section{Data Science @OLX}
+
+\begin{table}[]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#083 Data Engineering at OLX Case Study} \\ \hline
+\multicolumn{2}{p{15cm}}{This podcast is a case study about OLX with Senior Data Scientist Alexey Grigorev as guest. It was super fun.}         \\ \hline
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/083-Data-Engineering-at-OLX-Case-Study-e45j5n}{Click here to listen}   \\
+\multicolumn{1}{l|}{Youtube}   & \href{https://youtu.be/H_uFNoCvykM}{Click here to watch}   \\ \hline
+\end{tabular}
+\end{table}
+
+\textbf{My YouTube Video:} \url{https://youtu.be/H_uFNoCvykM}
+
+\textbf{Audio Podcast:} \url{https://anchor.fm/andreaskayy/episodes/083-Data-Engineering-at-OLX-Case-Study-e45j5n}
+
+\textbf{Slides:}
+
+\url{https://www.slideshare.net/mobile/AlexeyGrigorev/image-models-infrastructure-at-olx}
+
+
+
+
 \section{Data Science @OTTO}
 \url{https://www.slideshare.net/SparkSummit/spark-summit-eu-talk-by-sebastian-schroeder-and-ralf-sigmund}
 
@@ -1815,6 +1850,6 @@ BoDine Journal of Mathematics \textbf{3} (2001), 14-159.
 
 
 \listoffigures% Abbildungsverzeichnis
-\listoftables% Tabellenverzeichnis
+% \listoftables% Tabellenverzeichnis
 
 \end{document}

@@ -194,9 +194,9 @@
 \contentsline {section}{\numberline {29.1}Data Science @Airbnb}{81}{section.29.1}
 \contentsline {subsection}{\numberline {29.1.1}Data Science @Amazon}{81}{subsection.29.1.1}
 \contentsline {section}{\numberline {29.2}Data Science @Baidu}{81}{section.29.2}
-\contentsline {section}{\numberline {29.3}Data Sciecne @Blackrock}{81}{section.29.3}
-\contentsline {section}{\numberline {29.4}Data Sciecne @BMW}{82}{section.29.4}
-\contentsline {section}{\numberline {29.5}Data Sciecne @Booking.com}{82}{section.29.5}
+\contentsline {section}{\numberline {29.3}Data Science @Blackrock}{81}{section.29.3}
+\contentsline {section}{\numberline {29.4}Data Science @BMW}{82}{section.29.4}
+\contentsline {section}{\numberline {29.5}Data Science @Booking.com}{82}{section.29.5}
 \contentsline {section}{\numberline {29.6}Data Science @CERN}{82}{section.29.6}
 \contentsline {section}{\numberline {29.7}Data Science @Disney}{83}{section.29.7}
 \contentsline {section}{\numberline {29.8}Data Science @Drivetribe}{83}{section.29.8}
@@ -217,16 +217,17 @@
 \contentsline {paragraph}{\nonumberline Batch processing is not enough}{86}{section*.8}
 \contentsline {paragraph}{\nonumberline The trending now feature}{87}{section*.9}
 \contentsline {paragraph}{\nonumberline Netflix real-time streaming architecture}{87}{section*.10}
-\contentsline {section}{\numberline {29.20}Data Science @OTTO}{88}{section.29.20}
-\contentsline {section}{\numberline {29.21}Data Science @Paypal}{89}{section.29.21}
-\contentsline {section}{\numberline {29.22}Data Science @Pinterest}{89}{section.29.22}
-\contentsline {section}{\numberline {29.23}Data Science @Salesforce}{89}{section.29.23}
-\contentsline {section}{\numberline {29.24}Data Science @Slack}{89}{section.29.24}
-\contentsline {section}{\numberline {29.25}Data Science @Spotify}{89}{section.29.25}
-\contentsline {section}{\numberline {29.26}Data Science @Symantec}{90}{section.29.26}
-\contentsline {section}{\numberline {29.27}Data Science @Tinder}{90}{section.29.27}
-\contentsline {section}{\numberline {29.28}Data Science @Twitter}{90}{section.29.28}
-\contentsline {section}{\numberline {29.29}Data Science @Uber}{90}{section.29.29}
-\contentsline {section}{\numberline {29.30}Data Science @Upwork}{90}{section.29.30}
-\contentsline {section}{\numberline {29.31}Data Science @Woot}{90}{section.29.31}
-\contentsline {section}{\numberline {29.32}Data Science @Zalando}{91}{section.29.32}
+\contentsline {section}{\numberline {29.20}Data Science @OLX}{88}{section.29.20}
+\contentsline {section}{\numberline {29.21}Data Science @OTTO}{89}{section.29.21}
+\contentsline {section}{\numberline {29.22}Data Science @Paypal}{89}{section.29.22}
+\contentsline {section}{\numberline {29.23}Data Science @Pinterest}{89}{section.29.23}
+\contentsline {section}{\numberline {29.24}Data Science @Salesforce}{90}{section.29.24}
+\contentsline {section}{\numberline {29.25}Data Science @Slack}{90}{section.29.25}
+\contentsline {section}{\numberline {29.26}Data Science @Spotify}{90}{section.29.26}
+\contentsline {section}{\numberline {29.27}Data Science @Symantec}{90}{section.29.27}
+\contentsline {section}{\numberline {29.28}Data Science @Tinder}{90}{section.29.28}
+\contentsline {section}{\numberline {29.29}Data Science @Twitter}{90}{section.29.29}
+\contentsline {section}{\numberline {29.30}Data Science @Uber}{90}{section.29.30}
+\contentsline {section}{\numberline {29.31}Data Science @Upwork}{91}{section.29.31}
+\contentsline {section}{\numberline {29.32}Data Science @Woot}{91}{section.29.32}
+\contentsline {section}{\numberline {29.33}Data Science @Zalando}{91}{section.29.33}
