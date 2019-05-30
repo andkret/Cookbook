@@ -45,22 +45,27 @@
 \part{Introduction}
 \chapter{How To Use This Cookbook}
 What do you actually need to learn to become an awesome data engineer?
-Look no further, you find it here.
+Look no further, you'll find it here. 
 
-How to use this document: This is not a training! It's a collection of skills, that I value highly in my daily work as a data engineer. It's intended to be a starting point for you to find the topics to look into.
+If you are looking for AI algorithms and such data scientist things, this book is not for you.
 
-\textbf{This project is a work in progress!} \\
-Over the next weeks I am going to share with you my thoughts on why each topic is important. I also try to include links to useful resources.
+\textbf{How to use this document:} \\ 
+First of all, this is not a training! This cookbook is a collection of skills that I value highly in my daily work as a data engineer. It's intended to be a starting point for you to find the topics to look into and become a data engineer.
 
-\textbf{How to find out what is new? }\\
-You will always find the newest version on my GitHub: 
-\url{https://github.com/andkret/Cookbook} 
+You are going to find \textbf{\textit{three types of content}} in this book that will help you understand each topic: Articles I wrote, relevant links to my podcast episodes (video \& audio) and links to helpful websites I like. 
+
+\textbf{This book is a work in progress!} \\
+As you can see, this book is not finished. I'm constantly adding new stuff and doing videos for the topics. But obviously, because I do this as a hobby my time is limited. You can help making this book even better.
 
 \textbf{Help make this book awesome!}\\
-Join the discussion on GitHub or write me an email to plumbersofdatascience@gmail.com. Tell me your thoughts, what you value, you think should be included, or correct where I am wrong.
+If you have some cool links or topics for the cookbook, please become a contributor on GitHub: \url{https://github.com/andkret/Cookbook}. Pull the repo, add them and create a pull request. Or join the discussion by opening Issues.
+You can also write me an email any time to plumbersofdatascience@gmail.com. Tell me your thoughts, what you value, you think should be included, or correct where I am wrong.
 
 \textbf{This Cookbook is and will always be free! }\\
-Please support what you like and join my Patreon: \url{https://www.patreon.com/plumbersofds} \\
+I don't want to sell you this book, but please support what you like and join my Patreon: \url{https://www.patreon.com/plumbersofds} 
+
+Check out this podcast episode where I talk in detail why I decided to share all this information for free: 
+\href{https://youtu.be/k1bS5aSPos8}{\#079 Trying to stay true to myself and making the cookbook public on GitHub}
 
 \pagebreak
 
@@ -395,10 +400,18 @@ Linux Tips are the second part of this podcast: \url{https://anchor.fm/andreaska
 \chapter{The Cloud}
 \section{IaaS vs PaaS vs SaaS}
 
-In this podcast I talked about the differences between infrastructure as a service, platform as a service and software as a service. 
-\url{https://youtu.be/pWuT4UAocUY}
+Check out this Podcast it will help you understand where's the difference and how to decide on what you are going to use.
 
-This will help you understand and decide on what you are going to use.
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#082 Reading Tweets With Apache Nifi \& IaaS vs PaaS vs SaaS} \\ \hline
+\multicolumn{2}{p{15cm}}{In this episode we are talking about the differences between infrastructure as a service, platform as a service and application as a service. Then we install the Nifi docker container and look into how we can extract the twitter data.}         \\ \hline
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/082-Reading-Tweets-With-Apache-Nifi--IaaS-vs-PaaS-vs-SaaS-e45j50}{Click here to listen}   \\
+\multicolumn{1}{l|}{Youtube}   & \href{https://youtu.be/pWuT4UAocUY}{Click here to watch}   \\ \hline
+\end{tabular}
+\end{table}
+
 
 \section{AWS,Azure, IBM, Google Cloud basics}
 \section{cloud vs on premise}
@@ -786,9 +799,32 @@ Podcast about how data science learners use Docker (for data scientists): https:
 
 
 \chapter{REST APIs}
-Check out my podcast about how APIs rule the world: https://anchor.fm/andreaskayy/embed/episodes/How-APIs-Rule-The-World--PoDS-033-e24ttq
+APIs, Application Programming Interfaces are the cornerstones of any great data platform. 
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#033 How APIs Rule The World} \\ \hline
+\multicolumn{2}{p{15cm}}{Strong APIs make a good platform. In this episode I talk about why you need APIs and why Twitter is a great example. Especially JSON APIs are my personal favorite. Because JSON is also important in the Big Data world, for instance in log analytics. How? Check out this episode!}         \\ \hline
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/How-APIs-Rule-The-World--PoDS-033-e24ttq}{Click here to listen}   \\ \hline
+\end{tabular}
+\end{table}
+
 \section{HTTP Post/Get}
 \section{API Design}
+In this podcast episode we look into the Twitter API. It's a great example how to build an API
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#081 Twitter API Research Data Engineering Course Part 5} \\ \hline
+\multicolumn{2}{p{15cm}}{In this episode we look into the Twitter API documentation, which I love by the way. How can we get old tweets for a certain hashtags and how to get current live tweets for these hashtags?}         \\ \hline
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/081-How-to-get-tweets-from-the-Twitter-API-e45j32}{Click here to listen}   \\
+\multicolumn{1}{l|}{Youtube}   & \href{https://youtu.be/UnAXKxeIlyg}{Click here to watch}   \\ \hline
+\end{tabular}
+\end{table}
+
+
 \section{Implementation}
 \section{OAuth security}
 
@@ -1751,7 +1787,7 @@ They also stated, that Netflix is going to replace the custom made analytics too
 
 \section{Data Science @OLX}
 
-\begin{table}[]
+\begin{table}[h]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#083 Data Engineering at OLX Case Study} \\ \hline
@@ -1760,10 +1796,6 @@ They also stated, that Netflix is going to replace the custom made analytics too
 \multicolumn{1}{l|}{Youtube}   & \href{https://youtu.be/H_uFNoCvykM}{Click here to watch}   \\ \hline
 \end{tabular}
 \end{table}
-
-\textbf{My YouTube Video:} \url{https://youtu.be/H_uFNoCvykM}
-
-\textbf{Audio Podcast:} \url{https://anchor.fm/andreaskayy/episodes/083-Data-Engineering-at-OLX-Case-Study-e45j5n}
 
 \textbf{Slides:}
 
@@ -1779,7 +1811,9 @@ They also stated, that Netflix is going to replace the custom made analytics too
 \url{https://www.paypal-engineering.com/tag/data/}
 
 \section{Data Science @Pinterest}
-\url{https://www.slideshare.net/ConfluentInc/pinterests-story-of-streaming-hundreds-of-terabytes-of-pins-from-mysql-to-s3hadoop-continuously?ref=https://www.confluent.io/kafka-summit-sf18/pinterests-story-of-streaming-hundreds-of-terabytes}
+\textbf{Slides:}
+
+\url{https://www.slideshare.net/ConfluentInc/pinterests-story-of-streaming-hundreds-of-terabytes-of-pins-from-mysql-to-s3hadoop-continuously?ref=https://www.confluent.io/kafka-summit-sf18/pinterests-story-of-streaming-hundreds-of-terabytes} 
 
 \url{https://www.slideshare.net/ConfluentInc/building-pinterest-realtime-ads-platform-using-kafka-streams?ref=https://www.confluent.io/kafka-summit-sf18/building-pinterest-real-time-ads-platform-using-kafka-streams}
 
