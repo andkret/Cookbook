@@ -9,6 +9,18 @@
 \usepackage[loose,nice]{units} %replace "nice" by "ugly" for units in upright fractions
 \usepackage{parskip} % dont't need to du double backslash for linebreak
 \usepackage[linktocpage=true]{hyperref}
+\usepackage{tabularx} % in the preamble
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+
 
 
 \title{The Data Engineering Cookbook}
@@ -37,21 +49,18 @@ Look no further, you find it here.
 
 How to use this document: This is not a training! It's a collection of skills, that I value highly in my daily work as a data engineer. It's intended to be a starting point for you to find the topics to look into.
 
-This project is a work in progress!
+\textbf{This project is a work in progress!} \\
 Over the next weeks I am going to share with you my thoughts on why each topic is important. I also try to include links to useful resources.
 
-How to find out what is new?
-You will always find the newest version on my Patreon \textbf{https://www.patreon.com/plumbersofds}
+\textbf{How to find out what is new? }\\
+You will always find the newest version on my GitHub: 
+\url{https://github.com/andkret/Cookbook} 
 
-Help make this collection awesome!
-Join the discussion on Patreon or write me an email to andreaskayy@gmail.com. Tell me your thoughts, what you value, you think should be included, or where I am wrong.
+\textbf{Help make this book awesome!}\\
+Join the discussion on GitHub or write me an email to plumbersofdatascience@gmail.com. Tell me your thoughts, what you value, you think should be included, or correct where I am wrong.
 
-\begin{itemize}
-\item Twitter data to predict best time to post using the hashtag datascience or ai
-\item Find top tweets for the day
-\item Top users
-\item Analyze sentiment and keywords
-\end{itemize}
+\textbf{This Cookbook is and will always be free! }\\
+Please support what you like and join my Patreon: \url{https://www.patreon.com/plumbersofds} \\
 
 \pagebreak
 
@@ -105,7 +114,7 @@ Data Engineers are the link between the management’s big data strategy and the
 
 What they do is building the platforms that enable data scientists to do their magic.
 
-These platforms are usually used in four different ways:
+These platforms are usually used in five different ways:
 
 \begin{itemize}
 \item  Data ingestion and storage of large amounts of data
@@ -169,7 +178,8 @@ There’s a Java Course on Udemy you could look at: https://www.udemy.com/java-p
 \item How to use build management tools like Maven
 \item Resilient testing (?)
 \end{itemize}
-I talked about the importance of learning by doing in this podcast:
+I talked about the importance of learning by doing in this podcast: 
+\url{https://anchor.fm/andreaskayy/episodes/Learning-By-Doing-Is-The-Best-Thing-Ever---PoDS-035-e25g44}
 
 \chapter{Get Familiar With Github}
 Why this is important: One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of.
@@ -1450,6 +1460,12 @@ When the time comes and you also need to do analytics on the fly, then add a str
 
 \chapter(What We Want To Do)
 
+\begin{itemize}
+\item Twitter data to predict best time to post using the hashtag datascience or ai
+\item Find top tweets for the day
+\item Top users
+\item Analyze sentiment and keywords
+\end{itemize}
 
 
 \chapter{Thoughts On Choosing The Target Environment}
@@ -1519,13 +1535,13 @@ Spark Streaming for logging events:
 \section{Data Science @Baidu}
 \url{https://www.slideshare.net/databricks/spark-sql-adaptive-execution-unleashes-the-power-of-cluster-in-large-scale-with-chenzhao-guo-and-carson-wang}
 
-\section{Data Sciecne @Blackrock}
+\section{Data Science @Blackrock}
 \url{https://www.slideshare.net/DataStax/maintaining-consistency-across-data-centers-randy-fradin-blackrock-cassandra-summit-2016}
 
-\section{Data Sciecne @BMW}
+\section{Data Science @BMW}
 Big Data in der Automobilindustrie – Daten aus dem Fahrzeug nutzen \url{https://www.unibw.de/code.../ws3_bigdata_vortrag_widmann.pdf}
 
-\section{Data Sciecne @Booking.com}
+\section{Data Science @Booking.com}
 \url{https://www.slideshare.net/ConfluentInc/data-streaming-ecosystem-management-at-bookingcom?ref=https://www.confluent.io/kafka-summit-sf18/data-streaming-ecosystem-management}
 
 \url{https://www.slideshare.net/SparkSummit/productionizing-behavioural-features-for-machine-learning-with-apache-spark-streaming-with-ben-teeuwen-and-roman-studenikin}
@@ -1733,6 +1749,29 @@ What is known, is the analytics tool they use. Back in Feb. 2015 they wrote in t
 
 They also stated, that Netflix is going to replace the custom made analytics tool with Apache Spark streaming in the future. My guess is, that they did the switch to Spark some time ago, because their post is more than a year old.
 
+\section{Data Science @OLX}
+
+\begin{table}[]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#083 Data Engineering at OLX Case Study} \\ \hline
+\multicolumn{2}{p{15cm}}{This podcast is a case study about OLX with Senior Data Scientist Alexey Grigorev as guest. It was super fun.}         \\ \hline
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/083-Data-Engineering-at-OLX-Case-Study-e45j5n}{Click here to listen}   \\
+\multicolumn{1}{l|}{Youtube}   & \href{https://youtu.be/H_uFNoCvykM}{Click here to watch}   \\ \hline
+\end{tabular}
+\end{table}
+
+\textbf{My YouTube Video:} \url{https://youtu.be/H_uFNoCvykM}
+
+\textbf{Audio Podcast:} \url{https://anchor.fm/andreaskayy/episodes/083-Data-Engineering-at-OLX-Case-Study-e45j5n}
+
+\textbf{Slides:}
+
+\url{https://www.slideshare.net/mobile/AlexeyGrigorev/image-models-infrastructure-at-olx}
+
+
+
+
 \section{Data Science @OTTO}
 \url{https://www.slideshare.net/SparkSummit/spark-summit-eu-talk-by-sebastian-schroeder-and-ralf-sigmund}
 
@@ -1814,6 +1853,6 @@ BoDine Journal of Mathematics \textbf{3} (2001), 14-159.
 
 
 \listoffigures% Abbildungsverzeichnis
-\listoftables% Tabellenverzeichnis
+% \listoftables% Tabellenverzeichnis
 
 \end{document}
