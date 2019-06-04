@@ -121,110 +121,112 @@
 \BOOKMARK [2][-]{subsection.20.2.8}{How to do stream processing}{section.20.2}% 121
 \BOOKMARK [2][-]{subsection.20.2.9}{How to do batch processing}{section.20.2}% 122
 \BOOKMARK [2][-]{subsection.20.2.10}{How does Spark use data from Hadoop \205 available}{section.20.2}% 123
-\BOOKMARK [1][-]{section.20.3}{What is a RDD and what is a DataFrame?}{chapter.20}% 124
-\BOOKMARK [1][-]{section.20.4}{Spark coding with Scala}{chapter.20}% 125
-\BOOKMARK [1][-]{section.20.5}{Spark coding with Python}{chapter.20}% 126
-\BOOKMARK [1][-]{section.20.6}{How and why to use SparkSQL?}{chapter.20}% 127
-\BOOKMARK [1][-]{section.20.7}{Machine Learning on Spark? \(Tensor Flow\)}{chapter.20}% 128
-\BOOKMARK [1][-]{section.20.8}{MLlib:}{chapter.20}% 129
-\BOOKMARK [1][-]{section.20.9}{Spark Setup \205 available}{chapter.20}% 130
-\BOOKMARK [1][-]{section.20.10}{Spark Resource Management \205 available}{chapter.20}% 131
-\BOOKMARK [0][-]{chapter.21}{Apache Kafka}{part.2}% 132
-\BOOKMARK [1][-]{section.21.1}{Why a message queue tool?}{chapter.21}% 133
-\BOOKMARK [1][-]{section.21.2}{Kakfa architecture}{chapter.21}% 134
-\BOOKMARK [1][-]{section.21.3}{What are topics}{chapter.21}% 135
-\BOOKMARK [1][-]{section.21.4}{What does Zookeeper have to do with Kafka}{chapter.21}% 136
-\BOOKMARK [1][-]{section.21.5}{How to produce and consume messages}{chapter.21}% 137
-\BOOKMARK [0][-]{chapter.22}{Machine Learning}{part.2}% 138
-\BOOKMARK [1][-]{section.22.1}{Training and Applying models}{chapter.22}% 139
-\BOOKMARK [1][-]{section.22.2}{What is deep learning}{chapter.22}% 140
-\BOOKMARK [1][-]{section.22.3}{How to do Machine Learning in production | available}{chapter.22}% 141
-\BOOKMARK [1][-]{section.22.4}{Why machine learning in production is harder then you think \205 available}{chapter.22}% 142
-\BOOKMARK [1][-]{section.22.5}{Models Do Not Work Forever}{chapter.22}% 143
-\BOOKMARK [1][-]{section.22.6}{Where The Platforms That Support This?}{chapter.22}% 144
-\BOOKMARK [1][-]{section.22.7}{Training Parameter Management}{chapter.22}% 145
-\BOOKMARK [1][-]{section.22.8}{What\220s Your Solution?}{chapter.22}% 146
-\BOOKMARK [1][-]{section.22.9}{How to convince people machine learning works | available}{chapter.22}% 147
-\BOOKMARK [1][-]{section.22.10}{No Rules, No Physical Models}{chapter.22}% 148
-\BOOKMARK [1][-]{section.22.11}{You Have The Data. USE IT!}{chapter.22}% 149
-\BOOKMARK [1][-]{section.22.12}{Data is Stronger Than Opinions}{chapter.22}% 150
-\BOOKMARK [0][-]{chapter.23}{Data Visualization}{part.2}% 151
-\BOOKMARK [1][-]{section.23.1}{Android \046 IOS}{chapter.23}% 152
-\BOOKMARK [1][-]{section.23.2}{How to design APIs for mobile apps}{chapter.23}% 153
-\BOOKMARK [1][-]{section.23.3}{How to use Webservers to display content}{chapter.23}% 154
-\BOOKMARK [2][-]{subsection.23.3.1}{Tomcat}{section.23.3}% 155
-\BOOKMARK [2][-]{subsection.23.3.2}{Jetty}{section.23.3}% 156
-\BOOKMARK [2][-]{subsection.23.3.3}{NodeRED}{section.23.3}% 157
-\BOOKMARK [2][-]{subsection.23.3.4}{React}{section.23.3}% 158
-\BOOKMARK [1][-]{section.23.4}{Business Intelligence Tools}{chapter.23}% 159
-\BOOKMARK [2][-]{subsection.23.4.1}{Tableau}{section.23.4}% 160
-\BOOKMARK [2][-]{subsection.23.4.2}{PowerBI}{section.23.4}% 161
-\BOOKMARK [2][-]{subsection.23.4.3}{Quliksense}{section.23.4}% 162
-\BOOKMARK [1][-]{section.23.5}{Identity \046 Device Management}{chapter.23}% 163
-\BOOKMARK [2][-]{subsection.23.5.1}{What is a digital twin?}{section.23.5}% 164
-\BOOKMARK [2][-]{subsection.23.5.2}{Active Directory}{section.23.5}% 165
-\BOOKMARK [-1][-]{part.3}{Data Engineering Course: Building A Data Platform}{}% 166
-\BOOKMARK [0][-]{chapter.24}{My Big Data Platform Blueprint}{part.3}% 167
-\BOOKMARK [1][-]{section.24.1}{Ingest}{chapter.24}% 168
-\BOOKMARK [1][-]{section.24.2}{Analyse / Process}{chapter.24}% 169
-\BOOKMARK [1][-]{section.24.3}{Store}{chapter.24}% 170
-\BOOKMARK [1][-]{section.24.4}{Display}{chapter.24}% 171
-\BOOKMARK [0][-]{chapter.25}{Lambda Architecture}{part.3}% 172
-\BOOKMARK [1][-]{section.25.1}{Batch Processing}{chapter.25}% 173
-\BOOKMARK [1][-]{section.25.2}{Stream Processing}{chapter.25}% 174
-\BOOKMARK [1][-]{section.25.3}{Should you do stream or batch processing?}{chapter.25}% 175
-\BOOKMARK [1][-]{section.25.4}{Lambda Architecture Alternative}{chapter.25}% 176
-\BOOKMARK [2][-]{subsection.25.4.1}{Kappa Architecture}{section.25.4}% 177
-\BOOKMARK [2][-]{subsection.25.4.2}{Kappa Architecture with Kudu}{section.25.4}% 178
-\BOOKMARK [1][-]{section.25.5}{Why a Good Data Platform Is Important}{chapter.25}% 179
-\BOOKMARK [0][-]{chapter.26}{What We Want To Do}{part.3}% 180
-\BOOKMARK [0][-]{chapter.27}{Thoughts On Choosing The Target Environment}{part.3}% 181
-\BOOKMARK [1][-]{section.27.1}{Cloud vs On-Premise}{chapter.27}% 182
-\BOOKMARK [1][-]{section.27.2}{Cloud Native or Independent Vendors}{chapter.27}% 183
-\BOOKMARK [0][-]{chapter.28}{Thoughts On Choosing A Development Environment}{part.3}% 184
-\BOOKMARK [1][-]{section.28.1}{Cloud As Dev Environment}{chapter.28}% 185
-\BOOKMARK [1][-]{section.28.2}{Local Dev Environment}{chapter.28}% 186
-\BOOKMARK [1][-]{section.28.3}{Data Architecture}{chapter.28}% 187
-\BOOKMARK [2][-]{subsection.28.3.1}{Source Data}{section.28.3}% 188
-\BOOKMARK [2][-]{subsection.28.3.2}{Analytics Requirements For Streaming}{section.28.3}% 189
-\BOOKMARK [2][-]{subsection.28.3.3}{Analytics Requirements For Batch Processing}{section.28.3}% 190
-\BOOKMARK [2][-]{subsection.28.3.4}{Data Visualization}{section.28.3}% 191
-\BOOKMARK [1][-]{section.28.4}{Milestone 1 | Tool Decisions}{chapter.28}% 192
-\BOOKMARK [-1][-]{part.4}{Case Studies}{}% 193
-\BOOKMARK [0][-]{chapter.29}{How I do Case Studies}{part.4}% 194
-\BOOKMARK [1][-]{section.29.1}{Data Science @Airbnb}{chapter.29}% 195
-\BOOKMARK [2][-]{subsection.29.1.1}{Data Science @Amazon}{section.29.1}% 196
-\BOOKMARK [1][-]{section.29.2}{Data Science @Baidu}{chapter.29}% 197
-\BOOKMARK [1][-]{section.29.3}{Data Science @Blackrock}{chapter.29}% 198
-\BOOKMARK [1][-]{section.29.4}{Data Science @BMW}{chapter.29}% 199
-\BOOKMARK [1][-]{section.29.5}{Data Science @Booking.com}{chapter.29}% 200
-\BOOKMARK [1][-]{section.29.6}{Data Science @CERN}{chapter.29}% 201
-\BOOKMARK [1][-]{section.29.7}{Data Science @Disney}{chapter.29}% 202
-\BOOKMARK [1][-]{section.29.8}{Data Science @Drivetribe}{chapter.29}% 203
-\BOOKMARK [1][-]{section.29.9}{Data Science @Dropbox}{chapter.29}% 204
-\BOOKMARK [1][-]{section.29.10}{Data Science @Ebay}{chapter.29}% 205
-\BOOKMARK [1][-]{section.29.11}{Data Science @Expedia}{chapter.29}% 206
-\BOOKMARK [1][-]{section.29.12}{Data Science @Facebook}{chapter.29}% 207
-\BOOKMARK [1][-]{section.29.13}{Data Science @Google}{chapter.29}% 208
-\BOOKMARK [1][-]{section.29.14}{Data Science @@Grammarly}{chapter.29}% 209
-\BOOKMARK [1][-]{section.29.15}{Data Science @ING Fraud}{chapter.29}% 210
-\BOOKMARK [1][-]{section.29.16}{Data Science @Instagram}{chapter.29}% 211
-\BOOKMARK [1][-]{section.29.17}{Data Science @LinkedIn}{chapter.29}% 212
-\BOOKMARK [1][-]{section.29.18}{Data Science @Lyft}{chapter.29}% 213
-\BOOKMARK [1][-]{section.29.19}{Data Science @NASA}{chapter.29}% 214
-\BOOKMARK [1][-]{section.29.20}{Data Science @Netflix \205 available}{chapter.29}% 215
-\BOOKMARK [1][-]{section.29.21}{Data Science @OLX}{chapter.29}% 216
-\BOOKMARK [1][-]{section.29.22}{Data Science @OTTO}{chapter.29}% 217
-\BOOKMARK [1][-]{section.29.23}{Data Science @Paypal}{chapter.29}% 218
-\BOOKMARK [1][-]{section.29.24}{Data Science @Pinterest}{chapter.29}% 219
-\BOOKMARK [1][-]{section.29.25}{Data Science @Salesforce}{chapter.29}% 220
-\BOOKMARK [1][-]{section.29.26}{Data Science @Siemens Mindsphere}{chapter.29}% 221
-\BOOKMARK [1][-]{section.29.27}{Data Science @Slack}{chapter.29}% 222
-\BOOKMARK [1][-]{section.29.28}{Data Science @Spotify}{chapter.29}% 223
-\BOOKMARK [1][-]{section.29.29}{Data Science @Symantec}{chapter.29}% 224
-\BOOKMARK [1][-]{section.29.30}{Data Science @Tinder}{chapter.29}% 225
-\BOOKMARK [1][-]{section.29.31}{Data Science @Twitter}{chapter.29}% 226
-\BOOKMARK [1][-]{section.29.32}{Data Science @Uber}{chapter.29}% 227
-\BOOKMARK [1][-]{section.29.33}{Data Science @Upwork}{chapter.29}% 228
-\BOOKMARK [1][-]{section.29.34}{Data Science @Woot}{chapter.29}% 229
-\BOOKMARK [1][-]{section.29.35}{Data Science @Zalando}{chapter.29}% 230
+\BOOKMARK [2][-]{subsection.20.2.11}{What is a RDD and what is a DataFrame?}{section.20.2}% 124
+\BOOKMARK [2][-]{subsection.20.2.12}{Spark coding with Scala}{section.20.2}% 125
+\BOOKMARK [2][-]{subsection.20.2.13}{Spark coding with Python}{section.20.2}% 126
+\BOOKMARK [2][-]{subsection.20.2.14}{How and why to use SparkSQL?}{section.20.2}% 127
+\BOOKMARK [2][-]{subsection.20.2.15}{Machine Learning on Spark? \(Tensor Flow\)}{section.20.2}% 128
+\BOOKMARK [2][-]{subsection.20.2.16}{MLlib:}{section.20.2}% 129
+\BOOKMARK [2][-]{subsection.20.2.17}{Spark Setup \205 available}{section.20.2}% 130
+\BOOKMARK [2][-]{subsection.20.2.18}{Spark Resource Management \205 available}{section.20.2}% 131
+\BOOKMARK [1][-]{section.20.3}{Apache Nifi}{chapter.20}% 132
+\BOOKMARK [1][-]{section.20.4}{StreamSets}{chapter.20}% 133
+\BOOKMARK [0][-]{chapter.21}{Apache Kafka}{part.2}% 134
+\BOOKMARK [1][-]{section.21.1}{Why a message queue tool?}{chapter.21}% 135
+\BOOKMARK [1][-]{section.21.2}{Kakfa architecture}{chapter.21}% 136
+\BOOKMARK [1][-]{section.21.3}{What are topics}{chapter.21}% 137
+\BOOKMARK [1][-]{section.21.4}{What does Zookeeper have to do with Kafka}{chapter.21}% 138
+\BOOKMARK [1][-]{section.21.5}{How to produce and consume messages}{chapter.21}% 139
+\BOOKMARK [0][-]{chapter.22}{Machine Learning}{part.2}% 140
+\BOOKMARK [1][-]{section.22.1}{Training and Applying models}{chapter.22}% 141
+\BOOKMARK [1][-]{section.22.2}{What is deep learning}{chapter.22}% 142
+\BOOKMARK [1][-]{section.22.3}{How to do Machine Learning in production | available}{chapter.22}% 143
+\BOOKMARK [1][-]{section.22.4}{Why machine learning in production is harder then you think \205 available}{chapter.22}% 144
+\BOOKMARK [1][-]{section.22.5}{Models Do Not Work Forever}{chapter.22}% 145
+\BOOKMARK [1][-]{section.22.6}{Where The Platforms That Support This?}{chapter.22}% 146
+\BOOKMARK [1][-]{section.22.7}{Training Parameter Management}{chapter.22}% 147
+\BOOKMARK [1][-]{section.22.8}{What\220s Your Solution?}{chapter.22}% 148
+\BOOKMARK [1][-]{section.22.9}{How to convince people machine learning works | available}{chapter.22}% 149
+\BOOKMARK [1][-]{section.22.10}{No Rules, No Physical Models}{chapter.22}% 150
+\BOOKMARK [1][-]{section.22.11}{You Have The Data. USE IT!}{chapter.22}% 151
+\BOOKMARK [1][-]{section.22.12}{Data is Stronger Than Opinions}{chapter.22}% 152
+\BOOKMARK [0][-]{chapter.23}{Data Visualization}{part.2}% 153
+\BOOKMARK [1][-]{section.23.1}{Android \046 IOS}{chapter.23}% 154
+\BOOKMARK [1][-]{section.23.2}{How to design APIs for mobile apps}{chapter.23}% 155
+\BOOKMARK [1][-]{section.23.3}{How to use Webservers to display content}{chapter.23}% 156
+\BOOKMARK [2][-]{subsection.23.3.1}{Tomcat}{section.23.3}% 157
+\BOOKMARK [2][-]{subsection.23.3.2}{Jetty}{section.23.3}% 158
+\BOOKMARK [2][-]{subsection.23.3.3}{NodeRED}{section.23.3}% 159
+\BOOKMARK [2][-]{subsection.23.3.4}{React}{section.23.3}% 160
+\BOOKMARK [1][-]{section.23.4}{Business Intelligence Tools}{chapter.23}% 161
+\BOOKMARK [2][-]{subsection.23.4.1}{Tableau}{section.23.4}% 162
+\BOOKMARK [2][-]{subsection.23.4.2}{PowerBI}{section.23.4}% 163
+\BOOKMARK [2][-]{subsection.23.4.3}{Quliksense}{section.23.4}% 164
+\BOOKMARK [1][-]{section.23.5}{Identity \046 Device Management}{chapter.23}% 165
+\BOOKMARK [2][-]{subsection.23.5.1}{What is a digital twin?}{section.23.5}% 166
+\BOOKMARK [2][-]{subsection.23.5.2}{Active Directory}{section.23.5}% 167
+\BOOKMARK [-1][-]{part.3}{Data Engineering Course: Building A Data Platform}{}% 168
+\BOOKMARK [0][-]{chapter.24}{My Big Data Platform Blueprint}{part.3}% 169
+\BOOKMARK [1][-]{section.24.1}{Ingest}{chapter.24}% 170
+\BOOKMARK [1][-]{section.24.2}{Analyse / Process}{chapter.24}% 171
+\BOOKMARK [1][-]{section.24.3}{Store}{chapter.24}% 172
+\BOOKMARK [1][-]{section.24.4}{Display}{chapter.24}% 173
+\BOOKMARK [0][-]{chapter.25}{Lambda Architecture}{part.3}% 174
+\BOOKMARK [1][-]{section.25.1}{Batch Processing}{chapter.25}% 175
+\BOOKMARK [1][-]{section.25.2}{Stream Processing}{chapter.25}% 176
+\BOOKMARK [1][-]{section.25.3}{Should you do stream or batch processing?}{chapter.25}% 177
+\BOOKMARK [1][-]{section.25.4}{Lambda Architecture Alternative}{chapter.25}% 178
+\BOOKMARK [2][-]{subsection.25.4.1}{Kappa Architecture}{section.25.4}% 179
+\BOOKMARK [2][-]{subsection.25.4.2}{Kappa Architecture with Kudu}{section.25.4}% 180
+\BOOKMARK [1][-]{section.25.5}{Why a Good Data Platform Is Important}{chapter.25}% 181
+\BOOKMARK [0][-]{chapter.26}{What We Want To Do}{part.3}% 182
+\BOOKMARK [0][-]{chapter.27}{Thoughts On Choosing The Target Environment}{part.3}% 183
+\BOOKMARK [1][-]{section.27.1}{Cloud vs On-Premise}{chapter.27}% 184
+\BOOKMARK [1][-]{section.27.2}{Cloud Native or Independent Vendors}{chapter.27}% 185
+\BOOKMARK [0][-]{chapter.28}{Thoughts On Choosing A Development Environment}{part.3}% 186
+\BOOKMARK [1][-]{section.28.1}{Cloud As Dev Environment}{chapter.28}% 187
+\BOOKMARK [1][-]{section.28.2}{Local Dev Environment}{chapter.28}% 188
+\BOOKMARK [1][-]{section.28.3}{Data Architecture}{chapter.28}% 189
+\BOOKMARK [2][-]{subsection.28.3.1}{Source Data}{section.28.3}% 190
+\BOOKMARK [2][-]{subsection.28.3.2}{Analytics Requirements For Streaming}{section.28.3}% 191
+\BOOKMARK [2][-]{subsection.28.3.3}{Analytics Requirements For Batch Processing}{section.28.3}% 192
+\BOOKMARK [2][-]{subsection.28.3.4}{Data Visualization}{section.28.3}% 193
+\BOOKMARK [1][-]{section.28.4}{Milestone 1 | Tool Decisions}{chapter.28}% 194
+\BOOKMARK [-1][-]{part.4}{Case Studies}{}% 195
+\BOOKMARK [0][-]{chapter.29}{How I do Case Studies}{part.4}% 196
+\BOOKMARK [1][-]{section.29.1}{Data Science @Airbnb}{chapter.29}% 197
+\BOOKMARK [2][-]{subsection.29.1.1}{Data Science @Amazon}{section.29.1}% 198
+\BOOKMARK [1][-]{section.29.2}{Data Science @Baidu}{chapter.29}% 199
+\BOOKMARK [1][-]{section.29.3}{Data Science @Blackrock}{chapter.29}% 200
+\BOOKMARK [1][-]{section.29.4}{Data Science @BMW}{chapter.29}% 201
+\BOOKMARK [1][-]{section.29.5}{Data Science @Booking.com}{chapter.29}% 202
+\BOOKMARK [1][-]{section.29.6}{Data Science @CERN}{chapter.29}% 203
+\BOOKMARK [1][-]{section.29.7}{Data Science @Disney}{chapter.29}% 204
+\BOOKMARK [1][-]{section.29.8}{Data Science @Drivetribe}{chapter.29}% 205
+\BOOKMARK [1][-]{section.29.9}{Data Science @Dropbox}{chapter.29}% 206
+\BOOKMARK [1][-]{section.29.10}{Data Science @Ebay}{chapter.29}% 207
+\BOOKMARK [1][-]{section.29.11}{Data Science @Expedia}{chapter.29}% 208
+\BOOKMARK [1][-]{section.29.12}{Data Science @Facebook}{chapter.29}% 209
+\BOOKMARK [1][-]{section.29.13}{Data Science @Google}{chapter.29}% 210
+\BOOKMARK [1][-]{section.29.14}{Data Science @@Grammarly}{chapter.29}% 211
+\BOOKMARK [1][-]{section.29.15}{Data Science @ING Fraud}{chapter.29}% 212
+\BOOKMARK [1][-]{section.29.16}{Data Science @Instagram}{chapter.29}% 213
+\BOOKMARK [1][-]{section.29.17}{Data Science @LinkedIn}{chapter.29}% 214
+\BOOKMARK [1][-]{section.29.18}{Data Science @Lyft}{chapter.29}% 215
+\BOOKMARK [1][-]{section.29.19}{Data Science @NASA}{chapter.29}% 216
+\BOOKMARK [1][-]{section.29.20}{Data Science @Netflix \205 available}{chapter.29}% 217
+\BOOKMARK [1][-]{section.29.21}{Data Science @OLX}{chapter.29}% 218
+\BOOKMARK [1][-]{section.29.22}{Data Science @OTTO}{chapter.29}% 219
+\BOOKMARK [1][-]{section.29.23}{Data Science @Paypal}{chapter.29}% 220
+\BOOKMARK [1][-]{section.29.24}{Data Science @Pinterest}{chapter.29}% 221
+\BOOKMARK [1][-]{section.29.25}{Data Science @Salesforce}{chapter.29}% 222
+\BOOKMARK [1][-]{section.29.26}{Data Science @Siemens Mindsphere}{chapter.29}% 223
+\BOOKMARK [1][-]{section.29.27}{Data Science @Slack}{chapter.29}% 224
+\BOOKMARK [1][-]{section.29.28}{Data Science @Spotify}{chapter.29}% 225
+\BOOKMARK [1][-]{section.29.29}{Data Science @Symantec}{chapter.29}% 226
+\BOOKMARK [1][-]{section.29.30}{Data Science @Tinder}{chapter.29}% 227
+\BOOKMARK [1][-]{section.29.31}{Data Science @Twitter}{chapter.29}% 228
+\BOOKMARK [1][-]{section.29.32}{Data Science @Uber}{chapter.29}% 229
+\BOOKMARK [1][-]{section.29.33}{Data Science @Upwork}{chapter.29}% 230
+\BOOKMARK [1][-]{section.29.34}{Data Science @Woot}{chapter.29}% 231
+\BOOKMARK [1][-]{section.29.35}{Data Science @Zalando}{chapter.29}% 232
