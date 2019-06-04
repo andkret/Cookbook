@@ -12,39 +12,39 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Common SQL Platform Architecture}}{32}{figure.13.1}
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Scaling up a SQL Database}}{33}{figure.13.2}
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Scaling out a SQL Database}}{34}{figure.13.3}
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Common SQL Platform Architecture}}{35}{figure.13.1}
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Scaling up a SQL Database}}{36}{figure.13.2}
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Scaling out a SQL Database}}{37}{figure.13.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {15.1}{\ignorespaces Hadoop Ecosystem Components}}{38}{figure.15.1}
-\contentsline {figure}{\numberline {15.2}{\ignorespaces Connections between tools}}{39}{figure.15.2}
-\contentsline {figure}{\numberline {15.3}{\ignorespaces Flume Integration}}{40}{figure.15.3}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {19.1}{\ignorespaces HDFS Master and Data Nodes}}{48}{figure.19.1}
-\contentsline {figure}{\numberline {19.2}{\ignorespaces Distribution of Blocks for a 512MB File}}{49}{figure.19.2}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {20.1}{\ignorespaces Mapping of input files and reducing of mapped records}}{51}{figure.20.1}
-\contentsline {figure}{\numberline {20.2}{\ignorespaces MapReduce Example of Time Series Data}}{53}{figure.20.2}
-\contentsline {figure}{\numberline {20.3}{\ignorespaces The Map Reduce Process}}{54}{figure.20.3}
-\contentsline {figure}{\numberline {20.4}{\ignorespaces Hadoop vs Spark capabilities}}{55}{figure.20.4}
-\contentsline {figure}{\numberline {20.5}{\ignorespaces Spark Using Hadoop Data Locality}}{58}{figure.20.5}
-\contentsline {figure}{\numberline {20.6}{\ignorespaces Spark Resource Management With YARN}}{60}{figure.20.6}
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Hadoop Ecosystem Components}}{41}{figure.15.1}
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Connections between tools}}{42}{figure.15.2}
+\contentsline {figure}{\numberline {15.3}{\ignorespaces Flume Integration}}{43}{figure.15.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {24.1}{\ignorespaces Platfrom Blueprint}}{70}{figure.24.1}
+\contentsline {figure}{\numberline {19.1}{\ignorespaces HDFS Master and Data Nodes}}{51}{figure.19.1}
+\contentsline {figure}{\numberline {19.2}{\ignorespaces Distribution of Blocks for a 512MB File}}{52}{figure.19.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {25.1}{\ignorespaces Batch Processing Pipeline}}{74}{figure.25.1}
-\contentsline {figure}{\numberline {25.2}{\ignorespaces Stream Processing Pipeline}}{75}{figure.25.2}
+\contentsline {figure}{\numberline {20.1}{\ignorespaces Mapping of input files and reducing of mapped records}}{55}{figure.20.1}
+\contentsline {figure}{\numberline {20.2}{\ignorespaces MapReduce Example of Time Series Data}}{57}{figure.20.2}
+\contentsline {figure}{\numberline {20.3}{\ignorespaces The Map Reduce Process}}{58}{figure.20.3}
+\contentsline {figure}{\numberline {20.4}{\ignorespaces Hadoop vs Spark capabilities}}{59}{figure.20.4}
+\contentsline {figure}{\numberline {20.5}{\ignorespaces Spark Using Hadoop Data Locality}}{62}{figure.20.5}
+\contentsline {figure}{\numberline {20.6}{\ignorespaces Spark Resource Management With YARN}}{64}{figure.20.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {29.1}{\ignorespaces Old Netflix Batch Processing Pipeline}}{86}{figure.29.1}
-\contentsline {figure}{\numberline {29.2}{\ignorespaces Netflix Trending Now Feature}}{87}{figure.29.2}
-\contentsline {figure}{\numberline {29.3}{\ignorespaces Netflix Streaming Pipeline}}{88}{figure.29.3}
+\contentsline {figure}{\numberline {24.1}{\ignorespaces Platfrom Blueprint}}{74}{figure.24.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {25.1}{\ignorespaces Batch Processing Pipeline}}{78}{figure.25.1}
+\contentsline {figure}{\numberline {25.2}{\ignorespaces Stream Processing Pipeline}}{79}{figure.25.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {29.1}{\ignorespaces Old Netflix Batch Processing Pipeline}}{91}{figure.29.1}
+\contentsline {figure}{\numberline {29.2}{\ignorespaces Netflix Trending Now Feature}}{92}{figure.29.2}
+\contentsline {figure}{\numberline {29.3}{\ignorespaces Netflix Streaming Pipeline}}{93}{figure.29.3}
