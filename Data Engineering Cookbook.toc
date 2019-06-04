@@ -151,6 +151,7 @@
 \contentsline {section}{\numberline {22.10}No Rules, No Physical Models}{69}{section.22.10}
 \contentsline {section}{\numberline {22.11}You Have The Data. USE IT!}{69}{section.22.11}
 \contentsline {section}{\numberline {22.12}Data is Stronger Than Opinions}{70}{section.22.12}
+\contentsline {section}{\numberline {22.13}AWS Sagemaker}{70}{section.22.13}
 \contentsline {chapter}{\numberline {23}Data Visualization}{71}{chapter.23}
 \contentsline {section}{\numberline {23.1}Android \& IOS}{71}{section.23.1}
 \contentsline {section}{\numberline {23.2}How to design APIs for mobile apps}{71}{section.23.2}
