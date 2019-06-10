@@ -11,46 +11,48 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Podcast: 082 Reading Tweets With Apache Nifi \& IaaS vs PaaS vs SaaS}}{28}{table.10.1}
-\contentsline {table}{\numberline {10.2}{\ignorespaces Podcast: 076 Cloud vs On-Premise}}{28}{table.10.2}
+\contentsline {table}{\numberline {10.1}{\ignorespaces Podcast: 082 Reading Tweets With Apache Nifi \& IaaS vs PaaS vs SaaS}}{29}{table.10.1}
+\contentsline {table}{\numberline {10.2}{\ignorespaces Podcast: 076 Cloud vs On-Premise}}{29}{table.10.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {14.1}{\ignorespaces Podcast: 055 Data Warehouse vs Data Lake}}{39}{table.14.1}
+\contentsline {table}{\numberline {14.1}{\ignorespaces Podcast: 077 Lambda Architecture and Kappa Architecture}}{42}{table.14.1}
+\contentsline {table}{\numberline {14.2}{\ignorespaces Podcast: 066 How To Do Data Science From A Data Engineers..}}{44}{table.14.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {15.1}{\ignorespaces Podcast: 060 What Is Hadoop And Is Hadoop Still Relevant In 2019?}}{40}{table.15.1}
+\contentsline {table}{\numberline {15.1}{\ignorespaces Podcast: 055 Data Warehouse vs Data Lake}}{45}{table.15.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {16.1}{\ignorespaces Podcast: 039 Is ETL Dead for Data Science and Big Data?}}{45}{table.16.1}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {18.1}{\ignorespaces Podcast: 033 How APIs Rule The World}}{49}{table.18.1}
-\contentsline {table}{\numberline {18.2}{\ignorespaces Podcast: 081 Twitter API Research}}{49}{table.18.2}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {19.1}{\ignorespaces Podcast: 056 NoSQL Key Value Stores Explained with HBase}}{50}{table.19.1}
-\contentsline {table}{\numberline {19.2}{\ignorespaces Podcast: Druid NoSQL DB And Analytics DB Introduction}}{52}{table.19.2}
+\contentsline {table}{\numberline {16.1}{\ignorespaces Podcast: 060 What Is Hadoop And Is Hadoop Still Relevant In 2019?}}{46}{table.16.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {18.1}{\ignorespaces Podcast: 033 How APIs Rule The World}}{55}{table.18.1}
+\contentsline {table}{\numberline {18.2}{\ignorespaces Podcast: 081 Twitter API Research}}{55}{table.18.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {22.1}{\ignorespaces Podcast: Machine Learning In Production}}{66}{table.22.1}
+\contentsline {table}{\numberline {19.1}{\ignorespaces Podcast: 056 NoSQL Key Value Stores Explained with HBase}}{56}{table.19.1}
+\contentsline {table}{\numberline {19.2}{\ignorespaces Podcast: Druid NoSQL DB And Analytics DB Introduction}}{58}{table.19.2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {20.1}{\ignorespaces Podcast: 039 Is ETL Dead for Data Science and Big Data?}}{60}{table.20.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {25.1}{\ignorespaces Podcast: 077 Lambda Architecture and Kappa Architecture}}{78}{table.25.1}
-\contentsline {table}{\numberline {25.2}{\ignorespaces Podcast: 066 How To Do Data Science From A Data Engineers..}}{80}{table.25.2}
+\contentsline {table}{\numberline {22.1}{\ignorespaces Podcast: Machine Learning In Production}}{74}{table.22.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {28.1}{\ignorespaces Podcast: 068 How to Build a Budget Data Science PC}}{83}{table.28.1}
+\contentsline {table}{\numberline {25.1}{\ignorespaces Podcast: 068 How to Build a Budget Data Science PC}}{83}{table.25.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {29.1}{\ignorespaces Podcast: 063 Data Engineering At Airbnb Case Study}}{85}{table.29.1}
-\contentsline {table}{\numberline {29.2}{\ignorespaces Podcast: 064 Data Engineering At Booking.com Case Study}}{86}{table.29.2}
-\contentsline {table}{\numberline {29.3}{\ignorespaces Podcast: 065 Data Engineering At CERN Case Study}}{87}{table.29.3}
-\contentsline {table}{\numberline {29.4}{\ignorespaces Podcast: 073 Data Engineering At LinkedIn Case Study}}{89}{table.29.4}
-\contentsline {table}{\numberline {29.5}{\ignorespaces Podcast: 067 Data Engineering At NASA Case Study}}{90}{table.29.5}
-\contentsline {table}{\numberline {29.6}{\ignorespaces Podcast: 062 Data Engineering At Netflix Case Study}}{90}{table.29.6}
-\contentsline {table}{\numberline {29.7}{\ignorespaces Podcast: 083 Data Engineering at OLX Case Study}}{94}{table.29.7}
-\contentsline {table}{\numberline {29.8}{\ignorespaces Podcast: 069 Engineering Culture At Pinterest}}{94}{table.29.8}
-\contentsline {table}{\numberline {29.9}{\ignorespaces Podcast: 059 What Is The Siemens Mindsphere IoT Platform?}}{95}{table.29.9}
-\contentsline {table}{\numberline {29.10}{\ignorespaces Podcast: 071 Data Engineering At Spotify Case Study}}{96}{table.29.10}
-\contentsline {table}{\numberline {29.11}{\ignorespaces Podcast: 072 Data Engineering At Twitter Case Study}}{97}{table.29.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {31.1}{\ignorespaces Podcast: 063 Data Engineering At Airbnb Case Study}}{90}{table.31.1}
+\contentsline {table}{\numberline {31.2}{\ignorespaces Podcast: 064 Data Engineering At Booking.com Case Study}}{91}{table.31.2}
+\contentsline {table}{\numberline {31.3}{\ignorespaces Podcast: 065 Data Engineering At CERN Case Study}}{92}{table.31.3}
+\contentsline {table}{\numberline {31.4}{\ignorespaces Podcast: 073 Data Engineering At LinkedIn Case Study}}{94}{table.31.4}
+\contentsline {table}{\numberline {31.5}{\ignorespaces Podcast: 067 Data Engineering At NASA Case Study}}{95}{table.31.5}
+\contentsline {table}{\numberline {31.6}{\ignorespaces Podcast: 062 Data Engineering At Netflix Case Study}}{95}{table.31.6}
+\contentsline {table}{\numberline {31.7}{\ignorespaces Podcast: 083 Data Engineering at OLX Case Study}}{99}{table.31.7}
+\contentsline {table}{\numberline {31.8}{\ignorespaces Podcast: 069 Engineering Culture At Pinterest}}{99}{table.31.8}
+\contentsline {table}{\numberline {31.9}{\ignorespaces Podcast: 059 What Is The Siemens Mindsphere IoT Platform?}}{100}{table.31.9}
+\contentsline {table}{\numberline {31.10}{\ignorespaces Podcast: 071 Data Engineering At Spotify Case Study}}{101}{table.31.10}
+\contentsline {table}{\numberline {31.11}{\ignorespaces Podcast: 072 Data Engineering At Twitter Case Study}}{102}{table.31.11}
