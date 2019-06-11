@@ -11,6 +11,35 @@
 \usepackage[linktocpage=true]{hyperref}
 \usepackage{tabularx} % in the preamble
 
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+%    commentstyle=\color{codegreen},
+ %   keywordstyle=\color{magenta},
+ %   numberstyle=\tiny\color{codegray},
+ %   stringstyle=\color{codepurple},
+ %   basicstyle=\footnotesize,
+ %   breakatwhitespace=false,         
+ %   breaklines=true,                 
+ %   captionpos=b,                    
+ %   keepspaces=true,                 
+ %   numbers=left,                    
+ %   numbersep=5pt,                  
+ %   showspaces=false,                
+ %   showstringspaces=false,
+ %   showtabs=false,                  
+ %   tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -26,7 +55,7 @@
 \title{The Data Engineering Cookbook}
 \subtitle{Mastering The Plumbing Of Data Science}
 \author{Andreas Kretz}
-\date{\today\\v2.0}
+\date{\today\\v2.1}
 
 \begin{document}
 \maketitle
@@ -419,6 +448,11 @@ From time to time you need to modify stuff through the operation system. Especia
 
 \section{OS Basics}
 
+Show all historic commands
+\begin{lstlisting}
+history | grep docker
+\end{lstlisting}
+
 \section{Shell scripting}
 
 \section{Cron jobs}
@@ -486,56 +520,6 @@ I talked about security zone design and lambda architecture in this podcast: \ur
 
 \section{Kerberos Tickets}
 
-\chapter{Stream Processing}
-\section{Three methods of streaming | available}
-
-In stream processing sometimes it is ok to drop messages, other times it is not. Sometimes it is fine to process a message multiple times, other times that needs to be avoided like hell.
-
-Today’s topic are the different methods of streaming: At most once, at least once and exactly once.
-
-What this means and why it is so important to keep them in mind when creating a solution. That is what you will find out in this article.
-
-\section{At Least Once}
-
-At least once, means a message gets processed in the system once or multiple times. So with at least once it’s not possible that a message gets into the system and is not getting processed.
-
-It’s not getting dropped or lost somewhere in the system.
-
-One example where at least once processing can be used is when you think about a fleet management of cars. You get GPS data from cars and that GPS data is transmitted with a timestamp and the GPS coordinates.
-
-It’s important that you get the GPS data at least once, so you know where the car is. If you’re processing this data multiple times, it always has the the timestamp with it.
-
-Because of that it does not matter that it gets processed multiple times, because of the timestamp. Or that it would be stored multiple times, because it would just override the existing one.
-
-\section{At Most Once}
-
-The second streaming method is at most once. At most once means that it’s okay to drop some information, to drop some messages.
-
-But it’s important that a message is only only processed once as a maximum.
-
-A example for this is event processing. Some event is happening and that event is not important enough, so it can be dropped. It doesn’t have any consequences when it gets dropped.
-
-But when that event happens it’s important that it does not get processed multiple times. Then it would look as if the event happened five or six times instead of only one.
-
-Think about engine misfires. If it happens once, no big deal. But if the system tells you it happens a lot you will think you have a problem with your engine.
-
-\section{Exactly Once}
-
-Another thing is exactly once, this means it’s not okay to drop data, it’s not okay to lose data and it’s also not okay to process one message what data said multiple times
-
-A example for this is for instance banking. When you think about credit card transactions it’s not okay to drop a transaction.
-
-When dropped your payment is not going through. It’s also not okay to have a transaction processed multiple times, because then you are paying multiple times.
-
-\section{Check The Tools!}
-
-All of this sounds very simple and logical. What kind of processing is done has to be a requirement for your use case.
-
-It needs to be thought about in the design process, because not every tool is supporting all three methods. Very often you need to code your application very differently based on the streaming method.
-
-Especially exactly once is very hard to do.
-
-So, the tool of data processing needs to be chosen based on if you need exactly once, at least once or if you need at most once.
 
 \chapter{Big Data}
 \section{What is big data and where is the difference to data science and data analytics?}
@@ -676,6 +660,193 @@ Especially when you are talking the maintenance and development on top big data 
 If you don’t need it it’s making absolutely no sense at all!
 
 On the other side: If you really need big data tools they will save your ass :)
+
+\chapter {My Big Data Platform Blueprint}
+Some time ago I have created a simple and modular big data platform blueprint for myself. It is based on what I have seen in the field and read in tech blogs all over the internet.
+
+Today I am going to share it with you.
+
+Why do I believe it will be super useful to you?
+
+Because, unlike other blueprints it is not focused on technology. It is based on four common big data platform design patterns.
+
+Following my blueprint will allow you to create the big data platform that fits exactly your needs. Building the perfect platform will allow data scientists to discover new insights.
+
+It will enable you to perfectly handle big data and allow you to make data driven decisions.
+
+\paragraph{THE BLUEPRINT}
+The blueprint is focused on the four key areas: Ingest, store, analyse and display.
+
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/Big-Data-Platform-Blueprint-Title-Original.png}
+  \caption{Platfrom Blueprint}
+  \label{fig:Bild1}
+\end{figure}
+
+
+Having the platform split like this turns it it a modular platform with loosely coupled interfaces.
+
+Why is it so important to have a modular platform?
+
+If you have a platform that is not modular you end up with something that is fixed or hard to modify. This means you can not adjust the platform to changing requirements of the company.
+
+Because of modularity it is possible to switch out every component, if you need it.
+
+Now, lets talk more about each key area.
+
+\section{Ingest}
+Ingestion is all about getting the data in from the source and making it available to later stages. Sources can be everything form tweets, server logs to IoT sensor data like from cars.
+
+Sources send data to your API Services. The API is going to push the data into a temporary storage.
+
+The temporary storage allows other stages simple and fast access to incoming data.
+
+A great solution is to use messaging queue systems like Apache Kafka, RabbitMQ or AWS Kinesis. Sometimes people also use caches for specialised applications like Redis.
+
+A good practice is that the temporary storage follows the publish, subscribe pattern. This way APIs can publish messages and Analytics can quickly consume them.
+
+\section{Analyse / Process}
+The analyse stage is where the actual analytics is done. Analytics, in the form of stream and batch processing.
+
+Streaming data is taken from ingest and fed into analytics. Streaming analyses the “live” data thus, so generates fast results.
+
+As the central and most important stage, analytics also has access to the big data storage. Because of that connection, analytics can take a big chunk of data and analyse it.
+
+This type of analysis is called batch processing. It will deliver you answers for the big questions.
+
+To learn more about stream and batch processing read my blog post: How to Create New and Exciting Big Data Aided Products
+
+The analytics process, batch or streaming, is not a one way process. Analytics also can write data back to the big data storage.
+
+Often times writing data back to the storage makes sense. It allows you to combine previous analytics outputs with the raw data.
+
+Analytics insight can give meaning to the raw data when you combine them. This combination will often times allow you to create even more useful insight.
+
+A wide variety of analytics tools are available. Ranging from MapReduce or AWS Elastic MapReduce to Apache Spark and AWS lambda.
+
+\section{Store}
+This is the typical big data storage where you just store everything. It enables you to analyse the big picture.
+
+Most of the data might seem useless for now, but it is of upmost importance to keep it. Throwing data away is a big no no.
+
+Why not throw something away when it is useless?
+
+Although it seems useless for now, data scientists can work with the data. They might find new ways to analyse the data and generate valuable insight from it.
+
+What kind of systems can be used to store big data?
+
+Systems like Hadoop HDFS, Hbase, Amazon S3 or DynamoDB are a perfect fit to store big data.
+
+Check out my podcast how to decide between SQL and NoSQL: https://anchor.fm/andreaskayy/embed/episodes/NoSQL-Vs-SQL-How-To-Choose-e12f1o
+
+\section{Display}
+Displaying data is as important as ingesting, storing and analysing it. People need to be able to make data driven decisions.
+
+This is why it is important to have a good visual presentation of the data. Sometimes you have a lot of different use cases or projects using the platform.
+
+It might not be possible for you to build the perfect UI that fits everyone. What you should do in this case is enable others to build the perfect UI themselves.
+
+How to do that? By creating APIs to access the data and making them available to developers.
+
+Either way, UI or API the trick is to give the display stage direct access to the data in the big data cluster. This kind of access will allow the developers to use analytics results as well as raw data to build the the perfect application.
+
+\chapter{ Lambda Architecture}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#077 Lambda Architecture and Kappa Architecture} \\ \hline
+\multicolumn{2}{p{15cm}}{In this stream we talk about the lambda architecture with stream and batch processing as well as a alternative the Kappa Architecture that consists only of streaming. Also Data engineer vs data scientist and we discuss Andrew Ng's AI Transformation Playbook}         \\ \hline
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/077-Lambda--Kappa-Architecture-e45j0r}{Click here to listen}   \\
+\multicolumn{1}{l|}{Youtube}   & \href{https://youtu.be/iUOQPyHN9-0}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 077 Lambda Architecture and Kappa Architecture} %\label{tbl:spotifycasestudy}
+\end{table}
+
+
+\section{Batch Processing} Ask the big questions. Remember your last yearly tax statement?
+
+You break out the folders. You run around the house searching for the receipts.
+
+All that fun stuff.
+
+When you finally found everything you fill out the form and send it on its way.
+
+Doing the tax statement is a prime example of a batch process.
+
+Data comes in and gets stored, analytics loads the data from storage and creates an output (insight):
+
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/Simple-Batch-Processing-Workflow}
+  \caption{Batch Processing Pipeline}
+  \label{fig:Bild1}
+\end{figure}
+
+Batch processing is something you do either without a schedule or on a schedule (tax statement). It is used to ask the big questions and gain the insights by looking at the big picture.
+
+To do so, batch processing jobs use large amounts of data. This data is provided by storage systems like Hadoop HDFS.
+
+They can store lots of data (petabytes) without a problem.
+
+Results from batch jobs are very useful, but the execution time is high. Because the amount of used data is high.
+
+It can take minutes or sometimes hours until you get your results.
+
+
+
+\section{Stream Processing} Gain instant insight into your data.
+
+Streaming allows users to make quick decisions and take actions based on “real-time” insight. Contrary to batch processing, streaming processes data on the fly, as it comes in.
+
+With streaming you don’t have to wait minutes or hours to get results. You gain instant insight into your data.
+
+In the batch processing pipeline, the analytics was after the data storage. It had access to all the available data.
+
+Stream processing creates insight before the data storage. It has only access to fragments of data as it comes in.
+
+As a result the scope of the produced insight is also limited. Because the big picture is missing.
+
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/Simple-Stream-Processing-Workflow}
+  \caption{Stream Processing Pipeline}
+  \label{fig:Bild1}
+\end{figure}
+
+Only with streaming analytics you are able to create advanced services for the customer. Netflix for instance incorporated stream processing into Chuckwa V2.0 and the new Keystone pipeline.
+
+One example of advanced services through stream processing is the Netflix “Trending Now” feature.
+Check out the Netflix case study.
+
+\section{Should you do stream or batch processing?}
+
+It is a good idea to start with batch processing. Batch processing is the foundation of every good big data platform.
+
+A batch processing architecture is simple, and therefore quick to set up. Platform simplicity means, it will also be relatively cheap to run.
+
+A batch processing platform will enable you to quickly ask the big questions. They will give you invaluable insight into your data and customers.
+
+When the time comes and you also need to do analytics on the fly, then add a streaming pipeline to your batch processing big data platform.
+
+
+\section{Lambda Architecture Alternative }
+\subsection{Kappa Architecture}
+\subsection{Kappa Architecture with Kudu}
+
+\section{Why a Good Data Platform Is Important}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#066 How To Do Data Science From A Data Engineers Perspective} \\ \hline
+\multicolumn{2}{p{15cm}}{A simple introduction how to do data science in the context of the internet of things.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/yp_cc4R0mGQ}{Click here to watch}   \\ 
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt}{Click here to listen}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 066 How To Do Data Science From A Data Engineers..} %\label{tbl:spotifycasestudy}
+\end{table}
 
 
 
@@ -818,20 +989,6 @@ Flume
 Hive
 \section{How to select Hadoop Cluster Hardware}
 
-\chapter{Is ETL still relevant for Analytics?}
-
-\begin{table}[h]
-\begin{tabular}{ll}
-\hline
-\multicolumn{2}{l}{\textbf{Podcast Episode:} \#039 Is ETL Dead For Data Science \& Big Data?} \\ \hline
-\multicolumn{2}{p{15cm}}{In this podcast we look at the engineering culture at Spotify, my favorite music streaming service. 
-The process behind the development of Spotify is really awesome.}         \\ \hline
-\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/leSOWPaNkl4}{Click here to watch}   \\ 
-\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/Is-ETL-Dead-For-Data-Science--Big-Data---PoDS-039-e2b604}{Click here to listen}   \\ \hline
-\end{tabular}
-\captionof{table}{Podcast: 039 Is ETL Dead for Data Science and Big Data?} %\label{tbl:spotifycasestudy}
-\end{table}
-
 
 \chapter{Docker}
 
@@ -887,8 +1044,62 @@ Perfect for Data Science.
 \section{Why and how to do Docker container orchestration}
 Podcast about how data science learners use Docker (for data scientists): https://anchor.fm/andreaskayy/embed/episodes/Learn-Data-Science-Go-Docker-e10n7u
 
+\section{Useful Docker Commands}
 
+Create a container:
+\begin{lstlisting}
+docker run CONTAINER --network NETWORK
+\end{lstlisting}
 
+Start a stopped container:
+\begin{lstlisting}
+docker start CONTAINERNAME 
+\end{lstlisting}
+
+Stop a running container:
+\begin{lstlisting}
+docker stop
+\end{lstlisting}
+
+List all running containers
+\begin{lstlisting}
+docker ps
+\end{lstlisting}
+
+List all containers including stopped ones
+\begin{lstlisting}
+docker ps -a
+\end{lstlisting}
+
+Inspect the container configuration. For instance network settings and so on:
+\begin{lstlisting}
+docker inspect CONTAINER
+\end{lstlisting}
+
+List all available virtual networks:
+\begin{lstlisting}
+docker network ls
+\end{lstlisting}
+
+Create a new network:
+\begin{lstlisting}
+docker network create NETWORK --driver bridge
+\end{lstlisting}
+
+Connect a running container to a network
+\begin{lstlisting}
+docker network connect NETWORK CONTAINER
+\end{lstlisting}
+
+Disconnect a running container from a network
+\begin{lstlisting}
+docker network disconnect NETWORK CONTAINER
+\end{lstlisting}
+
+Remove  a network
+\begin{lstlisting}
+network rm NETWORK
+\end{lstlisting}
 
 
 \chapter{REST APIs}
@@ -1029,7 +1240,75 @@ Druid
 \subsection{MPP Databases (Greenplum)}
 
 
-\chapter{Data Processing / Analytics - Frameworks}
+\chapter{Data Processing and Analytics - Frameworks}
+
+\section{Is ETL still relevant for Analytics?}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#039 Is ETL Dead For Data Science \& Big Data?} \\ \hline
+\multicolumn{2}{p{15cm}}{Is ETL dead in Data Science and Big Data? In today's podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre processing \& cleansing replace it What would replace ETL in Data Engineering}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/leSOWPaNkl4}{Click here to watch}   \\ 
+\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/Is-ETL-Dead-For-Data-Science--Big-Data---PoDS-039-e2b604}{Click here to listen}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 039 Is ETL Dead for Data Science and Big Data?} %\label{tbl:spotifycasestudy}
+\end{table}
+
+
+\section{Stream Processing}
+\subsection{Three methods of streaming | available}
+
+In stream processing sometimes it is ok to drop messages, other times it is not. Sometimes it is fine to process a message multiple times, other times that needs to be avoided like hell.
+
+Today’s topic are the different methods of streaming: At most once, at least once and exactly once.
+
+What this means and why it is so important to keep them in mind when creating a solution. That is what you will find out in this article.
+
+\subsection{At Least Once}
+
+At least once, means a message gets processed in the system once or multiple times. So with at least once it’s not possible that a message gets into the system and is not getting processed.
+
+It’s not getting dropped or lost somewhere in the system.
+
+One example where at least once processing can be used is when you think about a fleet management of cars. You get GPS data from cars and that GPS data is transmitted with a timestamp and the GPS coordinates.
+
+It’s important that you get the GPS data at least once, so you know where the car is. If you’re processing this data multiple times, it always has the the timestamp with it.
+
+Because of that it does not matter that it gets processed multiple times, because of the timestamp. Or that it would be stored multiple times, because it would just override the existing one.
+
+\subsection{At Most Once}
+
+The second streaming method is at most once. At most once means that it’s okay to drop some information, to drop some messages.
+
+But it’s important that a message is only only processed once as a maximum.
+
+A example for this is event processing. Some event is happening and that event is not important enough, so it can be dropped. It doesn’t have any consequences when it gets dropped.
+
+But when that event happens it’s important that it does not get processed multiple times. Then it would look as if the event happened five or six times instead of only one.
+
+Think about engine misfires. If it happens once, no big deal. But if the system tells you it happens a lot you will think you have a problem with your engine.
+
+\subsection{Exactly Once}
+
+Another thing is exactly once, this means it’s not okay to drop data, it’s not okay to lose data and it’s also not okay to process one message what data said multiple times
+
+A example for this is for instance banking. When you think about credit card transactions it’s not okay to drop a transaction.
+
+When dropped your payment is not going through. It’s also not okay to have a transaction processed multiple times, because then you are paying multiple times.
+
+\subsection{Check The Tools!}
+
+All of this sounds very simple and logical. What kind of processing is done has to be a requirement for your use case.
+
+It needs to be thought about in the design process, because not every tool is supporting all three methods. Very often you need to code your application very differently based on the streaming method.
+
+Especially exactly once is very hard to do.
+
+So, the tool of data processing needs to be chosen based on if you need exactly once, at least once or if you need at most once.
+
+
+
 \section{MapReduce}
 
 Since the early days of the Hadoop eco system, the MapReduce framework is one of the main components of Hadoop alongside the Hadoop file system HDFS.
@@ -1288,6 +1567,27 @@ Having a single resource manager instead of two independent ones makes it a lot 
   \label{fig:Bild1}
 \end{figure}
 
+\subsection{KAFKA Commands}
+
+Start Zookeeper container for Kafka:
+
+\begin{lstlisting}
+docker run -d --name zookeeper-server   \
+	--network app-tier   \
+	-e ALLOW_ANONYMOUS_LOGIN=yes    \
+	bitnami/zookeeper:latest
+\end{lstlisting}
+
+Start Kafka container:
+
+\begin{lstlisting}
+docker run -d --name kafka-server  \
+	--network app-tier  \
+	-e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181  \
+	-e ALLOW_PLAINTEXT_LISTENER=yes  \
+	bitnami/kafka:latest
+\end{lstlisting}
+
 \section{Apache Nifi}
 Great blog about Nifi:
 \url{https://www.datainmotion.dev}
@@ -1449,6 +1749,13 @@ Companies like Tesla, they have it very easy. Because the data is already there.
 
 \textbf{They just need to show us that the algorithms work. The end.}
 
+\section{AWS Sagemaker}
+
+Train and apply models online with Sagemaker
+
+Link to the OLX Slideshare with pros, cons and how to use Sagemaker:
+\url{https://www.slideshare.net/mobile/AlexeyGrigorev/image-models-infrastructure-at-olx}
+
 
 \chapter{Data Visualization}
 
@@ -1477,193 +1784,6 @@ This section does not contain any text that's why the page is messed up
 
 \part{Data Engineering Course: Building A Data Platform}
 
-\chapter {My Big Data Platform Blueprint}
-Some time ago I have created a simple and modular big data platform blueprint for myself. It is based on what I have seen in the field and read in tech blogs all over the internet.
-
-Today I am going to share it with you.
-
-Why do I believe it will be super useful to you?
-
-Because, unlike other blueprints it is not focused on technology. It is based on four common big data platform design patterns.
-
-Following my blueprint will allow you to create the big data platform that fits exactly your needs. Building the perfect platform will allow data scientists to discover new insights.
-
-It will enable you to perfectly handle big data and allow you to make data driven decisions.
-
-\paragraph{THE BLUEPRINT}
-The blueprint is focused on the four key areas: Ingest, store, analyse and display.
-
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=0.9\textwidth]{images/Big-Data-Platform-Blueprint-Title-Original.png}
-  \caption{Platfrom Blueprint}
-  \label{fig:Bild1}
-\end{figure}
-
-
-Having the platform split like this turns it it a modular platform with loosely coupled interfaces.
-
-Why is it so important to have a modular platform?
-
-If you have a platform that is not modular you end up with something that is fixed or hard to modify. This means you can not adjust the platform to changing requirements of the company.
-
-Because of modularity it is possible to switch out every component, if you need it.
-
-Now, lets talk more about each key area.
-
-\section{Ingest}
-Ingestion is all about getting the data in from the source and making it available to later stages. Sources can be everything form tweets, server logs to IoT sensor data like from cars.
-
-Sources send data to your API Services. The API is going to push the data into a temporary storage.
-
-The temporary storage allows other stages simple and fast access to incoming data.
-
-A great solution is to use messaging queue systems like Apache Kafka, RabbitMQ or AWS Kinesis. Sometimes people also use caches for specialised applications like Redis.
-
-A good practice is that the temporary storage follows the publish, subscribe pattern. This way APIs can publish messages and Analytics can quickly consume them.
-
-\section{Analyse / Process}
-The analyse stage is where the actual analytics is done. Analytics, in the form of stream and batch processing.
-
-Streaming data is taken from ingest and fed into analytics. Streaming analyses the “live” data thus, so generates fast results.
-
-As the central and most important stage, analytics also has access to the big data storage. Because of that connection, analytics can take a big chunk of data and analyse it.
-
-This type of analysis is called batch processing. It will deliver you answers for the big questions.
-
-To learn more about stream and batch processing read my blog post: How to Create New and Exciting Big Data Aided Products
-
-The analytics process, batch or streaming, is not a one way process. Analytics also can write data back to the big data storage.
-
-Often times writing data back to the storage makes sense. It allows you to combine previous analytics outputs with the raw data.
-
-Analytics insight can give meaning to the raw data when you combine them. This combination will often times allow you to create even more useful insight.
-
-A wide variety of analytics tools are available. Ranging from MapReduce or AWS Elastic MapReduce to Apache Spark and AWS lambda.
-
-\section{Store}
-This is the typical big data storage where you just store everything. It enables you to analyse the big picture.
-
-Most of the data might seem useless for now, but it is of upmost importance to keep it. Throwing data away is a big no no.
-
-Why not throw something away when it is useless?
-
-Although it seems useless for now, data scientists can work with the data. They might find new ways to analyse the data and generate valuable insight from it.
-
-What kind of systems can be used to store big data?
-
-Systems like Hadoop HDFS, Hbase, Amazon S3 or DynamoDB are a perfect fit to store big data.
-
-Check out my podcast how to decide between SQL and NoSQL: https://anchor.fm/andreaskayy/embed/episodes/NoSQL-Vs-SQL-How-To-Choose-e12f1o
-
-\section{Display}
-Displaying data is as important as ingesting, storing and analysing it. People need to be able to make data driven decisions.
-
-This is why it is important to have a good visual presentation of the data. Sometimes you have a lot of different use cases or projects using the platform.
-
-It might not be possible for you to build the perfect UI that fits everyone. What you should do in this case is enable others to build the perfect UI themselves.
-
-How to do that? By creating APIs to access the data and making them available to developers.
-
-Either way, UI or API the trick is to give the display stage direct access to the data in the big data cluster. This kind of access will allow the developers to use analytics results as well as raw data to build the the perfect application.
-
-\chapter{ Lambda Architecture}
-
-\begin{table}[h]
-\begin{tabular}{ll}
-\hline
-\multicolumn{2}{l}{\textbf{Podcast Episode:} \#077 Lambda Architecture and Kappa Architecture} \\ \hline
-\multicolumn{2}{p{15cm}}{In this stream we talk about the lambda architecture with stream and batch processing as well as a alternative the Kappa Architecture that consists only of streaming. Also Data engineer vs data scientist and we discuss Andrew Ng's AI Transformation Playbook}         \\ \hline
-\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/077-Lambda--Kappa-Architecture-e45j0r}{Click here to listen}   \\
-\multicolumn{1}{l|}{Youtube}   & \href{https://youtu.be/iUOQPyHN9-0}{Click here to watch}   \\ \hline
-\end{tabular}
-\captionof{table}{Podcast: 077 Lambda Architecture and Kappa Architecture} %\label{tbl:spotifycasestudy}
-\end{table}
-
-
-\section{Batch Processing} Ask the big questions. Remember your last yearly tax statement?
-
-You break out the folders. You run around the house searching for the receipts.
-
-All that fun stuff.
-
-When you finally found everything you fill out the form and send it on its way.
-
-Doing the tax statement is a prime example of a batch process.
-
-Data comes in and gets stored, analytics loads the data from storage and creates an output (insight):
-
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=0.9\textwidth]{images/Simple-Batch-Processing-Workflow}
-  \caption{Batch Processing Pipeline}
-  \label{fig:Bild1}
-\end{figure}
-
-Batch processing is something you do either without a schedule or on a schedule (tax statement). It is used to ask the big questions and gain the insights by looking at the big picture.
-
-To do so, batch processing jobs use large amounts of data. This data is provided by storage systems like Hadoop HDFS.
-
-They can store lots of data (petabytes) without a problem.
-
-Results from batch jobs are very useful, but the execution time is high. Because the amount of used data is high.
-
-It can take minutes or sometimes hours until you get your results.
-
-
-
-\section{Stream Processing} Gain instant insight into your data.
-
-Streaming allows users to make quick decisions and take actions based on “real-time” insight. Contrary to batch processing, streaming processes data on the fly, as it comes in.
-
-With streaming you don’t have to wait minutes or hours to get results. You gain instant insight into your data.
-
-In the batch processing pipeline, the analytics was after the data storage. It had access to all the available data.
-
-Stream processing creates insight before the data storage. It has only access to fragments of data as it comes in.
-
-As a result the scope of the produced insight is also limited. Because the big picture is missing.
-
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=0.9\textwidth]{images/Simple-Stream-Processing-Workflow}
-  \caption{Stream Processing Pipeline}
-  \label{fig:Bild1}
-\end{figure}
-
-Only with streaming analytics you are able to create advanced services for the customer. Netflix for instance incorporated stream processing into Chuckwa V2.0 and the new Keystone pipeline.
-
-One example of advanced services through stream processing is the Netflix “Trending Now” feature.
-Check out the Netflix case study.
-
-\section{Should you do stream or batch processing?}
-
-It is a good idea to start with batch processing. Batch processing is the foundation of every good big data platform.
-
-A batch processing architecture is simple, and therefore quick to set up. Platform simplicity means, it will also be relatively cheap to run.
-
-A batch processing platform will enable you to quickly ask the big questions. They will give you invaluable insight into your data and customers.
-
-When the time comes and you also need to do analytics on the fly, then add a streaming pipeline to your batch processing big data platform.
-
-
-\section{Lambda Architecture Alternative }
-\subsection{Kappa Architecture}
-\subsection{Kappa Architecture with Kudu}
-
-\section{Why a Good Data Platform Is Important}
-
-\begin{table}[h]
-\begin{tabular}{ll}
-\hline
-\multicolumn{2}{l}{\textbf{Podcast Episode:} \#066 How To Do Data Science From A Data Engineers Perspective} \\ \hline
-\multicolumn{2}{p{15cm}}{A simple introduction how to do data science in the context of the internet of things.}         \\ \hline
-\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/yp_cc4R0mGQ}{Click here to watch}   \\ 
-\multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt}{Click here to listen}   \\ \hline
-\end{tabular}
-\captionof{table}{Podcast: 066 How To Do Data Science From A Data Engineers..} %\label{tbl:spotifycasestudy}
-\end{table}
-
 \chapter{What We Want To Do}
 
 \begin{itemize}
@@ -1674,17 +1794,7 @@ When the time comes and you also need to do analytics on the fly, then add a str
 \end{itemize}
 
 
-\chapter{Thoughts On Choosing The Target Environment}
-
-\section{Cloud vs On-Premise}
-
-\section{Cloud Native or Independent Vendors}
-
 \chapter{Thoughts On Choosing A Development Environment}
-
-\section{Cloud As Dev Environment}
-
-\section{Local Dev Environment}
 
 For a local environment you need a good PC. I thought a bit about a budget build around 1.000 Dollars or Euros.
 
@@ -1700,25 +1810,83 @@ For a local environment you need a good PC. I thought a bit about a budget build
 \end{table}
 
 
+\chapter{A Look Into the Twitter API}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#081 Twitter API Research} \\ \hline
+\multicolumn{2}{p{15cm}}{In this podcast we were looking into how the Twitter API works and how you get access to it}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/UnAXKxeIlyg}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 081 Twitter API Research} %\label{tbl:spotifycasestudy}
+\end{table}
 
 
-\section{Data Architecture}
+\chapter{Ingesting Tweets with Apache Nifi}
 
-\subsection{Source Data}
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#082 Reading Tweets With Apache Nifi \& IaaS vs PaaS vs SaaS} \\ \hline
+\multicolumn{2}{p{15cm}}{In this podcast we are trying to read Twitter Data with Nifi}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/pWuT4UAocUY}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 082 Reading Tweets With Apache Nifi} %\label{tbl:spotifycasestudy}
+\end{table}
 
-\subsection{Analytics Requirements For Streaming}
-
-\subsection{Analytics Requirements For Batch Processing}
-
-\subsection{Data Visualization}
-
-\section{Milestone 1 | Tool Decisions}
-
-
-
-
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#085 Trying to read Tweets with Nifi Part 2} \\ \hline
+\multicolumn{2}{p{15cm}}{We are looking into the Big Data landscape chart and we are trying to read Twitter Data with Nifi again}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/OLUwXr8-gAk}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 085 Trying to read Tweets with Nifi Part 2} %\label{tbl:spotifycasestudy}
+\end{table}
 
 
+\chapter{Writing from Nifi to Apache Kafka}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#086 How to Write from Nifi to Kafka Part 1} \\ \hline
+\multicolumn{2}{p{15cm}}{I've been working a lot on the cookbook, because it's so much fun. I gotta tell you what I added.  Then we are trying to write the Tweets from Apache Nifi into Kafka. Also talk about Kafka basics.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/F7Y-ygnyJMg}{Click here to watch}   \\  \hline
+\end{tabular}
+\captionof{table}{Podcast: 086 How to Write from Nifi to Kafka Part 1} %\label{tbl:spotifycasestudy}
+\end{table}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#088 How to Write from Nifi to Kafka Part 2} \\ \hline
+\multicolumn{2}{p{15cm}}{In this podcast we finally figure out how to write to Kafka from Nifi. The problem was the network configuration of the Docker containers}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/pJbRnBQmoCs}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 088 How to Write from Nifi to Kafka Part 2} %\label{tbl:spotifycasestudy}
+\end{table}
+
+
+\chapter{Apache Zeppelin}
+
+\section{Install and Ingest Kafka Topic}
+
+\section{Processing Messages with Spark \& SparkSQL}
+
+\section{Visualizing Data}
+
+
+\chapter{Switch Processing from Zeppelin to Spark}
+
+\section{Install Spark}
+
+\section{Ingest Messages from Kafka}
+
+\section{Writing from Spark to Kafka}
+
+\section{Move Zeppelin Code to Spark}
 
 
 
@@ -2245,6 +2413,50 @@ Not good!}         \\ \hline
 \url{https://aws.amazon.com/de/blogs/big-data/our-data-lake-story-how-woot-com-built-a-serverless-data-lake-on-aws/}
 
 \section{Data Science @Zalando}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#087 Data Engineering At Zalando Case Study Talk} \\ \hline
+\multicolumn{2}{p{15cm}}{I had a great conversation about data engineering for online retailing with Michal Gancarski and Max Schultze. They showed Zalando's data platform and how they build data pipelines. 
+Super interesting especially for AWS users. }         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/IXOLsNA6Hm0}{Click here to watch}   \\  \hline
+\end{tabular}
+\captionof{table}{Podcast: 087 Data Engineering At Zalando Case Study} \label{tbl:087Zalando}
+\end{table}
+
+Do me a favor and give these guys a follow on LinkedIn:
+LinkedIn of Michal: \url{https://www.linkedin.com/in/michalgancarski/}
+
+LinkedIn of Max: \url{https://www.linkedin.com/in/max-schultze-b11996110/}
+
+Zalando has a tech blog with more infos and there is also a meetup in Berlin:
+Zalando Blog: 
+\url{https://jobs.zalando.com/tech/blog/}
+
+Next Zalando Data Engineering Meetup: 
+\url{https://www.meetup.com/Zalando-Tech-Events-Berlin/events/262032282/}
+
+Interesting tools:
+AWS CDK: 
+\url{https://docs.aws.amazon.com/cdk/latest/guide/what-is.html}
+
+Delta Lake: 
+\url{https://delta.io/} 
+
+AWS Step Functions: 
+\url{https://aws.amazon.com/step-functions/ AWS State Language: https://states-language.net/spec.html} 
+
+Youtube channel of the meetup: 
+\url{https://www.youtube.com/channel/UCxwul7aBm2LybbpKGbCOYNA/playlists talk at Spark+AI} 
+
+Summit about Zalando's Processing Platform: 
+\url{https://databricks.com/session/continuous-applications-at-scale-of-100-teams-with-databricks-delta-and-structured-streaming} 
+
+Talk at Strata London slides: 
+\url{https://databricks.com/session/continuous-applications-at-scale-of-100-teams-with-databricks-delta-and-structured-streaming}
+
+
 \url{https://jobs.zalando.com/tech/blog/what-is-hardcore-data-science--in-practice/?gh_src=4n3gxh1}
 
 \url{https://jobs.zalando.com/tech/blog/complex-event-generation-for-business-process-monitoring-using-apache-flink/}
