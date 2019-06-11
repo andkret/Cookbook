@@ -187,8 +187,8 @@
 \BOOKMARK [0][-]{chapter.26}{A Look Into the Twitter API}{part.3}% 187
 \BOOKMARK [0][-]{chapter.27}{Ingesting Tweets with Apache Nifi}{part.3}% 188
 \BOOKMARK [0][-]{chapter.28}{Writing from Nifi to Apache Kafka}{part.3}% 189
-\BOOKMARK [0][-]{chapter.29}{Installing Apache Zeppelin}{part.3}% 190
-\BOOKMARK [1][-]{section.29.1}{Ingest Kafka}{chapter.29}% 191
+\BOOKMARK [0][-]{chapter.29}{Apache Zeppelin}{part.3}% 190
+\BOOKMARK [1][-]{section.29.1}{Install and Ingest Kafka Topic}{chapter.29}% 191
 \BOOKMARK [1][-]{section.29.2}{Processing Messages with Spark \046 SparkSQL}{chapter.29}% 192
 \BOOKMARK [1][-]{section.29.3}{Visualizing Data}{chapter.29}% 193
 \BOOKMARK [0][-]{chapter.30}{Switch Processing from Zeppelin to Spark}{part.3}% 194

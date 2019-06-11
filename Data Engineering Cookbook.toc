@@ -189,8 +189,8 @@
 \contentsline {chapter}{\numberline {26}A Look Into the Twitter API}{84}{chapter.26}
 \contentsline {chapter}{\numberline {27}Ingesting Tweets with Apache Nifi}{85}{chapter.27}
 \contentsline {chapter}{\numberline {28}Writing from Nifi to Apache Kafka}{86}{chapter.28}
-\contentsline {chapter}{\numberline {29}Installing Apache Zeppelin}{87}{chapter.29}
-\contentsline {section}{\numberline {29.1}Ingest Kafka}{87}{section.29.1}
+\contentsline {chapter}{\numberline {29}Apache Zeppelin}{87}{chapter.29}
+\contentsline {section}{\numberline {29.1}Install and Ingest Kafka Topic}{87}{section.29.1}
 \contentsline {section}{\numberline {29.2}Processing Messages with Spark \& SparkSQL}{87}{section.29.2}
 \contentsline {section}{\numberline {29.3}Visualizing Data}{87}{section.29.3}
 \contentsline {chapter}{\numberline {30}Switch Processing from Zeppelin to Spark}{88}{chapter.30}
