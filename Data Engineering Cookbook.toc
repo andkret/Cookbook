@@ -42,9 +42,9 @@
 \contentsline {chapter}{\numberline {10}The Cloud}{29}{chapter.10}
 \contentsline {section}{\numberline {10.1}IaaS vs PaaS vs SaaS}{29}{section.10.1}
 \contentsline {section}{\numberline {10.2}AWS,Azure, IBM, Google Cloud basics}{29}{section.10.2}
-\contentsline {section}{\numberline {10.3}cloud vs on premise}{29}{section.10.3}
-\contentsline {section}{\numberline {10.4}up \& downsides}{30}{section.10.4}
-\contentsline {section}{\numberline {10.5}Security}{30}{section.10.5}
+\contentsline {section}{\numberline {10.3}Cloud vs On-Premises}{29}{section.10.3}
+\contentsline {section}{\numberline {10.4}Security}{30}{section.10.4}
+\contentsline {section}{\numberline {10.5}Hybrid Clouds}{30}{section.10.5}
 \contentsline {chapter}{\numberline {11}Security Zone Design}{31}{chapter.11}
 \contentsline {section}{\numberline {11.1}How to secure a multi layered application}{31}{section.11.1}
 \contentsline {section}{\numberline {11.2}Cluster security with Kerberos}{31}{section.11.2}
@@ -94,150 +94,150 @@
 \contentsline {section}{\numberline {17.6}Why and how to do Docker container orchestration}{53}{section.17.6}
 \contentsline {section}{\numberline {17.7}Useful Docker Commands}{53}{section.17.7}
 \contentsline {chapter}{\numberline {18}REST APIs}{55}{chapter.18}
-\contentsline {section}{\numberline {18.1}HTTP Post/Get}{55}{section.18.1}
-\contentsline {section}{\numberline {18.2}API Design}{55}{section.18.2}
-\contentsline {section}{\numberline {18.3}Implementation}{55}{section.18.3}
-\contentsline {section}{\numberline {18.4}OAuth security}{55}{section.18.4}
-\contentsline {chapter}{\numberline {19}Databases}{56}{chapter.19}
-\contentsline {section}{\numberline {19.1}SQL Databases}{56}{section.19.1}
-\contentsline {subsection}{\numberline {19.1.1}Database Design}{56}{subsection.19.1.1}
-\contentsline {subsection}{\numberline {19.1.2}SQL Queries}{56}{subsection.19.1.2}
-\contentsline {subsection}{\numberline {19.1.3}Stored Procedures}{56}{subsection.19.1.3}
-\contentsline {subsection}{\numberline {19.1.4}ODBC/JDBC Server Connections}{56}{subsection.19.1.4}
-\contentsline {section}{\numberline {19.2}NoSQL Stores}{56}{section.19.2}
-\contentsline {subsection}{\numberline {19.2.1}KeyValue Stores (HBase)}{56}{subsection.19.2.1}
-\contentsline {subsection}{\numberline {19.2.2}Document Store HDFS | available}{56}{subsection.19.2.2}
-\contentsline {subsection}{\numberline {19.2.3}Document Store MongoDB}{58}{subsection.19.2.3}
-\contentsline {subsection}{\numberline {19.2.4}Hive Warehouse}{58}{subsection.19.2.4}
-\contentsline {subsection}{\numberline {19.2.5}Impala}{58}{subsection.19.2.5}
-\contentsline {subsection}{\numberline {19.2.6}Kudu}{58}{subsection.19.2.6}
-\contentsline {subsection}{\numberline {19.2.7}Apache Druid}{58}{subsection.19.2.7}
-\contentsline {subsection}{\numberline {19.2.8}Time Series Databases}{59}{subsection.19.2.8}
-\contentsline {subsection}{\numberline {19.2.9}MPP Databases (Greenplum)}{59}{subsection.19.2.9}
-\contentsline {chapter}{\numberline {20}Data Processing and Analytics - Frameworks}{60}{chapter.20}
-\contentsline {section}{\numberline {20.1}Is ETL still relevant for Analytics?}{60}{section.20.1}
-\contentsline {section}{\numberline {20.2}Stream Processing}{60}{section.20.2}
-\contentsline {subsection}{\numberline {20.2.1}Three methods of streaming | available}{60}{subsection.20.2.1}
-\contentsline {subsection}{\numberline {20.2.2}At Least Once}{61}{subsection.20.2.2}
-\contentsline {subsection}{\numberline {20.2.3}At Most Once}{61}{subsection.20.2.3}
-\contentsline {subsection}{\numberline {20.2.4}Exactly Once}{61}{subsection.20.2.4}
-\contentsline {subsection}{\numberline {20.2.5}Check The Tools!}{62}{subsection.20.2.5}
-\contentsline {section}{\numberline {20.3}MapReduce}{62}{section.20.3}
-\contentsline {subsection}{\numberline {20.3.1}How does MapReduce work -- available}{63}{subsection.20.3.1}
-\contentsline {subsection}{\numberline {20.3.2}Example}{64}{subsection.20.3.2}
-\contentsline {subsection}{\numberline {20.3.3}What is the limitation of MapReduce? -- available}{66}{subsection.20.3.3}
-\contentsline {section}{\numberline {20.4}Apache Spark}{66}{section.20.4}
-\contentsline {subsection}{\numberline {20.4.1}What is the difference to MapReduce? -- available}{66}{subsection.20.4.1}
-\contentsline {subsection}{\numberline {20.4.2}How does Spark fit to Hadoop? -- available}{67}{subsection.20.4.2}
-\contentsline {subsection}{\numberline {20.4.3}Where's the difference?}{67}{subsection.20.4.3}
-\contentsline {subsection}{\numberline {20.4.4}Spark and Hadoop is a perfect fit}{68}{subsection.20.4.4}
-\contentsline {subsection}{\numberline {20.4.5}Spark on YARN:}{68}{subsection.20.4.5}
-\contentsline {subsection}{\numberline {20.4.6}My simple rule of thumb:}{69}{subsection.20.4.6}
-\contentsline {subsection}{\numberline {20.4.7}Available Languages -- available}{69}{subsection.20.4.7}
-\contentsline {subsection}{\numberline {20.4.8}How to do stream processing}{69}{subsection.20.4.8}
-\contentsline {subsection}{\numberline {20.4.9}How to do batch processing}{69}{subsection.20.4.9}
-\contentsline {subsection}{\numberline {20.4.10}How does Spark use data from Hadoop -- available}{69}{subsection.20.4.10}
-\contentsline {subsection}{\numberline {20.4.11}What is a RDD and what is a DataFrame?}{70}{subsection.20.4.11}
-\contentsline {subsection}{\numberline {20.4.12}Spark coding with Scala}{70}{subsection.20.4.12}
-\contentsline {subsection}{\numberline {20.4.13}Spark coding with Python}{70}{subsection.20.4.13}
-\contentsline {subsection}{\numberline {20.4.14}How and why to use SparkSQL?}{70}{subsection.20.4.14}
-\contentsline {subsection}{\numberline {20.4.15}Machine Learning on Spark? (Tensor Flow)}{70}{subsection.20.4.15}
-\contentsline {subsection}{\numberline {20.4.16}MLlib:}{70}{subsection.20.4.16}
-\contentsline {subsection}{\numberline {20.4.17}Spark Setup -- available}{71}{subsection.20.4.17}
-\contentsline {subsection}{\numberline {20.4.18}Spark Resource Management -- available}{71}{subsection.20.4.18}
-\contentsline {subsection}{\numberline {20.4.19}KAFKA Commands}{71}{subsection.20.4.19}
-\contentsline {section}{\numberline {20.5}Apache Nifi}{72}{section.20.5}
-\contentsline {section}{\numberline {20.6}StreamSets}{72}{section.20.6}
-\contentsline {chapter}{\numberline {21}Apache Kafka}{73}{chapter.21}
-\contentsline {section}{\numberline {21.1}Why a message queue tool?}{73}{section.21.1}
-\contentsline {section}{\numberline {21.2}Kakfa architecture}{73}{section.21.2}
-\contentsline {section}{\numberline {21.3}What are topics}{73}{section.21.3}
-\contentsline {section}{\numberline {21.4}What does Zookeeper have to do with Kafka}{73}{section.21.4}
-\contentsline {section}{\numberline {21.5}How to produce and consume messages}{73}{section.21.5}
-\contentsline {chapter}{\numberline {22}Machine Learning}{74}{chapter.22}
-\contentsline {section}{\numberline {22.1}Training and Applying models}{74}{section.22.1}
-\contentsline {section}{\numberline {22.2}What is deep learning}{74}{section.22.2}
-\contentsline {section}{\numberline {22.3}How to do Machine Learning in production | available}{74}{section.22.3}
-\contentsline {section}{\numberline {22.4}Why machine learning in production is harder then you think -- available}{75}{section.22.4}
-\contentsline {section}{\numberline {22.5}Models Do Not Work Forever}{75}{section.22.5}
-\contentsline {section}{\numberline {22.6}Where The Platforms That Support This?}{75}{section.22.6}
-\contentsline {section}{\numberline {22.7}Training Parameter Management}{76}{section.22.7}
-\contentsline {section}{\numberline {22.8}What\IeC {\textquoteright }s Your Solution?}{76}{section.22.8}
-\contentsline {section}{\numberline {22.9}How to convince people machine learning works | available}{76}{section.22.9}
-\contentsline {section}{\numberline {22.10}No Rules, No Physical Models}{77}{section.22.10}
-\contentsline {section}{\numberline {22.11}You Have The Data. USE IT!}{77}{section.22.11}
-\contentsline {section}{\numberline {22.12}Data is Stronger Than Opinions}{78}{section.22.12}
-\contentsline {section}{\numberline {22.13}AWS Sagemaker}{78}{section.22.13}
-\contentsline {chapter}{\numberline {23}Data Visualization}{79}{chapter.23}
-\contentsline {section}{\numberline {23.1}Android \& IOS}{79}{section.23.1}
-\contentsline {section}{\numberline {23.2}How to design APIs for mobile apps}{79}{section.23.2}
-\contentsline {section}{\numberline {23.3}How to use Webservers to display content}{79}{section.23.3}
-\contentsline {subsection}{\numberline {23.3.1}Tomcat}{80}{subsection.23.3.1}
-\contentsline {subsection}{\numberline {23.3.2}Jetty}{80}{subsection.23.3.2}
-\contentsline {subsection}{\numberline {23.3.3}NodeRED}{80}{subsection.23.3.3}
-\contentsline {subsection}{\numberline {23.3.4}React}{80}{subsection.23.3.4}
-\contentsline {section}{\numberline {23.4}Business Intelligence Tools}{80}{section.23.4}
-\contentsline {subsection}{\numberline {23.4.1}Tableau}{80}{subsection.23.4.1}
-\contentsline {subsection}{\numberline {23.4.2}PowerBI}{80}{subsection.23.4.2}
-\contentsline {subsection}{\numberline {23.4.3}Quliksense}{80}{subsection.23.4.3}
-\contentsline {section}{\numberline {23.5}Identity \& Device Management}{80}{section.23.5}
-\contentsline {subsection}{\numberline {23.5.1}What is a digital twin?}{80}{subsection.23.5.1}
-\contentsline {subsection}{\numberline {23.5.2}Active Directory}{80}{subsection.23.5.2}
-\contentsline {part}{\numberline {III}Data Engineering Course: Building A Data Platform}{81}{part.3}
-\contentsline {chapter}{\numberline {24}What We Want To Do}{82}{chapter.24}
-\contentsline {chapter}{\numberline {25}Thoughts On Choosing A Development Environment}{83}{chapter.25}
-\contentsline {chapter}{\numberline {26}A Look Into the Twitter API}{84}{chapter.26}
-\contentsline {chapter}{\numberline {27}Ingesting Tweets with Apache Nifi}{85}{chapter.27}
-\contentsline {chapter}{\numberline {28}Writing from Nifi to Apache Kafka}{86}{chapter.28}
-\contentsline {chapter}{\numberline {29}Apache Zeppelin}{87}{chapter.29}
-\contentsline {section}{\numberline {29.1}Install and Ingest Kafka Topic}{87}{section.29.1}
-\contentsline {section}{\numberline {29.2}Processing Messages with Spark \& SparkSQL}{87}{section.29.2}
-\contentsline {section}{\numberline {29.3}Visualizing Data}{87}{section.29.3}
-\contentsline {chapter}{\numberline {30}Switch Processing from Zeppelin to Spark}{88}{chapter.30}
-\contentsline {section}{\numberline {30.1}Install Spark}{88}{section.30.1}
-\contentsline {section}{\numberline {30.2}Ingest Messages from Kafka}{88}{section.30.2}
-\contentsline {section}{\numberline {30.3}Writing from Spark to Kafka}{88}{section.30.3}
-\contentsline {section}{\numberline {30.4}Move Zeppelin Code to Spark}{88}{section.30.4}
-\contentsline {part}{\numberline {IV}Case Studies}{89}{part.4}
-\contentsline {chapter}{\numberline {31}How I do Case Studies}{90}{chapter.31}
-\contentsline {section}{\numberline {31.1}Data Science @Airbnb}{90}{section.31.1}
-\contentsline {subsection}{\numberline {31.1.1}Data Science @Amazon}{90}{subsection.31.1.1}
-\contentsline {section}{\numberline {31.2}Data Science @Baidu}{90}{section.31.2}
-\contentsline {section}{\numberline {31.3}Data Science @Blackrock}{91}{section.31.3}
-\contentsline {section}{\numberline {31.4}Data Science @BMW}{91}{section.31.4}
-\contentsline {section}{\numberline {31.5}Data Science @Booking.com}{91}{section.31.5}
-\contentsline {section}{\numberline {31.6}Data Science @CERN}{91}{section.31.6}
-\contentsline {section}{\numberline {31.7}Data Science @Disney}{92}{section.31.7}
-\contentsline {section}{\numberline {31.8}Data Science @Drivetribe}{92}{section.31.8}
-\contentsline {section}{\numberline {31.9}Data Science @Dropbox}{92}{section.31.9}
-\contentsline {section}{\numberline {31.10}Data Science @Ebay}{93}{section.31.10}
-\contentsline {section}{\numberline {31.11}Data Science @Expedia}{93}{section.31.11}
-\contentsline {section}{\numberline {31.12}Data Science @Facebook}{93}{section.31.12}
-\contentsline {section}{\numberline {31.13}Data Science @Google}{93}{section.31.13}
-\contentsline {section}{\numberline {31.14}Data Science @@Grammarly}{93}{section.31.14}
-\contentsline {section}{\numberline {31.15}Data Science @ING Fraud}{93}{section.31.15}
-\contentsline {section}{\numberline {31.16}Data Science @Instagram}{93}{section.31.16}
-\contentsline {section}{\numberline {31.17}Data Science @LinkedIn}{94}{section.31.17}
-\contentsline {section}{\numberline {31.18}Data Science @Lyft}{94}{section.31.18}
-\contentsline {section}{\numberline {31.19}Data Science @NASA}{94}{section.31.19}
-\contentsline {section}{\numberline {31.20}Data Science @Netflix -- available}{95}{section.31.20}
-\contentsline {paragraph}{\nonumberline The Netflix batch processing pipeline}{96}{section*.6}
-\contentsline {paragraph}{\nonumberline Know what customers want:}{96}{section*.7}
-\contentsline {paragraph}{\nonumberline Batch processing is not enough}{97}{section*.8}
-\contentsline {paragraph}{\nonumberline The trending now feature}{97}{section*.9}
-\contentsline {paragraph}{\nonumberline Netflix real-time streaming architecture}{98}{section*.10}
-\contentsline {section}{\numberline {31.21}Data Science @OLX}{99}{section.31.21}
-\contentsline {section}{\numberline {31.22}Data Science @OTTO}{99}{section.31.22}
-\contentsline {section}{\numberline {31.23}Data Science @Paypal}{99}{section.31.23}
-\contentsline {section}{\numberline {31.24}Data Science @Pinterest}{99}{section.31.24}
-\contentsline {section}{\numberline {31.25}Data Science @Salesforce}{100}{section.31.25}
-\contentsline {section}{\numberline {31.26}Data Science @Siemens Mindsphere}{100}{section.31.26}
-\contentsline {section}{\numberline {31.27}Data Science @Slack}{100}{section.31.27}
-\contentsline {section}{\numberline {31.28}Data Science @Spotify}{101}{section.31.28}
-\contentsline {section}{\numberline {31.29}Data Science @Symantec}{101}{section.31.29}
-\contentsline {section}{\numberline {31.30}Data Science @Tinder}{101}{section.31.30}
-\contentsline {section}{\numberline {31.31}Data Science @Twitter}{101}{section.31.31}
-\contentsline {section}{\numberline {31.32}Data Science @Uber}{102}{section.31.32}
-\contentsline {section}{\numberline {31.33}Data Science @Upwork}{103}{section.31.33}
-\contentsline {section}{\numberline {31.34}Data Science @Woot}{103}{section.31.34}
-\contentsline {section}{\numberline {31.35}Data Science @Zalando}{103}{section.31.35}
+\contentsline {section}{\numberline {18.1}API Design}{55}{section.18.1}
+\contentsline {section}{\numberline {18.2}Implementation Frameworks}{55}{section.18.2}
+\contentsline {section}{\numberline {18.3}OAuth security}{56}{section.18.3}
+\contentsline {chapter}{\numberline {19}Databases}{57}{chapter.19}
+\contentsline {section}{\numberline {19.1}SQL Databases}{57}{section.19.1}
+\contentsline {subsection}{\numberline {19.1.1}PostgreSQL DB}{57}{subsection.19.1.1}
+\contentsline {subsection}{\numberline {19.1.2}Database Design}{57}{subsection.19.1.2}
+\contentsline {subsection}{\numberline {19.1.3}SQL Queries}{57}{subsection.19.1.3}
+\contentsline {subsection}{\numberline {19.1.4}Stored Procedures}{57}{subsection.19.1.4}
+\contentsline {subsection}{\numberline {19.1.5}ODBC/JDBC Server Connections}{57}{subsection.19.1.5}
+\contentsline {section}{\numberline {19.2}NoSQL Stores}{57}{section.19.2}
+\contentsline {subsection}{\numberline {19.2.1}KeyValue Stores (HBase)}{57}{subsection.19.2.1}
+\contentsline {subsection}{\numberline {19.2.2}Document Store HDFS | available}{57}{subsection.19.2.2}
+\contentsline {subsection}{\numberline {19.2.3}Document Store MongoDB}{60}{subsection.19.2.3}
+\contentsline {subsection}{\numberline {19.2.4}Hive Warehouse}{60}{subsection.19.2.4}
+\contentsline {subsection}{\numberline {19.2.5}Impala}{60}{subsection.19.2.5}
+\contentsline {subsection}{\numberline {19.2.6}Kudu}{60}{subsection.19.2.6}
+\contentsline {subsection}{\numberline {19.2.7}Apache Druid}{60}{subsection.19.2.7}
+\contentsline {subsection}{\numberline {19.2.8}InfluxDB Time Series Database}{60}{subsection.19.2.8}
+\contentsline {subsection}{\numberline {19.2.9}MPP Databases (Greenplum)}{61}{subsection.19.2.9}
+\contentsline {chapter}{\numberline {20}Data Processing and Analytics - Frameworks}{62}{chapter.20}
+\contentsline {section}{\numberline {20.1}Is ETL still relevant for Analytics?}{62}{section.20.1}
+\contentsline {section}{\numberline {20.2}Stream Processing}{62}{section.20.2}
+\contentsline {subsection}{\numberline {20.2.1}Three methods of streaming | available}{62}{subsection.20.2.1}
+\contentsline {subsection}{\numberline {20.2.2}At Least Once}{63}{subsection.20.2.2}
+\contentsline {subsection}{\numberline {20.2.3}At Most Once}{63}{subsection.20.2.3}
+\contentsline {subsection}{\numberline {20.2.4}Exactly Once}{63}{subsection.20.2.4}
+\contentsline {subsection}{\numberline {20.2.5}Check The Tools!}{64}{subsection.20.2.5}
+\contentsline {section}{\numberline {20.3}MapReduce}{64}{section.20.3}
+\contentsline {subsection}{\numberline {20.3.1}How does MapReduce work -- available}{65}{subsection.20.3.1}
+\contentsline {subsection}{\numberline {20.3.2}Example}{66}{subsection.20.3.2}
+\contentsline {subsection}{\numberline {20.3.3}What is the limitation of MapReduce? -- available}{68}{subsection.20.3.3}
+\contentsline {section}{\numberline {20.4}Apache Spark}{68}{section.20.4}
+\contentsline {subsection}{\numberline {20.4.1}What is the difference to MapReduce? -- available}{68}{subsection.20.4.1}
+\contentsline {subsection}{\numberline {20.4.2}How does Spark fit to Hadoop? -- available}{69}{subsection.20.4.2}
+\contentsline {subsection}{\numberline {20.4.3}Where's the difference?}{69}{subsection.20.4.3}
+\contentsline {subsection}{\numberline {20.4.4}Spark and Hadoop is a perfect fit}{70}{subsection.20.4.4}
+\contentsline {subsection}{\numberline {20.4.5}Spark on YARN:}{70}{subsection.20.4.5}
+\contentsline {subsection}{\numberline {20.4.6}My simple rule of thumb:}{71}{subsection.20.4.6}
+\contentsline {subsection}{\numberline {20.4.7}Available Languages -- available}{71}{subsection.20.4.7}
+\contentsline {subsection}{\numberline {20.4.8}How to do stream processing}{71}{subsection.20.4.8}
+\contentsline {subsection}{\numberline {20.4.9}How to do batch processing}{71}{subsection.20.4.9}
+\contentsline {subsection}{\numberline {20.4.10}How does Spark use data from Hadoop -- available}{71}{subsection.20.4.10}
+\contentsline {subsection}{\numberline {20.4.11}What is a RDD and what is a DataFrame?}{72}{subsection.20.4.11}
+\contentsline {subsection}{\numberline {20.4.12}Spark coding with Scala}{72}{subsection.20.4.12}
+\contentsline {subsection}{\numberline {20.4.13}Spark coding with Python}{72}{subsection.20.4.13}
+\contentsline {subsection}{\numberline {20.4.14}How and why to use SparkSQL?}{72}{subsection.20.4.14}
+\contentsline {subsection}{\numberline {20.4.15}Machine Learning on Spark? (Tensor Flow)}{72}{subsection.20.4.15}
+\contentsline {subsection}{\numberline {20.4.16}MLlib:}{72}{subsection.20.4.16}
+\contentsline {subsection}{\numberline {20.4.17}Spark Setup -- available}{73}{subsection.20.4.17}
+\contentsline {subsection}{\numberline {20.4.18}Spark Resource Management -- available}{73}{subsection.20.4.18}
+\contentsline {section}{\numberline {20.5}Apache Nifi}{73}{section.20.5}
+\contentsline {section}{\numberline {20.6}StreamSets}{73}{section.20.6}
+\contentsline {chapter}{\numberline {21}Apache Kafka}{75}{chapter.21}
+\contentsline {section}{\numberline {21.1}Why a message queue tool?}{75}{section.21.1}
+\contentsline {section}{\numberline {21.2}Kakfa architecture}{75}{section.21.2}
+\contentsline {section}{\numberline {21.3}What are topics}{75}{section.21.3}
+\contentsline {section}{\numberline {21.4}What does Zookeeper have to do with Kafka}{75}{section.21.4}
+\contentsline {section}{\numberline {21.5}How to produce and consume messages}{75}{section.21.5}
+\contentsline {section}{\numberline {21.6}KAFKA Commands}{75}{section.21.6}
+\contentsline {chapter}{\numberline {22}Machine Learning}{77}{chapter.22}
+\contentsline {section}{\numberline {22.1}Training and Applying models}{77}{section.22.1}
+\contentsline {section}{\numberline {22.2}What is deep learning}{77}{section.22.2}
+\contentsline {section}{\numberline {22.3}How to do Machine Learning in production | available}{77}{section.22.3}
+\contentsline {section}{\numberline {22.4}Why machine learning in production is harder then you think -- available}{78}{section.22.4}
+\contentsline {section}{\numberline {22.5}Models Do Not Work Forever}{78}{section.22.5}
+\contentsline {section}{\numberline {22.6}Where The Platforms That Support This?}{78}{section.22.6}
+\contentsline {section}{\numberline {22.7}Training Parameter Management}{79}{section.22.7}
+\contentsline {section}{\numberline {22.8}What\IeC {\textquoteright }s Your Solution?}{79}{section.22.8}
+\contentsline {section}{\numberline {22.9}How to convince people machine learning works | available}{79}{section.22.9}
+\contentsline {section}{\numberline {22.10}No Rules, No Physical Models}{80}{section.22.10}
+\contentsline {section}{\numberline {22.11}You Have The Data. USE IT!}{80}{section.22.11}
+\contentsline {section}{\numberline {22.12}Data is Stronger Than Opinions}{81}{section.22.12}
+\contentsline {section}{\numberline {22.13}AWS Sagemaker}{81}{section.22.13}
+\contentsline {chapter}{\numberline {23}Data Visualization}{82}{chapter.23}
+\contentsline {section}{\numberline {23.1}Android \& IOS}{82}{section.23.1}
+\contentsline {section}{\numberline {23.2}How to design APIs for mobile apps}{82}{section.23.2}
+\contentsline {section}{\numberline {23.3}How to use Webservers to display content}{82}{section.23.3}
+\contentsline {subsection}{\numberline {23.3.1}Tomcat}{83}{subsection.23.3.1}
+\contentsline {subsection}{\numberline {23.3.2}Jetty}{83}{subsection.23.3.2}
+\contentsline {subsection}{\numberline {23.3.3}NodeRED}{83}{subsection.23.3.3}
+\contentsline {subsection}{\numberline {23.3.4}React}{83}{subsection.23.3.4}
+\contentsline {section}{\numberline {23.4}Business Intelligence Tools}{83}{section.23.4}
+\contentsline {subsection}{\numberline {23.4.1}Tableau}{83}{subsection.23.4.1}
+\contentsline {subsection}{\numberline {23.4.2}PowerBI}{83}{subsection.23.4.2}
+\contentsline {subsection}{\numberline {23.4.3}Quliksense}{83}{subsection.23.4.3}
+\contentsline {section}{\numberline {23.5}Identity \& Device Management}{83}{section.23.5}
+\contentsline {subsection}{\numberline {23.5.1}What is a digital twin?}{83}{subsection.23.5.1}
+\contentsline {subsection}{\numberline {23.5.2}Active Directory}{83}{subsection.23.5.2}
+\contentsline {part}{\numberline {III}Data Engineering Course: Building A Data Platform}{84}{part.3}
+\contentsline {chapter}{\numberline {24}What We Want To Do}{85}{chapter.24}
+\contentsline {chapter}{\numberline {25}Thoughts On Choosing A Development Environment}{86}{chapter.25}
+\contentsline {chapter}{\numberline {26}A Look Into the Twitter API}{87}{chapter.26}
+\contentsline {chapter}{\numberline {27}Ingesting Tweets with Apache Nifi}{88}{chapter.27}
+\contentsline {chapter}{\numberline {28}Writing from Nifi to Apache Kafka}{89}{chapter.28}
+\contentsline {chapter}{\numberline {29}Apache Zeppelin}{90}{chapter.29}
+\contentsline {section}{\numberline {29.1}Install and Ingest Kafka Topic}{90}{section.29.1}
+\contentsline {section}{\numberline {29.2}Processing Messages with Spark \& SparkSQL}{90}{section.29.2}
+\contentsline {section}{\numberline {29.3}Visualizing Data}{90}{section.29.3}
+\contentsline {chapter}{\numberline {30}Switch Processing from Zeppelin to Spark}{91}{chapter.30}
+\contentsline {section}{\numberline {30.1}Install Spark}{91}{section.30.1}
+\contentsline {section}{\numberline {30.2}Ingest Messages from Kafka}{91}{section.30.2}
+\contentsline {section}{\numberline {30.3}Writing from Spark to Kafka}{91}{section.30.3}
+\contentsline {section}{\numberline {30.4}Move Zeppelin Code to Spark}{91}{section.30.4}
+\contentsline {part}{\numberline {IV}Case Studies}{92}{part.4}
+\contentsline {chapter}{\numberline {31}How I do Case Studies}{93}{chapter.31}
+\contentsline {section}{\numberline {31.1}Data Science @Airbnb}{93}{section.31.1}
+\contentsline {subsection}{\numberline {31.1.1}Data Science @Amazon}{93}{subsection.31.1.1}
+\contentsline {section}{\numberline {31.2}Data Science @Baidu}{93}{section.31.2}
+\contentsline {section}{\numberline {31.3}Data Science @Blackrock}{94}{section.31.3}
+\contentsline {section}{\numberline {31.4}Data Science @BMW}{94}{section.31.4}
+\contentsline {section}{\numberline {31.5}Data Science @Booking.com}{94}{section.31.5}
+\contentsline {section}{\numberline {31.6}Data Science @CERN}{94}{section.31.6}
+\contentsline {section}{\numberline {31.7}Data Science @Disney}{95}{section.31.7}
+\contentsline {section}{\numberline {31.8}Data Science @Drivetribe}{95}{section.31.8}
+\contentsline {section}{\numberline {31.9}Data Science @Dropbox}{95}{section.31.9}
+\contentsline {section}{\numberline {31.10}Data Science @Ebay}{96}{section.31.10}
+\contentsline {section}{\numberline {31.11}Data Science @Expedia}{96}{section.31.11}
+\contentsline {section}{\numberline {31.12}Data Science @Facebook}{96}{section.31.12}
+\contentsline {section}{\numberline {31.13}Data Science @Google}{96}{section.31.13}
+\contentsline {section}{\numberline {31.14}Data Science @@Grammarly}{96}{section.31.14}
+\contentsline {section}{\numberline {31.15}Data Science @ING Fraud}{96}{section.31.15}
+\contentsline {section}{\numberline {31.16}Data Science @Instagram}{96}{section.31.16}
+\contentsline {section}{\numberline {31.17}Data Science @LinkedIn}{97}{section.31.17}
+\contentsline {section}{\numberline {31.18}Data Science @Lyft}{97}{section.31.18}
+\contentsline {section}{\numberline {31.19}Data Science @NASA}{97}{section.31.19}
+\contentsline {section}{\numberline {31.20}Data Science @Netflix -- available}{98}{section.31.20}
+\contentsline {paragraph}{\nonumberline The Netflix batch processing pipeline}{99}{section*.6}
+\contentsline {paragraph}{\nonumberline Know what customers want:}{99}{section*.7}
+\contentsline {paragraph}{\nonumberline Batch processing is not enough}{100}{section*.8}
+\contentsline {paragraph}{\nonumberline The trending now feature}{100}{section*.9}
+\contentsline {paragraph}{\nonumberline Netflix real-time streaming architecture}{101}{section*.10}
+\contentsline {section}{\numberline {31.21}Data Science @OLX}{102}{section.31.21}
+\contentsline {section}{\numberline {31.22}Data Science @OTTO}{102}{section.31.22}
+\contentsline {section}{\numberline {31.23}Data Science @Paypal}{102}{section.31.23}
+\contentsline {section}{\numberline {31.24}Data Science @Pinterest}{102}{section.31.24}
+\contentsline {section}{\numberline {31.25}Data Science @Salesforce}{103}{section.31.25}
+\contentsline {section}{\numberline {31.26}Data Science @Siemens Mindsphere}{103}{section.31.26}
+\contentsline {section}{\numberline {31.27}Data Science @Slack}{103}{section.31.27}
+\contentsline {section}{\numberline {31.28}Data Science @Spotify}{104}{section.31.28}
+\contentsline {section}{\numberline {31.29}Data Science @Symantec}{104}{section.31.29}
+\contentsline {section}{\numberline {31.30}Data Science @Tinder}{104}{section.31.30}
+\contentsline {section}{\numberline {31.31}Data Science @Twitter}{104}{section.31.31}
+\contentsline {section}{\numberline {31.32}Data Science @Uber}{105}{section.31.32}
+\contentsline {section}{\numberline {31.33}Data Science @Upwork}{106}{section.31.33}
+\contentsline {section}{\numberline {31.34}Data Science @Woot}{106}{section.31.34}
+\contentsline {section}{\numberline {31.35}Data Science @Zalando}{106}{section.31.35}

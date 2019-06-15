@@ -41,9 +41,9 @@
 \BOOKMARK [0][-]{chapter.10}{The Cloud}{part.2}% 41
 \BOOKMARK [1][-]{section.10.1}{IaaS vs PaaS vs SaaS}{chapter.10}% 42
 \BOOKMARK [1][-]{section.10.2}{AWS,Azure, IBM, Google Cloud basics}{chapter.10}% 43
-\BOOKMARK [1][-]{section.10.3}{cloud vs on premise}{chapter.10}% 44
-\BOOKMARK [1][-]{section.10.4}{up \046 downsides}{chapter.10}% 45
-\BOOKMARK [1][-]{section.10.5}{Security}{chapter.10}% 46
+\BOOKMARK [1][-]{section.10.3}{Cloud vs On-Premises}{chapter.10}% 44
+\BOOKMARK [1][-]{section.10.4}{Security}{chapter.10}% 45
+\BOOKMARK [1][-]{section.10.5}{Hybrid Clouds}{chapter.10}% 46
 \BOOKMARK [0][-]{chapter.11}{Security Zone Design}{part.2}% 47
 \BOOKMARK [1][-]{section.11.1}{How to secure a multi layered application}{chapter.11}% 48
 \BOOKMARK [1][-]{section.11.2}{Cluster security with Kerberos}{chapter.11}% 49
@@ -92,16 +92,16 @@
 \BOOKMARK [1][-]{section.17.6}{Why and how to do Docker container orchestration}{chapter.17}% 92
 \BOOKMARK [1][-]{section.17.7}{Useful Docker Commands}{chapter.17}% 93
 \BOOKMARK [0][-]{chapter.18}{REST APIs}{part.2}% 94
-\BOOKMARK [1][-]{section.18.1}{HTTP Post/Get}{chapter.18}% 95
-\BOOKMARK [1][-]{section.18.2}{API Design}{chapter.18}% 96
-\BOOKMARK [1][-]{section.18.3}{Implementation}{chapter.18}% 97
-\BOOKMARK [1][-]{section.18.4}{OAuth security}{chapter.18}% 98
-\BOOKMARK [0][-]{chapter.19}{Databases}{part.2}% 99
-\BOOKMARK [1][-]{section.19.1}{SQL Databases}{chapter.19}% 100
-\BOOKMARK [2][-]{subsection.19.1.1}{Database Design}{section.19.1}% 101
-\BOOKMARK [2][-]{subsection.19.1.2}{SQL Queries}{section.19.1}% 102
-\BOOKMARK [2][-]{subsection.19.1.3}{Stored Procedures}{section.19.1}% 103
-\BOOKMARK [2][-]{subsection.19.1.4}{ODBC/JDBC Server Connections}{section.19.1}% 104
+\BOOKMARK [1][-]{section.18.1}{API Design}{chapter.18}% 95
+\BOOKMARK [1][-]{section.18.2}{Implementation Frameworks}{chapter.18}% 96
+\BOOKMARK [1][-]{section.18.3}{OAuth security}{chapter.18}% 97
+\BOOKMARK [0][-]{chapter.19}{Databases}{part.2}% 98
+\BOOKMARK [1][-]{section.19.1}{SQL Databases}{chapter.19}% 99
+\BOOKMARK [2][-]{subsection.19.1.1}{PostgreSQL DB}{section.19.1}% 100
+\BOOKMARK [2][-]{subsection.19.1.2}{Database Design}{section.19.1}% 101
+\BOOKMARK [2][-]{subsection.19.1.3}{SQL Queries}{section.19.1}% 102
+\BOOKMARK [2][-]{subsection.19.1.4}{Stored Procedures}{section.19.1}% 103
+\BOOKMARK [2][-]{subsection.19.1.5}{ODBC/JDBC Server Connections}{section.19.1}% 104
 \BOOKMARK [1][-]{section.19.2}{NoSQL Stores}{chapter.19}% 105
 \BOOKMARK [2][-]{subsection.19.2.1}{KeyValue Stores \(HBase\)}{section.19.2}% 106
 \BOOKMARK [2][-]{subsection.19.2.2}{Document Store HDFS | available}{section.19.2}% 107
@@ -110,7 +110,7 @@
 \BOOKMARK [2][-]{subsection.19.2.5}{Impala}{section.19.2}% 110
 \BOOKMARK [2][-]{subsection.19.2.6}{Kudu}{section.19.2}% 111
 \BOOKMARK [2][-]{subsection.19.2.7}{Apache Druid}{section.19.2}% 112
-\BOOKMARK [2][-]{subsection.19.2.8}{Time Series Databases}{section.19.2}% 113
+\BOOKMARK [2][-]{subsection.19.2.8}{InfluxDB Time Series Database}{section.19.2}% 113
 \BOOKMARK [2][-]{subsection.19.2.9}{MPP Databases \(Greenplum\)}{section.19.2}% 114
 \BOOKMARK [0][-]{chapter.20}{Data Processing and Analytics - Frameworks}{part.2}% 115
 \BOOKMARK [1][-]{section.20.1}{Is ETL still relevant for Analytics?}{chapter.20}% 116
@@ -143,15 +143,15 @@
 \BOOKMARK [2][-]{subsection.20.4.16}{MLlib:}{section.20.4}% 143
 \BOOKMARK [2][-]{subsection.20.4.17}{Spark Setup \205 available}{section.20.4}% 144
 \BOOKMARK [2][-]{subsection.20.4.18}{Spark Resource Management \205 available}{section.20.4}% 145
-\BOOKMARK [2][-]{subsection.20.4.19}{KAFKA Commands}{section.20.4}% 146
-\BOOKMARK [1][-]{section.20.5}{Apache Nifi}{chapter.20}% 147
-\BOOKMARK [1][-]{section.20.6}{StreamSets}{chapter.20}% 148
-\BOOKMARK [0][-]{chapter.21}{Apache Kafka}{part.2}% 149
-\BOOKMARK [1][-]{section.21.1}{Why a message queue tool?}{chapter.21}% 150
-\BOOKMARK [1][-]{section.21.2}{Kakfa architecture}{chapter.21}% 151
-\BOOKMARK [1][-]{section.21.3}{What are topics}{chapter.21}% 152
-\BOOKMARK [1][-]{section.21.4}{What does Zookeeper have to do with Kafka}{chapter.21}% 153
-\BOOKMARK [1][-]{section.21.5}{How to produce and consume messages}{chapter.21}% 154
+\BOOKMARK [1][-]{section.20.5}{Apache Nifi}{chapter.20}% 146
+\BOOKMARK [1][-]{section.20.6}{StreamSets}{chapter.20}% 147
+\BOOKMARK [0][-]{chapter.21}{Apache Kafka}{part.2}% 148
+\BOOKMARK [1][-]{section.21.1}{Why a message queue tool?}{chapter.21}% 149
+\BOOKMARK [1][-]{section.21.2}{Kakfa architecture}{chapter.21}% 150
+\BOOKMARK [1][-]{section.21.3}{What are topics}{chapter.21}% 151
+\BOOKMARK [1][-]{section.21.4}{What does Zookeeper have to do with Kafka}{chapter.21}% 152
+\BOOKMARK [1][-]{section.21.5}{How to produce and consume messages}{chapter.21}% 153
+\BOOKMARK [1][-]{section.21.6}{KAFKA Commands}{chapter.21}% 154
 \BOOKMARK [0][-]{chapter.22}{Machine Learning}{part.2}% 155
 \BOOKMARK [1][-]{section.22.1}{Training and Applying models}{chapter.22}% 156
 \BOOKMARK [1][-]{section.22.2}{What is deep learning}{chapter.22}% 157
