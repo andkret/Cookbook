@@ -489,13 +489,13 @@ Check out this Podcast it will help you understand where's the difference and ho
 
 
 \section{AWS,Azure, IBM, Google Cloud basics}
-\section{cloud vs on premise}
+\section{Cloud vs On-Premises}
 
 \begin{table}[h]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#076 Cloud vs On-Premise} \\ \hline
-\multicolumn{2}{p{15cm}}{How do you choose between Cloud vs On-Premise, pros and cons and what you have to think about. Because there are good reasons to not go cloud.
+\multicolumn{2}{p{15cm}}{How do you choose between Cloud vs On-Premises, pros and cons and what you have to think about. Because there are good reasons to not go cloud.
 Also thoughts on how to choose between the cloud providers by just comparing instance prices. Otherwise the comparison will drive you insane.
 My suggestion: Basically use them as IaaS and something like Cloudera as PaaS. Then build your solution on top of that.  }         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/BAzj0yGcrnE}{Click here to watch}   \\ 
@@ -504,11 +504,17 @@ My suggestion: Basically use them as IaaS and something like Cloudera as PaaS. T
 \captionof{table}{Podcast: 076 Cloud vs On-Premise} %\label{tbl:spotifycasestudy}
 \end{table}
 
-
-\section{up \& downsides}
 \section{Security}
 
-Listen to a few thoughts about the cloud in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/Dont-Be-Arrogant-The-Cloud-is-Safer-Then-Your-On-Premise-e16k9s}
+
+Listen to a few thoughts about the cloud in this podcast: 
+\url{https://anchor.fm/andreaskayy/embed/episodes/Dont-Be-Arrogant-The-Cloud-is-Safer-Then-Your-On-Premise-e16k9s}
+
+\section{Hybrid Clouds}
+
+Hybrid clouds are a mixture of on-premises and cloud deployment. A very interesting example for this is Google Anthos:
+
+\url{https://cloud.google.com/anthos/}
 
 \chapter{Security Zone Design}
 \section{How to secure a multi layered application}
@@ -1115,7 +1121,6 @@ APIs, Application Programming Interfaces are the cornerstones of any great data 
 \captionof{table}{Podcast: 033 How APIs Rule The World} %\label{tbl:spotifycasestudy}
 \end{table}
 
-\section{HTTP Post/Get}
 \section{API Design}
 In this podcast episode we look into the Twitter API. It's a great example how to build an API
 
@@ -1130,13 +1135,44 @@ In this podcast episode we look into the Twitter API. It's a great example how t
 \captionof{table}{Podcast: 081 Twitter API Research} %\label{tbl:spotifycasestudy}
 \end{table}
 
+\section{Implementation Frameworks}
 
-\section{Implementation}
+Jersey:
+
+\url{https://jersey.github.io/documentation/latest/getting-started.html}
+
+Swagger:
+
+\url{https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Getting-started}
+
+Jersey vs Swagger:
+
+\url{https://stackoverflow.com/questions/36997865/what-is-the-difference-between-swagger-api-and-jax-rs}
+
+Spring Framework:
+
+\url{https://spring.io/}
+
+When to use Spring or Jersey:
+
+\url{https://stackoverflow.com/questions/26824423/what-is-the-difference-among-spring-rest-service-and-jersey-rest-service-and-spr}
+
 \section{OAuth security}
 
 \chapter{Databases}
 
 \section{SQL Databases}
+
+\subsection{PostgreSQL DB}
+
+Homepage:
+
+\url{https://www.postgresql.org/}
+ 
+Postgre vs Mongodb:
+
+\url{https://blog.panoply.io/postgresql-vs-mongodb}
+
 
 \subsection{Database Design}
 \subsection{SQL Queries}
@@ -1209,6 +1245,32 @@ This mechanic of splitting a large file in blocks and distributing them over the
 See the MapReduce section for an example.
 
 \subsection{Document Store MongoDB}
+
+What is mongoDB:
+
+\url{https://www.mongodb.com/what-is-mongodb}
+ 
+Storage in BSON files:
+
+\url{https://en.wikipedia.org/wiki/BSON}
+  
+Spark and Mongodb:
+
+\url{https://www.mongodb.com/scale/when-to-use-apache-spark-with-mongodb}
+ 
+MongoDB vs Time Series Database:
+
+\url{https://blog.timescale.com/how-to-store-time-series-data-mongodb-vs-timescaledb-postgresql-a73939734016/}
+ 
+Fun article titled why you should never use mongodb:
+
+\url{http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/}
+ 
+MongoDB vs Cassandra:
+
+\url{https://blog.panoply.io/cassandra-vs-mongodb}
+
+
 \subsection{Hive Warehouse}
 \subsection{Impala}
 \subsection{Kudu}
@@ -1228,15 +1290,27 @@ We look into the architecture of a Druid cluster and check out how Clients acces
 
 
 
-\subsection{Time Series Databases}
-DalmatinerDB
-InfluxDB
-Prometheus
-Riak TS
-OpenTSDB
-KairosDB
-Elasticsearch
-Druid
+\subsection{InfluxDB Time Series Database}
+
+Key concepts:
+
+\url{https://docs.influxdata.com/influxdb/v1.7/concepts/key_concepts/}
+ 
+InfluxDB and Spark Streaming
+
+\url{https://towardsdatascience.com/processing-time-series-data-in-real-time-with-influxdb-and-structured-streaming-d1864154cf8b}
+ 
+Building a Sreaming application with spark, grafana, chronogram and influx:
+
+\url{https://medium.com/@xaviergeerinck/building-a-real-time-streaming-dashboard-with-spark-grafana-chronograf-and-influxdb-e262b68087de}
+ 
+Performance Dashboard Spark and InfluxDB:
+
+\url{https://db-blog.web.cern.ch/blog/luca-canali/2019-02-performance-dashboard-apache-spark}
+
+Other alternatives for time series databases are: DalmatinerDB, InfluxDB, Prometheus, Riak TS, OpenTSDB, KairosDB
+ 
+
 \subsection{MPP Databases (Greenplum)}
 
 
@@ -1567,26 +1641,6 @@ Having a single resource manager instead of two independent ones makes it a lot 
   \label{fig:Bild1}
 \end{figure}
 
-\subsection{KAFKA Commands}
-
-Start Zookeeper container for Kafka:
-
-\begin{lstlisting}
-docker run -d --name zookeeper-server   \
-	--network app-tier   \
-	-e ALLOW_ANONYMOUS_LOGIN=yes    \
-	bitnami/zookeeper:latest
-\end{lstlisting}
-
-Start Kafka container:
-
-\begin{lstlisting}
-docker run -d --name kafka-server  \
-	--network app-tier  \
-	-e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181  \
-	-e ALLOW_PLAINTEXT_LISTENER=yes  \
-	bitnami/kafka:latest
-\end{lstlisting}
 
 \section{Apache Nifi}
 Great blog about Nifi:
@@ -1613,6 +1667,28 @@ Great blog about Nifi:
 My YouTube video how to set up Kafka at home: https://youtu.be/7F9tBwTUSeY
 
 My YouTube video how to write to Kafka: https://youtu.be/RboQBZvZCh0
+
+\section{KAFKA Commands}
+
+Start Zookeeper container for Kafka:
+
+\begin{lstlisting}
+docker run -d --name zookeeper-server   \
+	--network app-tier   \
+	-e ALLOW_ANONYMOUS_LOGIN=yes    \
+	bitnami/zookeeper:latest
+\end{lstlisting}
+
+Start Kafka container:
+
+\begin{lstlisting}
+docker run -d --name kafka-server  \
+	--network app-tier  \
+	-e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181  \
+	-e ALLOW_PLAINTEXT_LISTENER=yes  \
+	bitnami/kafka:latest
+\end{lstlisting}
+
 
 \chapter{Machine Learning}
 
@@ -1872,6 +1948,17 @@ For a local environment you need a good PC. I thought a bit about a budget build
 \chapter{Apache Zeppelin}
 
 \section{Install and Ingest Kafka Topic}
+
+Start the container:
+\begin{lstlisting}
+
+docker run -d -p 8081:8080 --rm \
+-v /Users/xxxx/Documents/DockerFiles/logs:/logs \ 
+-v /Users/xxxx/Documents/DockerFiles/Notebooks:/notebook \
+-e ZEPPELIN_LOG_DIR='/logs' \
+-e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
+--network app-tier --name zeppelin apache/zeppelin:0.7.3
+\end{lstlisting}
 
 \section{Processing Messages with Spark \& SparkSQL}
 
