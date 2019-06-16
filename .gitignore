@@ -1,8 +1,8 @@
 # Ignore build artefacts
-/*.aux
-/*.log
-/*.lof
-/*.lot
-/*.toc
-/*.out
-/*.synctex.gz
+*.aux
+*.log
+*.lof
+*.lot
+*.toc
+*.out
+*.synctex.gz
