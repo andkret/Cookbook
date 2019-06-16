@@ -1,0 +1,8 @@
+# Ignore build artefacts
+/*.aux
+/*.log
+/*.lof
+/*.lot
+/*.toc
+/*.out
+/*.synctex.gz
