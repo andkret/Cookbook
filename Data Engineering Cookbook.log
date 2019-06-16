@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  17 JUN 2019 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.25)  17 JUN 2019 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1571,8 +1571,8 @@ ged.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `"Data Engineering Cookbook".out':
-(rerunfilecheck)             Before: 79774BC5D992D4A0B45267016A2C0F38;17378
-(rerunfilecheck)             After:  D588335B32384CF39E290A5847AFBF28;17382.
+(rerunfilecheck)             Before: D588335B32384CF39E290A5847AFBF28;17382
+(rerunfilecheck)             After:  79774BC5D992D4A0B45267016A2C0F38;17378.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1581,7 +1581,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2569.
 Here is how much of TeX's memory you used:
  11330 strings out of 492649
  177154 string characters out of 6129621
- 372406 words of memory out of 5000000
+ 371480 words of memory out of 5000000
  14606 multiletter control sequences out of 15000+600000
  12471 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1592,7 +1592,7 @@ b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Data Engineering Cookbook.pdf" (111 pages, 3477396 bytes).
+Output written on "Data Engineering Cookbook.pdf" (111 pages, 3477379 bytes).
 PDF statistics:
  2254 PDF objects out of 2487 (max. 8388607)
  2072 compressed objects within 21 object streams
