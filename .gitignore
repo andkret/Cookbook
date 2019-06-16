@@ -1,4 +1,4 @@
-# Ignore build artefacts
+# Ignore build artefacts 
 *.aux
 *.log
 *.lof
