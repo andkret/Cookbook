@@ -17,7 +17,7 @@ I split this cookbook into multiple parts
 If you have some cool links or topics for the cookbook, please become a contributor.
 Pull the repo, add them and create a pull request.
 
-Please pull only the newest release-x.x branch. \
+Please pull only the "working-branch" branch. \
 This way we keep the master branch clean and I don't have to mess around resolving conflicts. You just need to change the .tex file. I'll recompile it later when I merge the branch with the master
 
 For comments please use the "Issues" function.
