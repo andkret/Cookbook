@@ -81,9 +81,9 @@ Look no further, you'll find it here.
 If you are looking for AI algorithms and such data scientist things, this book is not for you.
 
 \textbf{How to use this document:} \\ 
-First of all, this is not a training! This cookbook is a collection of skills that I value highly in my daily work as a data engineer. It's intended to be a starting point for you to find the topics to look into and become a data engineer.
+First of all, this is not a training! This cookbook is a collection of skills that I value highly in my daily work as a data engineer. It's intended to be a starting point for you to find the topics to look into and become an awesome data engineer.
 
-You are going to find \textbf{\textit{three types of content}} in this book that will help you understand each topic: Articles I wrote, relevant links to my podcast episodes (video \& audio) and links to helpful websites I like. 
+You are going to find \textbf{\textit{Five Types of Content}} in this book: Articles I wrote, links to my podcast episodes (video \& audio), more then 200 links to helpful websites I like, data engineering interview questions and case studies. 
 
 \textbf{This book is a work in progress!} \\
 As you can see, this book is not finished. I'm constantly adding new stuff and doing videos for the topics. But obviously, because I do this as a hobby my time is limited. You can help making this book even better.
@@ -2635,6 +2635,257 @@ Talk at Strata London slides:
 \url{https://jobs.zalando.com/tech/blog/what-is-hardcore-data-science--in-practice/?gh_src=4n3gxh1}
 
 \url{https://jobs.zalando.com/tech/blog/complex-event-generation-for-business-process-monitoring-using-apache-flink/}
+
+
+
+\part{1001 Interview Questions}
+
+Looking for a job or just want to know what people find important?
+In this chapter you can find a lot of interview questions we collect on the stream. 
+
+Ultimately this should reach at least one thousand and one questions.
+
+\textbf{But Andreas, where are the answers??}
+Answers are for losers. I have been thinking a lot about this and the best way for you to prepare and learn is to look into these questions yourself.
+
+This cookbook or Google will help you a long way. Some Questions we discuss directly on the live stream.
+
+\chapter{Live Streams}
+
+First live stream where we started to collect these questions. 
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#096 1001 Data Engineering Interview Questions} \\ \hline
+\multicolumn{2}{p{15cm}}{First live stream where we collect and try to answer as many interview questions as possible. If this helps people and is fun we do this regularly until we reached 1000 and one.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/WbqRH2r3N40}{Click here to watch}   \\  \hline
+\end{tabular}
+\captionof{table}{Podcast: 096 1001 Data Engineering Interview Questions} %\label{tbl:087Zalando}
+\end{table}
+
+
+\chapter{All Interview Questions}
+
+The interview questions are roughly structured like the sections in the "Basic data Engineering Skills" part.
+This makes it easier to navigate this document. I still need to sort them accordingly.
+
+\section*{SQL DBs}
+
+\begin{itemize}
+\item What are windowing functions?
+\item What is a stored procedure
+\item Why would you use them?
+\item What are atomic attributes
+\item Explain ACID props of a database
+\item How to optimize queries
+\item What are the different types of JOIN (CROSS, INNER, OUTER)
+\item What is the difference between Clustered Index and Non-Clustered Index - with examples?
+\end{itemize}
+
+\section*{The Cloud}
+
+\begin{itemize}
+\item What is serverless
+\item What's the difference between IaaS, PaaS and SaaS
+\item How do you move from the ingest layer to the Cosumption layer? (In Serverless)
+\item Whats the difference between cloud and edge and on-premises
+\item What is edge computing
+\end{itemize}
+
+\section*{Linux}
+
+\begin{itemize}
+\item What is crontab
+\end{itemize}
+
+\section*{Big Data}
+
+\begin{itemize}
+\item What are the 4 V's
+\item Which one is most important?
+\end{itemize}
+
+\section*{Kafka}
+
+\begin{itemize}
+\item What is a topic
+\item How to ensure FIFO
+\item How do you know if all messages in a topic have been fully consumed
+\item What are brokers
+\item What are consumergroups
+\item What is a producer
+\end{itemize}
+
+\section*{Coding}
+
+\begin{itemize}
+\item What's the difference between an object and a class
+\item Explain immutability
+\item What are AWS Lambda functions and why would you use them
+\item Difference between library, framework and package
+\item How to reverse a linked list
+\item difference between args and kwargs
+\item Difference between oop and functional programming
+\end{itemize}
+
+\section*{NoSQL DBs}
+
+\begin{itemize}
+\item What's a key/value (rowstore) store
+\item What's a columnstore
+\item Diff between Row an col.store
+\item What's a document store
+\item Difference between Redshift and Snowflake
+\end{itemize}
+
+\section*{Hadoop}
+
+\begin{itemize}
+\item What File Formats can you use in Hadoop
+\item Whats the difference between a name and a datanode
+\item What is HDFS
+\item What is the purpous of YARN
+\end{itemize}
+
+\section*{Lambda Architecture}
+
+\begin{itemize}
+\item what is streaming and batching
+\item what is the upside of streamtin vs batching
+\item What's the difference between lambda and kappa architecture
+\item Can you sync the batch and streaming layer and if yes how
+\end{itemize}
+
+
+\section*{Python}
+
+\begin{itemize}
+\item Difference between list tuples and dictionary
+\end{itemize}
+
+\section*{Data Warehouse \& Data Lake}
+
+\begin{itemize}
+\item What is a data lake?
+\item What is a data warehouse
+\item Are there data lake warehouses?
+\item Two Datalakes within single warehouse?
+\item What is a data maart?
+\item what is a slow changing dimension (types)
+\item What is a surrogate key and why use them?
+\end{itemize}
+
+\section*{APIs (REST)}
+
+\begin{itemize}
+\item What does REST mean?
+\item What is idempotency
+\item What are common REST API frameworks (Jersey and Spring)
+\end{itemize}
+
+\section*{Apache Spark}
+
+\begin{itemize}
+\item What's an RDD
+\item What is a dataframe
+\item What is a dataset
+\item How is a dataset typesafe
+\item What is Parquet
+\item What's Avro
+\item Difference between Parquet and Avro
+\item Tumbling Windows Vs. Sliding Windows
+\item Difference between batch ans stream processing
+\item What are microbatches
+\end{itemize}
+
+\section*{MapReduce}
+
+\begin{itemize}
+\item What's a use case of mapreduce
+\item Write a pseudo code for Wordcount
+\item What is a combiner
+\end{itemize}
+
+\section*{Docker \& Kubernetes}
+
+\begin{itemize}
+\item What is a container
+\item Difference between Docker Container and a Virtual PC
+\item What s the easiest way to learn kubernetes fast
+\end{itemize}
+
+\section*{Data Pipelines}
+
+\begin{itemize}
+\item  What is an example of a serverless pipeline
+\item  What's difference between at most once vs at least once vs exactly once
+\item  What systems provide transactions
+\item  What is a ETL pipeline
+\end{itemize}
+
+\section*{Airflow}
+
+\begin{itemize}
+\item What is a DAG (in context of airflow/luigi)
+\item What are Hooks/ is a hook
+\item What are Operators
+\item How to branch?
+\end{itemize}
+
+\section*{DataViszualization}
+
+\begin{itemize}
+\item What's a BI tool
+\end{itemize}
+
+\section*{Security/Privacy}
+
+\begin{itemize}
+\item What is Kerberos
+\item What is a firewall
+\item Whats GDPR?
+\item What's anonymization
+\end{itemize}
+
+\section*{Distrubuted Systems}
+
+\begin{itemize}
+\item how clusters reach consensus (the answer was using consensus protocols like Paxos or Raft). Good I didnt have to explain paxos
+\item What is the cap theorem / explain it (What factors should be considered when choosing a DB?)
+\item How to choose right storage for different data consumers? It’s always a tricky question
+\end{itemize}
+
+\section*{Apache Flink}
+
+\begin{itemize}
+\item what is Flink used for
+\item Flink vs Spark?
+\end{itemize}
+
+\section*{GitHub}
+
+\begin{itemize}
+\item What are branches
+\item What are commits
+\item What's a pull request
+\end{itemize}
+
+\section*{Dev/Ops}
+
+\begin{itemize}
+\item What is continuous integration
+\item What is continuous deployment
+\item Difference CI/CD
+\end{itemize}
+
+\section*{Development / Agile}
+
+\begin{itemize}
+\item What is Scrum
+\item What is OKR
+\item What is Jira and what is it used for
+\end{itemize}
 
 
 \newpage
