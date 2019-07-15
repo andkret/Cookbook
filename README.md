@@ -15,6 +15,14 @@ I split this cookbook into five parts
 + The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
 + Part five is a collection of one thousand and one interview questions (currently approx. 150)
 
+## Export Ebook to Epub
+
+To this, we need the `pandoc`and `texlive` installed. Use this command to convert:
+
+```shell
+pandoc "Data Engineering Cookbook.tex" -o "Data Engineering Cookbook.epub" --default-image-extension=png  --epub-cover-image=cover.jpg
+```
+
 ## How to contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
 Simply open an issue and add your links. Or pull the repo, add them and create a pull request.
