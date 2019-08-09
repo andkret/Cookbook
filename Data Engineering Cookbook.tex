@@ -50,7 +50,26 @@
  
 \urlstyle{same}
 
+%Creates a footer for normal and for chapter pages
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\lfoot{2019 Andreas Kretz}
+\cfoot{andreaskretz.com}
+\rfoot{Page \thepage}
+\renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+\renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
 
+% Redefine the plain page style for chapter pages
+\fancypagestyle{plain}{%
+\fancyhf{}%
+\fancyfoot[L]{2019 Andreas Kretz}%
+\fancyfoot[C]{andreaskretz.com}%
+\fancyfoot[R]{Page \thepage}%
+\renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+\renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
 
 
 
