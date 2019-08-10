@@ -76,7 +76,7 @@
 \title{The Data Engineering Cookbook}
 \subtitle{Mastering The Plumbing Of Data Science}
 \author{Andreas Kretz}
-\date{\today\\v2.1}
+\date{\today\\v2.2}
 
 \begin{document}
 \maketitle
@@ -1693,8 +1693,19 @@ This results in less overhead, it is a much cleaner, simpler code.
 
 With Java 8 simplified function calls were introduced with lambda expressions. Still, a lot of people, including me prefer Scala over Java.
 
-\subsection{How to do stream processing}
-\subsection{How to do batch processing}
+\subsection{How Spark works: Driver, Executor, Sparkcontext }
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#100 Apache Spark Week Day 1} \\ \hline
+\multicolumn{2}{p{15cm}}{On day one of the Apache Spark week we look into why Apache Spark is so great. We talk about stream and batch processing. What is the Spark Driver and Executors. Deployment modes Spark Standalone, YARN Mode and Kubernetes. We also talk a lot about Databricks in the about 30 minutes Q and A}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/qD6Wi2pfCx0}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 100 Apache Spark Week Day 1} %\label{tbl:spotifycasestudy}
+\end{table}
+
+\subsection{Spark batch vs stream processing}
 \subsection{How does Spark use data from Hadoop}
 Another thing is data locality. I always make the point, that processing data locally where it is stored is the most efficient thing to do.
 
@@ -1712,10 +1723,43 @@ Spark can then natively identify on what data node the needed data is stored. Th
 The downside of this setup is that you need more expensive servers. Because Spark processing needs stronger servers with more RAM and CPUs than a “pure” Hadoop setup.
 
 
-\subsection{What is a RDD and what is a DataFrame?}
-\subsection{Spark coding with Scala}
-\subsection{Spark coding with Python}
+\subsection{What are RDDs and how to use them}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#101 Apache Spark Week Day 2} \\ \hline
+\multicolumn{2}{p{15cm}}{On day two of the Apache Spark week we look major Apache Spark concepts: RDDs, transformations and actions, caching and broadcast variables.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/9I6mA2W6_HU}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 101 Apache Spark Week Day 2} %\label{tbl:spotifycasestudy}
+\end{table}
+
 \subsection{How and why to use SparkSQL?}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#102 Apache Spark Week Day 3} \\ \hline
+\multicolumn{2}{p{15cm}}{We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and flatmaps, to writing to disk. We also use SparkSQL to look visualize the data.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/Fk-s8eKD4ZI}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 102 Apache Spark Week Day 2} %\label{tbl:spotifycasestudy}
+\end{table}
+
+\subsection{What are DataFrames how to use them}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#103 Apache Spark Week Day 4} \\ \hline
+\multicolumn{2}{p{15cm}}{We look into Dataframes, Dataframes and Dataframes.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/9I6mA2W6_HU}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 103 Apache Spark Week Day 4} %\label{tbl:spotifycasestudy}
+\end{table}
+
+
 \subsection{Machine Learning on Spark? (Tensor Flow)}
 
 \subsection{MLlib:} The machine learning library MLlib is included in Spark so there is often no need to import another library.
