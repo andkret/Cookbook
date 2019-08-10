@@ -76,7 +76,7 @@
 \title{The Data Engineering Cookbook}
 \subtitle{Mastering The Plumbing Of Data Science}
 \author{Andreas Kretz}
-\date{\today\\v2.1}
+\date{\today\\v2.2}
 
 \begin{document}
 \maketitle
@@ -280,7 +280,7 @@ Also look into:
 \end{itemize}
 
 
-\chapter{Agile Development  -- available}
+\chapter{Agile Development}
 Agility, the ability to adapt quickly to changing circumstances.
 
 These days everyone wants to be agile. Big or small company people are looking for the “startup mentality”.
@@ -308,7 +308,7 @@ You need to adapt.
 
 That’s why people jump on the Scrum train. Because Scrum is the definition of agile development, right?
 
-\section{Agile rules I learned over the years -- available}
+\section{Agile rules I learned over the years}
 
 \subsection{Is the method making a difference?}
 Yes, Scrum or Google’s OKR can help to be more agile. The secret to being agile however, is not only how you create.
@@ -552,7 +552,7 @@ I talked about security zone design and lambda architecture in this podcast: \ur
 \section{What is big data and where is the difference to data science and data analytics?}
 I talked about the difference in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/BI-vs-Data-Science-vs-Big-Data-e199hq}
 
-\section{The 4Vs of Big Data | available}
+\section{The 4Vs of Big Data}
 
 It is a complete misconception. Volume is only one part of the often called four V’s of big data: Volume, velocity, variety and veracity.
 
@@ -581,7 +581,7 @@ Everybody articulates different. We make mistakes, down to the spelling and that
 
 I talked about the 4Vs in this podcast: https://anchor.fm/andreaskayy/embed/episodes/4-Vs-Of-Big-Data-Are-Enough-e1h2ra
 
-\section{Why Big Data? | available}
+\section{Why Big Data?}
 
 What I always emphasize is the four V’s are quite nice. They give you a general direction.
 
@@ -894,7 +894,7 @@ Does it make sense to completely move to a data lake?}         \\ \hline
 \captionof{table}{Podcast: 055 Data Warehouse vs Data Lake} %\label{tbl:spotifycasestudy}
 \end{table}
 
-\chapter{Hadoop Platforms | available}
+\chapter{Hadoop Platforms}
 When people talk about big data, one of the first things come to mind is Hadoop. Google’s search for Hadoop returns about 28 million results.
 
 It seems like you need Hadoop to do big data. Today I am going to shed light onto why Hadoop is so trendy.
@@ -922,7 +922,7 @@ The Hadoop common libraries and functions are working in the background. That’
 \captionof{table}{Podcast: 060 What Is Hadoop And Is Hadoop Still Relevant In 2019?} %\label{tbl:spotifycasestudy}
 \end{table}
 
-\section{What makes Hadoop so popular? | available}
+\section{What makes Hadoop so popular?}
 Storing and analyzing data as large as you want is nice. But what makes Hadoop so popular?
 
 Hadoop’s core functionality is the driver of Hadoop’s adoption. Many Apache side projects use it’s core functions.
@@ -1019,7 +1019,7 @@ Hive
 
 \chapter{Docker}
 
-\section{What is docker and what do you use it for | available}
+\section{What is docker and what do you use it for}
 Have you played around with Docker yet? If you’re a data science learner or a data scientist you need to check it out!
 
 It’s awesome because it simplifies the way you can set up development environments for data science. If you want to set up a dev environment you usually have to install a lot of packages and tools.
@@ -1214,7 +1214,7 @@ Postgre vs Mongodb:
 \captionof{table}{Podcast: 056 NoSQL Key Value Stores Explained with HBase} %\label{tbl:spotifycasestudy}
 \end{table}
 
-\subsection{Document Store HDFS | available}
+\subsection{Document Store HDFS}
 
 The Hadoop distributed file system, or HDFS, allows you to store files in Hadoop. The difference between HDFS and other file systems like NTFS or EXT is that it is a distributed one.
 
@@ -1438,7 +1438,7 @@ Other alternatives for time series databases are: DalmatinerDB, InfluxDB, Promet
 
 
 \section{Stream Processing}
-\subsection{Three methods of streaming | available}
+\subsection{Three methods of streaming}
 
 In stream processing sometimes it is ok to drop messages, other times it is not. Sometimes it is fine to process a message multiple times, other times that needs to be avoided like hell.
 
@@ -1519,7 +1519,7 @@ Here's an example how such a map and reduce process works with data:
   \label{fig:Bild1}
 \end{figure}
 
-\subsection{How does MapReduce work -- available}
+\subsection{How does MapReduce work}
 
 First of all, the whole map and reduce process relies heavily on using key/value pairs. That’s what the mappers are for.
 
@@ -1579,7 +1579,7 @@ The reduce stage could still be done by three tasks in parallel. One each for or
 
 That means, if your dataset would be 10 times as big and you’d have 10 times the machines, the time to do the calculation would be the same.
 
-\subsection{What is the limitation of MapReduce? -- available}
+\subsection{What is the limitation of MapReduce?}
 MapReduce is awesome for simpler analytics tasks, like counting stuff. It just has one flaw: It has only two stages Map and Reduce.
 
 \begin{figure}[htbp]
@@ -1607,7 +1607,7 @@ This is a big negative point in a more and more real time data processing world.
 I talked about the three methods of data streaming in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Three-Methods-of-Streaming-Data-e15r6o
 
 
-\subsection{What is the difference to MapReduce? -- available}
+\subsection{What is the difference to MapReduce?}
 Spark is a complete in memory framework. Data gets loaded from, for instance hdfs, into the memory of workers.
 
 There is no longer a fixed map and reduce stage. Your code can be as complex as you want.
@@ -1621,7 +1621,7 @@ Streaming analytics capability is also what makes spark so great. Spark has nati
 As a result, Spark can deliver you results from streaming data in “real time”.
 
 
-\subsection{How does Spark fit to Hadoop? -- available}
+\subsection{How does Spark fit to Hadoop?}
 There are some very misleading articles out there titled Spark or Hadoop, Spark is better than Hadoop or even Spark is replacing Hadoop.
 
 \begin{figure}[htbp]
@@ -1679,7 +1679,7 @@ If you are doing simple batch jobs like counting values or doing calculating ave
 
 If you need more complex analytics like machine learning or fast stream processing: Go with Apache Spark.
 
-\subsection{Available Languages -- available}
+\subsection{Available Languages}
 
 Spark jobs can be programmed in a variety of languages. That makes creating analytic processes very user-friendly for data scientists.
 
@@ -1693,9 +1693,20 @@ This results in less overhead, it is a much cleaner, simpler code.
 
 With Java 8 simplified function calls were introduced with lambda expressions. Still, a lot of people, including me prefer Scala over Java.
 
-\subsection{How to do stream processing}
-\subsection{How to do batch processing}
-\subsection{How does Spark use data from Hadoop -- available}
+\subsection{How Spark works: Driver, Executor, Sparkcontext }
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#100 Apache Spark Week Day 1} \\ \hline
+\multicolumn{2}{p{15cm}}{On day one of the Apache Spark week we look into why Apache Spark is so great. We talk about stream and batch processing. What is the Spark Driver and Executors. Deployment modes Spark Standalone, YARN Mode and Kubernetes. We also talk a lot about Databricks in the about 30 minutes Q and A}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/qD6Wi2pfCx0}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 100 Apache Spark Week Day 1} %\label{tbl:spotifycasestudy}
+\end{table}
+
+\subsection{Spark batch vs stream processing}
+\subsection{How does Spark use data from Hadoop}
 Another thing is data locality. I always make the point, that processing data locally where it is stored is the most efficient thing to do.
 
 That’s exactly what Spark is doing. You can and should run Spark workers directly on the data nodes of your Hadoop cluster.
@@ -1712,10 +1723,43 @@ Spark can then natively identify on what data node the needed data is stored. Th
 The downside of this setup is that you need more expensive servers. Because Spark processing needs stronger servers with more RAM and CPUs than a “pure” Hadoop setup.
 
 
-\subsection{What is a RDD and what is a DataFrame?}
-\subsection{Spark coding with Scala}
-\subsection{Spark coding with Python}
+\subsection{What are RDDs and how to use them}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#101 Apache Spark Week Day 2} \\ \hline
+\multicolumn{2}{p{15cm}}{On day two of the Apache Spark week we look major Apache Spark concepts: RDDs, transformations and actions, caching and broadcast variables.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/9I6mA2W6_HU}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 101 Apache Spark Week Day 2} %\label{tbl:spotifycasestudy}
+\end{table}
+
 \subsection{How and why to use SparkSQL?}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#102 Apache Spark Week Day 3} \\ \hline
+\multicolumn{2}{p{15cm}}{We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and flatmaps, to writing to disk. We also use SparkSQL to look visualize the data.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/Fk-s8eKD4ZI}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 102 Apache Spark Week Day 2} %\label{tbl:spotifycasestudy}
+\end{table}
+
+\subsection{What are DataFrames how to use them}
+
+\begin{table}[h]
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#103 Apache Spark Week Day 4} \\ \hline
+\multicolumn{2}{p{15cm}}{We look into Dataframes, Dataframes and Dataframes.}         \\ \hline
+\multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/9I6mA2W6_HU}{Click here to watch}   \\ \hline
+\end{tabular}
+\captionof{table}{Podcast: 103 Apache Spark Week Day 4} %\label{tbl:spotifycasestudy}
+\end{table}
+
+
 \subsection{Machine Learning on Spark? (Tensor Flow)}
 
 \subsection{MLlib:} The machine learning library MLlib is included in Spark so there is often no need to import another library.
@@ -1724,14 +1768,14 @@ I have to admit because I am not a data scientist I am not an expert in machine 
 
 From what I have seen and read though the machine learning framework MLlib is a nice treat for data scientists wanting to train and apply models with Spark.
 
-\subsection{Spark Setup -- available}
+\subsection{Spark Setup}
 From a solution architect’s point of view Spark is a perfect fit for Hadoop big data platforms. This has a lot to do with cluster deployment and management.
 
 Companies like Cloudera, MapR or Hortonworks include Spark into their Hadoop distributions. Because of that, Spark can be deployed and managed with the clusters Hadoop management web fronted.
 
 This makes the process for deploying and configuring a Spark cluster very quick and admin friendly.
 
-\subsection{Spark Resource Management -- available}
+\subsection{Spark Resource Management}
 When running a computing framework you need resources to do computation: CPU time, RAM, I/O and so on. Out of the box Spark can manage resources with it’s stand-alone resource manager.
 
 If Spark is running in an Hadoop environment you don’t have to use Spark’s own stand-alone resource manager. You can configure Spark to use Hadoop’s YARN resource management.
@@ -1812,7 +1856,7 @@ docker run -d --name kafka-server  \
 
 \section{Training and Applying models}
 \section{What is deep learning}
-\section{How to do Machine Learning in production | available}
+\section{How to do Machine Learning in production}
 Machine learning in production is using stream and batch processing. In the batch processing layer you are creating the models, because you have all the data available for training.
 
 In the stream in processing layer you are using the created models, you are applying them to new data.
@@ -1825,7 +1869,7 @@ In the retraining phase the system automatically evaluates the training. If the 
 
 After the evaluation of the model is complete and it’s good, the model gets pushed into production. Into the stream processing.
 
-\section{Why machine learning in production is harder then you think -- available}
+\section{Why machine learning in production is harder then you think}
 How to automate machine learning is something that drives me day in and day out.
 
 What you do in development or education is, that you create a model and fit it to the data. Then that model is basically done forever.
@@ -1873,7 +1917,7 @@ Were you able to use a cloud platform like Google, AWS or Azure?
 
 It would be really awesome if you share your experience :)
 
-\section{How to convince people machine learning works | available}
+\section{How to convince people machine learning works}
 Many people still are not convinced that machine learning works reliably. But they want analytics insight and most of the time machine learning is the way to go.
 
 This means, when you are working with customers you need to do a lot of convincing. Especially if they are not into machine learning themselves.
@@ -2304,7 +2348,7 @@ Confluent Platform:
 
 \url{https://en.m.wikipedia.org/wiki/Hierarchical_Data_Format}
 
-\section{Data Science @Netflix -- available}
+\section{Data Science @Netflix}
 
 \begin{table}[h]
 \begin{tabular}{ll}
