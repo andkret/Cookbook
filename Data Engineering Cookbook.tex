@@ -7,7 +7,7 @@
 \usepackage{setspace}\onehalfspacing
 %\usepackage{setspace}\doublespacing
 \usepackage[loose,nice]{units} %replace "nice" by "ugly" for units in upright fractions
-\usepackage{parskip} % dont't need to du double backslash for linebreak
+\usepackage{parskip} % dont't need to do double backslash for linebreak
 \usepackage[linktocpage=true]{hyperref}
 \usepackage{tabularx} % in the preamble
 
@@ -20,7 +20,7 @@
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
  
 \lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
+    backgroundcolor=\color{backcolour}   
 %    commentstyle=\color{codegreen},
  %   keywordstyle=\color{magenta},
  %   numberstyle=\tiny\color{codegray},
@@ -102,14 +102,14 @@ If you are looking for AI algorithms and such data scientist things, this book i
 \textbf{How to use this document:} \\ 
 First of all, this is not a training! This cookbook is a collection of skills that I value highly in my daily work as a data engineer. It's intended to be a starting point for you to find the topics to look into and become an awesome data engineer.
 
-You are going to find \textbf{\textit{Five Types of Content}} in this book: Articles I wrote, links to my podcast episodes (video \& audio), more then 200 links to helpful websites I like, data engineering interview questions and case studies. 
+You are going to find \textbf{\textit{Five Types of Content}} in this book: Articles I wrote, links to my podcast episodes (video \& audio), more than 200 links to helpful websites I like, data engineering interview questions and case studies. 
 
 \textbf{This book is a work in progress!} \\
 As you can see, this book is not finished. I'm constantly adding new stuff and doing videos for the topics. But obviously, because I do this as a hobby my time is limited. You can help making this book even better.
 
 \textbf{Help make this book awesome!}\\
 If you have some cool links or topics for the cookbook, please become a contributor on GitHub: \url{https://github.com/andkret/Cookbook}. Pull the repo, add them and create a pull request. Or join the discussion by opening Issues.
-You can also write me an email any time to plumbersofdatascience@gmail.com. Tell me your thoughts, what you value, you think should be included, or correct where I am wrong.
+You can also write me an email any time to plumbersofdatascience@gmail.com. Tell me your thoughts, what you value, what you think should be included, or correct me where I am wrong.
 
 \textbf{This Cookbook is and will always be free! }\\
 I don't want to sell you this book, but please support what you like and join my Patreon: \url{https://www.patreon.com/plumbersofds} 
@@ -119,17 +119,17 @@ Check out this podcast episode where I talk in detail why I decided to share all
 
 \pagebreak
 
-\chapter{Data Engineer vs Data Scientists}
+\chapter{Data Engineer vs Data Scientist}
 
 \begin{table}[h]
 \begin{tabular}{ll}
 \hline
-\multicolumn{2}{l}{\textbf{Podcast Episode:} \#050 Data Engineer Scientist or Analyst Which One Is For You?} \\ \hline
-\multicolumn{2}{p{15cm}}{In this podcast we talk about the differences between data scientists, analysts and engineers. Which are the three main data science jobs. All three super important. This makes it easy to decide}         \\ \hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#050 Data Engineer, Scientist or Analyst - Which One Is For You?} \\ \hline
+\multicolumn{2}{p{15cm}}{In this podcast we talk about the differences between data scientists, analysts and engineers. Which are the three main data science jobs. All three are super important. This makes it easy to decide}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/64TYZETOEdQ}{Click here to watch}   \\ 
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/050-Data-Engineer-Scientist-or-Analyst-Which-One-Is-For-You-e45ibl}{Click here to listen}   \\ \hline
 \end{tabular}
-\captionof{table}{Podcast: 050 Data Engineer Scientist or Analyst Which One Is For You?} %\label{tbl:spotifycasestudy}
+\captionof{table}{Podcast: 050 Data Engineer, Scientist or Analyst - Which One Is For You?} %\label{tbl:spotifycasestudy}
 \end{table}
 
 \section{Data Scientist}
@@ -137,7 +137,7 @@ Data scientists aren’t like every other scientist.
 
 Data scientists do not wear white coats or work in high tech labs full of science fiction movie equipment. They work in offices just like you and me.
 
-What differs them from most of us is that they are the math experts. They use linear algebra and multivariable calculus to create new insight from existing data.
+What differs them from most of us is that they are math experts. They use linear algebra and multivariable calculus to create new insight from existing data.
 
 How exactly does this insight look?
 
@@ -162,7 +162,7 @@ This technique can also be used for predicting machine failure in advance with m
 
 The actual process of training and applying a model is not that hard. A lot of work for the data scientist is to figure out how to pre-process the data that gets fed to the algorithms.
 
-Because to train a algorithm you need useful data. If you use any data for the training the produced model will be very unreliable.
+In order to train a algorithm you need useful data. If you use any data for the training the produced model will be very unreliable.
 
 A unreliable model for predicting machine failure would tell you that your machine is damaged even if it is not. Or even worse: It would tell you the machine is ok even when there is an malfunction.
 
@@ -170,7 +170,7 @@ Model outputs are very abstract. You also need to post-process the model outputs
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Machine-Learning-Pipeline}
+     \includegraphics[width=0.9\textwidth]{images/Machine-Learning-Pipeline.png}
   \caption{The Machine Learning Pipeline}
   \label{fig:Bild1}
 \end{figure}
@@ -192,7 +192,7 @@ These platforms are usually used in five different ways:
 
 But to create big data platforms the engineer needs to be an expert in specifying, setting up and maintaining big data technologies like: Hadoop, Spark, HBase, Cassandra, MongoDB, Kafka, Redis and more.
 
-What they also need is experience on how to deploy systems on cloud infrastructure like at Amazon or Google or on premise hardware.
+What they also need is experience on how to deploy systems on cloud infrastructure like at Amazon or Google or on-premise hardware.
 
 \begin{table}[h]
 \begin{tabular}{ll}
@@ -227,7 +227,7 @@ The possibilities are endless:
 \begin{itemize}
 \item Writing or quickly getting some data out of a SQL DB
 \item Testing to produce messages to a Kafka topic
-\item Understanding Source code of a Java Webservice
+\item Understanding the source code of a Java Webservice
 \item Reading counter statistics out of a HBase key value store
 \end{itemize}
 So, which language do I recommend then?
@@ -241,7 +241,7 @@ Also Python is a great choice. It is super versatile.
 Personally however, I am not that big into Python. But I am going to look into it
 
 Where to Learn?
-There’s a Java Course on Udemy you could look at: https://www.udemy.com/java-programming-tutorial-for-beginners
+There’s a Java Course on Udemy you could look at: \url{https://www.udemy.com/java-programming-tutorial-for-beginners}
 
 \begin{itemize}
 \item OOP Object oriented programming
@@ -254,9 +254,9 @@ I talked about the importance of learning by doing in this podcast:
 \url{https://anchor.fm/andreaskayy/episodes/Learning-By-Doing-Is-The-Best-Thing-Ever---PoDS-035-e25g44}
 
 \chapter{Get Familiar With Git}
-Why this is important: One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of.
+Why this is important: One of the major problems with coding is to keep track of changes. It is also almost impossible to maintain a program you have multiple versions of.
 
-Another is the topic of collaboration and documentation. Which is super Important.
+Another problem is the topic of collaboration and documentation, which is super important.
 
 Let’s say you work on a Spark application and your colleagues need to make changes while you are on holiday. Without some code management they are in huge trouble:
 
@@ -264,12 +264,12 @@ Where is the code? What have you changed last? Where is the documentation? How d
 
 But if you put your code on GitHub your colleagues can find your code. They can understand it through your documentation (please also have in-line comments)
 
-Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code. and you end up having only one application
+Developers can pull your code, make a new branch and do the changes. After your holiday you can inspect what they have done and merge it with your original code and you end up having only one application.
 
 Where to learn:
-Check out the GitHub Guides page where you can learn all the basics: https://guides.github.com/introduction/flow/
+Check out the GitHub Guides page where you can learn all the basics: \url{https://guides.github.com/introduction/flow/}
 
-This great GitHub commands cheat sheet saved my butt multiple times: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+This great GitHub commands cheat sheet saved my butt multiple times: \url{https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet}
 
 Also look into:
 \begin{itemize}
@@ -313,14 +313,14 @@ That’s why people jump on the Scrum train. Because Scrum is the definition of 
 \subsection{Is the method making a difference?}
 Yes, Scrum or Google’s OKR can help to be more agile. The secret to being agile however, is not only how you create.
 
-What makes me cringe is people try to tell you that being agile starts in your head. So, the problem is you?
+What makes me cringe is people trying to tell you that being agile starts in your head. So, the problem is you?
 
 No!
 
 The biggest lesson I have learned over the past years is this: Agility goes down the drain when you outsource work.
 
 \subsection{The problem with outsourcing}
-I know on paper outsourcing seems like a no brainer: Development costs against the fixed costs.
+I know on paper outsourcing seems like a no-brainer: Development costs against the fixed costs.
 
 It is expensive to bind existing resources on a task. It is even more expensive if you need to hire new employees.
 
@@ -386,7 +386,7 @@ I recommend to do a sync meeting every Monday. There you talk about what happene
 
 I talked about this in this Podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/Agile-Development-Is-Important-But-Please-Dont-Do-Scrum--PoDS-041-e2e2j4}
 
-This is also this awesome 1,5 hours Startup guide from Google: \url{https://youtu.be/mJB83EZtAjc} I really love this video, I rewatched it multiple times.
+This is also this awesome 1,5 hours startup guide from Google: \url{https://youtu.be/mJB83EZtAjc} I really love this video, I rewatched it multiple times.
 
 \section{Software Engineering Culture}
 
@@ -465,7 +465,7 @@ Link to the Wiki page: \url{https://en.wikipedia.org/wiki/JSON_Web_Token}
 
 Linux is very important to learn, at least the basics. Most Big Data tools or NoSQL databases are running on Linux. 
 
-From time to time you need to modify stuff through the operation system. Especially if you run a infrastructure as a service solution like Cloudera CDH, Hortonworks or a MapR Hadoop distribution
+From time to time you need to modify stuff through the operation system. Especially if you run a infrastructure as a service solution like Cloudera CDH, Hortonworks or a MapR Hadoop distribution.
 
 \section{OS Basics}
 
@@ -509,7 +509,7 @@ Check out this Podcast it will help you understand where's the difference and ho
 \end{table}
 
 
-\section{AWS,Azure, IBM, Google Cloud basics}
+\section{AWS, Azure, IBM, Google Cloud basics}
 \section{Cloud vs On-Premises}
 
 \begin{table}[h]
@@ -552,25 +552,27 @@ I talked about security zone design and lambda architecture in this podcast: \ur
 \section{What is big data and where is the difference to data science and data analytics?}
 I talked about the difference in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/BI-vs-Data-Science-vs-Big-Data-e199hq}
 
-\section{The 4Vs of Big Data}
+\section{The 4 Vs of Big Data}
 
 It is a complete misconception. Volume is only one part of the often called four V’s of big data: Volume, velocity, variety and veracity.
 
-\textbf{Volume} is about the size. How much data you have.
+\textbf{Volume} is about the size - How much data you have
 
-\textbf{Velocity} is about the speed of how fast the data is getting to you.
+\textbf{Velocity} is about the speed - How fast data is getting to you
 
-How much data is in a specific time needs to get processed or is coming into the system. This is where the whole concept of streaming data and real-time processing comes in to play.
+How much data in a specific time needs to get processed or is coming into the system. This is where the whole concept of streaming data and real-time processing comes in to play.
 
-\textbf{Variety} is the third one. It means, that the data is very different. That you have very different types of data structures.
+\textbf{Variety} is about the variety  - How different your data is
 
-Like CSV files, PDFs that you have stuff in XML. That you have JSON logfiles, or that you have data in some kind of a key value store.
+Like CSV files, PDFs that you have and stuff in XML. That you also have JSON logfiles, or data in some kind of a key-value store.
 
 It’s about the variety of data types from different sources that you basically want to join together. All to make an analysis based on that data.
 
-\textbf{Veracity} is fourth and this is a very very difficult one. The issue with big data is, that it is very unreliable.
+\textbf{Veracity} is about the credibility - How reliable your data is
 
-You cannot really trust the data. Especially when you’re coming from the IoT, the Internet of Things side. Devices use sensors for measurement of temperature, pressure, acceleration and so on.
+The issue with big data is, that it is very unreliable.
+
+You cannot really trust the data. Especially when you’re coming from the Internet of Things (IoT) side. Devices use sensors for measurement of temperature, pressure, acceleration and so on.
 
 You cannot always be hundred percent sure that the actual measurement is right.
 
@@ -579,7 +581,7 @@ When you have data that is from for instance SAP and it contains data that is cr
 Everybody articulates different. We make mistakes, down to the spelling and that can be a very difficult issue for analytics.
 
 
-I talked about the 4Vs in this podcast: https://anchor.fm/andreaskayy/embed/episodes/4-Vs-Of-Big-Data-Are-Enough-e1h2ra
+I talked about the 4Vs in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/4-Vs-Of-Big-Data-Are-Enough-e1h2ra}
 
 \section{Why Big Data?}
 
@@ -591,7 +593,7 @@ What I mean by catastrophic success is, that your project, your startup or your 
 
 Because with exponential growth there is the money. It starts small and gets very big very fast. The classic hockey stick curve:
 
-1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384….BOOM!
+1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, …. BOOM!
 
 Think about it. It starts small and quite slow, but gets very big very fast.
 
@@ -611,21 +613,22 @@ You need to decide if you use big data tools. This means when you conceptualize 
 
 But in the long run it will help you a lot. Good planning will get a lot of problems out of the way, especially if you think about streaming data and real-time analytics.
 
-\subsection{The Problem With ETL}
-A typical old-school platform deployment would look like the picture below. Devices use a data API to upload data that gets stored in a SQL database. An external analytics tool is querying data and uploading the results back to the SQL db. Users then use the user interface to display data stored in the database.
+\subsection{The problem with ETL}
+A typical old-school platform deployment would look like the picture below. Devices use a data API to upload data that gets stored in a SQL database. An external analytics tool is querying data and uploading the results back to the SQL DB. Users then use the user interface to display data stored in the database.
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.7\textwidth]{images/Common-SQL-Architecture}
+     \includegraphics[width=0.7\textwidth]{images/Common-SQL-Architecture.png}
   \caption{Common SQL Platform Architecture}
   \label{fig:Bild1}
 \end{figure}
 
 Now, when the front end queries data from the SQL database the following three steps happen:
 
-The database extracts all the needed rows from the storage. Extracted data gets transformed, for instance sorted by timestamp or something a lot more complex.
+- The database extracts all the needed rows from the storage. (E)
+- The extracted data gets transformed, for instance sorted by timestamp or something a lot more complex. (T)
+- The transformed data is loaded to the destination (the user interface) for chart creation. (L)
 
-The extracted and transformed data gets loaded to the destination (the user interface) for chart creation.
 With exploding amounts of stored data the ETL process starts being a real problem.
 
 Analytics is working with large data sets, for instance whole days, weeks, months or more. Data sets are very big like 100GB or Terabytes. That means Billions or Trillions of rows.
@@ -639,13 +642,14 @@ To scale up the system and therefore increase ETL speeds administrators resort t
 
 Speeding up the extract performance by adding faster disks to physically read the data faster.
 Increasing RAM for row caching. What is already in memory does not have to be read by slow disk drives.
-Using more powerful CPU’s for better transform performance (more RAM helps here as well)
-Increasing or optimising networking performance for faster data delivery to the front end and analytics
-Scaling up the system is fairly easy.
+Using more powerful CPU’s for better transform performance (more RAM helps here as well).
+Increasing or optimising networking performance for faster data delivery to the front end and analytics.
+
+In summary: Scaling up the system is fairly easy.
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.7\textwidth]{images/SQL-Scaling-UP}
+     \includegraphics[width=0.7\textwidth]{images/SQL-Scaling-UP.png}
   \caption{Scaling up a SQL Database}
   \label{fig:Bild1}
 \end{figure}
@@ -657,24 +661,24 @@ The next step you could take would be scaling out.
 \subsection{Scaling Out}
 Scaling out is the opposite of scaling up. Instead of building bigger systems the goal is to distribute the load between many smaller systems.
 
-The simplest way of scaling out an SQL database is using a storage area network (SAN) to store the data. You can then use up to eight SQL servers, attach them to the SAN and let them handle queries. This way load gets distributed between those eight servers.
+The easiest way of scaling out an SQL database is using a storage area network (SAN) to store the data. You can then use up to eight SQL servers (explain), attach them to the SAN and let them handle queries. This way load gets distributed between those eight servers.
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.7\textwidth]{images/SQL-Scaling-Out}
+     \includegraphics[width=0.7\textwidth]{images/SQL-Scaling-Out.png}
   \caption{Scaling out a SQL Database}
   \label{fig:Bild1}
 \end{figure}
 
-One major downside of this setup is that, because the storage is shared between the sql servers, it can only be used as an read only database. Updates have to be done periodically, for instance once a day. To do updates all SQL servers have to detach from the database. Then, one is attaching the db in read-write mode and refreshing the data. This procedure can take a while if a lot of data needs to be uploaded.
+One major downside of this setup is that, because the storage is shared between the SQL servers, it can only be used as an read only database. Updates have to be done periodically, for instance once a day. To do updates all SQL servers have to detach from the database. Then, one is attaching the DB in read-write mode and refreshing the data. This procedure can take a while if a lot of data needs to be uploaded.
 
-This Link to a Microsoft MSDN page has more options of scaling out an SQL database for you.
+This Link (missing) to a Microsoft MSDN page has more options of scaling out an SQL database for you.
 
 I deliberately don’t want to get into details about possible scaling out solutions. The point I am trying to make is that while it is possible to scale out SQL databases it is very complicated.
 
 There is no perfect solution. Every option has its up- and downsides. One common major issue is the administrative effort that you need to take to implement and maintain a scaled out solution.
 
-\subsection{Please Don’t go Big Data}
+\subsection{Please don’t go Big Data}
 
 If you don’t run into scaling issues please, do not use big data tools!
 
@@ -682,7 +686,7 @@ Big data is a expensive thing. A Hadoop cluster for instance needs at least five
 
 Believe me this stuff costs a lot of money.
 
-Especially when you are talking the maintenance and development on top big data tools into account.
+Especially when you are talking about maintenance and development on top big data tools into account.
 
 If you don’t need it it’s making absolutely no sense at all!
 
@@ -718,12 +722,12 @@ Why is it so important to have a modular platform?
 
 If you have a platform that is not modular you end up with something that is fixed or hard to modify. This means you can not adjust the platform to changing requirements of the company.
 
-Because of modularity it is possible to switch out every component, if you need it.
+Because of modularity it is possible to replace every component, if you need it.
 
 Now, lets talk more about each key area.
 
 \section{Ingest}
-Ingestion is all about getting the data in from the source and making it available to later stages. Sources can be everything form tweets, server logs to IoT sensor data like from cars.
+Ingestion is all about getting the data in from the source and making it available to later stages. Sources can be everything from tweets, server logs to IoT sensor data (e.g. from cars).
 
 Sources send data to your API Services. The API is going to push the data into a temporary storage.
 
@@ -731,18 +735,18 @@ The temporary storage allows other stages simple and fast access to incoming dat
 
 A great solution is to use messaging queue systems like Apache Kafka, RabbitMQ or AWS Kinesis. Sometimes people also use caches for specialised applications like Redis.
 
-A good practice is that the temporary storage follows the publish, subscribe pattern. This way APIs can publish messages and Analytics can quickly consume them.
+A good practice is that the temporary storage follows the publish-subscribe pattern. This way APIs can publish messages and Analytics can quickly consume them.
 
 \section{Analyse / Process}
 The analyse stage is where the actual analytics is done. Analytics, in the form of stream and batch processing.
 
-Streaming data is taken from ingest and fed into analytics. Streaming analyses the “live” data thus, so generates fast results.
+Streaming data is taken from ingest and fed into analytics. Streaming analyses the “live” data, thus generating fast results.
 
 As the central and most important stage, analytics also has access to the big data storage. Because of that connection, analytics can take a big chunk of data and analyse it.
 
 This type of analysis is called batch processing. It will deliver you answers for the big questions.
 
-To learn more about stream and batch processing read my blog post: How to Create New and Exciting Big Data Aided Products
+To learn more about stream and batch processing read my blog post: \url{missing} How to Create New and Exciting Big Data Aided Products
 
 The analytics process, batch or streaming, is not a one way process. Analytics also can write data back to the big data storage.
 
@@ -765,7 +769,7 @@ What kind of systems can be used to store big data?
 
 Systems like Hadoop HDFS, Hbase, Amazon S3 or DynamoDB are a perfect fit to store big data.
 
-Check out my podcast how to decide between SQL and NoSQL: https://anchor.fm/andreaskayy/embed/episodes/NoSQL-Vs-SQL-How-To-Choose-e12f1o
+Check out my podcast how to decide between SQL and NoSQL: \url{https://anchor.fm/andreaskayy/embed/episodes/NoSQL-Vs-SQL-How-To-Choose-e12f1o}
 
 \section{Display}
 Displaying data is as important as ingesting, storing and analysing it. People need to be able to make data driven decisions.
@@ -806,7 +810,7 @@ Data comes in and gets stored, analytics loads the data from storage and creates
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Simple-Batch-Processing-Workflow}
+     \includegraphics[width=0.9\textwidth]{images/Simple-Batch-Processing-Workflow.png}
   \caption{Batch Processing Pipeline}
   \label{fig:Bild1}
 \end{figure}
@@ -837,7 +841,7 @@ As a result the scope of the produced insight is also limited. Because the big p
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Simple-Stream-Processing-Workflow}
+     \includegraphics[width=0.9\textwidth]{images/Simple-Stream-Processing-Workflow.png}
   \caption{Stream Processing Pipeline}
   \label{fig:Bild1}
 \end{figure}
@@ -899,7 +903,7 @@ When people talk about big data, one of the first things come to mind is Hadoop.
 
 It seems like you need Hadoop to do big data. Today I am going to shed light onto why Hadoop is so trendy.
 
-You will see that Hadoop has evolved from a platform into an ecosystem. It’s design allows a lot of Apache projects and 3rd party tools to benefit from Hadoop.
+You will see that Hadoop has evolved from a platform into an ecosystem. Its design allows a lot of Apache projects and 3rd party tools to benefit from Hadoop.
 
 I will conclude with my opinion on, if you need to learn Hadoop and if Hadoop is the right technology for everybody.
 
@@ -915,7 +919,7 @@ The Hadoop common libraries and functions are working in the background. That’
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#060 What Is Hadoop And Is Hadoop Still Relevant In 2019?} \\ \hline
-\multicolumn{2}{p{15cm}}{A Introduction into Hadoop HDFS, YARN and MapReduce. Yes, Hadoop is still relevant in 2019 even if you look into serverless tools. }         \\ \hline
+\multicolumn{2}{p{15cm}}{An introduction into Hadoop HDFS, YARN and MapReduce. Yes, Hadoop is still relevant in 2019 even if you look into serverless tools. }         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/8AWaht3YQgo}{Click here to watch}   \\ 
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/060-What-Is-Hadoop-And-Is-Hadoop-Still-Relevant-In-2019-e45ijp}{Click here to listen}   \\ \hline
 \end{tabular}
@@ -943,7 +947,7 @@ It is not a complete list. There are many more tools that even I don’t know. M
 \section{Hadoop Ecosystem Components}
 Remember my big data platform blueprint? The blueprint has four stages: Ingest, store, analyse and display.
 
-Because of the Hadoop ecosystem” the different tools in these stages can work together perfectly.
+Because of the Hadoop ecosystem the different tools in these stages can work together perfectly.
 
 Here’s an example:
 \begin{figure}[htbp]
@@ -995,13 +999,13 @@ One option you have is to use a specialized systems like Cassandra, MongoDB or o
 
 Guess what the tech behind S3 is. Yes, HDFS. That’s why AWS also has the equivalent to MapReduce named Elastic MapReduce.
 
-The great thing about S3 is that you can start very small. When your system grows you don’t have to worry about s3’s server scaling.
+The great thing about S3 is that you can start very small. When your system grows you don’t have to worry about S3’s server scaling.
 
 \section{Should you learn Hadoop? }
 
-Yes, I definitely recommend you to get to now how Hadoop works and how to use it. As I have shown you in this article, the ecosystem is quite large.
+Yes, I definitely recommend you to get to know how Hadoop works and how to use it. As I have shown you in this article, the ecosystem is quite large.
 
-Many big data projects use Hadoop or can interface with it. Thats why it is generally a good idea to know as many big data technologies as possible.
+Many big data projects use Hadoop or can interface with it. That's why it is generally a good idea to know as many big data technologies as possible.
 
 Not in depth, but to the point that you know how they work and how you can use them. Your main goal should be to be able to hit the ground running when you join a big data project.
 
@@ -1028,7 +1032,7 @@ It’s awesome because it simplifies the way you can set up development environm
 
 What this does is you basically mess up your operating system. If you’re a starter you don’t know which packages you need to install. You don’t know which tools you need to install.
 
-If you want to for instance start with Jupyter notebooks you need to install that on your PC somehow. Or you need to start installing tools like PyCharmor Anaconda.
+If you want to for instance start with Jupyter notebooks you need to install that on your PC somehow. Or you need to start installing tools like PyCharm or Anaconda.
 
 All that gets added to your system and so you mess up your system more and more and more. What Docker brings you, especially if you’re on a Mac or a Linux system is simplicity.
 
@@ -1036,17 +1040,17 @@ All that gets added to your system and so you mess up your system more and more 
 
 Because it is so easy to install on those systems. Another cool thing about docker images is you can just search them in the Docker store, download them and install them on your system.
 
-Running them in a completely pre-configured environment. You don’t need to think about stuff you go to the Docker library you search for deep learning GPU and Python.
+Running them in a completely pre-configured environment. You don’t need to think about stuff, you go to the Docker library you search for Deep Learning, GPU and Python.
 
 You get a list of images you can download. You download one, start it up, you go to the browser hit up the URL and just start coding.
 
 Start doing the work. The only other thing you need to do is bind some drives to that instance so you can exchange files. And then that’s it!
 
-There is no way that you can crash or mess up your system. It’s all encapsulated into Docker.Why this works is because Docker has natively access to your hardware.
+There is no way that you can crash or mess up your system. It’s all encapsulated into Docker. Why this works is because Docker has natively access to your hardware.
 
 \subsection{Take It With You}
 
-It’s not a completely virtualized environment like a VirtualBox. An image has the upside that you can take it wherever you want. So if your on your PC at home use that there.
+It’s not a completely virtualized environment like a VirtualBox. An image has the upside that you can take it wherever you want. So if you're on your PC at home use that there.
 
 Make a quick build, take the image and go somewhere else. Install the image which is usually quite fast and just use it like you’re at home.
 
@@ -1058,18 +1062,18 @@ I am getting into Docker a lot more myself. For a bit different reasons.
 
 What I’m looking for is using Docker with Kubernetes. With Kubernetes you can automate the whole container deployment process.
 
-The idea with is that you have a cluster of machines. Lets say you have 10 server cluster and you run Kubernetes on them.
+The idea with is that you have a cluster of machines. Lets say you have a 10 server cluster and you run Kubernetes on it.
 
 Kubernetes lets you spin up Docker containers on-demand to execute tasks. You can set up how much resources like CPU, RAM, Network, Docker container can use.
 
 You can basically spin up containers, on the cluster on demand. When ever you need to do a analytics task.
 
 Perfect for Data Science.
-\section{How to create, start,stop a Container}
+\section{How to create, start, stop a Container}
 \section{Docker micro services?}
 \section{Kubernetes}
 \section{Why and how to do Docker container orchestration}
-Podcast about how data science learners use Docker (for data scientists): https://anchor.fm/andreaskayy/embed/episodes/Learn-Data-Science-Go-Docker-e10n7u
+Podcast about how data science learners use Docker (for data scientists): \url{https://anchor.fm/andreaskayy/embed/episodes/Learn-Data-Science-Go-Docker-e10n7u}
 
 \section{Useful Docker Commands}
 
@@ -1080,7 +1084,7 @@ docker run CONTAINER --network NETWORK
 
 Start a stopped container:
 \begin{lstlisting}
-docker start CONTAINERNAME 
+docker start CONTAINER NAME 
 \end{lstlisting}
 
 Stop a running container:
@@ -1125,12 +1129,12 @@ docker network disconnect NETWORK CONTAINER
 
 Remove  a network
 \begin{lstlisting}
-network rm NETWORK
+docker network rm NETWORK
 \end{lstlisting}
 
 
 \chapter{REST APIs}
-APIs, Application Programming Interfaces are the cornerstones of any great data platform. 
+APIs or Application Programming Interfaces are the cornerstones of any great data platform. 
 
 \begin{table}[h]
 \begin{tabular}{ll}
@@ -1190,7 +1194,7 @@ Homepage:
 
 \url{https://www.postgresql.org/}
  
-Postgre vs Mongodb:
+PostgreSQL vs MongoDB:
 
 \url{https://blog.panoply.io/postgresql-vs-mongodb}
 
@@ -1236,7 +1240,7 @@ It will not only store your file, Hadoop will also replicate it two or three tim
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/HDFS-Master-DataNodes}
+     \includegraphics[width=0.9\textwidth]{images/HDFS-Master-DataNodes.png}
   \caption{HDFS Master and Data Nodes}
   \label{fig:Bild1}
 \end{figure}
@@ -1253,7 +1257,7 @@ These blocks are then distributed and replicated on the Hadoop cluster. The spli
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/HDFS-Distributed-FileSystem}
+     \includegraphics[width=0.9\textwidth]{images/HDFS-Distributed-FileSystem.png}
   \caption{Distribution of Blocks for a 512MB File}
   \label{fig:Bild1}
 \end{figure}
@@ -1279,7 +1283,7 @@ See the MapReduce section for an example.
 
 \textbf{Links:}
 
-What is mongoDB:
+What is MongoDB:
 
 \url{https://www.guru99.com/what-is-mongodb.html#4}
 
@@ -1299,7 +1303,7 @@ Real-Time Analytics on MongoDB Data in Power BI:
 
 \url{https://dzone.com/articles/real-time-analytics-on-mongodb-data-in-power-bi}
   
-Spark and Mongodb:
+Spark and MongoDB:
 
 \url{https://www.mongodb.com/scale/when-to-use-apache-spark-with-mongodb}
  
@@ -1386,12 +1390,12 @@ Google Trends Grafana vs Kibana: \\
 \begin{table}[h]
 \begin{tabular}{ll}
 \hline
-\multicolumn{2}{l}{\textbf{Podcast Episode:} Druid NoSQL DB And Analytics DB Introduction} \\ \hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} Druid NoSQL DB and Analytics DB Introduction} \\ \hline
 \multicolumn{2}{p{15cm}}{In this video I explain what Druid is and how it works. 
 We look into the architecture of a Druid cluster and check out how Clients access the data.}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/EiEIeBXSWjM}{Click here to watch}   \\  \hline
 \end{tabular}
-\captionof{table}{Podcast: Druid NoSQL DB And Analytics DB Introduction} %\label{tbl:spotifycasestudy}
+\captionof{table}{Podcast: Druid NoSQL DB and Analytics DB Introduction} %\label{tbl:spotifycasestudy}
 \end{table}
 
 
@@ -1429,7 +1433,7 @@ Other alternatives for time series databases are: DalmatinerDB, InfluxDB, Promet
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#039 Is ETL Dead For Data Science \& Big Data?} \\ \hline
-\multicolumn{2}{p{15cm}}{Is ETL dead in Data Science and Big Data? In today's podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre processing \& cleansing replace it What would replace ETL in Data Engineering}         \\ \hline
+\multicolumn{2}{p{15cm}}{Is ETL dead in Data Science and Big Data? In today's podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre-processing \& cleansing replace it. What would replace ETL in Data Engineering}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/leSOWPaNkl4}{Click here to watch}   \\ 
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/Is-ETL-Dead-For-Data-Science--Big-Data---PoDS-039-e2b604}{Click here to listen}   \\ \hline
 \end{tabular}
@@ -1452,7 +1456,7 @@ At least once, means a message gets processed in the system once or multiple tim
 
 It’s not getting dropped or lost somewhere in the system.
 
-One example where at least once processing can be used is when you think about a fleet management of cars. You get GPS data from cars and that GPS data is transmitted with a timestamp and the GPS coordinates.
+One example where at least once processing can be used is when you think about a fleet management of cars. You get GPS data from cars and that data is transmitted with a timestamp and the GPS coordinates.
 
 It’s important that you get the GPS data at least once, so you know where the car is. If you’re processing this data multiple times, it always has the the timestamp with it.
 
@@ -1472,9 +1476,9 @@ Think about engine misfires. If it happens once, no big deal. But if the system 
 
 \subsection{Exactly Once}
 
-Another thing is exactly once, this means it’s not okay to drop data, it’s not okay to lose data and it’s also not okay to process one message what data said multiple times
+Another thing is exactly once, this means it’s not okay to drop data, it’s not okay to lose data and it’s also not okay to process data multiple times.
 
-A example for this is for instance banking. When you think about credit card transactions it’s not okay to drop a transaction.
+An example for this is banking. When you think about credit card transactions it’s not okay to drop a transaction.
 
 When dropped your payment is not going through. It’s also not okay to have a transaction processed multiple times, because then you are paying multiple times.
 
@@ -1492,11 +1496,11 @@ So, the tool of data processing needs to be chosen based on if you need exactly 
 
 \section{MapReduce}
 
-Since the early days of the Hadoop eco system, the MapReduce framework is one of the main components of Hadoop alongside the Hadoop file system HDFS.
+Since the early days of the Hadoop eco system, the MapReduce framework is one of the main components of Hadoop alongside HDFS.
 
-Google for instance used MapReduce to analyse stored html content of websites through counting all the html tags and all the words and combinations of them (for instance headlines). The output was then used to create the page ranking for Google Search.
+Google for instance used MapReduce to analyse stored HTML content of websites through counting all the HTML tags and all the words and combinations of them (for instance headlines). The output was then used to create the page ranking for Google Search.
 
-That was when everybody started to optimise his website for the google search. Serious search engine optimisation was borne. That was the year 2004.
+That was when everybody started to optimise his website for the google search. Serious search engine optimisation was born. That was the year 2004.
 
 How MapReduce is working is, that it processes data in two phases: The map phase and the reduce phase.
 
@@ -1514,18 +1518,18 @@ Here's an example how such a map and reduce process works with data:
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/MapReduce-Process-Detailed}
+     \includegraphics[width=0.9\textwidth]{images/MapReduce-Process-Detailed.png}
   \caption{Mapping of input files and reducing of mapped records}
   \label{fig:Bild1}
 \end{figure}
 
 \subsection{How does MapReduce work}
 
-First of all, the whole map and reduce process relies heavily on using key/value pairs. That’s what the mappers are for.
+First of all, the whole map and reduce process relies heavily on using key-value pairs. That’s what the mappers are for.
 
-In the map phase input data, for instance a file, gets loaded and transformed into key/value pairs.
+In the map phase input data, for instance a file, gets loaded and transformed into key-value pairs.
 
-When each map phase is done it sends the created key/value pairs to the reducers where they are getting sorted by key. This means, that an input record for the reduce phase is a list of values from the mappers that all have the same key.
+When each map phase is done it sends the created key-value pairs to the reducers where they are getting sorted by key. This means, that an input record for the reduce phase is a list of values from the mappers that all have the same key.
 
 Then the reduce phase is doing the computation of that key and its values and outputting the results.
 
@@ -1538,15 +1542,15 @@ To make this more clear, I have prepared an example:
 \subsection{Example}
 As I said before, MapReduce works in two stages, map and reduce. Often these stages are explained with a word count task.
 
-Personally, I hate this example because counting stuff is to trivial and does not really show you what you can do with MapReduce. Therefore, we are going to use a more real world use-case from the world of the internet of things (IoT).
+Personally, I hate this example because counting stuff is to trivial and does not really show you what you can do with MapReduce. Therefore, we are going to use a more real world use-case from the IoT world.
 
-IoT applications create an enormous amount of data that has to be processed. This data is generated by physical sensors who take measurements, like room temperature at 8.00 o’Clock.
+IoT applications create an enormous amount of data that has to be processed. This data is generated by physical sensors who take measurements, like room temperature at 8 o’clock.
 
 Every measurement consists of a key (the timestamp when the measurement has been taken) and a value (the actual value measured by the sensor).
 
-Because you usually have more than one sensor on your machine, or connected to your system, the key has to be a compound key. Compound keys contain additionally to the measurement time information about the source of the signal.
+Because you usually have more than one sensor on your machine, or connected to your system, the key has to be a compound key. Compound keys contain in addition to the measurement time information about the source of the signal.
 
-But, let’s forget about compound keys for now. Today we have only one sensor. Each measurement outputs key/value pairs like: Timestamp-Value.
+But, let’s forget about compound keys for now. Today we have only one sensor. Each measurement outputs key-value pairs like: Timestamp-Value.
 
 The goal of this exercise is to create average daily values of that sensor’s data.
 
@@ -1558,24 +1562,24 @@ Then, because the goal is to get daily averages, the hour:minute:second informat
 
 That is all that happens in the map phase, nothing more.
 
-After all parallel map phases are done, each key/value pair gets sent to the one reducer who is handling all the values for this particular key.
+After all parallel map phases are done, each key-value pair gets sent to the one reducer who is handling all the values for this particular key.
 
 Every reducer input record then has a list of values and you can calculate (1+5+9)/3, (2+6+7)/3 and (3+4+8)/3. That’s all.
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/MapReduce-Time-Series-example}
+     \includegraphics[width=0.9\textwidth]{images/MapReduce-Time-Series-example.png}
   \caption{MapReduce Example of Time Series Data}
   \label{fig:Bild1}
 \end{figure}
 
 What do you think you need to do to generate minute averages?
 
-Yes, you need to cut the key differently. You then would need to cut it like this: “2016-05-01 01:02”. Keeping the Hour and minute information in the key.
+Yes, you need to cut the key differently. You then would need to cut it like this: “2016-05-01 01:02”, keeping the hour and minute information in the key.
 
 What you can also see is, why map reduce is so great for doing parallel work. In this case, the map stage could be done by nine mappers in parallel because each map is independent from all the others.
 
-The reduce stage could still be done by three tasks in parallel. One each for orange, blue and one for green.
+The reduce stage could still be done by three tasks in parallel. One for orange, one for blue and one for green.
 
 That means, if your dataset would be 10 times as big and you’d have 10 times the machines, the time to do the calculation would be the same.
 
@@ -1584,7 +1588,7 @@ MapReduce is awesome for simpler analytics tasks, like counting stuff. It just h
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/MapReduce-Process}
+     \includegraphics[width=0.9\textwidth]{images/MapReduce-Process.png}
   \caption{The Map Reduce Process}
   \label{fig:Bild1}
 \end{figure}
@@ -1602,48 +1606,44 @@ Another issue with MapReduce is that it is not capable of streaming analytics. J
 This is a big negative point in a more and more real time data processing world.
 
 
-
 \section{Apache Spark}
-I talked about the three methods of data streaming in this podcast: https://anchor.fm/andreaskayy/embed/episodes/Three-Methods-of-Streaming-Data-e15r6o
+I talked about the three methods of data streaming in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/Three-Methods-of-Streaming-Data-e15r6o}
 
 
 \subsection{What is the difference to MapReduce?}
-Spark is a complete in memory framework. Data gets loaded from, for instance hdfs, into the memory of workers.
+Spark is a complete in-memory framework. Data gets loaded from, for instance HDFS, into the memory of workers.
 
 There is no longer a fixed map and reduce stage. Your code can be as complex as you want.
 
 Once in memory, the input data and the intermediate results stay in memory (until the job finishes). They do not get written to a drive like with MapReduce.
 
-This makes Spark the optimal choice for doing complex analytics. It allows you for instance to do Iterative processes. Modifying a dataset multiple times in order to create an output is totally easy.
+This makes Spark the optimal choice for doing complex analytics. It allows you for instance to do iterative processes. Modifying a dataset multiple times in order to create an output is totally easy.
 
-Streaming analytics capability is also what makes spark so great. Spark has natively the option to schedule a job to run every X seconds or X milliseconds.
+Streaming analytics capability is also what makes Spark so great. Spark has natively the option to schedule a job to run every X seconds or X milliseconds.
 
 As a result, Spark can deliver you results from streaming data in “real time”.
 
 
 \subsection{How does Spark fit to Hadoop?}
-There are some very misleading articles out there titled Spark or Hadoop, Spark is better than Hadoop or even Spark is replacing Hadoop.
-
-\begin{figure}[htbp]
-  \centering
-     \includegraphics[width=0.9\textwidth]{images/Table-Hadoop-and-Spark}
-  \caption{Hadoop vs Spark capabilities}
-  \label{fig:Bild1}
-\end{figure}
-
-
+There are some very misleading articles out there titled "Spark or Hadoop", "Spark is better than Hadoop" or even "Spark is replacing Hadoop".
 
 So, it's time to show you the differences between Spark and Hadoop. After this you will know when and for what you should use Spark and Hadoop.
 
-You’ll also understand why Hadoop or Spark is the totally wrong question.
+You’ll also understand why "Hadoop or Spark" is the totally wrong question.
 
 \subsection{Where's the difference?}
 To make it clear how Hadoop differs from Spark I created this simple feature table:
 
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/Table-Hadoop-and-Spark.png}
+  \caption{Hadoop vs Spark capabilities}
+  \label{fig:Bild1}
+\end{figure}
 
 Hadoop is used to store data in the Hadoop Distributed File System (HDFS). It can analyse the stored data with MapReduce and manage resources with YARN.
 
-However, Hadoop is more than just storage, analytics and resource management. There’s a whole eco system of tools around the Hadoop core. I’ve written about tis eco system in this article: What is Hadoop and why is it so freakishly popular. You should check it out as well.
+However, Hadoop is more than just storage, analytics and resource management. There’s a whole eco system of tools around the Hadoop core. I’ve written about tis eco system in this article: \url{missing} What is Hadoop and why is it so freakishly popular. You should check it out as well.
 
 Compared to Hadoop, Spark is “just” an analytics framework. It has no storage capability. Although it has a standalone resource management, you usually don’t use that feature.
 
@@ -1652,12 +1652,18 @@ So, if Hadoop and Spark are not the same things, can they work together?
 
 Absolutely! Here’s how the first picture will look if you combine Hadoop with Spark:
 
+\begin{figure}[htbp]
+  \centering
+     missing
+  \caption{Combining Hadoop with Spark}
+  \label{fig:Bild2}
+\end{figure}
 
-As Storage you use the Hadoop distributed file system. Analytics is done with Apache Spark and Yarn is taking care of the resource management.
+As Storage you use HDFS. Analytics is done with Apache Spark and YARN is taking care of the resource management.
 
 Why does that work so well together?
 
-From a platform architecture perspective, Hadoop and Spark are usually managed on the same cluster. This means on each server where a HDFS data node is running, a spark worker thread runs as well.
+From a platform architecture perspective, Hadoop and Spark are usually managed on the same cluster. This means on each server where a HDFS data node is running, a Spark worker thread runs as well.
 
 In distributed processing, network transfer between machines is a large bottle neck. Transferring data within a machine reduces this traffic significantly.
 
@@ -1699,7 +1705,7 @@ With Java 8 simplified function calls were introduced with lambda expressions. S
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#100 Apache Spark Week Day 1} \\ \hline
-\multicolumn{2}{p{15cm}}{On day one of the Apache Spark week we look into why Apache Spark is so great. We talk about stream and batch processing. What is the Spark Driver and Executors. Deployment modes Spark Standalone, YARN Mode and Kubernetes. We also talk a lot about Databricks in the about 30 minutes Q and A}         \\ \hline
+\multicolumn{2}{p{15cm}}{On day one of the Apache Spark week we look into why Apache Spark is so great. We talk about stream and batch processing. What is the Spark Driver and Executors. Deployment modes Spark Standalone, YARN Mode and Kubernetes. We also talk a lot about Databricks in the about 30 minutes Q\&A}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/qD6Wi2pfCx0}{Click here to watch}   \\ \hline
 \end{tabular}
 \captionof{table}{Podcast: 100 Apache Spark Week Day 1} %\label{tbl:spotifycasestudy}
@@ -1715,7 +1721,7 @@ Spark can then natively identify on what data node the needed data is stored. Th
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Spark-Data-Locality}
+     \includegraphics[width=0.9\textwidth]{images/Spark-Data-Locality.png}
   \caption{Spark Using Hadoop Data Locality}
   \label{fig:Bild1}
 \end{figure}
@@ -1729,7 +1735,7 @@ The downside of this setup is that you need more expensive servers. Because Spar
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#101 Apache Spark Week Day 2} \\ \hline
-\multicolumn{2}{p{15cm}}{On day two of the Apache Spark week we look major Apache Spark concepts: RDDs, transformations and actions, caching and broadcast variables.}         \\ \hline
+\multicolumn{2}{p{15cm}}{On day two of the Apache Spark week we take a look at major Apache Spark concepts: RDDs, transformations and actions, caching and broadcast variables.}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/9I6mA2W6_HU}{Click here to watch}   \\ \hline
 \end{tabular}
 \captionof{table}{Podcast: 101 Apache Spark Week Day 2} %\label{tbl:spotifycasestudy}
@@ -1741,10 +1747,10 @@ The downside of this setup is that you need more expensive servers. Because Spar
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#102 Apache Spark Week Day 3} \\ \hline
-\multicolumn{2}{p{15cm}}{We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and flatmaps, to writing to disk. We also use SparkSQL to look visualize the data.}         \\ \hline
+\multicolumn{2}{p{15cm}}{We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and flatmaps, to writing to disk. We also use SparkSQL to visualize the data.}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/Fk-s8eKD4ZI}{Click here to watch}   \\ \hline
 \end{tabular}
-\captionof{table}{Podcast: 102 Apache Spark Week Day 2} %\label{tbl:spotifycasestudy}
+\captionof{table}{Podcast: 102 Apache Spark Week Day 3} %\label{tbl:spotifycasestudy}
 \end{table}
 
 \subsection{What are DataFrames how to use them}
@@ -1787,7 +1793,7 @@ Having a single resource manager instead of two independent ones makes it a lot 
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Spark-Yarn}
+     \includegraphics[width=0.9\textwidth]{images/Spark-Yarn.png}
   \caption{Spark Resource Management With YARN}
   \label{fig:Bild1}
 \end{figure}
@@ -1810,14 +1816,14 @@ Great blog about Nifi:
 \chapter{Apache Kafka}
 
 \section{Why a message queue tool?}
-\section{Kakfa architecture}
+\section{Kafka architecture}
 \section{What are topics}
 \section{What does Zookeeper have to do with Kafka}
 \section{How to produce and consume messages}
 
-My YouTube video how to set up Kafka at home: https://youtu.be/7F9tBwTUSeY
+My YouTube video how to set up Kafka at home: \url{https://youtu.be/7F9tBwTUSeY}
 
-My YouTube video how to write to Kafka: https://youtu.be/RboQBZvZCh0
+My YouTube video how to write to Kafka: \url{https://youtu.be/RboQBZvZCh0}
 
 \section{KAFKA Commands}
 
@@ -1847,7 +1853,7 @@ docker run -d --name kafka-server  \
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} Machine Learning In Production} \\ \hline
-\multicolumn{2}{p{15cm}}{Doing machine learning in production is very different then for proof of concepts or in education. One of the hardest parts is keeping models updated.}         \\ \hline
+\multicolumn{2}{p{15cm}}{Doing machine learning in production is very different than for proof of concepts or in education. One of the hardest parts is keeping models updated.}         \\ \hline
 \multicolumn{1}{l|}{Anchor}   & \href{https://anchor.fm/andreaskayy/episodes/Machine-Learning-In-Production-e11bbk}{Click here to listen}   \\  \hline
 \end{tabular}
 \captionof{table}{Podcast: Machine Learning In Production} %\label{tbl:spotifycasestudy}
@@ -1863,7 +1869,7 @@ In the stream in processing layer you are using the created models, you are appl
 
 The idea that you need to incorporate is that it is a constant cycle. Training, applying, re-training, pushing into production and applying.
 
-What you don’t want to do is, you don’t want to do this manually. You need to figure out a process of automatic retraining and automatic pushing to into production of models.
+What you don’t want to do is doing this manually. You need to figure out a process of automatic retraining and automatic pushing to into production of models.
 
 In the retraining phase the system automatically evaluates the training. If the model no longer fits it works as long as it needs to create a good model.
 
@@ -1897,9 +1903,13 @@ It is a very big issue that needs to be solved. If you want to do machine learni
 
 To train a model you are manipulating input parameters of the models.
 
-Take deep learning for instance. To train you are manipulating for instance:
+Take deep learning for instance. 
 
-How many layers do you use. The depth of the layers, which means how many neurons you have in a layer. What activation function you use, how long are you training and so on.
+To train you are manipulating for instance:
+
+- How many layers do you use. 
+- The depth of the layers, which means how many neurons you have in a layer. 
+- What activation function you use, how long are you training and so on.
 
 You also need to keep track of what data you used to train which model.
 
@@ -1930,7 +1940,7 @@ Many people are still under the impression that analytics only works when it’s
 
 Especially in engineering heavy countries like Germany this is the norm:
 
-“Sere has to be a Rule for Everysing!” (imagine a German accent)
+“Sere has to be a Rule for Everysing!” (imagine a German accent).
 When you’re engineering you are calculating stuff based on physics and not based on data. If you are constructing an airplane wing, you better make sure to use calculations so it doesn’t fall off.
 
 And that’s totally fine.
@@ -1964,7 +1974,7 @@ This is also why I believe that autonomous driving will come quicker than many o
 
 The thing is: When you have the data you can do the statistics.
 
-You can show people that autonomous driving really works reliably. You will see, the question of: Is this is this allowed or is this not allowed? Will be gone quicker than you think.
+You can show people that autonomous driving really works reliably. You will see, the question of "Is this allowed or is this not allowed?" will be gone quicker than you think.
 
 Because government agencies can start testing the algorithms based on predefined scenarios. They can run benchmarks and score the cars performance.
 
@@ -2168,7 +2178,7 @@ Spark Streaming for logging events:
 -Druid Wiki:
 \url{https://en.wikipedia.org/wiki/Apache_Druid}
 
-\subsection{Data Science @Amazon}
+\section{Data Science @Amazon}
 \url{https://www.datasciencecentral.com/profiles/blogs/20-data-science-systems-used-by-amazon-to-operate-its-business} \\
 \url{https://aws.amazon.com/solutions/case-studies/amazon-migration-analytics/}
 
@@ -2180,6 +2190,7 @@ Spark Streaming for logging events:
 
 \section{Data Science @BMW}
 Big Data in der Automobilindustrie – Daten aus dem Fahrzeug nutzen \url{https://www.unibw.de/code.../ws3_bigdata_vortrag_widmann.pdf}
+Link broken
 
 \section{Data Science @Booking.com}
 
@@ -2276,7 +2287,7 @@ Confluent Platform:
 \url{https://cloud.google.com/solutions/big-data/} \\		
 \url{https://datafloq.com/read/google-applies-big-data-infographic/385}
 
-\section{Data Science @@Grammarly}
+\section{Data Science @Grammarly}
 \url{https://www.slideshare.net/databricks/building-a-versatile-analytics-pipeline-on-top-of-apache-spark-with-mikhail-chernetsov}
 
 \section{Data Science @ING Fraud}
@@ -2363,17 +2374,17 @@ Confluent Platform:
 
 \textbf{Slides:}
 
-Netflix revolutionized how we watch movies and tv. Currently over 75 million users watch 125 million hours of Netflix content every day!
+Netflix revolutionized how we watch movies and TV. Currently over 75 million users watch 125 million hours of Netflix content every day!
 
 Netflix’s revenue comes from a monthly subscription service. So, the goal for Netflix is to keep you subscribed and to get new subscribers.
 
-To achieve this, Netflix is licensing movies from studios as well as creating its own original movies and tv series.
+To achieve this, Netflix is licensing movies from studios as well as creating its own original movies and TV series.
 
 But offering new content is not everything. What is also very important is, to keep you watching content that already exists.
 
 To be able to recommend you content, Netflix is collecting data from users. And it is collecting a lot.
 
-Currently, Netflix analyses about 500 billion user events per day. That results in a stunning 1.3 petabytes every day.
+Currently, Netflix analyses about 500 billion user events per day. That results in a stunning 1.3 Petabytes every day.
 
 All this data allows Netflix to build recommender systems for you. The recommenders are showing you content that you might like, based on your viewing habits, or what is currently trending.
 
@@ -2384,7 +2395,7 @@ The key components were Chuckwa, a scalable data collection system, Amazon S3 an
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Netflix-Chuckwa-Pipeline}
+     \includegraphics[width=0.9\textwidth]{images/Netflix-Chuckwa-Pipeline.png}
   \caption{Old Netflix Batch Processing Pipeline}
   \label{fig:Bild1}
 \end{figure}
@@ -2432,7 +2443,7 @@ What is currently being watched is only a part of the data that is used to gener
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Netflix-Trending-Now-Screenshot}
+     \includegraphics[width=0.9\textwidth]{images/Netflix-Trending-Now-Screenshot.png}
   \caption{Netflix Trending Now Feature}
   \label{fig:Bild1}
 \end{figure}
@@ -2462,7 +2473,7 @@ After the analytics the workflow is straight forward. The trending data is store
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Netflix-Streaming-Pipeline}
+     \includegraphics[width=0.9\textwidth]{images/Netflix-Streaming-Pipeline.png}
   \caption{Netflix Streaming Pipeline}
   \label{fig:Bild1}
 \end{figure}
@@ -2730,94 +2741,94 @@ First live stream where we started to collect these questions.
 
 \chapter{All Interview Questions}
 
-The interview questions are roughly structured like the sections in the "Basic data Engineering Skills" part.
+The interview questions are roughly structured like the sections in the "Basic data engineering skills" part.
 This makes it easier to navigate this document. I still need to sort them accordingly.
 
 \section*{SQL DBs}
 
 \begin{itemize}
 \item What are windowing functions?
-\item What is a stored procedure
+\item What is a stored procedure?
 \item Why would you use them?
-\item What are atomic attributes
+\item What are atomic attributes?
 \item Explain ACID props of a database
 \item How to optimize queries
-\item What are the different types of JOIN (CROSS, INNER, OUTER)
+\item What are the different types of JOIN (CROSS, INNER, OUTER)?
 \item What is the difference between Clustered Index and Non-Clustered Index - with examples?
 \end{itemize}
 
 \section*{The Cloud}
 
 \begin{itemize}
-\item What is serverless
-\item What's the difference between IaaS, PaaS and SaaS
+\item What is serverless?
+\item What is the difference between IaaS, PaaS and SaaS?
 \item How do you move from the ingest layer to the Cosumption layer? (In Serverless)
-\item Whats the difference between cloud and edge and on-premises
-\item What is edge computing
+\item What is the difference between cloud and edge and on-premises?
+\item What is edge computing?
 \end{itemize}
 
 \section*{Linux}
 
 \begin{itemize}
-\item What is crontab
+\item What is crontab?
 \end{itemize}
 
 \section*{Big Data}
 
 \begin{itemize}
-\item What are the 4 V's
+\item What are the 4 V's?
 \item Which one is most important?
 \end{itemize}
 
 \section*{Kafka}
 
 \begin{itemize}
-\item What is a topic
+\item What is a topic?
 \item How to ensure FIFO
-\item How do you know if all messages in a topic have been fully consumed
-\item What are brokers
-\item What are consumergroups
-\item What is a producer
+\item How do you know if all messages in a topic have been fully consumed?
+\item What are brokers?
+\item What are consumergroups?
+\item What is a producer?
 \end{itemize}
 
 \section*{Coding}
 
 \begin{itemize}
-\item What's the difference between an object and a class
+\item What is the difference between an object and a class?
 \item Explain immutability
-\item What are AWS Lambda functions and why would you use them
+\item What are AWS Lambda functions and why would you use them?
 \item Difference between library, framework and package
 \item How to reverse a linked list
-\item difference between args and kwargs
+\item Difference between args and kwargs
 \item Difference between oop and functional programming
 \end{itemize}
 
 \section*{NoSQL DBs}
 
 \begin{itemize}
-\item What's a key/value (rowstore) store
-\item What's a columnstore
+\item What is a key-value (rowstore) store?
+\item What is a columnstore?
 \item Diff between Row an col.store
-\item What's a document store
+\item What is a document store?
 \item Difference between Redshift and Snowflake
 \end{itemize}
 
 \section*{Hadoop}
 
 \begin{itemize}
-\item What File Formats can you use in Hadoop
-\item Whats the difference between a name and a datanode
-\item What is HDFS
-\item What is the purpose of YARN
+\item What file formats can you use in Hadoop?
+\item What is the difference between a name and a datanode?
+\item What is HDFS?
+\item What is the purpose of YARN?
 \end{itemize}
 
 \section*{Lambda Architecture}
 
 \begin{itemize}
-\item what is streaming and batching
-\item what is the upside of streaming vs batching
-\item What's the difference between lambda and kappa architecture
-\item Can you sync the batch and streaming layer and if yes how
+\item What is streaming and batching?
+\item What is the upside of streaming vs batching?
+\item What is the difference between lambda and kappa architecture?
+\item Can you sync the batch and streaming layer and if yes how?
 \end{itemize}
 
 
@@ -2831,11 +2842,11 @@ This makes it easier to navigate this document. I still need to sort them accord
 
 \begin{itemize}
 \item What is a data lake?
-\item What is a data warehouse
+\item What is a data warehouse?
 \item Are there data lake warehouses?
 \item Two Datalakes within single warehouse?
 \item What is a data maart?
-\item what is a slow changing dimension (types)
+\item What is a slow changing dimension (types)?
 \item What is a surrogate key and why use them?
 \end{itemize}
 
@@ -2843,78 +2854,78 @@ This makes it easier to navigate this document. I still need to sort them accord
 
 \begin{itemize}
 \item What does REST mean?
-\item What is idempotency
-\item What are common REST API frameworks (Jersey and Spring)
+\item What is idempotency?
+\item What are common REST API frameworks (Jersey and Spring)?
 \end{itemize}
 
 \section*{Apache Spark}
 
 \begin{itemize}
-\item What's an RDD
-\item What is a dataframe
-\item What is a dataset
-\item How is a dataset typesafe
-\item What is Parquet
-\item What's Avro
+\item What is an RDD?
+\item What is a dataframe?
+\item What is a dataset?
+\item How is a dataset typesafe?
+\item What is Parquet?
+\item What is Avro?
 \item Difference between Parquet and Avro
-\item Tumbling Windows Vs. Sliding Windows
-\item Difference between batch ans stream processing
-\item What are microbatches
+\item Tumbling Windows vs. Sliding Windows
+\item Difference between batch and stream processing
+\item What are microbatches?
 \end{itemize}
 
 \section*{MapReduce}
 
 \begin{itemize}
-\item What's a use case of mapreduce
-\item Write a pseudo code for Wordcount
-\item What is a combiner
+\item What is a use case of mapreduce?
+\item Write a pseudo code for Wordcount?
+\item What is a combiner?
 \end{itemize}
 
 \section*{Docker \& Kubernetes}
 
 \begin{itemize}
-\item What is a container
+\item What is a container?
 \item Difference between Docker Container and a Virtual PC
-\item What s the easiest way to learn kubernetes fast
+\item What is the easiest way to learn kubernetes fast?
 \end{itemize}
 
 \section*{Data Pipelines}
 
 \begin{itemize}
-\item  What is an example of a serverless pipeline
-\item  What's difference between at most once vs at least once vs exactly once
-\item  What systems provide transactions
-\item  What is a ETL pipeline
+\item  What is an example of a serverless pipeline?
+\item  What is the difference between at most once vs at least once vs exactly once?
+\item  What systems provide transactions?
+\item  What is a ETL pipeline?
 \end{itemize}
 
 \section*{Airflow}
 
 \begin{itemize}
-\item What is a DAG (in context of airflow/luigi)
-\item What are Hooks/ is a hook
-\item What are Operators
+\item What is a DAG (in context of airflow/luigi)?
+\item What are hooks/is a hook?
+\item What are operators?
 \item How to branch?
 \end{itemize}
 
-\section*{DataViszualization}
+\section*{DataVisualization}
 
 \begin{itemize}
-\item What's a BI tool
+\item What is a BI tool?
 \end{itemize}
 
 \section*{Security/Privacy}
 
 \begin{itemize}
-\item What is Kerberos
-\item What is a firewall
-\item Whats GDPR?
-\item What's anonymization
+\item What is Kerberos?
+\item What is a firewall?
+\item What is GDPR?
+\item What is anonymization?
 \end{itemize}
 
 \section*{Distributed Systems}
 
 \begin{itemize}
-\item how clusters reach consensus (the answer was using consensus protocols like Paxos or Raft). Good I didnt have to explain paxos
+\item How clusters reach consensus (the answer was using consensus protocols like Paxos or Raft). Good I didnt have to explain paxos
 \item What is the cap theorem / explain it (What factors should be considered when choosing a DB?)
 \item How to choose right storage for different data consumers? It’s always a tricky question
 \end{itemize}
@@ -2922,32 +2933,32 @@ This makes it easier to navigate this document. I still need to sort them accord
 \section*{Apache Flink}
 
 \begin{itemize}
-\item what is Flink used for
+\item What is Flink used for?
 \item Flink vs Spark?
 \end{itemize}
 
 \section*{GitHub}
 
 \begin{itemize}
-\item What are branches
-\item What are commits
-\item What's a pull request
+\item What are branches?
+\item What are commits?
+\item What's a pull request?
 \end{itemize}
 
 \section*{Dev/Ops}
 
 \begin{itemize}
-\item What is continuous integration
-\item What is continuous deployment
+\item What is continuous integration?
+\item What is continuous deployment?
 \item Difference CI/CD
 \end{itemize}
 
 \section*{Development / Agile}
 
 \begin{itemize}
-\item What is Scrum
-\item What is OKR
-\item What is Jira and what is it used for
+\item What is Scrum?
+\item What is OKR?
+\item What is Jira and what is it used for?
 \end{itemize}
 
 
