@@ -5,7 +5,7 @@ That's why I decided to start this cookbook with all the topics you need to look
 It's not only useful for beginners, professionals will definitely like the case study section.
 
 Here's the **download** shortcut: \
-[Data Engineering Cookbook PDF](https://github.com/andkret/Cookbook/blob/master/Data%20Engineering%20Cookbook.pdf)
+[Data Engineering Cookbook PDF](https://github.com/andkret/Cookbook/raw/master/Data%20Engineering%20Cookbook.pdf)
 
 ## How to use the cookbook
 I split this cookbook into five parts
@@ -19,7 +19,7 @@ I split this cookbook into five parts
 If you have some cool links or topics for the cookbook, please become a contributor.
 Simply open an issue and add your links. Or pull the repo, add them and create a pull request.
 
-Please pull only the newest release-x.x branch. \
+Please pull only the "working-branch" branch. \
 This way we keep the master branch clean and I don't have to mess around resolving conflicts. You just need to change the .tex file. I'll recompile it later when I merge the branch with the master
 
 For comments please also use the "Issues" function.
