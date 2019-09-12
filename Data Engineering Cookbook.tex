@@ -76,7 +76,7 @@
 \title{The Data Engineering Cookbook}
 \subtitle{Mastering The Plumbing Of Data Science}
 \author{Andreas Kretz}
-\date{\today\\v2.2}
+\date{\today\\v3.0}
 
 \begin{document}
 \maketitle
@@ -460,13 +460,33 @@ Link to the Wiki page: \url{https://en.wikipedia.org/wiki/JSON_Web_Token}
 
 \section{GDPR regulations}
 
+The EU created the GDPR "General Data Protection Regulation" to protect your personal data like: Your name, age, where you live and so on.
+
+It's huge and quite complicated. If you want to do online business in the EU you need to apply these rules. The GDPR is applicable since May 25th 2018. So, if you haven't looked into it, now is the time. 
+
+The penalties can be crazy high if you do mistakes here.
+
+Check out the full GDPR regulation here: \url{https://gdpr-info.eu}
+
+By the way, if you do profiling or in general analyse big data, look into it. There are some important regulations. Unfortunately.
+
+I spend months with GDPR compliance. Super fun. Not! Hahaha
+
 \section{Privacy by design}
+
+When should you look into privacy regulations and solutions?
+
+Creating the product or service first and then bolting on the privacy is a bad choice. The best way is to start implementing privacy right away in the engineering phase.
+
+This is called privacy by design. Privacy as an integral part of your business, not just something optional.
+
+Check out the Wikipedia page to get a feeling of the important principles: \url{https://en.wikipedia.org/wiki/Privacy_by_design} 
 
 \chapter{Linux}
 
 Linux is very important to learn, at least the basics. Most Big Data tools or NoSQL databases are running on Linux.
 
-From time to time you need to modify stuff through the operation system. Especially if you run a infrastructure as a service solution like Cloudera CDH, Hortonworks or a MapR Hadoop distribution.
+From time to time you need to modify stuff through the operation system. Especially if you run an infrastructure as a service solution like Cloudera CDH, Hortonworks or a MapR Hadoop distribution.
 
 \section{OS Basics}
 
@@ -476,6 +496,14 @@ history | grep docker
 \end{lstlisting}
 
 \section{Shell scripting}
+
+Äh, creating shell scripts in 2019? Believe it or not scripting in the command line is still important. 
+
+Start a process, automatically rename, move or do a quick compaction of log files. It still makes a lot of sense. 
+
+Check out this cheat sheet to get started with scripting in Linux: \url{https://devhints.io/bash} 
+
+There's also this Medium article with a super simple example for beginners: \url{https://medium.com/@saswat.sipun/shell-scripting-cheat-sheet-c0ecfb80391} 
 
 \section{Cron jobs}
 
@@ -510,7 +538,19 @@ Check out this Podcast it will help you understand where's the difference and ho
 \end{table}
 
 
-\section{AWS, Azure, IBM, Google Cloud basics}
+\section{AWS, Azure, IBM, Google}
+Each of these have there own answer to IaaS, Paas and SaaS.  Pricing and pricing models vary greatly between each provider.  Likewise each provider's service may have limitations and strengths.  
+
+\subsection{AWS}
+\href{https://www.amazonaws.cn/en/products/}{Full list of AWS services}.
+
+\subsection{Azure}
+
+\subsection{IBM}
+
+\subsection{Google}
+Google's offerings referred to as Google Cloud Platform provides wide variety of services that is ever evolving. \href{https://github.com/gregsramblings/google-cloud-4-words}{List of GCP services with brief description}.  In recent years documentation and tutorials have com a long way to help \href{https://cloud.google.com/gcp/getting-started/}{getting started with GCP}.  You can start with a free account but to use many of the services you will need to turn on billing.  Once you do enable billing always remember to turn off services that you have spun up for learning purposes.  It is also a good idea to turn on billing limits and alerts. 
+
 \section{Cloud vs On-Premises}
 
 \begin{table}[h]
@@ -545,8 +585,6 @@ Hybrid clouds are a mixture of on-premises and cloud deployment. A very interest
 \section{Cluster security with Kerberos}
 
 I talked about security zone design and lambda architecture in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/How-to-Design-Security-Zones-and-Lambda-Architecture--PoDS-032-e248q2}
-
-\section{Kerberos Tickets}
 
 
 \chapter{Big Data}
@@ -712,7 +750,7 @@ The blueprint is focused on the four key areas: Ingest, store, analyse and displ
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=0.9\textwidth]{images/Big-Data-Platform-Blueprint-Title-Original.png}
-  \caption{Platfrom Blueprint}
+  \caption{Platform Blueprint}
   \label{fig:Bild1}
 \end{figure}
 
@@ -1011,8 +1049,8 @@ Many big data projects use Hadoop or can interface with it. That's why it is gen
 Not in depth, but to the point that you know how they work and how you can use them. Your main goal should be to be able to hit the ground running when you join a big data project.
 
 Plus, most of the technologies are open source. You can try them out for free.
-\subsubsection{How does a Hadoop System architecture look like}
-\subsubsection{What tools are usually in a with Hadoop Cluster}
+\section{How does a Hadoop System architecture look like}
+\section{What tools are usually in a with Hadoop Cluster}
 Yarn
 Zookeeper
 HDFS
@@ -1703,7 +1741,7 @@ With Java 8 simplified function calls were introduced with lambda expressions. S
 
 \subsection{How Spark works: Driver, Executor, Sparkcontext }
 
-\begin{table}[h]
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#100 Apache Spark Week Day 1} \\ \hline
@@ -1733,7 +1771,12 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 \subsection{What are RDDs and how to use them}
 
-\begin{table}[h]
+RDDs are the core part of Spark. I learned and used RDDs first. 
+It felt familiar coming from MapReduce. Nowadays you use Dataframes or Datasets. 
+
+I still find it valuable to learn how RDDs and therefore Spark works at a lower level.
+
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#101 Apache Spark Week Day 2} \\ \hline
@@ -1745,7 +1788,11 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 \subsection{How and why to use SparkSQL?}
 
-\begin{table}[h]
+When you use Apache Zeppelin notebooks to learn Spark you automatically come across SparkSQL. SparkSQL allows you to access Dataframes with SQL like queries.
+
+Especially when you work with notebooks it is very handy to create charts from your data. You can learn from mistakes easier than just deploying Spark applications.
+
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#102 Apache Spark Week Day 3} \\ \hline
@@ -1757,7 +1804,14 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 \subsection{What are DataFrames how to use them}
 
-\begin{table}[h]
+As I said before. Dataframes are the successors to RDDs. It's the new Spark API. 
+
+Dataframes are basically lake Tables in a SQL Database or like an Excel sheet. This makes them very simple to use and manipulate with SparkSQL.
+I highly recommend to go this route. 
+
+Processing with Dataframes is even faster then with RDDs, because it uses optimization alogrithms for the data processing.
+
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#103 Apache Spark Week Day 4} \\ \hline
@@ -1769,6 +1823,19 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 
 \subsection{Machine Learning on Spark? (Tensor Flow)}
+
+Wouldn't it be great to use your deep learning TensorFlow applications on Spark? Yes, it is already possible.
+Check out these Links:
+
+Why do people integrate Spark with TensorFlow even if there is a distributed TensorFlow framework?
+\url{https://www.quora.com/Why-do-people-integrate-Spark-with-TensorFlow-even-if-there-is-a-distributed-TensorFlow-framework}
+
+TensorFlow On Spark: Scalable TensorFlow Learning on Spark Clusters:
+\url{https://databricks.com/session/tensorflow-on-spark-scalable-tensorflow-learning-on-spark-clusters}
+
+Deep Learning with Apache Spark and TensorFlow:
+\url{https://databricks.com/blog/2016/01/25/deep-learning-with-apache-spark-and-tensorflow.html}
+
 
 \subsection{MLlib:} The machine learning library MLlib is included in Spark so there is often no need to import another library.
 
@@ -1802,8 +1869,25 @@ Having a single resource manager instead of two independent ones makes it a lot 
 
 
 \section{Apache Nifi}
-Great blog about Nifi:
+
+Nifi is one of these tools that I identify as high potential tools. It allows you to create a data pipeline very easily.
+
+Read data from a RestAPI and post it to Kafka? No problem
+Read data from Kafka and put it into a database? No problem
+
+It's super versatile and you can do everything on the UI. 
+
+
+I use it in Part 3 of this Document. Check it out. 
+
+Check out the Apache Nifi FAQ website. Also look into the documentation to find all possible data sources and sinks of Nifi:
+
+\url{https://nifi.apache.org/faq.html}
+
+Here's a great blog about Nifi:
+
 \url{https://www.datainmotion.dev}
+
 
 \section{StreamSets}
 
@@ -1861,9 +1945,6 @@ docker run -d --name kafka-server  \
 \captionof{table}{Podcast: Machine Learning In Production} %\label{tbl:spotifycasestudy}
 \end{table}
 
-
-\section{Training and Applying models}
-\section{What is deep learning}
 \section{How to do Machine Learning in production}
 Machine learning in production is using stream and batch processing. In the batch processing layer you are creating the models, because you have all the data available for training.
 
@@ -2138,9 +2219,6 @@ docker run -d -p 8081:8080 --rm \
 
 \section{Move Zeppelin Code to Spark}
 
-
-
-
 \part{Case Studies}
 
 \chapter{How I do Case Studies}
@@ -2151,7 +2229,7 @@ docker run -d -p 8081:8080 --rm \
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#063 Data Engineering At Airbnb Case Study} \\ \hline
-\multicolumn{2}{p{15cm}}{How Airbnb is doing Data Engineering? Let's check it out.}         \\ \hline
+\multicolumn{2}{p{15cm}}{How Airbnb is doing data engineering? Let's check it out.}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/iokqkMfyIfo}{Click here to watch}   \\
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/063-Data-Engineering-At-Airbnb-Case-Study-e45il2}{Click here to listen}   \\ \hline
 \end{tabular}
@@ -2191,16 +2269,15 @@ Spark Streaming for logging events:
 \url{https://www.slideshare.net/DataStax/maintaining-consistency-across-data-centers-randy-fradin-blackrock-cassandra-summit-2016}
 
 \section{Data Science @BMW}
-Big Data in der Automobilindustrie – Daten aus dem Fahrzeug nutzen \url{https://www.unibw.de/code.../ws3_bigdata_vortrag_widmann.pdf}
-Link broken
+\url{https://www.unibw.de/code/events-u/jt-2018-workshops/ws3_bigdata_vortrag_widmann.pdf}
 
 \section{Data Science @Booking.com}
 
 \begin{table}[h]
 \begin{tabular}{ll}
 \hline
-\multicolumn{2}{l}{\textbf{Podcast Episode:} \#064 Data Engineering At Booking.com Case Study} \\ \hline
-\multicolumn{2}{p{15cm}}{How Booking.com is doing Data Engineering? Let's check it out.}         \\ \hline
+\multicolumn{2}{l}{\textbf{Podcast Episode:} \#064 Data Engineering at Booking.com Case Study} \\ \hline
+\multicolumn{2}{p{15cm}}{How Booking.com is doing data engineering? Let's check it out.}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/9GE3yiVo1FM}{Click here to watch}   \\
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/064-Data-Engineering-At-Booking-com-Case-Study-e45ilg}{Click here to listen}   \\ \hline
 \end{tabular}
@@ -2231,7 +2308,7 @@ Confluent Platform:
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#065 Data Engineering At CERN Case Study} \\ \hline
-\multicolumn{2}{p{15cm}}{How is CERN doing Data Engineering? The must get huge amounts of data from the Large Hydron Colider. Let's check it out.}         \\ \hline
+\multicolumn{2}{p{15cm}}{How is CERN doing Data Engineering? They must get huge amounts of data from the Large Hadron Collider. Let's check it out.}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/LrhfzPsKaDE}{Click here to watch}   \\
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/065-Data-Engineering-At-CERN-Case-Study-e45ime}{Click here to listen}   \\ \hline
 \end{tabular}
@@ -2263,6 +2340,9 @@ Confluent Platform:
 
 \section{Data Science @Disney}
 \url{https://medium.com/disney-streaming/delivering-data-in-real-time-via-auto-scaling-kinesis-streams-72a0236b2cd9}
+
+\section{Data Science @DLR}
+\url{https://www.unibw.de/code/events-u/jt-2018-workshops/ws3_bigdata_vortrag_bamler.pdf}
 
 \section{Data Science @Drivetribe}
 \url{https://berlin-2017.flink-forward.org/kb_sessions/drivetribes-kappa-architecture-with-apache-flink/}
@@ -2374,8 +2454,6 @@ Confluent Platform:
 \captionof{table}{Podcast: 062 Data Engineering At Netflix Case Study} %\label{tbl:spotifycasestudy}
 \end{table}
 
-\textbf{Slides:}
-
 Netflix revolutionized how we watch movies and TV. Currently over 75 million users watch 125 million hours of Netflix content every day!
 
 Netflix’s revenue comes from a monthly subscription service. So, the goal for Netflix is to keep you subscribed and to get new subscribers.
@@ -2409,12 +2487,11 @@ Jobs were executed regularly on a daily and hourly basis. As a result, Netflix c
 
 \paragraph{Know what customers want:}
 
-Because you are looking at the big picture you can create new products. Netflix uses insight from big data to create new tv shows and movies.
+Because you are looking at the big picture you can create new products. Netflix uses insight from big data to create new TV shows and movies.
 
-They created House of Cards based on data. There is a very interesting Ted talk about this you should watch:
+They created House of Cards based on data. There is a very interesting TED talk about this you should watch:
 
-How to use data to make a hit TV show | Sebastian Wernicke:
-
+\href{https://www.youtube.com/watch?v=vQILP19qABk}{How to use data to make a hit TV show | Sebastian Wernicke}
 
 Batch processing also helps Netflix to know the exact episode of a TV show that gets you hooked. Not only globally but for every country where Netflix is available.
 
@@ -2424,7 +2501,7 @@ They know exactly what show works in what country and what show does not.
 
 It helps them create shows that work in everywhere or select the shows to license in different countries. Germany for instance does not have the full library that Americans have :(
 
-We have to put up with only a small portion of tv shows and movies. If you have to select, why not select those that work best.
+We have to put up with only a small portion of TV shows and movies. If you have to select, why not select those that work best.
 
 \paragraph{Batch processing is not enough}
 
@@ -2455,7 +2532,7 @@ What is currently being watched is only a part of the data that is used to gener
 What messages those two types actually include is not really communicated by Netflix. I did some research on the Netflix Techblog and this is what I found out:
 
 Play events include what title you have watched last, where you did stop watching, where you used the 30s rewind and others.
-Impression events are collected as you browse the Netflix Library like scroll up and down, scroll left or right, click on a movie and so on
+Impression events are collected as you browse the Netflix Library like scroll up and down, scroll left or right, click on a movie and so on.
 
 Basically, play events log what you do while you are watching. Impression events are capturing what you do on Netflix, while you are not watching something.
 
@@ -2483,7 +2560,7 @@ After the analytics the workflow is straight forward. The trending data is store
 
 The algorithms how the analytics system is processing all this data is not known to the public. It is a trade secret of Netflix.
 
-What is known, is the analytics tool they use. Back in Feb. 2015 they wrote in the tech blog that they use a custom made tool.
+What is known, is the analytics tool they use. Back in Feb 2015 they wrote in the tech blog that they use a custom made tool.
 
 They also stated, that Netflix is going to replace the custom made analytics tool with Apache Spark streaming in the future. My guess is, that they did the switch to Spark some time ago, because their post is more than a year old.
 
@@ -2577,7 +2654,7 @@ Not good!}         \\ \hline
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#071 Data Engineering At Spotify Case Study} \\ \hline
-\multicolumn{2}{p{15cm}}{In this episode we are looking at the data engineering at Spotify, my favorite music streaming service. How do they process all that data?}         \\ \hline
+\multicolumn{2}{p{15cm}}{In this episode we are looking at data engineering at Spotify, my favorite music streaming service. How do they process all that data?}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/0WJZ5wtQRWI}{Click here to watch}   \\
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/071-Data-Engineering-At-Spotify-Case-Study-e45iq1}{Click here to listen}   \\ \hline
 \end{tabular}
@@ -2614,7 +2691,7 @@ Not good!}         \\ \hline
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#072 Data Engineering At Twitter Case Study} \\ \hline
-\multicolumn{2}{p{15cm}}{How is Twitter doing Data Engineering? Oh man, they have a lot of cool things to share these tweets. }         \\ \hline
+\multicolumn{2}{p{15cm}}{How is Twitter doing data engineering? Oh man, they have a lot of cool things to share these tweets. }         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/UkqSR3IeLZ8}{Click here to watch}   \\
 \multicolumn{1}{l|}{Audio}     & \href{https://anchor.fm/andreaskayy/episodes/072-Data-Engineering-At-Twitter-Case-Study-e45iqq}{Click here to listen}   \\ \hline
 \end{tabular}
@@ -2677,11 +2754,13 @@ Super interesting especially for AWS users. }         \\ \hline
 \end{table}
 
 Do me a favor and give these guys a follow on LinkedIn:
+
 LinkedIn of Michal: \url{https://www.linkedin.com/in/michalgancarski/}
 
 LinkedIn of Max: \url{https://www.linkedin.com/in/max-schultze-b11996110/}
 
 Zalando has a tech blog with more infos and there is also a meetup in Berlin:
+
 Zalando Blog:
 \url{https://jobs.zalando.com/tech/blog/}
 
@@ -2689,6 +2768,7 @@ Next Zalando Data Engineering Meetup:
 \url{https://www.meetup.com/Zalando-Tech-Events-Berlin/events/262032282/}
 
 Interesting tools:
+
 AWS CDK:
 \url{https://docs.aws.amazon.com/cdk/latest/guide/what-is.html}
 
@@ -2724,7 +2804,7 @@ Ultimately this should reach at least one thousand and one questions.
 \textbf{But Andreas, where are the answers??}
 Answers are for losers. I have been thinking a lot about this and the best way for you to prepare and learn is to look into these questions yourself.
 
-This cookbook or Google will help you a long way. Some Questions we discuss directly on the live stream.
+This cookbook or Google will help you a long way. Some questions we discuss directly on the live stream.
 
 \chapter{Live Streams}
 
@@ -2734,7 +2814,7 @@ First live stream where we started to collect these questions.
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#096 1001 Data Engineering Interview Questions} \\ \hline
-\multicolumn{2}{p{15cm}}{First live stream where we collect and try to answer as many interview questions as possible. If this helps people and is fun we do this regularly until we reached 1000 and one.}         \\ \hline
+\multicolumn{2}{p{15cm}}{First live stream where we collect and try to answer as many interview questions as possible. If this helps people and is fun we do this regularly until we reach 1000 and one.}         \\ \hline
 \multicolumn{1}{l|}{YouTube}   & \href{https://youtu.be/WbqRH2r3N40}{Click here to watch}   \\  \hline
 \end{tabular}
 \captionof{table}{Podcast: 096 1001 Data Engineering Interview Questions} %\label{tbl:087Zalando}
@@ -2754,7 +2834,7 @@ This makes it easier to navigate this document. I still need to sort them accord
 \item Why would you use them?
 \item What are atomic attributes?
 \item Explain ACID props of a database
-\item How to optimize queries
+\item How to optimize queries?
 \item What are the different types of JOIN (CROSS, INNER, OUTER)?
 \item What is the difference between Clustered Index and Non-Clustered Index - with examples?
 \end{itemize}
@@ -2765,8 +2845,8 @@ This makes it easier to navigate this document. I still need to sort them accord
 \item What is serverless?
 \item What is the difference between IaaS, PaaS and SaaS?
 \item How do you move from the ingest layer to the Cosumption layer? (In Serverless)
-\item What is the difference between cloud and edge and on-premises?
 \item What is edge computing?
+\item What is the difference between cloud and edge and on-premise?
 \end{itemize}
 
 \section*{Linux}
@@ -2786,7 +2866,7 @@ This makes it easier to navigate this document. I still need to sort them accord
 
 \begin{itemize}
 \item What is a topic?
-\item How to ensure FIFO
+\item How to ensure FIFO?
 \item How do you know if all messages in a topic have been fully consumed?
 \item What are brokers?
 \item What are consumergroups?
@@ -2802,7 +2882,7 @@ This makes it easier to navigate this document. I still need to sort them accord
 \item Difference between library, framework and package
 \item How to reverse a linked list
 \item Difference between args and kwargs
-\item Difference between oop and functional programming
+\item Difference between OOP and functional programming
 \end{itemize}
 
 \section*{NoSQL DBs}
@@ -2810,7 +2890,7 @@ This makes it easier to navigate this document. I still need to sort them accord
 \begin{itemize}
 \item What is a key-value (rowstore) store?
 \item What is a columnstore?
-\item Diff between Row an col.store
+\item Diff between Row and col.store
 \item What is a document store?
 \item Difference between Redshift and Snowflake
 \end{itemize}
@@ -2846,8 +2926,8 @@ This makes it easier to navigate this document. I still need to sort them accord
 \item What is a data lake?
 \item What is a data warehouse?
 \item Are there data lake warehouses?
-\item Two Datalakes within single warehouse?
-\item What is a data maart?
+\item Two data lakes within single warehouse?
+\item What is a data mart?
 \item What is a slow changing dimension (types)?
 \item What is a surrogate key and why use them?
 \end{itemize}
@@ -2879,7 +2959,7 @@ This makes it easier to navigate this document. I still need to sort them accord
 
 \begin{itemize}
 \item What is a use case of mapreduce?
-\item Write a pseudo code for Wordcount?
+\item Write a pseudo code for wordcount
 \item What is a combiner?
 \end{itemize}
 
