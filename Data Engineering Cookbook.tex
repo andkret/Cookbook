@@ -585,8 +585,6 @@ Hybrid clouds are a mixture of on-premises and cloud deployment. A very interest
 
 I talked about security zone design and lambda architecture in this podcast: \url{https://anchor.fm/andreaskayy/embed/episodes/How-to-Design-Security-Zones-and-Lambda-Architecture--PoDS-032-e248q2}
 
-\section{Kerberos Tickets}
-
 
 \chapter{Big Data}
 \section{What is big data and where is the difference to data science and data analytics?}
@@ -1742,7 +1740,7 @@ With Java 8 simplified function calls were introduced with lambda expressions. S
 
 \subsection{How Spark works: Driver, Executor, Sparkcontext }
 
-\begin{table}[h]
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#100 Apache Spark Week Day 1} \\ \hline
@@ -1772,7 +1770,12 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 \subsection{What are RDDs and how to use them}
 
-\begin{table}[h]
+RDDs are the core part of Spark. I learned and used RDDs first. 
+It felt familiar coming from MapReduce. Nowadays you use Dataframes or Datasets. 
+
+I still find it valuable to learn how RDDs and therefore Spark works at a lower level.
+
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#101 Apache Spark Week Day 2} \\ \hline
@@ -1784,7 +1787,11 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 \subsection{How and why to use SparkSQL?}
 
-\begin{table}[h]
+When you use Apache Zeppelin notebooks to learn Spark you automatically come across SparkSQL. SparkSQL allows you to access Dataframes with SQL like queries.
+
+Especially when you work with notebooks it is very handy to create charts from your data. You can learn from mistakes easier than just deploying Spark applications.
+
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#102 Apache Spark Week Day 3} \\ \hline
@@ -1796,7 +1803,14 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 \subsection{What are DataFrames how to use them}
 
-\begin{table}[h]
+As I said before. Dataframes are the successors to RDDs. It's the new Spark API. 
+
+Dataframes are basically lake Tables in a SQL Database or like an Excel sheet. This makes them very simple to use and manipulate with SparkSQL.
+I highly recommend to go this route. 
+
+Processing with Dataframes is even faster then with RDDs, because it uses optimization alogrithms for the data processing.
+
+\begin{table}[htbp]
 \begin{tabular}{ll}
 \hline
 \multicolumn{2}{l}{\textbf{Podcast Episode:} \#103 Apache Spark Week Day 4} \\ \hline
@@ -1808,6 +1822,19 @@ The downside of this setup is that you need more expensive servers. Because Spar
 
 
 \subsection{Machine Learning on Spark? (Tensor Flow)}
+
+Wouldn't it be great to use your deep learning TensorFlow applications on Spark? Yes, it is already possible.
+Check out these Links:
+
+Why do people integrate Spark with TensorFlow even if there is a distributed TensorFlow framework?
+\url{https://www.quora.com/Why-do-people-integrate-Spark-with-TensorFlow-even-if-there-is-a-distributed-TensorFlow-framework}
+
+TensorFlow On Spark: Scalable TensorFlow Learning on Spark Clusters:
+\url{https://databricks.com/session/tensorflow-on-spark-scalable-tensorflow-learning-on-spark-clusters}
+
+Deep Learning with Apache Spark and TensorFlow:
+\url{https://databricks.com/blog/2016/01/25/deep-learning-with-apache-spark-and-tensorflow.html}
+
 
 \subsection{MLlib:} The machine learning library MLlib is included in Spark so there is often no need to import another library.
 
