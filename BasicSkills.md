@@ -7,7 +7,7 @@ Basic Data Engineering Skills
 - [Learn To Code](BasicSkills.md#learn-to-code)
 - [Get Familiar With Git](BasicSkills.md#get-familiar-with-git)
 - [Agile Development](BasicSkills.md#agile-development)
-  - [Why is agile so important?](BasicSkills.md#Why-is-agile-so-important?)
+  - [Why is agile so important?](BasicSkills.md#Why-is-agile-so-important)
   - [Agile rules I learned over the years](BasicSkills.md#agile-rules-i-learned-over-the-years)
   - [Agile Frameworks](BasicSkills.md#agile-frameworks)
     - [Scrum](BasicSkills.md#scrum)
