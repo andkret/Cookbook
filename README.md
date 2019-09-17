@@ -7,8 +7,7 @@ It's not only useful for beginners, professionals will definitely like the case 
 Here's the **download** shortcut: \
 [Data Engineering Cookbook PDF](https://github.com/andkret/Cookbook/raw/master/Data%20Engineering%20Cookbook.pdf)
 
-## How to use the cookbook
-I split this cookbook into six parts
+## Contents of This Cookbook:
 
 ###  Introduction
 - [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
@@ -17,11 +16,41 @@ I split this cookbook into six parts
   - [Data Engineer](Introduction.md#data-engineer)
   - [Who Companies Need](Introduction.md#who-companies-need)
 
-+ Part one is the introduction to the book [Introduction](https://github.com/andkret/Cookbook/Introduction)
-+ In part two you will learn the basic data engineering skills
-+ Part three contains a real world data engineering example we currently work on
-+ The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
-+ Part five is a collection of one thousand and one interview questions (currently approx. 150)
+### Basic Engineering Skills
+- [Learn To Code](BasicSkills.md#learn-to-code)
+- [Get Familiar With Git](BasicSkills.md#get-familiar-with-git)
+- [Agile Development](BasicSkills.md#agile-development)
+  - [Why is agile so important?](BasicSkills.md#Why-is-agile-so-important)
+  - [Agile rules I learned over the years](BasicSkills.md#agile-rules-i-learned-over-the-years)
+  - [Agile Frameworks](BasicSkills.md#agile-frameworks)
+    - [Scrum](BasicSkills.md#scrum)
+    - [OKR](BasicSkills.md#okr)
+- [Software Engineering Culture](BasicSkills.md#software-engineering-culture)
+- [Learn how a Computer Works](BasicSkills.md#learn-how-a-computer-works)
+- [Data Network Transmission](BasicSkills.md#data-network-transmission)
+- [Security and Privacy](BasicSkills.md#security-and-privacy)
+  - [SSL Public and Private Key Certificates](BasicSkills.md#ssl-public-and-private-key-Certificates)
+  - [JSON Web Tokens](BasicSkills.md#json-web-tokens)
+  - [GDPR regulations](BasicSkills.md#gdpr-regulations)
+- [Linux](BasicSkills.md#linux)
+  - [OS Basics](BasicSkills.md#os-basics)
+  - [Shell scripting](BasicSkills.md#shell-scripting)
+  - [Cron Jobs](BasicSkills.md#cron-jobs)
+  - [Packet Management](BasicSkills.md#packet-management)
+- [The Cloud](BasicSkills.md#the-cloud)
+  - [IaaS vs PaaS vs SaaS](BasicSkills.md#iaas-vs-paas-vs-saas)
+  - [AWS Azure IBM Google IBM](BasicSkills.md#aws-azure-ibm-google)
+  - [Cloud vs On-Premises](BasicSkills.md#cloud-vs-on-premises)
+  - [Security](BasicSkills.md#security)
+  - [Hybrid Clouds](BasicSkills.md#hybrid-clouds)
+- [Security Zone Design](BasicSkills.md#security-zone-design)
+  - [How to secure a multi layered application](BasicSkills.md#how-to-secure-a-multi-layered-application)
+  - [Cluster security with Kerberos](BasicSkills.md#cluster-security-with-kerberos)
+
+- In part two you will learn the basic data engineering skills
+- Part three contains a real world data engineering example we currently work on
+-The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
+- Part five is a collection of one thousand and one interview questions (currently approx. 150)
 
 ## How to contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
