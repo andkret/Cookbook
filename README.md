@@ -47,10 +47,10 @@ Here's the **download** shortcut: \
   - [How to secure a multi layered application](BasicSkills.md#how-to-secure-a-multi-layered-application)
   - [Cluster security with Kerberos](BasicSkills.md#cluster-security-with-kerberos)
 
-- In part two you will learn the basic data engineering skills
-- Part three contains a real world data engineering example we currently work on
--The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
-- Part five is a collection of one thousand and one interview questions (currently approx. 150)
+In part two you will learn the basic data engineering skills
+Part three contains a real world data engineering example we currently work on
+The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
+Part five is a collection of one thousand and one interview questions (currently approx. 150)
 
 ## How to contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
