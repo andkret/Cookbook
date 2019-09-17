@@ -47,6 +47,25 @@ Here's the **download** shortcut: \
   - [How to secure a multi layered application](BasicSkills.md#how-to-secure-a-multi-layered-application)
   - [Cluster security with Kerberos](BasicSkills.md#cluster-security-with-kerberos)
 
+### Advanced Engineering Skills
+
+### Hands On Course
+
+- [What We Want To Do](HandsOnCourse.md#what-we-want-to-do)
+- [Thoughts On Choosing A Development Environment](HandsOnCourse.md#thoughts-on-choosing-a-development-environment)
+- [A Look Into the Twitter API](HandsOnCourse.md#a-look-into-the-twiiter-api)
+- [Ingesting Tweets with Apache Nifi](HandsOnCourse.md#ingesting-tweets-with-apache-nifi)
+- [Writing from Nifi to Apache Kafka](HandsOnCourse.md#writing-from-nifi-to-kafka)
+- [Apache Zeppelin](HandsOnCourse.md#apache-zeppelin)
+  - [Install and Ingest Kafka Topic](HandsOnCourse.md#install-and-ingest-kafka-topic)
+  - [Processing Messages with Spark & SparkSQL](HandsOnCourse.md#processing-messages-with-spark-and-sparksql)
+  - [Visualizing Data](HandsOnCourse.md#visualizing-data)
+- [Switch Processing from Zeppelin to Spark](HandsOnCourse.md#switch-processing-from-zeppelin-to-spark)
+
+### 1001 Interview Questions
+
+- [Interview Questions](InterviewQuesitons.md)
+
 In part two you will learn the basic data engineering skills
 Part three contains a real world data engineering example we currently work on
 The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify

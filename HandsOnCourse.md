@@ -1,6 +1,19 @@
 Data Engineering Course: Building A Data Platform
 =================================================
 
+## Contents
+
+- [What We Want To Do](HandsOnCourse.md#what-we-want-to-do)
+- [Thoughts On Choosing A Development Environment](HandsOnCourse.md#thoughts-on-choosing-a-development-environment)
+- [A Look Into the Twitter API](HandsOnCourse.md#a-look-into-the-twiiter-api)
+- [Ingesting Tweets with Apache Nifi](HandsOnCourse.md#ingesting-tweets-with-apache-nifi)
+- [Writing from Nifi to Apache Kafka](HandsOnCourse.md#writing-from-nifi-to-kafka)
+- [Apache Zeppelin](HandsOnCourse.md#apache-zeppelin)
+  - [Install and Ingest Kafka Topic](HandsOnCourse.md#install-and-ingest-kafka-topic)
+  - [Processing Messages with Spark & SparkSQL](HandsOnCourse.md#processing-messages-with-spark-and-sparksql)
+  - [Visualizing Data](HandsOnCourse.md#visualizing-data)
+- [Switch Processing from Zeppelin to Spark](HandsOnCourse.md#switch-processing-from-zeppelin-to-spark)
+
 What We Want To Do
 ------------------
 
@@ -74,7 +87,7 @@ Start the container:
     -e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
     --network app-tier --name zeppelin apache/zeppelin:0.7.3
 
-### Processing Messages with Spark & SparkSQL
+### Processing Messages with Spark and SparkSQL
 
 ### Visualizing Data
 

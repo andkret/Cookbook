@@ -31,7 +31,7 @@ The interview questions are roughly structured like the sections in the
 \"Basic data engineering skills\" part. This makes it easier to navigate
 this document. I still need to sort them accordingly.
 
-### SQL DBs {#sql-dbs .unnumbered}
+### SQL DBs
 
 -   What are windowing functions?
 
@@ -50,7 +50,7 @@ this document. I still need to sort them accordingly.
 -   What is the difference between Clustered Index and Non-Clustered
     Index - with examples?
 
-### The Cloud {#the-cloud-1 .unnumbered}
+### The Cloud
 
 -   What is serverless?
 
@@ -63,17 +63,17 @@ this document. I still need to sort them accordingly.
 
 -   What is the difference between cloud and edge and on-premise?
 
-### Linux {#linux-1 .unnumbered}
+### Linux
 
 -   What is crontab?
 
-### Big Data {#big-data-1 .unnumbered}
+### Big Data
 
 -   What are the 4 V's?
 
 -   Which one is most important?
 
-### Kafka {#kafka .unnumbered}
+### Kafka
 
 -   What is a topic?
 
@@ -87,7 +87,7 @@ this document. I still need to sort them accordingly.
 
 -   What is a producer?
 
-### Coding {#coding .unnumbered}
+### Coding
 
 -   What is the difference between an object and a class?
 
@@ -103,7 +103,7 @@ this document. I still need to sort them accordingly.
 
 -   Difference between OOP and functional programming
 
-### NoSQL DBs {#nosql-dbs .unnumbered}
+### NoSQL DBs
 
 -   What is a key-value (rowstore) store?
 
@@ -115,7 +115,7 @@ this document. I still need to sort them accordingly.
 
 -   Difference between Redshift and Snowflake
 
-### Hadoop {#hadoop .unnumbered}
+### Hadoop
 
 -   What file formats can you use in Hadoop?
 
@@ -125,7 +125,7 @@ this document. I still need to sort them accordingly.
 
 -   What is the purpose of YARN?
 
-### Lambda Architecture {#lambda-architecture-1 .unnumbered}
+### Lambda Architecture
 
 -   What is streaming and batching?
 
@@ -135,11 +135,11 @@ this document. I still need to sort them accordingly.
 
 -   Can you sync the batch and streaming layer and if yes how?
 
-### Python {#python .unnumbered}
+### Python
 
 -   Difference between list tuples and dictionary
 
-### Data Warehouse & Data Lake {#data-warehouse-data-lake .unnumbered}
+### Data Warehouse & Data Lake
 
 -   What is a data lake?
 
@@ -155,7 +155,7 @@ this document. I still need to sort them accordingly.
 
 -   What is a surrogate key and why use them?
 
-### APIs (REST) {#apis-rest .unnumbered}
+### APIs (REST)
 
 -   What does REST mean?
 
@@ -163,7 +163,7 @@ this document. I still need to sort them accordingly.
 
 -   What are common REST API frameworks (Jersey and Spring)?
 
-### Apache Spark {#apache-spark-1 .unnumbered}
+### Apache Spark
 
 -   What is an RDD?
 
@@ -185,7 +185,7 @@ this document. I still need to sort them accordingly.
 
 -   What are microbatches?
 
-### MapReduce {#mapreduce-1 .unnumbered}
+### MapReduce
 
 -   What is a use case of mapreduce?
 
@@ -193,7 +193,7 @@ this document. I still need to sort them accordingly.
 
 -   What is a combiner?
 
-### Docker & Kubernetes {#docker-kubernetes .unnumbered}
+### Docker & Kubernetes
 
 -   What is a container?
 
@@ -201,7 +201,7 @@ this document. I still need to sort them accordingly.
 
 -   What is the easiest way to learn kubernetes fast?
 
-### Data Pipelines {#data-pipelines .unnumbered}
+### Data Pipelines
 
 -   What is an example of a serverless pipeline?
 
@@ -212,7 +212,7 @@ this document. I still need to sort them accordingly.
 
 -   What is a ETL pipeline?
 
-### Airflow {#airflow .unnumbered}
+### Airflow
 
 -   What is a DAG (in context of airflow/luigi)?
 
@@ -222,11 +222,11 @@ this document. I still need to sort them accordingly.
 
 -   How to branch?
 
-### DataVisualization {#datavisualization .unnumbered}
+### DataVisualization
 
 -   What is a BI tool?
 
-### Security/Privacy {#securityprivacy .unnumbered}
+### Security/Privacy
 
 -   What is Kerberos?
 
@@ -236,7 +236,7 @@ this document. I still need to sort them accordingly.
 
 -   What is anonymization?
 
-### Distributed Systems {#distributed-systems .unnumbered}
+### Distributed Systems
 
 -   How clusters reach consensus (the answer was using consensus
     protocols like Paxos or Raft). Good I didnt have to explain paxos
@@ -247,13 +247,13 @@ this document. I still need to sort them accordingly.
 -   How to choose right storage for different data consumers? It's
     always a tricky question
 
-### Apache Flink {#apache-flink .unnumbered}
+### Apache Flink
 
 -   What is Flink used for?
 
 -   Flink vs Spark?
 
-### GitHub {#github .unnumbered}
+### GitHub
 
 -   What are branches?
 
@@ -261,7 +261,7 @@ this document. I still need to sort them accordingly.
 
 -   What's a pull request?
 
-### Dev/Ops {#devops .unnumbered}
+### Dev/Ops
 
 -   What is continuous integration?
 
@@ -269,7 +269,7 @@ this document. I still need to sort them accordingly.
 
 -   Difference CI/CD
 
-### Development / Agile {#development-agile .unnumbered}
+### Development / Agile
 
 -   What is Scrum?
 
