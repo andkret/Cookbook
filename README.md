@@ -9,6 +9,14 @@ Here's the **download** shortcut: \
 
 ## How to use the cookbook
 I split this cookbook into six parts
+
+###  Introduction
+- [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
+- [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
+  - [Data Scientist](Introduction.md#data-scientist)
+  - [Data Engineer](Introduction.md#data-engineer)
+  - [Who Companies Need](Introduction.md#who-companies-need)
+
 + Part one is the introduction to the book [Introduction](https://github.com/andkret/Cookbook/Introduction)
 + In part two you will learn the basic data engineering skills
 + Part three contains a real world data engineering example we currently work on

@@ -1,3 +1,8 @@
+
+
+Introduction
+============
+
 ## Contents
 
 - [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
@@ -6,11 +11,8 @@
   - [Data Engineer](Introduction.md#data-engineer)
   - [Who Companies Need](Introduction.md#who-companies-need)
 
-Introduction
-============
+## How To Use This Cookbook
 
-How To Use This Cookbook
-------------------------
 
 What do you actually need to learn to become an awesome data engineer?
 Look no further, you'll find it here.

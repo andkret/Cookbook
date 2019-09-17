@@ -2,6 +2,40 @@
 Basic Data Engineering Skills
 =============================
 
+## Contents
+
+- [Learn To Code](BasicSkills.md#learn-to-code)
+- [Get Familiar With Git](BasicSkills.md#get-familiar-with-git)
+- [Agile Development](BasicSkills.md#agile-development)
+  - [Why is agile so important?](BasicSkills.md#Why-is-agile-so-important?)
+  - [Agile rules I learned over the years](BasicSkills.md#agile-rules-i-learned-over-the-years)
+  - [Agile Frameworks](BasicSkills.md#agile-frameworks)
+    - [Scrum](BasicSkills.md#scrum)
+    - [OKR](BasicSkills.md#okr)
+- [Software Engineering Culture](BasicSkills.md#software-engineering-culture)
+- [Learn how a Computer Works](BasicSkills.md#learn-how-a-computer-works)
+- [Data Network Transmission](BasicSkills.md#data-network-transmission)
+- [Security and Privacy](BasicSkills.md#security-and-privacy)
+  - [SSL Public and Private Key Certificates](BasicSkills.md#ssl-public-and-private-key-Certificates)
+  - [JSON Web Tokens](BasicSkills.md#json-web-tokens)
+  - [GDPR regulations](BasicSkills.md#gdpr-regulations)
+- [Linux](BasicSkills.md#linux)
+  - [OS Basics](BasicSkills.md#os-basics)
+  - [Shell scripting](BasicSkills.md#shell-scripting)
+  - [Cron Jobs](BasicSkills.md#cron-jobs)
+  - [Packet Management](BasicSkills.md#packet-management)
+- [The Cloud](BasicSkills.md#the-cloud)
+  - [IaaS vs PaaS vs SaaS](BasicSkills.md#iaas-vs-paas-vs-saas)
+  - [AWS Azure IBM Google IBM](BasicSkills.md#aws-azure-ibm-google)
+  - [Cloud vs On-Premises](BasicSkills.md#cloud-vs-on-premises)
+  - [Security](BasicSkills.md#security)
+  - [Hybrid Clouds](BasicSkills.md#hybrid-clouds)
+- [Security Zone Design](BasicSkills.md#security-zone-design)
+  - [How to secure a multi layered application](BasicSkills.md#how-to-secure-a-multi-layered-application)
+  - [Cluster security with Kerberos](BasicSkills.md#cluster-security-with-kerberos)
+
+
+
 Learn To Code
 -------------
 
@@ -274,7 +308,7 @@ Learn how a Computer Works
 I talked about computer hardware and GPU processing in this podcast:
 <https://anchor.fm/andreaskayy/embed/episodes/Why-the-hardware-and-the-GPU-is-super-important--PoDS-030-e23rig>
 
-Computer Networking - Data Transmission
+Data Network Transmission
 ---------------------------------------
 
 ### OSI Model
@@ -324,7 +358,7 @@ I talked about Network Infrastructure and Techniques in this podcast:
 Security and Privacy
 --------------------
 
-### SSL Public & Private Key Certificates
+### SSL Public and Private Key Certificates
 
 ### What is a certificate authority
 
