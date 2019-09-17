@@ -8,8 +8,8 @@ Here's the **download** shortcut: \
 [Data Engineering Cookbook PDF](https://github.com/andkret/Cookbook/raw/master/Data%20Engineering%20Cookbook.pdf)
 
 ## How to use the cookbook
-I split this cookbook into five parts
-+ Part one is the introduction to the book
+I split this cookbook into six parts
++ Part one is the introduction to the book [Introduction](https://github.com/andkret/Cookbook/Introduction)
 + In part two you will learn the basic data engineering skills
 + Part three contains a real world data engineering example we currently work on
 + The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
