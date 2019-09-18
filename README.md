@@ -117,7 +117,7 @@ It's not only useful for beginners, professionals will definitely like the case 
 
 - [Interview Questions](InterviewQuesitons.md)
 
-# How to contribute
+# How To Contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
 Simply open an issue and add your links. Or pull the repo, add them and create a pull request.
 
@@ -134,7 +134,7 @@ Join my Patreon and become a plumber yourself:
 
 Or support me and send a message through Paypal.me:
 [Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
-# Important links
+# Important Links
 
 Subscribe to my Plumbers of data science YouTube channel for regular updates:
 [Link to YouTube](https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA)
