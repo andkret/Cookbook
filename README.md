@@ -4,18 +4,120 @@ That's why I decided to start this cookbook with all the topics you need to look
 
 It's not only useful for beginners, professionals will definitely like the case study section.
 
-Here's the **download** shortcut: \
-[Data Engineering Cookbook PDF](https://github.com/andkret/Cookbook/raw/master/Data%20Engineering%20Cookbook.pdf)
+# Contents:
+- [Introduction](#introduction)
+- [Basic Engineering Skills](#basic-engineering-skills)
+- [Advanced Engineering Skills](#introduction)
+- [Hands On Course](#Hands-on-course)
+- [1001 Interview Quesitons](#1001-interview-quesitons)
 
-## How to use the cookbook
-I split this cookbook into five parts
-+ Part one is the introduction to the book
-+ In part two you will learn the basic data engineering skills
-+ Part three contains a real world data engineering example we currently work on
-+ The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
-+ Part five is a collection of one thousand and one interview questions (currently approx. 150)
+<!-- -->
 
-## How to contribute
+- [How To Contribute](#how-to-contribute)
+- [Support What You Like](#support)
+- [Important Links](#important-links)
+
+
+#  Introduction
+- [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
+- [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
+  - [Data Scientist](Introduction.md#data-scientist)
+  - [Data Engineer](Introduction.md#data-engineer)
+  - [Who Companies Need](Introduction.md#who-companies-need)
+
+# Basic Engineering Skills
+- [Learn To Code](BasicSkills.md#learn-to-code)
+- [Get Familiar With Git](BasicSkills.md#get-familiar-with-git)
+- [Agile Development](BasicSkills.md#agile-development)
+  - [Why is agile so important?](BasicSkills.md#Why-is-agile-so-important)
+  - [Agile rules I learned over the years](BasicSkills.md#agile-rules-i-learned-over-the-years)
+  - [Agile Frameworks](BasicSkills.md#agile-frameworks)
+- [Software Engineering Culture](BasicSkills.md#software-engineering-culture)
+- [Learn how a Computer Works](BasicSkills.md#learn-how-a-computer-works)
+- [Data Network Transmission](BasicSkills.md#data-network-transmission)
+- [Security and Privacy](BasicSkills.md#security-and-privacy)
+  - [SSL Public and Private Key Certificates](BasicSkills.md#ssl-public-and-private-key-Certificates)
+  - [JSON Web Tokens](BasicSkills.md#json-web-tokens)
+  - [GDPR regulations](BasicSkills.md#gdpr-regulations)
+- [Linux](BasicSkills.md#linux)
+  - [OS Basics](BasicSkills.md#os-basics)
+  - [Shell scripting](BasicSkills.md#shell-scripting)
+  - [Cron Jobs](BasicSkills.md#cron-jobs)
+  - [Packet Management](BasicSkills.md#packet-management)
+- [The Cloud](BasicSkills.md#the-cloud)
+  - [IaaS vs PaaS vs SaaS](BasicSkills.md#iaas-vs-paas-vs-saas)
+  - [AWS Azure IBM Google IBM](BasicSkills.md#aws-azure-ibm-google)
+  - [Cloud vs On-Premises](BasicSkills.md#cloud-vs-on-premises)
+  - [Security](BasicSkills.md#security)
+  - [Hybrid Clouds](BasicSkills.md#hybrid-clouds)
+- [Security Zone Design](BasicSkills.md#security-zone-design)
+  - [How to secure a multi layered application](BasicSkills.md#how-to-secure-a-multi-layered-application)
+  - [Cluster security with Kerberos](BasicSkills.md#cluster-security-with-kerberos)
+
+# Advanced Engineering Skills
+
+- [Big Data](AdvancedSkills.md#big-data)
+  - [What is Big Data](AdvancedSkills.md#what-is-big-data)
+  - [The 4 Vs of Big Data](AdvancedSkills.md#the-4-vs-of-big-data)
+  - [Why Big Data](AdvancedSkills.md#why-big-data)
+  - [My Big Data Platform Blueprint](AdvancedSkills.md#my-big-data-platform-blueprint)
+  - [Lambda Architecture](AdvancedSkills.md#lambda-architecture)
+  - [Kappa Architecture](AdvancedSkills.md#kappa-architecture)
+  - [Why a Good Data Platform Is Important](AdvancedSkills.md#why-a-good-data-platform-is-important)
+- [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
+- [Hadoop Platforms](AdvancedSkills.md#hadoop-platforms)
+  - [What is Hadoop](AdvancedSkills.md#what-is-hadoop)
+  - [What makes Hadoop so popular](AdvancedSkills.md#what-makes-hadoop-so-popular)
+  - [Hadoop Ecosystem Components](AdvancedSkills.md#hadoop-ecosystem-components)
+  - [Hadoop is Everywhere?](AdvancedSkills.md#hadoop-is-everywhere)
+  - [Should You Learn Hadoop?](AdvancedSkills.md#should-you-learn-hadoop)
+  - [How to Select Hadoop Cluster Hardware](AdvancedSkills.md#how-to-select-hadoop-cluster-hardware)
+- [Docker](AdvancedSkills.md#docker)
+  - [What is Docker and How it Works](AdvancedSkills.md#what-is-docker-and-what-do-you-use-it-for)
+  - [Docker Micro Services](AdvancedSkills.md#docker-micro-services)
+  - [Kubernetes](AdvancedSkills.md#kubernetes)
+  - [Userful Docker Commands](AdvancedSkills.md#useful-docker-commands)
+- [REST APIs](AdvancedSkills.md#rest-apis)
+  - [API Design](AdvancedSkills.md#api-design)
+  - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
+  - [Security](AdvancedSkills.md#security)
+- [Databases](AdvancedSkills.md#databases)
+  - [SQL Databases](AdvancedSkills.md#sql-databases)
+  - [NoSQL Stores](AdvancedSkills.md#nosql-stores)
+- [Data Processing and Analytics](AdvancedSkills.md#data-processing-and-analytics)
+  - [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
+  - [Stream Procesing](AdvancedSkills.md#stream-processing)
+  - [Batch Processing with MapReduce](AdvancedSkills.md#mapreduce)
+  - [Apache Spark](AdvancedSkills.md#apache-spark)
+  - [Apache Nifi](AdvancedSkills.md#apache-nifi)
+  - [StreamSets](AdvancedSkills.md#streamsets)
+  - [Apache Kafka](AdvancedSkills.md#apache-kafka)
+  - [Machine Learning](AdvancedSkills.md#machine-learning)
+- [Data Visualization](AdvancedSkills.md#data-visualization)
+  - [Android and IOS](AdvancedSkills.md#android-and-ios)
+  - [API Design for Mobile Apps](AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
+  - [Webservers](AdvancedSkills.md#how-to-use-webservers-to-display-content)
+  - [Business Intelligence Tools](AdvancedSkills.md#business-intelligence-tools)
+  - [Identity & Device Management](AdvancedSkills.md#Identity-and-device-management)
+
+# Hands On Course
+
+- [What We Want To Do](HandsOnCourse.md#what-we-want-to-do)
+- [Thoughts On Choosing A Development Environment](HandsOnCourse.md#thoughts-on-choosing-a-development-environment)
+- [A Look Into the Twitter API](HandsOnCourse.md#a-look-into-the-twiiter-api)
+- [Ingesting Tweets with Apache Nifi](HandsOnCourse.md#ingesting-tweets-with-apache-nifi)
+- [Writing from Nifi to Apache Kafka](HandsOnCourse.md#writing-from-nifi-to-kafka)
+- [Apache Zeppelin Data Processing](HandsOnCourse.md#apache-zeppelin)
+  - [Install and Ingest Kafka Topic](HandsOnCourse.md#install-and-ingest-kafka-topic)
+  - [Processing Messages with Spark & SparkSQL](HandsOnCourse.md#processing-messages-with-spark-and-sparksql)
+  - [Visualizing Data](HandsOnCourse.md#visualizing-data)
+- [Switch Processing from Zeppelin to Spark](HandsOnCourse.md#switch-processing-from-zeppelin-to-spark)
+
+# 1001 Interview Questions
+
+- [Interview Questions](InterviewQuesitons.md)
+
+# How To Contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
 Simply open an issue and add your links. Or pull the repo, add them and create a pull request.
 
@@ -24,19 +126,21 @@ This way we keep the master branch clean and I don't have to mess around resolvi
 
 For comments please also use the "Issues" function.
 
-## Support
+# Support
 
 Everything is free, but please support what you like! \
 Join my Patreon and become a plumber yourself:
 [Link to my Patreon](https://patreon.com/plumbersofds)
 
-## Important links
+Or support me and send a message through Paypal.me:
+[Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
+# Important Links
 
-Subscribe to my Plumbers of data science YouTube channel:
+Subscribe to my Plumbers of data science YouTube channel for regular updates:
 [Link to YouTube](https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA)
 
-Check out my personal blog. Get updated via mail and get on my mailing list:
+Check out my blog and get updated via mail by joining my mailing list:
 [andreaskretz.com](https://andreaskretz.com)
 
-I have a Medium publication where you can publish your data engineer articles:
+I have a Medium publication where you can publish your data engineer articles to reach more people:
 [Medium publication](https://link.medium.com/9oi1VDrhPW)
