@@ -91,7 +91,7 @@ It's not only useful for beginners, professionals will definitely like the case 
   - [Apache Spark](AdvancedSkills.md#apache-spark)
   - [Apache Nifi](AdvancedSkills.md#apache-nifi)
   - [StreamSets](AdvancedSkills.md#streamsets)
-  - [Apache Kafka](AdvancedSkills.md#apache-kafka)
+  - [Apache Kafka](./AdvancedSkills.md#apache-kafka)
   - [Machine Learning](AdvancedSkills.md#machine-learning)
 - [Data Visualization](AdvancedSkills.md#data-visualization)
   - [Android and IOS](AdvancedSkills.md#android-and-ios)
