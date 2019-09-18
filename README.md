@@ -86,6 +86,8 @@ Everything is free, but please support what you like! \
 Join my Patreon and become a plumber yourself:
 [Link to my Patreon](https://patreon.com/plumbersofds)
 
+Or support me and send a message through Paypal.me:
+[Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
 ## Important links
 
 Subscribe to my Plumbers of data science YouTube channel:
