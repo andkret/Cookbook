@@ -12,6 +12,11 @@ It's not only useful for beginners, professionals will definitely like the case 
 - [1001 Interview Quesitons](#1001-interview-quesitons)
 
 
+- [How To Contribute](#how-to-contribute)
+- [Support What You Like](#support)
+- [Important Links](#important-links)
+
+
 #  Introduction
 - [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
@@ -197,12 +202,7 @@ It's not only useful for beginners, professionals will definitely like the case 
 
 - [Interview Questions](InterviewQuesitons.md)
 
-In part two you will learn the basic data engineering skills
-Part three contains a real world data engineering example we currently work on
-The fourth part contains over 30 case studies with links from companies like Netflix, Twitter, Spotify
-Part five is a collection of one thousand and one interview questions (currently approx. 150)
-
-## How to contribute
+# How to contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
 Simply open an issue and add your links. Or pull the repo, add them and create a pull request.
 
@@ -211,7 +211,7 @@ This way we keep the master branch clean and I don't have to mess around resolvi
 
 For comments please also use the "Issues" function.
 
-## Support
+# Support
 
 Everything is free, but please support what you like! \
 Join my Patreon and become a plumber yourself:
@@ -219,13 +219,13 @@ Join my Patreon and become a plumber yourself:
 
 Or support me and send a message through Paypal.me:
 [Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
-## Important links
+# Important links
 
-Subscribe to my Plumbers of data science YouTube channel:
+Subscribe to my Plumbers of data science YouTube channel for regular updates:
 [Link to YouTube](https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA)
 
-Check out my personal blog. Get updated via mail and get on my mailing list:
+Check out my blog and get updated via mail by joining my mailing list:
 [andreaskretz.com](https://andreaskretz.com)
 
-I have a Medium publication where you can publish your data engineer articles:
+I have a Medium publication where you can publish your data engineer articles to reach more people:
 [Medium publication](https://link.medium.com/9oi1VDrhPW)
