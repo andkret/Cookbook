@@ -115,6 +115,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Visualizing Data](HandsOnCourse.md#visualizing-data)
 - [Switch Processing from Zeppelin to Spark](HandsOnCourse.md#switch-processing-from-zeppelin-to-spark)
 
+# Case Studies
+
+- [Data Science @Airbnb](CaseStudies.md#Data-Science-@Airbnb)
+
 # 1001 Interview Questions
 
 - [Interview Questions](InterviewQuesitons.md)
