@@ -9,7 +9,7 @@ Case Studies
 How I do Case Studies
 ---------------------
 
-### Data Science \@Airbnb
+### Data Science @Airbnb
 
   -- -----------------------------------------------------------------------------------------------------------------
 
@@ -37,24 +37,24 @@ Spark Streaming for logging events:
 
 -Druid Wiki: <https://en.wikipedia.org/wiki/Apache_Druid>
 
-### Data Science \@Amazon
+### Data Science @Amazon
 
 <https://www.datasciencecentral.com/profiles/blogs/20-data-science-systems-used-by-amazon-to-operate-its-business>\
 <https://aws.amazon.com/solutions/case-studies/amazon-migration-analytics/>
 
-### Data Science \@Baidu
+### Data Science @Baidu
 
 <https://www.slideshare.net/databricks/spark-sql-adaptive-execution-unleashes-the-power-of-cluster-in-large-scale-with-chenzhao-guo-and-carson-wang>
 
-### Data Science \@Blackrock
+### Data Science @Blackrock
 
 <https://www.slideshare.net/DataStax/maintaining-consistency-across-data-centers-randy-fradin-blackrock-cassandra-summit-2016>
 
-### Data Science \@BMW
+### Data Science @BMW
 
 <https://www.unibw.de/code/events-u/jt-2018-workshops/ws3_bigdata_vortrag_widmann.pdf>
 
-### Data Science \@Booking.com
+### Data Science @Booking.com
 
   -- ----------------------------------------------------------------------------------------------------------------------
 
@@ -79,7 +79,7 @@ Kafka Architecture:
 Confluent Platform:
 <https://www.confluent.io/product/confluent-platform/>
 
-### Data Science \@CERN
+### Data Science @CERN
 
   -- ---------------------------------------------------------------------------------------------------------------
 
@@ -109,58 +109,58 @@ Confluent Platform:
 
 <https://www.slideshare.net/SparkSummit/realtime-detection-of-anomalies-in-the-database-infrastructure-using-apache-spark-with-daniel-lanza-and-prasanth-kothuri>
 
-### Data Science \@Disney
+### Data Science @Disney
 
 <https://medium.com/disney-streaming/delivering-data-in-real-time-via-auto-scaling-kinesis-streams-72a0236b2cd9>
 
-### Data Science \@DLR
+### Data Science @DLR
 
 <https://www.unibw.de/code/events-u/jt-2018-workshops/ws3_bigdata_vortrag_bamler.pdf>
 
-### Data Science \@Drivetribe
+### Data Science @Drivetribe
 
 <https://berlin-2017.flink-forward.org/kb_sessions/drivetribes-kappa-architecture-with-apache-flink/>
 
 <https://www.slideshare.net/FlinkForward/flink-forward-berlin-2017-aris-kyriakos-koliopoulos-drivetribes-kappa-architecture-with-apache-flink>
 
-### Data Science \@Dropbox
+### Data Science @Dropbox
 
 <https://blogs.dropbox.com/tech/2019/01/finding-kafkas-throughput-limit-in-dropbox-infrastructure/>
 
-### Data Science \@Ebay
+### Data Science @Ebay
 
 <https://www.slideshare.net/databricks/moving-ebays-data-warehouse-over-to-apache-spark-spark-as-core-etl-platform-at-ebay-with-kim-curtis-and-brian-knauss>
 <https://www.slideshare.net/databricks/analytical-dbms-to-apache-spark-auto-migration-framework-with-edward-zhang-and-lipeng-zhu>
 
-### Data Science \@Expedia
+### Data Science @Expedia
 
 <https://www.slideshare.net/BrandonOBrien/spark-streaming-kafka-best-practices-w-brandon-obrien>
 <https://www.slideshare.net/Naveen1914/brandon-obrien-streamingdata>
 
-### Data Science \@Facebook
+### Data Science @Facebook
 
 <https://code.fb.com/core-data/apache-spark-scale-a-60-tb-production-use-case/>
 
-### Data Science \@Google
+### Data Science @Google
 
 <http://www.unofficialgoogledatascience.com/>\
 <https://ai.google/research/teams/ai-fundamentals-applications/>\
 <https://cloud.google.com/solutions/big-data/>\
 <https://datafloq.com/read/google-applies-big-data-infographic/385>
 
-### Data Science \@Grammarly
+### Data Science @Grammarly
 
 <https://www.slideshare.net/databricks/building-a-versatile-analytics-pipeline-on-top-of-apache-spark-with-mikhail-chernetsov>
 
-### Data Science \@ING Fraud
+### Data Science @ING Fraud
 
 <https://sf-2017.flink-forward.org/kb_sessions/streaming-models-how-ing-adds-models-at-runtime-to-catch-fraudsters/>
 
-### Data Science \@Instagram
+### Data Science @Instagram
 
 <https://www.slideshare.net/SparkSummit/lessons-learned-developing-and-managing-massive-300tb-apache-spark-pipelines-in-production-with-brandon-carl>
 
-### Data Science \@LinkedIn
+### Data Science @LinkedIn
 
   -- -------------------------------------------------------------------------------------------------------------------
 
@@ -190,11 +190,11 @@ Confluent Platform:
 
 <http://druid.io/docs/latest/design/index.html>
 
-### Data Science \@Lyft
+### Data Science @Lyft
 
 <https://eng.lyft.com/running-apache-airflow-at-lyft-6e53bb8fccff>
 
-### Data Science \@NASA
+### Data Science @NASA
 
   -- ---------------------------------------------------------------------------------------------------------------
 
@@ -214,7 +214,7 @@ Confluent Platform:
 
 <https://en.m.wikipedia.org/wiki/Hierarchical_Data_Format>
 
-### Data Science \@Netflix
+### Data Science @Netflix
 
   -- ------------------------------------------------------------------------------------------------------------------
 
@@ -375,7 +375,7 @@ analytics tool with Apache Spark streaming in the future. My guess is,
 that they did the switch to Spark some time ago, because their post is
 more than a year old.
 
-### Data Science \@OLX
+### Data Science @OLX
 
   -- --------------------------------------------------------------------------------------------------------------
 
@@ -387,15 +387,15 @@ more than a year old.
 
 <https://www.slideshare.net/mobile/AlexeyGrigorev/image-models-infrastructure-at-olx>
 
-### Data Science \@OTTO
+### Data Science @OTTO
 
 <https://www.slideshare.net/SparkSummit/spark-summit-eu-talk-by-sebastian-schroeder-and-ralf-sigmund>
 
-### Data Science \@Paypal
+### Data Science @Paypal
 
 <https://www.paypal-engineering.com/tag/data/>
 
-### Data Science \@Pinterest
+### Data Science @Pinterest
 
   -- --------------------------------------------------------------------------------------------------------------------
 
@@ -425,11 +425,11 @@ more than a year old.
 
 <https://medium.com/@Pinterest_Engineering/auto-scaling-pinterest-df1d2beb4d64>
 
-### Data Science \@Salesforce
+### Data Science @Salesforce
 
 <https://engineering.salesforce.com/building-a-scalable-event-pipeline-with-heroku-and-salesforce-2549cb20ce06>
 
-### Data Science \@Siemens Mindsphere
+### Data Science @Siemens Mindsphere
 
   -- ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -437,11 +437,11 @@ more than a year old.
      [Click here to listen](https://anchor.fm/andreaskayy/episodes/059-A-Look-Into-The-Siemens-Mindsphere-IoT-Platform---059-e45ihn)
   -- ---------------------------------------------------------------------------------------------------------------------------------
 
-### Data Science \@Slack
+### Data Science @Slack
 
 <https://speakerdeck.com/vananth22/streaming-data-pipelines-at-slack>
 
-### Data Science \@Spotify
+### Data Science @Spotify
 
   -- ------------------------------------------------------------------------------------------------------------------
 
@@ -468,15 +468,15 @@ label="tbl:spotifycasestudy"}
 
 <https://labs.spotify.com/2017/11/20/autoscaling-pub-sub-consumers/>
 
-### Data Science \@Symantec
+### Data Science @Symantec
 
 <https://www.slideshare.net/planetcassandra/symantec-cassandra-data-modelling-techniques-in-action>
 
-### Data Science \@Tinder
+### Data Science @Tinder
 
 <https://www.slideshare.net/databricks/scalable-monitoring-using-apache-spark-and-friends-with-utkarsh-bhatnagar>
 
-### Data Science \@Twitter
+### Data Science @Twitter
 
   -- ------------------------------------------------------------------------------------------------------------------
 
@@ -515,7 +515,7 @@ label="tbl:twittercasestudy"}
 
 <https://db-engines.com/en/system/Amazon+DynamoDB%3BCassandra%3BGoogle+Cloud+Bigtable%3BHBase>
 
-### Data Science \@Uber
+### Data Science @Uber
 
 <https://eng.uber.com/uber-big-data-platform/>
 
@@ -523,15 +523,15 @@ label="tbl:twittercasestudy"}
 
 <https://www.uber.com/us/en/uberai/>
 
-### Data Science \@Upwork
+### Data Science @Upwork
 
 <https://www.slideshare.net/databricks/how-to-rebuild-an-endtoend-ml-pipeline-with-databricks-and-upwork-with-thanh-tran>
 
-### Data Science \@Woot
+### Data Science @Woot
 
 <https://aws.amazon.com/de/blogs/big-data/our-data-lake-story-how-woot-com-built-a-serverless-data-lake-on-aws/>
 
-### Data Science \@Zalando
+### Data Science @Zalando
 
   -- -----------------------------------------------------
 
