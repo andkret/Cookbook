@@ -74,7 +74,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Hadoop is Everywhere?](AdvancedSkills.md#hadoop-is-everywhere)
   - [Should You Learn Hadoop?](AdvancedSkills.md#should-you-learn-hadoop)
   - [How to Select Hadoop Cluster Hardware](AdvancedSkills.md#how-to-select-hadoop-cluster-hardware)
-- [Docker](sections/AdvancedSkills.md#docker)
+- [Docker](AdvancedSkills.md#docker)
   - [What is Docker and How it Works](AdvancedSkills.md#what-is-docker-and-what-do-you-use-it-for)
   - [Docker Micro Services](AdvancedSkills.md#docker-micro-services)
   - [Kubernetes](AdvancedSkills.md#kubernetes)
