@@ -98,7 +98,7 @@ Advanced Data Engineering Skills
     - [Spark Resource Management](AdvancedSkills.md#spark-resource-management)
   - [Apache Nifi](AdvancedSkills.md#apache-nifi)
   - [StreamSets](AdvancedSkills.md#streamsets)
-  - [Apache Kafka](AdvancedSkills.md#apache-kafka)
+  - [Apache Kafka](./sections/AdvancedSkills.md#apache-kafka)
     - [Why a Message Queue Tool?](AdvancedSkills.md#why-a-message-queue-tool)
     - [Kafka Architecture](AdvancedSkills.md#kafka-architecture)
     - [Kafka Topics](AdvancedSkills.md#what-are-topics)
