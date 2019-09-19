@@ -98,7 +98,7 @@ Advanced Data Engineering Skills
     - [Spark Resource Management](AdvancedSkills.md#spark-resource-management)
   - [Apache Nifi](AdvancedSkills.md#apache-nifi)
   - [StreamSets](AdvancedSkills.md#streamsets)
-  - [Apache Kafka](sections/AdvancedSkills.md#apache-kafka)
+  - [Apache Kafka](AdvancedSkills.md#apache-kafka)
     - [Why a Message Queue Tool?](AdvancedSkills.md#why-a-message-queue-tool)
     - [Kafka Architecture](AdvancedSkills.md#kafka-architecture)
     - [Kafka Topics](AdvancedSkills.md#what-are-topics)
@@ -243,7 +243,7 @@ database. An external analytics tool is querying data and uploading the
 results back to the SQL DB. Users then use the user interface to display
 data stored in the database.
 
-![Common SQL Platform Architecture](images/Common-SQL-Architecture.png)
+![Common SQL Platform Architecture](../images/Common-SQL-Architecture.png)
 
 Now, when the front end queries data from the SQL database the following
 three steps happen:
