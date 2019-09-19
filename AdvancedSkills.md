@@ -243,7 +243,7 @@ database. An external analytics tool is querying data and uploading the
 results back to the SQL DB. Users then use the user interface to display
 data stored in the database.
 
-![Common SQL Platform Architecture](../images/Common-SQL-Architecture.png)
+![Common SQL Platform Architecture](images/Common-SQL-Architecture.png)
 
 Now, when the front end queries data from the SQL database the following
 three steps happen:
@@ -282,7 +282,7 @@ to the front end and analytics.
 
 In summary: Scaling up the system is fairly easy.
 
-![Scaling up a SQL Database](../images/SQL-Scaling-UP.png)
+![Scaling up a SQL Database](images/SQL-Scaling-UP.png)
 
 But with exponential growth it is obvious that sooner or later (more
 sooner than later) you will run into the same problems again. At some
@@ -301,7 +301,7 @@ network (SAN) to store the data. You can then use up to eight SQL
 servers (explain), attach them to the SAN and let them handle queries.
 This way load gets distributed between those eight servers.
 
-![Scaling out a SQL Database](../images/SQL-Scaling-Out.png)
+![Scaling out a SQL Database](images/SQL-Scaling-Out.png)
 
 One major downside of this setup is that, because the storage is shared
 between the SQL servers, it can only be used as an read only database.
@@ -364,7 +364,7 @@ data driven decisions.
 The blueprint is focused on the four key areas: Ingest, store, analyse
 and display.
 
-![Platform Blueprint](../images/Big-Data-Platform-Blueprint-Title-Original.png)
+![Platform Blueprint](images/Big-Data-Platform-Blueprint-Title-Original.png)
 
 Having the platform split like this turns it it a modular platform with
 loosely coupled interfaces.
@@ -501,7 +501,7 @@ Doing the tax statement is a prime example of a batch process.
 Data comes in and gets stored, analytics loads the data from storage and
 creates an output (insight):
 
-![Batch Processing Pipeline](../images/Simple-Batch-Processing-Workflow.png)
+![Batch Processing Pipeline](images/Simple-Batch-Processing-Workflow.png)
 
 Batch processing is something you do either without a schedule or on a
 schedule (tax statement). It is used to ask the big questions and gain
@@ -537,7 +537,7 @@ access to fragments of data as it comes in.
 As a result the scope of the produced insight is also limited. Because
 the big picture is missing.
 
-![Stream Processing Pipeline](../images/Simple-Stream-Processing-Workflow.png)
+![Stream Processing Pipeline](images/Simple-Stream-Processing-Workflow.png)
 
 Only with streaming analytics you are able to create advanced services
 for the customer. Netflix for instance incorporated stream processing
@@ -637,7 +637,7 @@ connected with the Hadoop.
 It is not a complete list. There are many more tools that even I don't
 know. Maybe I am drawing a complete map in the future.
 
-![Hadoop Ecosystem Components](../images/Hadoop-Ecosystem.png)
+![Hadoop Ecosystem Components](images/Hadoop-Ecosystem.png)
 
 ### Hadoop Ecosystem Components
 
@@ -649,7 +649,7 @@ work together perfectly.
 
 Here's an example:
 
-![Connections between tools](../images/Hadoop-Ecosystem-Connections.png)
+![Connections between tools](images/Hadoop-Ecosystem-Connections.png)
 
 You use Apache Kafka to ingest data, and store the it in HDFS. You do
 the analytics with Apache Spark and as a backend for the display you
@@ -681,7 +681,7 @@ management.
 
 Flume can use Hadoop's YARN resource manager out of the box.
 
-![Flume Integration](../images/Hadoop-Ecosystem-Connections-Flume.png)
+![Flume Integration](images/Hadoop-Ecosystem-Connections-Flume.png)
 
 ### Hadoop Is Everywhere?
 
@@ -972,7 +972,7 @@ It will not only store your file, Hadoop will also replicate it two or
 three times (you can define that). Replication means replicas of the
 file will be distributed to different servers.
 
-![HDFS Master and Data Nodes](../images/HDFS-Master-DataNodes.png)
+![HDFS Master and Data Nodes](images/HDFS-Master-DataNodes.png)
 
 This gives you superior fault tolerance. If one server goes down, then
 your data stays available on a different server.
@@ -990,7 +990,7 @@ splits the file into blocks.
 These blocks are then distributed and replicated on the Hadoop cluster.
 The splitting happens automatically.
 
-![Distribution of Blocks for a 512MB File](../images/HDFS-Distributed-FileSystem.png)
+![Distribution of Blocks for a 512MB File](images/HDFS-Distributed-FileSystem.png)
 
 In the configuration you can define how big the blocks should be. 128
 megabyte or 1 gigabyte?
@@ -1268,7 +1268,7 @@ run in parallel on your cluster machines.
 
 Here's an example how such a map and reduce process works with data:
 
-![Mapping of input files and reducing of mapped records](../images/MapReduce-Process-Detailed.png)
+![Mapping of input files and reducing of mapped records](images/MapReduce-Process-Detailed.png)
 
 #### How does MapReduce work
 
@@ -1339,7 +1339,7 @@ the one reducer who is handling all the values for this particular key.
 Every reducer input record then has a list of values and you can
 calculate (1+5+9)/3, (2+6+7)/3 and (3+4+8)/3. That's all.
 
-![MapReduce Example of Time Series Data](../images/MapReduce-Time-Series-example.png)
+![MapReduce Example of Time Series Data](images/MapReduce-Time-Series-example.png)
 
 What do you think you need to do to generate minute averages?
 
@@ -1362,7 +1362,7 @@ times the machines, the time to do the calculation would be the same.
 MapReduce is awesome for simpler analytics tasks, like counting stuff.
 It just has one flaw: It has only two stages Map and Reduce.
 
-![The Map Reduce Process](../images/MapReduce-Process.png)
+![The Map Reduce Process](images/MapReduce-Process.png)
 
 First MapReduce loads the data from HDFS into the mapping function.
 There you prepare the input data for the processing in the reducer.
@@ -1431,7 +1431,7 @@ question.
 To make it clear how Hadoop differs from Spark I created this simple
 feature table:
 
-![Hadoop vs Spark capabilities](../images/Table-Hadoop-and-Spark.png)
+![Hadoop vs Spark capabilities](images/Table-Hadoop-and-Spark.png)
 
 Hadoop is used to store data in the Hadoop Distributed File System
 (HDFS). It can analyse the stored data with MapReduce and manage
@@ -1540,7 +1540,7 @@ Spark can then natively identify on what data node the needed data is
 stored. This enables Spark to use the worker running on the machine
 where the data is stored to load the data into the memory.
 
-![Spark Using Hadoop Data Locality](../images/Spark-Data-Locality.png)
+![Spark Using Hadoop Data Locality](images/Spark-Data-Locality.png)
 
 The downside of this setup is that you need more expensive servers.
 Because Spark processing needs stronger servers with more RAM and CPUs
@@ -1647,7 +1647,7 @@ to your Hadoop and Spark processes.
 Having a single resource manager instead of two independent ones makes
 it a lot easier to configure the resource management.
 
-![Spark Resource Management With YARN](../images/Spark-Yarn.png)
+![Spark Resource Management With YARN](images/Spark-Yarn.png)
 
 ### Apache Nifi
 
