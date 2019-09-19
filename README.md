@@ -117,7 +117,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 # Case Studies
 
-- [Data Science @Airbnb](CaseStudies.md#Data-Science-@Airbnb)
+- [Data Science @Google](CaseStudies.md#data-science-@google)
 
 # 1001 Interview Questions
 

@@ -3,7 +3,7 @@ Case Studies
 
 ## Contents
 
-- [Data Science @Airbnb](BasicSkills.md#Data-Science-@Airbnb)
+- [Data Science @Google](CaseStudies.md#data-science-@google)
 
 
 How I do Case Studies
