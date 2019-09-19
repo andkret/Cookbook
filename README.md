@@ -6,7 +6,7 @@ It's not only useful for beginners, professionals will definitely like the case 
 
 If you look for the old PDF version it's [here](https://github.com/andkret/Cookbook/raw/LaTex-Version-Deprecated/Data%20Engineering%20Cookbook.pdf)
 
-# Contents:
+## Contents:
 - [Introduction](#introduction)
 - [Basic Engineering Skills](#basic-engineering-skills)
 - [Advanced Engineering Skills](#introduction)
@@ -21,14 +21,14 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Important Links](#important-links)
 
 
-#  Introduction
+##  Introduction
 - [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
   - [Data Scientist](Introduction.md#data-scientist)
   - [Data Engineer](Introduction.md#data-engineer)
   - [Who Companies Need](Introduction.md#who-companies-need)
 
-# Basic Engineering Skills
+## Basic Engineering Skills
 - [Learn To Code](BasicSkills.md#learn-to-code)
 - [Get Familiar With Git](BasicSkills.md#get-familiar-with-git)
 - [Agile Development](BasicSkills.md#agile-development)
@@ -57,7 +57,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [How to secure a multi layered application](BasicSkills.md#how-to-secure-a-multi-layered-application)
   - [Cluster security with Kerberos](BasicSkills.md#cluster-security-with-kerberos)
 
-# Advanced Engineering Skills
+## Advanced Engineering Skills
 
 - [Big Data](AdvancedSkills.md#big-data)
   - [What is Big Data](AdvancedSkills.md#what-is-big-data)
@@ -103,7 +103,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Business Intelligence Tools](AdvancedSkills.md#business-intelligence-tools)
   - [Identity & Device Management](AdvancedSkills.md#Identity-and-device-management)
 
-# Hands On Course
+## Hands On Course
 
 - [What We Want To Do](HandsOnCourse.md#what-we-want-to-do)
 - [Thoughts On Choosing A Development Environment](HandsOnCourse.md#thoughts-on-choosing-a-development-environment)
@@ -116,7 +116,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Visualizing Data](HandsOnCourse.md#visualizing-data)
 - [Switch Processing from Zeppelin to Spark](HandsOnCourse.md#switch-processing-from-zeppelin-to-spark)
 
-# Case Studies
+## Case Studies
 
 - [Data Science @Airbnb](CaseStudies.md#data-science-at-Airbnb)
 - [Data Science @Amazon](CaseStudies.md#data-science-at-Amazon)
@@ -156,11 +156,11 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Data Science @Woot](CaseStudies.md#data-science-at-Woot)
 - [Data Science @Zalando](CaseStudies.md#data-science-at-Zalando)
 
-# 1001 Interview Questions
+## 1001 Interview Questions
 
 - [Interview Questions](InterviewQuesitons.md)
 
-# How To Contribute
+## How To Contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
 Simply open an issue and add your links. Or pull the repo, add them and create a pull request.
 
@@ -169,7 +169,7 @@ This way we keep the master branch clean and I don't have to mess around resolvi
 
 For comments please also use the "Issues" function.
 
-# Support
+## Support
 
 Everything is free, but please support what you like! \
 Join my Patreon and become a plumber yourself:
@@ -177,7 +177,7 @@ Join my Patreon and become a plumber yourself:
 
 Or support me and send a message through Paypal.me:
 [Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
-# Important Links
+## Important Links
 
 Subscribe to my Plumbers of data science YouTube channel for regular updates:
 [Link to YouTube](https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA)
