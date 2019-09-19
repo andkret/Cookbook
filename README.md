@@ -10,8 +10,9 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Introduction](#introduction)
 - [Basic Engineering Skills](#basic-engineering-skills)
 - [Advanced Engineering Skills](#introduction)
-- [Hands On Course](#Hands-on-course)
-- [1001 Interview Quesitons](#1001-interview-quesitons)
+- [Hands On Course](#Hands-on-course)‚
+- [Case Studies](#case-studies)
+- [1001 Interview Questions](#1001-interview-questions)
 
 <!-- -->
 
