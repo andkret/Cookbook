@@ -57,11 +57,11 @@ GitHub](https://youtu.be/k1bS5aSPos8)
 Data Engineer vs Data Scientist
 -------------------------------
 
-  -- -----------------------------------------------------------------------------------------------------------------------------------
+  
 
-     [Click here to watch](https://youtu.be/64TYZETOEdQ)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/050-Data-Engineer-Scientist-or-Analyst-Which-One-Is-For-You-e45ibl)
-  -- -----------------------------------------------------------------------------------------------------------------------------------
+     > [Click here to watch](https://youtu.be/64TYZETOEdQ)
+     > [Click here to listen](https://anchor.fm/andreaskayy/episodes/050-Data-Engineer-Scientist-or-Analyst-Which-One-Is-For-You-e45ibl)
+ 
 
 ### Data Scientist
 
