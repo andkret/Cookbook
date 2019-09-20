@@ -903,12 +903,21 @@ example how to build an API
      [Click here to listen](https://anchor.fm/andreaskayy/episodes/081-How-to-get-tweets-from-the-Twitter-API-e45j32)
      [Click here to watch](https://youtu.be/UnAXKxeIlyg)
   -- ------------------------------------------------------------------------------------------------------------------
+###Payload compression attacks
+Zip Bombs
+https://bomb.codes/
+
+How to defend your Server with zip Bombs
+https://www.sitepoint.com/how-to-defend-your-website-with-zip-bombs/
 
 ### Implementation Frameworks
 
 Jersey:
 
 <https://jersey.github.io/documentation/latest/getting-started.html>
+
+Tutorial – REST API design and implementation in Java with Jersey and Spring:
+https://www.codepedia.org/ama/tutorial-rest-api-design-and-implementation-in-java-with-jersey-and-spring/
 
 Swagger:
 
