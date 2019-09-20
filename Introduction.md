@@ -159,8 +159,7 @@ infrastructure like at Amazon or Google or on-premise hardware.
 | Podcast Episode: #048 From Wannabe Data Scientist To Engineer My Journey
 |------------------|
 |In this episode Kate Strachnyi interviews me for her humans of data science podcast. We talk about how I found out that I am more into the engineering part of data science.  
-| [Watch on YouTube](https://youtu.be/pIZkTuN5AMM)
-| [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/048-From-Wannabe-Data-Scientist-To-Engineer-My-Journey-e45i2o)|
+| [Watch on YouTube](https://youtu.be/pIZkTuN5AMM) // [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/048-From-Wannabe-Data-Scientist-To-Engineer-My-Journey-e45i2o)|
 
 
 ### Who Companies Need
