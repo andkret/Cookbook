@@ -57,11 +57,11 @@ GitHub](https://youtu.be/k1bS5aSPos8)
 Data Engineer vs Data Scientist
 -------------------------------
 
-  -- -----------------------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #050 Data Engineer, Scientist or Analyst - Which One Is For You? |Video|Audio|
+|------------------|----|----|
+|In this podcast we talk about the diﬀerences between data scientists, analysts and engineers. Which are the three main data science jobs. All three are super important. This makes it easy to decide | [Watch on YouTube](https://youtu.be/64TYZETOEdQ) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/050-Data-Engineer-Scientist-or-Analyst-Which-One-Is-For-You-e45ibl)|
 
-     [Click here to watch](https://youtu.be/64TYZETOEdQ)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/050-Data-Engineer-Scientist-or-Analyst-Which-One-Is-For-You-e45ibl)
-  -- -----------------------------------------------------------------------------------------------------------------------------------
+
 
 ### Data Scientist
 
@@ -153,11 +153,11 @@ Hadoop, Spark, HBase, Cassandra, MongoDB, Kafka, Redis and more.
 What they also need is experience on how to deploy systems on cloud
 infrastructure like at Amazon or Google or on-premise hardware.
 
-  -- ------------------------------------------------------------------------------------------------------------------------------
 
-     [Click here to watch](https://youtu.be/pIZkTuN5AMM)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/048-From-Wannabe-Data-Scientist-To-Engineer-My-Journey-e45i2o)
-  -- ------------------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #048 From Wannabe Data Scientist To Engineer My Journey |Video|Audio|
+|------------------|----|----|
+|In this episode Kate Strachnyi interviews me for her humans of data science podcast. We talk about how I found out that I am more into the engineering part of data science.  | [Watch on YouTube](https://youtu.be/pIZkTuN5AMM) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/048-From-Wannabe-Data-Scientist-To-Engineer-My-Journey-e45i2o)|
+
 
 ### Who Companies Need
 

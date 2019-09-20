@@ -48,11 +48,10 @@ How I do Case Studies
 
 ### Data Science at Airbnb
 
-  -- -----------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #063 Data Engineering At Airbnb Case Study  |Video|Audio|
+|------------------|----|----|
+|How Airbnb is doing data engineering? Let’s check it out. | [Watch on YouTube](https://youtu.be/iokqkMfyIfo) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/063-Data-Engineering-At-Airbnb-Case-Study-e45il2)|
 
-     [Click here to watch](https://youtu.be/iokqkMfyIfo)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/063-Data-Engineering-At-Airbnb-Case-Study-e45il2)
-  -- -----------------------------------------------------------------------------------------------------------------
 
 **Slides:**
 
@@ -93,11 +92,9 @@ Spark Streaming for logging events:
 
 ### Data Science at Booking.com
 
-  -- ----------------------------------------------------------------------------------------------------------------------
-
-     [Click here to watch](https://youtu.be/9GE3yiVo1FM)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/064-Data-Engineering-At-Booking-com-Case-Study-e45ilg)
-  -- ----------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #064 Data Engineering at Booking.com Case Study |Video|Audio|
+|------------------|----|----|
+|How Booking.com is doing data engineering? Let’s check it out. | [Watch on YouTube](https://youtu.be/9GE3yiVo1FM) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/064-Data-Engineering-At-Booking-com-Case-Study-e45ilg)|
 
 **Slides:**
 
@@ -118,11 +115,10 @@ Confluent Platform:
 
 ### Data Science at CERN
 
-  -- ---------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #065 Data Engineering At CERN Case Study |Video|Audio|
+|------------------|----|----|
+|How is CERN doing Data Engineering? They must get huge amounts of data from the Large Hadron Collider. Let’s check it out. | [Watch on YouTube](https://youtu.be/LrhfzPsKaDE) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/065-Data-Engineering-At-CERN-Case-Study-e45ime)|
 
-     [Click here to watch](https://youtu.be/LrhfzPsKaDE)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/065-Data-Engineering-At-CERN-Case-Study-e45ime)
-  -- ---------------------------------------------------------------------------------------------------------------
 
 **Slides:**
 
@@ -199,11 +195,10 @@ Confluent Platform:
 
 ### Data Science at LinkedIn
 
-  -- -------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #073 Data Engineering At LinkedIn Case Study |Video|Audio|
+|------------------|----|----|
+|Let’s check out how LinkedIn is processing data :) | [Watch on YouTube](https://youtu.be/wgfoE8Jbr_Q) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/073-Data-Engineering-At-LinkedIn-Case-Study-e45is6)|
 
-     [Click here to watch](https://youtu.be/wgfoE8Jbr_Q)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/073-Data-Engineering-At-LinkedIn-Case-Study-e45is6)
-  -- -------------------------------------------------------------------------------------------------------------------
 
 **Slides:**
 
@@ -233,11 +228,10 @@ Confluent Platform:
 
 ### Data Science at NASA
 
-  -- ---------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #067 Data Engineering At NASA Case Study |Video|Audio|
+|------------------|----|----|
+|A look into how NASA is doing data engineering. | [Watch on YouTube](https://youtu.be/Pctn_1UoNjA) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/067-Data-Engineering-At-NASA-Case-Study-e45ina)|
 
-     [Click here to watch](https://youtu.be/Pctn_1UoNjA)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/067-Data-Engineering-At-NASA-Case-Study-e45ina)
-  -- ---------------------------------------------------------------------------------------------------------------
 
 **Slides:**
 
@@ -253,11 +247,10 @@ Confluent Platform:
 
 ### Data Science at Netflix
 
-  -- ------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #062 Data Engineering At Netﬂix Case Study |Video|Audio|
+|------------------|----|----|
+|How Netﬂix is doing Data Engineering using their Keystone platform. | [Watch on YouTube](https://youtu.be/YWPsYpjNKeM) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/062-Data-Engineering-At-Netflix-Case-Study-e45ikp)|
 
-     [Click here to watch](https://youtu.be/YWPsYpjNKeM)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/062-Data-Engineering-At-Netflix-Case-Study-e45ikp)
-  -- ------------------------------------------------------------------------------------------------------------------
 
 Netflix revolutionized how we watch movies and TV. Currently over 75
 million users watch 125 million hours of Netflix content every day!
@@ -414,11 +407,10 @@ more than a year old.
 
 ### Data Science at OLX
 
-  -- --------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #083 Data Engineering at OLX Case Study |Video|Audio|
+|------------------|----|----|
+|This podcast is a case study about OLX with Senior Data Scientist Alexey Grigorev as guest. It was super fun. | [Watch on YouTube](https://youtu.be/H_uFNoCvykM) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/083-Data-Engineering-at-OLX-Case-Study-e45j5n)|
 
-     [Click here to watch](https://youtu.be/H_uFNoCvykM)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/083-Data-Engineering-at-OLX-Case-Study-e45j5n)
-  -- --------------------------------------------------------------------------------------------------------------
 
 **Slides:**
 
@@ -434,11 +426,9 @@ more than a year old.
 
 ### Data Science at Pinterest
 
-  -- --------------------------------------------------------------------------------------------------------------------
-
-     [Click here to watch](https://youtu.be/cqWXGVoDX8Q)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/069-Data-Engineering-At-Pinterest-Case-Study-e45ioh)
-  -- --------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #069 Engineering Culture At Pinterest |Video|Audio|
+|------------------|----|----|
+|In this podcast we look into data platform and processing at Pinterest. | [Watch on YouTube](https://youtu.be/cqWXGVoDX8Q) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/069-Data-Engineering-At-Pinterest-Case-Study-e45ioh)|
 
 **Slides:**
 
@@ -468,11 +458,9 @@ more than a year old.
 
 ### Data Science at Siemens Mindsphere
 
-  -- ---------------------------------------------------------------------------------------------------------------------------------
-
-     [Click here to watch](https://youtu.be/HEd5Tsuy5HE)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/059-A-Look-Into-The-Siemens-Mindsphere-IoT-Platform---059-e45ihn)
-  -- ---------------------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #059 What Is The Siemens Mindsphere IoT Platform? |Video|Audio|
+|------------------|----|----|
+|The Internet of things is a huge deal. There are many platforms available. But, which one is actually good? Join me on a 50 minute dive into the Siemens Mindsphere online documentation. I have to say I was super unimpressed by what I found. Many limitations, unclear architecture and no pricing available? Not good! | [Watch on YouTube](https://youtu.be/HEd5Tsuy5HE) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/059-A-Look-Into-The-Siemens-Mindsphere-IoT-Platform---059-e45ihn)|
 
 ### Data Science at Slack
 
@@ -480,14 +468,10 @@ more than a year old.
 
 ### Data Science at Spotify
 
-  -- ------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #071 Data Engineering At Spotify Case Study |Video|Audio|
+|------------------|----|----|
+|In this episode we are looking at data engineering at Spotify, my favorite music streaming service. How do they process all that data? | [Watch on YouTube](https://youtu.be/0WJZ5wtQRWI) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/071-Data-Engineering-At-Spotify-Case-Study-e45iq1)|
 
-     [Click here to watch](https://youtu.be/0WJZ5wtQRWI)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/071-Data-Engineering-At-Spotify-Case-Study-e45iq1)
-  -- ------------------------------------------------------------------------------------------------------------------
-
-[\[tbl:spotifycasestudy\]]{#tbl:spotifycasestudy
-label="tbl:spotifycasestudy"}
 
 **Slides:**
 
@@ -515,14 +499,10 @@ label="tbl:spotifycasestudy"}
 
 ### Data Science at Twitter
 
-  -- ------------------------------------------------------------------------------------------------------------------
+| Podcast Episode: #072 Data Engineering At Twitter Case Study  |Video|Audio|
+|------------------|----|----|
+|How is Twitter doing data engineering? Oh man, they have a lot of cool things to share these tweets. | [Watch on YouTube](https://youtu.be/UkqSR3IeLZ8) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/072-Data-Engineering-At-Twitter-Case-Study-e45iqq)|
 
-     [Click here to watch](https://youtu.be/UkqSR3IeLZ8)
-     [Click here to listen](https://anchor.fm/andreaskayy/episodes/072-Data-Engineering-At-Twitter-Case-Study-e45iqq)
-  -- ------------------------------------------------------------------------------------------------------------------
-
-[\[tbl:twittercasestudy\]]{#tbl:twittercasestudy
-label="tbl:twittercasestudy"}
 
 **Slides:**
 
@@ -570,12 +550,9 @@ label="tbl:twittercasestudy"}
 
 ### Data Science at Zalando
 
-  -- -----------------------------------------------------
-
-     [Click here to watch](https://youtu.be/IXOLsNA6Hm0)
-  -- -----------------------------------------------------
-
-[\[tbl:087Zalando\]]{#tbl:087Zalando label="tbl:087Zalando"}
+| Podcast Episode: #087 Data Engineering At Zalando Case Study Talk  |Video|Audio|
+|------------------|----|----|
+|I had a great conversation about data engineering for online retailing with Michal Gancarski and Max Schultze. They showed Zalando’s data platform and how they build data pipelines. Super interesting especially for AWS users. | [Watch on YouTube](https://youtu.be/IXOLsNA6Hm0) | Not Avaiable |
 
 Do me a favor and give these guys a follow on LinkedIn:
 
