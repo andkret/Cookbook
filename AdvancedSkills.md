@@ -478,9 +478,10 @@ build the the perfect application.
  Lambda Architecture
 -------------------
 
-| Podcast Episode: #077 Lambda Architecture and Kappa Architecture  |Video|Audio|
-|------------------|----|----|
-|In this stream we talk about the lambda architecture with stream and batch processing as well as a alternative the Kappa Architecture that consists only of streaming. Also Data engineer vs data scientist and we discuss Andrew Ng’s AI Transformation Playbook.  | [Watch on YouTube](https://youtu.be/iUOQPyHN9-0) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/077-Lambda--Kappa-Architecture-e45j0r)|
+| Podcast Episode: #077 Lambda Architecture and Kappa Architecture
+|------------------|
+|In this stream we talk about the lambda architecture with stream and batch processing as well as a alternative the Kappa Architecture that consists only of streaming. Also Data engineer vs data scientist and we discuss Andrew Ng’s AI Transformation Playbook.  
+| [Watch on YouTube](https://youtu.be/iUOQPyHN9-0) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/077-Lambda--Kappa-Architecture-e45j0r)|
 
 
 ### Batch Processing
@@ -568,17 +569,19 @@ add a streaming pipeline to your batch processing big data platform.
 
 ### Why a Good Data Platform Is Important
 
-| Podcast Episode: #066 How To Do Data Science From A Data Engineers Perspective   |Video|Audio|
-|------------------|----|----|
-|A simple introduction how to do data science in the context of the internet of things. | [Watch on YouTube](https://youtu.be/yp_cc4R0mGQ) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt)|
+| Podcast Episode: #066 How To Do Data Science From A Data Engineers Perspective  
+|------------------|
+|A simple introduction how to do data science in the context of the internet of things.
+| [Watch on YouTube](https://youtu.be/yp_cc4R0mGQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt)|
 
 
 Data Warehouse vs Data Lake
 ---------------------------
 
-| Podcast Episode: #055 Data Warehouse vs Data Lake |Video|Audio|
-|------------------|----|----|
-|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake? | [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
+| Podcast Episode: #055 Data Warehouse vs Data Lake
+|------------------|
+|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
+| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
 
 
 Hadoop Platforms
@@ -610,9 +613,10 @@ The Hadoop common libraries and functions are working in the background.
 That's why I will not go further into them. They are mainly there to
 support Hadoop's modules.
 
-| Podcast Episode: #060 What Is Hadoop And Is Hadoop Still Relevant In 2019? |Video|Audio|
-|------------------|----|----|
-|An introduction into Hadoop HDFS, YARN and MapReduce. Yes, Hadoop is still relevant in 2019 even if you look into serverless tools. | [Watch on YouTube](https://youtu.be/8AWaht3YQgo) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/060-What-Is-Hadoop-And-Is-Hadoop-Still-Relevant-In-2019-e45ijp)|
+| Podcast Episode: #060 What Is Hadoop And Is Hadoop Still Relevant In 2019?
+|------------------|
+|An introduction into Hadoop HDFS, YARN and MapReduce. Yes, Hadoop is still relevant in 2019 even if you look into serverless tools.
+| [Watch on YouTube](https://youtu.be/8AWaht3YQgo) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/060-What-Is-Hadoop-And-Is-Hadoop-Still-Relevant-In-2019-e45ijp)|
 
 
 ### What makes Hadoop so popular?
@@ -866,18 +870,20 @@ REST APIs
 APIs or Application Programming Interfaces are the cornerstones of any
 great data platform.
 
-| Podcast Episode: #033 How APIs Rule The World |Video|Audio|
-|------------------|----|----|
-|Strong APIs make a good platform. In this episode I talk about why you need APIs and why Twitter is a great example. Especially JSON APIs are my personal favorite. Because JSON is also important in the Big Data world, for instance in log analytics. How? Check out this episode!  | Not Available | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/How-APIs-Rule-The-World--PoDS-033-e24ttq)|
+| Podcast Episode: #033 How APIs Rule The World
+|------------------|
+|Strong APIs make a good platform. In this episode I talk about why you need APIs and why Twitter is a great example. Especially JSON APIs are my personal favorite. Because JSON is also important in the Big Data world, for instance in log analytics. How? Check out this episode!  
+| [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/How-APIs-Rule-The-World--PoDS-033-e24ttq)|
 
 ### API Design
 
 In this podcast episode we look into the Twitter API. It's a great
 example how to build an API
 
-| Podcast Episode: #081 Twitter API Research Data Engineering Course Part 5 |Video|Audio|
-|------------------|----|----|
-|In this episode we look into the Twitter API documentation, which I love by the way. How can we get old tweets for a certain hashtags and how to get current live tweets for these hashtags? | [Watch on YouTube](https://youtu.be/UnAXKxeIlyg) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/081-How-to-get-tweets-from-the-Twitter-API-e45j32)|
+| Podcast Episode: #081 Twitter API Research Data Engineering Course Part 5
+|------------------|
+|In this episode we look into the Twitter API documentation, which I love by the way. How can we get old tweets for a certain hashtags and how to get current live tweets for these hashtags?
+| [Watch on YouTube](https://youtu.be/UnAXKxeIlyg) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/081-How-to-get-tweets-from-the-Twitter-API-e45j32)|
 
 
 ###Payload compression attacks
@@ -942,9 +948,10 @@ PostgreSQL vs MongoDB:
 #### KeyValue Stores (HBase)
 
 
-  | Podcast Episode: #056 NoSQL Key Value Stores Explained with HBase  |Video|Audio|
-  |------------------|----|----|
-  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works. | [Watch on YouTube](https://youtu.be/67hIkbpzFc8) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/056-NoSQL-Key-Value-Stores-Explained-With-HBase-e45ifb)|
+  | Podcast Episode: #056 NoSQL Key Value Stores Explained with HBase
+  |------------------|
+  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works.
+  | [Watch on YouTube](https://youtu.be/67hIkbpzFc8) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/056-NoSQL-Key-Value-Stores-Explained-With-HBase-e45ifb)|
 
 
 #### Document Store HDFS
@@ -1008,9 +1015,10 @@ an example.
 #### Document Store MongoDB
 
 
-  | Podcast Episode: #093 What is MongoDB  |Video|Audio|
-  |------------------|----|----|
-  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works. | [Watch on YouTube](https://youtu.be/U05knQN29FA) | Not Available|
+  | Podcast Episode: #093 What is MongoDB
+  |------------------|
+  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works.
+  | [Watch on YouTube](https://youtu.be/U05knQN29FA)
 
 
 **Links:**
@@ -1056,9 +1064,10 @@ MongoDB vs Cassandra:
 Elasticsearch is not a DB but firstly a search engine that indexes JSON
 documents.
 
-| Podcast Episode: #095 What is Elasticsearch & Why is It So Popular? |Video|Audio|
-|------------------|----|----|
-|Elasticsearch is a super popular tool for indexing and searching data. On this stream we check out how it works, architectures and what to use it for. There must be a reason why it is so popular.  | [Watch on YouTube](https://youtu.be/hNb5zB4OPXM) | Not Available|
+| Podcast Episode: #095 What is Elasticsearch & Why is It So Popular?
+|------------------|
+|Elasticsearch is a super popular tool for indexing and searching data. On this stream we check out how it works, architectures and what to use it for. There must be a reason why it is so popular.  
+| [Watch on YouTube](https://youtu.be/hNb5zB4OPXM)
 
 
 Links:
@@ -1117,9 +1126,10 @@ Google Trends Grafana vs Kibana:\
 
 #### Apache Druid
 
-| Podcast Episode: Druid NoSQL DB and Analytics DB Introduction |Video|Audio|
-|------------------|----|----|
-|In this video I explain what Druid is and how it works. We look into the architecture of a Druid cluster and check out how Clients access the data.](https://youtu.be/EiEIeBXSWjM) | Not Available |
+| Podcast Episode: Druid NoSQL DB and Analytics DB Introduction
+|------------------|
+|In this video I explain what Druid is and how it works. We look into the architecture of a Druid cluster and check out how Clients access the data.
+|[Watch on YouTube](https://youtu.be/EiEIeBXSWjM)
 
 
 #### InfluxDB Time Series Database
@@ -1151,9 +1161,10 @@ Data Processing and Analytics - Frameworks
 
 ### Is ETL still relevant for Analytics?
 
-| Podcast Episode: #039 Is ETL Dead For Data Science & Big Data? |Video|Audio|
-|------------------|----|----|
-|Is ETL dead in Data Science and Big Data? In today’s podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre-processing & cleansing replace it. What would replace ETL in Data Engineering.| [Watch on YouTube](https://youtu.be/leSOWPaNkl4) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/Is-ETL-Dead-For-Data-Science--Big-Data---PoDS-039-e2b604)|
+| Podcast Episode: #039 Is ETL Dead For Data Science & Big Data?
+|------------------|
+|Is ETL dead in Data Science and Big Data? In today’s podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre-processing & cleansing replace it. What would replace ETL in Data Engineering.
+| [Watch on YouTube](https://youtu.be/leSOWPaNkl4) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/Is-ETL-Dead-For-Data-Science--Big-Data---PoDS-039-e2b604)|
 
 ### Stream Processing
 
@@ -1524,9 +1535,10 @@ Java.
 
 #### How Spark works: Driver, Executor, Sparkcontext
 
-| Podcast Episode: #100 Apache Spark Week Day 1 |Video|Audio|
-|------------------|----|----|
-|Is ETL dead in Data Science and Big Data? In today’s podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre-processing & cleansing replace it. What would replace ETL in Data Engineering.| [Watch on YouTube](https://youtu.be/qD6Wi2pfCx0) | Not Available|
+| Podcast Episode: #100 Apache Spark Week Day 1
+|------------------|
+|Is ETL dead in Data Science and Big Data? In today’s podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre-processing & cleansing replace it. What would replace ETL in Data Engineering.
+| [Watch on YouTube](https://youtu.be/qD6Wi2pfCx0)
 
 
 #### Spark batch vs stream processing
@@ -1557,9 +1569,10 @@ familiar coming from MapReduce. Nowadays you use Dataframes or Datasets.
 I still find it valuable to learn how RDDs and therefore Spark works at
 a lower level.
 
-| Podcast Episode: #101 Apache Spark Week Day 2  |Video|Audio|
-|------------------|----|----|
-|On day two of the Apache Spark week we take a look at major Apache Spark concepts: RDDs, transformations and actions, caching and broadcast variables. | [Watch on YouTube](https://youtu.be/9I6mA2W6_HU) | Not Available |
+| Podcast Episode: #101 Apache Spark Week Day 2
+|------------------|
+|On day two of the Apache Spark week we take a look at major Apache Spark concepts: RDDs, transformations and actions, caching and broadcast variables.
+| [Watch on YouTube](https://youtu.be/9I6mA2W6_HU)
 
 
 #### How and why to use SparkSQL?
@@ -1572,9 +1585,10 @@ Especially when you work with notebooks it is very handy to create
 charts from your data. You can learn from mistakes easier than just
 deploying Spark applications.
 
-| Podcast Episode: #102 Apache Spark Week Day 3   |Video|Audio|
-|------------------|----|----|
-|We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and ﬂatmaps, to writing to disk. We also use SparkSQL to visualize the data. | [Watch on YouTube](https://youtu.be/Fk-s8eKD4ZI) | Not Available |
+| Podcast Episode: #102 Apache Spark Week Day 3
+|------------------|
+|We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and ﬂatmaps, to writing to disk. We also use SparkSQL to visualize the data.
+| [Watch on YouTube](https://youtu.be/Fk-s8eKD4ZI)
 
 #### What are DataFrames how to use them
 
@@ -1588,9 +1602,10 @@ I highly recommend to go this route.
 Processing with Dataframes is even faster then with RDDs, because it
 uses optimization alogrithms for the data processing.
 
-| Podcast Episode: #103 Apache Spark Week Day 4 |Video|Audio|
-|------------------|----|----|
-|We look into Dataframes, Dataframes and Dataframes.| [Watch on YouTube](https://youtu.be/9I6mA2W6_HU) | Not Available|
+| Podcast Episode: #103 Apache Spark Week Day 4
+|------------------|
+|We look into Dataframes, Dataframes and Dataframes.
+| [Watch on YouTube](https://youtu.be/9I6mA2W6_HU)
 
 #### Machine Learning on Spark? (Tensor Flow)
 
@@ -1719,9 +1734,10 @@ Start Kafka container:
 Machine Learning
 ----------------
 
-| Podcast Episode: Machine Learning In Production |Video|Audio|
-|------------------|----|----|
-|Doing machine learning in production is very diﬀerent than for proof of concepts or in education. One of the hardest parts is keeping models updated. | Not Available | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/Machine-Learning-In-Production-e11bbk)|
+| Podcast Episode: Machine Learning In Production
+|------------------|
+|Doing machine learning in production is very diﬀerent than for proof of concepts or in education. One of the hardest parts is keeping models updated.  
+| [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/Machine-Learning-In-Production-e11bbk)
 
 ### How to do Machine Learning in production
 

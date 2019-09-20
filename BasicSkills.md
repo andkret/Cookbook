@@ -286,9 +286,10 @@ The software engineering and development culture is super important. How
 does a company handle product development with hundreds of developers.
 Check out this podcast:
 
-| Podcast Episode: #070 Engineering Culture At Spotify |Video|Audio|
-|------------------|----|----|
-|In this podcast we look at the engineering culture at Spotify, my favorite music streaming service. The process behind the development of Spotify is really awesome. | [Watch on YouTube](https://youtu.be/1asVrsUDbp0) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/070-The-Engineering-Culture-At-Spotify-e45ipa)|
+| Podcast Episode: #070 Engineering Culture At Spotify
+|------------------
+|In this podcast we look at the engineering culture at Spotify, my favorite music streaming service. The process behind the development of Spotify is really awesome.
+  |[Watch on YouTube](https://youtu.be/1asVrsUDbp0) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/070-The-Engineering-Culture-At-Spotify-e45ipa)|
 
 
 **Some interesting slides:**
@@ -458,9 +459,10 @@ The Cloud
 Check out this Podcast it will help you understand where's the
 difference and how to decide on what you are going to use.
 
-| Podcast Episode: #082 Reading Tweets With Apache Niﬁ & IaaS vs PaaS vs SaaS |Video|Audio|
-|------------------|----|----|
-|In this episode we are talking about the diﬀerences between infrastructure as a service, platform as a service and application as a service. Then we install the Niﬁ docker container and look into how we can extract the twitter data. | [Watch on YouTube](https://youtu.be/pWuT4UAocUY) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/082-Reading-Tweets-With-Apache-Nifi--IaaS-vs-PaaS-vs-SaaS-e45j50)|
+| Podcast Episode: #082 Reading Tweets With Apache Niﬁ & IaaS vs PaaS vs SaaS
+|------------------|
+|In this episode we are talking about the diﬀerences between infrastructure as a service, platform as a service and application as a service. Then we install the Niﬁ docker container and look into how we can extract the twitter data.
+| [Watch on YouTube](https://youtu.be/pWuT4UAocUY) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/082-Reading-Tweets-With-Apache-Nifi--IaaS-vs-PaaS-vs-SaaS-e45j50)|
 
 
 ### AWS, Azure, IBM, Google
@@ -493,9 +495,10 @@ turn on billing limits and alerts.
 
 ### Cloud vs On-Premises
 
-| Podcast Episode: #076 Cloud vs On-Premise |Video|Audio|
-|------------------|----|----|
-|How do you choose between Cloud vs On-Premises, pros and cons and what you have to think about. Because there are good reasons to not go cloud. Also thoughts on how to choose between the cloud providers by just comparing instance prices. Otherwise the comparison will drive you insane. My suggestion: Basically use them as IaaS and something like Cloudera as PaaS. Then build your solution on top of that.  | [Watch on YouTube](https://youtu.be/BAzj0yGcrnE) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/076-Cloud-vs-On-Premise-How-To-Decide-e45ivk)|
+| Podcast Episode: #076 Cloud vs On-Premise
+|------------------|
+|How do you choose between Cloud vs On-Premises, pros and cons and what you have to think about. Because there are good reasons to not go cloud. Also thoughts on how to choose between the cloud providers by just comparing instance prices. Otherwise the comparison will drive you insane. My suggestion: Basically use them as IaaS and something like Cloudera as PaaS. Then build your solution on top of that.  
+| [Watch on YouTube](https://youtu.be/BAzj0yGcrnE) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/076-Cloud-vs-On-Premise-How-To-Decide-e45ivk)|
 
 
 ### Security

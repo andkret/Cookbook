@@ -19,10 +19,10 @@ Live Streams
 
 First live stream where we started to collect these questions.
 
-  -- -----------------------------------------------------
-
-     [Click here to watch](https://youtu.be/WbqRH2r3N40)
-  -- -----------------------------------------------------
+| Podcast Episode: #096 1001 Data Engineering Interview Questions
+|------------------|
+|First live stream where we collect and try to answer as many interview questions as possible. If this helps people and is fun we do this regularly until we reach 1000 and one.
+| [Watch on YouTube](https://youtu.be/WbqRH2r3N40)
 
 All Interview Questions
 -----------------------

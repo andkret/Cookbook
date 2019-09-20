@@ -32,40 +32,46 @@ Thoughts On Choosing A Development Environment
 For a local environment you need a good PC. I thought a bit about a
 budget build around 1.000 Dollars or Euros.
 
-| Podcast Episode: #068 How to Build a Budget Data Science PC  |Video|Audio|
-|------------------|----|----|
-|In this podcast we look into conﬁguring a sub 1000 dollar PC for data engineering and machine learning. | [Watch on YouTube](https://youtu.be/00NWR-II6ek) | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/068-A-Budget-Data-Science-PC-Build-e45inh)|
+| Podcast Episode: #068 How to Build a Budget Data Science PC
+|------------------|
+|In this podcast we look into conﬁguring a sub 1000 dollar PC for data engineering and machine learning.
+| [Watch on YouTube](https://youtu.be/00NWR-II6ek) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/068-A-Budget-Data-Science-PC-Build-e45inh)|
 
 A Look Into the Twitter API
 ---------------------------
 
-| Podcast Episode: #081 Twitter API Research |Video|Audio|
-|------------------|----|----|
-|In this podcast we were looking into how the Twitter API works and how you get access to it. | [Watch on YouTube](https://youtu.be/UnAXKxeIlyg) |Not Available|
+| Podcast Episode: #081 Twitter API Research
+|------------------|
+|In this podcast we were looking into how the Twitter API works and how you get access to it.
+| [Watch on YouTube](https://youtu.be/UnAXKxeIlyg)
 
 
 Ingesting Tweets with Apache Nifi
 ---------------------------------
 
-| Podcast Episode: #082 Reading Tweets With Apache Niﬁ & IaaS vs PaaS vs SaaS |Video|Audio|
-|------------------|----|----|
-|In this podcast we are trying to read Twitter Data with Niﬁ. | [Watch on YouTube](https://youtu.be/pWuT4UAocUY) | Not Available |
+| Podcast Episode: #082 Reading Tweets With Apache Niﬁ & IaaS vs PaaS vs SaaS
+|------------------|
+|In this podcast we are trying to read Twitter Data with Niﬁ.
+| [Watch on YouTube](https://youtu.be/pWuT4UAocUY)
 
-| Podcast Episode: #085 Trying to read Tweets with Niﬁ Part 2 |Video|Audio|
-|------------------|----|----|
-|We are looking into the Big Data landscape chart and we are trying to read Twitter Data with Niﬁ again. | [Watch on YouTube](https://youtu.be/OLUwXr8-gAk) | Not Avaiable |
+| Podcast Episode: #085 Trying to read Tweets with Niﬁ Part 2
+|------------------|
+|We are looking into the Big Data landscape chart and we are trying to read Twitter Data with Niﬁ again.
+| [Watch on YouTube](https://youtu.be/OLUwXr8-gAk)
 
 
 Writing from Nifi to Apache Kafka
 ---------------------------------
 
-| Podcast Episode: #086 How to Write from Niﬁ to Kafka Part 1 |Video|Audio|
-|------------------|----|----|
-|I’ve been working a lot on the cookbook, because it’s so much fun. I gotta tell you what I added. Then we are trying to write the Tweets from Apache Niﬁ into Kafka. Also talk about Kafka basics. | [Watch on YouTube](https://youtu.be/F7Y-ygnyJMg) | Not Available |
+| Podcast Episode: #086 How to Write from Niﬁ to Kafka Part 1
+|------------------|
+|I’ve been working a lot on the cookbook, because it’s so much fun. I gotta tell you what I added. Then we are trying to write the Tweets from Apache Niﬁ into Kafka. Also talk about Kafka basics.
+| [Watch on YouTube](https://youtu.be/F7Y-ygnyJMg)
 
-| Podcast Episode: #088 How to Write from Niﬁ to Kafka Part 2 |Video|Audio|
-|------------------|----|----|
-|In this podcast we ﬁnally ﬁgure out how to write to Kafka from Niﬁ. The problem was the network conﬁguration of the Docker containers. | [Watch on YouTube](https://youtu.be/pJbRnBQmoCs) | Not Avaiable |
+| Podcast Episode: #088 How to Write from Niﬁ to Kafka Part 2
+|------------------|
+|In this podcast we ﬁnally ﬁgure out how to write to Kafka from Niﬁ. The problem was the network conﬁguration of the Docker containers.
+| [Watch on YouTube](https://youtu.be/pJbRnBQmoCs)
 
 
 Apache Zeppelin
