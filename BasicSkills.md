@@ -122,6 +122,13 @@ Also look into:
 
 -   Forking
 
+GitHub uses markdown to write pages. A super simple language that is actually a lot of fun to wrtie. Here's a markdown cheat cheatsheet:
+<https://www.markdownguide.org/cheat-sheet/>
+
+Pandoc is a great tool to convert any text file from and to markdown:
+<https://pandoc.org>
+
+
 Agile Development
 -----------------
 
