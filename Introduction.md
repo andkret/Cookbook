@@ -121,7 +121,7 @@ Model outputs are very abstract. You also need to post-process the model
 outputs to receive health values from 0 to 100.
 
 ![The Machine Learning
-Pipeline[]{label="fig:Bild1"}](images/Machine-Learning-Pipeline.png){#fig:Bild1
+Pipeline[]{label="fig:Bild1"}](images/Machine-Learning-Pipeline.jpg){#fig:Bild1
 width="90%"}
 
 ### Data Engineer

@@ -289,7 +289,7 @@ The key components were Chuckwa, a scalable data collection system,
 Amazon S3 and Elastic MapReduce.
 
 ![Old Netflix Batch Processing
-Pipeline[]{label="fig:Bild1"}](images/Netflix-Chuckwa-Pipeline.png){#fig:Bild1
+Pipeline[]{label="fig:Bild1"}](images/Netflix-Chuckwa-Pipeline.jpg){#fig:Bild1
 width="90%"}
 
 Chuckwa wrote incoming messages into Hadoop sequence files, stored in
@@ -352,7 +352,7 @@ What is currently being watched is only a part of the data that is used
 to generate "Trending Now".
 
 ![Netflix Trending Now
-Feature[]{label="fig:Bild1"}](images/Netflix-Trending-Now-Screenshot.png){#fig:Bild1
+Feature[]{label="fig:Bild1"}](images/Netflix-Trending-Now-Screenshot.jpg){#fig:Bild1
 width="90%"}
 
 "Trending now" is created based on two types of data sources: Play
@@ -397,7 +397,7 @@ access to Cassandra and is making the data available to the Netflix
 client.
 
 ![Netflix Streaming
-Pipeline[]{label="fig:Bild1"}](images/Netflix-Streaming-Pipeline.png){#fig:Bild1
+Pipeline[]{label="fig:Bild1"}](images/Netflix-Streaming-Pipeline.jpg){#fig:Bild1
 width="90%"}
 
 The algorithms how the analytics system is processing all this data is
@@ -564,7 +564,7 @@ more than a year old.
 | Podcast Episode: #087 Data Engineering At Zalando Case Study Talk
 |------------------|
 |I had a great conversation about data engineering for online retailing with Michal Gancarski and Max Schultze. They showed Zalando’s data platform and how they build data pipelines. Super interesting especially for AWS users.
-| [Watch on YouTube](https://youtu.be/IXOLsNA6Hm0) 
+| [Watch on YouTube](https://youtu.be/IXOLsNA6Hm0)
 
 Do me a favor and give these guys a follow on LinkedIn:
 
