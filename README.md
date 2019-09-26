@@ -158,7 +158,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## 1001 Interview Questions
 
-- [Interview Questions](InterviewQuesitons.md)
+- [Interview Questions](InterviewQuestions.md)
 
 ## How To Contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
