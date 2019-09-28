@@ -207,7 +207,7 @@ data driven decisions.
 The blueprint is focused on the four key areas: Ingest, store, analyse
 and display.
 
-![Data Science Platform Blueprint](images/Data-Science-Platform-Blueprint.jpg)
+![Data Science Platform Blueprint](images/Data-Science-Blueprint-New.jpg)
 
 Having the platform split like this turns it it a modular platform with
 loosely coupled interfaces.
