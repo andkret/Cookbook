@@ -26,7 +26,13 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
   - [Data Scientist](Introduction.md#data-scientist)
   - [Data Engineer](Introduction.md#data-engineer)
-  - [Who Companies Need](Introduction.md#who-companies-need)
+- [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
+  - [Connect](Introduction.md#connect)
+  - [Buffer](Introduction.md#buffer)
+  - [Processing Framework](Introduction.md#processing-framework)
+  - [Store](Introduction.md#store)
+  - [Visualize](Introduction.md#visualize)
+- [Who Companies Need](Introduction.md#who-companies-need)
 
 ## Basic Engineering Skills
 - [Learn To Code](BasicSkills.md#learn-to-code)
@@ -63,7 +69,6 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [What is Big Data](AdvancedSkills.md#what-is-big-data)
   - [The 4 Vs of Big Data](AdvancedSkills.md#the-4-vs-of-big-data)
   - [Why Big Data](AdvancedSkills.md#why-big-data)
-  - [My Big Data Platform Blueprint](AdvancedSkills.md#my-big-data-platform-blueprint)
   - [Lambda Architecture](AdvancedSkills.md#lambda-architecture)
   - [Kappa Architecture](AdvancedSkills.md#kappa-architecture)
   - [Why a Good Data Platform Is Important](AdvancedSkills.md#why-a-good-data-platform-is-important)
