@@ -49,13 +49,15 @@ better.
 If you have some cool links or topics for the cookbook, please become a
 contributor on GitHub: <https://github.com/andkret/Cookbook>. Pull the
 repo, add them and create a pull request. Or join the discussion by
-opening Issues. You can also write me an email any time to
-plumbersofdatascience\@gmail.com. Tell me your thoughts, what you value,
+opening Issues. Tell me your thoughts, what you value,
 what you think should be included, or correct me where I am wrong.
+You can also write me an email any time to
+plumbersofdatascience\@gmail.com anytime.
 
 **This Cookbook is and will always be free!**\
 I don't want to sell you this book, but please support what you like and
-join my Patreon: <https://www.patreon.com/plumbersofds>
+join my Patreon: <https://www.patreon.com/plumbersofds>.
+Or send me a message and support through PayPal: <https://paypal.me/feedthestream>
 
 Check out this podcast episode where I talk in detail why I decided to
 share all this information for free: [\#079 Trying to stay true to
@@ -64,6 +66,7 @@ GitHub](https://youtu.be/k1bS5aSPos8)
 
 Data Engineer vs Data Scientist
 -------------------------------
+
 
 | Podcast Episode: #050 Data Engineer, Scientist or Analyst - Which One Is For You?
 |-----------------------------------------------------------------------------------
@@ -126,7 +129,7 @@ your machine is damaged even if it is not. Or even worse: It would tell
 you the machine is ok even when there is an malfunction.
 
 Model outputs are very abstract. You also need to post-process the model
-outputs to receive health values from 0 to 100.
+outputs to receive the outputs you desire
 
 ![The Machine Learning Pipeline](images/Machine-Learning-Pipeline.jpg)
 
@@ -155,7 +158,7 @@ These platforms are usually used in five different ways:
 -   Automation of the data scientist's machine learning models and
     algorithms for production use
 
--   Data visualisation for employees and customers
+-   Data visualization for employees and customers
 
 -   Most of the time these guys start as traditional solution architects
     for systems that involve SQL databases, web servers, SAP
