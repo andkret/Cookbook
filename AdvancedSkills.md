@@ -5,7 +5,7 @@ Advanced Data Engineering Skills
 ## Contents
 
 - [Big Data](AdvancedSkills.md#big-data)
-  - [What is Big Data](AdvancedSkills.md#what-is-big-data)
+  - [Big Data vs Data Science and Analytics](AdvancedSkills.md#Big-Data-vs-Data-Science-and-Analytics)
   - [The 4 Vs of Big Data](AdvancedSkills.md#the-4-vs-of-big-data)
   - [Why Big Data](AdvancedSkills.md#why-big-data)
     - [Planning is Everything](AdvancedSkills.md#planning-is-everything)
@@ -15,12 +15,10 @@ Advanced Data Engineering Skills
     - [When not to Do Big Data](AdvancedSkills.md#please-dont-go-big-data)
 - [Data Science Platform](AdvancedSkills.md#data-science-platform)
   - [Why a Good Data Platform Is Important](AdvancedSkills.md#why-a-good-data-platform-is-important)
-  - [Lambda Architecture](AdvancedSkills.md#lambda-architecture)
+  - [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
   - [Batch Processing](AdvancedSkills.md#batch-processing)
   - [Stream Processing](AdvancedSkills.md#stream-processing)
   - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
-  - [Kappa Architecture](AdvancedSkills.md#kappa-architecture)
-- [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
 - [Hadoop Platforms](AdvancedSkills.md#hadoop-platforms)
   - [What is Hadoop](AdvancedSkills.md#what-is-hadoop)
   - [What makes Hadoop so popular](AdvancedSkills.md#what-makes-hadoop-so-popular)
@@ -43,6 +41,7 @@ Advanced Data Engineering Skills
   - [API Design](AdvancedSkills.md#api-design)
   - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
   - [Security](AdvancedSkills.md#security)
+- [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
 - [Databases](AdvancedSkills.md#databases)
   - [SQL Databases](AdvancedSkills.md#sql-databases)
     - [PostgreSQL DB](AdvancedSkills.md#postgresql-db)
@@ -134,7 +133,7 @@ Advanced Data Engineering Skills
 
 ## Big Data
 
-### What is big data and where is the difference to data science and data analytics?
+### Big Data vs Data Science and Analytics
 
 I talked about the difference in this podcast:
 <https://anchor.fm/andreaskayy/embed/episodes/BI-vs-Data-Science-vs-Big-Data-e199hq>
@@ -342,7 +341,7 @@ ass :)
 |A simple introduction how to do data science in the context of the internet of things.
 | [Watch on YouTube](https://youtu.be/yp_cc4R0mGQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt)|
 
-### Lambda Architecture
+### Lambda and Kappa Architecture
 
 | Podcast Episode: #077 Lambda Architecture and Kappa Architecture
 |------------------|
@@ -427,17 +426,8 @@ customers.
 When the time comes and you also need to do analytics on the fly, then
 add a streaming pipeline to your batch processing big data platform.
 
-### Kappa Architecture with Kudu
 
 
-
-
-## Data Warehouse vs Data Lake
-
-| Podcast Episode: #055 Data Warehouse vs Data Lake
-|------------------|
-|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
-| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
 
 
 ## Hadoop Platforms
@@ -775,8 +765,14 @@ When to use Spring or Jersey:
 
 ### OAuth security
 
-Databases
----------
+## Data Warehouse vs Data Lake
+
+| Podcast Episode: #055 Data Warehouse vs Data Lake
+|------------------|
+|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
+| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
+
+## Databases
 
 ### SQL Databases
 
