@@ -24,6 +24,17 @@ Basic Data Engineering Skills
   - [Shell scripting](BasicSkills.md#shell-scripting)
   - [Cron Jobs](BasicSkills.md#cron-jobs)
   - [Packet Management](BasicSkills.md#packet-management)
+- [Docker](AdvancedSkills.md#docker)
+  - [What is Docker and How it Works](AdvancedSkills.md#what-is-docker-and-what-do-you-use-it-for)
+    -  [Don't Mess Up Your System](AdvancedSkills.md#dont-mess-up-your-system)
+    - [Preconfigured Images](AdvancedSkills.md#preconfigured-images)
+    - [Take it With You](AdvancedSkills.md#take-it-with-you)
+    - [Kubernetes Container Deployment](AdvancedSkills.md#kubernetes-container-deployment)
+    - [How to Create Start and Stop a Container](AdvancedSkills.md#how-to-create-start-stop-a-container)
+    - [Docker Micro Services](AdvancedSkills.md#docker-micro-services)
+    - [Kubernetes](AdvancedSkills.md#kubernetes)
+    - [Why and How To Do Docker Container Orchestration](AdvancedSkills.md#why-and-how-to-do-docker-container-orchestration)
+    - [Userful Docker Commands](AdvancedSkills.md#useful-docker-commands)
 - [The Cloud](BasicSkills.md#the-cloud)
   - [IaaS vs PaaS vs SaaS](BasicSkills.md#iaas-vs-paas-vs-saas)
   - [AWS Azure IBM Google IBM](BasicSkills.md#aws-azure-ibm-google)
@@ -457,6 +468,143 @@ comment, otherwise it will not work.
 
 Linux Tips are the second part of this podcast:
 <https://anchor.fm/andreaskayy/embed/episodes/IT-Networking-Infrastructure-and-Linux-031-PoDS-e242bh>
+
+
+Docker
+------
+
+### What is docker and what do you use it for
+
+Have you played around with Docker yet? If you're a data science learner
+or a data scientist you need to check it out!
+
+It's awesome because it simplifies the way you can set up development
+environments for data science. If you want to set up a dev environment
+you usually have to install a lot of packages and tools.
+
+#### Don't Mess Up Your System
+
+What this does is you basically mess up your operating system. If you're
+a starter you don't know which packages you need to install. You don't
+know which tools you need to install.
+
+If you want to for instance start with Jupyter notebooks you need to
+install that on your PC somehow. Or you need to start installing tools
+like PyCharm or Anaconda.
+
+All that gets added to your system and so you mess up your system more
+and more and more. What Docker brings you, especially if you're on a Mac
+or a Linux system is simplicity.
+
+#### Preconfigured Images
+
+Because it is so easy to install on those systems. Another cool thing
+about docker images is you can just search them in the Docker store,
+download them and install them on your system.
+
+Running them in a completely pre-configured environment. You don't need
+to think about stuff, you go to the Docker library you search for Deep
+Learning, GPU and Python.
+
+You get a list of images you can download. You download one, start it
+up, you go to the browser hit up the URL and just start coding.
+
+Start doing the work. The only other thing you need to do is bind some
+drives to that instance so you can exchange files. And then that's it!
+
+There is no way that you can crash or mess up your system. It's all
+encapsulated into Docker. Why this works is because Docker has natively
+access to your hardware.
+
+#### Take It With You
+
+It's not a completely virtualized environment like a VirtualBox. An
+image has the upside that you can take it wherever you want. So if
+you're on your PC at home use that there.
+
+Make a quick build, take the image and go somewhere else. Install the
+image which is usually quite fast and just use it like you're at home.
+
+It's that awesome!
+
+### Kubernetes Container Deployment
+
+I am getting into Docker a lot more myself. For a bit different reasons.
+
+What I'm looking for is using Docker with Kubernetes. With Kubernetes
+you can automate the whole container deployment process.
+
+The idea with is that you have a cluster of machines. Lets say you have
+a 10 server cluster and you run Kubernetes on it.
+
+Kubernetes lets you spin up Docker containers on-demand to execute
+tasks. You can set up how much resources like CPU, RAM, Network, Docker
+container can use.
+
+You can basically spin up containers, on the cluster on demand. When
+ever you need to do a analytics task.
+
+Perfect for Data Science.
+
+### How to create, start, stop a Container
+
+### Docker micro services?
+
+### Kubernetes
+
+### Why and how to do Docker container orchestration
+
+Podcast about how data science learners use Docker (for data
+scientists):
+<https://anchor.fm/andreaskayy/embed/episodes/Learn-Data-Science-Go-Docker-e10n7u>
+
+### Useful Docker Commands
+
+Create a container:
+
+    docker run CONTAINER --network NETWORK
+
+Start a stopped container:
+
+    docker start CONTAINER NAME
+
+Stop a running container:
+
+    docker stop
+
+List all running containers
+
+    docker ps
+
+List all containers including stopped ones
+
+    docker ps -a
+
+Inspect the container configuration. For instance network settings and
+so on:
+
+    docker inspect CONTAINER
+
+List all available virtual networks:
+
+    docker network ls
+
+Create a new network:
+
+    docker network create NETWORK --driver bridge
+
+Connect a running container to a network
+
+    docker network connect NETWORK CONTAINER
+
+Disconnect a running container from a network
+
+    docker network disconnect NETWORK CONTAINER
+
+Remove a network
+
+    docker network rm NETWORK
+
 
 The Cloud
 ---------

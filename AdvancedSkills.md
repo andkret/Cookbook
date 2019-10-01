@@ -18,6 +18,11 @@ Advanced Data Engineering Skills
   - [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
   - [Batch Processing](AdvancedSkills.md#batch-processing)
   - [Stream Processing](AdvancedSkills.md#stream-processing)
+    - [Three Methods of Streaming](AdvancedSkills.md#three-methods-of-streaming)
+    - [At Least Once](AdvancedSkills.md#at-least-once)
+    - [At Most Once](AdvancedSkills.md#at-most-once)
+    - [Exactly Once](AdvancedSkills.md#exactly-once)
+    - [Check The Tools](AdvancedSkills.md#check-the-tools)
   - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
 - [Hadoop Platforms](AdvancedSkills.md#hadoop-platforms)
   - [What is Hadoop](AdvancedSkills.md#what-is-hadoop)
@@ -26,48 +31,16 @@ Advanced Data Engineering Skills
   - [Hadoop is Everywhere?](AdvancedSkills.md#hadoop-is-everywhere)
   - [Should You Learn Hadoop?](AdvancedSkills.md#should-you-learn-hadoop)
   - [How to Select Hadoop Cluster Hardware](AdvancedSkills.md#how-to-select-hadoop-cluster-hardware)
-- [Docker](AdvancedSkills.md#docker)
-  - [What is Docker and How it Works](AdvancedSkills.md#what-is-docker-and-what-do-you-use-it-for)
-    -  [Don't Mess Up Your System](AdvancedSkills.md#dont-mess-up-your-system)
-    - [Preconfigured Images](AdvancedSkills.md#preconfigured-images)
-    - [Take it With You](AdvancedSkills.md#take-it-with-you)
-    - [Kubernetes Container Deployment](AdvancedSkills.md#kubernetes-container-deployment)
-    - [How to Create Start and Stop a Container](AdvancedSkills.md#how-to-create-start-stop-a-container)
-    - [Docker Micro Services](AdvancedSkills.md#docker-micro-services)
-    - [Kubernetes](AdvancedSkills.md#kubernetes)
-    - [Why and How To Do Docker Container Orchestration](AdvancedSkills.md#why-and-how-to-do-docker-container-orchestration)
-    - [Userful Docker Commands](AdvancedSkills.md#useful-docker-commands)
-- [REST APIs](AdvancedSkills.md#rest-apis)
-  - [API Design](AdvancedSkills.md#api-design)
-  - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
-  - [Security](AdvancedSkills.md#security)
-- [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
-- [Databases](AdvancedSkills.md#databases)
-  - [SQL Databases](AdvancedSkills.md#sql-databases)
-    - [PostgreSQL DB](AdvancedSkills.md#postgresql-db)
-    - [Database Design](AdvancedSkills.md#database-design)
-    - [SQL Queries](AdvancedSkills.md#sql-queries)
-    - [Stored Procedures](AdvancedSkills.md#stored-procedures)
-    - [ODBC/JDBC Server Connections](AdvancedSkills.md#odbc-jdbc-server-connections)
-  - [NoSQL Stores](AdvancedSkills.md#nosql-stores)
-    - [HBase KeyValue Store](AdvancedSkills.md#keyvalue-stores-hbase)
-    - [HDFS Document Store](AdvancedSkills.md#document-stores-hdfs)
-    - [MongoDB Document Store](AdvancedSkills.md#document-stores-mongodb)
-    - [Elasticsearch Document Store](AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
-    - [Hive Warehouse](AdvancedSkills.md#hive-warehouse)
-    - [Impala](AdvancedSkills.md#impala)
-    - [Kudu](AdvancedSkills.md#kudu)
-    - [Apache Druid](AdvancedSkills.md#apache-druid)
-    - [InfluxDB Time Series Database](AdvancedSkills.md#influxdb-time-series-database)
-    - [Greenplum MPP Database](AdvancedSkills.md#mpp-databases-greenplum)
-- [Data Processing and Analytics](AdvancedSkills.md#data-processing-and-analytics)
+- [Connect](AdvancedSkills.md#connect)
+  - [REST APIs](AdvancedSkills.md#rest-apis)
+    - [API Design](AdvancedSkills.md#api-design)
+    - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
+    - [Security](AdvancedSkills.md#security)
+- [Buffer](AdvancedSkills.md#buffer)
+- [Processing Frameworks](AdvancedSkills.md#processing-frameworks)
   - [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
   - [Stream Procesing](AdvancedSkills.md#stream-processing)
-    - [Three Methods of Streaming](AdvancedSkills.md#three-methods-of-streaming)
-    - [At Least Once](AdvancedSkills.md#at-least-once)
-    - [At Most Once](AdvancedSkills.md#at-most-once)
-    - [Exactly Once](AdvancedSkills.md#exactly-once)
-    - [Check The Tools](AdvancedSkills.md#check-the-tools)
+
   - [MapReduce](AdvancedSkills.md#mapreduce)
     - [How Does MapReduce Work](AdvancedSkills.md#How-does-mapreduce-work)
     - [MapReduce](AdvancedSkills.md#mapreduce)
@@ -93,6 +66,26 @@ Advanced Data Engineering Skills
     - [Spark Resource Management](AdvancedSkills.md#spark-resource-management)
   - [Apache Nifi](AdvancedSkills.md#apache-nifi)
   - [StreamSets](AdvancedSkills.md#streamsets)
+- [Store](AdvancedSkills.md#store)
+  - [SQL Databases](AdvancedSkills.md#sql-databases)
+    - [PostgreSQL DB](AdvancedSkills.md#postgresql-db)
+    - [Database Design](AdvancedSkills.md#database-design)
+    - [SQL Queries](AdvancedSkills.md#sql-queries)
+    - [Stored Procedures](AdvancedSkills.md#stored-procedures)
+    - [ODBC/JDBC Server Connections](AdvancedSkills.md#odbc-jdbc-server-connections)
+  - [NoSQL Stores](AdvancedSkills.md#nosql-stores)
+    - [HBase KeyValue Store](AdvancedSkills.md#keyvalue-stores-hbase)
+    - [HDFS Document Store](AdvancedSkills.md#document-stores-hdfs)
+    - [MongoDB Document Store](AdvancedSkills.md#document-stores-mongodb)
+    - [Elasticsearch Document Store](AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
+    - [Hive Warehouse](AdvancedSkills.md#hive-warehouse)
+    - [Impala](AdvancedSkills.md#impala)
+    - [Kudu](AdvancedSkills.md#kudu)
+    - [Apache Druid](AdvancedSkills.md#apache-druid)
+    - [InfluxDB Time Series Database](AdvancedSkills.md#influxdb-time-series-database)
+    - [Greenplum MPP Database](AdvancedSkills.md#mpp-databases-greenplum)
+- [Visualize](AdvancedSkills.md#visualize)
+- [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
   - [Apache Kafka](AdvancedSkills.md#apache-kafka)
     - [Why a Message Queue Tool?](AdvancedSkills.md#why-a-message-queue-tool)
     - [Kafka Architecture](AdvancedSkills.md#kafka-architecture)
@@ -411,6 +404,86 @@ into Chuckwa V2.0 and the new Keystone pipeline.
 One example of advanced services through stream processing is the
 Netflix "Trending Now" feature. Check out the Netflix case study.
 
+#### Three methods of streaming
+
+In stream processing sometimes it is ok to drop messages, other times it
+is not. Sometimes it is fine to process a message multiple times, other
+times that needs to be avoided like hell.
+
+Today's topic are the different methods of streaming: At most once, at
+least once and exactly once.
+
+What this means and why it is so important to keep them in mind when
+creating a solution. That is what you will find out in this article.
+
+#### At Least Once
+
+At least once, means a message gets processed in the system once or
+multiple times. So with at least once it's not possible that a message
+gets into the system and is not getting processed.
+
+It's not getting dropped or lost somewhere in the system.
+
+One example where at least once processing can be used is when you think
+about a fleet management of cars. You get GPS data from cars and that
+data is transmitted with a timestamp and the GPS coordinates.
+
+It's important that you get the GPS data at least once, so you know
+where the car is. If you're processing this data multiple times, it
+always has the the timestamp with it.
+
+Because of that it does not matter that it gets processed multiple
+times, because of the timestamp. Or that it would be stored multiple
+times, because it would just override the existing one.
+
+#### At Most Once
+
+The second streaming method is at most once. At most once means that
+it's okay to drop some information, to drop some messages.
+
+But it's important that a message is only only processed once as a
+maximum.
+
+A example for this is event processing. Some event is happening and that
+event is not important enough, so it can be dropped. It doesn't have any
+consequences when it gets dropped.
+
+But when that event happens it's important that it does not get
+processed multiple times. Then it would look as if the event happened
+five or six times instead of only one.
+
+Think about engine misfires. If it happens once, no big deal. But if the
+system tells you it happens a lot you will think you have a problem with
+your engine.
+
+#### Exactly Once
+
+Another thing is exactly once, this means it's not okay to drop data,
+it's not okay to lose data and it's also not okay to process data
+multiple times.
+
+An example for this is banking. When you think about credit card
+transactions it's not okay to drop a transaction.
+
+When dropped your payment is not going through. It's also not okay to
+have a transaction processed multiple times, because then you are paying
+multiple times.
+
+#### Check The Tools!
+
+All of this sounds very simple and logical. What kind of processing is
+done has to be a requirement for your use case.
+
+It needs to be thought about in the design process, because not every
+tool is supporting all three methods. Very often you need to code your
+application very differently based on the streaming method.
+
+Especially exactly once is very hard to do.
+
+So, the tool of data processing needs to be chosen based on if you need
+exactly once, at least once or if you need at most once.
+
+
 ### Should you do stream or batch processing?
 
 It is a good idea to start with batch processing. Batch processing is
@@ -425,9 +498,6 @@ customers.
 
 When the time comes and you also need to do analytics on the fly, then
 add a streaming pipeline to your batch processing big data platform.
-
-
-
 
 
 ## Hadoop Platforms
@@ -574,143 +644,10 @@ Yarn Zookeeper HDFS Oozie Flume Hive
 
 ### How to select Hadoop Cluster Hardware
 
-Docker
-------
 
-### What is docker and what do you use it for
+## Connect
 
-Have you played around with Docker yet? If you're a data science learner
-or a data scientist you need to check it out!
-
-It's awesome because it simplifies the way you can set up development
-environments for data science. If you want to set up a dev environment
-you usually have to install a lot of packages and tools.
-
-#### Don't Mess Up Your System
-
-What this does is you basically mess up your operating system. If you're
-a starter you don't know which packages you need to install. You don't
-know which tools you need to install.
-
-If you want to for instance start with Jupyter notebooks you need to
-install that on your PC somehow. Or you need to start installing tools
-like PyCharm or Anaconda.
-
-All that gets added to your system and so you mess up your system more
-and more and more. What Docker brings you, especially if you're on a Mac
-or a Linux system is simplicity.
-
-#### Preconfigured Images
-
-Because it is so easy to install on those systems. Another cool thing
-about docker images is you can just search them in the Docker store,
-download them and install them on your system.
-
-Running them in a completely pre-configured environment. You don't need
-to think about stuff, you go to the Docker library you search for Deep
-Learning, GPU and Python.
-
-You get a list of images you can download. You download one, start it
-up, you go to the browser hit up the URL and just start coding.
-
-Start doing the work. The only other thing you need to do is bind some
-drives to that instance so you can exchange files. And then that's it!
-
-There is no way that you can crash or mess up your system. It's all
-encapsulated into Docker. Why this works is because Docker has natively
-access to your hardware.
-
-#### Take It With You
-
-It's not a completely virtualized environment like a VirtualBox. An
-image has the upside that you can take it wherever you want. So if
-you're on your PC at home use that there.
-
-Make a quick build, take the image and go somewhere else. Install the
-image which is usually quite fast and just use it like you're at home.
-
-It's that awesome!
-
-### Kubernetes Container Deployment
-
-I am getting into Docker a lot more myself. For a bit different reasons.
-
-What I'm looking for is using Docker with Kubernetes. With Kubernetes
-you can automate the whole container deployment process.
-
-The idea with is that you have a cluster of machines. Lets say you have
-a 10 server cluster and you run Kubernetes on it.
-
-Kubernetes lets you spin up Docker containers on-demand to execute
-tasks. You can set up how much resources like CPU, RAM, Network, Docker
-container can use.
-
-You can basically spin up containers, on the cluster on demand. When
-ever you need to do a analytics task.
-
-Perfect for Data Science.
-
-### How to create, start, stop a Container
-
-### Docker micro services?
-
-### Kubernetes
-
-### Why and how to do Docker container orchestration
-
-Podcast about how data science learners use Docker (for data
-scientists):
-<https://anchor.fm/andreaskayy/embed/episodes/Learn-Data-Science-Go-Docker-e10n7u>
-
-### Useful Docker Commands
-
-Create a container:
-
-    docker run CONTAINER --network NETWORK
-
-Start a stopped container:
-
-    docker start CONTAINER NAME
-
-Stop a running container:
-
-    docker stop
-
-List all running containers
-
-    docker ps
-
-List all containers including stopped ones
-
-    docker ps -a
-
-Inspect the container configuration. For instance network settings and
-so on:
-
-    docker inspect CONTAINER
-
-List all available virtual networks:
-
-    docker network ls
-
-Create a new network:
-
-    docker network create NETWORK --driver bridge
-
-Connect a running container to a network
-
-    docker network connect NETWORK CONTAINER
-
-Disconnect a running container from a network
-
-    docker network disconnect NETWORK CONTAINER
-
-Remove a network
-
-    docker network rm NETWORK
-
-REST APIs
----------
+### REST APIs
 
 APIs or Application Programming Interfaces are the cornerstones of any
 great data platform.
@@ -720,7 +657,7 @@ great data platform.
 |Strong APIs make a good platform. In this episode I talk about why you need APIs and why Twitter is a great example. Especially JSON APIs are my personal favorite. Because JSON is also important in the Big Data world, for instance in log analytics. How? Check out this episode!  
 | [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/How-APIs-Rule-The-World--PoDS-033-e24ttq)|
 
-### API Design
+#### API Design
 
 In this podcast episode we look into the Twitter API. It's a great
 example how to build an API
@@ -731,14 +668,14 @@ example how to build an API
 | [Watch on YouTube](https://youtu.be/UnAXKxeIlyg) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/081-How-to-get-tweets-from-the-Twitter-API-e45j32)|
 
 
-###Payload compression attacks
+#### Payload compression attacks
 Zip Bombs
 https://bomb.codes/
 
 How to defend your Server with zip Bombs
 https://www.sitepoint.com/how-to-defend-your-website-with-zip-bombs/
 
-### Implementation Frameworks
+#### Implementation Frameworks
 
 Jersey:
 
@@ -763,252 +700,12 @@ When to use Spring or Jersey:
 
 <https://stackoverflow.com/questions/26824423/what-is-the-difference-among-spring-rest-service-and-jersey-rest-service-and-spr>
 
-### OAuth security
+#### OAuth security
 
-## Data Warehouse vs Data Lake
 
-| Podcast Episode: #055 Data Warehouse vs Data Lake
-|------------------|
-|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
-| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
+## Buffer
 
-## Databases
-
-### SQL Databases
-
-#### PostgreSQL DB
-
-Homepage:
-
-<https://www.postgresql.org/>
-
-PostgreSQL vs MongoDB:
-
-<https://blog.panoply.io/postgresql-vs-mongodb>
-
-#### Database Design
-
-#### SQL Queries
-
-#### Stored Procedures
-
-#### ODBC/JDBC Server Connections
-
-### NoSQL Stores
-
-#### KeyValue Stores (HBase)
-
-
-  | Podcast Episode: #056 NoSQL Key Value Stores Explained with HBase
-  |------------------|
-  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works.
-  | [Watch on YouTube](https://youtu.be/67hIkbpzFc8) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/056-NoSQL-Key-Value-Stores-Explained-With-HBase-e45ifb)|
-
-
-#### Document Store HDFS
-
-The Hadoop distributed file system, or HDFS, allows you to store files
-in Hadoop. The difference between HDFS and other file systems like NTFS
-or EXT is that it is a distributed one.
-
-What does that mean exactly?
-
-A typical file system stores your data on the actual hard drive. It is
-hardware dependent.
-
-If you have two disks then you need to format every disk with its own
-file system. They are completely separate.
-
-You then decide on which disk you physically store your data.
-
-HDFS works different to a typical file system. HDFS is hardware
-independent.
-
-Not only does it span over many disks in a server. It also spans over
-many servers.
-
-HDFS will automatically place your files somewhere in the Hadoop server
-collective.
-
-It will not only store your file, Hadoop will also replicate it two or
-three times (you can define that). Replication means replicas of the
-file will be distributed to different servers.
-
-![HDFS Master and Data Nodes](images/HDFS-Master-DataNodes.jpg)
-
-This gives you superior fault tolerance. If one server goes down, then
-your data stays available on a different server.
-
-Another great thing about HDFS is, that there is no limit how big the
-files can be. You can have server log files that are terabytes big.
-
-How can files get so big? HDFS allows you to append data to files.
-Therefore, you can continuously dump data into a single file without
-worries.
-
-HDFS physically stores files different then a normal file system. It
-splits the file into blocks.
-
-These blocks are then distributed and replicated on the Hadoop cluster.
-The splitting happens automatically.
-
-![Distribution of Blocks for a 512MB File](images/HDFS-Distributed-FileSystem.jpg)
-
-In the configuration you can define how big the blocks should be. 128
-megabyte or 1 gigabyte?
-
-No problem at all.
-
-This mechanic of splitting a large file in blocks and distributing them
-over the servers is great for processing. See the MapReduce section for
-an example.
-
-#### Document Store MongoDB
-
-
-  | Podcast Episode: #093 What is MongoDB
-  |------------------|
-  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works.
-  | [Watch on YouTube](https://youtu.be/U05knQN29FA)
-
-
-**Links:**
-
-What is MongoDB:
-
-<https://www.guru99.com/what-is-mongodb.html#4>
-
-Or directly from MongoDB.com:
-
-<https://www.mongodb.com/what-is-mongodb>
-
-Storage in BSON files:
-
-<https://en.wikipedia.org/wiki/BSON>
-
-Hello World in MongoDB:
-
-<https://www.mkyong.com/mongodb/mongodb-hello-world-example>
-
-Real-Time Analytics on MongoDB Data in Power BI:
-
-<https://dzone.com/articles/real-time-analytics-on-mongodb-data-in-power-bi>
-
-Spark and MongoDB:
-
-<https://www.mongodb.com/scale/when-to-use-apache-spark-with-mongodb>
-
-MongoDB vs Time Series Database:
-
-<https://blog.timescale.com/how-to-store-time-series-data-mongodb-vs-timescaledb-postgresql-a73939734016/>
-
-Fun article titled why you should never use mongodb:
-
-<http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/>
-
-MongoDB vs Cassandra:
-
-<https://blog.panoply.io/cassandra-vs-mongodb>
-
-#### Elasticsearch Search Engine and Document Store
-
-Elasticsearch is not a DB but firstly a search engine that indexes JSON
-documents.
-
-| Podcast Episode: #095 What is Elasticsearch & Why is It So Popular?
-|------------------|
-|Elasticsearch is a super popular tool for indexing and searching data. On this stream we check out how it works, architectures and what to use it for. There must be a reason why it is so popular.  
-| [Watch on YouTube](https://youtu.be/hNb5zB4OPXM)
-
-
-Links:
-
-Great example for architecture with Elasticsearch, Logstash and Kibana:\
-<https://www.elastic.co/pdf/architecture-best-practices.pdf>
-
-Introduction to Elasticsearch in the documentation:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html>
-
-Working with JSON documents:\
-<https://www.slideshare.net/openthinklabs/03-elasticsearch-data-in-data-out>
-
-JSONs need to be flattened heres how to work with nested objects in the
-JSON:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/nested.html>
-
-Indexing basics:\
-<https://www.slideshare.net/knoldus/deep-dive-into-elasticsearch>
-
-How to query data with DSL language:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-common-terms-query.html>
-
-How to do searches with search API:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/search.html>
-
-General recommendations when working with Elasticsearch:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/general-recommendations.html>
-
-JSON document example and intro to Kibana:\
-<https://www.slideshare.net/objectrocket/an-intro-to-elasticsearch-and-kibana>
-
-How to connect Tableau to Elasticsearch:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/sql-client-apps-tableau.html>
-
-Benchmarks how fast Elasticsearch is:\
-<https://medium.appbase.io/benchmarking-elasticsearch-1-million-writes-per-sec-bf37e7ca8a4c>
-
-Elasticsearch vs MongoDB quick overview:\
-<https://db-engines.com/en/system/Elasticsearch%3BMongoDB>
-
-Logstash overview (preprocesses data before insert into Elasticsearch)
-<https://www.elastic.co/products/logstash>
-
-X-Pack Security for Elasticsearch:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html>
-
-Google Trends Grafana vs Kibana:\
-<https://trends.google.com/trends/explore?geo=US&q=%2Fg%2F11fy132gmf,%2Fg%2F11cknd0blr>
-
-#### Hive Warehouse
-
-#### Impala
-
-#### Kudu
-
-#### Apache Druid
-
-| Podcast Episode: Druid NoSQL DB and Analytics DB Introduction
-|------------------|
-|In this video I explain what Druid is and how it works. We look into the architecture of a Druid cluster and check out how Clients access the data.
-|[Watch on YouTube](https://youtu.be/EiEIeBXSWjM)
-
-
-#### InfluxDB Time Series Database
-
-Key concepts:
-
-<https://docs.influxdata.com/influxdb/v1.7/concepts/key_concepts/>
-
-InfluxDB and Spark Streaming
-
-<https://towardsdatascience.com/processing-time-series-data-in-real-time-with-influxdb-and-structured-streaming-d1864154cf8b>
-
-Building a Sreaming application with spark, grafana, chronogram and
-influx:
-
-<https://medium.com/@xaviergeerinck/building-a-real-time-streaming-dashboard-with-spark-grafana-chronograf-and-influxdb-e262b68087de>
-
-Performance Dashboard Spark and InfluxDB:
-
-<https://db-blog.web.cern.ch/blog/luca-canali/2019-02-performance-dashboard-apache-spark>
-
-Other alternatives for time series databases are: DalmatinerDB,
-InfluxDB, Prometheus, Riak TS, OpenTSDB, KairosDB
-
-#### MPP Databases (Greenplum)
-
-Data Processing and Analytics - Frameworks
-------------------------------------------
+## Processing Frameworks
 
 ### Is ETL still relevant for Analytics?
 
@@ -1016,87 +713,6 @@ Data Processing and Analytics - Frameworks
 |------------------|
 |Is ETL dead in Data Science and Big Data? In today’s podcast I share with you my views on your questions regarding ETL (extract, transform, load). Is ETL still practiced or did pre-processing & cleansing replace it. What would replace ETL in Data Engineering.
 | [Watch on YouTube](https://youtu.be/leSOWPaNkl4) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/Is-ETL-Dead-For-Data-Science--Big-Data---PoDS-039-e2b604)|
-
-### Stream Processing
-
-#### Three methods of streaming
-
-In stream processing sometimes it is ok to drop messages, other times it
-is not. Sometimes it is fine to process a message multiple times, other
-times that needs to be avoided like hell.
-
-Today's topic are the different methods of streaming: At most once, at
-least once and exactly once.
-
-What this means and why it is so important to keep them in mind when
-creating a solution. That is what you will find out in this article.
-
-#### At Least Once
-
-At least once, means a message gets processed in the system once or
-multiple times. So with at least once it's not possible that a message
-gets into the system and is not getting processed.
-
-It's not getting dropped or lost somewhere in the system.
-
-One example where at least once processing can be used is when you think
-about a fleet management of cars. You get GPS data from cars and that
-data is transmitted with a timestamp and the GPS coordinates.
-
-It's important that you get the GPS data at least once, so you know
-where the car is. If you're processing this data multiple times, it
-always has the the timestamp with it.
-
-Because of that it does not matter that it gets processed multiple
-times, because of the timestamp. Or that it would be stored multiple
-times, because it would just override the existing one.
-
-#### At Most Once
-
-The second streaming method is at most once. At most once means that
-it's okay to drop some information, to drop some messages.
-
-But it's important that a message is only only processed once as a
-maximum.
-
-A example for this is event processing. Some event is happening and that
-event is not important enough, so it can be dropped. It doesn't have any
-consequences when it gets dropped.
-
-But when that event happens it's important that it does not get
-processed multiple times. Then it would look as if the event happened
-five or six times instead of only one.
-
-Think about engine misfires. If it happens once, no big deal. But if the
-system tells you it happens a lot you will think you have a problem with
-your engine.
-
-#### Exactly Once
-
-Another thing is exactly once, this means it's not okay to drop data,
-it's not okay to lose data and it's also not okay to process data
-multiple times.
-
-An example for this is banking. When you think about credit card
-transactions it's not okay to drop a transaction.
-
-When dropped your payment is not going through. It's also not okay to
-have a transaction processed multiple times, because then you are paying
-multiple times.
-
-#### Check The Tools!
-
-All of this sounds very simple and logical. What kind of processing is
-done has to be a requirement for your use case.
-
-It needs to be thought about in the design process, because not every
-tool is supporting all three methods. Very often you need to code your
-application very differently based on the streaming method.
-
-Especially exactly once is very hard to do.
-
-So, the tool of data processing needs to be chosen based on if you need
-exactly once, at least once or if you need at most once.
 
 ### MapReduce
 
@@ -1547,6 +1163,291 @@ Here's a great blog about Nifi:
 
 <https://streamsets.com/blog/streaming-data-twitter-analysis-spark/>
 
+## Store
+
+### SQL Databases
+
+#### PostgreSQL DB
+
+Homepage:
+
+<https://www.postgresql.org/>
+
+PostgreSQL vs MongoDB:
+
+<https://blog.panoply.io/postgresql-vs-mongodb>
+
+#### Database Design
+
+#### SQL Queries
+
+#### Stored Procedures
+
+#### ODBC/JDBC Server Connections
+
+### NoSQL Stores
+
+#### KeyValue Stores (HBase)
+
+
+  | Podcast Episode: #056 NoSQL Key Value Stores Explained with HBase
+  |------------------|
+  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works.
+  | [Watch on YouTube](https://youtu.be/67hIkbpzFc8) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/056-NoSQL-Key-Value-Stores-Explained-With-HBase-e45ifb)|
+
+
+#### Document Store HDFS
+
+The Hadoop distributed file system, or HDFS, allows you to store files
+in Hadoop. The difference between HDFS and other file systems like NTFS
+or EXT is that it is a distributed one.
+
+What does that mean exactly?
+
+A typical file system stores your data on the actual hard drive. It is
+hardware dependent.
+
+If you have two disks then you need to format every disk with its own
+file system. They are completely separate.
+
+You then decide on which disk you physically store your data.
+
+HDFS works different to a typical file system. HDFS is hardware
+independent.
+
+Not only does it span over many disks in a server. It also spans over
+many servers.
+
+HDFS will automatically place your files somewhere in the Hadoop server
+collective.
+
+It will not only store your file, Hadoop will also replicate it two or
+three times (you can define that). Replication means replicas of the
+file will be distributed to different servers.
+
+![HDFS Master and Data Nodes](images/HDFS-Master-DataNodes.jpg)
+
+This gives you superior fault tolerance. If one server goes down, then
+your data stays available on a different server.
+
+Another great thing about HDFS is, that there is no limit how big the
+files can be. You can have server log files that are terabytes big.
+
+How can files get so big? HDFS allows you to append data to files.
+Therefore, you can continuously dump data into a single file without
+worries.
+
+HDFS physically stores files different then a normal file system. It
+splits the file into blocks.
+
+These blocks are then distributed and replicated on the Hadoop cluster.
+The splitting happens automatically.
+
+![Distribution of Blocks for a 512MB File](images/HDFS-Distributed-FileSystem.jpg)
+
+In the configuration you can define how big the blocks should be. 128
+megabyte or 1 gigabyte?
+
+No problem at all.
+
+This mechanic of splitting a large file in blocks and distributing them
+over the servers is great for processing. See the MapReduce section for
+an example.
+
+#### Document Store MongoDB
+
+
+  | Podcast Episode: #093 What is MongoDB
+  |------------------|
+  |What is the diﬀerence between SQL and NoSQL? In this episode I show you on the example of HBase how a key/value store works.
+  | [Watch on YouTube](https://youtu.be/U05knQN29FA)
+
+
+**Links:**
+
+What is MongoDB:
+
+<https://www.guru99.com/what-is-mongodb.html#4>
+
+Or directly from MongoDB.com:
+
+<https://www.mongodb.com/what-is-mongodb>
+
+Storage in BSON files:
+
+<https://en.wikipedia.org/wiki/BSON>
+
+Hello World in MongoDB:
+
+<https://www.mkyong.com/mongodb/mongodb-hello-world-example>
+
+Real-Time Analytics on MongoDB Data in Power BI:
+
+<https://dzone.com/articles/real-time-analytics-on-mongodb-data-in-power-bi>
+
+Spark and MongoDB:
+
+<https://www.mongodb.com/scale/when-to-use-apache-spark-with-mongodb>
+
+MongoDB vs Time Series Database:
+
+<https://blog.timescale.com/how-to-store-time-series-data-mongodb-vs-timescaledb-postgresql-a73939734016/>
+
+Fun article titled why you should never use mongodb:
+
+<http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/>
+
+MongoDB vs Cassandra:
+
+<https://blog.panoply.io/cassandra-vs-mongodb>
+
+#### Elasticsearch Search Engine and Document Store
+
+Elasticsearch is not a DB but firstly a search engine that indexes JSON
+documents.
+
+| Podcast Episode: #095 What is Elasticsearch & Why is It So Popular?
+|------------------|
+|Elasticsearch is a super popular tool for indexing and searching data. On this stream we check out how it works, architectures and what to use it for. There must be a reason why it is so popular.  
+| [Watch on YouTube](https://youtu.be/hNb5zB4OPXM)
+
+
+Links:
+
+Great example for architecture with Elasticsearch, Logstash and Kibana:\
+<https://www.elastic.co/pdf/architecture-best-practices.pdf>
+
+Introduction to Elasticsearch in the documentation:\
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html>
+
+Working with JSON documents:\
+<https://www.slideshare.net/openthinklabs/03-elasticsearch-data-in-data-out>
+
+JSONs need to be flattened heres how to work with nested objects in the
+JSON:\
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/nested.html>
+
+Indexing basics:\
+<https://www.slideshare.net/knoldus/deep-dive-into-elasticsearch>
+
+How to query data with DSL language:\
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-common-terms-query.html>
+
+How to do searches with search API:\
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/search.html>
+
+General recommendations when working with Elasticsearch:\
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/general-recommendations.html>
+
+JSON document example and intro to Kibana:\
+<https://www.slideshare.net/objectrocket/an-intro-to-elasticsearch-and-kibana>
+
+How to connect Tableau to Elasticsearch:\
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/sql-client-apps-tableau.html>
+
+Benchmarks how fast Elasticsearch is:\
+<https://medium.appbase.io/benchmarking-elasticsearch-1-million-writes-per-sec-bf37e7ca8a4c>
+
+Elasticsearch vs MongoDB quick overview:\
+<https://db-engines.com/en/system/Elasticsearch%3BMongoDB>
+
+Logstash overview (preprocesses data before insert into Elasticsearch)
+<https://www.elastic.co/products/logstash>
+
+X-Pack Security for Elasticsearch:\
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html>
+
+Google Trends Grafana vs Kibana:\
+<https://trends.google.com/trends/explore?geo=US&q=%2Fg%2F11fy132gmf,%2Fg%2F11cknd0blr>
+
+#### Hive Warehouse
+
+#### Impala
+
+#### Kudu
+
+#### Apache Druid
+
+| Podcast Episode: Druid NoSQL DB and Analytics DB Introduction
+|------------------|
+|In this video I explain what Druid is and how it works. We look into the architecture of a Druid cluster and check out how Clients access the data.
+|[Watch on YouTube](https://youtu.be/EiEIeBXSWjM)
+
+
+#### InfluxDB Time Series Database
+
+Key concepts:
+
+<https://docs.influxdata.com/influxdb/v1.7/concepts/key_concepts/>
+
+InfluxDB and Spark Streaming
+
+<https://towardsdatascience.com/processing-time-series-data-in-real-time-with-influxdb-and-structured-streaming-d1864154cf8b>
+
+Building a Sreaming application with spark, grafana, chronogram and
+influx:
+
+<https://medium.com/@xaviergeerinck/building-a-real-time-streaming-dashboard-with-spark-grafana-chronograf-and-influxdb-e262b68087de>
+
+Performance Dashboard Spark and InfluxDB:
+
+<https://db-blog.web.cern.ch/blog/luca-canali/2019-02-performance-dashboard-apache-spark>
+
+Other alternatives for time series databases are: DalmatinerDB,
+InfluxDB, Prometheus, Riak TS, OpenTSDB, KairosDB
+
+#### MPP Databases (Greenplum)
+
+## Visualize
+
+### Android & IOS
+
+### How to design APIs for mobile apps
+
+### How to use Webservers to display content
+
+This section does not contain any text that's why the page is messed up
+
+#### Tomcat
+
+#### Jetty
+
+#### NodeRED
+
+#### React
+
+### Business Intelligence Tools
+
+#### Tableau
+
+#### PowerBI
+
+#### Quliksense
+
+### Identity & Device Management
+
+#### What is a digital twin?
+
+#### Active Directory
+
+
+
+## Data Warehouse vs Data Lake
+
+| Podcast Episode: #055 Data Warehouse vs Data Lake
+|------------------|
+|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
+| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
+
+## Databases
+
+
+
+Data Processing and Analytics - Frameworks
+------------------------------------------
+
+
+
 Apache Kafka
 ------------
 
@@ -1772,33 +1673,3 @@ Link to the OLX Slideshare with pros, cons and how to use Sagemaker:
 
 Data Visualization
 ------------------
-
-### Android & IOS
-
-### How to design APIs for mobile apps
-
-### How to use Webservers to display content
-
-This section does not contain any text that's why the page is messed up
-
-#### Tomcat
-
-#### Jetty
-
-#### NodeRED
-
-#### React
-
-### Business Intelligence Tools
-
-#### Tableau
-
-#### PowerBI
-
-#### Quliksense
-
-### Identity & Device Management
-
-#### What is a digital twin?
-
-#### Active Directory
