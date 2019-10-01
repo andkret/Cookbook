@@ -4,7 +4,8 @@ Advanced Data Engineering Skills
 
 ## Contents
 
-- [Big Data](AdvancedSkills.md#big-data)
+- [Data Science Platform](AdvancedSkills.md#data-science-platform)
+  - [Why a Good Data Platform Is Important](AdvancedSkills.md#why-a-good-data-platform-is-important)
   - [Big Data vs Data Science and Analytics](AdvancedSkills.md#Big-Data-vs-Data-Science-and-Analytics)
   - [The 4 Vs of Big Data](AdvancedSkills.md#the-4-vs-of-big-data)
   - [Why Big Data](AdvancedSkills.md#why-big-data)
@@ -13,8 +14,6 @@ Advanced Data Engineering Skills
     - [Scaling Up](AdvancedSkills.md#scaling-up)
     - [Scaling Out](AdvancedSkills.md#scaling-out)
     - [When not to Do Big Data](AdvancedSkills.md#please-dont-go-big-data)
-- [Data Science Platform](AdvancedSkills.md#data-science-platform)
-  - [Why a Good Data Platform Is Important](AdvancedSkills.md#why-a-good-data-platform-is-important)
   - [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
   - [Batch Processing](AdvancedSkills.md#batch-processing)
   - [Stream Processing](AdvancedSkills.md#stream-processing)
@@ -36,11 +35,19 @@ Advanced Data Engineering Skills
     - [API Design](AdvancedSkills.md#api-design)
     - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
     - [Security](AdvancedSkills.md#security)
+  - [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
 - [Buffer](AdvancedSkills.md#buffer)
+  - [Apache Kafka](AdvancedSkills.md#apache-kafka)
+    - [Why a Message Queue Tool?](AdvancedSkills.md#why-a-message-queue-tool)
+    - [Kafka Architecture](AdvancedSkills.md#kafka-architecture)
+    - [Kafka Topics](AdvancedSkills.md#what-are-topics)
+    - [Kafka and Zookeeper](AdvancedSkills.md#what-does-zookeeper-have-to-do-with-kafka)
+    - [How to Produce and Consume Messages](AdvancedSkills.md#how-to-produce-and-consume-messages)
+    - [Kafka Commands](AdvancedSkills.md#kafka-commands)
+  - [Apache Redis Pub-Sub](AdvancedSkills.md#redis-pub-sub)
+  - [AWS Kinesis](AdvancedSkills.md#apache-kafka)
 - [Processing Frameworks](AdvancedSkills.md#processing-frameworks)
   - [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
-  - [Stream Procesing](AdvancedSkills.md#stream-processing)
-
   - [MapReduce](AdvancedSkills.md#mapreduce)
     - [How Does MapReduce Work](AdvancedSkills.md#How-does-mapreduce-work)
     - [MapReduce](AdvancedSkills.md#mapreduce)
@@ -85,26 +92,6 @@ Advanced Data Engineering Skills
     - [InfluxDB Time Series Database](AdvancedSkills.md#influxdb-time-series-database)
     - [Greenplum MPP Database](AdvancedSkills.md#mpp-databases-greenplum)
 - [Visualize](AdvancedSkills.md#visualize)
-- [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
-  - [Apache Kafka](AdvancedSkills.md#apache-kafka)
-    - [Why a Message Queue Tool?](AdvancedSkills.md#why-a-message-queue-tool)
-    - [Kafka Architecture](AdvancedSkills.md#kafka-architecture)
-    - [Kafka Topics](AdvancedSkills.md#what-are-topics)
-    - [Kafka and Zookeeper](AdvancedSkills.md#what-does-zookeeper-have-to-do-with-kafka)
-    - [How to Produce and Consume Messages](AdvancedSkills.md#how-to-produce-and-consume-messages)
-    - [Kafka Commands](AdvancedSkills.md#kafka-commands)
-  - [Machine Learning](AdvancedSkills.md#machine-learning)
-    - [How to do Machine Learning in production](AdvancedSkills.md#how-to-domachine-learning-in-production)
-    - [Why machine learning in production is harder then you think](AdvancedSkills.md#why-machine-learning-in-production-is-harder-then-you-think)
-    - [Models Do Not Work Forever](AdvancedSkills.md#models-do-not-work-forever)
-    - [Where are The Platforms That Support Machine Learning](AdvancedSkills.md#where-are-the-platforms-that-support-this)
-    - [Training Parameter Management](AdvancedSkills.md#training-parameter-management)
-    - [How to Convince People That Machine Learning Works](AdvancedSkills.md#how-to-convince-people-machine-learning-works)
-    - [No Rules No Physical Models](AdvancedSkills.md#no-rules-no-physical-models)
-    - [You Have The Data. Use It!](AdvancedSkills.md#you-have-the-data-use-it)
-    - [Data is Stronger Than Opinions](AdvancedSkills.md#data-is-stronger-than-opinions)
-    - [AWS Sagemaker](AdvancedSkills.md#aws-sagemaker)
-- [Data Visualization](AdvancedSkills.md#data-visualization)
   - [Android and IOS](AdvancedSkills.md#android-and-ios)
   - [API Design for Mobile Apps](AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
   - [Webservers](AdvancedSkills.md#how-to-use-webservers-to-display-content)
@@ -119,12 +106,28 @@ Advanced Data Engineering Skills
   - [Identity & Device Management](AdvancedSkills.md#Identity-and-device-management)
     - [What Is A Digital Twin](AdvancedSkills.md#what-is-a-digital-twin)
     - [Active Directory](AdvancedSkills.md#active-directory)
+- [Machine Learning](AdvancedSkills.md#machine-learning)
+  - [How to do Machine Learning in production](AdvancedSkills.md#how-to-domachine-learning-in-production)
+  - [Why machine learning in production is harder then you think](AdvancedSkills.md#why-machine-learning-in-production-is-harder-then-you-think)
+  - [Models Do Not Work Forever](AdvancedSkills.md#models-do-not-work-forever)
+  - [Where are The Platforms That Support Machine Learning](AdvancedSkills.md#where-are-the-platforms-that-support-this)
+  - [Training Parameter Management](AdvancedSkills.md#training-parameter-management)
+  - [How to Convince People That Machine Learning Works](AdvancedSkills.md#how-to-convince-people-machine-learning-works)
+  - [No Rules No Physical Models](AdvancedSkills.md#no-rules-no-physical-models)
+  - [You Have The Data. Use It!](AdvancedSkills.md#you-have-the-data-use-it)
+  - [Data is Stronger Than Opinions](AdvancedSkills.md#data-is-stronger-than-opinions)
+  - [AWS Sagemaker](AdvancedSkills.md#aws-sagemaker)
 
 
 
+## Data Science Platform
 
+### Why a Good Data Platform Is Important
 
-## Big Data
+| Podcast Episode: #066 How To Do Data Science From A Data Engineers Perspective  
+|------------------|
+|A simple introduction how to do data science in the context of the internet of things.
+| [Watch on YouTube](https://youtu.be/yp_cc4R0mGQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt)|
 
 ### Big Data vs Data Science and Analytics
 
@@ -206,7 +209,7 @@ It's now like you just can make that up while you go. That you can
 foresee in a few months or weeks the current system doesn't work
 anymore.
 
-#### Planning is Everything
+### Planning is Everything
 
 It's all happens very very fast and you cannot react anymore. There's a
 necessary type of planning and analyzing the potential of your business
@@ -222,7 +225,7 @@ But in the long run it will help you a lot. Good planning will get a lot
 of problems out of the way, especially if you think about streaming data
 and real-time analytics.
 
-#### The problem with ETL
+### The problem with ETL
 
 A typical old-school platform deployment would look like the picture
 below. Devices use a data API to upload data that gets stored in a SQL
@@ -255,7 +258,7 @@ A traditional solution to overcome these performance issues is trying to
 increase the performance of the database server. That's what's called
 scaling up.
 
-#### Scaling Up
+### Scaling Up
 
 To scale up the system and therefore increase ETL speeds administrators
 resort to more powerful hardware by:
@@ -278,7 +281,7 @@ monster system, or you cannot afford to buy more expensive hardware.
 
 The next step you could take would be scaling out.
 
-#### Scaling Out
+### Scaling Out
 
 Scaling out is the opposite of scaling up. Instead of building bigger
 systems the goal is to distribute the load between many smaller systems.
@@ -308,7 +311,7 @@ There is no perfect solution. Every option has its up- and downsides.
 One common major issue is the administrative effort that you need to
 take to implement and maintain a scaled out solution.
 
-#### Please don't go Big Data
+### Please don't go Big Data
 
 If you don't run into scaling issues please, do not use big data tools!
 
@@ -324,15 +327,6 @@ If you don't need it it's making absolutely no sense at all!
 
 On the other side: If you really need big data tools they will save your
 ass :)
-
-## Data Science Platform
-
-### Why a Good Data Platform Is Important
-
-| Podcast Episode: #066 How To Do Data Science From A Data Engineers Perspective  
-|------------------|
-|A simple introduction how to do data science in the context of the internet of things.
-| [Watch on YouTube](https://youtu.be/yp_cc4R0mGQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt)|
 
 ### Lambda and Kappa Architecture
 
@@ -498,7 +492,6 @@ customers.
 
 When the time comes and you also need to do analytics on the fly, then
 add a streaming pipeline to your batch processing big data platform.
-
 
 ## Hadoop Platforms
 
@@ -702,6 +695,13 @@ When to use Spring or Jersey:
 
 #### OAuth security
 
+### Data Warehouse vs Data Lake
+
+| Podcast Episode: #055 Data Warehouse vs Data Lake
+|------------------|
+|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
+| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
+
 
 ## Buffer
 
@@ -739,7 +739,9 @@ Start Kafka container:
         -e ALLOW_PLAINTEXT_LISTENER=yes  \
         bitnami/kafka:latest
 
-### Redis
+### Redis Pub-Sub
+
+### AWS Kinesis
 
 ## Processing Frameworks
 
@@ -1465,18 +1467,6 @@ This section does not contain any text that's why the page is messed up
 #### What is a digital twin?
 
 #### Active Directory
-
-
-
-## Data Warehouse vs Data Lake
-
-| Podcast Episode: #055 Data Warehouse vs Data Lake
-|------------------|
-|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
-| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
-
-## Databases
-
 
 
 Machine Learning
