@@ -1655,7 +1655,3 @@ Train and apply models online with Sagemaker
 
 Link to the OLX Slideshare with pros, cons and how to use Sagemaker:
 <https://www.slideshare.net/mobile/AlexeyGrigorev/image-models-infrastructure-at-olx>
-
-
-Data Visualization
-------------------
