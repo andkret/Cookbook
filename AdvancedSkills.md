@@ -35,7 +35,8 @@ Advanced Data Engineering Skills
     - [API Design](AdvancedSkills.md#api-design)
     - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
     - [Security](AdvancedSkills.md#security)
-  - [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
+  - [Apache Nifi](AdvancedSkills.md#apache-nifi)
+  - [Logstash](AdvancedSkills.md#logstash)
 - [Buffer](AdvancedSkills.md#buffer)
   - [Apache Kafka](AdvancedSkills.md#apache-kafka)
     - [Why a Message Queue Tool?](AdvancedSkills.md#why-a-message-queue-tool)
@@ -46,6 +47,7 @@ Advanced Data Engineering Skills
     - [Kafka Commands](AdvancedSkills.md#kafka-commands)
   - [Apache Redis Pub-Sub](AdvancedSkills.md#redis-pub-sub)
   - [AWS Kinesis](AdvancedSkills.md#apache-kafka)
+  - [Google Cloud PubSub](AdvancedSkills.md#google-cloud-pubsub)
 - [Processing Frameworks](AdvancedSkills.md#processing-frameworks)
   - [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
   - [MapReduce](AdvancedSkills.md#mapreduce)
@@ -71,9 +73,13 @@ Advanced Data Engineering Skills
     - [MLlib](AdvancedSkills.md#mllib)
     - [Spark Setup](AdvancedSkills.md#spark-setup)
     - [Spark Resource Management](AdvancedSkills.md#spark-resource-management)
-  - [Apache Nifi](AdvancedSkills.md#apache-nifi)
+  - [AWS Lambda](AdvancedSkills.md#apache-flink)  
+  - [Apache Flink](AdvancedSkills.md#apache-flink)
+  - [Elasticsearch](AdvancedSkills.md#elasticsearch)
+  - [Apache Drill](AdvancedSkills.md#apache-drill)
   - [StreamSets](AdvancedSkills.md#streamsets)
 - [Store](AdvancedSkills.md#store)
+  - [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
   - [SQL Databases](AdvancedSkills.md#sql-databases)
     - [PostgreSQL DB](AdvancedSkills.md#postgresql-db)
     - [Database Design](AdvancedSkills.md#database-design)
@@ -94,6 +100,9 @@ Advanced Data Engineering Skills
 - [Visualize](AdvancedSkills.md#visualize)
   - [Android and IOS](AdvancedSkills.md#android-and-ios)
   - [API Design for Mobile Apps](AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
+  - [Dashboards](AdvancedSkills.md#dashboards)
+    - [Grafana](AdvancedSkills.md#grafana)
+    - [Kibana](AdvancedSkills.md#kibana)
   - [Webservers](AdvancedSkills.md#how-to-use-webservers-to-display-content)
     - [Tomcat](AdvancedSkills.md#tomcat)
     - [Jetty](AdvancedSkills.md#jetty)
@@ -695,13 +704,28 @@ When to use Spring or Jersey:
 
 #### OAuth security
 
-### Data Warehouse vs Data Lake
+### Apache Nifi
 
-| Podcast Episode: #055 Data Warehouse vs Data Lake
-|------------------|
-|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
-| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
+Nifi is one of these tools that I identify as high potential tools. It
+allows you to create a data pipeline very easily.
 
+Read data from a RestAPI and post it to Kafka? No problem Read data from
+Kafka and put it into a database? No problem
+
+It's super versatile and you can do everything on the UI.
+
+I use it in Part 3 of this Document. Check it out.
+
+Check out the Apache Nifi FAQ website. Also look into the documentation
+to find all possible data sources and sinks of Nifi:
+
+<https://nifi.apache.org/faq.html>
+
+Here's a great blog about Nifi:
+
+<https://www.datainmotion.dev>
+
+### Logstash
 
 ## Buffer
 
@@ -742,6 +766,8 @@ Start Kafka container:
 ### Redis Pub-Sub
 
 ### AWS Kinesis
+
+### Google Cloud PubSub
 
 ## Processing Frameworks
 
@@ -1170,26 +1196,15 @@ it a lot easier to configure the resource management.
 
 ![Spark Resource Management With YARN](images/Spark-Yarn.jpg)
 
-### Apache Nifi
+### AWS Lambda
 
-Nifi is one of these tools that I identify as high potential tools. It
-allows you to create a data pipeline very easily.
+### Apache Flink
 
-Read data from a RestAPI and post it to Kafka? No problem Read data from
-Kafka and put it into a database? No problem
+### Elasticsearch
 
-It's super versatile and you can do everything on the UI.
+### Apache Drill
 
-I use it in Part 3 of this Document. Check it out.
-
-Check out the Apache Nifi FAQ website. Also look into the documentation
-to find all possible data sources and sinks of Nifi:
-
-<https://nifi.apache.org/faq.html>
-
-Here's a great blog about Nifi:
-
-<https://www.datainmotion.dev>
+### Apache Storm
 
 ### StreamSets
 
@@ -1202,6 +1217,13 @@ Here's a great blog about Nifi:
 <https://streamsets.com/blog/streaming-data-twitter-analysis-spark/>
 
 ## Store
+
+### Data Warehouse vs Data Lake
+
+| Podcast Episode: #055 Data Warehouse vs Data Lake
+|------------------|
+|On this podcast we are going to talk about data warehouses and data lakes? When do people use which? What are the pros and cons of both? Architecture examples for both Does it make sense to completely move to a data lake?
+| [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
 
 ### SQL Databases
 
@@ -1444,7 +1466,11 @@ InfluxDB, Prometheus, Riak TS, OpenTSDB, KairosDB
 
 ### How to use Webservers to display content
 
-This section does not contain any text that's why the page is messed up
+### Dashboards
+
+#### Grafana
+
+#### Kibana
 
 #### Tomcat
 
