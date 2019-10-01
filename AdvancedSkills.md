@@ -705,6 +705,42 @@ When to use Spring or Jersey:
 
 ## Buffer
 
+### Apache Kafka
+
+#### Why a message queue tool?
+
+#### Kafka architecture
+
+#### What are topics
+
+#### What does Zookeeper have to do with Kafka
+
+#### How to produce and consume messages
+
+My YouTube video how to set up Kafka at home:
+<https://youtu.be/7F9tBwTUSeY>
+
+My YouTube video how to write to Kafka: <https://youtu.be/RboQBZvZCh0>
+
+#### KAFKA Commands
+
+Start Zookeeper container for Kafka:
+
+    docker run -d --name zookeeper-server   \
+        --network app-tier   \
+        -e ALLOW_ANONYMOUS_LOGIN=yes    \
+        bitnami/zookeeper:latest
+
+Start Kafka container:
+
+    docker run -d --name kafka-server  \
+        --network app-tier  \
+        -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181  \
+        -e ALLOW_PLAINTEXT_LISTENER=yes  \
+        bitnami/kafka:latest
+
+### Redis
+
 ## Processing Frameworks
 
 ### Is ETL still relevant for Analytics?
@@ -1442,46 +1478,6 @@ This section does not contain any text that's why the page is messed up
 ## Databases
 
 
-
-Data Processing and Analytics - Frameworks
-------------------------------------------
-
-
-
-Apache Kafka
-------------
-
-### Why a message queue tool?
-
-### Kafka architecture
-
-### What are topics
-
-### What does Zookeeper have to do with Kafka
-
-### How to produce and consume messages
-
-My YouTube video how to set up Kafka at home:
-<https://youtu.be/7F9tBwTUSeY>
-
-My YouTube video how to write to Kafka: <https://youtu.be/RboQBZvZCh0>
-
-### KAFKA Commands
-
-Start Zookeeper container for Kafka:
-
-    docker run -d --name zookeeper-server   \
-        --network app-tier   \
-        -e ALLOW_ANONYMOUS_LOGIN=yes    \
-        bitnami/zookeeper:latest
-
-Start Kafka container:
-
-    docker run -d --name kafka-server  \
-        --network app-tier  \
-        -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181  \
-        -e ALLOW_PLAINTEXT_LISTENER=yes  \
-        bitnami/kafka:latest
 
 Machine Learning
 ----------------
