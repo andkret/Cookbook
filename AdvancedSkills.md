@@ -13,12 +13,13 @@ Advanced Data Engineering Skills
     - [Scaling Up](AdvancedSkills.md#scaling-up)
     - [Scaling Out](AdvancedSkills.md#scaling-out)
     - [When not to Do Big Data](AdvancedSkills.md#please-dont-go-big-data)
-  - [Lambda Architecture](AdvancedSkills.md#lambda-architecture)
-    - [Batch Processing](AdvancedSkills.md#batch-processing)
-    - [Stream Processing](AdvancedSkills.md#stream-processing)
-    - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
-  - [Kappa Architecture](AdvancedSkills.md#kappa-architecture)
+- [Data Science Platform](AdvancedSkills.md#data-science-platform)
   - [Why a Good Data Platform Is Important](AdvancedSkills.md#why-a-good-data-platform-is-important)
+  - [Lambda Architecture](AdvancedSkills.md#lambda-architecture)
+  - [Batch Processing](AdvancedSkills.md#batch-processing)
+  - [Stream Processing](AdvancedSkills.md#stream-processing)
+  - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
+  - [Kappa Architecture](AdvancedSkills.md#kappa-architecture)
 - [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
 - [Hadoop Platforms](AdvancedSkills.md#hadoop-platforms)
   - [What is Hadoop](AdvancedSkills.md#what-is-hadoop)
@@ -131,8 +132,7 @@ Advanced Data Engineering Skills
 
 
 
-Big Data
---------
+## Big Data
 
 ### What is big data and where is the difference to data science and data analytics?
 
@@ -333,8 +333,16 @@ If you don't need it it's making absolutely no sense at all!
 On the other side: If you really need big data tools they will save your
 ass :)
 
- Lambda Architecture
--------------------
+## Data Science Platform
+
+### Why a Good Data Platform Is Important
+
+| Podcast Episode: #066 How To Do Data Science From A Data Engineers Perspective  
+|------------------|
+|A simple introduction how to do data science in the context of the internet of things.
+| [Watch on YouTube](https://youtu.be/yp_cc4R0mGQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt)|
+
+### Lambda Architecture
 
 | Podcast Episode: #077 Lambda Architecture and Kappa Architecture
 |------------------|
@@ -419,22 +427,12 @@ customers.
 When the time comes and you also need to do analytics on the fly, then
 add a streaming pipeline to your batch processing big data platform.
 
-### Lambda Architecture Alternative
-
-#### Kappa Architecture
-
-#### Kappa Architecture with Kudu
-
-### Why a Good Data Platform Is Important
-
-| Podcast Episode: #066 How To Do Data Science From A Data Engineers Perspective  
-|------------------|
-|A simple introduction how to do data science in the context of the internet of things.
-| [Watch on YouTube](https://youtu.be/yp_cc4R0mGQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/066-How-To-Do-Data-Science-From-A-Data-Engineers-Perspective-e45imt)|
+### Kappa Architecture with Kudu
 
 
-Data Warehouse vs Data Lake
----------------------------
+
+
+## Data Warehouse vs Data Lake
 
 | Podcast Episode: #055 Data Warehouse vs Data Lake
 |------------------|
@@ -442,8 +440,7 @@ Data Warehouse vs Data Lake
 | [Watch on YouTube](https://youtu.be/8gNQTrUUwMk) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/055-Data-Warehouse-vs-Data-Lake-e45iem)|
 
 
-Hadoop Platforms
-----------------
+## Hadoop Platforms
 
 When people talk about big data, one of the first things come to mind is
 Hadoop. Google's search for Hadoop returns about 28 million results.
