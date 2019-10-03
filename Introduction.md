@@ -21,31 +21,34 @@ Introduction
 
 ## How To Use This Cookbook
 
-
 What do you actually need to learn to become an awesome data engineer?
 Look no further, you'll find it here.
 
 If you are looking for AI algorithms and such data scientist things,
 this book is not for you.
 
-**How to use this document:**\
-First of all, this is not a training! This cookbook is a collection of
-skills that I value highly in my daily work as a data engineer. It's
-intended to be a starting point for you to find the topics to look into
-and become an awesome data engineer.
+**How to use this document:**
+This book is intended to be a starting point for you. It is not a training! I want to help you to identify the topics to look into and becoming an awesome data engineer in the process.
 
-You are going to find ***Five Types of Content*** in this book: Articles
+It hinges on my Data Science Platform Blueprint, check it out below. Once you understand it, you can find in the book tools that fit into each key area of a Data Science platform (Connect, Buffer, Processing Framework, Store, Visualize).
+
+Select a few tools you are interested in, research and work with them.
+
+Don't learn everything in this book! Focus.
+
+**What types of content are in this book?**
+You are going to find five types of content in this book: Articles
 I wrote, links to my podcast episodes (video & audio), more than 200
 links to helpful websites I like, data engineering interview questions
 and case studies.
 
-**This book is a work in progress!**\
+**This book is a work in progress!**
 As you can see, this book is not finished. I'm constantly adding new
 stuff and doing videos for the topics. But obviously, because I do this
 as a hobby my time is limited. You can help making this book even
 better.
 
-**Help make this book awesome!**\
+**Help make this book awesome!**
 If you have some cool links or topics for the cookbook, please become a
 contributor on GitHub: <https://github.com/andkret/Cookbook>. Pull the
 repo, add them and create a pull request. Or join the discussion by
@@ -54,7 +57,7 @@ what you think should be included, or correct me where I am wrong.
 You can also write me an email any time to
 plumbersofdatascience\@gmail.com anytime.
 
-**This Cookbook is and will always be free!**\
+**This Cookbook is and will always be free!**
 I don't want to sell you this book, but please support what you like and
 join my Patreon: <https://www.patreon.com/plumbersofds>.
 Or send me a message and support through PayPal: <https://paypal.me/feedthestream>
@@ -132,13 +135,6 @@ Model outputs are very abstract. You also need to post-process the model
 outputs to receive the outputs you desire
 
 ![The Machine Learning Pipeline](images/Machine-Learning-Pipeline.jpg)
-
-#### Data Scientist Type A
-
-
-
-#### Data Scientist Type B
-
 
 
 ### Data Engineer
@@ -273,16 +269,13 @@ That's why I love it so much :)
 
 ## My Big Data Platform Blueprint
 
-Some time ago I have created a simple and modular big data platform
-blueprint for myself. It is based on what I have seen in the field and
+I have created a simple and modular big data platform
+blueprint. It is based on what I have seen in the field and
 read in tech blogs all over the internet.
-
-Today I am going to share it with you.
 
 Why do I believe it will be super useful to you?
 
-Because, unlike other blueprints it is not focused on technology. It is
-based on four common big data platform design patterns.
+Because, unlike other blueprints it is not focused on technology.
 
 Following my blueprint will allow you to create the big data platform
 that fits exactly your needs. Building the perfect platform will allow
@@ -291,12 +284,11 @@ data scientists to discover new insights.
 It will enable you to perfectly handle big data and allow you to make
 data driven decisions.
 
-The blueprint is focused on the four key areas: Ingest, store, analyse
-and display.
+The blueprint is focused on the five key areas: Connect, Buffer, Processing Frameworks, Store and Visualize.
 
 ![Data Science Platform Blueprint](images/Data-Science-Blueprint-New.jpg)
 
-Having the platform split like this turns it it a modular platform with
+Having the platform split like this turns it into a modular platform with
 loosely coupled interfaces.
 
 Why is it so important to have a modular platform?
@@ -305,8 +297,7 @@ If you have a platform that is not modular you end up with something
 that is fixed or hard to modify. This means you can not adjust the
 platform to changing requirements of the company.
 
-Because of modularity it is possible to replace every component, if you
-need it.
+Because of modularity it is possible to specifically select tools for your use case. It also allows you to replace every component, if you need it.
 
 Now, lets talk more about each key area.
 
