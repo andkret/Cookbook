@@ -182,10 +182,94 @@ infrastructure like at Amazon or Google or on-premise hardware.
 
 ![The Machine Learning Workflow](images/Machine-Learning-Workflow.jpg)
 
+Data Scientists and Data Engineers. How does that all fit together?
+
+You have to look at the data science process. How stuff is created and how data
+science is done. How machine learning is
+done.
+
+The machine learning process shows, that you start with a training phase. A phase where you are basically training the algorithms to create the right output.
+
+In the in the learning phase you are having the input parameters. Basically the configuration of the model and you have the input data.
+
+What you're doing is you are training the algorithm. While training the algorithm modifies the training
+parameters. It also modifies the used data and then you are getting to an output.
+
+Once you get an output you are evaluating. Is that output okay, or is that output not the desired output?
+
+if the output is not what you were looking for? Then you are continuing with the training phase.
+
+You're trying to retrain the model hundreds, thousands, hundred thousands of times. Of course all this is being done automatically.
+
+Once you are satisfied with the output, you are putting the model into production. In production it is no longer fed with training
+data it's fed with the life data.
+
+It's evaluating the input data life and putting out life results.
+
+So, you went from training to production and then what?
+
+What you do is monitoring the output. If the output keeps making sense, all good!
+
+If the output of the model changes and it's on longer what you have expected, it means the model doesn't work anymore.
+
+You need to trigger a retraining of the model. It basically gets to getting trained again.
+
+Once you are again satisfied with the output, you put it into production again. It replaces the one in production. once you're satisfied
+
+This is the overall process how machine learning. It's how the learning part of data science is working.
+
 
 ## Machine Learning Model and Data
 
 ![The Machine Learning Model](images/Machine-Learning-Model.jpg)
+
+Now that's all very nice.
+
+When you look at it, you have two very important places where you have data.
+
+You have in the training phase with two types of data:
+Data that you use for the training. Data that basically configures the model, the hyper parameter configuration.
+
+Once you're in production you have the live data that is streaming in. Data that is coming in from from an app, from
+a IoT device, logs, or whatever.
+
+All different types of data. Now, here comes the engineering part.
+
+The Data Engineers part, is making this data available. Available to the data scientist and the machine learning process.
+
+So when you look at the model, on the left side you have your hyper parameter configuration. You need to store and manage these configurations somehow.
+
+Then you have the actual training data.
+
+There's a lot going on with the training data:
+
+Where does it come from? Who owns it? Which is basically data governance.
+
+What's the lineage? Have you modified this data? What did you do, what was the basis, the raw data?
+
+You need to access all this data somehow. In training and in production.
+
+In production you need to have access to the live data.
+
+All this is the data engineers job. Making the data available.
+
+First an architect needs to build the platform. This can also be a good data engineer.
+
+Then the data engineer needs to build the pipelines. How is the data coming in and how is the platform
+connecting to other systems.
+
+How is that data then put into the storage. Is there a pre processing for the algorithms necessary? He'll do it.
+
+Once the data and the systems are available, it's time for the machine learning part.
+
+It is ready for processing. Basically ready for the data scientist.
+
+Once the analytics is done the data engineer needs to build pipelines to make it then accessible again. For instance for other analytics processes, for APIs, for front ends and so on.
+
+All in all, the data engineer's part is a computer science part.
+
+That's why I love it so much :)
+
 
 ## My Big Data Platform Blueprint
 
