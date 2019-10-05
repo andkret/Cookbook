@@ -198,9 +198,9 @@ if the output is not what you were looking for? Then you are continuing with the
 You're trying to retrain the model hundreds, thousands, hundred thousands of times. Of course all this is being done automatically.
 
 Once you are satisfied with the output, you are putting the model into production. In production it is no longer fed with training
-data it's fed with the life data.
+data it's fed with the live data.
 
-It's evaluating the input data life and putting out life results.
+It's evaluating the input data live and putting out live results.
 
 So, you went from training to production and then what?
 
@@ -210,7 +210,7 @@ If the output of the model changes and it's on longer what you have expected, it
 
 You need to trigger a retraining of the model. It basically gets to getting trained again.
 
-Once you are again satisfied with the output, you put it into production again. It replaces the one in production. once you're satisfied
+Once you are again satisfied with the output, you put it into production again. It replaces the one in production.
 
 This is the overall process how machine learning. It's how the learning part of data science is working.
 
