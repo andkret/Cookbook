@@ -324,7 +324,7 @@ Analytics can quickly consume them.
 
 ### Buffer
 
-In the buffer phase you have pub/sub systems like Apache Kafka or other Cloud tools like Google pub/sub or AWS Kinesis.
+In the buffer phase you have pub/sub systems like Apache Kafka, Redis, or other Cloud tools like Google pub/sub or AWS Kinesis. 
 
 These systems are more or less message Queues.
 You put something in on one side and take it out on the other.
