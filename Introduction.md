@@ -1,5 +1,4 @@
 
-
 Introduction
 ============
 
@@ -223,11 +222,13 @@ Now that's all very nice.
 
 When you look at it, you have two very important places where you have data.
 
-You have in the training phase with two types of data:
+You have in the training phase two types of data:
 Data that you use for the training. Data that basically configures the model, the hyper parameter configuration.
 
 Once you're in production you have the live data that is streaming in. Data that is coming in from from an app, from
 a IoT device, logs, or whatever.
+
+A data catalog is also important. It explains which features are available and how different data sets are labeled.
 
 All different types of data. Now, here comes the engineering part.
 
@@ -322,6 +323,32 @@ publish-subscribe pattern. This way APIs can publish messages and
 Analytics can quickly consume them.
 
 ### Buffer
+
+In the buffer phase you have pub/sub systems like Apache Kafka or other Cloud tools like Google pub/sub or AWS Kinesis.
+
+These systems are more or less message Queues.
+You put something in on one side and take it out on the other.
+
+The idea behind buffers is to have an intermediate system for the incoming data.
+
+How this works is, for instance you're getting data in from from an API.
+The API is publishing into the message queue. Data is buffered there until it is picked up by the processing.
+
+If you don't have a buffer you can run into problems when writing directly into a store, or you're processing the data directly. You can always have peaks of incoming data that stall the systems.
+
+Like, it's lunch break and people are working with your app way more then usually.
+There's more data coming in very very fast. Faster than the analytics of the storage can can work with.
+
+In this case you would run into problems, because the whole system would stall. It would therefor take long to process the data and your customers would be annoyed.
+
+With a buffer you're buffering the the incoming data. Processes for storage and analytics can take out only as much data as they can process. You are no longer in danger of overpowering systems.
+
+Buffers are also really good for building pipelines.
+
+You take data out of Kafka, you pre-process it and put it back into Kafka.
+Then with another analytics process you take the processed data back out and put it into a store.
+
+Ta Da! A pipeline.
 
 ### Processing Framework
 
