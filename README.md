@@ -17,13 +17,15 @@
   <a href="https://www.amazon.com/shop/plumbersofdatascience">Amazon Shop</a>
 </p>
 
-
+<!---
 I get asked super often how to become a Data Engineer.
 That's why I decided to start this cookbook with all the topics you need to look into.
 
 It's not only useful for beginners, professionals will definitely like the case study section.
 
 If you look for the old PDF version it's [here](https://github.com/andkret/Cookbook/raw/LaTex-Version-Deprecated/Data%20Engineering%20Cookbook.pdf)
+
+-->
 
 ## Contents:
 - [Introduction](#introduction)
