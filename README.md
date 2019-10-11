@@ -1,7 +1,7 @@
 <!--- # The Data Engineering Cookbook -->
 
 <div align="center">
-	<img width="341" height="426" src="images/cookbookcover.jpg" alt="Awesome">
+	<img width="341" height="426" src="images/CookbookCover.jpg" alt="Data Engineering Cookbook">
 	<br>
 	<br>
 	<br>
