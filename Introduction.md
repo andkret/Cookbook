@@ -4,7 +4,7 @@ Introduction
 
 ## Contents
 
-- [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
+- [What is this Cookbook](Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
   - [Data Scientist](Introduction.md#data-scientist)
     - [Data Scientist Type A](Introduction.md#data-scientist-type-a)
@@ -18,15 +18,17 @@ Introduction
   - [Visualize](Introduction.md#visualize)
 - [Who Companies Need](Introduction.md#who-companies-need)
 
-## How To Use This Cookbook
+## What is this Cookbook
 
-What do you actually need to learn to become an awesome data engineer?
-Look no further, you'll find it here.
+I get asked a lot:
+"What do you actually need to learn to become an awesome data engineer?"
+
+Well, look no further. you'll find it here!
 
 If you are looking for AI algorithms and such data scientist things,
 this book is not for you.
 
-**How to use this document:**
+**How to use this Cookbook:**
 This book is intended to be a starting point for you. It is not a training! I want to help you to identify the topics to look into and becoming an awesome data engineer in the process.
 
 It hinges on my Data Science Platform Blueprint, check it out below. Once you understand it, you can find in the book tools that fit into each key area of a Data Science platform (Connect, Buffer, Processing Framework, Store, Visualize).
@@ -324,7 +326,7 @@ Analytics can quickly consume them.
 
 ### Buffer
 
-In the buffer phase you have pub/sub systems like Apache Kafka, Redis, or other Cloud tools like Google pub/sub or AWS Kinesis. 
+In the buffer phase you have pub/sub systems like Apache Kafka, Redis, or other Cloud tools like Google pub/sub or AWS Kinesis.
 
 These systems are more or less message Queues.
 You put something in on one side and take it out on the other.

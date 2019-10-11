@@ -9,8 +9,8 @@
 
 <p align="center">
 	<a href="Introduction.md">What is this Book?</a>&nbsp;&nbsp;&nbsp;
-  <a href="https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA">Download PDF</a>&nbsp;&nbsp;&nbsp;
-  <a href="create-list.md">How to Contribute</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/andkret/Cookbook/raw/LaTex-Version-Deprecated/Data%20Engineering%20Cookbook.pdf">Download PDF</a>&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA">YouTube</a>&nbsp;&nbsp;&nbsp;
 	<a
   <a href="https://twitter.com/andreaskayy">Twitter</a>&nbsp;&nbsp;&nbsp;
@@ -26,6 +26,7 @@ It's not only useful for beginners, professionals will definitely like the case 
 If you look for the old PDF version it's [here](https://github.com/andkret/Cookbook/raw/LaTex-Version-Deprecated/Data%20Engineering%20Cookbook.pdf)
 
 -->
+<br>
 
 ## Contents:
 - [Introduction](#introduction)
