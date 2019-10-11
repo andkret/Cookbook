@@ -1,4 +1,23 @@
-# The Data Engineering Cookbook
+<!--- # The Data Engineering Cookbook -->
+
+<div align="center">
+	<img width="341" height="426" src="images/cookbookcover.jpg" alt="Awesome">
+	<br>
+	<br>
+	<br>
+</div>
+
+<p align="center">
+	<a href="Introduction.md">What is this Book?</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA">Download PDF</a>&nbsp;&nbsp;&nbsp;
+  <a href="create-list.md">How to Contribute</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA">YouTube</a>&nbsp;&nbsp;&nbsp;
+	<a
+  <a href="https://twitter.com/andreaskayy">Twitter</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.amazon.com/shop/plumbersofdatascience">Amazon Shop</a>
+</p>
+
+
 I get asked super often how to become a Data Engineer.
 That's why I decided to start this cookbook with all the topics you need to look into.
 
@@ -260,16 +279,15 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## How To Contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
-Simply open an issue and add your links. Or pull the repo, add them and create a pull request.
 
-Please pull only the "working-branch" branch. \
-This way we keep the master branch clean and I don't have to mess around resolving conflicts. You just need to change the .tex file. I'll recompile it later when I merge the branch with the master
+Simply pull the repo, add your ideas and create a pull request.
+You can also open an issue and put your thoughts there.
 
-For comments please also use the "Issues" function.
+Please use the "Issues" function for comments.
 
 ## Support
 
-Everything is free, but please support what you like! \
+Everything is free, but please support what you like!
 Join my Patreon and become a plumber yourself:
 [Link to my Patreon](https://patreon.com/plumbersofds)
 
@@ -277,7 +295,7 @@ Or support me and send a message through Paypal.me:
 [Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
 ## Important Links
 
-Subscribe to my Plumbers of data science YouTube channel for regular updates:
+Subscribe to my Plumbers of Data Science YouTube channel for regular updates:
 [Link to YouTube](https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA)
 
 Check out my blog and get updated via mail by joining my mailing list:
