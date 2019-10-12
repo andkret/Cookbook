@@ -35,7 +35,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Hands On Course](#Hands-on-course)‚
 - [Case Studies](#case-studies)
 - [1001 Interview Questions](#1001-interview-questions)
-
+- [Book and Courses Recommendations](#1001-interview-questions)
 <!-- -->
 
 - [How To Contribute](#how-to-contribute)
@@ -44,7 +44,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 
 ##  Introduction
-- [How To Use This Cookbook](Introduction.md#how-to-use-this-cookbook)
+- [What is this Cookbook](Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
   - [Data Scientist](Introduction.md#data-scientist)
   - [Data Engineer](Introduction.md#data-engineer)
@@ -279,6 +279,13 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 ## 1001 Interview Questions
 
 - [Interview Questions](InterviewQuestions.md)
+
+## Recommended Books and Courses
+
+- [Engineering Books](Recommended.md#engineering-books)
+- [Business Books](Recommended.md#business-books)
+- [Online Courses](Recommended.md#online-courses)
+
 
 ## How To Contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
