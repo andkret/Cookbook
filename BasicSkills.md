@@ -156,7 +156,7 @@ About how you can incorporate agility in your professional career.
 
 ### Why is agile so important?
 
-Historically development is practiced as a hard defined process. You
+Historically, development is practiced as an explicitly defined process. You
 think of something, specify it, have it developed and then built in mass
 production.
 
@@ -210,7 +210,7 @@ you.
 It does not matter who you pay to do something for you. He needs to make
 money.
 
-His agenda will be to spend as less time as possible on your work. That
+His agenda will be to spend as little time as possible on your work. That
 is why outsourcing requires contracts, detailed specifications,
 timetables and delivery dates.
 
@@ -276,7 +276,7 @@ smart way by outsourcing small independent parts.
 
 #### Scrum
 
-There's a interesting Scrum Medium publication with a lot of details
+There's an interesting Scrum Medium publication with a lot of details
 about Scrum: <https://medium.com/serious-scrum>
 
 Also this scrum guide webpage has good infos about Scrum:
@@ -284,8 +284,8 @@ Also this scrum guide webpage has good infos about Scrum:
 
 #### OKR
 
-I personally love OKR, been doing it for years. Especially for smaller
-teams OKR is great. You don't have a lot of overhead and get work done.
+I personally love OKR, and have been using it for years. Especially for smaller
+teams, OKR is great. You don't have a lot of overhead and get work done.
 It helps you stay focused and look at the bigger picture.
 
 I recommend to do a sync meeting every Monday. There you talk about what
@@ -435,7 +435,7 @@ Show all historic commands
 
 ### Shell scripting
 
-Äh, creating shell scripts in 2019? Believe it or not scripting in the
+Ah, creating shell scripts in 2019? Believe it or not scripting in the
 command line is still important.
 
 Start a process, automatically rename, move or do a quick compaction of
@@ -485,7 +485,7 @@ you usually have to install a lot of packages and tools.
 #### Don't Mess Up Your System
 
 What this does is you basically mess up your operating system. If you're
-a starter you don't know which packages you need to install. You don't
+just starting out, you don't know which packages you need to install. You don't
 know which tools you need to install.
 
 If you want to for instance start with Jupyter notebooks you need to
@@ -513,7 +513,7 @@ Start doing the work. The only other thing you need to do is bind some
 drives to that instance so you can exchange files. And then that's it!
 
 There is no way that you can crash or mess up your system. It's all
-encapsulated into Docker. Why this works is because Docker has natively
+encapsulated into Docker. Why this works is because Docker has native
 access to your hardware.
 
 #### Take It With You
@@ -616,7 +616,7 @@ difference and how to decide on what you are going to use.
 
 | Podcast Episode: #082 Reading Tweets With Apache Niﬁ & IaaS vs PaaS vs SaaS
 |------------------|
-|In this episode we are talking about the diﬀerences between infrastructure as a service, platform as a service and application as a service. Then we install the Niﬁ docker container and look into how we can extract the twitter data.
+|In this episode we are talking about the differences between infrastructure as a service, platform as a service and application as a service. Then we install the Niﬁ docker container and look into how we can extract the twitter data.
 | [Watch on YouTube](https://youtu.be/pWuT4UAocUY) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/082-Reading-Tweets-With-Apache-Nifi--IaaS-vs-PaaS-vs-SaaS-e45j50)|
 
 
