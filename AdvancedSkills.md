@@ -180,7 +180,7 @@ When you have data that is from for instance SAP and it contains data
 that is created by hand you also have problems. As you know we humans
 are bad at inputting stuff.
 
-Everybody articulates different. We make mistakes, down to the spelling
+Everybody articulates differently. We make mistakes, down to the spelling
 and that can be a very difficult issue for analytics.
 
 I talked about the 4Vs in this podcast:
@@ -188,7 +188,7 @@ I talked about the 4Vs in this podcast:
 
 ### Why Big Data?
 
-What I always emphasize is the four V's are quite nice. They give you a
+What I always emphasize is that the four V's are quite nice. They give you a
 general direction.
 
 There is a much more important issue: Catastrophic Success.
@@ -324,7 +324,7 @@ take to implement and maintain a scaled out solution.
 
 If you don't run into scaling issues please, do not use big data tools!
 
-Big data is a expensive thing. A Hadoop cluster for instance needs at
+Big data is an expensive thing. A Hadoop cluster for instance needs at
 least five servers to work properly. More is better.
 
 Believe me this stuff costs a lot of money.
@@ -468,7 +468,7 @@ multiple times.
 An example for this is banking. When you think about credit card
 transactions it's not okay to drop a transaction.
 
-When dropped your payment is not going through. It's also not okay to
+When dropped, your payment is not going through. It's also not okay to
 have a transaction processed multiple times, because then you are paying
 multiple times.
 
