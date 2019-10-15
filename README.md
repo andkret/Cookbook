@@ -35,7 +35,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Hands On Course](#Hands-on-course)‚
 - [Case Studies](#case-studies)
 - [1001 Interview Questions](#1001-interview-questions)
-- [Book and Courses Recommendations](#1001-interview-questions)
+- [Recommended Books and Courses](#BooksAndCourses.md)
 <!-- -->
 
 - [How To Contribute](#how-to-contribute)
@@ -282,9 +282,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## Recommended Books and Courses
 
-- [Engineering Books](Recommended.md#engineering-books)
-- [Business Books](Recommended.md#business-books)
-- [Online Courses](Recommended.md#online-courses)
+- [Books and Courses](BooksAndCourses.md)
 
 
 ## How To Contribute
