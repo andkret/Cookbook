@@ -15,6 +15,7 @@ Recommended Books And Courses
     - [Apache Hadoop](BooksAndCourses.md#introduction)
     - [Apache HBase](BooksAndCourses.md#introduction)
   - [Books Business](BooksAndCourses.md#introduction)
+  - [Community Recommendations](BooksAndCourses.md#introduction)
 - [Online Courses](BooksAndCourses#introduction)
   - [Machine Learning Stanford](BooksAndCourses.md#introduction)
   - [Computer Networking](BooksAndCourses.md#introduction)
@@ -51,74 +52,97 @@ PS: Don't just get a book and expect to learn everything
 
 #### Java
 
-https://amzn.to/2MgYp8h
+[Learning Java: A Bestselling Hands-On Java Tutorial](https://amzn.to/2MgYp8h)
 
 #### Python
 
-https://amzn.to/2MdpM34
+[Learning Python, 5th Edition](https://amzn.to/2MdpM34)
+
 
 #### Scala
 
-https://amzn.to/2VIpww5
+[Programming Scala: Scalability = Functional Programming + Objects](https://amzn.to/2VIpww5)
+
 
 #### Swift
 
-https://amzn.to/31hDN4e
+[Learning Swift: Building Apps for macOS, iOS, and Beyond](https://amzn.to/31hDN4e)
+
 
 ### Books Data Science Tools
 
 #### Apache Spark
 
-https://amzn.to/31mtAUg
+[Learning Spark: Lightning-Fast Big Data Analysis](https://amzn.to/31mtAUg)
+
 
 #### Apache Kafka
 
-https://amzn.to/35uiSOJ
+[Kafka Streams in Action: Real-time apps and microservices with the Kafka Streams API](https://amzn.to/35uiSOJ)
+
 
 #### Apache Hadoop
 
-https://amzn.to/2VNzf4n
+[Hadoop: The Definitive Guide: Storage and Analysis at Internet Scale](https://amzn.to/2VNzf4n)
+
 
 #### Apache HBase
 
-https://amzn.to/2BbiyGz
+[HBase: The Definitive Guide: Random Access to Your Planet-Size Data](https://amzn.to/2BbiyGz)
+
 
 ### Books Business
 
 #### The Lean Startup
 
-https://amzn.to/2Meyv5e
+[The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses](https://amzn.to/2Meyv5e)
 
 #### Zero To one
 
-https://amzn.to/2BbBwgr
+[Zero to One: Notes on Startups, or How to Build the Future](https://amzn.to/2BbBwgr)
+
 
 #### The Innovators Dilemma
 
-https://amzn.to/31eGZ0k
+[The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail (Management of Innovation and Change)](https://amzn.to/31eGZ0k)
+
 
 #### Crossing the Chasm
 
-https://amzn.to/2IU7QZs
+[Crossing the Chasm, 3rd Edition (Collins Business Essentials)](https://amzn.to/2IU7QZs)
+
 
 #### Crush It!
 
-https://amzn.to/33xe7Su
+[Crush It!: Why Now Is The Time To Cash In On Your Passion](https://amzn.to/33xe7Su)
+
+### Community Recommendations
+
+#### Designing Data-Intensive Applications
+
+"In my opinion, the knowledge contained in this book differentiates a data engineer from a software engineer or a developer. The book strikes a good balance between breadth and depth of discussion on data engineering topics, as well as the tradeoffs we must make due to working with massive amounts of data." -- David Lee on LinkedIn
+
+[Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://amzn.to/2MIqTqJ)
+
+
 
 ## Online Courses
 
 ### Computer Networking
 
-https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcomputer-networking%3F
+[The Bits and Bytes of Computer Networking (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcomputer-networking%3F)
+
 
 ### Spring Framework
 
-https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcloud-services-java-spring-framework
+[Building Cloud Services with the Java Spring Framework (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcloud-services-java-spring-framework)
+
 
 ### Machine Learning Stanford
 
-https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fmachine-learning
+[Machine Learning (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fmachine-learning)
+
 
 ### IOS App Development Specialization
 
-https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fios-development
+[iOS Development for Creative Entrepreneurs Specialization (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fios-development)
