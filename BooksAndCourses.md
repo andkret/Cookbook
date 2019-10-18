@@ -2,27 +2,33 @@ Recommended Books And Courses
 =============================
 
 ## Contents
-*Links not working yet*
-- [Books](BooksAndCourses.md#introduction)
-  - [Books Languages](BooksAndCourses.md#introduction)
-    - [Java](BooksAndCourses.md#introduction)
-    - [Python](BooksAndCourses.md#introduction)
-    - [Scala](BooksAndCourses.md#introduction)
-    - [Swift](BooksAndCourses.md#introduction)
-  - [Books Data Science Tools](BooksAndCourses.md#introduction)
-    - [Apache Spark](BooksAndCourses.md#introduction)
-    - [Apache Kafka](BooksAndCourses.md#introduction)
-    - [Apache Hadoop](BooksAndCourses.md#introduction)
-    - [Apache HBase](BooksAndCourses.md#introduction)
-  - [Books Business](BooksAndCourses.md#introduction)
-  - [Community Recommendations](BooksAndCourses.md#introduction)
-- [Online Courses](BooksAndCourses#introduction)
-  - [Machine Learning Stanford](BooksAndCourses.md#introduction)
-  - [Computer Networking](BooksAndCourses.md#introduction)
-  - [Spring Framework](BooksAndCourses.md#introduction)
-  - [IOS App Development Specialization](BooksAndCourses.md#introduction)
+- [About Books and Courses](BooksAndCourses.md#about-books-and-courses)
+- [Books](BooksAndCourses.md#books)
+  - [Languages](BooksAndCourses.md#books-languages)
+    - [Java](BooksAndCourses.md#java)
+    - [Python](BooksAndCourses.md#Python)
+    - [Scala](BooksAndCourses.md#Scala)
+    - [Swift](BooksAndCourses.md#Swift)
+  - [Data Science Tools](BooksAndCourses.md#books-data-science-tools)
+    - [Apache Spark](BooksAndCourses.md#apache-spark)
+    - [Apache Kafka](BooksAndCourses.md#apache-Kafka)
+    - [Apache Hadoop](BooksAndCourses.md#apache-Hadoop)
+    - [Apache HBase](BooksAndCourses.md#apache-HBase)
+  - [Business](BooksAndCourses.md#Books-Business)
+    - [The Lean Startup](BooksAndCourses.md#the-lean-startup)
+    - [Zero to One](BooksAndCourses.md#zero-to-one)
+    - [The Innovators Dilemma](BooksAndCourses.md#the-innovators-dilemma)
+    - [Crossing the Chasm](BooksAndCourses.md#crossing-the-chasm)
+    - [Crush It!](BooksAndCourses.md#crush-it!)
+  - [Community Recommendations](BooksAndCourses.md#Community-Recommendations)
+    - [Designing Data-Intensive Applications](BooksAndCourses.md#designing-data-intensive-applications)
+- [Online Courses](BooksAndCourses#online-courses)
+  - [Machine Learning Stanford](BooksAndCourses.md#machine-learning-stanford)
+  - [Computer Networking](BooksAndCourses.md#computer-networking)
+  - [Spring Framework](BooksAndCourses.md#spring-framework)
+  - [IOS App Development Specialization](BooksAndCourses.md#ios-app-development-specialization)
 
-## About Books And courses
+## About Books and Courses
 
 This is a collection of books and courses I can recommend personally.
 They are great for every data engineering learner.
@@ -48,7 +54,7 @@ PS: Don't just get a book and expect to learn everything
 
 ## Books
 
-### Books Languages
+### Languages
 
 #### Java
 
@@ -69,7 +75,7 @@ PS: Don't just get a book and expect to learn everything
 [Learning Swift: Building Apps for macOS, iOS, and Beyond](https://amzn.to/31hDN4e)
 
 
-### Books Data Science Tools
+### Data Science Tools
 
 #### Apache Spark
 
@@ -91,13 +97,13 @@ PS: Don't just get a book and expect to learn everything
 [HBase: The Definitive Guide: Random Access to Your Planet-Size Data](https://amzn.to/2BbiyGz)
 
 
-### Books Business
+### Business
 
 #### The Lean Startup
 
 [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses](https://amzn.to/2Meyv5e)
 
-#### Zero To one
+#### Zero to One
 
 [Zero to One: Notes on Startups, or How to Build the Future](https://amzn.to/2BbBwgr)
 
@@ -123,7 +129,6 @@ PS: Don't just get a book and expect to learn everything
 "In my opinion, the knowledge contained in this book differentiates a data engineer from a software engineer or a developer. The book strikes a good balance between breadth and depth of discussion on data engineering topics, as well as the tradeoffs we must make due to working with massive amounts of data." -- David Lee on LinkedIn
 
 [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://amzn.to/2MIqTqJ)
-
 
 
 ## Online Courses

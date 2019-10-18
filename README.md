@@ -282,7 +282,31 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## Recommended Books and Courses
 
-- [Books and Courses](BooksAndCourses.md)
+- [About Books and Courses](BooksAndCourses.md#about-books-and-courses)
+- [Books](BooksAndCourses.md#books)
+  - [Languages](BooksAndCourses.md#books-languages)
+    - [Java](BooksAndCourses.md#java)
+    - [Python](BooksAndCourses.md#Python)
+    - [Scala](BooksAndCourses.md#Scala)
+    - [Swift](BooksAndCourses.md#Swift)
+  - [Data Science Tools](BooksAndCourses.md#books-data-science-tools)
+    - [Apache Spark](BooksAndCourses.md#apache-spark)
+    - [Apache Kafka](BooksAndCourses.md#apache-Kafka)
+    - [Apache Hadoop](BooksAndCourses.md#apache-Hadoop)
+    - [Apache HBase](BooksAndCourses.md#apache-HBase)
+  - [Business](BooksAndCourses.md#Books-Business)
+    - [The Lean Startup](BooksAndCourses.md#the-lean-startup)
+    - [Zero to One](BooksAndCourses.md#zero-to-one)
+    - [The Innovators Dilemma](BooksAndCourses.md#the-innovators-dilemma)
+    - [Crossing the Chasm](BooksAndCourses.md#crossing-the-chasm)
+    - [Crush It!](BooksAndCourses.md#crush-it!)
+  - [Community Recommendations](BooksAndCourses.md#Community-Recommendations)
+    - [Designing Data-Intensive Applications](BooksAndCourses.md#designing-data-intensive-applications)
+- [Online Courses](BooksAndCourses#online-courses)
+  - [Machine Learning Stanford](BooksAndCourses.md#machine-learning-stanford)
+  - [Computer Networking](BooksAndCourses.md#computer-networking)
+  - [Spring Framework](BooksAndCourses.md#spring-framework)
+  - [IOS App Development Specialization](BooksAndCourses.md#ios-app-development-specialization)
 
 
 ## How To Contribute
