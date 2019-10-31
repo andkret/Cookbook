@@ -91,12 +91,15 @@ Advanced Data Engineering Skills
     - [HDFS Document Store](AdvancedSkills.md#document-stores-hdfs)
     - [MongoDB Document Store](AdvancedSkills.md#document-stores-mongodb)
     - [Elasticsearch Document Store](AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
-    - [Hive Warehouse](AdvancedSkills.md#hive-warehouse)
+
     - [Impala](AdvancedSkills.md#impala)
     - [Kudu](AdvancedSkills.md#kudu)
     - [Apache Druid](AdvancedSkills.md#apache-druid)
     - [InfluxDB Time Series Database](AdvancedSkills.md#influxdb-time-series-database)
     - [Greenplum MPP Database](AdvancedSkills.md#mpp-databases-greenplum)
+  - [NoSQL Data Warehouses](AdvancedSkills.md#nosql-data-warehouses)
+    - [Hive Warehouse](AdvancedSkills.md#hive-warehouse)
+    - [Impala](AdvancedSkills.md#impala)
 - [Visualize](AdvancedSkills.md#visualize)
   - [Android and IOS](AdvancedSkills.md#android-and-ios)
   - [API Design for Mobile Apps](AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
@@ -727,6 +730,28 @@ Here's a great blog about Nifi:
 
 ### Logstash
 
+<https://www.elastic.co/products/logstash>
+
+### FluentD
+
+Data Collector
+
+https://www.fluentd.org/
+
+### Apache Flume
+
+https://flume.apache.org/
+
+### Sqoop
+
+https://sqoop.apache.org/
+
+### Azure IoTHub
+
+https://azure.microsoft.com/en-us/services/iot-hub/
+
+
+
 ## Buffer
 
 ### Apache Kafka
@@ -1118,7 +1143,7 @@ deploying Spark applications.
 
 | Podcast Episode: #102 Apache Spark Week Day 3
 |------------------|
-|We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and ﬂatmaps, to writing to disk. We also use SparkSQL to visualize the data.
+| We continue the Spark week, hands on. We do a full example from reading a csv, doing maps and ﬂatmaps, to writing to disk. We also use SparkSQL to visualize the data.
 | [Watch on YouTube](https://youtu.be/Fk-s8eKD4ZI)
 
 #### What are DataFrames how to use them
@@ -1196,15 +1221,37 @@ it a lot easier to configure the resource management.
 
 ![Spark Resource Management With YARN](images/Spark-Yarn.jpg)
 
+### Samza
+
+![Link to Apache Samza Homepage](http://samza.apache.org/)
+
 ### AWS Lambda
+
+![Link to AWS Lambda Homepage](https://aws.amazon.com/lambda/)
+
 
 ### Apache Flink
 
+![Link to Apache Flink Homepage](https://flink.apache.org/)
+
+
 ### Elasticsearch
+
+![Link to Elatsicsearch Homepage](https://www.elastic.co/products/elastic-stack)
+
+### Apache Solr
+
+![Link to Solr Homepage](https://lucene.apache.org/solr/)
+
 
 ### Apache Drill
 
+![Link to Apache Drill Homepage](https://drill.apache.org/)
+
+
 ### Apache Storm
+
+https://storm.apache.org/
 
 ### StreamSets
 
@@ -1420,9 +1467,10 @@ X-Pack Security for Elasticsearch:\
 Google Trends Grafana vs Kibana:\
 <https://trends.google.com/trends/explore?geo=US&q=%2Fg%2F11fy132gmf,%2Fg%2F11cknd0blr>
 
-#### Hive Warehouse
 
-#### Impala
+#### Apache Impala
+
+![Apache Impala Homepage](https://impala.apache.org/)
 
 #### Kudu
 
@@ -1457,6 +1505,20 @@ Other alternatives for time series databases are: DalmatinerDB,
 InfluxDB, Prometheus, Riak TS, OpenTSDB, KairosDB
 
 #### MPP Databases (Greenplum)
+
+#### Azure Cosmos DB
+
+https://azure.microsoft.com/en-us/services/cosmos-db/
+
+#### Azure Table-Storage
+
+https://azure.microsoft.com/en-us/services/storage/tables/
+
+### NoSQL Data warehouse
+
+#### Hive Warehouse
+
+#### Impala
 
 ## Visualize
 

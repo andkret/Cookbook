@@ -29,12 +29,12 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 <br>
 
 ## Contents:
-- [Introduction](#introduction)
-- [Basic Engineering Skills](#basic-engineering-skills)
-- [Advanced Engineering Skills](#introduction)
-- [Hands On Course](#Hands-on-course)‚
-- [Case Studies](#case-studies)
-- [1001 Interview Questions](#1001-interview-questions)
+- [Introduction](Introduction.md)
+- [Basic Engineering Skills](BasicSkills.md)
+- [Advanced Engineering Skills](AdvancedSkills.md)
+- [Hands On Course](HandsOnCourse.md)‚
+- [Case Studies](CaseStudies.md)
+- [1001 Interview Questions](InterviewQuestions.md)
 - [Recommended Books and Courses](BooksAndCourses.md)
 <!-- -->
 
@@ -323,8 +323,9 @@ Everything is free, but please support what you like!
 Join my Patreon and become a plumber yourself:
 [Link to my Patreon](https://patreon.com/plumbersofds)
 
-Or support me and send a message through Paypal.me:
+Or support me and send a message I read on the next livestream through Paypal.me:
 [Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
+
 ## Important Links
 
 Subscribe to my Plumbers of Data Science YouTube channel for regular updates:
