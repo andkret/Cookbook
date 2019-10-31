@@ -9,7 +9,6 @@
 
 <p align="center">
 	<a href="Introduction.md">What is this Book?</a>&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/andkret/Cookbook/raw/LaTex-Version-Deprecated/Data%20Engineering%20Cookbook.pdf">Download PDF</a>&nbsp;&nbsp;&nbsp;
   <a href="#how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA">YouTube</a>&nbsp;&nbsp;&nbsp;
 	<a
