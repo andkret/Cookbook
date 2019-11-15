@@ -35,6 +35,7 @@ Advanced Data Engineering Skills
     - [API Design](AdvancedSkills.md#api-design)
     - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
     - [Security](AdvancedSkills.md#security)
+  - [gRPC](AdvancedSkills.md#grpc)
   - [Apache Nifi](AdvancedSkills.md#apache-nifi)
   - [Logstash](AdvancedSkills.md#logstash)
 - [Buffer](AdvancedSkills.md#buffer)
@@ -706,6 +707,14 @@ When to use Spring or Jersey:
 <https://stackoverflow.com/questions/26824423/what-is-the-difference-among-spring-rest-service-and-jersey-rest-service-and-spr>
 
 #### OAuth security
+
+### gRPC
+
+From its homepage: "gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services."
+
+gRPC is gaining momentum in how to connect microservices.  It's built on HTTP/2 and provides a number of advantages to the standard REST API approach.  In particular, gRPC allows you to stream data over long-lived connections with proper error handling.
+
+Support for gRPC has been built into modern proxy systems like [Envoy](http://envoyproxy.io) and there is [great observability support](https://programmaticponderings.com/2019/04/17/istio-observability-with-go-grpc-and-protocol-buffers-based-microservices/).
 
 ### Apache Nifi
 
