@@ -8,7 +8,7 @@ Introduction
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
   - [Data Scientist](Introduction.md#data-scientist)
     - [Data Scientist Type A](Introduction.md#data-scientist-type-a)
-    - [Data Scientist Type A](Introduction.md#data-scientist-type-b)
+    - [Data Scientist Type B](Introduction.md#data-scientist-type-b)
   - [Data Engineer](Introduction.md#data-engineer)
 - [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
   - [Connect](Introduction.md#connect)
