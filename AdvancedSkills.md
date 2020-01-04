@@ -33,7 +33,7 @@ Advanced Data Engineering Skills
 - [Connect](AdvancedSkills.md#connect)
   - [REST APIs](AdvancedSkills.md#rest-apis)
     - [API Design](AdvancedSkills.md#api-design)
-    - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
+    - [Implementation Frameworks](AdvancedSkills.md#implementation-frameworks)
     - [Security](AdvancedSkills.md#security)
   - [Apache Nifi](AdvancedSkills.md#apache-nifi)
   - [Logstash](AdvancedSkills.md#logstash)
@@ -405,7 +405,7 @@ the big picture is missing.
 
 Only with streaming analytics you are able to create advanced services
 for the customer. Netflix for instance incorporated stream processing
-into Chuckwa V2.0 and the new Keystone pipeline.
+into Chukwa V2.0 and the new Keystone pipeline.
 
 One example of advanced services through stream processing is the
 Netflix "Trending Now" feature. Check out the Netflix case study.
@@ -1492,7 +1492,7 @@ InfluxDB and Spark Streaming
 
 <https://towardsdatascience.com/processing-time-series-data-in-real-time-with-influxdb-and-structured-streaming-d1864154cf8b>
 
-Building a Sreaming application with spark, grafana, chronogram and
+Building a Streaming application with spark, grafana, chronogram and
 influx:
 
 <https://medium.com/@xaviergeerinck/building-a-real-time-streaming-dashboard-with-spark-grafana-chronograf-and-influxdb-e262b68087de>
