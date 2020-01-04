@@ -119,7 +119,7 @@ this document. I still need to sort them accordingly.
 
 -   What file formats can you use in Hadoop?
 
--   What is the difference between a name and a datanode?
+-   What is the difference between a namenode and a datanode?
 
 -   What is HDFS?
 
