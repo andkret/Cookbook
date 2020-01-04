@@ -187,7 +187,7 @@ done.
 
 The machine learning process shows, that you start with a training phase. A phase where you are basically training the algorithms to create the right output.
 
-In the in the learning phase you are having the input parameters. Basically the configuration of the model and you have the input data.
+In the learning phase you are having the input parameters. Basically the configuration of the model and you have the input data.
 
 What you're doing is you are training the algorithm. While training the algorithm modifies the training
 parameters. It also modifies the used data and then you are getting to an output.
