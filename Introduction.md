@@ -8,7 +8,7 @@ Introduction
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
   - [Data Scientist](Introduction.md#data-scientist)
     - [Data Scientist Type A](Introduction.md#data-scientist-type-a)
-    - [Data Scientist Type A](Introduction.md#data-scientist-type-b)
+    - [Data Scientist Type B](Introduction.md#data-scientist-type-b)
   - [Data Engineer](Introduction.md#data-engineer)
 - [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
   - [Connect](Introduction.md#connect)
@@ -187,7 +187,7 @@ done.
 
 The machine learning process shows, that you start with a training phase. A phase where you are basically training the algorithms to create the right output.
 
-In the in the learning phase you are having the input parameters. Basically the configuration of the model and you have the input data.
+In the learning phase you are having the input parameters. Basically the configuration of the model and you have the input data.
 
 What you're doing is you are training the algorithm. While training the algorithm modifies the training
 parameters. It also modifies the used data and then you are getting to an output.
@@ -339,11 +339,11 @@ The API is publishing into the message queue. Data is buffered there until it is
 If you don't have a buffer you can run into problems when writing directly into a store, or you're processing the data directly. You can always have peaks of incoming data that stall the systems.
 
 Like, it's lunch break and people are working with your app way more then usually.
-There's more data coming in very very fast. Faster than the analytics of the storage can can work with.
+There's more data coming in very very fast. Faster than the analytics of the storage can handle.
 
 In this case you would run into problems, because the whole system would stall. It would therefor take long to process the data and your customers would be annoyed.
 
-With a buffer you're buffering the the incoming data. Processes for storage and analytics can take out only as much data as they can process. You are no longer in danger of overpowering systems.
+With a buffer you're buffering the incoming data. Processes for storage and analytics can take out only as much data as they can process. You are no longer in danger of overpowering systems.
 
 Buffers are also really good for building pipelines.
 
@@ -372,14 +372,14 @@ To learn more about stream and batch processing read my blog post:
 Products
 
 The analytics process, batch or streaming, is not a one way process.
-Analytics also can write data back to the big data storage.
+Analytics can also write data back to the big data storage.
 
 Often times writing data back to the storage makes sense. It allows you
 to combine previous analytics outputs with the raw data.
 
-Analytics insight can give meaning to the raw data when you combine
-them. This combination will often times allow you to create even more
-useful insight.
+Analytics give insights when you combine
+raw data. This combination will often times allow you to create even more
+useful insights.
 
 A wide variety of analytics tools are available. Ranging from MapReduce
 or AWS Elastic MapReduce to Apache Spark and AWS lambda.
@@ -396,7 +396,7 @@ Why not throw something away when it is useless?
 
 Although it seems useless for now, data scientists can work with the
 data. They might find new ways to analyse the data and generate valuable
-insight from it.
+insights from it.
 
 What kind of systems can be used to store big data?
 
@@ -409,14 +409,14 @@ Check out my podcast how to decide between SQL and NoSQL:
 ### Visualize
 
 Displaying data is as important as ingesting, storing and analysing it.
-People need to be able to make data driven decisions.
+Visualizations enable business users to make data driven decisions.
 
 This is why it is important to have a good visual presentation of the
 data. Sometimes you have a lot of different use cases or projects using
 the platform.
 
 It might not be possible for you to build the perfect UI that fits
-everyone. What you should do in this case is enable others to build the
+everyone needs. What you should do in this case is enable others to build the
 perfect UI themselves.
 
 How to do that? By creating APIs to access the data and making them
@@ -425,28 +425,25 @@ available to developers.
 Either way, UI or API the trick is to give the display stage direct
 access to the data in the big data cluster. This kind of access will
 allow the developers to use analytics results as well as raw data to
-build the the perfect application.
+build the perfect application.
 
 
 ## Who Companies Need
 
-For a good company it is absolutely important to get well trained data
-engineers and data scientists. Think of the data scientist as the
+For a company, it is important to have well-trained data
+engineers and data scientists. Think of the data scientist as a
 professional race car driver. A fit athlete with talent and driving
-skills like you have never seen.
+skills like you have never seen before.
 
 What he needs to win races is someone who will provide him the perfect
-race car to drive. That's what the solution architect is for.
+race car to drive. It is the data engineer/solution architect who will design and built the race car.
 
-Like the driver and his team the data scientist and the data engineer
-need to work closely together. They need to know the different big data
-tools inside and out.
+Like the driver and the race car engineer, the data scientist and the data engineer need to work closely together. They need to know the different big data tools inside out.
 
-That's why companies are looking for people with Spark experience. It is
-a common ground between both that drives innovation.
+That's why companies are looking for people with Spark experience. Spark is the common ground between the data engineer and the data scientist that drives innovation.
 
 Spark gives data scientists the tools to do analytics and helps
 engineers to bring the data scientist's algorithms into production.
 After all, those two decide how good the data platform is, how good the
 analytics insight is and how fast the whole system gets into a
-production ready state.
+production-ready state.

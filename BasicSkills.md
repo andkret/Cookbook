@@ -34,7 +34,7 @@ Basic Data Engineering Skills
     - [Docker Micro Services](BasicSkills.md#docker-micro-services)
     - [Kubernetes](BasicSkills.md#kubernetes)
     - [Why and How To Do Docker Container Orchestration](BasicSkills.md#why-and-how-to-do-docker-container-orchestration)
-    - [Userful Docker Commands](BasicSkills.md#useful-docker-commands)
+    - [Useful Docker Commands](BasicSkills.md#useful-docker-commands)
 - [The Cloud](BasicSkills.md#the-cloud)
   - [IaaS vs PaaS vs SaaS](BasicSkills.md#iaas-vs-paas-vs-saas)
   - [AWS Azure IBM Google IBM](BasicSkills.md#aws-azure-ibm-google)
@@ -133,7 +133,7 @@ Also look into:
 
 -   Forking
 
-GitHub uses markdown to write pages. A super simple language that is actually a lot of fun to wrtie. Here's a markdown cheat cheatsheet:
+GitHub uses markdown to write pages. A super simple language that is actually a lot of fun to write. Here's a markdown cheat cheatsheet:
 <https://www.markdownguide.org/cheat-sheet/>
 
 Pandoc is a great tool to convert any text file from and to markdown:
@@ -352,7 +352,7 @@ find it theses days:
 
 ### IP Subnetting
 
-Check out this IP Adress and Subnet guide from Cisco:
+Check out this IP Address and Subnet guide from Cisco:
 <https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html>
 
 A calculator for Subnets:
