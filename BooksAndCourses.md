@@ -43,7 +43,7 @@ Of course all this comes at no additional expense to you, but it helps me a lot.
 
 You can find even more interesting books and my whole podcast equipment on my Amazon store:
 
-[Go to the Amazon store](www.amazon.com/shop/plumbersofdatascience)
+[Go to the Amazon store](https://www.amazon.com/shop/plumbersofdatascience)
 
 
 
