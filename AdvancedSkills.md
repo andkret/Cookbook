@@ -33,7 +33,7 @@ Advanced Data Engineering Skills
 - [Connect](AdvancedSkills.md#connect)
   - [REST APIs](AdvancedSkills.md#rest-apis)
     - [API Design](AdvancedSkills.md#api-design)
-    - [Implemenation Frameworks](AdvancedSkills.md#implementation-frameworks)
+    - [Implementation Frameworks](AdvancedSkills.md#implementation-frameworks)
     - [Security](AdvancedSkills.md#security)
   - [Apache Nifi](AdvancedSkills.md#apache-nifi)
   - [Logstash](AdvancedSkills.md#logstash)
@@ -1537,7 +1537,7 @@ InfluxDB and Spark Streaming
 
 <https://towardsdatascience.com/processing-time-series-data-in-real-time-with-influxdb-and-structured-streaming-d1864154cf8b>
 
-Building a Sreaming application with spark, grafana, chronogram and
+Building a Streaming application with spark, grafana, chronogram and
 influx:
 
 <https://medium.com/@xaviergeerinck/building-a-real-time-streaming-dashboard-with-spark-grafana-chronograf-and-influxdb-e262b68087de>
