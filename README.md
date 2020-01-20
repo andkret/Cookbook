@@ -16,6 +16,13 @@
   <a href="https://www.amazon.com/shop/plumbersofdatascience">Amazon Shop</a>
 </p>
 
+<br>
+
+### This Book Is & Will Always Be Free!  But Please Support What You Like!
+- **Amazon:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience) And buy whatever you like from Amazon* (Also check out my complete podcast gear and books)
+- **Patreon:** [Click Here](https://www.patreon.com/plumbersofds) Become a supporter on Patreon
+- **PayPal.me:** [Click Here](https://paypal.me/feedthestream) Send some support (Please include a message and I read and answer it in the next video)
+
 <!---
 I get asked super often how to become a Data Engineer.
 That's why I decided to start this cookbook with all the topics you need to look into.
@@ -25,7 +32,6 @@ It's not only useful for beginners, professionals will definitely like the case 
 If you look for the old PDF version it's [here](https://github.com/andkret/Cookbook/raw/LaTex-Version-Deprecated/Data%20Engineering%20Cookbook.pdf)
 
 -->
-<br>
 
 ## Contents:
 - [Introduction](Introduction.md)
@@ -35,7 +41,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Case Studies](CaseStudies.md)
 - [1001 Interview Questions](InterviewQuestions.md)
 - [Recommended Books and Courses](BooksAndCourses.md)
-<!-- -->
+<!--  -->
 
 - [How To Contribute](#how-to-contribute)
 - [Support What You Like](#support)
@@ -335,3 +341,7 @@ Check out my blog and get updated via mail by joining my mailing list:
 
 I have a Medium publication where you can publish your data engineer articles to reach more people:
 [Medium publication](https://link.medium.com/9oi1VDrhPW)
+
+<br>
+*(As an Amazon Associate I earn from qualifying purchases from Amazon
+This is free of charge for you, but super helpful for supporting this channel)
