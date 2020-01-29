@@ -51,7 +51,7 @@ better.
 
 **Help make this book awesome!**
 If you have some cool links or topics for the cookbook, please become a
-contributor on GitHub: <https://github.com/andkret/Cookbook>. Pull the
+contributor on GitHub: <https://github.com/andkret/Cookbook>. Fork the
 repo, add them and create a pull request. Or join the discussion by
 opening Issues. Tell me your thoughts, what you value,
 what you think should be included, or correct me where I am wrong.
@@ -125,7 +125,7 @@ The actual process of training and applying a model is not that hard. A
 lot of work for the data scientist is to figure out how to pre-process
 the data that gets fed to the algorithms.
 
-In order to train a algorithm you need useful data. If you use any data
+In order to train an algorithm you need useful data. If you use any data
 for the training the produced model will be very unreliable.
 
 A unreliable model for predicting machine failure would tell you that
@@ -341,7 +341,7 @@ If you don't have a buffer you can run into problems when writing directly into 
 Like, it's lunch break and people are working with your app way more then usually.
 There's more data coming in very very fast. Faster than the analytics of the storage can handle.
 
-In this case you would run into problems, because the whole system would stall. It would therefor take long to process the data and your customers would be annoyed.
+In this case you would run into problems, because the whole system would stall. It would therefore take long to process the data and your customers would be annoyed.
 
 With a buffer you're buffering the incoming data. Processes for storage and analytics can take out only as much data as they can process. You are no longer in danger of overpowering systems.
 
