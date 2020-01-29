@@ -91,7 +91,7 @@ Advanced Data Engineering Skills
     - [HDFS Document Store](AdvancedSkills.md#document-stores-hdfs)
     - [MongoDB Document Store](AdvancedSkills.md#document-stores-mongodb)
     - [Elasticsearch Document Store](AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
-
+    - [Graph Databases (Neo4j)](AdvancedSkills.md#graph-db-neo4j)
     - [Impala](AdvancedSkills.md#impala)
     - [Kudu](AdvancedSkills.md#kudu)
     - [Apache Druid](AdvancedSkills.md#apache-druid)
@@ -405,7 +405,7 @@ the big picture is missing.
 
 Only with streaming analytics you are able to create advanced services
 for the customer. Netflix for instance incorporated stream processing
-into Chukwa V2.0 and the new Keystone pipeline.
+into Chuckwa V2.0 and the new Keystone pipeline.
 
 One example of advanced services through stream processing is the
 Netflix "Trending Now" feature. Check out the Netflix case study.
@@ -1238,6 +1238,51 @@ it a lot easier to configure the resource management.
 ### Elasticsearch
 
 ![Link to Elatsicsearch Homepage](https://www.elastic.co/products/elastic-stack)
+
+### Graph DB
+
+Graph databases store data in terms of nodes and relationships. 
+Each node represents an entity (people, movies, things and other 
+data points) and a relationship represents how the nodes are related. 
+They are designed to store and treat the relationships with the same 
+importance of that of the data (or nodes in this case). This 
+relationship-first approach makes a lot of difference as the relationship 
+between data need not be inferred anymore with foreign and primary keys.
+
+Graph databases are especially useful when applications require 
+navigating through multiple and multi-level relationships between 
+various data points. 
+
+#### Neo4j
+
+Neo4j is currently the most popular graph database management system. 
+It is ACID compliant and provides its own implementation of a graph database.
+In addition to nodes and relationships, neo4j has the following components
+to enrich the data model with information.
+
+• Labels. These are used to group nodes, and each node can be assigned 
+multiple labels. Labels are indexed to speed up finding nodes in a graph.
+• Properties. These are attributes of both nodes and relationships. 
+Neo4j allows for storing data as key-value pairs, which means properties 
+can have any value (string, number, or boolean).
+
+##### Advantages
+
+• Neo4j is schema-free
+• Highly available and provides transactional guarantees
+• Cypher is a declarative query language which makes it very easy to navigate the graph
+• Neo4j is fast and easily traversible because the data is connected and is very easy to query, retrieve and navigate the graph
+• For the same reason as above, there are no joins in Neo4j
+
+##### Disadvantages
+
+• Neo4j is not the best for any kind of aggregations or sorting, in comparison with a relational database
+• While doable, they are not the best to handle transactional data like accounting
+• Sharding is currently not supported
+
+##### Use Cases
+
+https://neo4j.com/use-cases/
 
 ### Apache Solr
 
