@@ -756,6 +756,8 @@ https://azure.microsoft.com/en-us/services/iot-hub/
 
 ### Apache Kafka
 
+[A guide to message queues and data streaming with Apache Kafka](https://www.mikulskibartosz.name/data-streaming-with-Apache-Kafka/) written for data engineers who are preparing to a job interview
+
 #### Why a message queue tool?
 
 #### Kafka architecture
