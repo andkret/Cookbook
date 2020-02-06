@@ -6,10 +6,10 @@ Introduction
 
 - [What is this Cookbook](Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
-  - [Data Scientist](Introduction.md#data-scientist)
-    - [Data Scientist Type A](Introduction.md#data-scientist-type-a)
-    - [Data Scientist Type B](Introduction.md#data-scientist-type-b)
   - [Data Engineer](Introduction.md#data-engineer)
+  - [Data Scientist](Introduction.md#data-scientist)
+  - [Machine Learning Workflow](Introduction.md#machine-learning-workflow)
+  - [Machine Learning Model and Data](Introduction.md#machine-learning-model-and-data)
 - [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
   - [Connect](Introduction.md#connect)
   - [Buffer](Introduction.md#buffer)
@@ -78,6 +78,41 @@ Data Engineer vs Data Scientist
 | [Watch on YouTube](https://youtu.be/64TYZETOEdQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/050-Data-Engineer-Scientist-or-Analyst-Which-One-Is-For-You-e45ibl)
 
 
+### Data Engineer
+
+Data Engineers are the link between the management's data strategy
+and the data scientists that need to work with data.
+
+What they do is building the platforms that enable data scientists to do
+their magic.
+
+These platforms are usually used in five different ways:
+
+-   Data ingestion and storage of large amounts of data
+
+-   Algorithm creation by data scientists
+
+-   Automation of the data scientist's machine learning models and
+    algorithms for production use
+
+-   Data visualization for employees and customers
+
+-   Most of the time these guys start as traditional solution architects
+    for systems that involve SQL databases, web servers, SAP
+    installations and other "standard" systems.
+
+But to create big data platforms the engineer needs to be an expert in
+specifying, setting up and maintaining big data technologies like:
+Hadoop, Spark, HBase, Cassandra, MongoDB, Kafka, Redis and more.
+
+What they also need is experience on how to deploy systems on cloud
+infrastructure like at Amazon or Google or on-premise hardware.
+
+
+| Podcast Episode: #048 From Wannabe Data Scientist To Engineer My Journey
+|------------------|
+|In this episode Kate Strachnyi interviews me for her humans of data science podcast. We talk about how I found out that I am more into the engineering part of data science.  
+| [Watch on YouTube](https://youtu.be/pIZkTuN5AMM) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/048-From-Wannabe-Data-Scientist-To-Engineer-My-Journey-e45i2o)|
 
 ### Data Scientist
 
@@ -138,44 +173,7 @@ outputs to receive the outputs you desire
 ![The Machine Learning Pipeline](images/Machine-Learning-Pipeline.jpg)
 
 
-### Data Engineer
-
-Data Engineers are the link between the management's big data strategy
-and the data scientists that need to work with data.
-
-What they do is building the platforms that enable data scientists to do
-their magic.
-
-These platforms are usually used in five different ways:
-
--   Data ingestion and storage of large amounts of data
-
--   Algorithm creation by data scientists
-
--   Automation of the data scientist's machine learning models and
-    algorithms for production use
-
--   Data visualization for employees and customers
-
--   Most of the time these guys start as traditional solution architects
-    for systems that involve SQL databases, web servers, SAP
-    installations and other "standard" systems.
-
-But to create big data platforms the engineer needs to be an expert in
-specifying, setting up and maintaining big data technologies like:
-Hadoop, Spark, HBase, Cassandra, MongoDB, Kafka, Redis and more.
-
-What they also need is experience on how to deploy systems on cloud
-infrastructure like at Amazon or Google or on-premise hardware.
-
-
-| Podcast Episode: #048 From Wannabe Data Scientist To Engineer My Journey
-|------------------|
-|In this episode Kate Strachnyi interviews me for her humans of data science podcast. We talk about how I found out that I am more into the engineering part of data science.  
-| [Watch on YouTube](https://youtu.be/pIZkTuN5AMM) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/048-From-Wannabe-Data-Scientist-To-Engineer-My-Journey-e45i2o)|
-
-
-## Machine Learning Workflow
+### Machine Learning Workflow
 
 ![The Machine Learning Workflow](images/Machine-Learning-Workflow.jpg)
 
@@ -216,7 +214,7 @@ Once you are again satisfied with the output, you put it into production again. 
 This is the overall process how machine learning. It's how the learning part of data science is working.
 
 
-## Machine Learning Model and Data
+### Machine Learning Model and Data
 
 ![The Machine Learning Model](images/Machine-Learning-Model.jpg)
 

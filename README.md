@@ -51,8 +51,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 ##  Introduction
 - [What is this Cookbook](Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
-  - [Data Scientist](Introduction.md#data-scientist)
   - [Data Engineer](Introduction.md#data-engineer)
+  - [Data Scientist](Introduction.md#data-scientist)
+  - [Machine Learning Workflow](Introduction.md#machine-learning-workflow)
+  - [Machine Learning Model and Data](Introduction.md#machine-learning-model-and-data)
 - [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
   - [Connect](Introduction.md#connect)
   - [Buffer](Introduction.md#buffer)
