@@ -1,3 +1,22 @@
+
+- [Amazon Web Services (AWS)](BestPracticesCloud.md#aws)
+  - [Connect](BestPracticesCloud.md#Connect)
+  - [Buffer](BestPracticesCloud.md#Buffer)
+  - [Processing](BestPracticesCloud.md#Processing)
+  - [Store](BestPracticesCloud.md#Store)
+  - [Visualize](BestPracticesCloud.md#Visualize)
+  - [Containerization](BestPracticesCloud.md#Containerization)
+  - [Best Practices](BestPracticesCloud.md#Best-Practices)
+  - [More Details](BestPracticesCloud.md#More-Details)
+- [Microsoft Azure](BestPracticesCloud.md#azure)
+  - [Connect](BestPracticesCloud.md#Connect-1)
+  - [Buffer](BestPracticesCloud.md#Buffer-1)
+  - [Processing](BestPracticesCloud.md#Processing-1)
+  - [Store](BestPracticesCloud.md#Store-1)
+  - [Visualize](BestPracticesCloud.md#Visualize-1)
+  - [Containerization](BestPracticesCloud.md#Containerization-1)
+  - [Best Practices](BestPracticesCloud.md#Best-Practices-1)
+  - [More Details](BestPracticesCloud.md#More-Details-1)
 # AWS
 ## Connect
 - Elastic Beanstalk
@@ -8,8 +27,8 @@
 - Kinesis Data Firehose
 - Managed Streaming for Kafka (MSK)
 - MQ
-- SQS
-- SNS
+- Simple Queue Service (SQS)
+- Simple Notification Service (SNS)
 ## Processing
 - Athena
 - EMR
@@ -21,7 +40,7 @@
 - Lambda
 - SageMaker
 ## Store
-- S3
+- Simple Storage Service (S3)
 - Redshift
 - Aurora
 - RDS
@@ -33,10 +52,17 @@
 ## Visualize
 - Quicksight
 
-## More Details https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+## Containerization
+- Elastic Container Service (ECS)
+- Elastic Container Registry (ECR)
+- Elastic Kubernetes Service (EKS)
 
 ## Best Practices
+https://aws.amazon.com/de/blogs/devops/deploying-a-spring-boot-application-on-aws-using-aws-elastic-beanstalk/
 
+https://towardsdatascience.com/how-to-deploy-a-docker-container-python-on-amazon-ecs-using-amazon-ecr-9c52922b738f
+
+## More Details https://d1.awsstatic.com/whitepapers/aws-overview.pdf
 
 # Azure
 ## Connect
@@ -62,6 +88,7 @@
 - Azure Storage (SQL Table?)
 ## Visualize
 - PowerBI
+## Containerization
 ## Best Practices
 
 https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/anomaly-detection-in-real-time-data-streams
@@ -93,3 +120,5 @@ https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/stre
 ## Processing
 ## Store
 ## Visualize
+## Containerization
+## Best Practices
