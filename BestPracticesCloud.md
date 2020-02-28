@@ -1,3 +1,7 @@
+Best Practices Cloud Platforms
+=============================
+
+## Contents
 
 - [Amazon Web Services (AWS)](BestPracticesCloud.md#aws)
   - [Connect](BestPracticesCloud.md#Connect)
@@ -16,7 +20,15 @@
   - [Visualize](BestPracticesCloud.md#Visualize-1)
   - [Containerization](BestPracticesCloud.md#Containerization-1)
   - [Best Practices](BestPracticesCloud.md#Best-Practices-1)
-  - [More Details](BestPracticesCloud.md#More-Details-1)
+- [Google Cloud Platform (GCP)](BestPracticesCloud.md#gcp)
+  - [Connect](BestPracticesCloud.md#Connect-2)
+  - [Buffer](BestPracticesCloud.md#Buffer-2)
+  - [Processing](BestPracticesCloud.md#Processing-2)
+  - [Store](BestPracticesCloud.md#Store-2)
+  - [Visualize](BestPracticesCloud.md#Visualize-2)
+  - [Containerization](BestPracticesCloud.md#Containerization-2)
+  - [Best Practices](BestPracticesCloud.md#Best-Practices-2)
+
 # AWS
 ## Connect
 - Elastic Beanstalk

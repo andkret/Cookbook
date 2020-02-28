@@ -283,6 +283,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Data Science @Woot](CaseStudies.md#data-science-at-Woot)
 - [Data Science @Zalando](CaseStudies.md#data-science-at-Zalando)
 
+## Best Practices Cloud Platforms
+
+- [Best Practices Cloud Platforms](BestPracticesCloud.md)
+
 ## 1001 Interview Questions
 
 - [Interview Questions](InterviewQuestions.md)
