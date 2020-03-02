@@ -70,11 +70,20 @@ Best Practices Cloud Platforms
 - Elastic Kubernetes Service (EKS)
 
 ## Best Practices
-https://aws.amazon.com/de/blogs/devops/deploying-a-spring-boot-application-on-aws-using-aws-elastic-beanstalk/
+Deploying a Spring Boot Application on AWS Using AWS Elastic Beanstalk:
 
-https://towardsdatascience.com/how-to-deploy-a-docker-container-python-on-amazon-ecs-using-amazon-ecr-9c52922b738f
+[https://aws.amazon.com/de/blogs/devops/deploying-a-spring-boot-application-on-aws-using-aws-elastic-beanstalk/](https://aws.amazon.com/de/blogs/devops/deploying-a-spring-boot-application-on-aws-using-aws-elastic-beanstalk/)
 
-## More Details https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+How to deploy a Docker Container on AWS:
+
+[https://towardsdatascience.com/how-to-deploy-a-docker-container-python-on-amazon-ecs-using-amazon-ecr-9c52922b738f](https://towardsdatascience.com/how-to-deploy-a-docker-container-python-on-amazon-ecs-using-amazon-ecr-9c52922b738f)
+
+
+## More Details
+AWS Whitepapers:
+
+[https://d1.awsstatic.com/whitepapers/aws-overview.pdf](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
+
 
 # Azure
 ## Connect
@@ -103,27 +112,50 @@ https://towardsdatascience.com/how-to-deploy-a-docker-container-python-on-amazon
 ## Containerization
 ## Best Practices
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/anomaly-detection-in-real-time-data-streams
+Advanced Analytics Architecture:
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/advanced-analytics-on-big-data
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/advanced-analytics-on-big-data](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/advanced-analytics-on-big-data)
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/modern-data-warehouse
+Anomaly Detection in Real-time Data Streams:
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/cicd-for-containers
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/anomaly-detection-in-real-time-data-streams](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/anomaly-detection-in-real-time-data-streams)
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/real-time-analytics
+Modern Data Warehouse Architecture:
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/anomaly-detection-in-real-time-data-streams
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/modern-data-warehouse](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/modern-data-warehouse)
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-iot-subsystems
+CI/CD for Containers:
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/tiered-data-for-analytics
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/cicd-for-containers](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/cicd-for-containers)
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/extract-transform-and-load-using-hdinsight
+Real Time Analytics on Big Data Architecture:
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/iot-using-cosmos-db
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/real-time-analytics](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/real-time-analytics)
 
-https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/streaming-using-hdinsight
+Anomaly Detection in Real-time Data Streams:
+
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/anomaly-detection-in-real-time-data-streams](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/anomaly-detection-in-real-time-data-streams)
+
+IoT Architecture – Azure IoT Subsystems:
+
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-iot-subsystems](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-iot-subsystems)
+
+Tier Applications & Data for Analytics:
+
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/tiered-data-for-analytics](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/tiered-data-for-analytics)
+
+Extract, transform, and load (ETL) using HDInsight:
+
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/extract-transform-and-load-using-hdinsight](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/extract-transform-and-load-using-hdinsight)
+
+IoT using Cosmos DB:
+
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/iot-using-cosmos-db](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/iot-using-cosmos-db)
+
+Streaming using HDInsight:
+
+[https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/streaming-using-hdinsight](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/streaming-using-hdinsight)
+
 
 
 # GCP
