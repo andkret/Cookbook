@@ -51,8 +51,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 ##  Introduction
 - [What is this Cookbook](Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](Introduction.md#data-engineer-vs-data-scientist)
-  - [Data Scientist](Introduction.md#data-scientist)
   - [Data Engineer](Introduction.md#data-engineer)
+  - [Data Scientist](Introduction.md#data-scientist)
+  - [Machine Learning Workflow](Introduction.md#machine-learning-workflow)
+  - [Machine Learning Model and Data](Introduction.md#machine-learning-model-and-data)
 - [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
   - [Connect](Introduction.md#connect)
   - [Buffer](Introduction.md#buffer)
@@ -114,15 +116,6 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
     - [Scaling Up](AdvancedSkills.md#scaling-up)
     - [Scaling Out](AdvancedSkills.md#scaling-out)
     - [When not to Do Big Data](AdvancedSkills.md#please-dont-go-big-data)
-  - [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
-  - [Batch Processing](AdvancedSkills.md#batch-processing)
-  - [Stream Processing](AdvancedSkills.md#stream-processing)
-    - [Three Methods of Streaming](AdvancedSkills.md#three-methods-of-streaming)
-    - [At Least Once](AdvancedSkills.md#at-least-once)
-    - [At Most Once](AdvancedSkills.md#at-most-once)
-    - [Exactly Once](AdvancedSkills.md#exactly-once)
-    - [Check The Tools](AdvancedSkills.md#check-the-tools)
-  - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
 - [Hadoop Platforms](AdvancedSkills.md#hadoop-platforms)
   - [What is Hadoop](AdvancedSkills.md#what-is-hadoop)
   - [What makes Hadoop so popular](AdvancedSkills.md#what-makes-hadoop-so-popular)
@@ -149,7 +142,16 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [AWS Kinesis](AdvancedSkills.md#apache-kafka)
   - [Google Cloud PubSub](AdvancedSkills.md#google-cloud-pubsub)
 - [Processing Frameworks](AdvancedSkills.md#processing-frameworks)
-  - [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
+	- [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
+	- [Batch Processing](AdvancedSkills.md#batch-processing)
+	- [Stream Processing](AdvancedSkills.md#stream-processing)
+		- [Three Methods of Streaming](AdvancedSkills.md#three-methods-of-streaming)
+		- [At Least Once](AdvancedSkills.md#at-least-once)
+		- [At Most Once](AdvancedSkills.md#at-most-once)
+		- [Exactly Once](AdvancedSkills.md#exactly-once)
+		- [Check The Tools](AdvancedSkills.md#check-the-tools)
+	- [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
+	- [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
   - [MapReduce](AdvancedSkills.md#mapreduce)
     - [How Does MapReduce Work](AdvancedSkills.md#How-does-mapreduce-work)
     - [MapReduce](AdvancedSkills.md#mapreduce)
@@ -280,6 +282,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Data Science @Upwork](CaseStudies.md#data-science-at-Upwork)
 - [Data Science @Woot](CaseStudies.md#data-science-at-Woot)
 - [Data Science @Zalando](CaseStudies.md#data-science-at-Zalando)
+
+## Best Practices Cloud Platforms
+
+- [Best Practices Cloud Platforms](BestPracticesCloud.md)
 
 ## 1001 Interview Questions
 

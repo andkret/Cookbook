@@ -14,15 +14,6 @@ Advanced Data Engineering Skills
     - [Scaling Up](AdvancedSkills.md#scaling-up)
     - [Scaling Out](AdvancedSkills.md#scaling-out)
     - [When not to Do Big Data](AdvancedSkills.md#please-dont-go-big-data)
-  - [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
-  - [Batch Processing](AdvancedSkills.md#batch-processing)
-  - [Stream Processing](AdvancedSkills.md#stream-processing)
-    - [Three Methods of Streaming](AdvancedSkills.md#three-methods-of-streaming)
-    - [At Least Once](AdvancedSkills.md#at-least-once)
-    - [At Most Once](AdvancedSkills.md#at-most-once)
-    - [Exactly Once](AdvancedSkills.md#exactly-once)
-    - [Check The Tools](AdvancedSkills.md#check-the-tools)
-  - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
 - [Hadoop Platforms](AdvancedSkills.md#hadoop-platforms)
   - [What is Hadoop](AdvancedSkills.md#what-is-hadoop)
   - [What makes Hadoop so popular](AdvancedSkills.md#what-makes-hadoop-so-popular)
@@ -49,6 +40,15 @@ Advanced Data Engineering Skills
   - [AWS Kinesis](AdvancedSkills.md#apache-kafka)
   - [Google Cloud PubSub](AdvancedSkills.md#google-cloud-pubsub)
 - [Processing Frameworks](AdvancedSkills.md#processing-frameworks)
+  - [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
+  - [Batch Processing](AdvancedSkills.md#batch-processing)
+  - [Stream Processing](AdvancedSkills.md#stream-processing)
+    - [Three Methods of Streaming](AdvancedSkills.md#three-methods-of-streaming)
+    - [At Least Once](AdvancedSkills.md#at-least-once)
+    - [At Most Once](AdvancedSkills.md#at-most-once)
+    - [Exactly Once](AdvancedSkills.md#exactly-once)
+    - [Check The Tools](AdvancedSkills.md#check-the-tools)
+  - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
   - [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
   - [MapReduce](AdvancedSkills.md#mapreduce)
     - [How Does MapReduce Work](AdvancedSkills.md#How-does-mapreduce-work)
@@ -340,171 +340,6 @@ If you don't need it it's making absolutely no sense at all!
 On the other side: If you really need big data tools they will save your
 ass :)
 
-### Lambda and Kappa Architecture
-
-| Podcast Episode: #077 Lambda Architecture and Kappa Architecture
-|------------------|
-|In this stream we talk about the lambda architecture with stream and batch processing as well as a alternative the Kappa Architecture that consists only of streaming. Also Data engineer vs data scientist and we discuss Andrew Ng’s AI Transformation Playbook.  
-| [Watch on YouTube](https://youtu.be/iUOQPyHN9-0) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/077-Lambda--Kappa-Architecture-e45j0r)|
-
-
-### Batch Processing
-
-Ask the big questions. Remember your last yearly tax statement?
-
-You break out the folders. You run around the house searching for the
-receipts.
-
-All that fun stuff.
-
-When you finally found everything you fill out the form and send it on
-its way.
-
-Doing the tax statement is a prime example of a batch process.
-
-Data comes in and gets stored, analytics loads the data from storage and
-creates an output (insight):
-
-![Batch Processing Pipeline](images/Simple-Batch-Processing-Workflow.jpg)
-
-Batch processing is something you do either without a schedule or on a
-schedule (tax statement). It is used to ask the big questions and gain
-the insights by looking at the big picture.
-
-To do so, batch processing jobs use large amounts of data. This data is
-provided by storage systems like Hadoop HDFS.
-
-They can store lots of data (petabytes) without a problem.
-
-Results from batch jobs are very useful, but the execution time is high.
-Because the amount of used data is high.
-
-It can take minutes or sometimes hours until you get your results.
-
-### Stream Processing
-
-Gain instant insight into your data.
-
-Streaming allows users to make quick decisions and take actions based on
-"real-time" insight. Contrary to batch processing, streaming processes
-data on the fly, as it comes in.
-
-With streaming you don't have to wait minutes or hours to get results.
-You gain instant insight into your data.
-
-In the batch processing pipeline, the analytics was after the data
-storage. It had access to all the available data.
-
-Stream processing creates insight before the data storage. It has only
-access to fragments of data as it comes in.
-
-As a result the scope of the produced insight is also limited. Because
-the big picture is missing.
-
-![Stream Processing Pipeline](images/Simple-Stream-Processing-Workflow.jpg)
-
-Only with streaming analytics you are able to create advanced services
-for the customer. Netflix for instance incorporated stream processing
-into Chuckwa V2.0 and the new Keystone pipeline.
-
-One example of advanced services through stream processing is the
-Netflix "Trending Now" feature. Check out the Netflix case study.
-
-#### Three methods of streaming
-
-In stream processing sometimes it is ok to drop messages, other times it
-is not. Sometimes it is fine to process a message multiple times, other
-times that needs to be avoided like hell.
-
-Today's topic are the different methods of streaming: At most once, at
-least once and exactly once.
-
-What this means and why it is so important to keep them in mind when
-creating a solution. That is what you will find out in this article.
-
-#### At Least Once
-
-At least once, means a message gets processed in the system once or
-multiple times. So with at least once it's not possible that a message
-gets into the system and is not getting processed.
-
-It's not getting dropped or lost somewhere in the system.
-
-One example where at least once processing can be used is when you think
-about a fleet management of cars. You get GPS data from cars and that
-data is transmitted with a timestamp and the GPS coordinates.
-
-It's important that you get the GPS data at least once, so you know
-where the car is. If you're processing this data multiple times, it
-always has the the timestamp with it.
-
-Because of that it does not matter that it gets processed multiple
-times, because of the timestamp. Or that it would be stored multiple
-times, because it would just override the existing one.
-
-#### At Most Once
-
-The second streaming method is at most once. At most once means that
-it's okay to drop some information, to drop some messages.
-
-But it's important that a message is only only processed once as a
-maximum.
-
-A example for this is event processing. Some event is happening and that
-event is not important enough, so it can be dropped. It doesn't have any
-consequences when it gets dropped.
-
-But when that event happens it's important that it does not get
-processed multiple times. Then it would look as if the event happened
-five or six times instead of only one.
-
-Think about engine misfires. If it happens once, no big deal. But if the
-system tells you it happens a lot you will think you have a problem with
-your engine.
-
-#### Exactly Once
-
-Another thing is exactly once, this means it's not okay to drop data,
-it's not okay to lose data and it's also not okay to process data
-multiple times.
-
-An example for this is banking. When you think about credit card
-transactions it's not okay to drop a transaction.
-
-When dropped, your payment is not going through. It's also not okay to
-have a transaction processed multiple times, because then you are paying
-multiple times.
-
-#### Check The Tools!
-
-All of this sounds very simple and logical. What kind of processing is
-done has to be a requirement for your use case.
-
-It needs to be thought about in the design process, because not every
-tool is supporting all three methods. Very often you need to code your
-application very differently based on the streaming method.
-
-Especially exactly once is very hard to do.
-
-So, the tool of data processing needs to be chosen based on if you need
-exactly once, at least once or if you need at most once.
-
-
-### Should you do stream or batch processing?
-
-It is a good idea to start with batch processing. Batch processing is
-the foundation of every good big data platform.
-
-A batch processing architecture is simple, and therefore quick to set
-up. Platform simplicity means, it will also be relatively cheap to run.
-
-A batch processing platform will enable you to quickly ask the big
-questions. They will give you invaluable insight into your data and
-customers.
-
-When the time comes and you also need to do analytics on the fly, then
-add a streaming pipeline to your batch processing big data platform.
-
 ## Hadoop Platforms
 
 When people talk about big data, one of the first things come to mind is
@@ -795,6 +630,171 @@ Start Kafka container:
 ### Google Cloud PubSub
 
 ## Processing Frameworks
+
+### Lambda and Kappa Architecture
+
+| Podcast Episode: #077 Lambda Architecture and Kappa Architecture
+|------------------|
+|In this stream we talk about the lambda architecture with stream and batch processing as well as a alternative the Kappa Architecture that consists only of streaming. Also Data engineer vs data scientist and we discuss Andrew Ng’s AI Transformation Playbook.  
+| [Watch on YouTube](https://youtu.be/iUOQPyHN9-0) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/077-Lambda--Kappa-Architecture-e45j0r)|
+
+
+### Batch Processing
+
+Ask the big questions. Remember your last yearly tax statement?
+
+You break out the folders. You run around the house searching for the
+receipts.
+
+All that fun stuff.
+
+When you finally found everything you fill out the form and send it on
+its way.
+
+Doing the tax statement is a prime example of a batch process.
+
+Data comes in and gets stored, analytics loads the data from storage and
+creates an output (insight):
+
+![Batch Processing Pipeline](images/Simple-Batch-Processing-Workflow.jpg)
+
+Batch processing is something you do either without a schedule or on a
+schedule (tax statement). It is used to ask the big questions and gain
+the insights by looking at the big picture.
+
+To do so, batch processing jobs use large amounts of data. This data is
+provided by storage systems like Hadoop HDFS.
+
+They can store lots of data (petabytes) without a problem.
+
+Results from batch jobs are very useful, but the execution time is high.
+Because the amount of used data is high.
+
+It can take minutes or sometimes hours until you get your results.
+
+### Stream Processing
+
+Gain instant insight into your data.
+
+Streaming allows users to make quick decisions and take actions based on
+"real-time" insight. Contrary to batch processing, streaming processes
+data on the fly, as it comes in.
+
+With streaming you don't have to wait minutes or hours to get results.
+You gain instant insight into your data.
+
+In the batch processing pipeline, the analytics was after the data
+storage. It had access to all the available data.
+
+Stream processing creates insight before the data storage. It has only
+access to fragments of data as it comes in.
+
+As a result the scope of the produced insight is also limited. Because
+the big picture is missing.
+
+![Stream Processing Pipeline](images/Simple-Stream-Processing-Workflow.jpg)
+
+Only with streaming analytics you are able to create advanced services
+for the customer. Netflix for instance incorporated stream processing
+into Chuckwa V2.0 and the new Keystone pipeline.
+
+One example of advanced services through stream processing is the
+Netflix "Trending Now" feature. Check out the Netflix case study.
+
+#### Three methods of streaming
+
+In stream processing sometimes it is ok to drop messages, other times it
+is not. Sometimes it is fine to process a message multiple times, other
+times that needs to be avoided like hell.
+
+Today's topic are the different methods of streaming: At most once, at
+least once and exactly once.
+
+What this means and why it is so important to keep them in mind when
+creating a solution. That is what you will find out in this article.
+
+#### At Least Once
+
+At least once, means a message gets processed in the system once or
+multiple times. So with at least once it's not possible that a message
+gets into the system and is not getting processed.
+
+It's not getting dropped or lost somewhere in the system.
+
+One example where at least once processing can be used is when you think
+about a fleet management of cars. You get GPS data from cars and that
+data is transmitted with a timestamp and the GPS coordinates.
+
+It's important that you get the GPS data at least once, so you know
+where the car is. If you're processing this data multiple times, it
+always has the the timestamp with it.
+
+Because of that it does not matter that it gets processed multiple
+times, because of the timestamp. Or that it would be stored multiple
+times, because it would just override the existing one.
+
+#### At Most Once
+
+The second streaming method is at most once. At most once means that
+it's okay to drop some information, to drop some messages.
+
+But it's important that a message is only only processed once as a
+maximum.
+
+A example for this is event processing. Some event is happening and that
+event is not important enough, so it can be dropped. It doesn't have any
+consequences when it gets dropped.
+
+But when that event happens it's important that it does not get
+processed multiple times. Then it would look as if the event happened
+five or six times instead of only one.
+
+Think about engine misfires. If it happens once, no big deal. But if the
+system tells you it happens a lot you will think you have a problem with
+your engine.
+
+#### Exactly Once
+
+Another thing is exactly once, this means it's not okay to drop data,
+it's not okay to lose data and it's also not okay to process data
+multiple times.
+
+An example for this is banking. When you think about credit card
+transactions it's not okay to drop a transaction.
+
+When dropped, your payment is not going through. It's also not okay to
+have a transaction processed multiple times, because then you are paying
+multiple times.
+
+#### Check The Tools!
+
+All of this sounds very simple and logical. What kind of processing is
+done has to be a requirement for your use case.
+
+It needs to be thought about in the design process, because not every
+tool is supporting all three methods. Very often you need to code your
+application very differently based on the streaming method.
+
+Especially exactly once is very hard to do.
+
+So, the tool of data processing needs to be chosen based on if you need
+exactly once, at least once or if you need at most once.
+
+
+### Should you do stream or batch processing?
+
+It is a good idea to start with batch processing. Batch processing is
+the foundation of every good big data platform.
+
+A batch processing architecture is simple, and therefore quick to set
+up. Platform simplicity means, it will also be relatively cheap to run.
+
+A batch processing platform will enable you to quickly ask the big
+questions. They will give you invaluable insight into your data and
+customers.
+
+When the time comes and you also need to do analytics on the fly, then
+add a streaming pipeline to your batch processing big data platform.
 
 ### Is ETL still relevant for Analytics?
 
@@ -1241,29 +1241,29 @@ it a lot easier to configure the resource management.
 
 ### Graph DB
 
-Graph databases store data in terms of nodes and relationships. 
-Each node represents an entity (people, movies, things and other 
-data points) and a relationship represents how the nodes are related. 
-They are designed to store and treat the relationships with the same 
-importance of that of the data (or nodes in this case). This 
-relationship-first approach makes a lot of difference as the relationship 
+Graph databases store data in terms of nodes and relationships.
+Each node represents an entity (people, movies, things and other
+data points) and a relationship represents how the nodes are related.
+They are designed to store and treat the relationships with the same
+importance of that of the data (or nodes in this case). This
+relationship-first approach makes a lot of difference as the relationship
 between data need not be inferred anymore with foreign and primary keys.
 
-Graph databases are especially useful when applications require 
-navigating through multiple and multi-level relationships between 
-various data points. 
+Graph databases are especially useful when applications require
+navigating through multiple and multi-level relationships between
+various data points.
 
 #### Neo4j
 
-Neo4j is currently the most popular graph database management system. 
+Neo4j is currently the most popular graph database management system.
 It is ACID compliant and provides its own implementation of a graph database.
 In addition to nodes and relationships, neo4j has the following components
 to enrich the data model with information.
 
-• Labels. These are used to group nodes, and each node can be assigned 
+• Labels. These are used to group nodes, and each node can be assigned
 multiple labels. Labels are indexed to speed up finding nodes in a graph.
-• Properties. These are attributes of both nodes and relationships. 
-Neo4j allows for storing data as key-value pairs, which means properties 
+• Properties. These are attributes of both nodes and relationships.
+Neo4j allows for storing data as key-value pairs, which means properties
 can have any value (string, number, or boolean).
 
 ##### Advantages
