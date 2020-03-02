@@ -10,7 +10,7 @@ Introduction
   - [Data Scientist](Introduction.md#data-scientist)
   - [Machine Learning Workflow](Introduction.md#machine-learning-workflow)
   - [Machine Learning Model and Data](Introduction.md#machine-learning-model-and-data)
-- [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
+- [My Data Science Platform Blueprint](Introduction.md#my-data-science-platform-blueprint)
   - [Connect](Introduction.md#connect)
   - [Buffer](Introduction.md#buffer)
   - [Processing Framework](Introduction.md#processing-framework)
@@ -268,7 +268,7 @@ All in all, the data engineer's part is a computer science part.
 That's why I love it so much :)
 
 
-## My Big Data Platform Blueprint
+## My Data Science Platform Blueprint
 
 I have created a simple and modular big data platform
 blueprint. It is based on what I have seen in the field and
