@@ -23,10 +23,10 @@
 - **Patreon:** [Click Here](https://www.patreon.com/plumbersofds) Become a supporter on Patreon
 - **PayPal.me:** [Click Here](https://paypal.me/feedthestream) Send some support (Please include a message and I read and answer it in the next video)
 
-### Data Engineer Coaching To Help You On Your Journey:
+### I'm Doing Data Engineer Coaching To Help You On Your Journey:
 Do you need help becoming a Data Engineer and doing a personal project?
 I offer Data Engineer Coaching to help you on your journey.
-Go to [teamdatascience.com](https://teamdatascience.com) to learn more
+Go to my website **[teamdatascience.com](https://teamdatascience.com)** to learn more.
 
 <!---
 I get asked super often how to become a Data Engineer.
