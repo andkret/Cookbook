@@ -13,7 +13,7 @@ Take your time and research the tools and learn how they work.
 Right now the Azure section has a lot of links to platform examples.
 They are also useful for AWS and GCP, just try to change out the tools.
 
-As always, I am going to add more stuff to this over time. 
+As always, I am going to add more stuff to this over time.
 
 Have fun!
 
@@ -172,13 +172,32 @@ Streaming using HDInsight:
 
 [https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/streaming-using-hdinsight](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/streaming-using-hdinsight)
 
-
-
 # GCP
 ## Connect
+- Cloud IoT Core
+- App Engine
+- Cloud Dataflow
 ## Buffer
+- Pub/Sub
 ## Processing
+- Compute Engine
+- Cloud functions
+
+- Cloud Dataflow
+- Cloud Dataproc
+- Cloud Datalab
+- Cloud Dataprep
+- Cloud Composer
 ## Store
+- Cloud Storage
+- Cloud SQL
+- Cloud Spanner
+- Cloud Datastore
+- Cloud BigTable
+- Cloud Storage
+- Cloud Memorystore
 ## Visualize
+- BigQuery
 ## Containerization
+- Kubernetes Engine
 ## Best Practices
