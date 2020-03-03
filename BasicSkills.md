@@ -207,27 +207,27 @@ expensive if you need to hire new employees.
 The problem with outsourcing is that you pay someone to build stuff for
 you.
 
-It does not matter who you pay to do something for you. He needs to make
+It does not matter who you pay to do something for you. They need to make
 money.
 
-His agenda will be to spend as little time as possible on your work. That
+They agenda will be to spend as little time as possible on your work. That
 is why outsourcing requires contracts, detailed specifications,
 timetables and delivery dates.
 
-He doesn't want to spend additional time on a project, only because you
-want changes in the middle. Every unplanned change costs him time and
+They don't want to spend additional time on a project, only because you
+want changes in the middle. Every unplanned change costs them time and
 therefore money.
 
 If so, you need to make another detailed specification and a contract
 change.
 
-He is not going to put his mind into improving the product while
-developing. Firstly because he does not have the big picture. Secondly
-because he does not want to.
+They are not going to put their mind into improving the product while
+developing. Firstly because they do not have the big picture. Secondly
+because they do not want to.
 
-He is doing as he is told.
+They are doing as they are told.
 
-Who can blame him? If I was the subcontractor I would do exactly the
+Who can blame them? If I was the subcontractor I would do exactly the
 same!
 
 Does this sound agile to you?

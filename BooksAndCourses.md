@@ -63,6 +63,7 @@ PS: Don't just get a book and expect to learn everything
 #### Python
 
 [Learning Python, 5th Edition](https://amzn.to/2MdpM34)
+[Think Python, 2nd edition](https://greenteapress.com/wp/think-python-2e/)
 
 
 #### Scala
