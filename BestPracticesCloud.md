@@ -181,13 +181,13 @@ Streaming using HDInsight:
 - Pub/Sub
 ## Processing
 - Compute Engine
-- Cloud functions
-
-- Cloud Dataflow
-- Cloud Dataproc
-- Cloud Datalab
-- Cloud Dataprep
-- Cloud Composer
+- Cloud Functions
+- Specialized tools:
+  - Cloud Dataflow
+  - Cloud Dataproc
+  - Cloud Datalab
+  - Cloud Dataprep
+  - Cloud Composer
 ## Store
 - Cloud Storage
 - Cloud SQL
