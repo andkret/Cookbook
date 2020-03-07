@@ -337,8 +337,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Travel And Transportation](sections/07-DataSources.md/Travel-And-Transportation)
 - [Various Portals](sections/07-DataSources.md/Various-Portals)
 - [Source Articles and Blog Posts](sections/07-DataSources.md/Source-Articles-and-Blog-Posts)
-
-- - [Free Data Sources Data Science](sections/07-DataSources.md)
+- [Free Data Sources Data Science](sections/07-DataSources.md)
 
 ## 1001 Interview Questions
 
