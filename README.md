@@ -23,6 +23,11 @@
 - **Patreon:** [Click Here](https://www.patreon.com/plumbersofds) Become a supporter on Patreon
 - **PayPal.me:** [Click Here](https://paypal.me/feedthestream) Send some support (Please include a message and I read and answer it in the next video)
 
+### I'm Doing Data Engineer Coaching To Help You On Your Journey:
+Do you need help becoming a Data Engineer and doing a personal project?
+I offer Data Engineer Coaching to help you on your journey.
+Go to my website **[teamdatascience.com](https://teamdatascience.com)** to learn more.
+
 <!---
 I get asked super often how to become a Data Engineer.
 That's why I decided to start this cookbook with all the topics you need to look into.
@@ -39,6 +44,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Advanced Engineering Skills](AdvancedSkills.md)
 - [Hands On Course](HandsOnCourse.md)‚
 - [Case Studies](CaseStudies.md)
+- [Best Practices Cloud Platforms](BestPracticesCloud.md)
 - [1001 Interview Questions](InterviewQuestions.md)
 - [Recommended Books and Courses](BooksAndCourses.md)
 <!--  -->
@@ -55,7 +61,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Data Scientist](Introduction.md#data-scientist)
   - [Machine Learning Workflow](Introduction.md#machine-learning-workflow)
   - [Machine Learning Model and Data](Introduction.md#machine-learning-model-and-data)
-- [My Big Data Platform Blueprint](Introduction.md#my-big-data-platform-blueprint)
+- [My Data Science Platform Blueprint](Introduction.md#my-data-science-platform-blueprint)
   - [Connect](Introduction.md#connect)
   - [Buffer](Introduction.md#buffer)
   - [Processing Framework](Introduction.md#processing-framework)
@@ -285,7 +291,31 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## Best Practices Cloud Platforms
 
-- [Best Practices Cloud Platforms](BestPracticesCloud.md)
+- [Amazon Web Services (AWS)](BestPracticesCloud.md#aws)
+  - [Connect](BestPracticesCloud.md#Connect)
+  - [Buffer](BestPracticesCloud.md#Buffer)
+  - [Processing](BestPracticesCloud.md#Processing)
+  - [Store](BestPracticesCloud.md#Store)
+  - [Visualize](BestPracticesCloud.md#Visualize)
+  - [Containerization](BestPracticesCloud.md#Containerization)
+  - [Best Practices](BestPracticesCloud.md#Best-Practices)
+  - [More Details](BestPracticesCloud.md#More-Details)
+- [Microsoft Azure](BestPracticesCloud.md#azure)
+  - [Connect](BestPracticesCloud.md#Connect-1)
+  - [Buffer](BestPracticesCloud.md#Buffer-1)
+  - [Processing](BestPracticesCloud.md#Processing-1)
+  - [Store](BestPracticesCloud.md#Store-1)
+  - [Visualize](BestPracticesCloud.md#Visualize-1)
+  - [Containerization](BestPracticesCloud.md#Containerization-1)
+  - [Best Practices](BestPracticesCloud.md#Best-Practices-1)
+- [Google Cloud Platform (GCP)](BestPracticesCloud.md#gcp)
+  - [Connect](BestPracticesCloud.md#Connect-2)
+  - [Buffer](BestPracticesCloud.md#Buffer-2)
+  - [Processing](BestPracticesCloud.md#Processing-2)
+  - [Store](BestPracticesCloud.md#Store-2)
+  - [Visualize](BestPracticesCloud.md#Visualize-2)
+  - [Containerization](BestPracticesCloud.md#Containerization-2)
+  - [Best Practices](BestPracticesCloud.md#Best-Practices-2)
 
 ## 1001 Interview Questions
 
