@@ -38,7 +38,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 -->
 
-## Contents:
+# Contents:
 - [Introduction](sections/01-Introduction.md)
 - [Basic Engineering Skills](sections/02-BasicSkills.md)
 - [Advanced Engineering Skills](sections/03-AdvancedSkills.md)
@@ -54,7 +54,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Support What You Like](#support)
 - [Important Links](#important-links)
 
-## Extended Contents:
+# Full Table Of Contents:
 ##  Introduction
 - [What is this Cookbook](sections/01-Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](sections/01-Introduction.md#data-engineer-vs-data-scientist)
