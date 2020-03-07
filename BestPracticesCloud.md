@@ -4,7 +4,7 @@ Best Practices Cloud Platforms
 This section is a collection of best practices on how you can arrange the tools together to a platform.  
 It's here especially to help you start your own project in the cloud on AWS, Azure and GCP.
 
-Like the advanced skills section this section also follows my [My Data Science Platform Blueprint](Introduction.md#my-big-data-platform-blueprint).
+Like the advanced skills section this section also follows my [My Data Science Platform Blueprint](sections/01-Introduction.md#my-big-data-platform-blueprint).
 In the blueprint I divided the platform into sections: Connect, Buffer, Processing, Store and Visualize.
 
 This order will help you learn how to connect the right tools together.
