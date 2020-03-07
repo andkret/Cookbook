@@ -170,7 +170,7 @@ you the machine is ok even when there is an malfunction.
 Model outputs are very abstract. You also need to post-process the model
 outputs to receive the outputs you desire
 
-![The Machine Learning Pipeline](./images/Machine-Learning-Pipeline.jpg)
+![The Machine Learning Pipeline](/images/Machine-Learning-Pipeline.jpg)
 
 
 ### Machine Learning Workflow
@@ -216,7 +216,7 @@ This is the overall process how machine learning. It's how the learning part of 
 
 ### Machine Learning Model and Data
 
-![The Machine Learning Model](./images/Machine-Learning-Model.jpg)
+![The Machine Learning Model](/images/Machine-Learning-Model.jpg)
 
 Now that's all very nice.
 
@@ -287,7 +287,7 @@ data driven decisions.
 
 The blueprint is focused on the five key areas: Connect, Buffer, Processing Frameworks, Store and Visualize.
 
-![Data Science Platform Blueprint](./images/Data-Science-Blueprint-New.jpg)
+![Data Science Platform Blueprint](/images/Data-Science-Blueprint-New.jpg)
 
 Having the platform split like this turns it into a modular platform with
 loosely coupled interfaces.
