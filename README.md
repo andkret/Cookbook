@@ -38,13 +38,14 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 -->
 
-## Contents:
+# Contents:
 - [Introduction](sections/01-Introduction.md)
 - [Basic Engineering Skills](sections/02-BasicSkills.md)
 - [Advanced Engineering Skills](sections/03-AdvancedSkills.md)
 - [Hands On Course](sections/04-HandsOnCourse.md)‚
 - [Case Studies](sections/05-CaseStudies.md)
 - [Best Practices Cloud Platforms](sections/06-BestPracticesCloud.md)
+- [130+ Data Sources Data Science](sections/07-DataSources.md)
 - [1001 Interview Questions](sections/08-InterviewQuestions.md)
 - [Recommended Books and Courses](sections/09-BooksAndCourses.md)
 <!--  -->
@@ -53,7 +54,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Support What You Like](#support)
 - [Important Links](#important-links)
 
-
+# Full Table Of Contents:
 ##  Introduction
 - [What is this Cookbook](sections/01-Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](sections/01-Introduction.md#data-engineer-vs-data-scientist)
@@ -319,7 +320,25 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## 130+ Free Data Sources For Data Science
 
-- - [Free Data Sources Data Science](sections/07-DataSources.md)
+- [General And Academic](sections/07-DataSources.md#General-And-Academic)
+- [Content Marketing](sections/07-DataSources.md#Content-Marketing)
+- [Crime](sections/07-DataSources.md#Crime)
+- [Drugs](sections/07-DataSources.md#Drugs)
+- [Education](sections/07-DataSources.md#Education)
+- [Entertainment](sections/07-DataSources.md#Entertainment)
+- [Environmental And Weather Data](sections/07-DataSources.md#Environmental-And-Weather-Data)
+- [Financial And Economic Data](sections/07-DataSources.md#Financial-And-Economic-Data])
+- [Government And World](sections/07-DataSources.md#Government-And-World)
+- [Health](sections/07-DataSources.md#Health)
+- [Human Rights](sections/07-DataSources.md#Human-Rights)
+- [Labor And Employment Data](sections/07-DataSources.md#Labor-And-Employment-Data)
+- [Politics](sections/07-DataSources.md#Politics)
+- [Retail](sections/07-DataSources.md#Retail)
+- [Social](sections/07-DataSources.md#Social)
+- [Travel And Transportation](sections/07-DataSources.md#Travel-And-Transportation)
+- [Various Portals](sections/07-DataSources.md#Various-Portals)
+- [Source Articles and Blog Posts](sections/07-DataSources.md#Source-Articles-and-Blog-Posts)
+- [Free Data Sources Data Science](sections/07-DataSources.md)
 
 ## 1001 Interview Questions
 
