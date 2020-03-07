@@ -317,9 +317,9 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Containerization](sections/06-BestPracticesCloud.md#Containerization-2)
   - [Best Practices](sections/06-BestPracticesCloud.md#Best-Practices-2)
 
-## Free Data Sources
+## 130+ Free Data Sources For Data Science
 
-- - [Free Data Sources](sections/07-DataSources.md)
+- - [Free Data Sources Data Science](sections/07-DataSources.md)
 
 ## 1001 Interview Questions
 
