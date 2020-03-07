@@ -4,131 +4,131 @@ Advanced Data Engineering Skills
 
 ## Contents
 
-- [Data Science Platform](AdvancedSkills.md#data-science-platform)
-  - [Why a Good Data Platform Is Important](AdvancedSkills.md#why-a-good-data-platform-is-important)
-  - [Big Data vs Data Science and Analytics](AdvancedSkills.md#Big-Data-vs-Data-Science-and-Analytics)
-  - [The 4 Vs of Big Data](AdvancedSkills.md#the-4-vs-of-big-data)
-  - [Why Big Data](AdvancedSkills.md#why-big-data)
-    - [Planning is Everything](AdvancedSkills.md#planning-is-everything)
-    - [The Problem with ETL](AdvancedSkills.md#the-problem-with-etl)
-    - [Scaling Up](AdvancedSkills.md#scaling-up)
-    - [Scaling Out](AdvancedSkills.md#scaling-out)
-    - [When not to Do Big Data](AdvancedSkills.md#please-dont-go-big-data)
-- [Hadoop Platforms](AdvancedSkills.md#hadoop-platforms)
-  - [What is Hadoop](AdvancedSkills.md#what-is-hadoop)
-  - [What makes Hadoop so popular](AdvancedSkills.md#what-makes-hadoop-so-popular)
-  - [Hadoop Ecosystem Components](AdvancedSkills.md#hadoop-ecosystem-components)
-  - [Hadoop is Everywhere?](AdvancedSkills.md#hadoop-is-everywhere)
-  - [Should You Learn Hadoop?](AdvancedSkills.md#should-you-learn-hadoop)
-  - [How to Select Hadoop Cluster Hardware](AdvancedSkills.md#how-to-select-hadoop-cluster-hardware)
-- [Connect](AdvancedSkills.md#connect)
-  - [REST APIs](AdvancedSkills.md#rest-apis)
-    - [API Design](AdvancedSkills.md#api-design)
-    - [Implementation Frameworks](AdvancedSkills.md#implementation-frameworks)
-    - [Security](AdvancedSkills.md#security)
-  - [Apache Nifi](AdvancedSkills.md#apache-nifi)
-  - [Logstash](AdvancedSkills.md#logstash)
-- [Buffer](AdvancedSkills.md#buffer)
-  - [Apache Kafka](AdvancedSkills.md#apache-kafka)
-    - [Why a Message Queue Tool?](AdvancedSkills.md#why-a-message-queue-tool)
-    - [Kafka Architecture](AdvancedSkills.md#kafka-architecture)
-    - [Kafka Topics](AdvancedSkills.md#what-are-topics)
-    - [Kafka and Zookeeper](AdvancedSkills.md#what-does-zookeeper-have-to-do-with-kafka)
-    - [How to Produce and Consume Messages](AdvancedSkills.md#how-to-produce-and-consume-messages)
-    - [Kafka Commands](AdvancedSkills.md#kafka-commands)
-  - [Apache Redis Pub-Sub](AdvancedSkills.md#redis-pub-sub)
-  - [AWS Kinesis](AdvancedSkills.md#apache-kafka)
-  - [Google Cloud PubSub](AdvancedSkills.md#google-cloud-pubsub)
-- [Processing Frameworks](AdvancedSkills.md#processing-frameworks)
-  - [Lambda and Kappa Architecture](AdvancedSkills.md#lambda-and-kappa-architecture)
-  - [Batch Processing](AdvancedSkills.md#batch-processing)
-  - [Stream Processing](AdvancedSkills.md#stream-processing)
-    - [Three Methods of Streaming](AdvancedSkills.md#three-methods-of-streaming)
-    - [At Least Once](AdvancedSkills.md#at-least-once)
-    - [At Most Once](AdvancedSkills.md#at-most-once)
-    - [Exactly Once](AdvancedSkills.md#exactly-once)
-    - [Check The Tools](AdvancedSkills.md#check-the-tools)
-  - [Should You do Stream or Batch Processing](AdvancedSkills.md#should-you-do-stream-or-batch-processing)
-  - [Is ETL still relevant for Analytics?](AdvancedSkills.md#is-etl-still-relevant-for-analytics)
-  - [MapReduce](AdvancedSkills.md#mapreduce)
-    - [How Does MapReduce Work](AdvancedSkills.md#How-does-mapreduce-work)
-    - [MapReduce](AdvancedSkills.md#mapreduce)
-    - [MapReduce Example](AdvancedSkills.md#example)
-    - [MapReduce Limitations](AdvancedSkills.md#What-is-the-limitation-of-mapreduce)
-  - [Apache Spark](AdvancedSkills.md#apache-spark)
-    - [What is the Difference to MapReduce?](AdvancedSkills.md#what-is-the-difference-to-MapReduce)
-    - [How Spark Fits to Hadoop](AdvancedSkills.md#how-does-spark-fit-to-hadoop)
-    - [Spark vs Hadoop](AdvancedSkills.md#wheres-the-difference)
-    - [Spark and Hadoop a Perfect Fit](AdvancedSkills.md#spark-and-hadoop-is-a-perfect-fit)
-    - [Spark on YARn](AdvancedSkills.md#spark-on-yarn)
-    - [My Simple Rule of Thumb](AdvancedSkills.md#my-simple-rule-of-thumb)
-    - [Available Languages](AdvancedSkills.md#available-languages)
-    - [Spark Driver Executor and SparkContext](AdvancedSkills.md#how-spark-works-driver-executor-sparkcontext)
-    - [Spark Batch vs Stream processing](AdvancedSkills.md#spark-batch-vs-stream-processing)
-    - [How Spark uses Data From Hadoop](AdvancedSkills.md#How-does-spark-use-data-from-hadoop)
-    - [What are RDDs and How to Use Them](AdvancedSkills.md#what-are-rdds-and-how-to-use-them)
-    - [SparkSQL How and Why to Use It](AdvancedSkills.md#available-languages)
-    - [What are Dataframes and How to Use Them](AdvancedSkills.md#what-are-dataframes-how-to-use-them)
-    - [Machine Learning on Spark (TensorFlow)](AdvancedSkills.md#machine-learning-on-spark-tensor-flow)
-    - [MLlib](AdvancedSkills.md#mllib)
-    - [Spark Setup](AdvancedSkills.md#spark-setup)
-    - [Spark Resource Management](AdvancedSkills.md#spark-resource-management)
-  - [AWS Lambda](AdvancedSkills.md#apache-flink)  
-  - [Apache Flink](AdvancedSkills.md#apache-flink)
-  - [Elasticsearch](AdvancedSkills.md#elasticsearch)
-  - [Apache Drill](AdvancedSkills.md#apache-drill)
-  - [StreamSets](AdvancedSkills.md#streamsets)
-- [Store](AdvancedSkills.md#store)
-  - [Data Warehouse vs Data Lake](AdvancedSkills.md#data-warehouse-vs-data-lake)
-  - [SQL Databases](AdvancedSkills.md#sql-databases)
-    - [PostgreSQL DB](AdvancedSkills.md#postgresql-db)
-    - [Database Design](AdvancedSkills.md#database-design)
-    - [SQL Queries](AdvancedSkills.md#sql-queries)
-    - [Stored Procedures](AdvancedSkills.md#stored-procedures)
-    - [ODBC/JDBC Server Connections](AdvancedSkills.md#odbc-jdbc-server-connections)
-  - [NoSQL Stores](AdvancedSkills.md#nosql-stores)
-    - [HBase KeyValue Store](AdvancedSkills.md#keyvalue-stores-hbase)
-    - [HDFS Document Store](AdvancedSkills.md#document-stores-hdfs)
-    - [MongoDB Document Store](AdvancedSkills.md#document-stores-mongodb)
-    - [Elasticsearch Document Store](AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
-    - [Graph Databases (Neo4j)](AdvancedSkills.md#graph-db-neo4j)
-    - [Impala](AdvancedSkills.md#impala)
-    - [Kudu](AdvancedSkills.md#kudu)
-    - [Apache Druid](AdvancedSkills.md#apache-druid)
-    - [InfluxDB Time Series Database](AdvancedSkills.md#influxdb-time-series-database)
-    - [Greenplum MPP Database](AdvancedSkills.md#mpp-databases-greenplum)
-  - [NoSQL Data Warehouses](AdvancedSkills.md#nosql-data-warehouses)
-    - [Hive Warehouse](AdvancedSkills.md#hive-warehouse)
-    - [Impala](AdvancedSkills.md#impala)
-- [Visualize](AdvancedSkills.md#visualize)
-  - [Android and IOS](AdvancedSkills.md#android-and-ios)
-  - [API Design for Mobile Apps](AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
-  - [Dashboards](AdvancedSkills.md#dashboards)
-    - [Grafana](AdvancedSkills.md#grafana)
-    - [Kibana](AdvancedSkills.md#kibana)
-  - [Webservers](AdvancedSkills.md#how-to-use-webservers-to-display-content)
-    - [Tomcat](AdvancedSkills.md#tomcat)
-    - [Jetty](AdvancedSkills.md#jetty)
-    - [NodeRED](AdvancedSkills.md#nodered)
-    - [React](AdvancedSkills.md#react)
-  - [Business Intelligence Tools](AdvancedSkills.md#business-intelligence-tools)
-    - [Tableau](AdvancedSkills.md#tableau)
-    - [Power BI](AdvancedSkills.md#power-bi)
-    - [Quliksense](AdvancedSkills.md#quliksense)
-  - [Identity & Device Management](AdvancedSkills.md#Identity-and-device-management)
-    - [What Is A Digital Twin](AdvancedSkills.md#what-is-a-digital-twin)
-    - [Active Directory](AdvancedSkills.md#active-directory)
-- [Machine Learning](AdvancedSkills.md#machine-learning)
-  - [How to do Machine Learning in production](AdvancedSkills.md#how-to-domachine-learning-in-production)
-  - [Why machine learning in production is harder then you think](AdvancedSkills.md#why-machine-learning-in-production-is-harder-then-you-think)
-  - [Models Do Not Work Forever](AdvancedSkills.md#models-do-not-work-forever)
-  - [Where are The Platforms That Support Machine Learning](AdvancedSkills.md#where-are-the-platforms-that-support-this)
-  - [Training Parameter Management](AdvancedSkills.md#training-parameter-management)
-  - [How to Convince People That Machine Learning Works](AdvancedSkills.md#how-to-convince-people-machine-learning-works)
-  - [No Rules No Physical Models](AdvancedSkills.md#no-rules-no-physical-models)
-  - [You Have The Data. Use It!](AdvancedSkills.md#you-have-the-data-use-it)
-  - [Data is Stronger Than Opinions](AdvancedSkills.md#data-is-stronger-than-opinions)
-  - [AWS Sagemaker](AdvancedSkills.md#aws-sagemaker)
+- [Data Science Platform](03-AdvancedSkills.md#data-science-platform)
+  - [Why a Good Data Platform Is Important](03-AdvancedSkills.md#why-a-good-data-platform-is-important)
+  - [Big Data vs Data Science and Analytics](03-AdvancedSkills.md#Big-Data-vs-Data-Science-and-Analytics)
+  - [The 4 Vs of Big Data](03-AdvancedSkills.md#the-4-vs-of-big-data)
+  - [Why Big Data](03-AdvancedSkills.md#why-big-data)
+    - [Planning is Everything](03-AdvancedSkills.md#planning-is-everything)
+    - [The Problem with ETL](03-AdvancedSkills.md#the-problem-with-etl)
+    - [Scaling Up](03-AdvancedSkills.md#scaling-up)
+    - [Scaling Out](03-AdvancedSkills.md#scaling-out)
+    - [When not to Do Big Data](03-AdvancedSkills.md#please-dont-go-big-data)
+- [Hadoop Platforms](03-AdvancedSkills.md#hadoop-platforms)
+  - [What is Hadoop](03-AdvancedSkills.md#what-is-hadoop)
+  - [What makes Hadoop so popular](03-AdvancedSkills.md#what-makes-hadoop-so-popular)
+  - [Hadoop Ecosystem Components](03-AdvancedSkills.md#hadoop-ecosystem-components)
+  - [Hadoop is Everywhere?](03-AdvancedSkills.md#hadoop-is-everywhere)
+  - [Should You Learn Hadoop?](03-AdvancedSkills.md#should-you-learn-hadoop)
+  - [How to Select Hadoop Cluster Hardware](03-AdvancedSkills.md#how-to-select-hadoop-cluster-hardware)
+- [Connect](03-AdvancedSkills.md#connect)
+  - [REST APIs](03-AdvancedSkills.md#rest-apis)
+    - [API Design](03-AdvancedSkills.md#api-design)
+    - [Implementation Frameworks](03-AdvancedSkills.md#implementation-frameworks)
+    - [Security](03-AdvancedSkills.md#security)
+  - [Apache Nifi](03-AdvancedSkills.md#apache-nifi)
+  - [Logstash](03-AdvancedSkills.md#logstash)
+- [Buffer](03-AdvancedSkills.md#buffer)
+  - [Apache Kafka](03-AdvancedSkills.md#apache-kafka)
+    - [Why a Message Queue Tool?](03-AdvancedSkills.md#why-a-message-queue-tool)
+    - [Kafka Architecture](03-AdvancedSkills.md#kafka-architecture)
+    - [Kafka Topics](03-AdvancedSkills.md#what-are-topics)
+    - [Kafka and Zookeeper](03-AdvancedSkills.md#what-does-zookeeper-have-to-do-with-kafka)
+    - [How to Produce and Consume Messages](03-AdvancedSkills.md#how-to-produce-and-consume-messages)
+    - [Kafka Commands](03-AdvancedSkills.md#kafka-commands)
+  - [Apache Redis Pub-Sub](03-AdvancedSkills.md#redis-pub-sub)
+  - [AWS Kinesis](03-AdvancedSkills.md#apache-kafka)
+  - [Google Cloud PubSub](03-AdvancedSkills.md#google-cloud-pubsub)
+- [Processing Frameworks](03-AdvancedSkills.md#processing-frameworks)
+  - [Lambda and Kappa Architecture](03-AdvancedSkills.md#lambda-and-kappa-architecture)
+  - [Batch Processing](03-AdvancedSkills.md#batch-processing)
+  - [Stream Processing](03-AdvancedSkills.md#stream-processing)
+    - [Three Methods of Streaming](03-AdvancedSkills.md#three-methods-of-streaming)
+    - [At Least Once](03-AdvancedSkills.md#at-least-once)
+    - [At Most Once](03-AdvancedSkills.md#at-most-once)
+    - [Exactly Once](03-AdvancedSkills.md#exactly-once)
+    - [Check The Tools](03-AdvancedSkills.md#check-the-tools)
+  - [Should You do Stream or Batch Processing](03-AdvancedSkills.md#should-you-do-stream-or-batch-processing)
+  - [Is ETL still relevant for Analytics?](03-AdvancedSkills.md#is-etl-still-relevant-for-analytics)
+  - [MapReduce](03-AdvancedSkills.md#mapreduce)
+    - [How Does MapReduce Work](03-AdvancedSkills.md#How-does-mapreduce-work)
+    - [MapReduce](03-AdvancedSkills.md#mapreduce)
+    - [MapReduce Example](03-AdvancedSkills.md#example)
+    - [MapReduce Limitations](03-AdvancedSkills.md#What-is-the-limitation-of-mapreduce)
+  - [Apache Spark](03-AdvancedSkills.md#apache-spark)
+    - [What is the Difference to MapReduce?](03-AdvancedSkills.md#what-is-the-difference-to-MapReduce)
+    - [How Spark Fits to Hadoop](03-AdvancedSkills.md#how-does-spark-fit-to-hadoop)
+    - [Spark vs Hadoop](03-AdvancedSkills.md#wheres-the-difference)
+    - [Spark and Hadoop a Perfect Fit](03-AdvancedSkills.md#spark-and-hadoop-is-a-perfect-fit)
+    - [Spark on YARn](03-AdvancedSkills.md#spark-on-yarn)
+    - [My Simple Rule of Thumb](03-AdvancedSkills.md#my-simple-rule-of-thumb)
+    - [Available Languages](03-AdvancedSkills.md#available-languages)
+    - [Spark Driver Executor and SparkContext](03-AdvancedSkills.md#how-spark-works-driver-executor-sparkcontext)
+    - [Spark Batch vs Stream processing](03-AdvancedSkills.md#spark-batch-vs-stream-processing)
+    - [How Spark uses Data From Hadoop](03-AdvancedSkills.md#How-does-spark-use-data-from-hadoop)
+    - [What are RDDs and How to Use Them](03-AdvancedSkills.md#what-are-rdds-and-how-to-use-them)
+    - [SparkSQL How and Why to Use It](03-AdvancedSkills.md#available-languages)
+    - [What are Dataframes and How to Use Them](03-AdvancedSkills.md#what-are-dataframes-how-to-use-them)
+    - [Machine Learning on Spark (TensorFlow)](03-AdvancedSkills.md#machine-learning-on-spark-tensor-flow)
+    - [MLlib](03-AdvancedSkills.md#mllib)
+    - [Spark Setup](03-AdvancedSkills.md#spark-setup)
+    - [Spark Resource Management](03-AdvancedSkills.md#spark-resource-management)
+  - [AWS Lambda](03-AdvancedSkills.md#apache-flink)  
+  - [Apache Flink](03-AdvancedSkills.md#apache-flink)
+  - [Elasticsearch](03-AdvancedSkills.md#elasticsearch)
+  - [Apache Drill](03-AdvancedSkills.md#apache-drill)
+  - [StreamSets](03-AdvancedSkills.md#streamsets)
+- [Store](03-AdvancedSkills.md#store)
+  - [Data Warehouse vs Data Lake](03-AdvancedSkills.md#data-warehouse-vs-data-lake)
+  - [SQL Databases](03-AdvancedSkills.md#sql-databases)
+    - [PostgreSQL DB](03-AdvancedSkills.md#postgresql-db)
+    - [Database Design](03-AdvancedSkills.md#database-design)
+    - [SQL Queries](03-AdvancedSkills.md#sql-queries)
+    - [Stored Procedures](03-AdvancedSkills.md#stored-procedures)
+    - [ODBC/JDBC Server Connections](03-AdvancedSkills.md#odbc-jdbc-server-connections)
+  - [NoSQL Stores](03-AdvancedSkills.md#nosql-stores)
+    - [HBase KeyValue Store](03-AdvancedSkills.md#keyvalue-stores-hbase)
+    - [HDFS Document Store](03-AdvancedSkills.md#document-stores-hdfs)
+    - [MongoDB Document Store](03-AdvancedSkills.md#document-stores-mongodb)
+    - [Elasticsearch Document Store](03-AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
+    - [Graph Databases (Neo4j)](03-AdvancedSkills.md#graph-db-neo4j)
+    - [Impala](03-AdvancedSkills.md#impala)
+    - [Kudu](03-AdvancedSkills.md#kudu)
+    - [Apache Druid](03-AdvancedSkills.md#apache-druid)
+    - [InfluxDB Time Series Database](03-AdvancedSkills.md#influxdb-time-series-database)
+    - [Greenplum MPP Database](03-AdvancedSkills.md#mpp-databases-greenplum)
+  - [NoSQL Data Warehouses](03-AdvancedSkills.md#nosql-data-warehouses)
+    - [Hive Warehouse](03-AdvancedSkills.md#hive-warehouse)
+    - [Impala](03-AdvancedSkills.md#impala)
+- [Visualize](03-AdvancedSkills.md#visualize)
+  - [Android and IOS](03-AdvancedSkills.md#android-and-ios)
+  - [API Design for Mobile Apps](03-AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
+  - [Dashboards](03-AdvancedSkills.md#dashboards)
+    - [Grafana](03-AdvancedSkills.md#grafana)
+    - [Kibana](03-AdvancedSkills.md#kibana)
+  - [Webservers](03-AdvancedSkills.md#how-to-use-webservers-to-display-content)
+    - [Tomcat](03-AdvancedSkills.md#tomcat)
+    - [Jetty](03-AdvancedSkills.md#jetty)
+    - [NodeRED](03-AdvancedSkills.md#nodered)
+    - [React](03-AdvancedSkills.md#react)
+  - [Business Intelligence Tools](03-AdvancedSkills.md#business-intelligence-tools)
+    - [Tableau](03-AdvancedSkills.md#tableau)
+    - [Power BI](03-AdvancedSkills.md#power-bi)
+    - [Quliksense](03-AdvancedSkills.md#quliksense)
+  - [Identity & Device Management](03-AdvancedSkills.md#Identity-and-device-management)
+    - [What Is A Digital Twin](03-AdvancedSkills.md#what-is-a-digital-twin)
+    - [Active Directory](03-AdvancedSkills.md#active-directory)
+- [Machine Learning](03-AdvancedSkills.md#machine-learning)
+  - [How to do Machine Learning in production](03-AdvancedSkills.md#how-to-domachine-learning-in-production)
+  - [Why machine learning in production is harder then you think](03-AdvancedSkills.md#why-machine-learning-in-production-is-harder-then-you-think)
+  - [Models Do Not Work Forever](03-AdvancedSkills.md#models-do-not-work-forever)
+  - [Where are The Platforms That Support Machine Learning](03-AdvancedSkills.md#where-are-the-platforms-that-support-this)
+  - [Training Parameter Management](03-AdvancedSkills.md#training-parameter-management)
+  - [How to Convince People That Machine Learning Works](03-AdvancedSkills.md#how-to-convince-people-machine-learning-works)
+  - [No Rules No Physical Models](03-AdvancedSkills.md#no-rules-no-physical-models)
+  - [You Have The Data. Use It!](03-AdvancedSkills.md#you-have-the-data-use-it)
+  - [Data is Stronger Than Opinions](03-AdvancedSkills.md#data-is-stronger-than-opinions)
+  - [AWS Sagemaker](03-AdvancedSkills.md#aws-sagemaker)
 
 
 
@@ -245,7 +245,7 @@ database. An external analytics tool is querying data and uploading the
 results back to the SQL DB. Users then use the user interface to display
 data stored in the database.
 
-![Common SQL Platform Architecture](images/Common-SQL-Architecture.jpg)
+![Common SQL Platform Architecture](/images/Common-SQL-Architecture.jpg)
 
 Now, when the front end queries data from the SQL database the following
 three steps happen:
@@ -284,7 +284,7 @@ to the front end and analytics.
 
 In summary: Scaling up the system is fairly easy.
 
-![Scaling up a SQL Database](images/SQL-Scaling-UP.jpg)
+![Scaling up a SQL Database](/images/SQL-Scaling-UP.jpg)
 
 But with exponential growth it is obvious that sooner or later (more
 sooner than later) you will run into the same problems again. At some
@@ -303,7 +303,7 @@ network (SAN) to store the data. You can then use up to eight SQL
 servers (explain), attach them to the SAN and let them handle queries.
 This way load gets distributed between those eight servers.
 
-![Scaling out a SQL Database](images/SQL-Scaling-Out.jpg)
+![Scaling out a SQL Database](/images/SQL-Scaling-Out.jpg)
 
 One major downside of this setup is that, because the storage is shared
 between the SQL servers, it can only be used as an read only database.
@@ -392,7 +392,7 @@ connected with the Hadoop.
 It is not a complete list. There are many more tools that even I don't
 know. Maybe I am drawing a complete map in the future.
 
-![Hadoop Ecosystem Components](images/Hadoop-Ecosystem.jpg)
+![Hadoop Ecosystem Components](/images/Hadoop-Ecosystem.jpg)
 
 ### Hadoop Ecosystem Components
 
@@ -404,7 +404,7 @@ work together perfectly.
 
 Here's an example:
 
-![Connections between tools](images/Hadoop-Ecosystem-Connections.jpg)
+![Connections between tools](/images/Hadoop-Ecosystem-Connections.jpg)
 
 You use Apache Kafka to ingest data, and store the it in HDFS. You do
 the analytics with Apache Spark and as a backend for the display you
@@ -436,7 +436,7 @@ management.
 
 Flume can use Hadoop's YARN resource manager out of the box.
 
-![Flume Integration](images/Hadoop-Ecosystem-Connections-Flume.jpg)
+![Flume Integration](/images/Hadoop-Ecosystem-Connections-Flume.jpg)
 
 ### Hadoop Is Everywhere?
 
@@ -656,7 +656,7 @@ Doing the tax statement is a prime example of a batch process.
 Data comes in and gets stored, analytics loads the data from storage and
 creates an output (insight):
 
-![Batch Processing Pipeline](images/Simple-Batch-Processing-Workflow.jpg)
+![Batch Processing Pipeline](/images/Simple-Batch-Processing-Workflow.jpg)
 
 Batch processing is something you do either without a schedule or on a
 schedule (tax statement). It is used to ask the big questions and gain
@@ -692,7 +692,7 @@ access to fragments of data as it comes in.
 As a result the scope of the produced insight is also limited. Because
 the big picture is missing.
 
-![Stream Processing Pipeline](images/Simple-Stream-Processing-Workflow.jpg)
+![Stream Processing Pipeline](/images/Simple-Stream-Processing-Workflow.jpg)
 
 Only with streaming analytics you are able to create advanced services
 for the customer. Netflix for instance incorporated stream processing
@@ -838,7 +838,7 @@ run in parallel on your cluster machines.
 
 Here's an example how such a map and reduce process works with data:
 
-![Mapping of input files and reducing of mapped records](images/MapReduce-Process-Detailed.jpg)
+![Mapping of input files and reducing of mapped records](/images/MapReduce-Process-Detailed.jpg)
 
 #### How does MapReduce work
 
@@ -909,7 +909,7 @@ the one reducer who is handling all the values for this particular key.
 Every reducer input record then has a list of values and you can
 calculate (1+5+9)/3, (2+6+7)/3 and (3+4+8)/3. That's all.
 
-![MapReduce Example of Time Series Data](images/MapReduce-Time-Series-example.jpg)
+![MapReduce Example of Time Series Data](/images/MapReduce-Time-Series-example.jpg)
 
 What do you think you need to do to generate minute averages?
 
@@ -932,7 +932,7 @@ times the machines, the time to do the calculation would be the same.
 MapReduce is awesome for simpler analytics tasks, like counting stuff.
 It just has one flaw: It has only two stages Map and Reduce.
 
-![The Map Reduce Process](images/MapReduce-Process.jpg)
+![The Map Reduce Process](/images/MapReduce-Process.jpg)
 
 First MapReduce loads the data from HDFS into the mapping function.
 There you prepare the input data for the processing in the reducer.
@@ -1001,7 +1001,7 @@ question.
 To make it clear how Hadoop differs from Spark I created this simple
 feature table:
 
-![Hadoop vs Spark capabilities](images/Table-Hadoop-and-Spark.jpg)
+![Hadoop vs Spark capabilities](/images/Table-Hadoop-and-Spark.jpg)
 
 Hadoop is used to store data in the Hadoop Distributed File System
 (HDFS). It can analyse the stored data with MapReduce and manage
@@ -1111,7 +1111,7 @@ Spark can then natively identify on what data node the needed data is
 stored. This enables Spark to use the worker running on the machine
 where the data is stored to load the data into the memory.
 
-![Spark Using Hadoop Data Locality](images/Spark-Data-Locality.jpg)
+![Spark Using Hadoop Data Locality](/images/Spark-Data-Locality.jpg)
 
 The downside of this setup is that you need more expensive servers.
 Because Spark processing needs stronger servers with more RAM and CPUs
@@ -1219,7 +1219,7 @@ to your Hadoop and Spark processes.
 Having a single resource manager instead of two independent ones makes
 it a lot easier to configure the resource management.
 
-![Spark Resource Management With YARN](images/Spark-Yarn.jpg)
+![Spark Resource Management With YARN](/images/Spark-Yarn.jpg)
 
 ### Samza
 
@@ -1377,7 +1377,7 @@ It will not only store your file, Hadoop will also replicate it two or
 three times (you can define that). Replication means replicas of the
 file will be distributed to different servers.
 
-![HDFS Master and Data Nodes](images/HDFS-Master-DataNodes.jpg)
+![HDFS Master and Data Nodes](/images/HDFS-Master-DataNodes.jpg)
 
 This gives you superior fault tolerance. If one server goes down, then
 your data stays available on a different server.
@@ -1395,7 +1395,7 @@ splits the file into blocks.
 These blocks are then distributed and replicated on the Hadoop cluster.
 The splitting happens automatically.
 
-![Distribution of Blocks for a 512MB File](images/HDFS-Distributed-FileSystem.jpg)
+![Distribution of Blocks for a 512MB File](/images/HDFS-Distributed-FileSystem.jpg)
 
 In the configuration you can define how big the blocks should be. 128
 megabyte or 1 gigabyte?

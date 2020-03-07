@@ -4,7 +4,7 @@ Best Practices Cloud Platforms
 This section is a collection of best practices on how you can arrange the tools together to a platform.  
 It's here especially to help you start your own project in the cloud on AWS, Azure and GCP.
 
-Like the advanced skills section this section also follows my [My Data Science Platform Blueprint](Introduction.md#my-big-data-platform-blueprint).
+Like the advanced skills section this section also follows my [My Data Science Platform Blueprint](sections/01-Introduction.md#my-big-data-platform-blueprint).
 In the blueprint I divided the platform into sections: Connect, Buffer, Processing, Store and Visualize.
 
 This order will help you learn how to connect the right tools together.
@@ -19,31 +19,31 @@ Have fun!
 
 ## Contents
 
-- [Amazon Web Services (AWS)](BestPracticesCloud.md#aws)
-  - [Connect](BestPracticesCloud.md#Connect)
-  - [Buffer](BestPracticesCloud.md#Buffer)
-  - [Processing](BestPracticesCloud.md#Processing)
-  - [Store](BestPracticesCloud.md#Store)
-  - [Visualize](BestPracticesCloud.md#Visualize)
-  - [Containerization](BestPracticesCloud.md#Containerization)
-  - [Best Practices](BestPracticesCloud.md#Best-Practices)
-  - [More Details](BestPracticesCloud.md#More-Details)
-- [Microsoft Azure](BestPracticesCloud.md#azure)
-  - [Connect](BestPracticesCloud.md#Connect-1)
-  - [Buffer](BestPracticesCloud.md#Buffer-1)
-  - [Processing](BestPracticesCloud.md#Processing-1)
-  - [Store](BestPracticesCloud.md#Store-1)
-  - [Visualize](BestPracticesCloud.md#Visualize-1)
-  - [Containerization](BestPracticesCloud.md#Containerization-1)
-  - [Best Practices](BestPracticesCloud.md#Best-Practices-1)
-- [Google Cloud Platform (GCP)](BestPracticesCloud.md#gcp)
-  - [Connect](BestPracticesCloud.md#Connect-2)
-  - [Buffer](BestPracticesCloud.md#Buffer-2)
-  - [Processing](BestPracticesCloud.md#Processing-2)
-  - [Store](BestPracticesCloud.md#Store-2)
-  - [Visualize](BestPracticesCloud.md#Visualize-2)
-  - [Containerization](BestPracticesCloud.md#Containerization-2)
-  - [Best Practices](BestPracticesCloud.md#Best-Practices-2)
+- [Amazon Web Services (AWS)](06-CaseStudies.md#aws)
+  - [Connect](06-CaseStudies.md#Connect)
+  - [Buffer](06-CaseStudies.md#Buffer)
+  - [Processing](06-CaseStudies.md#Processing)
+  - [Store](06-CaseStudies.md#Store)
+  - [Visualize](06-CaseStudies.md#Visualize)
+  - [Containerization](06-CaseStudies.md#Containerization)
+  - [Best Practices](06-CaseStudies.md#Best-Practices)
+  - [More Details](06-CaseStudies.md#More-Details)
+- [Microsoft Azure](06-CaseStudies.md#azure)
+  - [Connect](06-CaseStudies.md#Connect-1)
+  - [Buffer](06-CaseStudies.md#Buffer-1)
+  - [Processing](06-CaseStudies.md#Processing-1)
+  - [Store](06-CaseStudies.md#Store-1)
+  - [Visualize](06-CaseStudies.md#Visualize-1)
+  - [Containerization](06-CaseStudies.md#Containerization-1)
+  - [Best Practices](06-CaseStudies.md#Best-Practices-1)
+- [Google Cloud Platform (GCP)](06-CaseStudies.md#gcp)
+  - [Connect](06-CaseStudies.md#Connect-2)
+  - [Buffer](06-CaseStudies.md#Buffer-2)
+  - [Processing](06-CaseStudies.md#Processing-2)
+  - [Store](06-CaseStudies.md#Store-2)
+  - [Visualize](06-CaseStudies.md#Visualize-2)
+  - [Containerization](06-CaseStudies.md#Containerization-2)
+  - [Best Practices](06-CaseStudies.md#Best-Practices-2)
 
 # AWS
 ## Connect

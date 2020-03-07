@@ -3,43 +3,43 @@ Case Studies
 
 ## Contents
 
-- [Data Science @Airbnb](CaseStudies.md#data-science-at-Airbnb)
-- [Data Science @Amazon](CaseStudies.md#data-science-at-Amazon)
-- [Data Science @Baidu](CaseStudies.md#data-science-at-Baidu)
-- [Data Science @Blackrock](CaseStudies.md#data-science-at-Blackrock)
-- [Data Science @BMW](CaseStudies.md#data-science-at-BMW)
-- [Data Science @Booking.com](CaseStudies.md#data-science-at-Booking.com)
-- [Data Science @CERN](CaseStudies.md#data-science-at-CERN)
-- [Data Science @Disney](CaseStudies.md#data-science-at-Disney)
-- [Data Science @DLR](CaseStudies.md#data-science-at-DLR)
-- [Data Science @Drivetribe](CaseStudies.md#data-science-at-Drivetribe)
-- [Data Science @Dropbox](CaseStudies.md#data-science-at-Dropbox)
-- [Data Science @Ebay](CaseStudies.md#data-science-at-Ebay)
-- [Data Science @Expedia](CaseStudies.md#data-science-at-Expedia)
-- [Data Science @Facebook](CaseStudies.md#data-science-at-Facebook)
-- [Data Science @Google](CaseStudies.md#data-science-at-Google)
-- [Data Science @Grammarly](CaseStudies.md#data-science-at-Grammarly)
-- [Data Science @ING Fraud](CaseStudies.md#data-science-at-ING-Fraud)
-- [Data Science @Instagram](CaseStudies.md#data-science-at-Instagram)
-- [Data Science @LinkedIn](CaseStudies.md#data-science-at-LinkedIn)
-- [Data Science @Lyft](CaseStudies.md#data-science-at-Lyft)
-- [Data Science @NASA](CaseStudies.md#data-science-at-NASA)
-- [Data Science @Netflix](CaseStudies.md#data-science-at-Netflix)
-- [Data Science @OLX](CaseStudies.md#data-science-at-OLX)
-- [Data Science @OTTO](CaseStudies.md#data-science-at-OTTO)
-- [Data Science @Paypal](CaseStudies.md#data-science-at-Paypal)
-- [Data Science @Pinterest](CaseStudies.md#data-science-at-Pinterest)
-- [Data Science @Salesforce](CaseStudies.md#data-science-at-Salesforce)
-- [Data Science @Siemens Mindsphere](CaseStudies.md#data-science-at-Siemens-Mindsphere)
-- [Data Science @Slack](CaseStudies.md#data-science-at-Slack)
-- [Data Science @Spotify](CaseStudies.md#data-science-at-Spotify)
-- [Data Science @Symantec](CaseStudies.md#data-science-at-Symantec)
-- [Data Science @Tinder](CaseStudies.md#data-science-at-Tinder)
-- [Data Science @Twitter](CaseStudies.md#data-science-at-Twitter)
-- [Data Science @Uber](CaseStudies.md#data-science-at-Uber)
-- [Data Science @Upwork](CaseStudies.md#data-science-at-Upwork)
-- [Data Science @Woot](CaseStudies.md#data-science-at-Woot)
-- [Data Science @Zalando](CaseStudies.md#data-science-at-Zalando)
+- [Data Science @Airbnb](05-CaseStudies.md#data-science-at-Airbnb)
+- [Data Science @Amazon](05-CaseStudies.md#data-science-at-Amazon)
+- [Data Science @Baidu](05-CaseStudies.md#data-science-at-Baidu)
+- [Data Science @Blackrock](05-CaseStudies.md#data-science-at-Blackrock)
+- [Data Science @BMW](05-CaseStudies.md#data-science-at-BMW)
+- [Data Science @Booking.com](05-CaseStudies.md#data-science-at-Booking.com)
+- [Data Science @CERN](05-CaseStudies.md#data-science-at-CERN)
+- [Data Science @Disney](05-CaseStudies.md#data-science-at-Disney)
+- [Data Science @DLR](05-CaseStudies.md#data-science-at-DLR)
+- [Data Science @Drivetribe](05-CaseStudies.md#data-science-at-Drivetribe)
+- [Data Science @Dropbox](05-CaseStudies.md#data-science-at-Dropbox)
+- [Data Science @Ebay](05-CaseStudies.md#data-science-at-Ebay)
+- [Data Science @Expedia](05-CaseStudies.md#data-science-at-Expedia)
+- [Data Science @Facebook](05-CaseStudies.md#data-science-at-Facebook)
+- [Data Science @Google](05-CaseStudies.md#data-science-at-Google)
+- [Data Science @Grammarly](05-CaseStudies.md#data-science-at-Grammarly)
+- [Data Science @ING Fraud](05-CaseStudies.md#data-science-at-ING-Fraud)
+- [Data Science @Instagram](05-CaseStudies.md#data-science-at-Instagram)
+- [Data Science @LinkedIn](05-CaseStudies.md#data-science-at-LinkedIn)
+- [Data Science @Lyft](05-CaseStudies.md#data-science-at-Lyft)
+- [Data Science @NASA](05-CaseStudies.md#data-science-at-NASA)
+- [Data Science @Netflix](05-CaseStudies.md#data-science-at-Netflix)
+- [Data Science @OLX](05-CaseStudies.md#data-science-at-OLX)
+- [Data Science @OTTO](05-CaseStudies.md#data-science-at-OTTO)
+- [Data Science @Paypal](05-CaseStudies.md#data-science-at-Paypal)
+- [Data Science @Pinterest](05-CaseStudies.md#data-science-at-Pinterest)
+- [Data Science @Salesforce](05-CaseStudies.md#data-science-at-Salesforce)
+- [Data Science @Siemens Mindsphere](05-CaseStudies.md#data-science-at-Siemens-Mindsphere)
+- [Data Science @Slack](05-CaseStudies.md#data-science-at-Slack)
+- [Data Science @Spotify](05-CaseStudies.md#data-science-at-Spotify)
+- [Data Science @Symantec](05-CaseStudies.md#data-science-at-Symantec)
+- [Data Science @Tinder](05-CaseStudies.md#data-science-at-Tinder)
+- [Data Science @Twitter](05-CaseStudies.md#data-science-at-Twitter)
+- [Data Science @Uber](05-CaseStudies.md#data-science-at-Uber)
+- [Data Science @Upwork](05-CaseStudies.md#data-science-at-Upwork)
+- [Data Science @Woot](05-CaseStudies.md#data-science-at-Woot)
+- [Data Science @Zalando](05-CaseStudies.md#data-science-at-Zalando)
 
 
 
@@ -289,7 +289,7 @@ The key components were Chuckwa, a scalable data collection system,
 Amazon S3 and Elastic MapReduce.
 
 ![Old Netflix Batch Processing
-Pipeline[]{label="fig:Bild1"}](images/Netflix-Chuckwa-Pipeline.jpg){#fig:Bild1
+Pipeline[]{label="fig:Bild1"}](/images/Netflix-Chuckwa-Pipeline.jpg){#fig:Bild1
 width="90%"}
 
 Chuckwa wrote incoming messages into Hadoop sequence files, stored in
@@ -352,7 +352,7 @@ What is currently being watched is only a part of the data that is used
 to generate "Trending Now".
 
 ![Netflix Trending Now
-Feature[]{label="fig:Bild1"}](images/Netflix-Trending-Now-Screenshot.jpg){#fig:Bild1
+Feature[]{label="fig:Bild1"}](/images/Netflix-Trending-Now-Screenshot.jpg){#fig:Bild1
 width="90%"}
 
 "Trending now" is created based on two types of data sources: Play
@@ -397,7 +397,7 @@ access to Cassandra and is making the data available to the Netflix
 client.
 
 ![Netflix Streaming
-Pipeline[]{label="fig:Bild1"}](images/Netflix-Streaming-Pipeline.jpg){#fig:Bild1
+Pipeline[]{label="fig:Bild1"}](/images/Netflix-Streaming-Pipeline.jpg){#fig:Bild1
 width="90%"}
 
 The algorithms how the analytics system is processing all this data is
