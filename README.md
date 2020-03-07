@@ -54,7 +54,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Support What You Like](#support)
 - [Important Links](#important-links)
 
-
+## Extended Contents:
 ##  Introduction
 - [What is this Cookbook](sections/01-Introduction.md#what-is-this-cookbook)
 - [Data Engineer vs Data Scientist](sections/01-Introduction.md#data-engineer-vs-data-scientist)
