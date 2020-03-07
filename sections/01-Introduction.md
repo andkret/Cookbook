@@ -175,7 +175,7 @@ outputs to receive the outputs you desire
 
 ### Machine Learning Workflow
 
-![The Machine Learning Workflow](./images/Machine-Learning-Workflow.jpg)
+![The Machine Learning Workflow](/images/Machine-Learning-Workflow.jpg)
 
 Data Scientists and Data Engineers. How does that all fit together?
 
