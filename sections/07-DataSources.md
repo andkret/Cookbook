@@ -1,5 +1,5 @@
 
-100 Plus Data Sets for Data science
+100 Plus Data Sources for Data science
 ===================================
 
 This is a section with links to data sources. During my data engineer coaching we need to find good data sets to work with.
@@ -12,7 +12,28 @@ I haven't had the chance to check each link myself. Please let me know if someth
 
 You can find the articles on the bottom of this section to read more. They include even more data sources I haven't had time to add to this list.
 
-## Free Data Sources: General/Academic
+## Contents:
+
+- [General And Academic](07-DataSources.md/General-And-Academic)
+- [Content Marketing](07-DataSources.md/Content-Marketing)
+- [Crime](07-DataSources.md/Crime)
+- [Drugs](07-DataSources.md/Drugs)
+- [Education](07-DataSources.md/Education)
+- [Entertainment](07-DataSources.md/Entertainment)
+- [Environmental And Weather Data](07-DataSources.md/Environmental-And-Weather-Data)
+- [Financial And Economic Data](07-DataSources.md/Financial-And-Economic-Data])
+- [Government And World](07-DataSources.md/Government-And-World)
+- [Health](07-DataSources.md/Health)
+- [Human Rights](07-DataSources.md/Human-Rights)
+- [Labor And Employment Data](07-DataSources.md/Labor-And-Employment-Data)
+- [Politics](07-DataSources.md/Politics)
+- [Retail](07-DataSources.md/Retail)
+- [Social](07-DataSources.md/Social)
+- [Travel And Transportation](07-DataSources.md/Travel-And-Transportation)
+- [Various Portals](07-DataSources.md/Various-Portals)
+- [Source Articles and Blog Posts](07-DataSources.md/Source-Articles-and-Blog-Posts)
+
+## General And Academic
 
 - [UNData](http://data.un.org/)
 - [Amazon Public Data Sets](https://registry.opendata.aws/)
@@ -24,20 +45,21 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [The Upshot by New York Times](http://www.nytimes.com/section/upshot)
 - [Enigma Public](https://public.enigma.com/)
 
-## Free Data Sources: Content Marketing
+## Content Marketing
 
 - [Buffer](https://blog.bufferapp.com/)
 - [Moz](https://moz.com/blog)
 - [HubSpot](http://www.hubspot.com/marketing-statistics)
 - [Content Marketing Institute](http://contentmarketinginstitute.com/about/)
-## Free Data Sources: Crime
+
+## Crime
 
 - [Uniform Crime Reporting Statistics](http://www.ucrdatatool.gov/)
 - [FBI Crime Statistics](https://www.fbi.gov/stats-services/crimestats)
 - [National Archive of Criminal Justice Data](https://www.icpsr.umich.edu/icpsrweb/NACJD/)
 - [Bureau of Justice Statistics](http://www.bjs.gov/index.cfm?ty=dca)
 
-## Free Data Sources: Drugs
+## Drugs
 
 - [U.S. Food and Drug Administration](http://www.fda.gov/Drugs/InformationOnDrugs/ucm079750.htm)
 - [National Institute on Drug Abuse](https://www.drugabuse.gov/related-topics/trends-statistics)
@@ -45,14 +67,14 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Drug War Facts](http://www.drugwarfacts.org/)
 - [Drug Data and Database by First Databank](http://www.fdbhealth.com/)
 
-## Free Data Sources: Education
+## Education
 
 - [Government Data About Education](https://www.data.gov/education/)
 - [Education Data by the World Bank](http://data.worldbank.org/topic/education)
 - [Education Data by Unicef](http://data.unicef.org/education/overview.html)
 - [National Center for Education Statistics](https://nces.ed.gov/)
 
-## Free Data Sources: Entertainment
+## Entertainment
 
 - [Million Song Dataset](https://aws.amazon.com/datasets/million-song-dataset/)
 - [The Numbers](http://www.the-numbers.com/)
@@ -64,7 +86,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Academic Rights Press](http://www.academicrightspress.com/entertainment/music)
 - [BLS: Arts, Entertainment, and Recreation](http://www.bls.gov/iag/tgs/iag71.htm)
 
-## Free Data Sources: Environmental/Weather Data
+## Environmental And Weather Data
 
 - [National Center for Environmental Health](http://www.cdc.gov/nceh/data.htm)
 - [National Climatic Data Center](http://www.ncdc.noaa.gov/data-access/quick-links#loc-clim)
@@ -75,7 +97,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [International Energy Agency Atlas](http://energyatlas.iea.org/?subject=-1118783123)
 - [Environmental Protection Agency](http://www.epa.gov/open/data-inventory-and-activities)
 
-## Free Data Sources: Financial/Economic Data
+## Financial And Economic Data
 
 - [OpenCorporates](https://opencorporates.com/)
 - [Google Finance](https://www.google.com/finance)
@@ -93,7 +115,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Visualizing Economics](http://visualizingeconomics.com/)
 - [Federal Reserve Economic Database](https://fred.stlouisfed.org/)
 
-## Free Data Sources: Government/World
+## Government And World
 
 - [U.S. Census Bureau](http://www.census.gov/)
 - [Data.gov](http://www.data.gov/)
@@ -108,7 +130,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [OECD Aid Database](http://www.oecd.org/dac/financing-sustainable-development/development-finance-data/)
 - [The CIA World Factbook](https://www.cia.gov/library/publications/the-world-factbook/)
 
-## Free Data Sources: Health
+## Health
 
 - [Centers for Disease Control and Prevention](http://www.cdc.gov/datastatistics/)
 - [World Health Organization](http://www.who.int/en/)
@@ -124,21 +146,21 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [The BROAD Institute](http://www.broadinstitute.org/cgi-bin/cancer/datasets.cgi)
 - [HealthData.gov](https://www.healthdata.gov/)
 
-## Free Data Sources: Human Rights
+## Human Rights
 
 - [Human Rights Data Analysis Group](https://hrdag.org/)
 - [Harvard Law School](http://hls.harvard.edu/library/research/find-a-database/international-relations-human-rights-data/)
 - [The Armed Conflict Database by Uppsala University](http://www.pcr.uu.se/research/UCDP/)
 - [Amnesty International](https://www.amnesty.org/en/search/?q=&documentType=Annual+Report)
 
-## Free Data Sources: Labor/Employment Data
+## Labor And Employment Data
 
 - [Department of Labor](https://www.dol.gov/general/topic/statistics/employment)
 - [U.S. Small Business Administration](https://www.sba.gov/starting-business/how-start-business/business-data-statistics/employment-statistics)
 - [Employment by U.S. Census](http://www.census.gov/topics/employment.html)
 - [Bureau of Labor Statistics](http://www.bls.gov/)
 
-## Free Data Sources: Politics
+## Politics
 
 - [Gallup](http://www.gallup.com/home.aspx)
 - [Real Clear Politics](http://guides.lib.berkeley.edu/Intro-to-Political-Science-Research/Stats)
@@ -149,17 +171,17 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Open Secrets](https://www.opensecrets.org/)
 - [Crowdpac](https://www.crowdpac.com/)
 
-## Free Data Sources: Retail
+## Retail
 
 - [Love the Sales](https://www.lovethesales.com/press/data-request)
 
-## Free Data Sources: Social
+## Social
 
 - [Facebook Graph API](https://developers.facebook.com/docs/graph-api)
 - [SocialMention](http://www.socialmention.com/)
 - [Google Trends](http://www.google.com/trends/explore)
 
-## Free Data Sources: Travel/Transportation
+## Travel And Transportation
 
 - [Monthly Tourism Statistics – U.S. Travelers Overseas](http://travel.trade.gov/research/monthly/departures/)
 - [SkiftStats](https://skift.com/skiftx/skiftstats/)
@@ -167,8 +189,8 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [U.S. Travel Association](https://www.ustravel.org/research)
 - [Bureau of Transportation Statistics](http://www.rita.dot.gov/bts/home)
 
-## Various Portals:
-[]()
+## Various Portals
+
 - [DBpedia](https://wiki.dbpedia.org/)
 - [freeCodeCamp Open Data](https://github.com/freeCodeCamp/open-data)
 - [Yelp Open Datasets](https://www.yelp.com/dataset)
@@ -183,7 +205,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Open Data Ipact Map](http://opendataimpactmap.org/)
 
 
-## Source articles I've taken these links from:
+## Source Articles and Blog Posts
 
 100+ of the Best Free Data Sources For Your Next Project:
 https://www.columnfivemedia.com/100-best-free-data-sources-infographic
