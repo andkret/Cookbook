@@ -4,19 +4,19 @@ Introduction
 
 ## Contents
 
-- [What is this Cookbook](sections/01-Introduction.md#what-is-this-cookbook)
-- [Data Engineer vs Data Scientist](sections/01-Introduction.md#data-engineer-vs-data-scientist)
-  - [Data Engineer](sections/01-Introduction.md#data-engineer)
-  - [Data Scientist](sections/01-Introduction.md#data-scientist)
-  - [Machine Learning Workflow](sections/01-Introduction.md#machine-learning-workflow)
-  - [Machine Learning Model and Data](sections/01-Introduction.md#machine-learning-model-and-data)
-- [My Data Science Platform Blueprint](sections/01-Introduction.md#my-data-science-platform-blueprint)
-  - [Connect](sections/01-Introduction.md#connect)
-  - [Buffer](sections/01-Introduction.md#buffer)
-  - [Processing Framework](sections/01-Introduction.md#processing-framework)
-  - [Store](sections/01-Introduction.md#store)
-  - [Visualize](sections/01-Introduction.md#visualize)
-- [Who Companies Need](sections/01-Introduction.md#who-companies-need)
+- [What is this Cookbook](01-Introduction.md#what-is-this-cookbook)
+- [Data Engineer vs Data Scientist](01-Introduction.md#data-engineer-vs-data-scientist)
+  - [Data Engineer](01-Introduction.md#data-engineer)
+  - [Data Scientist](01-Introduction.md#data-scientist)
+  - [Machine Learning Workflow](01-Introduction.md#machine-learning-workflow)
+  - [Machine Learning Model and Data](01-Introduction.md#machine-learning-model-and-data)
+- [My Data Science Platform Blueprint](01-Introduction.md#my-data-science-platform-blueprint)
+  - [Connect](01-Introduction.md#connect)
+  - [Buffer](01-Introduction.md#buffer)
+  - [Processing Framework](01-Introduction.md#processing-framework)
+  - [Store](01-Introduction.md#store)
+  - [Visualize](01-Introduction.md#visualize)
+- [Who Companies Need](01-Introduction.md#who-companies-need)
 
 ## What is this Cookbook
 
@@ -170,12 +170,12 @@ you the machine is ok even when there is an malfunction.
 Model outputs are very abstract. You also need to post-process the model
 outputs to receive the outputs you desire
 
-![The Machine Learning Pipeline](images/Machine-Learning-Pipeline.jpg)
+![The Machine Learning Pipeline](./images/Machine-Learning-Pipeline.jpg)
 
 
 ### Machine Learning Workflow
 
-![The Machine Learning Workflow](images/Machine-Learning-Workflow.jpg)
+![The Machine Learning Workflow](./images/Machine-Learning-Workflow.jpg)
 
 Data Scientists and Data Engineers. How does that all fit together?
 
@@ -216,7 +216,7 @@ This is the overall process how machine learning. It's how the learning part of 
 
 ### Machine Learning Model and Data
 
-![The Machine Learning Model](images/Machine-Learning-Model.jpg)
+![The Machine Learning Model](./images/Machine-Learning-Model.jpg)
 
 Now that's all very nice.
 
@@ -287,7 +287,7 @@ data driven decisions.
 
 The blueprint is focused on the five key areas: Connect, Buffer, Processing Frameworks, Store and Visualize.
 
-![Data Science Platform Blueprint](images/Data-Science-Blueprint-New.jpg)
+![Data Science Platform Blueprint](./images/Data-Science-Blueprint-New.jpg)
 
 Having the platform split like this turns it into a modular platform with
 loosely coupled interfaces.
