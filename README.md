@@ -45,6 +45,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Hands On Course](sections/04-HandsOnCourse.md)‚
 - [Case Studies](sections/05-CaseStudies.md)
 - [Best Practices Cloud Platforms](sections/06-BestPracticesCloud.md)
+- [130+ Data Sources Data Science](sections/07-DataSources.md)
 - [1001 Interview Questions](sections/08-InterviewQuestions.md)
 - [Recommended Books and Courses](sections/09-BooksAndCourses.md)
 <!--  -->
