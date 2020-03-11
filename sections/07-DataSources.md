@@ -170,6 +170,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Roper Center for Public Opinion Research](https://ropercenter.cornell.edu/)
 - [Open Secrets](https://www.opensecrets.org/)
 - [Crowdpac](https://www.crowdpac.com/)
+- [US Voter Files](http://voterlist.electproject.org/) Note only some states are free, and most do not allow voter files to be used for commercial purposes - this map allows you to see the rules/cost for each state.
 
 ## Retail
 
