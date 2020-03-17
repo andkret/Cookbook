@@ -19,35 +19,35 @@ Have fun!
 
 ## Contents
 
-- [Amazon Web Services (AWS)](06-CaseStudies.md#aws)
-  - [Connect](06-CaseStudies.md#Connect)
-  - [Buffer](06-CaseStudies.md#Buffer)
-  - [Processing](06-CaseStudies.md#Processing)
-  - [Store](06-CaseStudies.md#Store)
-  - [Visualize](06-CaseStudies.md#Visualize)
-  - [Containerization](06-CaseStudies.md#Containerization)
-  - [Best Practices](06-CaseStudies.md#Best-Practices)
-  - [More Details](06-CaseStudies.md#More-Details)
-- [Microsoft Azure](06-CaseStudies.md#azure)
-  - [Connect](06-CaseStudies.md#Connect-1)
-  - [Buffer](06-CaseStudies.md#Buffer-1)
-  - [Processing](06-CaseStudies.md#Processing-1)
-  - [Store](06-CaseStudies.md#Store-1)
-  - [Visualize](06-CaseStudies.md#Visualize-1)
-  - [Containerization](06-CaseStudies.md#Containerization-1)
-  - [Best Practices](06-CaseStudies.md#Best-Practices-1)
-- [Google Cloud Platform (GCP)](06-CaseStudies.md#gcp)
-  - [Connect](06-CaseStudies.md#Connect-2)
-  - [Buffer](06-CaseStudies.md#Buffer-2)
-  - [Processing](06-CaseStudies.md#Processing-2)
-  - [Store](06-CaseStudies.md#Store-2)
-  - [Visualize](06-CaseStudies.md#Visualize-2)
-  - [Containerization](06-CaseStudies.md#Containerization-2)
-  - [Best Practices](06-CaseStudies.md#Best-Practices-2)
+- [Amazon Web Services (AWS)](06-BestPracticesCloud.md#aws)
+  - [Connect](06-BestPracticesCloud.md#Connect)
+  - [Buffer](06-BestPracticesCloud.md#Buffer)
+  - [Processing](06-BestPracticesCloud.md#Processing)
+  - [Store](06-BestPracticesCloud.md#Store)
+  - [Visualize](06-BestPracticesCloud.md#Visualize)
+  - [Containerization](06-BestPracticesCloud.md#Containerization)
+  - [Best Practices](06-BestPracticesCloud.md#Best-Practices)
+  - [More Details](06-BestPracticesCloud.md#More-Details)
+- [Microsoft Azure](06-BestPracticesCloud.md#azure)
+  - [Connect](06-BestPracticesCloud.md#Connect-1)
+  - [Buffer](06-BestPracticesCloud.md#Buffer-1)
+  - [Processing](06-BestPracticesCloud.md#Processing-1)
+  - [Store](06-BestPracticesCloud.md#Store-1)
+  - [Visualize](06-BestPracticesCloud.md#Visualize-1)
+  - [Containerization](06-BestPracticesCloud.md#Containerization-1)
+  - [Best Practices](06-BestPracticesCloud.md#Best-Practices-1)
+- [Google Cloud Platform (GCP)](06-BestPracticesCloud.md#gcp)
+  - [Connect](06-BestPracticesCloud.md#Connect-2)
+  - [Buffer](06-BestPracticesCloud.md#Buffer-2)
+  - [Processing](06-BestPracticesCloud.md#Processing-2)
+  - [Store](06-BestPracticesCloud.md#Store-2)
+  - [Visualize](06-BestPracticesCloud.md#Visualize-2)
+  - [Containerization](06-BestPracticesCloud.md#Containerization-2)
+  - [Best Practices](06-BestPracticesCloud.md#Best-Practices-2)
 
 # AWS
 ## Connect
-- Elastic Beanstalk
+- Elastic Beanstalk (very old)
 - SES Simple Email Service
 - API Gateway
 ## Buffer
@@ -58,6 +58,7 @@ Have fun!
 - Simple Queue Service (SQS)
 - Simple Notification Service (SNS)
 ## Processing
+- EC2
 - Athena
 - EMR
 - Elasticsearch
@@ -114,6 +115,7 @@ AWS Whitepapers:
 - Azure Databricks
 - Machine Learning
 - Azure Functions
+- Azure HDInsight (Hadoop PaaS)
 ## Store
 - Blob
 - CosmosDB
@@ -123,9 +125,15 @@ AWS Whitepapers:
 - SQL
 - Azure Data lake
 - Azure Storage (SQL Table?)
+- Azure Synapse Analytics
 ## Visualize
 - PowerBI
 ## Containerization
+- Virtual Machines
+- Virtual Machine Scale Sets
+- Azure Container Service (AKS)
+- Container Instances
+- Azure Kubernetes Service
 ## Best Practices
 
 Advanced Analytics Architecture:
@@ -188,6 +196,7 @@ Streaming using HDInsight:
   - Cloud Datalab
   - Cloud Dataprep
   - Cloud Composer
+- App Engine
 ## Store
 - Cloud Storage
 - Cloud SQL
@@ -196,8 +205,44 @@ Streaming using HDInsight:
 - Cloud BigTable
 - Cloud Storage
 - Cloud Memorystore
-## Visualize
 - BigQuery
+## Visualize
+
 ## Containerization
 - Kubernetes Engine
+- Container Security
 ## Best Practices
+
+Thanks to Ismail Holoubi for the following GCP links
+
+Best practices for migrating virtual machines to Compute Engine:
+
+https://cloud.google.com/solutions/best-practices-migrating-vm-to-compute-engine
+
+Best practices for Cloud Storage:
+
+https://cloud.google.com/storage/docs/best-practices
+
+Moving a publishing workflow to BigQuery for new data insights:
+
+https://cloud.google.com/blog/products/data-analytics/moving-a-publishing-workflow-to-bigquery-for-new-data-insights
+
+Architecture: Optimizing large-scale ingestion of analytics events and logs:
+
+https://cloud.google.com/solutions/architecture/optimized-large-scale-analytics-ingestion
+
+Choosing the right architecture for global data distribution:
+
+https://cloud.google.com/solutions/architecture/global-data-distribution
+
+Best Practices for Operating Containers:
+
+https://cloud.google.com/solutions/best-practices-for-operating-containers
+
+Preparing a Google Kubernetes Engine Environment for Production:
+
+https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod
+
+Automating IoT Machine Learning: Bridging Cloud and Device Benefits with AI Platform:
+
+https://cloud.google.com/solutions/automating-iot-machine-learning
