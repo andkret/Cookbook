@@ -315,8 +315,8 @@ The temporary storage allows other stages simple and fast access to
 incoming data.
 
 A great solution is to use messaging queue systems like Apache Kafka,
-RabbitMQ or AWS Kinesis. Sometimes people also use caches for
-specialised applications like Redis.
+RabbitMQ or AWS Kinesis. Sometimes people also use caches, like Redis, for
+specialised applications.
 
 A good practice is that the temporary storage follows the
 publish-subscribe pattern. This way APIs can publish messages and
