@@ -631,6 +631,8 @@ provider's service may have limitations and strengths.
 [Full list of AWS services](https://www.amazonaws.cn/en/products/).
 
 #### Azure
+[Full list of Azure services](https://azure.microsoft.com/en-us/services/).
+[Get started with mini courses](https://docs.microsoft.com/en-us/learn/browse/).
 
 #### IBM
 
