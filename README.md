@@ -30,6 +30,7 @@ Check out the new monthly subscription to my Data Engineering course, if you fin
 - Currently over three hours of videos
 - Weekly Q&A video
 - New content every week!
+- You can cancel your subscription any time
 
 ## I'm Also Doing Data Engineer Coaching To Help You On Your Journey:
 Do you need help becoming a Data Engineer and doing a personal project?
