@@ -18,15 +18,27 @@
 
 <br>
 
-### This Book Is & Will Always Be Free!  But Please Support What You Like!
-- **Amazon:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience) And buy whatever you like from Amazon* (Also check out my complete podcast gear and books)
-- **Patreon:** [Click Here](https://www.patreon.com/plumbersofds) Become a supporter on Patreon
-- **PayPal.me:** [Click Here](https://paypal.me/feedthestream) Send some support (Please include a message and I read and answer it in the next video)
+## Learn Data Engineering For Just $19.97 Per Month
+Check out the new monthly subscription to my Data Engineering course, if you find this cookbook helpful
 
-### I'm Doing Data Engineer Coaching To Help You On Your Journey:
+**Visit TeamDataScience.com:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience)
+
+- Step by step course from researching job postings, creating and doing your project to job application tips
+- Everything you need to land a Data Engineer job
+- Mini courses for AWS, GCP\* and Hadoop\* (\*in development)
+- Join The Community: Member Slack Workspace (lifetime access)
+- Currently over three hours of videos
+- Weekly Q&A video
+- New content every week!
+
+## I'm Also Doing Data Engineer Coaching To Help You On Your Journey:
 Do you need help becoming a Data Engineer and doing a personal project?
 I offer Data Engineer Coaching to help you on your journey.
 Go to my website **[teamdatascience.com](https://teamdatascience.com)** to learn more.
+
+## This Book Is & Will Always Be Free!  But Please Support What You Like!
+- **Amazon:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience) And buy whatever you like from Amazon* (Also check out my complete podcast gear and books)
+- **PayPal.me:** [Click Here](https://paypal.me/feedthestream) Send some support and include a message I can answer in the next video
 
 <!---
 I get asked super often how to become a Data Engineer.
