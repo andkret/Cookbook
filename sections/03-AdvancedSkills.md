@@ -738,7 +738,7 @@ times, because it would just override the existing one.
 The second streaming method is at most once. At most once means that
 it's okay to drop some information, to drop some messages.
 
-But it's important that a message is only only processed once as a
+But it's important that a message is only processed once as a
 maximum.
 
 A example for this is event processing. Some event is happening and that
