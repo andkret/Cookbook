@@ -1009,7 +1009,7 @@ resources with YARN.
 
 However, Hadoop is more than just storage, analytics and resource
 management. There's a whole eco system of tools around the Hadoop core.
-I've written about tis eco system in this article: [missing](missing)
+I've written about its eco system in this article: [missing](missing)
 What is Hadoop and why is it so freakishly popular. You should check it
 out as well.
 
