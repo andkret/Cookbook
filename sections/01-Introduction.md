@@ -366,6 +366,7 @@ This type of analysis is called batch processing. It will deliver you
 answers for the big questions.
 
 If you're interested in learning more about batch and stream processing or their use-cases, click on the link below:
+
 [Big Data 101: Guide to Batch vs. Streaming Data](https://www.precisely.com/blog/big-data/big-data-101-batch-stream-processing)
 
 The analytics process, batch or streaming, is not a one way process.
