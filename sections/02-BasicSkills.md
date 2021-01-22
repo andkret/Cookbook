@@ -335,10 +335,7 @@ The OSI Model describes how data is flowing through the network. It
 consists of layers starting from physical layers, basically how the data
 is transmitted over the line or optic fiber.
 
-Cisco page that shows the layers of the OSI model and how it works:
-<https://learningnetwork.cisco.com/docs/DOC-30382>
-
-Check out this page:
+Check out this article for a deeper understanding of the layers and processes outline in a OSI model:
 <https://www.studytonight.com/computer-networks/complete-osi-model>
 
 The Wikipedia page is also very good:
