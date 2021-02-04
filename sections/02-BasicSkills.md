@@ -622,7 +622,7 @@ difference and how to decide on what you are going to use.
 
 ### AWS, Azure, IBM, Google
 
-Each of these have there own answer to IaaS, Paas and SaaS. Pricing and
+Each of these have their own answer to IaaS, Paas and SaaS. Pricing and
 pricing models vary greatly between each provider. Likewise each
 provider's service may have limitations and strengths.
 
