@@ -36,9 +36,8 @@ Check out my Data Engineering Academy and personal Coaching at LearnDataEngineer
 - Currently over 24 hours of videos
 
 
-## This Book Is & Will Always Be Free! But Please Support What You Like!
-- **Amazon:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience) And buy whatever you like from Amazon* (Also check out my complete podcast gear and books)
-- **PayPal.me:** [Click Here](https://paypal.me/feedthestream) Send some support and include a message I can answer in the next video
+## Support This Book For Free!
+- **Amazon:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience) buy whatever you like from Amazon using this link* (Also check out my complete podcast gear and books)
 
 <!---
 I get asked super often how to become a Data Engineer.
