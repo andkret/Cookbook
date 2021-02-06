@@ -18,26 +18,25 @@
 
 <br>
 
-## Learn Data Engineering For Just $19.97 Per Month
-Check out the new monthly subscription to my Data Engineering course, if you find this cookbook helpful
+## If You Like This Book & Need More Help:
+Check out my Data Engineering Academy and personal Coaching at LearnDataEngineering.com
 
-**Visit TeamDataScience.com:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience)
+**Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
 
-- Step by step course from researching job postings, creating and doing your project to job application tips
-- Everything you need to land a Data Engineer job
-- Mini courses for AWS, GCP\* and Hadoop\* (\*in development)
-- Join The Community: Member Slack Workspace (lifetime access)
-- Currently over three hours of videos
-- Weekly Q&A video
 - New content every week!
-- You can cancel your subscription any time
+- Step by step course from researching job postings, creating and doing your project to job application tips
+- Full AWS Data Engineering example project (Azure in development)
+- 1+ hours Ultimate Introduction to Data Engineering course
+- Data Engineering Fundamentals course
+- Data Platform & Pipeline Design course
+- Apache Spark Fundamentals course
+- Choosing Data Stores Course
+- Private Member Slack Workspace (lifetime access)
+- Weekly Q&A live stream & Archive
+- Currently over 24 hours of videos
 
-## I'm Also Doing Data Engineer Coaching To Help You On Your Journey:
-Do you need help becoming a Data Engineer and doing a personal project?
-I offer Data Engineer Coaching to help you on your journey.
-Go to my website **[teamdatascience.com](https://teamdatascience.com)** to learn more.
 
-## This Book Is & Will Always Be Free!  But Please Support What You Like!
+## This Book Is & Will Always Be Free! But Please Support What You Like!
 - **Amazon:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience) And buy whatever you like from Amazon* (Also check out my complete podcast gear and books)
 - **PayPal.me:** [Click Here](https://paypal.me/feedthestream) Send some support and include a message I can answer in the next video
 
