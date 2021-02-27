@@ -244,7 +244,7 @@ One very prominent example who follows this strategy is Elon Musk.
 
 Tesla's Gigafactories are designed to get raw materials in on one side
 and spit out cars on the other. Why do you think Tesla is building
-Gigafactories who cost a lot of money?
+Gigafactories that cost a lot of money?
 
 Why is SpaceX building its one space engines? Clearly there are other,
 older, companies who could do that for them.
