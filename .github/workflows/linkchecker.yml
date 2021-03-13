@@ -17,7 +17,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1.0.4
         with:
           # https://github.com/lycheeverse/lychee
-          args: --verbose --no-progress --accept 200,204,206 --exclude-mail ./sections/*.md
+          args: --verbose --no-progress --accept 200,204,206,406,429,999 --exclude-mail ./sections/*.md
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v2
         with:
