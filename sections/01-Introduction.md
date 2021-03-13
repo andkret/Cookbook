@@ -163,9 +163,9 @@ the data that gets fed to the algorithms.
 In order to train an algorithm you need useful data. If you use any data
 for the training the produced model will be very unreliable.
 
-A unreliable model for predicting machine failure would tell you that
+An unreliable model for predicting machine failure would tell you that
 your machine is damaged even if it is not. Or even worse: It would tell
-you the machine is ok even when there is an malfunction.
+you the machine is ok even when there is a malfunction.
 
 Model outputs are very abstract. You also need to post-process the model
 outputs to receive the outputs you desire
