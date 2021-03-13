@@ -406,7 +406,7 @@ Here's an example:
 
 ![Connections between tools](/images/Hadoop-Ecosystem-Connections.jpg)
 
-You use Apache Kafka to ingest data, and store the it in HDFS. You do
+You use Apache Kafka to ingest data, and store it in the HDFS. You do
 the analytics with Apache Spark and as a backend for the display you
 store data in Apache HBase.
 
