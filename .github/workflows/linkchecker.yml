@@ -1,0 +1,26 @@
+on:
+  # Scheduled to run every monday 9am UTC
+  schedule:
+    - cron: "0 9 * * 1"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  linkChecker:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.0.4
+        with:
+          # https://github.com/lycheeverse/lychee
+          args: --verbose --no-progress --accept 200,204,206 --exclude-mail *.md
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
