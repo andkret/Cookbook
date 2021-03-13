@@ -210,11 +210,7 @@ Confluent Platform:
 
 <https://www.slideshare.net/yaelgarten/building-a-healthy-data-ecosystem-around-kafka-and-hadoop-lessons-learned-at-linkedin>
 
-<https://engineering.linkedin.com/teams/data/projects/pinot>
-
-<https://pinot.readthedocs.io/en/latest/intro.html#>
-
-<https://towardsdatascience.com/building-machine-learning-at-linkedin-scale-f08bd9a63f0a>
+<https://thirdeye.readthedocs.io/en/latest/about.html>
 
 <http://samza.apache.org>
 
@@ -535,7 +531,7 @@ more than a year old.
 
 <https://www.slideshare.net/billonahill/twitter-heron-in-practice>
 
-<https://streaml.io/blog/intro-to-heron>
+<https://medium.com/@kramasamy/introduction-to-apache-heron-c64f8c7c0956>
 
 <https://www.youtube.com/watch?v=3QHGhnHx5HQ>
 
