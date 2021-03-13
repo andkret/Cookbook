@@ -738,7 +738,7 @@ times, because it would just override the existing one.
 The second streaming method is at most once. At most once means that
 it's okay to drop some information, to drop some messages.
 
-But it's important that a message is only only processed once as a
+But it's important that a message is only processed once as a
 maximum.
 
 A example for this is event processing. Some event is happening and that
@@ -1009,7 +1009,7 @@ resources with YARN.
 
 However, Hadoop is more than just storage, analytics and resource
 management. There's a whole eco system of tools around the Hadoop core.
-I've written about tis eco system in this article: [missing](missing)
+I've written about its eco system in this article: [missing](missing)
 What is Hadoop and why is it so freakishly popular. You should check it
 out as well.
 
