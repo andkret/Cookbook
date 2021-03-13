@@ -519,7 +519,7 @@ https://www.sitepoint.com/how-to-defend-your-website-with-zip-bombs/
 
 Jersey:
 
-<https://jersey.github.io/documentation/latest/getting-started.html>
+<https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/getting-started.html>
 
 Tutorial – REST API design and implementation in Java with Jersey and Spring:
 https://www.codepedia.org/ama/tutorial-rest-api-design-and-implementation-in-java-with-jersey-and-spring/
