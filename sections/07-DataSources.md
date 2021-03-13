@@ -110,7 +110,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [IMF Economic Data](https://data.imf.org/?sk=388dfa60-1d26-4ade-b505-a05a558d9a42)
 - [The Atlas of Economic Complexity](http://atlas.cid.harvard.edu/)
 - [World Bank Doing Business Database](http://www.doingbusiness.org/rankings)
-- [UN Comtrade Database](http://comtrade.un.org/labs/BIS-trade-in-goods/)
+- [UN Comtrade Database](https://comtrade.un.org/labs/)
 - [Global Financial Data](https://www.globalfinancialdata.com/index.html)
 - [Visualizing Economics](http://visualizingeconomics.com/)
 - [Federal Reserve Economic Database](https://fred.stlouisfed.org/)
