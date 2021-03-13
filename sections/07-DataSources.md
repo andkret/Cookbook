@@ -54,7 +54,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 
 ## Crime
 
-- [Uniform Crime Reporting Statistics](http://www.ucrdatatool.gov/)
+- [Uniform Crime Reporting Statistics](https://crime-data-explorer.fr.cloud.gov/)
 - [FBI Crime Statistics](https://www.fbi.gov/stats-services/crimestats)
 - [National Archive of Criminal Justice Data](https://www.icpsr.umich.edu/icpsrweb/NACJD/)
 - [Bureau of Justice Statistics](http://www.bjs.gov/index.cfm?ty=dca)
@@ -94,8 +94,8 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Weather Underground](https://www.wunderground.com/)
 - [National Centers for Environmental Information](https://www.ncdc.noaa.gov/wdcmet/data-access-search-viewer-tools/world-weather-records-wwr-clearinghouse)
 - [WeatherBase](http://www.weatherbase.com/)
-- [International Energy Agency Atlas](http://energyatlas.iea.org/?subject=-1118783123)
-- [Environmental Protection Agency](http://www.epa.gov/open/data-inventory-and-activities)
+- [International Energy Agency Atlas](https://www.iea.org/data-and-statistics?country=WORLD&fuel=Energy%20supply&indicator=TPESbySource)
+- [Environmental Protection Agency](https://www.epa.gov/data)
 
 ## Financial And Economic Data
 
@@ -106,8 +106,8 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [National Bureau of Economic Research](http://www.nber.org/data/)
 - [U.S. Securities and Exchange Commission](https://www.sec.gov/dera/data/financial-statement-data-sets.html)
 - [World Bank Open Data](http://data.worldbank.org/)
-- [Financial Data Finder at OSU](http://fisher.osu.edu/fin/fdf/osudata.htm)
-- [IMF Economic Data](http://data.imf.org/?sk=7CB6619C-CF87-48DC-9443-2973E161ABEB)
+- [Financial Data Finder at OSU](./) - Missing link.
+- [IMF Economic Data](https://data.imf.org/?sk=388dfa60-1d26-4ade-b505-a05a558d9a42)
 - [The Atlas of Economic Complexity](http://atlas.cid.harvard.edu/)
 - [World Bank Doing Business Database](http://www.doingbusiness.org/rankings)
 - [UN Comtrade Database](http://comtrade.un.org/labs/BIS-trade-in-goods/)
@@ -128,7 +128,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [The World Bank’s World Development Indicators](http://data.worldbank.org/data-catalog/world-development-indicators)
 - [UNDP’s Human Development Index](http://hdr.undp.org/en/data)
 - [OECD Aid Database](http://www.oecd.org/dac/financing-sustainable-development/development-finance-data/)
-- [The CIA World Factbook](https://www.cia.gov/library/publications/the-world-factbook/)
+- [The CIA World Factbook](https://www.cia.gov/the-world-factbook/)
 
 ## Health
 
@@ -179,7 +179,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 ## Social
 
 - [Facebook Graph API](https://developers.facebook.com/docs/graph-api)
-- [SocialMention](http://www.socialmention.com/)
+- [SocialMention]() - Missing link.
 - [Google Trends](http://www.google.com/trends/explore)
 
 ## Travel And Transportation
@@ -188,7 +188,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [SkiftStats](https://skift.com/skiftx/skiftstats/)
 - [Search the World](http://www.geoba.se/)
 - [U.S. Travel Association](https://www.ustravel.org/research)
-- [Bureau of Transportation Statistics](http://www.rita.dot.gov/bts/home)
+- [Bureau of Transportation Statistics](https://www.bts.gov/browse-statistical-products-and-data)
 
 ## Various Portals
 
