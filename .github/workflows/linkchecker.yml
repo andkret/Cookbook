@@ -14,7 +14,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.0.4
+        uses: lycheeverse/lychee-action@master
         with:
           # https://github.com/lycheeverse/lychee
           args: --verbose --no-progress --accept 200,204,206,406,429,999 --exclude-mail ./sections/*.md
