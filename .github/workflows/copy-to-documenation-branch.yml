@@ -1,4 +1,4 @@
-name: Copy to documentation branch
+name: Copy from master to documentation branch
 
 # Controls when the action will run.
 on:
