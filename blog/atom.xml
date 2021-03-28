@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://baky0905.github.io/blog</id>
+    <id>https://andkret.github.io/blog</id>
     <title>THE DATA ENGINEERING COOKBOOK Blog</title>
     <updated>2015-10-25T23:29:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://baky0905.github.io/blog"/>
+    <link rel="alternate" href="https://andkret.github.io/blog"/>
     <subtitle>THE DATA ENGINEERING COOKBOOK Blog</subtitle>
-    <icon>https://baky0905.github.io/images/CookbookCover.jpg</icon>
+    <icon>https://andkret.github.io/images/CookbookCover.jpg</icon>
 </feed>
