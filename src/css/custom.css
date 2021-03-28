@@ -1,0 +1,37 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+:root {
+  --ifm-color-primary: #ffa200;
+  --ifm-color-primary-dark: #f2a927;
+  --ifm-color-primary-darker: #f1a319;
+  --ifm-color-primary-darkest: #cf890c;
+  --ifm-color-primary-light: #f6c163;
+  --ifm-color-primary-lighter: #f7c771;
+  --ifm-color-primary-lightest: #f9d89e;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.hero {
+  align-items: center;
+  background-color: #000000;
+  color: var(--ifm-hero-text-color);
+  display: flex;
+  padding: 4rem 2rem;
+}
+
+.hero--primary {
+  --ifm-hero-background-color: #000000;
+  --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
+}

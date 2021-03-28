@@ -1,0 +1,14 @@
+html[data-theme="dark"] .button {
+  --ifm-button-border-color: transparent;
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  font-family: "IBM Plex Mono";
+  font-size: 1em;
+}
+
+body .button.button--secondary {
+  color: var(--ifm-color-white) !important;
+}
