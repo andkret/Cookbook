@@ -1,9 +1,3 @@
----
-sidebar_label: Advanced Skills 
-title: ' '
----
-
-
 
 Advanced Data Engineering Skills
 ================================

@@ -1,9 +1,3 @@
----
-sidebar_label: Hands On Course 
-title: ' '
----
-
-
 Data Engineering Course: Building A Data Platform
 =================================================
 
