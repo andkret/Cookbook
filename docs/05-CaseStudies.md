@@ -4,6 +4,12 @@ title: ' '
 ---
 
 
+---
+sidebar_label: Case Studies 
+title: ' '
+---
+
+
 Case Studies
 ============
 
