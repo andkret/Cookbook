@@ -180,7 +180,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 
 - [Facebook Graph API](https://developers.facebook.com/docs/graph-api)
 - [Google Trends](http://www.google.com/trends/explore)
-- [SocialMention]() - Missing link.
+- [SocialMention](./) - Missing link.
 
 ## Travel And Transportation
 
