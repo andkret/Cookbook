@@ -3,11 +3,11 @@ const path = require("path");
 module.exports = {
   title: "THE DATA ENGINEERING COOKBOOK",
   tagline: "by ANDREAS KRETZ",
-  url: "https://baky0905.github.io", // url where websited is hosted
-  baseUrl: "/copy-between-test/", // path where website is available
+  url: "https://andkret.github.io", // url where websited is hosted
+  baseUrl: "/Cookbook/", // path where website is available
   favicon: "images/CookbookCover.jpg",
-  organizationName: "baky0905", // GitHub org/user name.
-  projectName: "copy-between-test", // project name i.e repo name of project
+  organizationName: "andkret", // GitHub org/user name.
+  projectName: "Cookbook", // project name i.e repo name of project
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   themeConfig: {
