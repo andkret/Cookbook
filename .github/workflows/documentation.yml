@@ -16,6 +16,7 @@ jobs:
       - name: Write in frontmatter
         run: |
           git update-index --chmod=+x ./prepend.sh
+          bash chmod +x ./prepend.sh
           find ./docs/ -name "*.md" -print0 | xargs -0 -I file ./prepend.sh file
 
           #find ./docs/ -type f -name "README.md" -exec sed -i 's+sections/+./+g' {} +
