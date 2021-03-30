@@ -1,15 +1,3 @@
----
-sidebar_label: Introduction 
-title: ' '
----
-
-
----
-sidebar_label: Introduction 
-title: ' '
----
-
-
 
 Introduction
 ============
@@ -79,6 +67,40 @@ Check out this podcast episode where I talk in detail why I decided to
 share all this information for free: [\#079 Trying to stay true to
 myself and making the cookbook public on
 GitHub](https://youtu.be/k1bS5aSPos8)
+
+
+
+## If You Like This Book & Need More Help:
+Check out my Data Engineering Academy and personal Coaching at LearnDataEngineering.com
+
+**Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
+
+- New content every week!
+- Step by step course from researching job postings, creating and doing your project to job application tips
+- Full AWS Data Engineering example project (Azure in development)
+- 1+ hours Ultimate Introduction to Data Engineering course
+- Data Engineering Fundamentals course
+- Data Platform & Pipeline Design course
+- Apache Spark Fundamentals course
+- Choosing Data Stores Course
+- Private Member Slack Workspace (lifetime access)
+- Weekly Q&A live stream & Archive
+- Currently over 24 hours of videos
+
+
+## Support This Book For Free!
+- **Amazon:** [Click Here](https://www.amazon.com/shop/plumbersofdatascience) buy whatever you like from Amazon using this link* (Also check out my complete podcast gear and books)
+
+
+## How To Contribute
+If you have some cool links or topics for the cookbook, please become a contributor.
+
+Simply pull the repo, add your ideas and create a pull request.
+You can also open an issue and put your thoughts there.
+
+Please use the "Issues" function for comments.
+
+
 
 Data Engineer vs Data Scientist
 -------------------------------
