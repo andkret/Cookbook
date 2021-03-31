@@ -4,18 +4,6 @@ title: ' '
 ---
 
 
----
-sidebar_label: Data Sources 
-title: ' '
----
-
-
----
-sidebar_label: Data Sources 
-title: ' '
----
-
-
 
 100 Plus Data Sources Data Science
 ===================================
