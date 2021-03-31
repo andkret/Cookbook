@@ -4,6 +4,12 @@ title: ' '
 ---
 
 
+---
+sidebar_label: Best Practices Cloud 
+title: ' '
+---
+
+
 Best Practices Cloud Platforms
 =============================
 
