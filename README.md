@@ -18,7 +18,7 @@
 
 <br>
 
-## If You Like This Book & Need More Help:
+## If You Like This Book & Need More Help
 Check out my Data Engineering Academy and personal Coaching at LearnDataEngineering.com
 
 **Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
