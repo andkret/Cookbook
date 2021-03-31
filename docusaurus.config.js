@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   title: "THE DATA ENGINEERING COOKBOOK",
   tagline: "by ANDREAS KRETZ",
-  url: "https://andkret.github.io", // url where websited is hosted
+  url: "http://cookbook.learndataengineering.com", // url where websited is hosted https://andkret.github.io
   baseUrl: "/", // path where website is available
   favicon: "images/CookbookCover.jpg",
   organizationName: "andkret", // GitHub org/user name.
