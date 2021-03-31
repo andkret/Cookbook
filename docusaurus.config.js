@@ -48,7 +48,7 @@ module.exports = {
     footer: {
       style: "light",
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} Kristijan Bakaric, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Andreas Kretz. Built by Kristijan Bakaric with Docusaurus.`,
     },
     // prism: {
     //   additionalLanguages: ["powerquery", "dax"],
