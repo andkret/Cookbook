@@ -4,7 +4,7 @@ module.exports = {
   title: "THE DATA ENGINEERING COOKBOOK",
   tagline: "by ANDREAS KRETZ",
   url: "https://andkret.github.io", // url where websited is hosted
-  baseUrl: "/Cookbook/", // path where website is available
+  baseUrl: "/", // path where website is available
   favicon: "images/CookbookCover.jpg",
   organizationName: "andkret", // GitHub org/user name.
   projectName: "Cookbook", // project name i.e repo name of project
