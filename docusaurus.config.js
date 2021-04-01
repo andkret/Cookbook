@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   title: "THE DATA ENGINEERING COOKBOOK",
   tagline: "by ANDREAS KRETZ",
-  url: "http://cookbook.learndataengineering.com", // url where websited is hosted https://andkret.github.io
+  url: "http://cookbook.learndataengineering.com",
   baseUrl: "/", // path where website is available
   favicon: "images/CookbookCover.jpg",
   organizationName: "andkret", // GitHub org/user name.
@@ -17,7 +17,7 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "Data Engineering Cookbook", // title
+      title: "Data Engineering Cookbook",
       logo: {
         alt: "Site Logo",
         src: "images/CookbookCover.jpg", // path with respect to static dir
@@ -60,14 +60,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // editUrl: "",
-        },
-        blog: {
-          showReadingTime: true,
-          postsPerPage: 5,
-          // Please change this to your repo.
-          // editUrl: "",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
