@@ -135,7 +135,7 @@ edit `/docusaurus.config.js` file:
 
 ![](static/img/readme/sidebar.png)
 
-edit `/docusaurus.config.js` file:
+edit `/sidebars.js` file:
 
 ![](static/img/readme/sidebar-config.png)
 
@@ -163,10 +163,10 @@ Automation workflow consists of two Github actions as follows:
 
     - on push or pull request to `documentation` branch, action performs two jobs:
 
-    - `write_front_matter` job runs a `/prepend.sh` shell script that cleans up sidebar lables by creating a frontmatter in each markdown file - TEMPORARELY DISABLED
+      - `write_front_matter` job runs a `/prepend.sh` shell script that cleans up sidebar lables by creating a frontmatter in each markdown file - TEMPORARELY DISABLED
 
 
-    - `gh-release` job builds a docusaurus website and publishes it on gh-pages branch from the `./build` publish directory
+      - `gh-release` job builds a docusaurus website and publishes it on gh-pages branch from the `./build` publish directory
 
 ## Roadmap
 
