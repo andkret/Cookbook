@@ -1,5 +1,21 @@
 
-## About the Project
+## About the Project- [About the Project](#about-the-project)
+- [About the Project- About the Project](#about-the-project--about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Development and configuration](#development-and-configuration)
+  - [Running the development server](#running-the-development-server)
+  - [Build](#build)
+  - [Project Structure](#project-structure)
+  - [Configuration specifics](#configuration-specifics)
+- [Details of CI/CD automation setup](#details-of-cicd-automation-setup)
+  - [Workflow](#workflow)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 <br />
 <p align="center">
