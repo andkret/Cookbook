@@ -153,11 +153,20 @@ Automation workflow consists of two Github actions as follows:
 
 1) On `master` branch: `Cookbook/.github/workflows/copy-to-documenation-branch.yml`
    
-    - on push to master branch, action performs two jobs:
+    - on push to `master` branch, action performs two jobs:
   
       - `copy-sections` job copies all markdown files FROM `/sections/.` directory on `master` branch TO `documentation` branch `/docs/` directory
 
       - `copy-images` job copies all image files FROM `/images/.` directory on `master` branch TO `documentation` branch `/static/images/` directory
+
+2) On `documentation` branch: `Cookbook/.github/workflows/documentation.yml`
+
+    - on push or pull request to `documentation` branch, action performs two jobs:
+
+    - `write_front_matter` job runs a `/prepend.sh` shell script that cleans up sidebar lables by creating a frontmatter in each markdown file - TEMPORARELY DISABLED
+
+
+    - `gh-release` job builds a docusaurus website and publishes it on gh-pages branch from the `./build` publish directory
 
 ## Roadmap
 

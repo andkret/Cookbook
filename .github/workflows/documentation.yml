@@ -7,43 +7,43 @@ on:
     branches: [documentation]
 
 jobs:
-  write_front_matter:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: documentation
-      - name: Write in frontmatter
-        run: |
-          find ./docs/ -name "*.md" -print0 | xargs -0 -I file ./prepend.sh file
+  # write_front_matter:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #       with:
+  #         ref: documentation
+  #     - name: Write in frontmatter
+  #       run: |
+  #         find ./docs/ -name "*.md" -print0 | xargs -0 -I file ./prepend.sh file
 
-          #find ./docs/ -type f -name "README.md" -exec sed -i 's+sections/+./+g' {} +
-          #find ./docs/ -type f -name "README.md" | while read fname; do
-          #  dirname=`dirname "$fname"`
-          #  foldername=`basename "$dirname"`
-          #  filename=`basename "$fname"`
-          #  newname=`echo "$dirname" | sed -e "s+sections/+/docs/+g"`
-          #  cp "${dirname}/$filename" "./${foldername}/00-FrontPage.md"
-          #done
-          #find ./docs/ -type f -name "README.md" -exec rm {} +
+  #         #find ./docs/ -type f -name "README.md" -exec sed -i 's+sections/+./+g' {} +
+  #         #find ./docs/ -type f -name "README.md" | while read fname; do
+  #         #  dirname=`dirname "$fname"`
+  #         #  foldername=`basename "$dirname"`
+  #         #  filename=`basename "$fname"`
+  #         #  newname=`echo "$dirname" | sed -e "s+sections/+/docs/+g"`
+  #         #  cp "${dirname}/$filename" "./${foldername}/00-FrontPage.md"
+  #         #done
+  #         #find ./docs/ -type f -name "README.md" -exec rm {} +
 
-          #mv "./docs/README.md" "./docs/00-FrontPage.md"
-          #sed -i 's+sections/+./+g' 00-FrontPage.md
-          # find ./ -type f -name "README.md" -exec sed -i 's+sections/+./+g' {} +
-      - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Add changes" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: documentation
+  #         #mv "./docs/README.md" "./docs/00-FrontPage.md"
+  #         #sed -i 's+sections/+./+g' 00-FrontPage.md
+  #         # find ./ -type f -name "README.md" -exec sed -i 's+sections/+./+g' {} +
+  #     - name: Commit files
+  #       run: |
+  #         git config --local user.email "action@github.com"
+  #         git config --local user.name "GitHub Action"
+  #         git add .
+  #         git commit -m "Add changes" -a
+  #     - name: Push changes
+  #       uses: ad-m/github-push-action@master
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         branch: documentation
 
   checks:
-    needs: [write_front_matter]
+    # needs: [write_front_matter]
     if: github.event_name !='push'
     runs-on: ubuntu-latest
     steps:
@@ -62,7 +62,7 @@ jobs:
           fi
           npm run build
   gh-release:
-    needs: [write_front_matter]
+    # needs: [write_front_matter]
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
