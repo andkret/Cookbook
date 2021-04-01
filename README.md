@@ -1,21 +1,5 @@
 
-## About the Project- [About the Project](#about-the-project)
-- [About the Project- About the Project](#about-the-project--about-the-project)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Development and configuration](#development-and-configuration)
-  - [Running the development server](#running-the-development-server)
-  - [Build](#build)
-  - [Project Structure](#project-structure)
-  - [Configuration specifics](#configuration-specifics)
-- [Details of CI/CD automation setup](#details-of-cicd-automation-setup)
-  - [Workflow](#workflow)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+# [Website for the Data Engineering Cookbook](https://cookbook.learndataengineering.com/)
 
 <br />
 <p align="center">
@@ -38,6 +22,27 @@
     <a href="https://github.com/andkret/Cookbook/issues">Request Feature</a>
   </p>
 </p>
+
+
+
+
+
+- [Website for the Data Engineering Cookbook](#website-for-the-data-engineering-cookbook)
+  - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Development and configuration](#development-and-configuration)
+    - [Running the development server](#running-the-development-server)
+    - [Build](#build)
+    - [Project Structure](#project-structure)
+    - [Configuration specifics](#configuration-specifics)
+  - [Details of CI/CD automation setup](#details-of-cicd-automation-setup)
+    - [Workflow](#workflow)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
 ## Built With
 
