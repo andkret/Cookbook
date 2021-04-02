@@ -48,6 +48,7 @@
 
 * [Docusaurus](https://docusaurus.io/) - An optimized site generator in React.
 * [GitHub Actions](https://github.com/features/actions) - CI/CD automation
+* [GitHub Pages](https://pages.github.com/) - Website Hosted directly from your GitHub repository. Just edit, push, and your changes are live.
 * [Markdown](https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,using%20a%20plain%20text%20editor.) - book content.
 
 
