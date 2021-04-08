@@ -81,7 +81,7 @@ Where to Learn? There's a Java Course on Udemy you could look at:
 
 -   OOP Object oriented programming
 
--   What are Unit tests to make sure what you code is working
+-   What are Unit tests to make sure what your code is working
 
 -   Functional Programming
 
