@@ -625,7 +625,10 @@ provider's service may have limitations and strengths.
 
 #### AWS
 
-[Full list of AWS services](https://www.amazonaws.cn/en/products/).
+Here is the [full list of AWS services](https://www.amazonaws.cn/en/products/). Studying for the [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=cta&cta=header&p=2) and/or [AWS Certified Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-associate/?ch=sec&sec=rmg&d=1) exams can be helpful to quickly gain an understanding of all these services. 
+Here are links for free digital training for the [AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-foundations-learning-plan) and [AWS Certified Solutions Architect Associate](https://explore.skillbuilder.aws/learn/public/learning_plan/view/78/architect-learning-plan).
+
+Here is a free 17 hour [Data Analytics Learning plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/97/data-analytics-learning-plan) for AWS's [Analytics](https://aws.amazon.com/big-data/datalakes-and-analytics/?nc2=h_ql_prod_an)/Data Engineering services.
 
 #### Azure
 [Full list of Azure services](https://azure.microsoft.com/en-us/services/).
