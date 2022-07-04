@@ -23,17 +23,13 @@ Check out my Data Engineering Academy and personal Coaching at LearnDataEngineer
 
 **Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
 
-- New content every week!
-- Step by step course from researching job postings, creating and doing your project to job application tips
-- Full AWS Data Engineering example project (Azure in development)
-- 1+ hours Ultimate Introduction to Data Engineering course
-- Data Engineering Fundamentals course
-- Data Platform & Pipeline Design course
-- Apache Spark Fundamentals course
-- Choosing Data Stores Course
-- Private Member Slack Workspace (lifetime access)
-- Weekly Q&A live stream & Archive
-- Currently over 24 hours of videos
+- Learn Data Engineering with our online Academy
+- Perfect for becoming a Data Engineer or add Data Engineering to your skillset
+- Proven process based on years of experience and hundreds of hours of personal coaching
+- Prepared courses on the most important fundamentals, tools and platforms plus our
+- Associate Data Engineer Certification
+- Private Slack workgroup with over 500 members
+
 
 
 ## Support This Book For Free!
