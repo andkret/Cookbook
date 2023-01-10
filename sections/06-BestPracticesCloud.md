@@ -93,7 +93,7 @@ Deploying a Spring Boot Application on AWS Using AWS Elastic Beanstalk:
 
 How to deploy a Docker Container on AWS:
 
-[https://towardsdatascience.com/how-to-deploy-a-docker-container-python-on-amazon-ecs-using-amazon-ecr-9c52922b738f](https://towardsdatascience.com/how-to-deploy-a-docker-container-python-on-amazon-ecs-using-amazon-ecr-9c52922b738f)
+[https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/)
 
 
 ## More Details

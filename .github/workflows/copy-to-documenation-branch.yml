@@ -1,0 +1,63 @@
+name: Copy from master to documentation branch
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push request events but only for the master branch
+  push:
+    branches: [master]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  copy-images:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Copy Images
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.ACTION_TOKEN  }}
+          src_branch: master
+          src_path: /images/.
+          dst_owner: andkret
+          dst_repo_name: Cookbook
+          dst_path: /static/images/
+          dst_branch: documentation
+          clean: true
+          commit_message: "Images copied from master to documentation branch!"
+
+  copy-sections:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy Markdowns
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.ACTION_TOKEN  }}
+          src_branch: master
+          src_path: /sections/.
+          dst_owner: andkret
+          dst_repo_name: Cookbook
+          dst_path: /docs/
+          dst_branch: documentation
+          clean: true
+          commit_message: "Sections copied from master to documentation branch!"
+# copy-readme:
+#   runs-on: ubuntu-latest
+#   steps:
+#     - uses: actions/checkout@v2
+#     - name: Copy Markdowns
+#       uses: andstor/copycat-action@v3
+#       with:
+#         personal_token: ${{ secrets.PERSONAL_TOKEN  }}
+#         src_branch: master
+#         src_path: /README.md
+#         dst_owner: andkret
+#         dst_repo_name: Cookbook
+#         dst_path: /docs/
+#         dst_branch: documentation
+#         commit_message: "README.md copied from master to documentation branch!"

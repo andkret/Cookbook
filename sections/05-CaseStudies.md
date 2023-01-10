@@ -210,11 +210,7 @@ Confluent Platform:
 
 <https://www.slideshare.net/yaelgarten/building-a-healthy-data-ecosystem-around-kafka-and-hadoop-lessons-learned-at-linkedin>
 
-<https://engineering.linkedin.com/teams/data/projects/pinot>
-
-<https://pinot.readthedocs.io/en/latest/intro.html#>
-
-<https://towardsdatascience.com/building-machine-learning-at-linkedin-scale-f08bd9a63f0a>
+<https://thirdeye.readthedocs.io/en/latest/about.html>
 
 <http://samza.apache.org>
 
@@ -288,8 +284,7 @@ architecture.
 The key components were Chuckwa, a scalable data collection system,
 Amazon S3 and Elastic MapReduce.
 
-![Old Netflix Batch Processing
-Pipeline[]{label="fig:Bild1"}](/images/Netflix-Chuckwa-Pipeline.jpg){#fig:Bild1
+![Old Netflix Batch Processing Pipeline[]{label="fig:Bild1"}](/images/Netflix-Chuckwa-Pipeline.jpg){#fig:Bild1
 width="90%"}
 
 Chuckwa wrote incoming messages into Hadoop sequence files, stored in
@@ -351,8 +346,7 @@ Saturday morning at 8:00 in Germany. But it is so much more.
 What is currently being watched is only a part of the data that is used
 to generate "Trending Now".
 
-![Netflix Trending Now
-Feature[]{label="fig:Bild1"}](/images/Netflix-Trending-Now-Screenshot.jpg){#fig:Bild1
+![Netflix Trending Now Feature[]{label="fig:Bild1"}](/images/Netflix-Trending-Now-Screenshot.jpg){#fig:Bild1
 width="90%"}
 
 "Trending now" is created based on two types of data sources: Play
@@ -396,8 +390,7 @@ is stored in a Cassandra Key-Value store. The recommender service has
 access to Cassandra and is making the data available to the Netflix
 client.
 
-![Netflix Streaming
-Pipeline[]{label="fig:Bild1"}](/images/Netflix-Streaming-Pipeline.jpg){#fig:Bild1
+![Netflix Streaming Pipeline[]{label="fig:Bild1"}](/images/Netflix-Streaming-Pipeline.jpg){#fig:Bild1
 width="90%"}
 
 The algorithms how the analytics system is processing all this data is
@@ -535,7 +528,7 @@ more than a year old.
 
 <https://www.slideshare.net/billonahill/twitter-heron-in-practice>
 
-<https://streaml.io/blog/intro-to-heron>
+<https://medium.com/@kramasamy/introduction-to-apache-heron-c64f8c7c0956>
 
 <https://www.youtube.com/watch?v=3QHGhnHx5HQ>
 

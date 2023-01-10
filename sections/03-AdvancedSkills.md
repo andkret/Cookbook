@@ -406,7 +406,7 @@ Here's an example:
 
 ![Connections between tools](/images/Hadoop-Ecosystem-Connections.jpg)
 
-You use Apache Kafka to ingest data, and store the it in HDFS. You do
+You use Apache Kafka to ingest data, and store it in the HDFS. You do
 the analytics with Apache Spark and as a backend for the display you
 store data in Apache HBase.
 
@@ -519,7 +519,7 @@ https://www.sitepoint.com/how-to-defend-your-website-with-zip-bombs/
 
 Jersey:
 
-<https://jersey.github.io/documentation/latest/getting-started.html>
+<https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/getting-started.html>
 
 Tutorial – REST API design and implementation in Java with Jersey and Spring:
 https://www.codepedia.org/ama/tutorial-rest-api-design-and-implementation-in-java-with-jersey-and-spring/
@@ -738,7 +738,7 @@ times, because it would just override the existing one.
 The second streaming method is at most once. At most once means that
 it's okay to drop some information, to drop some messages.
 
-But it's important that a message is only only processed once as a
+But it's important that a message is only processed once as a
 maximum.
 
 A example for this is event processing. Some event is happening and that
@@ -1009,7 +1009,7 @@ resources with YARN.
 
 However, Hadoop is more than just storage, analytics and resource
 management. There's a whole eco system of tools around the Hadoop core.
-I've written about tis eco system in this article: [missing](missing)
+I've written about its eco system in this article: [missing](missing)
 What is Hadoop and why is it so freakishly popular. You should check it
 out as well.
 

@@ -135,19 +135,19 @@ PS: Don't just get a book and expect to learn everything
 
 ### Computer Networking
 
-[The Bits and Bytes of Computer Networking (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcomputer-networking%3F)
+[The Bits and Bytes of Computer Networking (Coursera)](https://www.coursera.org/learn/computer-networking)
 
 
 ### Spring Framework
 
-[Building Cloud Services with the Java Spring Framework (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fcloud-services-java-spring-framework)
+[Building Cloud Services with the Java Spring Framework (Coursera)](https://www.coursera.org/learn/cloud-services-java-spring-framework)
 
 
 ### Machine Learning Stanford
 
-[Machine Learning (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fmachine-learning)
+[Machine Learning (Coursera)](https://www.coursera.org/learn/machine-learning)
 
 
 ### IOS App Development Specialization
 
-[iOS Development for Creative Entrepreneurs Specialization (Coursera)](https://click.linksynergy.com/deeplink?id=uyxOZI9fN/M&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fios-development)
+[iOS Development for Creative Entrepreneurs Specialization (Coursera)](https://www.coursera.org/specializations/ios-development)
