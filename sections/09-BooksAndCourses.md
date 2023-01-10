@@ -22,7 +22,7 @@ Recommended Books, Courses, and Podcasts
     - [Crush It!](09-BooksAndCourses.md#crush-it!)
   - [Community Recommendations](09-BooksAndCourses.md#Community-Recommendations)
     - [Designing Data-Intensive Applications](09-BooksAndCourses.md#designing-data-intensive-applications)
-- [Online Courses](09-BooksAndCourses.md##Online-Courses)
+- [Online Courses](09-BooksAndCourses.md#Online-Courses)
   - [Machine Learning Stanford](09-BooksAndCourses.md#machine-learning-stanford)
   - [Computer Networking](09-BooksAndCourses.md#computer-networking)
   - [Spring Framework](09-BooksAndCourses.md#spring-framework)
@@ -31,7 +31,7 @@ Recommended Books, Courses, and Podcasts
     - [Super Data Science](09-BooksAndCourses.md#Super-Data-Science)
     - [Data Skeptic](09-BooksAndCourses.md#Data-Skeptic)
     - [Data Engineering Podcast](09-BooksAndCourses.md#Data-Engineering-Podcast)
-    - [Roaring Elephant - Bite-Sized Big Tech](09-BooksAndCourses.md#Roaring-Elephant-Bite-Sized-Big-Tech)
+    - [Roaring Elephant - BiteSized Big Tech](09-BooksAndCourses.md#Roaring-Elephant-BiteSized-Big-Tech)
     - [SQL Data Partners Podcast](09-BooksAndCourses.md#SQL-Data-Partners-Podcast)
 
 For more podcasts, check https://github.com/eponkratova/Cookbook/blob/master/sections/data_podcasts_1102023.csv
@@ -174,7 +174,7 @@ PS: Don't just get a book and expect to learn everything
 
 [This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some of the topics that you will find here.](https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557?mt=2)
 
-### Roaring Elephant - Bite-Sized Big Tech
+### Roaring Elephant - BiteSized Big Tech
 
 [A weekly community podcast about Big Technology with a focus on Open Source, Advanced Analytics and other modern magic.](https://roaringelephant.org/)
 
