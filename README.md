@@ -351,7 +351,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 - [Interview Questions](sections/08-InterviewQuestions.md)
 
-## Recommended Books and Courses
+## Recommended Books, Courses, and Podcasts
 
 - [About Books and Courses](sections/09-BooksAndCourses.md#about-books-and-courses)
 - [Books](sections/09-BooksAndCourses.md#books)
