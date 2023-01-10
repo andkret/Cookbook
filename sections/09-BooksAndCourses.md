@@ -27,7 +27,7 @@ Recommended Books, Courses, and Podcasts
   - [Computer Networking](09-BooksAndCourses.md#computer-networking)
   - [Spring Framework](09-BooksAndCourses.md#spring-framework)
   - [IOS App Development Specialization](09-BooksAndCourses.md#ios-app-development-specialization)
- - [Podcasts](BooksAndCourses#podcasts)
+ - [Podcasts](BooksAndCourses#Podcasts)
     - [Super Data Science](09-BooksAndCourses.md#super-data-science)
     - [Data Skeptic](09-BooksAndCourses.md#data-skeptic)
     - [Data Engineering Podcast](09-BooksAndCourses.md#data-engineering-podcast)
