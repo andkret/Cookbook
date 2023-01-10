@@ -373,7 +373,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
     - [Crush It!](sections/09-BooksAndCourses.md#crush-it!)
   - [Community Recommendations](sections/09-BooksAndCourses.md#Community-Recommendations)
     - [Designing Data-Intensive Applications](sections/09-BooksAndCourses.md#designing-data-intensive-applications)
-- [Online Courses](BooksAndCourses#online-courses)
+- [Online Courses](sections/09-BooksAndCourses.md#online-courses)
   - [Machine Learning Stanford](sections/09-BooksAndCourses.md#machine-learning-stanford)
   - [Computer Networking](sections/09-BooksAndCourses.md#computer-networking)
   - [Spring Framework](sections/09-BooksAndCourses.md#spring-framework)
