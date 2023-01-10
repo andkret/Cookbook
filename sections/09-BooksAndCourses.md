@@ -1,4 +1,4 @@
-Recommended Books And Courses
+Recommended Books, Courses, and Podcasts
 =============================
 
 ## Contents
@@ -27,8 +27,16 @@ Recommended Books And Courses
   - [Computer Networking](09-BooksAndCourses.md#computer-networking)
   - [Spring Framework](09-BooksAndCourses.md#spring-framework)
   - [IOS App Development Specialization](09-BooksAndCourses.md#ios-app-development-specialization)
+ - [Podcasts](BooksAndCourses#podcasts)
+  - [Super Data Science](09-BooksAndCourses.md#super-data-science)
+  - [Data Skeptic](09-BooksAndCourses.md#data-skeptic)
+  - [Data Engineering Podcast](09-BooksAndCourses.md#data-engineering-podcast)
+  - [Roaring Elephant - Bite-Sized Big Tech](09-BooksAndCourses.md#roaring-elephant-bite-sized-big-tech)
+  - [SQL Data Partners Podcast](09-BooksAndCourses.md#sql-data-partners-podcast)
 
-## About Books and Courses
+For more podcasts, check https://github.com/eponkratova/Cookbook/blob/master/sections/data_podcasts_1102023.csv
+
+## About Books, Courses, and Podcasts
 
 This is a collection of books and courses I can recommend personally.
 They are great for every data engineering learner.
@@ -151,3 +159,28 @@ PS: Don't just get a book and expect to learn everything
 ### IOS App Development Specialization
 
 [iOS Development for Creative Entrepreneurs Specialization (Coursera)](https://www.coursera.org/specializations/ios-development)
+
+## Podcasts
+
+### Super Data Science
+
+[The latest machine learning, A.I., and data career topics from across both academia and industry are brought to you by host Dr. Jon Krohn on the Super Data Science Podcast.](https://podcasts.apple.com/us/podcast/super-data-science/id1163599059)
+
+### Data Skeptic
+
+[The Data Skeptic Podcast features interviews and discussion of topics related to data science, statistics, machine learning, artificial intelligence and the like, all from the perspective of applying critical thinking and the scientific method to evaluate the veracity of claims and efficacy of approaches.](https://podcasts.apple.com/us/podcast/data-skeptic/id890348705)
+
+### Data Engineering Podcast
+
+[This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some of the topics that you will find here.](https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557?mt=2)
+
+### Roaring Elephant - Bite-Sized Big Tech
+
+[A weekly community podcast about Big Technology with a focus on Open Source, Advanced Analytics and other modern magic.](https://roaringelephant.org/)
+
+### SQL Data Partners Podcast
+
+[Hosted by Carlos L Chacon, the SQL Data Partners Podcast focuses on Microsoft data platform related topics mixed with a sprinkling of professional development. Carlos and guests discuss new and familiar features and ideas and how you might apply them in your environments.](https://podcasts.apple.com/us/podcast/sql-data-partners-podcast/id1027394388)
+
+For more podcasts, check https://github.com/eponkratova/Cookbook/blob/master/sections/data_podcasts_1102023.csv
+
