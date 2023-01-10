@@ -159,7 +159,8 @@ PS: Don't just get a book and expect to learn everything
 
 [iOS Development for Creative Entrepreneurs Specialization (Coursera)](https://www.coursera.org/specializations/ios-development)
 
-## Podcasts (top five by the number of episodes created)
+## Podcasts
+Top five podcasts by the number of episodes created.
 
 ### Super Data Science
 
