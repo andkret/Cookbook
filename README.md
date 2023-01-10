@@ -378,7 +378,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Computer Networking](sections/09-BooksAndCourses.md#computer-networking)
   - [Spring Framework](sections/09-BooksAndCourses.md#spring-framework)
   - [IOS App Development Specialization](sections/09-BooksAndCourses.md#ios-app-development-specialization)
-- [Podcasts](09-BooksAndCourses.md#Podcasts)
+- [Podcasts](sections/09-BooksAndCourses.md#Podcasts)
     - [Super Data Science](sections/09-BooksAndCourses.md#Super-Data-Science)
     - [Data Skeptic](sections/09-BooksAndCourses.md#Data-Skeptic)
     - [Data Engineering Podcast](sections/09-BooksAndCourses.md#Data-Engineering-Podcast)
