@@ -23,10 +23,6 @@ Recommended Books, Courses, and Podcasts
   - [Community Recommendations](09-BooksAndCourses.md#Community-Recommendations)
     - [Designing Data-Intensive Applications](09-BooksAndCourses.md#designing-data-intensive-applications)
 - [Online Courses](09-BooksAndCourses.md#Online-Courses)
-  - [Machine Learning Stanford](09-BooksAndCourses.md#machine-learning-stanford)
-  - [Computer Networking](09-BooksAndCourses.md#computer-networking)
-  - [Spring Framework](09-BooksAndCourses.md#spring-framework)
-  - [IOS App Development Specialization](09-BooksAndCourses.md#ios-app-development-specialization)
  - [Podcasts](09-BooksAndCourses.md#Podcasts)
     - [Super Data Science](09-BooksAndCourses.md#Super-Data-Science)
     - [Data Skeptic](09-BooksAndCourses.md#Data-Skeptic)
@@ -139,25 +135,42 @@ PS: Don't just get a book and expect to learn everything
 
 
 ## Online Courses
-
-### Computer Networking
-
-[The Bits and Bytes of Computer Networking (Coursera)](https://www.coursera.org/learn/computer-networking)
-
-
-### Spring Framework
-
-[Building Cloud Services with the Java Spring Framework (Coursera)](https://www.coursera.org/learn/cloud-services-java-spring-framework)
-
-
-### Machine Learning Stanford
-
-[Machine Learning (Coursera)](https://www.coursera.org/learn/machine-learning)
-
-
-### IOS App Development Specialization
-
-[iOS Development for Creative Entrepreneurs Specialization (Coursera)](https://www.coursera.org/specializations/ios-development)
+| **Course name** | **Course description** | _Course URL_ |
+|---|---|---|
+| **_Preparation courses_** |  |  |
+| The Bits and Bytes of Computer Networking | This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. | https://www.coursera.org/learn/computer-networking |
+| Learn SQL \| Codecademy | In this SQL course, you'll learn how to manage large datasets and analyze real data using the standard data management language. | https://www.codecademy.com/learn/learn-sql |
+| Learn Python 3 \| Codecademy | Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today. | https://www.codecademy.com/learn/learn-python-3 |
+| **_Data engineering courses_** |  |  |
+| _1. Data Engineering Basics_ |  |  |
+| Introduction to Data Engineering | Introduction to Data Engineering with over 1 hour of videos including my journey here. | https://learndataengineering.com/p/introduction-to-data-engineering |
+| Computer Science Fundamentals | A complete guide of topics and resources you should know as a Data Engineer. | https://learndataengineering.com/p/data-engineering-fundamentals |
+| Introduction to Python | Learn all the fundamentals of Python to start coding quick | https://learndataengineering.com/p/introduction-to-python |
+| Python for Data Engineers | Learn all the Python topics a Data Engineer needs even if you don't have a coding background | https://learndataengineering.com/p/python-for-data-engineers |
+| Docker Fundamentals | Learn all the fundamental Docker concepts with hands-on examples | https://learndataengineering.com/p/docker-fundamentals |
+| _2. Platform & Pipeline Design Fundamentals_ |  |  |
+| Data Platform And Pipeline Design | Learn how to build data pipelines with templates and examples for Azure, GCP and Hadoop. | https://learndataengineering.com/p/data-pipeline-design |
+| Platform & Pipelines Security | Learn the important security fundamentals for Data Engineering | https://learndataengineering.com/p/platform-pipeline-security |
+| Choosing Data Stores | Learn the different types of data stores and when to use which. | https://learndataengineering.com/p/choosing-data-stores |
+| Schema Design Data Stores | Learn to define schemas for SQL, NoSQL databases and Data Warehouses | https://learndataengineering.com/p/schema-design-data-stores |
+| Modern Data Warehouses & Data Lakes | How to integrate a Data Lake with a Data Warehouse and query data directly from files | https://learndataengineering.com/p/modern-data-warehouses |
+| _3. Fundamental Tools_ |  |  |
+| Building APIs with FastAPI | Learn the fundamentals of designing, creating and deploying APIs with FastAPI and Docker | https://learndataengineering.com/p/apis-with-fastapi-course |
+| Apache Kafka Fundamentals | Learn the fundamentals of Apache Kafka | https://learndataengineering.com/p/apache-kafka-fundamentals |
+| Apache Spark Fundamentals | Apache Spark quick start course in Python with Jupyter notebooks, DataFrames, SparkSQL and RDDs. | https://learndataengineering.com/p/learning-apache-spark-fundamentals |
+| Data Engineering on Databricks | Everything you need to get started with Databricks. From setup to building ETL pipelines &amp; warehousing. | https://learndataengineering.com/p/data-engineering-on-databricks |
+| MongoDB Fundamentals | Learn how to use MongoDB | https://learndataengineering.com/p/mongodb-fundamentals-course |
+| Log Analysis with Elasticsearch | Learn how to monitor and debug your data pipelines | https://learndataengineering.com/p/log-analysis-with-elasticsearch |
+| Airflow Workflow Orchestration | Learn how to orchestrate your data pipelines with Apache Airflow | https://learndataengineering.com/p/learn-apache-airflow |
+| Snowflake for Data Engineers | Everything you need to get started with Snowflake | https://learndataengineering.com/p/snowflake-for-data-engineers |
+| _4. Full Hands-On Example Projects_ |  |  |
+| Data Engineering on AWS | Full 5 hours course with complete example project. Building stream and batch processing pipelines on AWS. | https://learndataengineering.com/p/data-engineering-on-aws |
+| Machine Learning & Containerization On AWS | Build a app that analyzes the sentiment of tweets and visualizing them on a user interface hosted as container | https://learndataengineering.com/p/ml-on-aws |
+| Data Engineering on Azure | Ingest, Store, Process, Serve and Visualize Streams of Data by Building Streaming Data Pipelines in Azure. | https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure |
+| Contact Tracing with Elasticsearch | Track 100,000 users in San Francisco using Elasticsearch and an interactive Streamlit user interface | https://learndataengineering.com/p/contact-tracing-with-elasticsearch |
+| Document Streaming Project | Document Streaming with FastAPI, Kafka, Spark Streaming, MongoDB and Streamlit | https://learndataengineering.com/p/document-streaming |
+| Storing & Visualizing Time Series Data with InfluxDB and Grafana | Learn how to use InfluxDB to store time series data and visualize interactive dashboards with Grafana | https://learndataengineering.com/p/time-series-influxdb-grafana |
+| Data Engineering with Hadoop | Hadoop Project with HDFS, YARN, MapReduce, Hive and Sqoop! | https://learndataengineering.com/p/data-engineering-with-hadoop |
 
 ## Podcasts
 Top five podcasts by the number of episodes created.
