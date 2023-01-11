@@ -374,6 +374,8 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Community Recommendations](sections/09-BooksAndCourses.md#Community-Recommendations)
     - [Designing Data-Intensive Applications](sections/09-BooksAndCourses.md#designing-data-intensive-applications)
 - [Online Courses](sections/09-BooksAndCourses.md#online-courses)
+    - [Preparation courses](sections/09-BooksAndCourses.md#Preparation-courses)
+    - [Data engineering courses](sections/09-BooksAndCourses.md#Data-engineering-courses)
 - [Podcasts](sections/09-BooksAndCourses.md#Podcasts)
     - [Super Data Science](sections/09-BooksAndCourses.md#Super-Data-Science)
     - [Data Skeptic](sections/09-BooksAndCourses.md#Data-Skeptic)
