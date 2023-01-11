@@ -54,7 +54,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [Best Practices Cloud Platforms](sections/06-BestPracticesCloud.md)
 - [130+ Data Sources Data Science](sections/07-DataSources.md)
 - [1001 Interview Questions](sections/08-InterviewQuestions.md)
-- [Recommended Books and Courses](sections/09-BooksAndCourses.md)
+- [Recommended Books, Courses, and Podcasts](sections/09-BooksAndCourses.md)
 <!--  -->
 
 - [How To Contribute](#how-to-contribute)
@@ -351,7 +351,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 - [Interview Questions](sections/08-InterviewQuestions.md)
 
-## Recommended Books and Courses
+## Recommended Books, Courses, and Podcasts
 
 - [About Books and Courses](sections/09-BooksAndCourses.md#about-books-and-courses)
 - [Books](sections/09-BooksAndCourses.md#books)
@@ -373,11 +373,17 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
     - [Crush It!](sections/09-BooksAndCourses.md#crush-it!)
   - [Community Recommendations](sections/09-BooksAndCourses.md#Community-Recommendations)
     - [Designing Data-Intensive Applications](sections/09-BooksAndCourses.md#designing-data-intensive-applications)
-- [Online Courses](BooksAndCourses#online-courses)
+- [Online Courses](sections/09-BooksAndCourses.md#online-courses)
   - [Machine Learning Stanford](sections/09-BooksAndCourses.md#machine-learning-stanford)
   - [Computer Networking](sections/09-BooksAndCourses.md#computer-networking)
   - [Spring Framework](sections/09-BooksAndCourses.md#spring-framework)
   - [IOS App Development Specialization](sections/09-BooksAndCourses.md#ios-app-development-specialization)
+- [Podcasts](sections/09-BooksAndCourses.md#Podcasts)
+    - [Super Data Science](sections/09-BooksAndCourses.md#Super-Data-Science)
+    - [Data Skeptic](sections/09-BooksAndCourses.md#Data-Skeptic)
+    - [Data Engineering Podcast](sections/09-BooksAndCourses.md#Data-Engineering-Podcast)
+    - [Roaring Elephant BiteSized Big Tech](sections/09-BooksAndCourses.md#Roaring-Elephant-BiteSized-Big-Tech)
+    - [SQL Data Partners Podcast](sections/09-BooksAndCourses.md#SQL-Data-Partners-Podcast)
 
 
 ## How To Contribute
