@@ -1,5 +1,5 @@
 
-Basic Data Engineering Skills
+Basic Computer Science Skills
 =============================
 
 ## Contents
@@ -25,34 +25,26 @@ Basic Data Engineering Skills
   - [Cron Jobs](02-BasicSkills.md#cron-jobs)
   - [Packet Management](02-BasicSkills.md#packet-management)
 - [Docker](02-BasicSkills.md#docker)
-  - [What Docker Is and How It Works](02-BasicSkills.md#what-is-docker-and-what-do-you-use-it-for)
-    - [Don't Mess Up Your System](02-BasicSkills.md#dont-mess-up-your-system)
-    - [Preconfigured Images](02-BasicSkills.md#preconfigured-images)
-    - [Take It With You](02-BasicSkills.md#take-it-with-you)
-    - [Kubernetes Container Deployment](02-BasicSkills.md#kubernetes-container-deployment)
-    - [How to Create, Start, and Stop a Container](02-BasicSkills.md#how-to-create-start-stop-a-container)
-    - [Docker Micro Services](02-BasicSkills.md#docker-micro-services)
-    - [Kubernetes](02-BasicSkills.md#kubernetes)
-    - [Why and How to Do Docker Container Orchestration](02-BasicSkills.md#why-and-how-to-do-docker-container-orchestration)
-    - [Useful Docker Commands](02-BasicSkills.md#useful-docker-commands)
+  - [What is Docker and How it Works](02-BasicSkills.md#what-is-docker-and-what-do-you-use-it-for)
+  - [Kubernetes Container Deployment](02-BasicSkills.md#kubernetes-container-deployment)
+  - [Why and How To Do Docker Container Orchestration](02-BasicSkills.md#why-and-how-to-do-docker-container-orchestration)
+  - [Useful Docker Commands](02-BasicSkills.md#useful-docker-commands)
 - [The Cloud](02-BasicSkills.md#the-cloud)
   - [IaaS vs. PaaS vs. SaaS](02-BasicSkills.md#iaas-vs-paas-vs-saas)
   - [AWS Azure IBM Google](02-BasicSkills.md#aws-azure-ibm-google)
   - [Cloud vs. On-Premises](02-BasicSkills.md#cloud-vs-on-premises)
   - [Security](02-BasicSkills.md#security)
   - [Hybrid Clouds](02-BasicSkills.md#hybrid-clouds)
-- [Security Zone Design](02-BasicSkills.md#security-zone-design)
-  - [How to Secure a Multi-:ayered Application](02-BasicSkills.md#how-to-secure-a-multi-layered-application)
-  - [Cluster Security With Kerberos](02-BasicSkills.md#cluster-security-with-kerberos)
-
+- [Data Scientists and Machine Learning](02-BasicSkills.md#Data-Scientists-and-Machine-Learning)
+  - [Machine Learning Workflow](02-BasicSkills.md#machine-learning-workflow)
+  - [Machine Learning Model and Data](02-BasicSkills.md#machine-learning-model-and-data)
 
 
 Learn to Code
 -------------
 
 Why this is important: Without coding you cannot do much in data
-engineering. I cannot count the number of times I needed a quick Java
-hack.
+engineering. I cannot count the number of times I needed a quick hack to solve a problem.
 
 The possibilities are endless:
 
@@ -60,34 +52,26 @@ The possibilities are endless:
 
 -   Testing to produce messages to a Kafka topic.
 
--   Understanding the source code of a Java webservice.
+-   Understanding the source code of a Webservice
 
 -   Reading counter statistics out of a HBase key-value store.
 
 So, which language do I recommend then?
 
-I highly recommend Java. It's everywhere!
 
-When you are getting into data processing with Spark, you should use
-Scala. But, after learning Java, this is easy to do.
+If you would asked me a few years ago I would have said Java, 100%. Nowadays though the community moved heavily to Python. I highly recommend starting with it.
 
-Also, Python is a great choice. It is super versatile.
+When you are getting into data processing with Spark you can use
+Scala which is a JVM language, but Python is also very good here.
 
-Personally, however, I am not that big into Python. But, I am going to
-look into it.
+Python is a great choice. It is super versatile.
 
-Where to learn? There's a Java course on Udemy you could look at:
-<https://www.udemy.com/java-programming-tutorial-for-beginners>
 
--   Object-oriented programming (OOP).
+Where to Learn Python? There are free Python courses all over the internet.
+- I have a beginner one in my Data Engineering academy: [Introduction to Python course](https://learndataengineering.com/p/introduction-to-python)
+- I also have a Python for Data Engineers one one in my Data Engineering academy: [Python for Data Engineers course](https://learndataengineering.com/p/python-for-data-engineers)
 
--   What are unit tests to make sure what your code is working.
-
--   Functional programming.
-
--   How to use build management tools like Maven.
-
--   Resilience testing (?).
+Keep in mind to always keep it practical: Learning by doing!
 
 I talked about the importance of learning by doing in this podcast:
 <https://anchor.fm/andreaskayy/episodes/Learning-By-Doing-Is-The-Best-Thing-Ever---PoDS-035-e25g44>
@@ -375,7 +359,13 @@ Security and Privacy
 
 ### SSL Public and Private Key Certificates
 
-### What Is a Certificate Authority
+
+<https://www.cloudflare.com/learning/ssl/how-does-ssl-work/>
+
+<https://www.kaspersky.com/resource-center/definitions/what-is-a-ssl-certificate>
+
+<https://www.ssl.com/faqs/what-is-a-certificate-authority/>
+
 
 ### JSON Web Tokens
 
@@ -543,6 +533,7 @@ you need to do an analytics task.
 
 That's perfect for data science.
 
+
 ### How to Create, Start, Stop a Container
 
 ### Docker Micro-Services?
@@ -667,15 +658,156 @@ interesting example for this is Google Anthos:
 
 <https://cloud.google.com/anthos/>
 
-Security Zone Design
---------------------
 
-### How to Secure a Multi-Layered Application
+# Data Scientists and Machine Learning
 
-(UI in different zone than SQL DB)
+Data scientists aren't like every other scientist.
 
-### Cluster Security With Kerberos
+Data scientists do not wear white coats or work in high tech labs full
+of science fiction movie equipment. They work in offices just like you
+and me.
 
-I talked about security zone design and lambda architecture in this
-podcast:
-<https://anchor.fm/andreaskayy/embed/episodes/How-to-Design-Security-Zones-and-Lambda-Architecture--PoDS-032-e248q2>
+What differs them from most of us is that they are math experts. They
+use linear algebra and multivariable calculus to create new insight from
+existing data.
+
+How exactly does this insight look?
+
+Here's an example:
+
+An industrial company produces a lot of products that need to be tested
+before shipping.
+
+Usually such tests take a lot of time because there are hundreds of
+things to be tested. All to make sure that your product is not broken.
+
+Wouldn't it be great to know early if a test fails ten steps down the
+line? If you knew that you could skip the other tests and just trash the
+product or repair it.
+
+That's exactly where a data scientist can help you, big-time. This field
+is called predictive analytics and the technique of choice is machine
+learning.
+
+Machine what? Learning?
+
+Yes, machine learning, it works like this:
+
+You feed an algorithm with measurement data. It generates a model and
+optimises it based on the data you fed it with. That model basically
+represents a pattern of how your data is looking. You show that model
+new data and the model will tell you if the data still represents the
+data you have trained it with. This technique can also be used for
+predicting machine failure in advance with machine learning. Of course
+the whole process is not that simple.
+
+The actual process of training and applying a model is not that hard. A
+lot of work for the data scientist is to figure out how to pre-process
+the data that gets fed to the algorithms.
+
+In order to train an algorithm you need useful data. If you use any data
+for the training the produced model will be very unreliable.
+
+An unreliable model for predicting machine failure would tell you that
+your machine is damaged even if it is not. Or even worse: It would tell
+you the machine is ok even when there is a malfunction.
+
+Model outputs are very abstract. You also need to post-process the model
+outputs to receive the outputs you desire
+
+![The Machine Learning Pipeline](/images/Machine-Learning-Pipeline.jpg)
+
+
+## Machine Learning Workflow
+
+![The Machine Learning Workflow](/images/Machine-Learning-Workflow.jpg)
+
+Data Scientists and Data Engineers. How does that all fit together?
+
+You have to look at the data science process. How stuff is created and how data
+science is done. How machine learning is
+done.
+
+The machine learning process shows, that you start with a training phase. A phase where you are basically training the algorithms to create the right output.
+
+In the learning phase you are having the input parameters. Basically the configuration of the model and you have the input data.
+
+What you're doing is you are training the algorithm. While training the algorithm modifies the training
+parameters. It also modifies the used data and then you are getting to an output.
+
+Once you get an output you are evaluating. Is that output okay, or is that output not the desired output?
+
+if the output is not what you were looking for? Then you are continuing with the training phase.
+
+You're trying to retrain the model hundreds, thousands, hundred thousands of times. Of course all this is being done automatically.
+
+Once you are satisfied with the output, you are putting the model into production. In production it is no longer fed with training
+data it's fed with the live data.
+
+It's evaluating the input data live and putting out live results.
+
+So, you went from training to production and then what?
+
+What you do is monitoring the output. If the output keeps making sense, all good!
+
+If the output of the model changes and it's on longer what you have expected, it means the model doesn't work anymore.
+
+You need to trigger a retraining of the model. It basically gets to getting trained again.
+
+Once you are again satisfied with the output, you put it into production again. It replaces the one in production.
+
+This is the overall process how machine learning. It's how the learning part of data science is working.
+
+
+## Machine Learning Model and Data
+
+![The Machine Learning Model](/images/Machine-Learning-Model.jpg)
+
+Now that's all very nice.
+
+When you look at it, you have two very important places where you have data.
+
+You have in the training phase two types of data:
+Data that you use for the training. Data that basically configures the model, the hyper parameter configuration.
+
+Once you're in production you have the live data that is streaming in. Data that is coming in from from an app, from
+a IoT device, logs, or whatever.
+
+A data catalog is also important. It explains which features are available and how different data sets are labeled.
+
+All different types of data. Now, here comes the engineering part.
+
+The Data Engineers part, is making this data available. Available to the data scientist and the machine learning process.
+
+So when you look at the model, on the left side you have your hyper parameter configuration. You need to store and manage these configurations somehow.
+
+Then you have the actual training data.
+
+There's a lot going on with the training data:
+
+Where does it come from? Who owns it? Which is basically data governance.
+
+What's the lineage? Have you modified this data? What did you do, what was the basis, the raw data?
+
+You need to access all this data somehow. In training and in production.
+
+In production you need to have access to the live data.
+
+All this is the data engineers job. Making the data available.
+
+First an architect needs to build the platform. This can also be a good data engineer.
+
+Then the data engineer needs to build the pipelines. How is the data coming in and how is the platform
+connecting to other systems.
+
+How is that data then put into the storage. Is there a pre processing for the algorithms necessary? He'll do it.
+
+Once the data and the systems are available, it's time for the machine learning part.
+
+It is ready for processing. Basically ready for the data scientist.
+
+Once the analytics is done the data engineer needs to build pipelines to make it then accessible again. For instance for other analytics processes, for APIs, for front ends and so on.
+
+All in all, the data engineer's part is a computer science part.
+
+That's why I love it so much :)

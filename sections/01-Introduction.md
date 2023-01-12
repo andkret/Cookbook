@@ -5,11 +5,7 @@ Introduction
 ## Contents
 
 - [What is this Cookbook](01-Introduction.md#what-is-this-cookbook)
-- [Data Engineer vs Data Scientist](01-Introduction.md#data-engineer-vs-data-scientist)
-  - [Data Engineer](01-Introduction.md#data-engineer)
-  - [Data Scientist](01-Introduction.md#data-scientist)
-  - [Machine Learning Workflow](01-Introduction.md#machine-learning-workflow)
-  - [Machine Learning Model and Data](01-Introduction.md#machine-learning-model-and-data)
+- [Data Engineers](01-Introduction.md#data-engineers)
 - [My Data Science Platform Blueprint](01-Introduction.md#my-data-science-platform-blueprint)
   - [Connect](01-Introduction.md#connect)
   - [Buffer](01-Introduction.md#buffer)
@@ -59,33 +55,25 @@ You can also write me an email any time to
 plumbersofdatascience\@gmail.com anytime.
 
 **This Cookbook is and will always be free!**
-I don't want to sell you this book, but please support what you like and
-join my Patreon: <https://www.patreon.com/plumbersofds>.
-Or send me a message and support through PayPal: <https://paypal.me/feedthestream>
-
-Check out this podcast episode where I talk in detail why I decided to
-share all this information for free: [\#079 Trying to stay true to
-myself and making the cookbook public on
-GitHub](https://youtu.be/k1bS5aSPos8)
-
 
 
 ## If You Like This Book & Need More Help:
-Check out my Data Engineering Academy and personal Coaching at LearnDataEngineering.com
+Check out my Data Engineering Academy at LearnDataEngineering.com
 
 **Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
 
-- New content every week!
-- Step by step course, from researching job postings to creating and doing your project, to job application tips.
-- Full AWS Data Engineering example project (Azure in development).
-- 1+ hours Ultimate Introduction to Data Engineering course.
-- Data Engineering Fundamentals course.
-- Data Platform & Pipeline Design course.
-- Apache Spark Fundamentals course.
-- Choosing Data Stores Course.
-- Private Member Slack Workspace (lifetime access).
-- Weekly Q&A live stream & Archive.
-- Currently over 24 hours of videos.
+- Huge Step by step Data Engineering Course
+- Unlimited access incl. future courses during subsciption
+- Access to all courses and example projects in the Academy
+- Associate Data Engineer Certification
+- Data Engineering on AWS E-Commerce example project
+- Microsoft Azure example project
+- Document Streaming example project with Docker, FastAPI, Apache Kafka, Apache Spark,
+- MongoDB and Streamlit
+- Time Series example project with InfluxDB and Grafana
+- Lifetime access to the private Discord Workspace
+- Course certificates
+- Currently over 40 hours of videos
 
 
 ## Support This Book For Free!
@@ -102,20 +90,12 @@ Please use the "Issues" function for comments.
 
 
 
-Data Engineer vs Data Scientist
+Data Engineers
 -------------------------------
 
 
-| Podcast Episode: #050 Data Engineer, Scientist or Analyst - Which One Is For You?
-|-----------------------------------------------------------------------------------
-| In this podcast we talk about the diﬀerences between data scientists, analysts and engineers. Which are the three main data science jobs. All three are super important. This makes it easy to decide
-| [Watch on YouTube](https://youtu.be/64TYZETOEdQ) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/050-Data-Engineer-Scientist-or-Analyst-Which-One-Is-For-You-e45ibl)
-
-
-### Data Engineer
-
 Data Engineers are the link between the management's data strategy
-and the data scientists who need to work with data.
+and the data scientists or analysts that need to work with data.
 
 What they do is build the platforms that enable data scientists to do
 their magic.
@@ -147,159 +127,6 @@ infrastructure like at Amazon or Google, or on-premise hardware.
 |------------------|
 |In this episode Kate Strachnyi interviews me for her humans of data science podcast. We talk about how I found out that I am more into the engineering part of data science.  
 | [Watch on YouTube](https://youtu.be/pIZkTuN5AMM) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/048-From-Wannabe-Data-Scientist-To-Engineer-My-Journey-e45i2o)|
-
-### Data Scientist
-
-Data scientists aren't like every other scientist.
-
-Data scientists do not wear white coats or work in high-tech labs full
-of science fiction movie equipment. They work in offices just like you
-and me.
-
-What differs them from most of us is that they are math experts. They
-use linear algebra and multivariable calculus to create new insight from
-existing data.
-
-How exactly does this insight look?
-
-Here's an example:
-
-An industrial company produces a lot of products that need to be tested
-before shipping.
-
-Usually such tests take a lot of time because there are hundreds of
-things to be tested -- all to make sure that your product is not broken.
-
-Wouldn't it be great to know early if a test fails ten steps down the
-line? if you knew that you could skip the other tests and just trash the
-product or repair it?
-
-That's exactly where a data scientist can help you, big time. This field
-is called predictive analytics, and the technique of choice is machine
-learning.
-
-Machine what? Learning?
-
-Yes, machine learning, it works like this:
-
-You feed an algorithm with measurement data. It generates a model and
-optimises it based on the data you fed it. That model basically
-represents a pattern of how your data looks. You show that model
-new data, and the model will tell you if the data still represents the
-data you have trained it with. This technique can also be used for
-predicting machine failure in advance with machine learning. Of course,
-the whole process is not that simple.
-
-The actual process of training and applying a model is not that hard. A
-lot of work for the data scientist is to figure out how to pre-process
-the data that gets fed to the algorithms.
-
-In order to train an algorithm, you need useful data. If you use just any data
-for the training the produced model will be very unreliable.
-
-An unreliable model for predicting machine failure would tell you that
-your machine is damaged even if it is not. Or even worse: It would tell
-you the machine is ok even when there is a malfunction.
-
-Model outputs are very abstract. You also need to post-process the model
-outputs to receive the outputs you desire
-
-![The Machine Learning Pipeline](/images/Machine-Learning-Pipeline.jpg)
-
-
-### Machine Learning Workflow
-
-![The Machine Learning Workflow](/images/Machine-Learning-Workflow.jpg)
-
-Data Scientists and Data Engineers. How does that all fit together?
-
-You have to look at the data science process, how stuff is created and how data
-science is done. How machine learning is
-done.
-
-The machine learning process shows that you start with a training phase, a phase where you basically train the algorithms to create the right output.
-
-In the learning phase, you have the input parameters (basically the configuration of the model), and you have the input data.
-
-What you do is train the algorithm. While training the algorithm modifies the training
-parameters, it also modifies the used data. Then you get an output.
-
-Once you get an output, you evaluate. Is that output okay, or is that output not the desired output?
-
-If the output is not what you were looking for, then you continue with the training phase.
-
-You may retrain the model hundreds, thousands, hundred thousands of times. Of course, all this is being done automatically.
-
-Once you are satisfied with the output, you put the model into production. In production, it is no longer fed with training
-data; it's fed with the live data.
-
-It evaluates the input data live and puts out live results.
-
-So, you went from training to production, and then what?
-
-What you do is monitor the output. If the output keeps making sense, all good!
-
-If the output of the model changes and it's on longer what you have expected, it means the model doesn't work anymore.
-
-You need to trigger model retraining.
-
-Once you are again satisfied with the output, you put it into production again. It replaces the one in production.
-
-This is the overall process of machine learning. It's how the learning part of data science works.
-
-
-### Machine Learning Model and Data
-
-![The Machine Learning Model](/images/Machine-Learning-Model.jpg)
-
-Now, that's all very nice.
-
-When you look at it, you have two very important places where you have data.
-
-You have in the training phase two types of data:
-data that you use for the training; data that basically configures the model, the hyperparameter configuration.
-
-Once you're in production, you have the live data streaming in, data from from an app, from
-a IoT device, logs, or whatever.
-
-A data catalog is also important. It explains which features are available and how different data sets are labeled.
-
-These are all different types of data. Now, here comes the engineering part.
-
-The Data Engineer's part is making this data available, available to the data scientist and the machine learning process.
-
-So, when you look at the model, on the left side you have your hyperparameter configuration. You need to store and manage these configurations somehow.
-
-Then you have the actual training data.
-
-There's a lot going on with the training data.
-
-Where does it come from? Who owns it? Which is basically data governance.
-
-What's the lineage? Have you modified this data? What did you do? What was the basis, the raw data?
-
-You need to access all this data somehow, in training and in production.
-
-In production, you need to have access to the live data.
-
-All this is the data engineer's job. Making the data available.
-
-First, an architect needs to build the platform. This can also be a good data engineer.
-
-Then, the data engineer needs to build the pipelines. How is the data coming in, and how does the platform
-connect to other systems.
-
-How is that data then put into the storage? Is pre-processing for the algorithms necessary? The data engineer will do it.
-
-Once the data and the systems are available, it's time for the machine learning part.
-
-It is ready for processing, for the data scientist.
-
-Once the analytics is done, the data engineer needs to build pipelines to make it then accessible again, for instance for other analytics processes, for APIs, for front ends, and so on.
-
-All in all, the data engineer's part is a computer science part.
-
-That's why I love it so much. :)
 
 
 ## My Data Science Platform Blueprint
@@ -462,20 +289,6 @@ build the perfect application.
 
 ## Who Companies Need
 
-For a company, it is important to have well-trained data
-engineers and data scientists. Think of the data scientist as a
-professional race car driver. A fit athlete with talent and driving
-skills like you have never seen before.
+For a company, it is important to have well-trained data engineers.
 
-What he needs to win races is someone who will provide him the perfect
-race car to drive. It is the data engineer/solution architect who will design and build the race car.
-
-Like the driver and the race car engineer, the data scientist and the data engineer need to work closely together. They need to know the different big-data tools inside out.
-
-That's why companies are looking for people with Spark experience. Spark is the common ground between the data engineer and the data scientist that drives innovation.
-
-Spark gives data scientists the tools to do analytics and helps
-engineers to bring the data scientist's algorithms into production.
-After all, those two decide how good the data platform is, how good the
-analytics insight is, and how fast the whole system gets into a
-production-ready state.
+That's why companies are looking for people with experience of tools in every part of the above platform blueprint. One common theme I see is cloud platform experience on AWS, Azure or GCP.
