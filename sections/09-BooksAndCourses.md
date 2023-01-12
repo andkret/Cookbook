@@ -5,33 +5,14 @@ Recommended Books, Courses, and Podcasts
 - [About Books and Courses](09-BooksAndCourses.md#about-books-and-courses)
 - [Books](09-BooksAndCourses.md#books)
   - [Languages](09-BooksAndCourses.md#books-languages)
-    - [Java](09-BooksAndCourses.md#java)
-    - [Python](09-BooksAndCourses.md#Python)
-    - [Scala](09-BooksAndCourses.md#Scala)
-    - [Swift](09-BooksAndCourses.md#Swift)
   - [Data Science Tools](09-BooksAndCourses.md#books-data-science-tools)
-    - [Apache Spark](09-BooksAndCourses.md#apache-spark)
-    - [Apache Kafka](09-BooksAndCourses.md#apache-Kafka)
-    - [Apache Hadoop](09-BooksAndCourses.md#apache-Hadoop)
-    - [Apache HBase](09-BooksAndCourses.md#apache-HBase)
   - [Business](09-BooksAndCourses.md#Books-Business)
-    - [The Lean Startup](09-BooksAndCourses.md#the-lean-startup)
-    - [Zero to One](09-BooksAndCourses.md#zero-to-one)
-    - [The Innovators Dilemma](09-BooksAndCourses.md#the-innovators-dilemma)
-    - [Crossing the Chasm](09-BooksAndCourses.md#crossing-the-chasm)
-    - [Crush It!](09-BooksAndCourses.md#crush-it!)
   - [Community Recommendations](09-BooksAndCourses.md#Community-Recommendations)
-    - [Designing Data-Intensive Applications](09-BooksAndCourses.md#designing-data-intensive-applications)
 - [Online Courses](09-BooksAndCourses.md#Online-Courses)
     - [Preparation courses](09-BooksAndCourses.md#Preparation-courses)
     - [Data engineering courses](09-BooksAndCourses.md#Data-engineering-courses)
  - [Podcasts](09-BooksAndCourses.md#Podcasts)
-    - [Super Data Science](09-BooksAndCourses.md#Super-Data-Science)
-    - [Data Skeptic](09-BooksAndCourses.md#Data-Skeptic)
-    - [Data Engineering Podcast](09-BooksAndCourses.md#Data-Engineering-Podcast)
-    - [Roaring Elephant BiteSized Big Tech](09-BooksAndCourses.md#Roaring-Elephant-BiteSized-Big-Tech)
-    - [SQL Data Partners Podcast](09-BooksAndCourses.md#SQL-Data-Partners-Podcast)
-    - [Etc.](09-BooksAndCourses.md#Complete-list)
+
 
 ## About Books, Courses, and Podcasts
 
@@ -145,8 +126,6 @@ PS: Don't just get a book and expect to learn everything
 | The Bits and Bytes of Computer Networking | This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. | https://www.coursera.org/learn/computer-networking |
 | Learn SQL \| Codecademy | In this SQL course, you'll learn how to manage large datasets and analyze real data using the standard data management language. | https://www.codecademy.com/learn/learn-sql |
 | Learn Python 3 \| Codecademy | Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today. | https://www.codecademy.com/learn/learn-python-3 |
-
-## Online Courses
 
 ### Data engineering courses
 

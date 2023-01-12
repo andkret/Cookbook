@@ -356,32 +356,18 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [About Books and Courses](sections/09-BooksAndCourses.md#about-books-and-courses)
 - [Books](sections/09-BooksAndCourses.md#books)
   - [Languages](sections/09-BooksAndCourses.md#books-languages)
-    - [Java](sections/09-BooksAndCourses.md#java)
-    - [Python](sections/09-BooksAndCourses.md#Python)
-    - [Scala](sections/09-BooksAndCourses.md#Scala)
-    - [Swift](sections/09-BooksAndCourses.md#Swift)
-  - [Data Science Tools](sections/09-BooksAndCourses.md#books-data-science-tools)
-    - [Apache Spark](sections/09-BooksAndCourses.md#apache-spark)
-    - [Apache Kafka](sections/09-BooksAndCourses.md#apache-Kafka)
-    - [Apache Hadoop](sections/09-BooksAndCourses.md#apache-Hadoop)
-    - [Apache HBase](sections/09-BooksAndCourses.md#apache-HBase)
+  - [Data Tools & Platforms](sections/09-BooksAndCourses.md#books-data-science-tools)
   - [Business](sections/09-BooksAndCourses.md#Books-Business)
-    - [The Lean Startup](sections/09-BooksAndCourses.md#the-lean-startup)
-    - [Zero to One](sections/09-BooksAndCourses.md#zero-to-one)
-    - [The Innovators Dilemma](sections/09-BooksAndCourses.md#the-innovators-dilemma)
-    - [Crossing the Chasm](sections/09-BooksAndCourses.md#crossing-the-chasm)
-    - [Crush It!](sections/09-BooksAndCourses.md#crush-it!)
   - [Community Recommendations](sections/09-BooksAndCourses.md#Community-Recommendations)
-    - [Designing Data-Intensive Applications](sections/09-BooksAndCourses.md#designing-data-intensive-applications)
 - [Online Courses](sections/09-BooksAndCourses.md#online-courses)
-    - [Preparation courses](sections/09-BooksAndCourses.md#Preparation-courses)
-    - [Data engineering courses](sections/09-BooksAndCourses.md#Data-engineering-courses)
+  - [Preparation courses](sections/09-BooksAndCourses.md#Preparation-courses)
+  - [Data engineering courses](sections/09-BooksAndCourses.md#Data-engineering-courses)
 - [Podcasts](sections/09-BooksAndCourses.md#Podcasts)
-    - [Super Data Science](sections/09-BooksAndCourses.md#Super-Data-Science)
-    - [Data Skeptic](sections/09-BooksAndCourses.md#Data-Skeptic)
-    - [Data Engineering Podcast](sections/09-BooksAndCourses.md#Data-Engineering-Podcast)
-    - [Roaring Elephant BiteSized Big Tech](sections/09-BooksAndCourses.md#Roaring-Elephant-BiteSized-Big-Tech)
-    - [SQL Data Partners Podcast](sections/09-BooksAndCourses.md#SQL-Data-Partners-Podcast)
+  - [Super Data Science](sections/09-BooksAndCourses.md#Super-Data-Science)
+  - [Data Skeptic](sections/09-BooksAndCourses.md#Data-Skeptic)
+  - [Data Engineering Podcast](sections/09-BooksAndCourses.md#Data-Engineering-Podcast)
+  - [Roaring Elephant BiteSized Big Tech](sections/09-BooksAndCourses.md#Roaring-Elephant-BiteSized-Big-Tech)
+  - [SQL Data Partners Podcast](sections/09-BooksAndCourses.md#SQL-Data-Partners-Podcast)
 
 
 ## How To Contribute
@@ -392,22 +378,11 @@ You can also open an issue and put your thoughts there.
 
 Please use the "Issues" function for comments.
 
-## Support
-
-Everything is free, but please support what you like!
-Join my Patreon and become a plumber yourself:
-[Link to my Patreon](https://patreon.com/plumbersofds)
-
-Or support me and send a message I read on the next livestream through Paypal.me:
-[Link to my Paypal.me/feedthestream](https://paypal.me/feedthestream)
 
 ## Important Links
 
-Subscribe to my Plumbers of Data Science YouTube channel for regular updates:
+Subscribe to my YouTube channel for regular updates:
 [Link to YouTube](https://www.youtube.com/channel/UCY8mzqqGwl5_bTpBY9qLMAA)
-
-Check out my blog and get updated via mail by joining my mailing list:
-[andreaskretz.com](https://andreaskretz.com)
 
 I have a Medium publication where you can publish your data engineer articles to reach more people:
 [Medium publication](https://link.medium.com/9oi1VDrhPW)
