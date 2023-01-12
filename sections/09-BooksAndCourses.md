@@ -131,19 +131,19 @@ PS: Don't just get a book and expect to learn everything
 
 | Course name | Course description | Course URL |
 |---|---|---|
-| 1. Data Engineering Basics |  |  |
+| **1. Data Engineering Basics** |  |  |
 | Introduction to Data Engineering | Introduction to Data Engineering with over 1 hour of videos including my journey here. | https://learndataengineering.com/p/introduction-to-data-engineering |
 | Computer Science Fundamentals | A complete guide of topics and resources you should know as a Data Engineer. | https://learndataengineering.com/p/data-engineering-fundamentals |
 | Introduction to Python | Learn all the fundamentals of Python to start coding quick | https://learndataengineering.com/p/introduction-to-python |
 | Python for Data Engineers | Learn all the Python topics a Data Engineer needs even if you don't have a coding background | https://learndataengineering.com/p/python-for-data-engineers |
 | Docker Fundamentals | Learn all the fundamental Docker concepts with hands-on examples | https://learndataengineering.com/p/docker-fundamentals |
-| 2. Platform & Pipeline Design Fundamentals |  |  |
+| **2. Platform & Pipeline Design Fundamentals** |  |  |
 | Data Platform And Pipeline Design | Learn how to build data pipelines with templates and examples for Azure, GCP and Hadoop. | https://learndataengineering.com/p/data-pipeline-design |
 | Platform & Pipelines Security | Learn the important security fundamentals for Data Engineering | https://learndataengineering.com/p/platform-pipeline-security |
 | Choosing Data Stores | Learn the different types of data stores and when to use which. | https://learndataengineering.com/p/choosing-data-stores |
 | Schema Design Data Stores | Learn to define schemas for SQL, NoSQL databases and Data Warehouses | https://learndataengineering.com/p/schema-design-data-stores |
 | Modern Data Warehouses & Data Lakes | How to integrate a Data Lake with a Data Warehouse and query data directly from files | https://learndataengineering.com/p/modern-data-warehouses |
-| 3. Fundamental Tools |  |  |
+| **3. Fundamental Tools** |  |  |
 | Building APIs with FastAPI | Learn the fundamentals of designing, creating and deploying APIs with FastAPI and Docker | https://learndataengineering.com/p/apis-with-fastapi-course |
 | Apache Kafka Fundamentals | Learn the fundamentals of Apache Kafka | https://learndataengineering.com/p/apache-kafka-fundamentals |
 | Apache Spark Fundamentals | Apache Spark quick start course in Python with Jupyter notebooks, DataFrames, SparkSQL and RDDs. | https://learndataengineering.com/p/learning-apache-spark-fundamentals |
@@ -152,7 +152,7 @@ PS: Don't just get a book and expect to learn everything
 | Log Analysis with Elasticsearch | Learn how to monitor and debug your data pipelines | https://learndataengineering.com/p/log-analysis-with-elasticsearch |
 | Airflow Workflow Orchestration | Learn how to orchestrate your data pipelines with Apache Airflow | https://learndataengineering.com/p/learn-apache-airflow |
 | Snowflake for Data Engineers | Everything you need to get started with Snowflake | https://learndataengineering.com/p/snowflake-for-data-engineers |
-| 4. Full Hands-On Example Projects |  |  |
+| **4. Full Hands-On Example Projects** |  |  |
 | Data Engineering on AWS | Full 5 hours course with complete example project. Building stream and batch processing pipelines on AWS. | https://learndataengineering.com/p/data-engineering-on-aws |
 | Machine Learning & Containerization On AWS | Build a app that analyzes the sentiment of tweets and visualizing them on a user interface hosted as container | https://learndataengineering.com/p/ml-on-aws |
 | Data Engineering on Azure | Ingest, Store, Process, Serve and Visualize Streams of Data by Building Streaming Data Pipelines in Azure. | https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure |
