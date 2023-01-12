@@ -358,8 +358,6 @@ example how to build an API
 
 
 #### Payload compression attacks
-Zip Bombs
-https://bomb.codes/
 
 How to defend your Server with zip Bombs
 https://www.sitepoint.com/how-to-defend-your-website-with-zip-bombs/
@@ -1153,7 +1151,6 @@ https://storm.apache.org/
 
 <https://www.youtube.com/watch?v=Qm5e574WoCU&t=2s>
 
-<https://github.com/gschmutz/stream-processing-workshop/tree/master/04-twitter-data-ingestion-with-streamsets>
 
 <https://streamsets.com/blog/streaming-data-twitter-analysis-spark/>
 
@@ -1330,9 +1327,6 @@ JSON:\
 
 Indexing basics:\
 <https://www.slideshare.net/knoldus/deep-dive-into-elasticsearch>
-
-How to query data with DSL language:\
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-common-terms-query.html>
 
 How to do searches with search API:\
 <https://www.elastic.co/guide/en/elasticsearch/reference/current/search.html>

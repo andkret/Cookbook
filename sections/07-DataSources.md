@@ -41,7 +41,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [FiveThirtyEight](http://fivethirtyeight.com/)
 - [Google Scholar](http://scholar.google.com/)
 - [Pew Research](http://www.pewresearch.org/)
-- [Qlik DataMarket](http://www.qlik.com/products/qlik-data-market)
 - [The Upshot by New York Times](http://www.nytimes.com/section/upshot)
 - [UNData](http://data.un.org/)
 
@@ -71,7 +70,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 
 - [Education Data by the World Bank](http://data.worldbank.org/topic/education)
 - [Education Data by Unicef](http://data.unicef.org/education/overview.html)
-- [Government Data About Education](https://www.data.gov/education/)
 - [National Center for Education Statistics](https://nces.ed.gov/)
 
 ## Entertainment
@@ -91,7 +89,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Environmental Protection Agency](https://www.epa.gov/data)
 - [International Energy Agency Atlas](https://www.iea.org/data-and-statistics?country=WORLD&fuel=Energy%20supply&indicator=TPESbySource)
 - [National Center for Environmental Health](http://www.cdc.gov/nceh/data.htm)
-- [National Centers for Environmental Information](https://www.ncdc.noaa.gov/wdcmet/data-access-search-viewer-tools/world-weather-records-wwr-clearinghouse)
 - [National Climatic Data Center](http://www.ncdc.noaa.gov/data-access/quick-links#loc-clim)
 - [National Weather Service](http://www.weather.gov/help-past-weather)
 - [Weather Underground](https://www.wunderground.com/)
@@ -117,7 +114,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 
 ## Government And World
 
-- [Data Catalogs](http://opengovernmentdata.org/data/)
 - [Data.gov](http://www.data.gov/)
 - [European Union Open Data Portal](http://data.europa.eu/euodp/en/data/)
 - [Gapminder](https://www.gapminder.org/data/)
@@ -128,7 +124,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [The World Bank’s World Development Indicators](http://data.worldbank.org/data-catalog/world-development-indicators)
 - [U.S. Census Bureau](http://www.census.gov/)
 - [UNDP’s Human Development Index](http://hdr.undp.org/en/data)
-- [Unicef](http://www.unicef.org/statistics/)
 
 ## Health
 
@@ -140,16 +135,12 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Medicare Hospital Quality](https://data.medicare.gov/data/hospital-compare#)
 - [MedicinePlus](https://www.nlm.nih.gov/medlineplus/healthstatistics.html)
 - [National Center for Health Statistics](http://www.cdc.gov/nchs/)
-- [Partners in Information Access for the Public Health Workforce](https://phpartners.org/health_stats.html)
-- [President’s Council on Fitness, Sports & Nutrition](http://www.fitness.gov/resource-center/facts-and-statistics/)
 - [SEER Cancer Incidence](http://seer.cancer.gov/faststats/selections.php?series=cancer)
-- [The BROAD Institute](http://www.broadinstitute.org/cgi-bin/cancer/datasets.cgi)
 - [World Health Organization](http://www.who.int/en/)
 
 ## Human Rights
 
 - [Amnesty International](https://www.amnesty.org/en/search/?q=&documentType=Annual+Report)
-- [Harvard Law School](http://hls.harvard.edu/library/research/find-a-database/international-relations-human-rights-data/)
 - [Human Rights Data Analysis Group](https://hrdag.org/)
 - [The Armed Conflict Database by Uppsala University](http://www.pcr.uu.se/research/UCDP/)
 
@@ -165,7 +156,6 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [California Field Poll](http://dlab.berkeley.edu/data-resources/california-polls)
 - [Crowdpac](https://www.crowdpac.com/)
 - [Gallup](http://www.gallup.com/home.aspx)
-- [Intro to Political Science Research by UC Berkeley](http://guides.lib.berkeley.edu/Intro-to-Political-Science-Research/Stats)
 - [Open Secrets](https://www.opensecrets.org/)
 - [Rand State Statistics](http://www.randstatestats.org/us/)
 - [Real Clear Politics](http://guides.lib.berkeley.edu/Intro-to-Political-Science-Research/Stats)
