@@ -192,7 +192,7 @@ You put something in on one side and take it out on the other.
 
 The idea behind buffers is to have an intermediate system for the incoming data.
 
-How this works is, for instance, you're getting data in from from an API.
+How this works is, for instance, you're getting data in from an API.
 The API is publishing into the message queue. Data is buffered there until it is picked up by the processing.
 
 If you don't have a buffer, you can run into problems when writing directly into a store or you're processing the data directly. You can always have peaks of incoming data that stall the systems.
