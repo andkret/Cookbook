@@ -321,6 +321,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 ## 130+ Free Data Sources For Data Science
 
 - [General And Academic](sections/07-DataSources.md#General-And-Academic)
+- [Climate](sections/07-DataSources.md#Climate)
 - [Content Marketing](sections/07-DataSources.md#Content-Marketing)
 - [Crime](sections/07-DataSources.md#Crime)
 - [Drugs](sections/07-DataSources.md#Drugs)
