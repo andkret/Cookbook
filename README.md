@@ -64,11 +64,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 # Full Table Of Contents:
 ##  Introduction
 - [What is this Cookbook](sections/01-Introduction.md#what-is-this-cookbook)
-- [Data Engineer vs Data Scientist](sections/01-Introduction.md#data-engineer-vs-data-scientist)
-  - [Data Engineer](sections/01-Introduction.md#data-engineer)
-  - [Data Scientist](sections/01-Introduction.md#data-scientist)
-  - [Machine Learning Workflow](sections/01-Introduction.md#machine-learning-workflow)
-  - [Machine Learning Model and Data](sections/01-Introduction.md#machine-learning-model-and-data)
+- [Data Engineers](sections/01-Introduction.md#data-engineers)
 - [My Data Science Platform Blueprint](sections/01-Introduction.md#my-data-science-platform-blueprint)
   - [Connect](sections/01-Introduction.md#connect)
   - [Buffer](sections/01-Introduction.md#buffer)
@@ -76,6 +72,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
   - [Store](sections/01-Introduction.md#store)
   - [Visualize](sections/01-Introduction.md#visualize)
 - [Who Companies Need](sections/01-Introduction.md#who-companies-need)
+- [How to Learn Data Engineering](01-Introduction.md#how-to-learn-data-engineering)
+  - [Building Blocks to Learn Data Engineering](01-Introduction.md#building-blocks-to-learn-data-engineering)
+  - [Roadmap for Data  Analysts](01-Introduction.md#roadmap-for-data-analysts)
+  - [Roadmap for Software Developers](01-Introduction.md#roadmap-for-data-analysts)
 
 ## Basic Engineering Skills
 - [Learn To Code](sections/02-BasicSkills.md#learn-to-code)

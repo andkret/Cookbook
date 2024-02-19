@@ -14,9 +14,9 @@ Introduction
   - [Visualize](01-Introduction.md#visualize)
 - [Who Companies Need](01-Introduction.md#who-companies-need)
 - [How to Learn Data Engineering](01-Introduction.md#how-to-learn-data-engineering)
-  - [Building Blocks to Learn Data Engineering](01-Introduction.md.md#building-blocks-to-learn-data-engineering)
-  - [Roadmap for Data  Analysts](01-Introduction.md.md#roadmap-for-data-analysts)
-  - [Roadmap for Software Developers](01-Introduction.md.md#roadmap-for-data-analysts)
+  - [Building Blocks to Learn Data Engineering](01-Introduction.md#building-blocks-to-learn-data-engineering)
+  - [Roadmap for Data  Analysts](01-Introduction.md#roadmap-for-data-analysts)
+  - [Roadmap for Software Developers](01-Introduction.md#roadmap-for-data-analysts)
 
 ## What is this Cookbook
 
