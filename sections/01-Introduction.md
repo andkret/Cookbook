@@ -13,10 +13,10 @@ Introduction
   - [Store](01-Introduction.md#store)
   - [Visualize](01-Introduction.md#visualize)
 - [Who Companies Need](01-Introduction.md#who-companies-need)
-- [How to Learn Data Engineering](01-BasicSkills.md#learning-data-engineering)
-  - [Building Blocks to Learn Data Engineering](01-BasicSkills.md#data-engineering-roadmap-for-data-analysts)
-  - [Roadmap for Data  Analysts](01-BasicSkills.md#roadmap-for-data-analysts)
-  - [Roadmap for Software Developers](01-BasicSkills.md#roadmap-for-data-analysts)
+- [How to Learn Data Engineering](01-Introduction.md#how-to-learn-data-engineering)
+  - [Building Blocks to Learn Data Engineering](01-Introduction.md.md#building-blocks-to-learn-data-engineering)
+  - [Roadmap for Data  Analysts](01-Introduction.md.md#roadmap-for-data-analysts)
+  - [Roadmap for Software Developers](01-Introduction.md.md#roadmap-for-data-analysts)
 
 ## What is this Cookbook
 
