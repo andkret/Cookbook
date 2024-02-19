@@ -4,8 +4,6 @@ Basic Computer Science Skills
 
 ## Contents
 
-Data Engineering Roadmap for Data Analysts
-- [Roadmap for Data  Analysts](02-BasicSkills.md#data-engineering-roadmap-for-data-analysts)
 - [Learn to Code](02-BasicSkills.md#learn-to-code)
 - [Get Familiar with Git](02-BasicSkills.md#get-familiar-with-git)
 - [Agile Development](02-BasicSkills.md#agile-development)
@@ -41,22 +39,6 @@ Data Engineering Roadmap for Data Analysts
   - [Machine Learning Workflow](02-BasicSkills.md#machine-learning-workflow)
   - [Machine Learning Model and Data](02-BasicSkills.md#machine-learning-model-and-data)
 
-
-Building Blocks of Your Data Engineering Journey
--------------------
-The following Roadmaps all hinge on the courses in my Data Engineering Academy. They are designed to help students who come from many different professions and enable to build a customized curriculum.
-
-Here are all the courses currently available February 2024:
-
-Colors: Blue (The Basics), Green (Platform & Pipeline Fundamentals), Orange (Fundamental Tools), Red (Example Projects)
-
-![Building blocks of your curriculum](/images/All Courses at Learn Data Engineering.jpg)
-
-
-Data Engineering Roadmap for Data Analysts
--------------------
-
-![Building blocks of your curriculum](/images/Data Engineering Roadmap for Data Analysts.jpg)
 
 
 Learn to Code

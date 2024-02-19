@@ -13,6 +13,10 @@ Introduction
   - [Store](01-Introduction.md#store)
   - [Visualize](01-Introduction.md#visualize)
 - [Who Companies Need](01-Introduction.md#who-companies-need)
+- [How to Learn Data Engineering](01-BasicSkills.md#learning-data-engineering)
+  - [Building Blocks to Learn Data Engineering](01-BasicSkills.md#data-engineering-roadmap-for-data-analysts)
+  - [Roadmap for Data  Analysts](01-BasicSkills.md#roadmap-for-data-analysts)
+  - [Roadmap for Software Developers](01-BasicSkills.md#roadmap-for-data-analysts)
 
 ## What is this Cookbook
 
@@ -292,3 +296,23 @@ build the perfect application.
 For a company, it is important to have well-trained data engineers.
 
 That's why companies are looking for people with experience of tools in every part of the above platform blueprint. One common theme I see is cloud platform experience on AWS, Azure or GCP.
+
+## How to Learn Data Engineering
+
+### Building Blocks to Learn Data Engineering
+
+The following Roadmaps all hinge on the courses in my Data Engineering Academy. They are designed to help students who come from many different professions and enable to build a customized curriculum.
+
+Here are all the courses currently available February 2024:
+
+**Colors:** Blue (The Basics), Green (Platform & Pipeline Fundamentals), Orange (Fundamental Tools), Red (Example Projects)
+
+![Building blocks of your curriculum](/images/All-Courses-at-Learn-Data-Engineering.jpg)
+
+
+### Roadmap for Data Analysts
+
+![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Data-Analysts.jpg)
+
+### Roadmap for Software Developers
+(coming soon)
