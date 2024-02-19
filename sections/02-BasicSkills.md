@@ -4,6 +4,8 @@ Basic Computer Science Skills
 
 ## Contents
 
+Data Engineering Roadmap for Data Analysts
+- [Roadmap for Data  Analysts](02-BasicSkills.md#data-engineering-roadmap-for-data-analysts)
 - [Learn to Code](02-BasicSkills.md#learn-to-code)
 - [Get Familiar with Git](02-BasicSkills.md#get-familiar-with-git)
 - [Agile Development](02-BasicSkills.md#agile-development)
@@ -38,6 +40,23 @@ Basic Computer Science Skills
 - [Data Scientists and Machine Learning](02-BasicSkills.md#Data-Scientists-and-Machine-Learning)
   - [Machine Learning Workflow](02-BasicSkills.md#machine-learning-workflow)
   - [Machine Learning Model and Data](02-BasicSkills.md#machine-learning-model-and-data)
+
+
+Building Blocks of Your Data Engineering Journey
+-------------------
+The following Roadmaps all hinge on the courses in my Data Engineering Academy. They are designed to help students who come from many different professions and enable to build a customized curriculum.
+
+Here are all the courses currently available February 2024:
+
+Colors: Blue (The Basics), Green (Platform & Pipeline Fundamentals), Orange (Fundamental Tools), Red (Example Projects)
+
+![Building blocks of your curriculum](/images/All Courses at Learn Data Engineering.jpg)
+
+
+Data Engineering Roadmap for Data Analysts
+-------------------
+
+![Building blocks of your curriculum](/images/Data Engineering Roadmap for Data Analysts.jpg)
 
 
 Learn to Code
@@ -615,7 +634,7 @@ provider's service may have limitations and strengths.
 
 #### AWS
 
-Here is the [full list of AWS services](https://www.amazonaws.cn/en/products/). Studying for the [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=cta&cta=header&p=2) and/or [AWS Certified Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-associate/?ch=sec&sec=rmg&d=1) exams can be helpful to quickly gain an understanding of all these services. 
+Here is the [full list of AWS services](https://www.amazonaws.cn/en/products/). Studying for the [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=cta&cta=header&p=2) and/or [AWS Certified Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-associate/?ch=sec&sec=rmg&d=1) exams can be helpful to quickly gain an understanding of all these services.
 Here are links for free digital training for the [AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-foundations-learning-plan) and [AWS Certified Solutions Architect Associate](https://explore.skillbuilder.aws/learn/public/learning_plan/view/78/architect-learning-plan).
 
 Here is a free 17 hour [Data Analytics Learning plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/97/data-analytics-learning-plan) for AWS's [Analytics](https://aws.amazon.com/big-data/datalakes-and-analytics/?nc2=h_ql_prod_an)/Data Engineering services.

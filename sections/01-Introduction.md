@@ -62,7 +62,7 @@ Check out my Data Engineering Academy at LearnDataEngineering.com
 
 **Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
 
-- Huge Step by step Data Engineering Course
+- Huge Step by step Data Engineering Academy with over 30 courses
 - Unlimited access incl. future courses during subsciption
 - Access to all courses and example projects in the Academy
 - Associate Data Engineer Certification
@@ -73,7 +73,7 @@ Check out my Data Engineering Academy at LearnDataEngineering.com
 - Time Series example project with InfluxDB and Grafana
 - Lifetime access to the private Discord Workspace
 - Course certificates
-- Currently over 40 hours of videos
+- Currently over 54 hours of videos
 
 
 ## Support This Book For Free!
