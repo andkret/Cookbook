@@ -314,5 +314,11 @@ Here are all the courses currently available February 2024:
 
 ![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Data-Analysts.jpg)
 
-### Roadmap for Software Developers
-(coming soon)
+| Live Stream -> Roadmap: Data Engineering for Data Analysts!
+|------------------|
+|In this live stream I was showing step by step how to read this roadmap for Analysts, why I chose these tools and why I think this is the right way to do it. I also answered many questions from the audience.  
+| [Watch on YouTube](https://youtube.com/live/w2t6SL5tQG0?feature=share)|
+
+### Roadmap for Software Engineers
+
+![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Software-Engineers.jpg)
