@@ -1,28 +1,22 @@
 on:
-  # Scheduled to run every monday 9am UTC
   schedule:
-    - cron: "0 9 * * 1"
-
-  # Allows you to run this workflow manually from the Actions tab
+    - cron: '0 9 * * 1'
   workflow_dispatch:
 
 jobs:
   linkChecker:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
-      - name: update setuptools 
-      - run: |
+      - name: update setuptools
+        run: |
           python3 -m pip install --upgrade pip setuptools wheel
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Link Checker
         uses: lycheeverse/lychee-action@master
         with:
-          # https://github.com/lycheeverse/lychee
           args: --verbose --no-progress --accept 200,204,206,406,429,999 --exclude-mail ./sections/*.md
       - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v2
+        uses: peter-evans/create-issue-from-file@v5
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
