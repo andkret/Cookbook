@@ -16,7 +16,7 @@ jobs:
         with:
           args: --verbose --no-progress --accept 200,204,206,406,429,999 --exclude-mail ./sections/*.md
       - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v2
+        uses: peter-evans/create-issue-from-file@v5
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
