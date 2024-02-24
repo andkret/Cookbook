@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: update setuptools 
-      - run: |
+        run: |
           python3 -m pip install --upgrade pip setuptools wheel
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
