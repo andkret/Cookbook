@@ -75,6 +75,7 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 - [How to Learn Data Engineering](sections/01-Introduction.md#how-to-learn-data-engineering)
   - [Building Blocks to Learn Data Engineering](sections/01-Introduction.md#building-blocks-to-learn-data-engineering)
   - [Roadmap for Data  Analysts](sections/01-Introduction.md#roadmap-for-data-analysts)
+	- [Roadmap for Data Scientists](sections/01-Introduction.md#roadmap-for-data-scientists)
   - [Roadmap for Software Engineers](sections/01-Introduction.md#roadmap-for-software-engineers)
 
 ## Basic Engineering Skills

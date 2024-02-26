@@ -16,6 +16,7 @@ Introduction
 - [How to Learn Data Engineering](01-Introduction.md#how-to-learn-data-engineering)
   - [Building Blocks to Learn Data Engineering](01-Introduction.md#building-blocks-to-learn-data-engineering)
   - [Roadmap for Data  Analysts](01-Introduction.md#roadmap-for-data-analysts)
+  - [Roadmap for Data Scientists](01-Introduction.md#roadmap-for-data-scientists)
   - [Roadmap for Software Engineers](01-Introduction.md#roadmap-for-software-engineers)
 
 ## What is this Cookbook
