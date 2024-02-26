@@ -335,6 +335,10 @@ In summary, the journey from understanding basic platform and pipeline concepts 
 |In this live stream I was showing step by step how to read this roadmap for Analysts, why I chose these tools and why I think this is the right way to do it. I also answered many questions from the audience.  
 | [Watch on YouTube](https://youtube.com/live/w2t6SL5tQG0?feature=share)|
 
+### Roadmap for Data Scientists
+
+![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Data-Scientists.jpg)
+
 ### Roadmap for Software Engineers
 
 ![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Software-Engineers.jpg)
