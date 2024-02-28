@@ -1372,6 +1372,10 @@ Google Trends Grafana vs Kibana:\
 
 #### InfluxDB Time Series Database
 
+What is time-series data?
+
+<https://questdb.io/blog/what-is-time-series-data/>
+
 Key concepts:
 
 <https://docs.influxdata.com/influxdb/v1.7/concepts/key_concepts/>
@@ -1390,7 +1394,7 @@ Performance Dashboard Spark and InfluxDB:
 <https://db-blog.web.cern.ch/blog/luca-canali/2019-02-performance-dashboard-apache-spark>
 
 Other alternatives for time series databases are: DalmatinerDB,
-InfluxDB, Prometheus, Riak TS, OpenTSDB, KairosDB
+QuestDB, Prometheus, Riak TS, OpenTSDB, KairosDB
 
 #### MPP Databases (Greenplum)
 
