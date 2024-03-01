@@ -243,7 +243,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 
 ## Hands On Course
 
-- [Free Data Engineering Course with AWS, TDengine, Docker and Grafana](sections/04-HandsOnCourse.md#free-data-engineering-course-with-aws-tdengine- docker-and-grafana)
+- [Free Data Engineering Course with AWS, TDengine, Docker and Grafana](sections/04-HandsOnCourse.md#free-data-engineering-course-with-aws-tdengine-docker-and-grafana)
 - [Monitor your data in dbt & detect quality issues with Elementary](sections/04-HandsOnCourse.md#monitor-your-data-in-dbt-and-detect-quality-issues-with-elementary)
 - [Solving Engineers 4 Biggest Airflow Problems](sections/04-HandsOnCourse.md#solving-engineers-4-biggest-airflow-problems)
 - [The best alternative to Airlfow? Mage.ai](sections/04-HandsOnCourse.md#the-best-alternative-to-airlfow?-mage.ai)
