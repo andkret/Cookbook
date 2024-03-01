@@ -52,7 +52,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 - [Introduction](sections/01-Introduction.md)
 - [Basic Engineering Skills](sections/02-BasicSkills.md)
 - [Advanced Engineering Skills](sections/03-AdvancedSkills.md)
-- [Free Hands On Course/Tutorials](sections/04-HandsOnCourse.md)‚
+- [Free Hands On Courses / Tutorials](sections/04-HandsOnCourse.md)‚
 - [Case Studies](sections/05-CaseStudies.md)
 - [Best Practices Cloud Platforms](sections/06-BestPracticesCloud.md)
 - [130+ Data Sources Data Science](sections/07-DataSources.md)

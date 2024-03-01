@@ -5,7 +5,7 @@ What's new? Here you can find a list of all the updates with links to the sectio
 
 - **2024-03-01**
   - Added updates section
-  - Reworked the Hands-on courses section with 5 free courses/tutorials I did on YouTube 
+  - Reworked the Hands-on courses section with 5 free courses / tutorials from Andreas on YouTube [Free Hands On Courses / Tutorials](sections/04-HandsOnCourse.md)
 
 
 - **2024-02-28**
