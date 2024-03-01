@@ -45,11 +45,14 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 -->
 
+## Here's what's new:
+Find the change log with all recent updates here: [SEE UPDATES](sections/10-Updates.md)
+
 # Contents:
 - [Introduction](sections/01-Introduction.md)
 - [Basic Engineering Skills](sections/02-BasicSkills.md)
 - [Advanced Engineering Skills](sections/03-AdvancedSkills.md)
-- [Hands On Course](sections/04-HandsOnCourse.md)‚
+- [Free Hands On Course/Tutorials](sections/04-HandsOnCourse.md)‚
 - [Case Studies](sections/05-CaseStudies.md)
 - [Best Practices Cloud Platforms](sections/06-BestPracticesCloud.md)
 - [130+ Data Sources Data Science](sections/07-DataSources.md)
@@ -240,16 +243,10 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 
 ## Hands On Course
 
-- [What We Want To Do](sections/04-HandsOnCourse.md#what-we-want-to-do)
-- [Thoughts On Choosing A Development Environment](sections/04-HandsOnCourse.md#thoughts-on-choosing-a-development-environment)
-- [A Look Into the Twitter API](sections/04-HandsOnCourse.md#a-look-into-the-twiiter-api)
-- [Ingesting Tweets with Apache Nifi](sections/04-HandsOnCourse.md#ingesting-tweets-with-apache-nifi)
-- [Writing from Nifi to Apache Kafka](sections/04-HandsOnCourse.md#writing-from-nifi-to-kafka)
-- [Apache Zeppelin Data Processing](sections/04-HandsOnCourse.md#apache-zeppelin)
-  - [Install and Ingest Kafka Topic](sections/04-HandsOnCourse.md#install-and-ingest-kafka-topic)
-  - [Processing Messages with Spark & SparkSQL](sections/04-HandsOnCourse.md#processing-messages-with-spark-and-sparksql)
-  - [Visualizing Data](sections/04-HandsOnCourse.md#visualizing-data)
-- [Switch Processing from Zeppelin to Spark](sections/04-HandsOnCourse.md#switch-processing-from-zeppelin-to-spark)
+- [Free Data Engineering Course with AWS, TDengine, Docker and Grafana](sections/04-HandsOnCourse.md#free-data-engineering-course-with-aws-tdengine- docker-and-grafana)
+- [Monitor your data in dbt & detect quality issues with Elementary](sections/04-HandsOnCourse.md#monitor-your-data-in-dbt-and-detect-quality-issues-with-elementary)
+- [Solving Engineers 4 Biggest Airflow Problems](sections/04-HandsOnCourse.md#solving-engineers-4-biggest-airflow-problems)
+- [The best alternative to Airlfow? Mage.ai](sections/04-HandsOnCourse.md#the-best-alternative-to-airlfow?-mage.ai)
 
 ## Case Studies
 

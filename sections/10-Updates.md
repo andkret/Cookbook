@@ -1,0 +1,30 @@
+Updates
+============
+
+What's new? Here you can find a list of all the updates with links to the sections
+
+- **2024-03-01**
+  - Added updates section
+  - Reworked the Hands-on courses section with 5 free courses/tutorials I did on YouTube 
+
+
+- **2024-02-28**
+  - Added Data Engineering Roadmap for Data Scientists: [click here](sections/01-Introduction.md#roadmap-for-data-scientists)
+
+
+- **2024-02-25**
+  - Data Engineering Roadmap for Software Engineers: [click here](sections/01-Introduction.md#roadmap-for-software-engineers)
+
+
+- **2024-02-20**
+  - Data Engineering Roadmap for Data Analysts: [click here](sections/01-Introduction.md#roadmap-for-data-analysts)
+
+
+<!---
+| Date | Topic | Link
+|------------------|
+| 2024-02-28 | Added updates section - sdfs | [click here](sections/01-Introduction.md#roadmap-for-data-scientists)
+| 2024-02-28 | Data Engineering Roadmap for Data Scientists | [click here](sections/01-Introduction.md#roadmap-for-data-scientists)
+| 2024-02-25 | Data Engineering Roadmap for Software Engineers | [click here](sections/01-Introduction.md#roadmap-for-software-engineers)
+| 2024-02-20 | Data Engineering Roadmap for Data Analysts | [click here](sections/01-Introduction.md#roadmap-for-data-analysts)
+--->
