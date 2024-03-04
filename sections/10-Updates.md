@@ -20,6 +20,7 @@ What's new? Here you can find a list of all the updates with links to the sectio
   - Data Engineering Roadmap for Data Analysts: [click here](sections/01-Introduction.md#roadmap-for-data-analysts)
 
 
+
 <!---
 | Date | Topic | Link
 |------------------|
