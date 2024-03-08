@@ -77,9 +77,9 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 - [Who Companies Need](sections/01-Introduction.md#who-companies-need)
 - [How to Learn Data Engineering](sections/01-Introduction.md#how-to-learn-data-engineering)
   - [Building Blocks to Learn Data Engineering](sections/01-Introduction.md#building-blocks-to-learn-data-engineering)
-  - [Roadmap for Data  Analysts](sections/01-Introduction.md#roadmap-for-data-analysts)
+	- [Roadmap for Data  Analysts](sections/01-Introduction.md#roadmap-for-data-analysts)
 	- [Roadmap for Data Scientists](sections/01-Introduction.md#roadmap-for-data-scientists)
-  - [Roadmap for Software Engineers](sections/01-Introduction.md#roadmap-for-software-engineers)
+	- [Roadmap for Software Engineers](sections/01-Introduction.md#roadmap-for-software-engineers)
 - [Data Engineers Skills Matrix](sections/01-Introduction.md#data-engineers-skills-matrix)
 
 ## Basic Engineering Skills

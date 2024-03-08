@@ -5,9 +5,6 @@ What's new? Here you can find a list of all the updates with links to the sectio
 - **2024-03-08**
   - Included Data Engineering skills matrix into the introduction with link to the live stream. [click here](sections/01-Introduction.md#data-engineers-skills-matrix)
 
-
-- [Data Engineers Skills Matrix]()
-
 - **2024-03-01**
   - Added updates section
   - Reworked the Hands-on courses section with 5 free courses / tutorials from Andreas on YouTube [click here](sections/04-HandsOnCourse.md)
