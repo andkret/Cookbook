@@ -18,6 +18,8 @@ Introduction
   - [Roadmap for Data  Analysts](01-Introduction.md#roadmap-for-data-analysts)
   - [Roadmap for Data Scientists](01-Introduction.md#roadmap-for-data-scientists)
   - [Roadmap for Software Engineers](01-Introduction.md#roadmap-for-software-engineers)
+- [Data Engineers Skills Matrix](01-Introduction.md#data-engineers-skills-matrix)
+
 
 ## What is this Cookbook
 
@@ -366,3 +368,35 @@ So, this roadmap is more than just a list of topics. It’s about building a fou
 ### Roadmap for Software Engineers
 
 ![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Software-Engineers.jpg)
+
+
+## Data Engineers Skills Matrix
+
+![Data Engineer Skills Matrix](/images/Data-Engineer-Skills-Matrix.jpg)
+
+If you're diving into the world of data engineering or looking to climb the ladder within this field, you're in for a treat with this enlightening YouTube video. Andreas kicks things off by introducing us to a very handy tool they've developed: the Data Engineering Skills Matrix. This isn't just any chart; it's a roadmap designed to navigate the complex landscape of data engineering roles, ranging from a Junior Data Engineer to the lofty heights of a Data Architect and Machine Learning Engineer.
+
+| Live Stream -> Data Engineering Skills Matrix
+|------------------|
+|In this live stream you'll find even more details how to read this skills matrix for Data Engineers.  
+| [Watch on YouTube](https://youtube.com/live/5E0UiBy0Kwo)|
+
+Andreas takes us through the intricacies of this matrix, layer by layer. Starting with the basics, they discuss the minimum experience needed for each role. It's an eye-opener, especially when you see how experience requirements evolve from a beginner to senior levels. But it's not just about how many years you've spent in the field; it's about the skills you've honed during that time.
+
+### Challenges & Responsibilities
+
+As the conversation progresses, Andreas delves into the core responsibilities and main tasks associated with each role. You'll learn what sets a Junior Data Engineer apart from a Senior Data Engineer, the unique challenges a Data Architect faces, and the critical skills a Machine Learning Engineer must possess. This part of the video is golden for anyone trying to understand where they fit in the data engineering ecosystem or plotting their next career move.
+
+### SQL & Soft Skills
+
+Then there's the talk on SQL knowledge and its relevance across different roles. This segment sheds light on how foundational SQL is, irrespective of your position. But it's not just about technical skills; the video also emphasizes soft skills, like leadership and collaboration, painting a holistic picture of what it takes to succeed in data engineering.
+
+For those who love getting into the weeds, Andreas doesn't disappoint. They discuss software development skills, debugging, and even dive into how data engineers work with SQL and databases. This part is particularly insightful for understanding the technical depth required at various stages of your career.
+
+### Q&A
+
+And here's the cherry on top: Andreas encourages interaction, inviting viewers to share their experiences and questions. This makes the video not just a one-way learning experience but a dynamic conversation that enriches everyone involved.
+
+### Summary
+
+By the end of this video, you'll walk away with a clear understanding of the data engineering field's diverse roles. You'll know the skills needed to excel in each role and have a roadmap for your career progression. Whether you're a recent graduate looking to break into data engineering or a seasoned professional aiming for a senior position, Andreas's video is a must-watch. It's not just a lecture; it's a guide to navigating the exciting world of data engineering, tailored by someone who's taken the time to lay out the journey for you.

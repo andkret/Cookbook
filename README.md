@@ -80,6 +80,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
   - [Roadmap for Data  Analysts](sections/01-Introduction.md#roadmap-for-data-analysts)
 	- [Roadmap for Data Scientists](sections/01-Introduction.md#roadmap-for-data-scientists)
   - [Roadmap for Software Engineers](sections/01-Introduction.md#roadmap-for-software-engineers)
+- [Data Engineers Skills Matrix](sections/01-Introduction.md#data-engineers-skills-matrix)
 
 ## Basic Engineering Skills
 - [Learn To Code](sections/02-BasicSkills.md#learn-to-code)
