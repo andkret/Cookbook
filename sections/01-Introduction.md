@@ -19,6 +19,8 @@ Introduction
   - [Roadmap for Data Scientists](01-Introduction.md#roadmap-for-data-scientists)
   - [Roadmap for Software Engineers](01-Introduction.md#roadmap-for-software-engineers)
 - [Data Engineers Skills Matrix](01-Introduction.md#data-engineers-skills-matrix)
+- [How to Become a Senior Data Engineer](01-Introduction.md#how-to-become-a-senior-data-engineer)
+
 
 
 ## What is this Cookbook
@@ -400,3 +402,63 @@ And here's the cherry on top: Andreas encourages interaction, inviting viewers t
 ### Summary
 
 By the end of this video, you'll walk away with a clear understanding of the data engineering field's diverse roles. You'll know the skills needed to excel in each role and have a roadmap for your career progression. Whether you're a recent graduate looking to break into data engineering or a seasoned professional aiming for a senior position, Andreas's video is a must-watch. It's not just a lecture; it's a guide to navigating the exciting world of data engineering, tailored by someone who's taken the time to lay out the journey for you.
+
+
+
+## How to Become a Senior Data Engineer
+
+Becoming a senior data engineer is a goal many in the tech industry aspire to. It's a role that demands a deep understanding of data architecture, advanced programming skills, and the ability to lead and communicate effectively within an organization. In this live stream series, I dove into what it takes to climb the ladder to a senior data engineering position. Here are the key takeaways. You can find the links to the videos and the shown images below.
+
+### Understanding the Role
+The journey to becoming a senior data engineer starts with a clear understanding of what the role entails. Senior data engineers are responsible for designing, implementing, and maintaining an organization's data architecture. They ensure data accuracy, accessibility, and security, often taking the lead on complex projects that require advanced technical skills and strategic thinking.
+
+### Key Skills and Knowledge Areas
+Based on insights from the live stream and consultations with industry experts, including GPT-3, here are the critical areas where aspiring senior data engineers should focus their development:
+
+- **Advanced Data Modeling and Architecture:** Mastery of data modeling techniques and architecture best practices is crucial. This includes understanding of dimensional and Data Vault modeling, as well as expertise in SQL and NoSQL databases.
+- **Big Data Technologies:** Familiarity with distributed computing frameworks (like Apache Spark), streaming technologies (such as Apache Kafka), and cloud-based big data technologies is essential.
+Advanced ETL Techniques: Skills in incremental loading, data merging, and transformation are vital for efficiently processing large datasets.
+- **Data Warehousing and Data Lake Implementation:** Building and maintaining scalable and performant data warehouses and lakes are fundamental responsibilities.
+- **Cloud Computing:** Proficiency in cloud services from AWS, Azure, or GCP, along with platforms like Snowflake and Databricks, is increasingly important.
+- **Programming and Scripting:** Advanced coding skills in languages relevant to data engineering, such as Python, Scala, or Java, are non-negotiable.
+- **Data Governance and Compliance:** Understanding data governance frameworks and compliance requirements is critical, especially in highly regulated industries.
+- **Leadership and Communication:** Beyond technical skills, the ability to lead projects, communicate effectively with both technical and non-technical team members, and mentor junior engineers is what differentiates a senior engineer.
+
+### Learning Pathways
+Becoming a senior data engineer requires continuous learning and real-world experience. Here are a few steps to guide your journey:
+
+- **Educational Foundation:** Start with a strong foundation in computer science or a related field. This can be through formal education or self-study courses.
+- **Gain Practical Experience:** Apply your skills in real-world projects. This could be in a professional setting, contributions to open-source projects, or personal projects.
+- **Specialize and Certify:** Consider specializing in areas particularly relevant to your interests or industry needs. Obtaining certifications in specific technologies or platforms can also bolster your credentials.
+- **Develop Soft Skills:** Work on your communication, project management, and leadership skills. These are as critical as your technical abilities.
+- **Seek Feedback and Mentorship:** Learn from the experiences of others. Seek out mentors who can provide guidance and feedback on your progress.
+
+### Video 1
+
+| Live Stream -> How to become a Senior Data Engineer - Part 1
+|------------------|
+| In this part one I talked about Data Modeling, Big Data, ETL, Data Warehousing & Data Lakes as well as Cloud computing
+| [Watch on YouTube](https://youtube.com/live/M-6xkTCKQQc)|
+
+![Watch on YouTube](/images/Becoming-a-Senior-Data-Engineer-Video-1.jpg)
+
+### Video 2
+
+| Live Stream -> How to become a Senior Data Engineer - Part 2
+|------------------|
+| In part two I talked about real time data processing, programming & scripting, data governance, compliance and data security
+| [Watch on YouTube](https://youtube.com/live/po96pzpjxvA)|
+
+![Watch on YouTube](/images/Becoming-a-Senior-Data-Engineer-Video-2.jpg)
+
+### Video 3
+
+| Live Stream -> How to become a Senior Data Engineer - Part 3
+|------------------|
+| In part 3 I focused on everything regarding Leadership and Communication: team management, project management, collaboration, problem solving, strategic thinking, communication and leadership
+| [Watch on YouTube](https://youtube.com/live/DMumpzSyRjI)|
+
+![Watch on YouTube](/images/Becoming-a-Senior-Data-Engineer-Video-3.jpg)
+
+### Final Thoughts
+The path to becoming a senior data engineer is both challenging and rewarding. It requires a blend of technical prowess, continuous learning, and the development of soft skills that enable you to lead and innovate. Whether you're just starting out or looking to advance your career, focusing on the key areas outlined above will set you on the right path.

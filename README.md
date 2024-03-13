@@ -58,6 +58,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 - [130+ Data Sources Data Science](sections/07-DataSources.md)
 - [1001 Interview Questions](sections/08-InterviewQuestions.md)
 - [Recommended Books, Courses, and Podcasts](sections/09-BooksAndCourses.md)
+- [Updates](sections/10-Updates.md)
 <!--  -->
 
 - [How To Contribute](#how-to-contribute)
@@ -81,6 +82,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 	- [Roadmap for Data Scientists](sections/01-Introduction.md#roadmap-for-data-scientists)
 	- [Roadmap for Software Engineers](sections/01-Introduction.md#roadmap-for-software-engineers)
 - [Data Engineers Skills Matrix](sections/01-Introduction.md#data-engineers-skills-matrix)
+- [How to Become a Senior Data Engineer](sections/01-Introduction.md#how-to-become-a-senior-data-engineer)
 
 ## Basic Engineering Skills
 - [Learn To Code](sections/02-BasicSkills.md#learn-to-code)

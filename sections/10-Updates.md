@@ -2,8 +2,14 @@ Updates
 ============
 
 What's new? Here you can find a list of all the updates with links to the sections
+
+- **2024-03-13**
+  - Added "How to become a Senior Data Engineer" live stream series as a blog post with images shown in the live streams and the links to the videos. [click here](01-Introduction.md#how-to-become-a-senior-data-engineer)
+
+
 - **2024-03-08**
   - Included Data Engineering skills matrix into the introduction with link to the live stream. [click here](01-Introduction.md#data-engineers-skills-matrix)
+
 
 - **2024-03-01**
   - Added updates section
