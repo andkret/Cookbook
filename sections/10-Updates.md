@@ -5,7 +5,7 @@ What's new? Here you can find a list of all the updates with links to the sectio
 
 - **2024-03-20**
   - Added roadmap for Software Engineers / Computer Scientists [click here](01-Introduction.md#roadmap-for-software-engineers)
-  - Added many Questions and Answers from my interview on the Super Data Science Podcast (plus liks to YouTube and the Podcast)[click here](01-Introduction.md#Interview-with-Andreas-on-the-Super-Data-Science-Podcast)
+  - Added many questions and answers from my interview on the Super Data Science Podcast (plus links to YouTube and the Podcast) [click here](01-Introduction.md#Interview-with-Andreas-on-the-Super-Data-Science-Podcast)
 
 
 - **2024-03-13**
