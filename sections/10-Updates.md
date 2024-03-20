@@ -3,6 +3,9 @@ Updates
 
 What's new? Here you can find a list of all the updates with links to the sections
 
+- **2024-03-20**
+  - Added roadmap for Software Engineers / Computer Scientists [click here](01-Introduction.md#roadmap-for-software-engineers)
+
 - **2024-03-13**
   - Added "How to become a Senior Data Engineer" live stream series as a blog post with images shown in the live streams and the links to the videos. [click here](01-Introduction.md#how-to-become-a-senior-data-engineer)
 
