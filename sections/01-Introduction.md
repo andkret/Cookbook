@@ -371,6 +371,25 @@ So, this roadmap is more than just a list of topics. It’s about building a fou
 
 ![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Software-Engineers.jpg)
 
+if you're transitioning from a background in computer science or software engineering into data engineering, you're already equipped with a solid foundation. Your existing knowledge in coding, familiarity with SQL databases, understanding of computer networking, and experience with operating systems like Linux, provide you with a considerable advantage. These skills form the cornerstone of data engineering and can significantly streamline your learning curve as you embark on this new journey.
+
+Here's a refined roadmap, incorporating your prior expertise, to help you excel in data engineering:
+
+- **Deepen Your Python Skills:** Python is crucial in data engineering for processing and handling various data formats, such as APIs, CSV, and JSON. Given your coding background, focusing on Python for data engineering will enhance your ability to manipulate and process data effectively.
+- **Master Docker:** Docker is essential for deploying code and managing containers, streamlining the software distribution process. Your understanding of operating systems and networking will make mastering Docker more intuitive, as you'll appreciate the importance of containerization in today's development and deployment workflows.
+- **Platform and Pipeline Design:** Leverage your knowledge of computer networking and operating systems to grasp the architecture of data platforms. Understanding how to design data pipelines, including considerations for stream and batch processing, and emphasizing security, will be key. Your background will provide a solid foundation for understanding how different components integrate within a data platform.
+- **Choosing the Right Data Stores:** Dive into the specifics of data stores, understanding the nuances between transactional and analytical databases, and when to use relational vs. NoSQL vs. document stores vs. time-series databases. Your experience with SQL databases will serve as a valuable baseline for exploring these various data storage options.
+- **Explore Cloud Platforms:** Get hands-on with cloud services such as AWS, GCP, and Azure. Projects or courses that offer practical experience with these platforms will be invaluable. Your tasks might include building pipelines to process data from APIs, using message queues, or delving into data warehousing and lakes, capitalizing on your foundational skills.
+- **Optional Deep Dives:** For those interested in advanced data processing, exploring technologies like Spark or Kafka for stream processing can be enriching. Additionally, learning how to build APIs and work with MongoDB for document storage can open new avenues, especially through practical projects.
+- **Log Analysis and Data Observability:** Familiarize yourself with tools like Elasticsearch, Grafana, and InfluxDB to monitor and analyze your data pipelines effectively. This area leverages your comprehensive understanding of how systems communicate and operate, enhancing your ability to maintain and optimize data flows.
+
+As you embark on this path, remember that your journey is unique. Your existing knowledge not only serves as a strong foundation but also as a catalyst for accelerating your growth in the realm of data engineering. Keep leveraging your strengths, explore areas of interest deeply, and continually adapt to the evolving landscape of data technology.
+
+| Live Stream -> Data Engineering Roadmap for Computer Scientists / Developers
+|------------------|
+|In this live stream you'll find even more details how to read this roadmap for Data Scientists, why I chose these tools and why I think this is the right way to do it.
+| [Watch on YouTube](https://youtube.com/live/0e4WfIUixRw)|
+
 
 ## Data Engineers Skills Matrix
 
