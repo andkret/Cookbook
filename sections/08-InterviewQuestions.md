@@ -1,6 +1,156 @@
 1001 Data Engineering Interview Questions
 =========================================
 
+## Contents:
+
+- [Integrate](07-DataSources.md#integrate)
+    - [APIs](07-DataSources.md#apis)
+- [Message Queues](07-DataSources.md#integrate)
+
+## Integrate
+### APIs
+
+These questions cover a range of topics related to APIs, including their concepts, security, best practices, and specific implementation details.
+
+1. **What is an API and how does it work?**
+   - **Answer**: An API (Application Programming Interface) is a set of rules and protocols for building and interacting with software applications. It allows different software systems to communicate with each other. APIs define the methods and data formats that applications can use to request and exchange data.
+
+2. **What are the different types of APIs?**
+   - **Answer**: The main types of APIs include:
+     - **Open APIs (Public APIs)**: Available to developers and other users with minimal restrictions.
+     - **Internal APIs (Private APIs)**: Used within an organization to connect systems and data internally.
+     - **Partner APIs**: Shared with specific business partners and offer more control over how data is exposed.
+     - **Composite APIs**: Combine multiple API requests into a single call, allowing multiple data or service requests in one API call.
+
+3. **What is REST and how does it differ from SOAP?**
+   - **Answer**: REST (Representational State Transfer) and SOAP (Simple Object Access Protocol) are two different approaches to building APIs. REST uses standard HTTP methods (GET, POST, PUT, DELETE) and is stateless, meaning each request from a client to a server must contain all the information needed to understand and process the request. SOAP, on the other hand, is a protocol that relies on XML-based messaging and includes built-in rules for security and transactions.
+
+4. **Explain the concept of RESTful services.**
+   - **Answer**: RESTful services are web services that follow the principles of REST. These principles include:
+     - **Statelessness**: Each request from a client must contain all the information needed by the server to process the request.
+     - **Client-Server Architecture**: The client and server are separate entities, and they communicate over a network via standard HTTP.
+     - **Cacheability**: Responses from the server can be cached by the client or intermediate proxies to improve performance.
+     - **Uniform Interface**: Resources are identified in the request (usually via URIs), and actions are performed using standard HTTP methods.
+
+5. **What is an API gateway and why is it used?**
+   - **Answer**: An API gateway is a server that acts as an intermediary for requests from clients seeking resources from backend services. It provides various functions such as request routing, composition, protocol translation, and handling of cross-cutting concerns like authentication, authorization, logging, monitoring, and rate limiting. It simplifies the client interface and improves security, scalability, and manageability of API services.
+
+6. **How do you ensure the security of an API?**
+   - **Answer**: Ensuring API security involves several practices, including:
+     - **Authentication**: Verify the identity of the user or system making the request (e.g., using OAuth, JWT).
+     - **Authorization**: Ensure the authenticated user or system has permission to perform the requested action.
+     - **Encryption**: Use HTTPS to encrypt data in transit between the client and server.
+     - **Rate Limiting**: Prevent abuse by limiting the number of requests a client can make in a given time period.
+     - **Input Validation**: Validate and sanitize all inputs to prevent injection attacks.
+     - **Logging and Monitoring**: Track API usage and monitor for unusual or suspicious activity.
+
+7. **What is versioning in APIs and how is it typically managed?**
+   - **Answer**: API versioning is the practice of managing changes to an API without disrupting existing clients. It can be managed in several ways, including:
+     - **URI Versioning**: Including the version number in the URI path (e.g., `/v1/resource`).
+     - **Query Parameter Versioning**: Including the version number as a query parameter (e.g., `/resource?version=1`).
+     - **Header Versioning**: Including the version number in the HTTP headers (e.g., `Accept: application/vnd.example.v1+json`).
+
+8. **What are HTTP status codes and why are they important in API responses?**
+   - **Answer**: HTTP status codes are standardized codes returned by a server to indicate the result of a client's request. They are important because they provide meaningful feedback to the client about what happened with their request. Common status codes include:
+     - **200 OK**: The request was successful.
+     - **201 Created**: A resource was successfully created.
+     - **400 Bad Request**: The request was invalid or cannot be processed.
+     - **401 Unauthorized**: Authentication is required and has failed or has not yet been provided.
+     - **404 Not Found**: The requested resource could not be found.
+     - **500 Internal Server Error**: An error occurred on the server.
+
+9. **Explain the concept of idempotency in RESTful APIs.**
+   - **Answer**: Idempotency refers to the property of certain operations whereby performing the same operation multiple times results in the same outcome. In RESTful APIs, methods like GET, PUT, and DELETE are idempotent because making the same request multiple times has the same effect as making it once. POST is not idempotent because multiple requests could create multiple resources.
+
+10. **How do you handle pagination in APIs?**
+    - **Answer**: Pagination is used to split large sets of data into manageable chunks. Common methods for handling pagination include:
+      - **Offset and Limit**: Using query parameters to specify the starting point and number of records to return (e.g., `?offset=0&limit=10`).
+      - **Page Number and Size**: Using query parameters to specify the page number and the number of records per page (e.g., `?page=1&size=10`).
+      - **Cursor-Based Pagination**: Using a cursor (a pointer to a specific record) to fetch the next set of results (e.g., `?cursor=abc123`).
+
+
+These additional questions cover more advanced topics related to APIs, including security, design principles, best practices, and tooling.
+11. **What is the difference between synchronous and asynchronous API calls?**
+    - **Answer**: Synchronous API calls wait for the response before continuing, blocking the execution of code until the operation completes. Asynchronous API calls, on the other hand, do not block the execution; they allow the code to continue running and handle the response once it arrives, typically through callbacks, promises, or async/await patterns.
+
+12. **What is a webhook, and how does it differ from an API endpoint?**
+    - **Answer**: A webhook is a way for an application to provide other applications with real-time information. A webhook is a "callback" that allows the sending application to push data to the receiving application when an event occurs. Unlike traditional API endpoints, which require the client to periodically check for data (polling), webhooks enable the server to push data to the client when an event occurs.
+
+13. **What is CORS, and why is it important in the context of APIs?**
+    - **Answer**: CORS (Cross-Origin Resource Sharing) is a security feature implemented in web browsers that restricts web pages from making requests to a different domain than the one that served the web page. It is important in APIs to control how resources on a server are accessed by external domains. Proper CORS configuration ensures that only authorized domains can access API resources.
+
+14. **What is the purpose of API documentation, and what should it include?**
+    - **Answer**: API documentation provides developers with the information they need to use and integrate with an API effectively. It should include:
+      - An overview of the API and its purpose.
+      - Authentication and authorization methods.
+      - Endpoint definitions and available methods (GET, POST, PUT, DELETE).
+      - Request and response formats (including headers, query parameters, and body data).
+      - Error codes and their meanings.
+      - Examples of requests and responses.
+      - Rate limits and usage policies.
+
+15. **What are API gateways, and what role do they play in API management?**
+    - **Answer**: API gateways act as intermediaries between clients and backend services. They provide various functions such as request routing, load balancing, security (authentication and authorization), rate limiting, logging, monitoring, and transforming requests and responses. API gateways simplify client interactions with microservices and help manage and secure APIs.
+
+16. **How do you handle authentication and authorization in APIs?**
+    - **Answer**: Authentication verifies the identity of a user or application, while authorization determines what resources and operations they have access to. Common methods for handling authentication and authorization in APIs include:
+      - API keys: Simple tokens provided to access the API.
+      - OAuth: An open standard for token-based authentication and authorization.
+      - JWT (JSON Web Tokens): A compact, URL-safe means of representing claims to be transferred between two parties.
+      - Basic Auth: A simple method using a username and password encoded in base64.
+
+17. **What is the concept of rate limiting in APIs, and why is it important?**
+    - **Answer**: Rate limiting controls the number of requests a client can make to an API within a specified time period. It is important for:
+      - Preventing abuse and overuse of API resources.
+      - Ensuring fair usage among clients.
+      - Protecting the backend services from being overwhelmed.
+      - Managing and maintaining service quality and performance.
+
+18. **Explain the concept of API throttling.**
+    - **Answer**: API throttling is the process of controlling the usage rate of an API by limiting the number of requests a client can make within a certain timeframe. Throttling helps prevent abuse, protects resources, and ensures that the service remains available and responsive to all users. It can be implemented using techniques such as rate limits, quotas, and burst control.
+
+19. **What is HATEOAS and how does it relate to RESTful APIs?**
+    - **Answer**: HATEOAS (Hypermedia As The Engine Of Application State) is a constraint of RESTful APIs where hypermedia links are included in the responses to guide clients through the API. It allows clients to dynamically discover available actions and navigate the API without hardcoding the structure. For example, a response to a GET request for a user resource might include links to update or delete the user.
+
+20. **What are some common tools and platforms for testing and documenting APIs?**
+    - **Answer**: Common tools and platforms for testing and documenting APIs include:
+      - **Postman**: A popular tool for developing, testing, and documenting APIs.
+      - **Swagger/OpenAPI**: A framework for designing, building, and documenting RESTful APIs, often used with tools like Swagger UI and Swagger Editor.
+      - **Insomnia**: An API client for testing RESTful and GraphQL APIs.
+      - **Apigee**: An API management platform providing tools for API design, security, analytics, and monitoring.
+      - **Paw**: A macOS-based API client for testing and documenting APIs.
+      - **RAML (RESTful API Modeling Language)**: A language for designing and documenting APIs.
+
+
+## Message queues
+### Distributed Message Queues
+### Message Queues (Fifo)
+### Caches
+
+## Data Processing
+### ETL
+### Stream processing
+### Batch processing
+### Processing Frameworks
+#### Serverless
+#### Distributed Processing frameworks
+### Scheduling
+#### Airflow
+### Deployment
+### Docker and Kubernetes
+### CI-CD
+
+## Data Storage
+### Relational Databases
+### NoSQL
+### Analytical Stores
+### Relational Modeling
+### Dimensional Data Modeling
+
+
+
+
+
 Looking for a job or just want to know what people find important? In
 this chapter you can find a lot of interview questions we collect on the
 stream.
