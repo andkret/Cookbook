@@ -75,26 +75,27 @@ Advanced Data Engineering Skills
   - [Analytical Data Stores](03-AdvancedSkills.md#analytical-data-stores)
     - [Data Warehouse vs Data Lake](03-AdvancedSkills.md#data-warehouse-vs-data-lake)
     - [Snowflake and dbt](03-AdvancedSkills.md#snowflake-and-dbt)
-  - [SQL Databases](03-AdvancedSkills.md#sql-databases)
-    - [PostgreSQL DB](03-AdvancedSkills.md#postgresql-db)
-    - [Database Design](03-AdvancedSkills.md#database-design)
-    - [SQL Queries](03-AdvancedSkills.md#sql-queries)
-    - [Stored Procedures](03-AdvancedSkills.md#stored-procedures)
-    - [ODBC/JDBC Server Connections](03-AdvancedSkills.md#odbc-jdbc-server-connections)
-  - [NoSQL Stores](03-AdvancedSkills.md#nosql-stores)
-    - [HBase KeyValue Store](03-AdvancedSkills.md#keyvalue-stores-hbase)
-    - [HDFS Document Store](03-AdvancedSkills.md#document-stores-hdfs)
-    - [MongoDB Document Store](03-AdvancedSkills.md#document-stores-mongodb)
-    - [Elasticsearch Document Store](03-AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
-    - [Graph Databases (Neo4j)](03-AdvancedSkills.md#graph-db-neo4j)
-    - [Impala](03-AdvancedSkills.md#impala)
-    - [Kudu](03-AdvancedSkills.md#kudu)
-    - [Apache Druid](03-AdvancedSkills.md#apache-druid)
-    - [InfluxDB Time Series Database](03-AdvancedSkills.md#influxdb-time-series-database)
-    - [Greenplum MPP Database](03-AdvancedSkills.md#mpp-databases-greenplum)
-  - [NoSQL Data Warehouses](03-AdvancedSkills.md#nosql-data-warehouses)
-    - [Hive Warehouse](03-AdvancedSkills.md#hive-warehouse)
-    - [Impala](03-AdvancedSkills.md#impala)
+  - [Transactional Data Stores](03-AdvancedSkills.md#transactional-data-stores)
+    - [SQL Databases](03-AdvancedSkills.md#sql-databases)
+      - [PostgreSQL DB](03-AdvancedSkills.md#postgresql-db)
+      - [Database Design](03-AdvancedSkills.md#database-design)
+      - [SQL Queries](03-AdvancedSkills.md#sql-queries)
+      - [Stored Procedures](03-AdvancedSkills.md#stored-procedures)
+      - [ODBC/JDBC Server Connections](03-AdvancedSkills.md#odbc-jdbc-server-connections)
+    - [NoSQL Stores](03-AdvancedSkills.md#nosql-stores)
+      - [HBase KeyValue Store](03-AdvancedSkills.md#keyvalue-stores-hbase)
+      - [HDFS Document Store](03-AdvancedSkills.md#document-stores-hdfs)
+      - [MongoDB Document Store](03-AdvancedSkills.md#document-stores-mongodb)
+      - [Elasticsearch Document Store](03-AdvancedSkills.md#Elasticsearch-search-engine-and-document-store)
+      - [Graph Databases (Neo4j)](03-AdvancedSkills.md#graph-db-neo4j)
+      - [Impala](03-AdvancedSkills.md#impala)
+      - [Kudu](03-AdvancedSkills.md#kudu)
+      - [Apache Druid](03-AdvancedSkills.md#apache-druid)
+      - [InfluxDB Time Series Database](03-AdvancedSkills.md#influxdb-time-series-database)
+      - [Greenplum MPP Database](03-AdvancedSkills.md#mpp-databases-greenplum)
+    - [NoSQL Data Warehouses](03-AdvancedSkills.md#nosql-data-warehouses)
+      - [Hive Warehouse](03-AdvancedSkills.md#hive-warehouse)
+      - [Impala](03-AdvancedSkills.md#impala)
 - [Visualize](03-AdvancedSkills.md#visualize)
   - [Android and IOS](03-AdvancedSkills.md#android-and-ios)
   - [API Design for Mobile Apps](03-AdvancedSkills.md#how-to-design-apis-for-mobile-apps)
@@ -1216,10 +1217,10 @@ Get right into it with our Academy!
 
 By integrating Snowflake and dbt into your skill set, you position yourself at the forefront of data engineering innovation. These tools not only simplify and enhance your data workflows but also open up new possibilities for data transformation and analysis.
 
+### Transactional Data Stores
+#### SQL Databases
 
-### SQL Databases
-
-#### PostgreSQL DB
+##### PostgreSQL DB
 
 Homepage:
 
@@ -1229,17 +1230,17 @@ PostgreSQL vs MongoDB:
 
 <https://blog.panoply.io/postgresql-vs-mongodb>
 
-#### Database Design
+##### Database Design
 
-#### SQL Queries
+##### SQL Queries
 
-#### Stored Procedures
+##### Stored Procedures
 
-#### ODBC/JDBC Server Connections
+##### ODBC/JDBC Server Connections
 
-### NoSQL Stores
+#### NoSQL Stores
 
-#### KeyValue Stores (HBase)
+##### KeyValue Stores (HBase)
 
 
   | Podcast Episode: #056 NoSQL Key Value Stores Explained with HBase
@@ -1248,7 +1249,7 @@ PostgreSQL vs MongoDB:
   | [Watch on YouTube](https://youtu.be/67hIkbpzFc8) \ [Listen on Anchor](https://anchor.fm/andreaskayy/episodes/056-NoSQL-Key-Value-Stores-Explained-With-HBase-e45ifb)|
 
 
-#### Document Store HDFS
+##### Document Store HDFS
 
 The Hadoop distributed file system, or HDFS, allows you to store files
 in Hadoop. The difference between HDFS and other file systems like NTFS
@@ -1306,7 +1307,7 @@ This mechanic of splitting a large file in blocks and distributing them
 over the servers is great for processing. See the MapReduce section for
 an example.
 
-#### Document Store MongoDB
+##### Document Store MongoDB
 
 
   | Podcast Episode: #093 What is MongoDB
@@ -1353,7 +1354,7 @@ MongoDB vs Cassandra:
 
 <https://blog.panoply.io/cassandra-vs-mongodb>
 
-#### Elasticsearch Search Engine and Document Store
+##### Elasticsearch Search Engine and Document Store
 
 Elasticsearch is not a DB but firstly a search engine that indexes JSON
 documents.
@@ -1410,13 +1411,13 @@ Google Trends Grafana vs Kibana:\
 <https://trends.google.com/trends/explore?geo=US&q=%2Fg%2F11fy132gmf,%2Fg%2F11cknd0blr>
 
 
-#### Apache Impala
+##### Apache Impala
 
 [Apache Impala Homepage](https://impala.apache.org/)
 
-#### Kudu
+##### Kudu
 
-#### Apache Druid
+##### Apache Druid
 
 | Podcast Episode: Druid NoSQL DB and Analytics DB Introduction
 |------------------|
@@ -1424,7 +1425,7 @@ Google Trends Grafana vs Kibana:\
 |[Watch on YouTube](https://youtu.be/EiEIeBXSWjM)
 
 
-#### InfluxDB Time Series Database
+##### InfluxDB Time Series Database
 
 What is time-series data?
 
@@ -1450,21 +1451,21 @@ Performance Dashboard Spark and InfluxDB:
 Other alternatives for time series databases are: DalmatinerDB,
 QuestDB, Prometheus, Riak TS, OpenTSDB, KairosDB
 
-#### MPP Databases (Greenplum)
+##### MPP Databases (Greenplum)
 
-#### Azure Cosmos DB
+##### Azure Cosmos DB
 
 https://azure.microsoft.com/en-us/services/cosmos-db/
 
-#### Azure Table-Storage
+##### Azure Table-Storage
 
 https://azure.microsoft.com/en-us/services/storage/tables/
 
-### NoSQL Data warehouse
+#### NoSQL Data warehouse
 
-#### Hive Warehouse
+##### Hive Warehouse
 
-#### Impala
+##### Impala
 
 ## Visualize
 
