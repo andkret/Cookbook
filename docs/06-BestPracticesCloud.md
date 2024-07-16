@@ -1,9 +1,3 @@
----
-sidebar_label: Best Practices Cloud 
-title: ' '
----
-
-
 Best Practices Cloud Platforms
 =============================
 
@@ -245,9 +239,6 @@ Best Practices for Operating Containers:
 
 https://cloud.google.com/solutions/best-practices-for-operating-containers
 
-Preparing a Google Kubernetes Engine Environment for Production:
-
-https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod
 
 Automating IoT Machine Learning: Bridging Cloud and Device Benefits with AI Platform:
 

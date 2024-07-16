@@ -1,9 +1,3 @@
----
-sidebar_label: Case Studies 
-title: ' '
----
-
-
 Case Studies
 ============
 
@@ -82,7 +76,6 @@ Spark Streaming for logging events:
 
 ### Data Science at Amazon
 
-<https://www.datasciencecentral.com/profiles/blogs/20-data-science-systems-used-by-amazon-to-operate-its-business>\
 <https://aws.amazon.com/solutions/case-studies/amazon-migration-analytics/>
 
 ### Data Science at Baidu
@@ -135,9 +128,6 @@ Confluent Platform:
 
 <http://www.lhc-facts.ch/index.php?page=datenverarbeitung>
 
-<https://openlab.cern/sites/openlab.web.cern.ch/files/2018-09/2017_ESADE_Madrid_Big_Data.pdf>
-
-<https://openlab.cern/sites/openlab.web.cern.ch/files/2018-05/kubeconeurope2018-cern-180507122303.pdf>
 
 <https://www.slideshare.net/SparkSummit/next-cern-accelerator-logging-service-with-jakub-wozniak>
 
@@ -241,8 +231,6 @@ Confluent Platform:
 
 
 **Slides:**
-
-<http://sites.nationalacademies.org/cs/groups/ssbsite/documents/webpage/ssb_182893.pdf>
 
 <https://esip.figshare.com/articles/Apache_Science_Data_Analytics_Platform/5786421>
 
