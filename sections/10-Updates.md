@@ -3,6 +3,11 @@ Updates
 
 What's new? Here you can find a list of all the updates with links to the sections
 
+- **2024-07-08**
+  - Added large article about Snowflake and dbt for Data Engineers [click here](03-AdvancedSkills.md#analytical-data-stores)
+  - Added new secton "Analytical Data Stores" to Advanced skills with the Snowflake & dbt infos.
+  - Put SQL and NoSQL datastores into a new section "Transactional Data Stores"
+
 - **2024-03-20**
   - Added roadmap for Software Engineers / Computer Scientists [click here](01-Introduction.md#roadmap-for-software-engineers)
   - Added many questions and answers from my interview on the Super Data Science Podcast (plus links to YouTube and the Podcast) [click here](01-Introduction.md#Interview-with-Andreas-on-the-Super-Data-Science-Podcast)
