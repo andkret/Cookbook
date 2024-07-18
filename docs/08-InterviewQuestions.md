@@ -2,7 +2,7 @@
 =========================================
 
 Hey everyone, this collection of questions and answers is a work in progress.
-I'm going to keep adding Q&As, but you are invited to collaborate through GitHub:
+I'm going to keep adding Q&As, but you are invited to collaborate through [GitHub](https://github.com/andkret/Cookbook):
 - Eiter clone this repo, make your changes and create a pull request
 - or raise an issue on GitHub with your questions and answers and we'll add them
 
