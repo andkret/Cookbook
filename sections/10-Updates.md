@@ -4,8 +4,8 @@ Updates
 What's new? Here you can find a list of all the updates with links to the sections
 
 - **2024-07-17**
- - Added 20 API interview questoins and their answers [click here](08-InterviewQuestions.md#apis)
- - Added 10 Python interview questions and their answers [click here](03-AdvancedSkills.md#python)
+  - Added 20 API interview questoins and their answers [click here](08-InterviewQuestions.md#apis)
+  - Added 10 Python interview questions and their answers [click here](03-AdvancedSkills.md#python)
 
 - **2024-07-08**
   - Added large article about Snowflake and dbt for Data Engineers [click here](03-AdvancedSkills.md#analytical-data-stores)
