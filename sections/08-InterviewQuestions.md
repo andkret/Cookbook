@@ -3,41 +3,136 @@
 
 ## Contents:
 
-- [Python](10-InterviewQuestions.md#integrate)
-- [SQL](10-InterviewQuestions.md#integrate)
+- [Python](10-InterviewQuestions.md#python)
+- [SQL](10-InterviewQuestions.md#sql)
 - [Integrate](10-InterviewQuestions.md#integrate)
     - [APIs](10-InterviewQuestions.md#apis)
 - [Message Queues](10-InterviewQuestions.md#message-queues)
-    - [Distributed Message Queues](10-InterviewQuestions.md#integrate)
+    - [Distributed Message Queues](10-InterviewQuestions.md#distributed-message-queues)
     - [Message Queues (Fifo)](10-InterviewQuestions.md#integrate)
-    - [Caches](10-InterviewQuestions.md#integrate)
-- [Data Processing](10-InterviewQuestions.md#integrate)
-    - [ETL](10-InterviewQuestions.md#integrate)
-    - [Stream Processing](10-InterviewQuestions.md#integrate)
-    - [Batch Processing](10-InterviewQuestions.md#integrate)
-    - [Processing Frameworks](10-InterviewQuestions.md#integrate)
-        - [Serverless](10-InterviewQuestions.md#integrate)
-        - [Distributed Processing Frameworks](10-InterviewQuestions.md#integrate)
-    - [Scheduling](10-InterviewQuestions.md#integrate)
-        - [Airflow](10-InterviewQuestions.md#integrate)
-    - [CI-CD](10-InterviewQuestions.md#integrate)
-    - [Docker](10-InterviewQuestions.md#integrate)
-    - [Kubernetes](10-InterviewQuestions.md#integrate)
-- [Data Storage](10-InterviewQuestions.md#integrate)
-    - [Relational Databases](10-InterviewQuestions.md#integrate)
-    - [NoSQL](10-InterviewQuestions.md#integrate)
-    - [Analytical Stores](10-InterviewQuestions.md#integrate)
-    - [Relational Modeling](10-InterviewQuestions.md#integrate)
-    - [Dimensional Data Modeling](10-InterviewQuestions.md#integrate)
-    - [Data Lakes](10-InterviewQuestions.md#integrate)
-- [Data Platforms](10-InterviewQuestions.md#integrate)
-    - [AWS](10-InterviewQuestions.md#integrate)
-    - [Azure](10-InterviewQuestions.md#integrate)
-    - [GCP](10-InterviewQuestions.md#integrate)
-    - [Snowflake](10-InterviewQuestions.md#integrate)
+    - [Caches](10-InterviewQuestions.md#caches)
+- [Data Processing](10-InterviewQuestions.md#data-processing)
+    - [ETL](10-InterviewQuestions.md#etl)
+    - [Stream Processing](10-InterviewQuestions.md#stream-processing)
+    - [Batch Processing](10-InterviewQuestions.md#batch-processing)
+    - [Processing Frameworks](10-InterviewQuestions.md#processing-frameworks)
+        - [Serverless](10-InterviewQuestions.md#serverless)
+        - [Distributed Processing Frameworks](10-InterviewQuestions.md#distributed-processing-frameworks)
+    - [Scheduling](10-InterviewQuestions.md#scheduling)
+        - [Airflow](10-InterviewQuestions.md#airflow)
+    - [CI-CD](10-InterviewQuestions.md#ci-cd)
+    - [Docker](10-InterviewQuestions.md#docker)
+    - [Kubernetes](10-InterviewQuestions.md#kubernetes)
+- [Data Storage](10-InterviewQuestions.md#data-storage)
+    - [Relational Databases](10-InterviewQuestions.md#relational-databases)
+    - [NoSQL](10-InterviewQuestions.md#nosql)
+    - [Analytical Stores](10-InterviewQuestions.md#analytical-stores)
+    - [Relational Modeling](10-InterviewQuestions.md#relational-modeling)
+    - [Dimensional Data Modeling](10-InterviewQuestions.md#dimensional-modeling)
+    - [Data Lakes](10-InterviewQuestions.md#data-lakes)
+- [Data Platforms](10-InterviewQuestions.md#data-platforms)
+    - [AWS](10-InterviewQuestions.md#aws)
+    - [Azure](10-InterviewQuestions.md#azure)
+    - [GCP](10-InterviewQuestions.md#gcp)
+    - [Snowflake](10-InterviewQuestions.md#snowflake)
 
 
-## Python
+### Python
+
+1. **What is Apache Spark, and how can you use it with Python?**
+   - **Answer**: Apache Spark is a distributed data processing framework that allows for big data processing with in-memory computing capabilities. You can use it with Python through PySpark, which provides a Python API for Spark. PySpark enables data engineers to write Spark applications in Python.
+
+2. **How do you perform data cleaning in Python?**
+   - **Answer**: Data cleaning in Python can be performed using the `pandas` library. Common tasks include handling missing values (`dropna`, `fillna`), removing duplicates (`drop_duplicates`), converting data types, normalizing data, and handling outliers. Example:
+     ```python
+     import pandas as pd
+     df = pd.read_csv('data.csv')
+     df.dropna(inplace=True)  # Remove rows with missing values
+     df['column'] = df['column'].astype(int)  # Convert column to integer type
+     ```
+
+3. **Explain how you would optimize a slow-running SQL query within a Python ETL pipeline.**
+   - **Answer**: To optimize a slow-running SQL query, you can:
+     - Analyze the query execution plan.
+     - Add appropriate indexes.
+     - Optimize the query by reducing complexity, such as using JOINs efficiently and avoiding unnecessary subqueries.
+     - Partition large tables if applicable.
+     - Use caching and materialized views for frequently accessed data.
+     - Ensure that statistics are up to date.
+     Example with SQLAlchemy:
+     ```python
+     from sqlalchemy import create_engine
+     engine = create_engine('postgresql://user:password@localhost/dbname')
+     with engine.connect() as connection:
+         result = connection.execute('SELECT * FROM table WHERE condition')
+         data = result.fetchall()
+     ```
+
+4. **What is the role of a workflow scheduler in data engineering, and can you name some common ones?**
+   - **Answer**: A workflow scheduler automates and manages the execution of ETL jobs and data pipelines. It ensures tasks are executed in the correct order and handles retries, dependencies, and monitoring. Common workflow schedulers include Apache Airflow, Luigi, Prefect, and Apache NiFi.
+
+5. **How do you handle schema changes in a data pipeline?**
+   - **Answer**: Handling schema changes in a data pipeline involves:
+     - Implementing schema evolution techniques.
+     - Using tools like Apache Avro, which supports schema evolution.
+     - Versioning schemas and ensuring backward compatibility.
+     - Monitoring and validating incoming data against the schema.
+     - Applying transformations to adapt to new schemas.
+     Example with Avro:
+     ```python
+     from avro.datafile import DataFileReader
+     from avro.io import DatumReader
+
+     reader = DataFileReader(open("data.avro", "rb"), DatumReader())
+     for record in reader:
+         print(record)
+     reader.close()
+     ```
+
+6. **What is data partitioning, and why is it important in data engineering?**
+   - **Answer**: Data partitioning is the process of dividing a large dataset into smaller, more manageable pieces, often based on a key such as date, user ID, or geographic location. Partitioning improves query performance by reducing the amount of data scanned and allows for parallel processing. It also helps in managing large datasets and reducing I/O costs.
+
+7. **How do you ensure data quality in your pipelines?**
+   - **Answer**: Ensuring data quality involves:
+     - Implementing data validation checks (e.g., constraints, data type checks).
+     - Monitoring for data anomalies and inconsistencies.
+     - Using data profiling tools to understand the data.
+     - Creating unit tests for data processing logic.
+     - Automating data quality checks and alerting mechanisms.
+     Example with `pandas` for data validation:
+     ```python
+     import pandas as pd
+
+     df = pd.read_csv('data.csv')
+     assert df['column'].notnull().all(), "Missing values found in column"
+     assert (df['age'] >= 0).all(), "Negative ages found"
+     ```
+
+8. **What is the difference between batch processing and stream processing?**
+   - **Answer**: Batch processing involves processing large volumes of data at once, usually at scheduled intervals. It is suitable for tasks that are not time-sensitive. Stream processing, on the other hand, involves processing data in real-time as it arrives, which is suitable for time-sensitive applications such as real-time analytics, monitoring, and alerts.
+
+9. **How do you implement logging and monitoring in your data pipelines?**
+   - **Answer**: Logging and monitoring can be implemented using:
+     - Logging libraries like Python's `logging` module to capture and store logs.
+     - Monitoring tools like Prometheus, Grafana, or ELK Stack (Elasticsearch, Logstash, Kibana) to visualize and monitor logs.
+     - Setting up alerts for failures or anomalies.
+     Example with Python's `logging` module:
+     ```python
+     import logging
+
+     logging.basicConfig(filename='pipeline.log', level=logging.INFO)
+     logging.info('This is an informational message')
+     logging.error('This is an error message')
+     ```
+
+10. **What are some common challenges you face with distributed data processing, and how do you address them?**
+    - **Answer**: Common challenges with distributed data processing include data consistency, fault tolerance, data shuffling, and latency. To address these:
+      - Use distributed processing frameworks like Apache Spark, which handle many of these issues internally.
+      - Implement robust error handling and retries.
+      - Optimize data shuffling by partitioning data effectively.
+      - Use caching mechanisms to reduce latency.
+      - Ensure proper resource allocation and scaling to handle large data volumes.
+
 ## SQL
 
 ## Integrate
@@ -324,101 +419,6 @@ this document. I still need to sort them accordingly.
 
 -   Can you sync the batch and streaming layer and if yes how?
 
-### Python
-
-1. **What is Apache Spark, and how can you use it with Python?**
-   - **Answer**: Apache Spark is a distributed data processing framework that allows for big data processing with in-memory computing capabilities. You can use it with Python through PySpark, which provides a Python API for Spark. PySpark enables data engineers to write Spark applications in Python.
-
-2. **How do you perform data cleaning in Python?**
-   - **Answer**: Data cleaning in Python can be performed using the `pandas` library. Common tasks include handling missing values (`dropna`, `fillna`), removing duplicates (`drop_duplicates`), converting data types, normalizing data, and handling outliers. Example:
-     ```python
-     import pandas as pd
-     df = pd.read_csv('data.csv')
-     df.dropna(inplace=True)  # Remove rows with missing values
-     df['column'] = df['column'].astype(int)  # Convert column to integer type
-     ```
-
-3. **Explain how you would optimize a slow-running SQL query within a Python ETL pipeline.**
-   - **Answer**: To optimize a slow-running SQL query, you can:
-     - Analyze the query execution plan.
-     - Add appropriate indexes.
-     - Optimize the query by reducing complexity, such as using JOINs efficiently and avoiding unnecessary subqueries.
-     - Partition large tables if applicable.
-     - Use caching and materialized views for frequently accessed data.
-     - Ensure that statistics are up to date.
-     Example with SQLAlchemy:
-     ```python
-     from sqlalchemy import create_engine
-     engine = create_engine('postgresql://user:password@localhost/dbname')
-     with engine.connect() as connection:
-         result = connection.execute('SELECT * FROM table WHERE condition')
-         data = result.fetchall()
-     ```
-
-4. **What is the role of a workflow scheduler in data engineering, and can you name some common ones?**
-   - **Answer**: A workflow scheduler automates and manages the execution of ETL jobs and data pipelines. It ensures tasks are executed in the correct order and handles retries, dependencies, and monitoring. Common workflow schedulers include Apache Airflow, Luigi, Prefect, and Apache NiFi.
-
-5. **How do you handle schema changes in a data pipeline?**
-   - **Answer**: Handling schema changes in a data pipeline involves:
-     - Implementing schema evolution techniques.
-     - Using tools like Apache Avro, which supports schema evolution.
-     - Versioning schemas and ensuring backward compatibility.
-     - Monitoring and validating incoming data against the schema.
-     - Applying transformations to adapt to new schemas.
-     Example with Avro:
-     ```python
-     from avro.datafile import DataFileReader
-     from avro.io import DatumReader
-
-     reader = DataFileReader(open("data.avro", "rb"), DatumReader())
-     for record in reader:
-         print(record)
-     reader.close()
-     ```
-
-6. **What is data partitioning, and why is it important in data engineering?**
-   - **Answer**: Data partitioning is the process of dividing a large dataset into smaller, more manageable pieces, often based on a key such as date, user ID, or geographic location. Partitioning improves query performance by reducing the amount of data scanned and allows for parallel processing. It also helps in managing large datasets and reducing I/O costs.
-
-7. **How do you ensure data quality in your pipelines?**
-   - **Answer**: Ensuring data quality involves:
-     - Implementing data validation checks (e.g., constraints, data type checks).
-     - Monitoring for data anomalies and inconsistencies.
-     - Using data profiling tools to understand the data.
-     - Creating unit tests for data processing logic.
-     - Automating data quality checks and alerting mechanisms.
-     Example with `pandas` for data validation:
-     ```python
-     import pandas as pd
-
-     df = pd.read_csv('data.csv')
-     assert df['column'].notnull().all(), "Missing values found in column"
-     assert (df['age'] >= 0).all(), "Negative ages found"
-     ```
-
-8. **What is the difference between batch processing and stream processing?**
-   - **Answer**: Batch processing involves processing large volumes of data at once, usually at scheduled intervals. It is suitable for tasks that are not time-sensitive. Stream processing, on the other hand, involves processing data in real-time as it arrives, which is suitable for time-sensitive applications such as real-time analytics, monitoring, and alerts.
-
-9. **How do you implement logging and monitoring in your data pipelines?**
-   - **Answer**: Logging and monitoring can be implemented using:
-     - Logging libraries like Python's `logging` module to capture and store logs.
-     - Monitoring tools like Prometheus, Grafana, or ELK Stack (Elasticsearch, Logstash, Kibana) to visualize and monitor logs.
-     - Setting up alerts for failures or anomalies.
-     Example with Python's `logging` module:
-     ```python
-     import logging
-
-     logging.basicConfig(filename='pipeline.log', level=logging.INFO)
-     logging.info('This is an informational message')
-     logging.error('This is an error message')
-     ```
-
-10. **What are some common challenges you face with distributed data processing, and how do you address them?**
-    - **Answer**: Common challenges with distributed data processing include data consistency, fault tolerance, data shuffling, and latency. To address these:
-      - Use distributed processing frameworks like Apache Spark, which handle many of these issues internally.
-      - Implement robust error handling and retries.
-      - Optimize data shuffling by partitioning data effectively.
-      - Use caching mechanisms to reduce latency.
-      - Ensure proper resource allocation and scaling to handle large data volumes.
 
 ### Data Warehouse & Data Lake
 
