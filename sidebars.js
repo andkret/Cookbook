@@ -10,6 +10,7 @@ module.exports = {
       "07-DataSources",
       "08-InterviewQuestions",
       "09-BooksAndCourses",
+      "10-Updates",
     ],
   },
 };
