@@ -3,7 +3,7 @@ Updates
 
 What's new? Here you can find a list of all the updates with links to the sections
 - **2024-07-31**
-  - Added 10 platform architecture react videos id did to the "Best Practices" section. This way you get a better feeling of what companies are doing and which tools they use [click here](06-BestPracticesCloud#best-practices)
+  - Added 10 platform architecture react videos id did to the "Best Practices" section. This way you get a better feeling of what companies are doing and which tools they use [click here](06-BestPracticesCloud.md#best-practices)
 
 - **2024-07-17**
   - Added 20 API interview questoins and their answers [click here](08-InterviewQuestions.md#apis)
