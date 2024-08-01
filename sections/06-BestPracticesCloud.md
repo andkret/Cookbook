@@ -264,7 +264,7 @@ Check out the video and share your thoughts!
 
 #### Orange Theory Fitness
 
-![Image](/images/06/fitness.jpeg)
+![Image](/images/06/fitness-1.jpeg)
 
 ▶ [Click here to watch](https://youtu.be/ssaXRo5s1r4)
 
