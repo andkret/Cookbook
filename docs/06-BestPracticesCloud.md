@@ -219,7 +219,7 @@ Check out the video and share your thoughts!
 
 #### Platform Connecting 70 Million Cars
 
-![Imagetitle](/images/06/70mcars.png)
+![Imagetitle](/images/06/70m-cars.png)
 
 ▶ [Click here to watch](https://youtu.be/1nifzmvOGHs)
 
@@ -240,7 +240,7 @@ Check out the video and share your thoughts!
 
 #### 55TB A Day: Nielsen AWS Data Architecture
 
-![Imagetitle](/images/06/55TB.png)
+![Imagetitle](/images/06/55tb.png)
 
 ▶ [Click here to watch](https://youtu.be/WCQe1VP_q5A)
 
