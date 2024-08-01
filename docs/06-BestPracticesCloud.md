@@ -98,7 +98,7 @@ How to deploy a Docker Container on AWS:
 
 #### AWS platform architecture for GenAI
 
-![Imagetitle](/images/06/genAI-enterprise.png)
+![Imagetitle](/images/06/genai-enterprise.png)
 ▶ [Click here to watch](https://youtu.be/2yX6G4ZURbc)
 
 I recorded a reaction video to an AWS platform architecture for GenAI called Tailwinds. Presented by John from Innovative Solutions and Josh from AWS, it has two main flows: indexing and consumer.
