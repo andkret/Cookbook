@@ -367,6 +367,9 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
   - [Roaring Elephant BiteSized Big Tech](sections/09-BooksAndCourses.md#Roaring-Elephant-BiteSized-Big-Tech)
   - [SQL Data Partners Podcast](sections/09-BooksAndCourses.md#SQL-Data-Partners-Podcast)
 
+## Data Engineering Hiring Platforms
+
+- [DataTeams - Data Engineering Hiring Platform](https://www.datateams.ai/)
 
 ## How To Contribute
 If you have some cool links or topics for the cookbook, please become a contributor.
