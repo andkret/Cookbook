@@ -11,7 +11,8 @@ Recommended Books, Courses, and Podcasts
 - [Online Courses](09-BooksAndCourses.md#Online-Courses)
     - [Preparation courses](09-BooksAndCourses.md#Preparation-courses)
     - [Data engineering courses](09-BooksAndCourses.md#Data-engineering-courses)
- - [Podcasts](09-BooksAndCourses.md#Podcasts)
+- [Certifications](09-BooksAndCourses.md#Certifications)
+- [Podcasts](09-BooksAndCourses.md#Podcasts)
 
 
 ## About Books, Courses, and Podcasts
@@ -165,6 +166,28 @@ PS: Don't just get a book and expect to learn everything
 | Storing & Visualizing Time Series Data with InfluxDB and Grafana | Learn how to use InfluxDB to store time series data and visualize interactive dashboards with Grafana | https://learndataengineering.com/p/time-series-influxdb-grafana |
 | Data Engineering with Hadoop | Hadoop Project with HDFS, YARN, MapReduce, Hive and Sqoop! | https://learndataengineering.com/p/data-engineering-with-hadoop |
 | Dockerized ETL | Learn how quickly set up a simple ETL script with AWS TDengine & Grafana | https://learndataengineering.com/p/timeseries-etl-with-aws-tdengine-grafana |
+
+## Certifications
+
+Here's a list of great certifications that you can do on AWS and Azure. We left out GCP here, because the adoption of AWS and Azure is a lot higher and that's why I recommend to start with one of these. The costs are usually for doing the certification tests. We also added the level and prerequisites to make it easier for you make the decision which one fits for you.
+
+| Platform | Certification Name                                      | Price | Level       | Prerequisite Experience                                                                  | URL                                                                                                          |
+|----------|---------------------------------------------------------|-------|-------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| AWS      | AWS Certified Cloud Practitioner (maybe)               | 100   | Beginner    | Familiarity with the AWS platform is recommended but not required.                       | [Link](https://aws.amazon.com/certification/certified-cloud-practitioner/)                                   |
+| AWS      | AWS Certified Solutions Architect                      | 300   | Expert      | AWS Certified Solutions Architect - Professional is intended for individuals with two or more years of hands-on experience designing and deploying cloud architecture on AWS. | [Link](https://aws.amazon.com/certification/certified-solutions-architect-professional/?ch=sec&sec=rmg&d=1) |
+| AWS      | AWS Certified Solutions Architect                      | 150   | Intermediate| This is an ideal starting point for candidates with AWS Cloud or strong on-premises IT experience. This exam does not require deep hands-on coding experience, although familiarity with basic programming concepts would be an advantage. | [Link](https://aws.amazon.com/certification/certified-solutions-architect-associate/)                        |
+| AWS      | AWS Certified Data Engineer                            | 150   | Intermediate| The ideal candidate for this exam has the equivalent of 2-3 years of experience in data engineering or data architecture and a minimum of 1-2 years of hands-on experience with AWS services. | [Link](https://aws.amazon.com/certification/certified-data-engineer-associate/)                              |
+| Azure    | Microsoft Certified: Azure Cosmos DB Developer Specialty| 165   | Intermediate|                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/azure-cosmos-db-developer-specialty/?practice-assessment-type=certification) |
+| Azure    | Microsoft Certified: Azure Data Engineer Associate - DP 203| 165   | Intermediate|                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/?practice-assessment-type=certification) |
+| Azure    | Microsoft Certified: Azure Data Fundamentals           | 99    | Beginner    |                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification) |
+| Azure    | Microsoft Certified: Azure Database Administrator Associate| 165   | Intermediate|                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/?practice-assessment-type=certification) |
+| Azure    | Microsoft Certified: Azure Developer Associate         | 165   | Intermediate|                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification) |
+| Azure    | Microsoft Certified: Azure Fundamentals                | 99    | Beginner    |                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification) |
+| Azure    | Microsoft Certified: Azure Solutions Architect Expert  | 165   | Expert      | Microsoft Certified: Azure Administrator Associate certification                        | [Link](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/)             |
+| Azure    | Microsoft Certified: Fabric Analytics Engineer Associate| 165   | Intermediate|                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/?practice-assessment-type=certification) |
+| Azure    | Microsoft Certified: Fabric Data Engineer Associate    | 165   | Intermediate|                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/)        |
+| Azure    | Microsoft Certified: Power BI Data Analyst Associate   | 165   | Intermediate|                                                                                          | [Link](https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification) |
+
 
 ## Podcasts
 Top five podcasts by the number of episodes created.

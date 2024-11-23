@@ -2,17 +2,24 @@ Updates
 ============
 
 What's new? Here you can find a list of all the updates with links to the sections
+- **2024-11-23**
+  - Added an overview of AWS and Azure cloud certifications for Data Engineers. From beginners to experts. [click here](09-BooksAndCourses.md#Certifications)
+
+
 - **2024-07-31**
   - Added 10 platform architecture react videos id did to the "Best Practices" section. This way you get a better feeling of what companies are doing and which tools they use [click here](06-BestPracticesCloud.md#best-practices)
+
 
 - **2024-07-17**
   - Added 20 API interview questoins and their answers [click here](08-InterviewQuestions.md#apis)
   - Added 10 Python interview questions and their answers [click here](03-AdvancedSkills.md#python)
 
+
 - **2024-07-08**
   - Added large article about Snowflake and dbt for Data Engineers [click here](03-AdvancedSkills.md#analytical-data-stores)
   - Added new secton "Analytical Data Stores" to Advanced skills with the Snowflake & dbt infos.
   - Put SQL and NoSQL datastores into a new section "Transactional Data Stores"
+
 
 - **2024-03-20**
   - Added roadmap for Software Engineers / Computer Scientists [click here](01-Introduction.md#roadmap-for-software-engineers)
