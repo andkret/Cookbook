@@ -360,6 +360,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 - [Online Courses](sections/09-BooksAndCourses.md#online-courses)
   - [Preparation courses](sections/09-BooksAndCourses.md#Preparation-courses)
   - [Data engineering courses](sections/09-BooksAndCourses.md#Data-engineering-courses)
+- [Certifications](09-BooksAndCourses.md#Certifications)
 - [Podcasts](sections/09-BooksAndCourses.md#Podcasts)
   - [Super Data Science](sections/09-BooksAndCourses.md#Super-Data-Science)
   - [Data Skeptic](sections/09-BooksAndCourses.md#Data-Skeptic)
