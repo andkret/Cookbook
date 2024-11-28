@@ -25,7 +25,7 @@ Data Engineering Course: Building A Data Platform
 5. Open that folder in VSCode
 
 ### Install Elasticsearch & Kibana (Docker)
-1. Use the docker-compose file from the Log Monitoring course: https://github.com/team-data-science/GenAI-RAG/blob/main/docker-compose.yml
+1. Use the docker-compose file from this repo: https://github.com/andkret/Cookbook/blob/master/Code%20Examples/GenAI-RAG/docker-compose.yml
 2. Download Docker Desktop from here: https://www.docker.com/products/docker-desktop/
 3. Install docker desktop and sign in in the app/create a user -> sends you to the browser
 
