@@ -3,13 +3,13 @@ Data Engineering Course: Building A Data Platform
 
 ## Contents
 
-- [GenAI Retrieval Augmented Generation with Ollama and ElasticSearch](04-HandsOnCourse.md#genai-retrieval-augmented-generation-with-ollama-and-elasticsearch)
+- [GenAI Retrieval Augmented Generation with Ollama and Elasticsearch](04-HandsOnCourse.md#genai-retrieval-augmented-generation-with-ollama-and-elasticsearch)
 - [Free Data Engineering Course with AWS, TDengine, Docker and Grafana](04-HandsOnCourse.md#free-data-engineering-course-with-aws-tdengine-docker-and-grafana)
 - [Monitor your data in dbt & detect quality issues with Elementary](04-HandsOnCourse.md#monitor-your-data-in-dbt-and-detect-quality-issues-with-elementary)
 - [Solving Engineers 4 Biggest Airflow Problems](04-HandsOnCourse.md#solving-engineers-4-biggest-airflow-problems)
 - [The best alternative to Airlfow? Mage.ai](04-HandsOnCourse.md#the-best-alternative-to-airlfow?-mage.ai)
 
-## GenAI Retrieval Augmented Generation with Ollama and ElasticSearch
+## GenAI Retrieval Augmented Generation with Ollama and Elasticsearch
 
 - This how-to is based on this one from Elasticsearch: https://www.elastic.co/search-labs/blog/rag-with-llamaIndex-and-elasticsearch
 - Instead of Elasticsearch cloud we're going to run everything locally
