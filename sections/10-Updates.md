@@ -4,7 +4,7 @@ Updates
 What's new? Here you can find a list of all the updates with links to the sections
 
 - **2024-11-23**
-  - Prepared a GenAI RAG example project that you can run on your own computer without internet. It uses Ollama with Mistral model and ElasticSearch. Working on a way of creating embeddings from pdf files and inserting them into ElsaticSearch for queries [click here](04-HandsOnCourse.md#genai-retrieval-augmented-generation-with-ollama-and-elasticsearch)
+  - Prepared a GenAI RAG example project that you can run on your own computer without internet. It uses Ollama with Mistral model and Elasticsearch. Working on a way of creating embeddings from pdf files and inserting them into Elsaticsearch for queries [click here](04-HandsOnCourse.md#genai-retrieval-augmented-generation-with-ollama-and-elasticsearch)
 
 
 - **2024-11-23**
