@@ -138,7 +138,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
     - [Scaling Up](sections/03-AdvancedSkills.md#scaling-up)
     - [Scaling Out](sections/03-AdvancedSkills.md#scaling-out)
     - [When not to Do Big Data](sections/03-AdvancedSkills.md#please-dont-go-big-data)
-- [Platform & Pipeline Design basics](sections/03-AdvancedSkills.md#platform-and-pipeline-design-basics)
+- [81 Platform & Pipeline Design Questions](sections/03-AdvancedSkills.md#81-platform-and-pipeline-design-questions)
   - [Data Source Questions](sections/03-AdvancedSkills.md#data-source-questions)
   - [Goals and Destination Questions](sections/03-AdvancedSkills.md#goals-and-destination-questions)
 - [Connect](sections/03-AdvancedSkills.md#connect)

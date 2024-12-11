@@ -3,7 +3,7 @@ Updates
 
 What's new? Here you can find a list of all the updates with links to the sections
 - **2024-12-11**
-  - Prepared the most important questions for platform & pipeline design. Specifically looking at the data source and the goals [click here](03-AdvancedSkills.md#platform-and-pipeline-design-basics)
+  - Prepared the 81 most important questions for platform & pipeline design. Specifically looking at the data source and the goals [click here](03-AdvancedSkills.md#81-platform-and-pipeline-design-questions)
 
 
 - **2024-11-28**

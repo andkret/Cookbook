@@ -14,7 +14,7 @@ Advanced Data Engineering Skills
     - [Scaling Up](03-AdvancedSkills.md#scaling-up)
     - [Scaling Out](03-AdvancedSkills.md#scaling-out)
     - [When not to Do Big Data](03-AdvancedSkills.md#please-dont-go-big-data)
-- [Platform & Pipeline Design basics](03-AdvancedSkills.md#platform-and-pipeline-design-basics)
+- [81 Platform & Pipeline Design Questions](03-AdvancedSkills.md#81-platform-and-pipeline-design-questions)
   - [Data Source Questions](03-AdvancedSkills.md#data-source-questions)
   - [Goals and Destination Questions](03-AdvancedSkills.md#goals-and-destination-questions)
 - [Connect](03-AdvancedSkills.md#connect)
@@ -339,7 +339,7 @@ If you don't need it it's making absolutely no sense at all!
 On the other side: If you really need big data tools they will save your
 ass :)
 
-## Platform and Pipeline Design Basics
+## 81 Platform and Pipeline Design Questions
 Many people ask: "How do you select the platform, tools and design the pipelines?"
 The options seem infinite. Technology however should never dictate the decisions.
 
