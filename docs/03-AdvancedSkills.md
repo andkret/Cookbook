@@ -347,7 +347,6 @@ Here are 81 questions that you should answer when starting a project
 
 
 ### Data Source Questions
-(Comprehensive Questions for Data Engineers)
 
 #### Data Origin and Structure
 - **What is the source?** Understand the "device."
@@ -404,7 +403,6 @@ Here are 81 questions that you should answer when starting a project
 ---
 
 ### Goals and Destination Questions
-(Comprehensive Questions for Data Engineers)
 
 #### Use Case & Data Consumption
 - **What kind of use case is this?** (Analytics, BI, ML, Transactional processing, Visualization, User Interfaces, APIs)
