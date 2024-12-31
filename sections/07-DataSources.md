@@ -14,6 +14,7 @@ You can find the articles on the bottom of this section to read more. They inclu
 
 ## Contents:
 
+- [Climate](07-DataSources.md#Climate)
 - [Content Marketing](07-DataSources.md#Content-Marketing)
 - [Crime](07-DataSources.md#Crime)
 - [Drugs](07-DataSources.md#Drugs)
@@ -195,6 +196,9 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 - [Yelp Open Datasets](https://www.yelp.com/dataset)
 
+## Climate
+
+- [SBTi (Science Based Targets)](https://sciencebasedtargets.org/target-dashboard)
 
 ## Source Articles and Blog Posts
 
