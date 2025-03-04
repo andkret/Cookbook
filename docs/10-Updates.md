@@ -2,6 +2,10 @@ Updates
 ============
 
 What's new? Here you can find a list of all the updates with links to the sections
+- **2025-03-04**
+  - Added a detailed 10-week roadmap to Data Engineering for Data Analysts [click here](01-Introduction.md#roadmap-for-data-analysts)
+
+
 - **2024-12-11**
   - Prepared the 81 most important questions for platform & pipeline design. Specifically looking at the data source and the goals [click here](03-AdvancedSkills.md#81-platform-and-pipeline-design-questions)
 

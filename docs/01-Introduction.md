@@ -385,28 +385,481 @@ Here are all the courses currently available February 2024:
 
 ### Roadmap for Data Analysts
 
-![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Data-Analysts.jpg)
+Start this roadmap at my Academy: [Start Today](https://learndataengineering.com/p/data-engineering-for-data-analysts)
 
-I always advise my students to begin with familiar concepts and knowledge, then expand from there. As a data analyst working with data warehousing and report preparation, one might wonder where to start. Rather than diving into basics, it's beneficial to begin with understanding platform and pipeline fundamentals. This includes grasping the architecture of platforms and proceeding to more advanced topics.
+#### Go Beyond SQL and Learn How to Build, Automate, and Optimize Data Pipelines Like an Engineer
 
-For instance, if you're familiar with data warehousing, you might explore BigQuery for warehousing or delve into the lakehouse concept on Snowflake or Google Cloud Platform (GCP). The ease of setup with these platforms allows for immediate application of existing knowledge through data uploading and manipulation. Additionally, our course offerings, such as one on Snowflake with DBT, enable further exploration into data transformation within these environments.
+#### Who Is This 10 Week Roadmap For?
 
-The next step involves selecting appropriate data stores, understanding the differences between OLTP (Online Transaction Processing) databases and analytical data stores, including NoSQL and traditional relational databases. This understanding is crucial for effective data modeling, which we cover in our courses, offering insights into various database modeling techniques.
+- Data Analysts who want to understand the full data lifecycle
+- Those looking to move beyond SQL and build real data pipelines
+- Professionals seeking hands-on, practical experience to boost their resumes
+- Anyone wanting to stay competitive in the job market
 
-Moreover, for those interested in non-relational databases, MongoDB presents a valuable opportunity to skip relational data modeling in favor of document stores, leveraging prior knowledge in warehousing and dimensional modeling.
+#### What You’ll Achieve
 
-Python skills, even at a basic level, are essential for data engineers. Our Python for Data Engineers course aims to enhance understanding of data transformation tools and techniques. This knowledge, combined with insights into data warehousing, platform functionality, data modeling, and store selection, equips you with the skills to utilize Python in data engineering effectively.
+This roadmap provides a step-by-step approach to mastering data engineering skills. You'll start with Python and data modeling, move on to building pipelines, work with cloud platforms, and finally automate workflows using industry-standard tools.
 
-For analysts ready to explore further, projects focusing on fundamental tools and platforms become the next step. Whether it's building streaming data pipelines in Azure that integrate with NoSQL databases like Cosmos DB, or diving into relational data modeling on GCP, there's a wealth of paths to explore. Our courses also cover modern data warehouses and lakehouses on both AWS and GCP, providing comprehensive knowledge on data integration and management.
 
-Additionally, understanding Docker fundamentals opens up possibilities for containerization and machine learning projects, further enhancing your toolkit. From there, diving into Spark fundamentals, learning Kafka for data streaming, and mastering APIs can lead to developing end-to-end streaming projects with user interfaces.
+![Building blocks of your curriculum](/images/Roadmap-From-Data-Analyst-to-Engineer.jpg)
 
-In summary, the journey from understanding basic platform and pipeline concepts to mastering advanced data engineering tools and techniques is a gradual process. By focusing on familiar areas and progressively expanding your skill set, you can achieve a solid foundation in data engineering. This approach, especially if documented well, can set you apart in the field, even at an entry-level or junior position.
+---
 
-| Live Stream -> Roadmap: Data Engineering for Data Analysts!
-|------------------|
-|In this live stream I was showing step by step how to read this roadmap for Analysts, why I chose these tools and why I think this is the right way to do it. I also answered many questions from the audience.  
-| [Watch on YouTube](https://youtube.com/live/w2t6SL5tQG0)|
+#### Learning Goals
+
+| Goal        | Description                                         |
+| ----------- | --------------------------------------------------- |
+| **Goal #1** | Master Python & Relational Data Modeling            |
+| **Goal #2** | Build Your First ETL Pipeline on AWS (or Azure/GCP) |
+| **Goal #3** | Gain Hands-On Experience with Snowflake & dbt       |
+| **Goal #4** | Connect AWS and Snowflake                           |
+| **Goal #5** | Automate Your Data Pipeline with Airflow            |
+
+---
+
+#### 10-Week Learning Roadmap
+
+| Week            | Topic                                     | Key Learning Outcomes                                                           |
+| --------------- | ----------------------------------------- | ------------------------------------------------------------------------------- |
+| **Week 1**      | Introduction to Data Engineering & Python | Understand core concepts of data engineering and Python programming basics      |
+| **Week 2**      | Platform & Pipeline Design                | Learn how to design effective data platforms and pipelines                      |
+| **Week 3**      | Relational Data Modeling                  | Develop skills in creating relational data models for structured data           |
+| **Week 4**      | Dimensional Data Modeling                 | Master the techniques of dimensional modeling for analytics and reporting       |
+| **Week 5**      | Docker Fundamentals & APIs                | Get hands-on with containerization using Docker and working with APIs           |
+| **Week 8**      | Working with Snowflake                    | Gain practical experience using Snowflake as a data warehouse                   |
+| **Week 9**      | Transforming Data With dbt                | Learn to transform and model data efficiently using dbt                         |
+| **Week 10**     | Pipeline Orchestration with Airflow       | Automate and manage data workflows using Apache Airflow                         |
+
+---
+
+#### Detailed Weekly Content
+
+##### Week 1: Introduction to Data Engineering & Python
+
+If you want to take your data engineering skills to the next level, you are in the right place. Python has become the go-to language for data analysis and machine learning, and with our training, you will learn how to successfully use Python to build robust data pipelines and manipulate data efficiently.
+
+This comprehensive training program is designed for data engineers of all levels. Whether you are just starting out in data engineering or you are an experienced engineer looking to expand your skill set, our Python for Data Engineers training will give you the tools you need to excel in your field.
+
+At the end of the training, you will have a strong foundation in Python and data engineering and be ready to tackle complex data engineering projects with ease.
+
+Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/python-for-data-engineers)
+
+##### Course Curriculum
+
+| Lesson | Duration |
+|--------|----------|
+| Classes | 4:37 |
+| Modules | 3:06 |
+| Exception Handling | 8:55 |
+| Logging | 5:12 |
+| Datetime | 8:04 |
+| JSON | 9:54 |
+| JSON Validation | 15:10 |
+| UnitTesting | 16:44 |
+| Pandas: Intro & data types | 8:43 |
+| Pandas: Appending & Merging DataFrames | 7:49 |
+| Pandas: Normalizing & Lambdas | 4:12 |
+| Pandas: Pivot & Parquet write, read | 6:17 |
+| Pandas: Melting & JSON normalization | 8:15 |
+| Numpy | 4:47 |
+| Requests (Working with APIs) | 11:15 |
+| Working with Databases: Setup | 4:06 |
+| Working with Databases: Tables, bulk load, queries | 8:12 |
+
+---
+
+#### Week 2: Platform & Pipeline Design
+
+##### Description
+Data pipelines are the number one thing within the Data Science platform. Without them, data ingestion or machine learning processing, for example, would not be possible.
+
+This 110-minute long training will help you understand how to create stream and batch processing pipelines as well as machine learning pipelines by going through some of the most essential basics - complemented by templates and examples for useful cloud computing platforms.
+
+Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-pipeline-design)
+
+##### Course Curriculum
+
+| Lesson | Duration |
+|--------|----------|
+| Platform Blueprint & End to End Pipeline Example | 10:11 |
+| Data Engineering Tools Guide | 2:44 |
+| End to End Pipeline Example | 6:18 |
+| Push Ingestion Pipelines | 3:42 |
+| Pull Ingestion Pipelines | 3:34 |
+| Batch Pipelines | 3:07 |
+| Streaming Pipelines | 3:34 |
+| Stream Analytics | 2:26 |
+| Lambda Architecture | 4:02 |
+| Visualization Pipelines | 3:47 |
+| Visualization with Hive & Spark on Hadoop | 6:21 |
+| Visualization Data via Spark Thrift Server | 3:27 |
+
+---
+
+
+#### Week 3: Relational Data Modeling
+
+##### Description
+Relational modeling is often used for building transactional databases. You might say, 'But I'm not planning to become a back-end engineer'. Apart from knowing how to move data, you should also know how to store it effectively which involves designing a scalable data model optimized to drive faster query response time and efficiently retrieve data.
+
+Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/relational-data-modeling)
+
+##### Course Curriculum
+
+| Lesson | Duration |
+|--------|----------|
+| Introduction | 2:02 |
+| Goals of the Course | 3:39 |
+| Relational Data Models History | 3:16 |
+| Installing MySQL Server and MySQL Workbench | 8:04 |
+| MySQL Workbench Introduction | 4:36 |
+| The Design Process Explained | 4:14 |
+| Discover the Entities | 10:24 |
+| Discover the Attributes | 13:09 |
+| Define Entity Relationships and Normalize the Data | 11:19 |
+| Identifying vs Non-identifying Relationships | 2:01 |
+| Resolve Many-to-Many Relationships | 4:00 |
+| Resolve One-to-Many Relationships | 2:34 |
+| Resolve One-to-One Relationships | 1:45 |
+| Create ER Diagram Using Workbench | 19:46 |
+| Create a Physical Data Model | 4:13 |
+| Populate MySQL DB with Data from .xls File | 15:13 |
+| Course Conclusion | 1:28 |
+
+---
+
+#### Week 4: Dimensional Data Modeling
+
+##### Description
+In today’s data-driven world, efficient data organization is key to enabling insightful analysis and reporting. Dimensional data modeling is a crucial technique that helps structure your data for faster querying and better decision-making.
+
+Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-modeling-3-dimensional-data-modeling)
+
+##### Course Curriculum
+
+| Lesson | Duration |
+|--------|----------|
+| Introduction | 1:57 |
+| Course Goals | 2:05 |
+| Intro to Data Warehousing | 6:42 |
+| Approaches to Building a Data Warehouse | 5:20 |
+| Dimension Tables Explained | 5:34 |
+| Fact Tables Explained | 6:34 |
+| Identifying Dimensions | 3:16 |
+| What is DuckDB | 5:58 |
+| First DuckDB Hands-on | 2:20 |
+| Creating Tables in DuckDB | 2:40 |
+| Installing DBeaver | 6:49 |
+| Exploring SCD0 and SCD1 | 19:57 |
+| Exploring SCD2 | 13:52 |
+| Exploring Transaction Fact Table | 6:28 |
+| Exploring Accumulating Fact Table | 7:17 |
+| Course Conclusion | 0:52 |
+
+---
+
+#### Week 5: Docker Fundamentals & APIs
+
+##### Description
+Week 5 covers two crucial topics: containerization using Docker and building APIs with FastAPI. Docker is essential for creating lightweight, self-sustained containers, while APIs are the backbone of data platforms.
+
+Check out Docker Fundamentals in my Academy: [Learn More](https://learndataengineering.com/p/docker-fundamentals)
+
+Check out Building APIs with FastAPI in my Academy: [Learn More](https://learndataengineering.com/p/apis-with-fastapi-course)
+
+##### Course Curriculum
+
+##### Docker Fundamentals
+
+| Lesson | Duration |
+|--------|----------|
+| Docker vs Virtual Machines | 6:23 |
+| Docker Terminology | 5:56 |
+| Installing Docker Desktop | 4:09 |
+| Pulling Images & Running Containers | 6:34 |
+| Docker Compose | 6:34 |
+| Build & Run Simple Image | 6:28 |
+| Build Image with Dependencies | 5:05 |
+| Using DockerHub Image Registry | 4:24 |
+| Image Layers & Security Best Practices | 7:55 |
+| Managing Docker with Portainer | 4:04 |
+
+##### Building APIs with FastAPI
+
+| Lesson | Duration |
+|--------|----------|
+| What are APIs? | 8:29 |
+| Hosting vs Using APIs | 4:08 |
+| HTTP Methods & Media Types | 6:56 |
+| API Parameters & Response Codes | 9:40 |
+| Setting up FastAPI | 4:55 |
+| Creating APIs: POST, GET, PUT | 16:18 |
+| Testing APIs with Postman | 4:22 |
+| Deploying FastAPI with Docker | 6:01 |
+| API Security Best Practices | 3:48 |
+
+---
+
+
+#### Week 6 & 7: End-to-End Project on AWS, Azure, or GCP
+
+##### Important: Choose One Project
+Participants need to select **one** of the following cloud platforms to complete their end-to-end data engineering project. It is not necessary to complete all three projects.
+
+##### AWS Project Introduction
+
+The AWS project is designed for those who want to get started with cloud platforms, particularly with Amazon Web Services, the leading platform in data processing. This project will guide you through setting up an end-to-end data engineering pipeline using AWS tools like Lambda, API Gateway, Glue, Redshift, Kinesis, and DynamoDB. You will work with an e-commerce dataset, learn data modeling, and implement both stream and batch processing pipelines.
+
+Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-aws)
+
+##### Detailed AWS Project Curriculum
+
+| Module | Lesson | Duration |
+|--------|--------|----------|
+| **Introduction** | Important: Before you start! | 0:30 |
+| | Introduction | 2:21 |
+| | Data Engineering | 4:15 |
+| | Data Science Platform | 5:20 |
+| **The Dataset** | Data Types You Encounter | 3:03 |
+| | What Is A Good Dataset | 2:54 |
+| | The Dataset We Use | 3:16 |
+| | Defining The Purpose | 6:27 |
+| | Relational Storage Possibilities | 3:46 |
+| | NoSQL Storage Possibilities | 6:28 |
+| **Platform Design** | Selecting The Tools | 3:49 |
+| | Client | 3:05 |
+| | Connect | 1:18 |
+| | Buffer | 1:28 |
+| | Process | 2:42 |
+| | Store | 3:41 |
+| | Visualize | 3:00 |
+| **Data Pipelines** | Data Ingestion Pipeline | 3:00 |
+| | Stream To Raw Storage Pipeline | 2:19 |
+| | Stream To DynamoDB Pipeline | 3:09 |
+| | Visualization API Pipeline | 2:56 |
+| | Visualization Redshift Data Warehouse Pipeline | 5:29 |
+| | Batch Processing Pipeline | 3:19 |
+| **AWS Basics** | Create An AWS Account | 1:58 |
+| | Things To Keep In Mind | 2:45 |
+| | IAM Identity & Access Management | 4:06 |
+| | Logging | 2:22 |
+| | AWS Python API Boto3 | 2:57 |
+| **Data Ingestion Pipeline** | Development Environment | 4:02 |
+| | Create Lambda for API | 2:33 |
+| | Create API Gateway | 8:30 |
+| | Setup Kinesis | 1:38 |
+| | Setup IAM for API | 5:00 |
+| | Create Ingestion Pipeline (Code) | 6:09 |
+| | Create Script to Send Data | 5:46 |
+| | Test The Pipeline | 4:53 |
+| **Stream To Raw S3 Storage Pipeline** | Setup S3 Bucket | 3:42 |
+| | Configure IAM For S3 | 3:21 |
+| | Create Lambda For S3 Insert | 7:16 |
+| | Test The Pipeline | 4:01 |
+| **Stream To DynamoDB Pipeline** | Setup DynamoDB | 9:00 |
+| | Setup IAM For DynamoDB Stream | 3:36 |
+| | Create DynamoDB Lambda | 9:20 |
+| **Visualization API** | Create API & Lambda For Access | 6:10 |
+| | Test The API | 4:47 |
+| **Visualization Pipeline Redshift Data Warehouse** | Setup Redshift Data Warehouse | 8:08 |
+| | Security Group For Firehose | 3:12 |
+| | Create Redshift Tables | 5:51 |
+| | S3 Bucket & jsonpaths.json | 3:02 |
+| | Configure Firehose | 7:58 |
+| | Debug Redshift Streaming | 7:43 |
+| | Bug-fixing | 5:58 |
+| | Power BI | 12:16 |
+| **Batch Processing Pipeline** | AWS Glue Basics | 5:14 |
+| | Glue Crawlers | 13:09 |
+| | Glue Jobs | 13:43 |
+| | Redshift Insert & Debugging | 7:16 |
+
+---
+
+
+##### Azure Project Introduction
+
+The Azure project is designed for those who want to build a streaming data pipeline using Microsoft Azure's robust cloud platform. This project introduces you to Azure services such as APIM, Blob Storage, Azure Functions, Cosmos DB, and Power BI. You will gain practical experience by building a pipeline that ingests, processes, stores, and visualizes data, using Python and Visual Studio Code.
+
+Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure)
+
+##### Detailed Azure Project Curriculum
+
+| Module | Lesson | Duration |
+|--------|--------|----------|
+| **Project Introduction** | Data Engineering in Azure - Streaming Data Pipelines | 2:43 |
+| **Datasets and Local Preprocessing** | Introduction to Datasets and Local Preprocessing | 7:06 |
+| | Deploying Code on Visual Studio to Docker Containers | 5:27 |
+| **Azure Functions and Blob Storage** | Develop Azure Functions via Python and VS Code | 5:52 |
+| | Deploy Azure Function to Azure Function App and Test It | 6:26 |
+| | Integrate Azure Function with Blob Storage via Bindings | 4:58 |
+| **Add Azure Function to Azure API Management (APIM)** | Expose Azure Function as a Backend | 7:05 |
+| | Securely Store Secrets in Azure Key Vault | 4:41 |
+| | Add Basic Authentication in API Management | 4:35 |
+| | Test APIM and Imported Azure Function via Local Python Program | 2:34 |
+| **Create and Combine Event Hubs, Azure Function, and Cosmos DB** | Create Event Hubs and Test Capture Events Feature | 6:59 |
+| | Modify Existing Azure Function to Include Event Hubs Binding | 6:42 |
+| **Write Tweets to Cosmos DB (Core SQL) from Event Hub** | Create a Cosmos DB (Core SQL) | 9:03 |
+| | Create a New Azure Function that Writes Messages to Cosmos DB | 9:03 |
+| **Connect Power BI Desktop to Your Cosmos DB** | Connect Power BI Desktop via Connector and Create a Dashboard | 6:32 |
+
+---
+
+##### GCP Project Introduction
+
+The GCP project is designed for those who want to learn how to build, manage, and optimize data pipelines on Google Cloud Platform. This project focuses on building an end-to-end pipeline that extracts data from an external weather API, processes it through GCP's data tools, and visualizes the results using Looker Studio. This project offers practical, hands-on experience with tools like Cloud SQL, Compute Engine, Cloud Functions, Pub/Sub, and Looker Studio.
+
+Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-gcp)
+
+##### Detailed GCP Project Curriculum
+
+| Module | Lesson | Duration |
+|--------|--------|----------|
+| **Introduction** | Introduction | 1:13 |
+| | GitHub & the Team | 1:30 |
+| **Data & Goals** | Architecture of the Project | 3:19 |
+| | Introduction to Weather API | 2:18 |
+| | Setup Google Cloud Account | 2:12 |
+| **Project Setup** | Creating the Project | 2:35 |
+| | Enabling the Required APIs | 1:34 |
+| | Configure Scheduling | 2:20 |
+| **Pipeline Creation - Extract from API** | Setup VM for Database Interaction | 2:53 |
+| | Setup MySQL Database | 2:16 |
+| | Setup VM Client and Create Database | 2:46 |
+| | Creating Pub/Sub Message Queue | 1:41 |
+| | Create Cloud Function to Pull Data from API | 4:17 |
+| | Explanation of Code to Pull from API | 4:20 |
+| **Pipeline Creation - Write to Database** | Create Function to Write to Database | 7:47 |
+| | Explanation of Code to Write Data to Database | 5:56 |
+| | Testing the Function | 5:51 |
+| | Create Function Write Data to DB - Pull | 3:53 |
+| | Explanation Code Write Data to DB - Pull | 4:33 |
+| **Visualization** | Setup Looker Studio and Create Bubble Chart | 2:20 |
+| | Setup Looker Studio and Create Time Series Chart | 1:57 |
+| | Pipeline Monitoring | 6:20 |
+
+---
+
+
+#### Week 8: Working with Snowflake
+
+##### Description
+
+Currently, Snowflake is the analytics store/data warehouse everybody is talking about. It is a 100% cloud-based platform that offers many advantages, including flexible data access and the ability to scale services as needed. Snowflake is widely used in the industry, and learning it will enhance your data engineering skill set.
+
+This training covers everything from the basics of Snowflake and data warehousing to advanced integration and automation techniques. By the end, you will have the knowledge to prepare, integrate, manage data on Snowflake, and connect other systems to the platform.
+
+Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/snowflake-for-data-engineers)
+
+##### Course Curriculum
+
+| Module | Lesson | Duration |
+|--------|--------|----------|
+| **Choosing Data Stores** | Introduction | 2:06 |
+| | Snowflake Basics | 4:16 |
+| | Data Warehousing Basics | 4:13 |
+| | How Snowflake Fits into Data Platforms | 3:14 |
+| **Setup** | Snowflake Account Setup | 4:24 |
+| | Creating Your Warehouse & UI Overview | 4:15 |
+| **Loading CSVs from Your PC** | Our Dataset & Goals | 3:01 |
+| | Setup Snowflake Database | 10:29 |
+| | Preparing the Upload File | 8:31 |
+| | Using Internal Stages with SnowSQL | 12:37 |
+| | Splitting a Data Table into Two Tables | 6:38 |
+| **Visualizing Data** | Creating a Visualization Worksheet | 7:08 |
+| | Creating a Dashboard | 5:23 |
+| | Connect PowerBI to Snowflake | 6:03 |
+| | Query Data with Python | 7:35 |
+| **Automation** | Create Import Task | 9:18 |
+| | Create Table Refresh Task | 3:40 |
+| | Test Our Pipeline | 3:14 |
+| **AWS S3 Integration** | Working with External Stages for AWS S3 | 10:20 |
+| | Implementing Snowpipe with S3 | 6:19 |
+| **Summary** | Summary | 1:03 |
+
+---
+
+#### Week 9: Transforming Data With dbt
+
+##### Description
+
+dbt is a SQL-first transformation workflow that simplifies the process of transforming, testing, and documenting data. It allows teams to work directly within the data warehouse, creating trusted datasets for reporting, machine learning, and operational workflows. This training is the perfect starting point to get hands-on experience with dbt Core, dbt Cloud, and Snowflake.
+
+Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/dbt-for-data-engineers)
+
+##### Course Curriculum
+
+| Module | Lesson | Duration |
+|--------|--------|----------|
+| **Course Introduction** | Introduction | 2:23 |
+| **dbt Introduction & Setup** | Modern Data Experience | 5:42 |
+| | Introduction to dbt | 4:38 |
+| | Goals of this Course | 4:50 |
+| | Snowflake Preparation | 7:29 |
+| | Loading Data into Snowflake | 4:48 |
+| | Setup dbt Core | 9:35 |
+| | Preparing the GitHub Repository | 3:32 |
+| **Working with dbt-Core** | dbt Models & Materialization Explained | 6:16 |
+| | Creating Your First SQL Model | 5:48 |
+| | Working with Custom Schemas | 5:28 |
+| | Creating Your First Python Model | 4:35 |
+| | dbt Sources | 1:55 |
+| | Configuring Sources | 4:03 |
+| | Working with Seed Files | 4:20 |
+| **Tests in dbt** | Generic Tests | 3:19 |
+| | Tests with Great Expectations | 3:25 |
+| | Writing Custom Generic Tests | 2:49 |
+| **Working with dbt-Cloud** | dbt Cloud Setup | 7:25 |
+| | Creating dbt Jobs | 5:14 |
+| | CI/CD Automation with dbt Cloud and GitHub | 10:52 |
+| | Documentation in dbt | 7:38 |
+| **Conclusion & Outlook** | Conclusion | 1:17 |
+
+---
+
+#### Week 10: Pipeline Orchestration with Airflow
+
+##### Description
+
+Apache Airflow is a powerful, platform-independent workflow orchestration tool widely used in the data engineering world. It allows you to create and monitor both stream and batch pipeline processes with ease. Airflow supports integration with major platforms and tools such as AWS, Google Cloud, and many more.
+
+Airflow not only helps in planning and organizing workflows but also offers robust monitoring features, allowing you to troubleshoot and maintain complex ETL pipelines effectively. As one of the most popular tools for workflow orchestration, mastering Airflow is highly valuable for data engineers.
+
+Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/learn-apache-airflow)
+
+##### Course Curriculum
+
+| Module | Lesson | Duration |
+|--------|--------|----------|
+| **Airflow Workflow Orchestration** | Introduction | 1:36 |
+| | Airflow Usage | 3:19 |
+| **Airflow Fundamental Concepts** | Fundamental Concepts | 2:47 |
+| | Airflow Architecture | 3:09 |
+| | Example Pipelines | 4:49 |
+| | Spotlight 3rd Party Operators | 2:17 |
+| | Airflow XComs | 4:32 |
+| **Hands-On Setup** | Project Setup | 1:43 |
+| | Docker Setup Explained | 2:06 |
+| | Docker Compose & Starting Containers | 4:23 |
+| | Checking Services | 1:48 |
+| | Setup WeatherAPI | 1:33 |
+| | Setup Postgres DB | 1:58 |
+| **Learn Creating DAGs** | Airflow Webinterface | 4:37 |
+| | Creating DAG With Airflow 2.0 | 9:46 |
+| | Running our DAG | 4:15 |
+| | Creating DAG With TaskflowAPI | 6:59 |
+| | Getting Data From the API With SimpleHTTPOperator | 3:38 |
+| | Writing into Postgres | 4:12 |
+| | Parallel Processing | 4:15 |
+| **Recap** | Recap & Outlook | 4:38 |
+
+---
+
+#### What’s Next?
+
+After completing this roadmap, you’ll have the confidence and skills to not just analyze data but to engineer and optimize it like a pro! Explore advanced topics, start contributing to projects, and showcase your new skills to potential employers.
+
+
 
 ### Roadmap for Data Scientists
 
