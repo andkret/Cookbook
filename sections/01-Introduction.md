@@ -421,11 +421,11 @@ This roadmap is structured to help you understand the full data engineering work
 
 | Goal        | Description                                         |
 | ----------- | --------------------------------------------------- |
-| **Goal #1** | Gain Experience in Data Platforms & Pipeline Design            |
+| **Goal #1** | Gain Experience in Data Platforms & Pipeline Design |
 | **Goal #2** | Work with Data Like a Data Engineer Using Python & SQL |
-| **Goal #3** | Learn Dimensional Data Modeling & Data Warehousing with Snowflake       |
-| **Goal #4** | Gain Experience with ELT Using dbt & Orchestration with Airflow                           |
-| **Goal #5** | Build Your First ETL Pipeline on a Cloud Platform            |
+| **Goal #3** | Learn Dimensional Data Modeling & Data Warehousing with Snowflake |
+| **Goal #4** | Gain Experience with ELT Using dbt & Orchestration with Airflow |
+| **Goal #5** | Build Your First ETL Pipeline on a Cloud Platform |
 
 ---
 
