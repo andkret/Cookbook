@@ -409,6 +409,8 @@ This 11-week roadmap, with a time commitment of 5–10 hours per week, is design
 
 By the end of this roadmap, you’ll have the skills, tools, and project experience to confidently apply for entry-level data engineering roles and start your career in the field.
 
+![Building blocks of your curriculum](/images/Roadmap-For-Beginners.jpg)
+
 ---
 
 #### What You’ll Achieve in This Roadmap
@@ -419,11 +421,11 @@ This roadmap is structured to help you understand the full data engineering work
 
 | Goal        | Description                                         |
 | ----------- | --------------------------------------------------- |
-| **Goal #1** | Gain Experience in Data Platforms & Pipeline Design            |
+| **Goal #1** | Gain Experience in Data Platforms & Pipeline Design |
 | **Goal #2** | Work with Data Like a Data Engineer Using Python & SQL |
-| **Goal #3** | Learn Dimensional Data Modeling & Data Warehousing with Snowflake       |
-| **Goal #4** | Gain Experience with ELT Using dbt & Orchestration with Airflow                           |
-| **Goal #5** | Build Your First ETL Pipeline on a Cloud Platform            |
+| **Goal #3** | Learn Dimensional Data Modeling & Data Warehousing with Snowflake |
+| **Goal #4** | Gain Experience with ELT Using dbt & Orchestration with Airflow |
+| **Goal #5** | Build Your First ETL Pipeline on a Cloud Platform |
 
 ---
 
