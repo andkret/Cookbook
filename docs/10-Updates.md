@@ -2,6 +2,10 @@ Updates
 ============
 
 What's new? Here you can find a list of all the updates with links to the sections
+- **2025-03-05**
+  - Added a detailed 11-week roadmap to Data Engineering for Beginners [click here](01-Introduction.md#roadmap-for-beginners)
+
+
 - **2025-03-04**
   - Added a detailed 10-week roadmap to Data Engineering for Data Analysts [click here](01-Introduction.md#roadmap-for-data-analysts)
 
