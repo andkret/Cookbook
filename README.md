@@ -79,6 +79,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 - [How to Learn Data Engineering](sections/01-Introduction.md#how-to-learn-data-engineering)
 	- [Andreas on the Super Data Science Podcast](sections/01-Introduction.md#Interview-with-Andreas-on-the-Super-Data-Science-Podcast)
 	- [Building Blocks to Learn Data Engineering](sections/01-Introduction.md#building-blocks-to-learn-data-engineering)
+  - [Roadmap for Beginners](sections/01-Introduction.md#roadmap-for-beginners)
 	- [Roadmap for Data  Analysts](sections/01-Introduction.md#roadmap-for-data-analysts)
 	- [Roadmap for Data Scientists](sections/01-Introduction.md#roadmap-for-data-scientists)
 	- [Roadmap for Software Engineers](sections/01-Introduction.md#roadmap-for-software-engineers)
