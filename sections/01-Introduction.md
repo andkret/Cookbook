@@ -409,6 +409,8 @@ This 11-week roadmap, with a time commitment of 5–10 hours per week, is design
 
 By the end of this roadmap, you’ll have the skills, tools, and project experience to confidently apply for entry-level data engineering roles and start your career in the field.
 
+![Building blocks of your curriculum](/images/Roadmap-For-Beginners.jpg)
+
 ---
 
 #### What You’ll Achieve in This Roadmap
