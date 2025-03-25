@@ -1395,7 +1395,7 @@ After completing this roadmap, you’ll have the confidence and skills to not ju
 
 #### From Notebooks to Production: Build, Deploy, and Scale Your ML Workflows
 
-#### Start this roadmap at my Academy: [Start Today](https://learndataengineering.com)
+#### Start this roadmap at my Academy: [Start Today](https://learndataengineering.com/p/data-engineering-for-data-scientists)
 
 ---
 
@@ -1411,6 +1411,8 @@ After completing this roadmap, you’ll have the confidence and skills to not ju
 #### What You’ll Achieve
 
 This roadmap provides a step-by-step approach to gaining production-grade data engineering skills. You'll start with pipelines and containerization, move on to deployment and orchestration, and finish with big data and monitoring.
+
+![Building blocks of your curriculum](/images/Roadmap-Data-Engineering-For-Data-Scientists.jpg)
 
 #### Learning Goals
 
