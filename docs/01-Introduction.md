@@ -1391,30 +1391,446 @@ After completing this roadmap, you’ll have the confidence and skills to not ju
 
 ### Roadmap for Data Scientists
 
-![Building blocks of your curriculum](/images/Data-Engineering-Roadmap-for-Data-Scientists.jpg)
+#### 14-Week Data Engineering Roadmap for Data Scientists
 
-We’re going to tackle the data engineering roadmap for data scientists. It's a topic a lot of you have been curious about, especially after we explored the data analyst side of things. The goal here is to lay out a step-by-step path for those of you looking to make a pivot or deepen your understanding of data engineering.
+#### From Notebooks to Production: Build, Deploy, and Scale Your ML Workflows
 
-The first thing I did was sit down and list out all the courses available in my academy. It’s designed to be super flexible, catering to different job roles. For a data scientist, your journey usually starts with a strong grasp of data science fundamentals, right? You know your way around machine learning, how to preprocess data, and maybe even deploy models on a basic level. But then, the question arises: How do you set up an entire platform or pipeline that takes data from ingestion to a point where it’s usable for others?
+#### Start this roadmap at my Academy: [Start Today](https://learndataengineering.com)
 
-Here’s where it gets interesting. I thought about how we could structure this to really benefit data scientists. Starting with the basics, like platform and pipeline design, and then moving into choosing data storage solutions. We’re talking about understanding the differences between databases and when to use each type.
+---
 
-But it doesn’t stop there. I’ve included some optional topics, like platform security, because it’s always handy to know, even if you’re not directly responsible for it. And since you’re already familiar with data, why not dive deeper into data modeling? It’s all about making your data work for you in the most efficient way possible.
+#### Who Is This Roadmap For?
 
-Now, let's talk about Docker. It's a game-changer for deploying your algorithms. And after that, mastering API fundamentals and streaming with Apache Kafka will open up new possibilities for your projects.
+- Data Scientists who want to deploy and maintain ML models in production
+- ML practitioners struggling with real-time data, CI/CD, and orchestration
+- Data professionals looking to expand their engineering toolkit
+- Anyone ready to go beyond notebooks and automate their ML workflows
 
-Depending on your interests or where you see yourself in the future, you might want to explore cloud services like AWS, GCP, or Azure. Or maybe you’re more intrigued by the idea of document streaming and creating user interfaces with MongoDB and Streamlit. The roadmap I’ve laid out includes paths for all these directions.
+---
 
-Monitoring and observability are crucial, too. You’ll want to keep an eye on your algorithms and the data flowing through your systems. Tools like Elasticsearch or InfluxDB paired with Grafana can give you those insights.
+#### What You’ll Achieve
 
-And don’t forget about orchestration with Airflow. It’s all about keeping your workflows organized and efficient.
+This roadmap provides a step-by-step approach to gaining production-grade data engineering skills. You'll start with pipelines and containerization, move on to deployment and orchestration, and finish with big data and monitoring.
 
-So, this roadmap is more than just a list of topics. It’s about building a foundation that lets you, as a data scientist, expand into data engineering seamlessly. It’s about understanding the ecosystem around your data and how to leverage it to build robust, scalable solutions.
+#### Learning Goals
 
-| Live Stream -> Roadmap: Data Engineering for Data Scientists!
-|------------------|
-|In this live stream you'll find even more details how to read this roadmap for Data Scientists, why I chose these tools and why I think this is the right way to do it. I also answered many questions from the audience.  
-| [Watch on YouTube](https://youtube.com/live/fusLAtA1Eu4)|
+| Goal #  | Description                                        |
+| ------- | -------------------------------------------------- |
+| Goal #1 | Build an End-to-End ML Pipeline on AWS             |
+| Goal #2 | Add CI/CD & Containerization to Your Platform      |
+| Goal #3 | Implement the Lakehouse Architecture in AWS or GCP |
+| Goal #4 | Orchestrate Your Pipelines with Airflow            |
+| Goal #5 | Process Big Data with Apache Spark & Streaming     |
+| Goal #6 | Analyze Your ML Training Logs with Elasticsearch   |
+
+---
+
+#### 14-Week Learning Roadmap
+
+| Week       | Topic                                        |
+| ---------- | -------------------------------------------- |
+| Week 1     | Platform & Pipeline Design                   |
+| Week 2     | Docker Fundamentals                          |
+| Week 3     | Relational Data Modeling                     |
+| Week 4     | Working & Designing APIs                     |
+| Week 5 & 6 | ML & Containerization on AWS                 |
+| Week 7     | ETL & CI/CD on AWS                           |
+| Week 8     | Building a Lakehouse on AWS or GCP           |
+| Week 9     | Orchestrate with Airflow                     |
+| Week 10    | Pre-Process Data with Apache Spark           |
+| Week 11-13 | Build a Streaming Pipeline (AWS, Azure, GCP) |
+| Week 14    | Analyze Training Logs with Elasticsearch     |
+
+---
+
+#### Week 1: Platform & Pipeline Design
+
+##### Description
+Data pipelines are the foundation of any data platform. In this 110-minute training, you'll learn about stream, batch, and ML pipelines. You'll also explore platform blueprints, architecture components, and Lambda architecture.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-pipeline-design)**
+
+##### Course Curriculum
+
+| Lesson                                           | Duration    |
+| ------------------------------------------------ | ----------- |
+| Platform Blueprint & End to End Pipeline Example | 10:11       |
+| Data Engineering Tools Guide                     | 2:44        |
+| End to End Pipeline Example                      | 6:18        |
+| Push Ingestion Pipelines                         | 3:42        |
+| Pull Ingestion Pipelines                         | 3:34        |
+| Batch Pipelines                                  | 3:07        |
+| Streaming Pipelines                              | 3:34        |
+| Stream Analytics                                 | 2:26        |
+| Lambda Architecture                              | 4:02        |
+| Visualization Pipelines                          | 3:47        |
+| Visualization with Hive & Spark on Hadoop        | 6:21        |
+| Visualization Data via Spark Thrift Server       | 3:27        |
+| Platform Examples (AWS, Azure, GCP, Hadoop)      | Slides Only |
+
+---
+
+#### Week 2: Docker Fundamentals
+
+##### Description
+Docker is the go-to container platform for engineers. This training covers key concepts, hands-on Docker usage, building and running containers, and how Docker fits into production workflows.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/docker-fundamentals)**
+
+##### Course Curriculum
+
+| Lesson                              | Duration |
+| ----------------------------------- | -------- |
+| Docker vs Virtual Machines          | 6:23     |
+| Docker Terminology                  | 5:56     |
+| Installing Docker Desktop           | 4:09     |
+| Pulling Images & Running Containers | 6:34     |
+| CLI Cheat Sheet                     | 3:38     |
+| Docker Compose Explained            | 6:34     |
+| Build & Run Hello World Image       | 6:28     |
+| Build Image with Dependencies       | 5:05     |
+| Using DockerHub                     | 4:24     |
+| Image Layers                        | 7:55     |
+| Deployment in Production            | 5:47     |
+| Security Best Practices             | 4:09     |
+| Managing Docker with Portainer      | 4:04     |
+
+---
+
+#### Week 3: Relational Data Modeling
+
+##### Description
+Learn how to design efficient and scalable relational models. You'll go through conceptual to physical modeling and normalize your schema. You'll use MySQL and MySQL Workbench for hands-on practice.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/relational-data-modeling)**
+
+##### Course Curriculum
+
+| Lesson                           | Duration |
+| -------------------------------- | -------- |
+| History of Relational Models     | 3:16     |
+| Installing MySQL & Workbench     | 8:04     |
+| Workbench Introduction           | 4:36     |
+| The Design Process Explained     | 4:14     |
+| Discover Entities                | 10:24    |
+| Discover Attributes              | 13:09    |
+| Normalize & Define Relationships | 11:19    |
+| Identifying vs Non-identifying   | 2:01     |
+| Resolve Many-to-Many             | 4:00     |
+| Resolve One-to-Many              | 2:34     |
+| Resolve One-to-One               | 1:45     |
+| Create ER Diagram                | 19:46    |
+| Create Physical Data Model       | 4:13     |
+| Populate from XLS                | 15:13    |
+| Course Conclusion                | 1:28     |
+
+---
+
+#### Week 4: Working & Designing APIs
+
+##### Description
+APIs are the backbone of modern data platforms. You'll learn how to build and test APIs using FastAPI, design schemas, and deploy them in Docker. Postman and Docker are used for testing and deployment.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/apis-with-fastapi-course)**
+
+##### Course Curriculum
+
+| Lesson                        | Duration |
+| ----------------------------- | -------- |
+| What are APIs?                | 8:29     |
+| Hosting vs Using APIs         | 4:08     |
+| HTTP Methods & Media Types    | 6:56     |
+| Response Codes & Parameters   | 9:40     |
+| FastAPI Setup                 | 4:55     |
+| POST, GET, PUT API Methods    | 16:18    |
+| Testing with Postman          | 4:22     |
+| Deploying FastAPI with Docker | 6:01     |
+| API Security Best Practices   | 3:48     |
+
+---
+
+#### Week 5 & 6: ML & Containerization on AWS
+
+##### Description
+This hands-on project teaches you how to build a real-time ML pipeline on AWS. You'll pull data from the Twitter API (or The Guardian API), apply sentiment analysis with NLTK in a Lambda function, store results in a Postgres database via RDS, and build a Streamlit dashboard. Finally, you’ll containerize and deploy the dashboard using AWS ECS and ECR.
+
+**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/ml-on-aws)**
+
+##### Course Curriculum
+
+| Lesson                                             | Duration |
+| -------------------------------------------------- | -------- |
+| Introduction                                       | 2:38     |
+| Project Architecture Explained                     | 2:06     |
+| RDS Setup                                          | 2:37     |
+| VPC Inbound Rules                                  | 2:12     |
+| PG Admin Installation & S3 Config                  | 4:05     |
+| Lambda Intro & IAM Setup                           | 3:11     |
+| Create Lambda Function                             | 1:24     |
+| Lambda Code Explained                              | 8:22     |
+| Insert Code Into Lambda                            | 0:56     |
+| Add Layers from Klayers                            | 5:32     |
+| Create Custom Layers                               | 4:40     |
+| Test Lambda & Set Env Variables                    | 4:53     |
+| Schedule Lambda with EventBridge                   | 3:15     |
+| Setup Virtual Conda Environment                    | 4:07     |
+| Install Dependencies with Poetry                   | 5:57     |
+| Streamlit App Code Walkthrough                     | 7:52     |
+| Setup ECR Container Registry                       | 1:52     |
+| AWS CLI Install & Login                            | 5:19     |
+| Dockerfile Build & Push                            | 2:52     |
+| Create ECS Fargate Cluster                         | 1:34     |
+| ECS Task Configuration & Deployment                | 4:59     |
+| Fixing ECS Task                                    | 5:14     |
+| Stop ECS Task                                      | 0:59     |
+| Project Conclusion                                 | 5:06     |
+
+---
+
+#### Week 7: ETL & CI/CD on AWS
+
+##### Description
+In this project, you'll build a lightweight ETL job that pulls data from a public weather API and writes it into a time series database. You’ll dockerize the job, schedule it using AWS Lambda and EventBridge, and visualize the data using Grafana.
+
+**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/timeseries-etl-with-aws-tdengine-grafana)**
+
+### Course Curriculum
+
+| Lesson                                       | Duration |
+| -------------------------------------------- | -------- |
+| Quick Note from Andreas                      | 0:43     |
+| Project Introduction                         | 1:26     |
+| Setup of the Project                         | 2:52     |
+| Time Series Data Basics                      | 2:20     |
+| Big Pros of Time Series Databases            | 2:06     |
+| About TDengine                               | 1:22     |
+| Setup Weather API                            | 1:04     |
+| Code Query API                               | 2:41     |
+| TDengine Setup                               | 3:04     |
+| Connect Python to TDengine                   | 1:50     |
+| Lambda Docker Container & Push to ECR        | 1:55     |
+| AWS Setup                                    | 1:36     |
+| Create Lambda Function Using Docker Image    | 1:04     |
+| Schedule Function with EventBridge           | 1:25     |
+| CloudWatch Lambda Events                     | 0:27     |
+| Grafana Setup                                | 3:01     |
+
+---
+
+#### Week 8: Building a Lakehouse on AWS or GCP
+
+##### Description
+This week, you’ll learn how to combine data lakes and warehouses into a Lakehouse architecture. You’ll implement a full data analytics stack using tools like S3, Athena, BigQuery, Glue, Quicksight, and Data Studio.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/modern-data-warehouses)**
+
+##### Course Curriculum
+
+| Lesson                                                  | Duration |
+| -------------------------------------------------------- | -------- |
+| Introduction                                             | 2:13     |
+| Data Science Platform Overview                           | 4:10     |
+| ETL & ELT in Warehouses                                  | 6:22     |
+| Data Lake & Warehouse Integration                        | 3:29     |
+| GCP Pipelines Overview                                   | 3:13     |
+| Cloud Storage & BigQuery Hands-on                       | 8:35     |
+| Create Dashboard in Data Studio                          | 7:33     |
+| GCP Recap & AWS Goals                                    | 2:12     |
+| Upload Data to S3                                        | 2:12     |
+| Athena Manual Table Configuration                        | 3:48     |
+| Create Dashboard in Quicksight                           | 5:05     |
+| Athena via Glue Catalog                                  | 3:29     |
+| Course Recap                                             | 2:36     |
+| BONUS: Redshift Spectrum with S3                         | 2:57     |
+
+---
+
+#### Week 9: Orchestrate with Airflow
+
+##### Description
+This training will guide you through installing and running Apache Airflow in Docker, creating DAGs, using the Taskflow API, and monitoring workflow execution.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/learn-apache-airflow)**
+
+##### Course Curriculum
+
+| Lesson                                        | Duration |
+| --------------------------------------------- | -------- |
+| Introduction                                  | 1:36     |
+| Airflow Usage                                 | 3:19     |
+| Fundamental Concepts                          | 2:47     |
+| Airflow Architecture                          | 3:09     |
+| Example Pipelines                             | 4:49     |
+| Spotlight on 3rd Party Operators              | 2:17     |
+| Airflow XComs                                 | 4:32     |
+| Project Setup                                 | 1:43     |
+| Docker Setup Explained                        | 2:06     |
+| Docker Compose & Starting Containers          | 4:23     |
+| Checking Services                             | 1:48     |
+| Weather API Setup                             | 1:33     |
+| Postgres DB Setup                             | 1:58     |
+| Airflow Web Interface                         | 4:37     |
+| Create DAG with Airflow 2.0                   | 9:46     |
+| Run Your DAG                                  | 4:15     |
+| Create DAG with Taskflow API                  | 6:59     |
+| Get Data via SimpleHTTP Operator              | 3:38     |
+| Write to Postgres                             | 4:12     |
+| Parallel Processing                           | 4:15     |
+| Recap & Outlook                               | 4:38     |
+
+---
+
+#### Week 10: Pre-Process Data with Apache Spark
+
+##### Description
+This training introduces Apache Spark fundamentals, showing you how to process large datasets using Spark DataFrames, RDDs, and SparkSQL inside Docker and Jupyter Notebooks.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/learning-apache-spark-fundamentals)**
+
+##### Course Curriculum
+
+| Lesson                                | Duration |
+| ------------------------------------- | -------- |
+| Introduction & Contents               | 3:30     |
+| Vertical vs Horizontal Scaling        | 3:55     |
+| What Spark Is Good For                | 4:45     |
+| Driver, Context & Executors           | 4:11     |
+| Cluster Types                         | 1:59     |
+| Client vs Cluster Deployment          | 6:11     |
+| Where to Run Spark                    | 3:38     |
+| Tools in Spark Course                 | 2:35     |
+| Dataset Overview                      | 4:11     |
+| Docker Setup                          | 2:52     |
+| Jupyter Notebook Setup & Run         | 5:31     |
+| RDDs                                  | 3:57     |
+| DataFrames                            | 1:40     |
+| Transformations & Actions Overview   | 2:59     |
+| Transformations                       | 2:22     |
+| Actions                               | 3:06     |
+| JSON Transformations                  | 9:52     |
+| Working with Schemas                  | 8:23     |
+| Working with DataFrames               | 10:09    |
+| SparkSQL                              | 5:04     |
+| Working with RDDs                     | 12:52    |
+
+---
+
+#### Week 11–13: Build a Streaming Pipeline on AWS, Azure, or GCP
+
+##### Description
+In this 3-week section, you'll complete an end-to-end streaming data project on the cloud platform of your choice: AWS, Azure, or GCP. Each project teaches you how to ingest real-time data, process it, store it, and create visualizations.
+
+You only need to complete one of the following three options:
+
+---
+
+##### Option 1: Streaming Pipeline on AWS
+
+##### Description
+You'll use AWS services like API Gateway, Kinesis, DynamoDB, Redshift, Lambda, Glue, and Power BI to create a complete streaming solution. You'll work with e-commerce data and build multiple ingestion and batch pipelines.
+
+**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-aws)**
+
+##### Course Curriculum
+
+| Lesson                                       | Duration |
+| -------------------------------------------- | -------- |
+| Data Engineering                             | 4:15     |
+| Data Science Platform                        | 5:20     |
+| Dataset Introduction                         | 3:16     |
+| Relational Storage Possibilities             | 3:46     |
+| NoSQL Storage Possibilities                  | 6:28     |
+| Platform Design & Pipeline Planning          | 3:49     |
+| Client to Visualization Design               | 3:00     |
+| Data Ingestion to Kinesis                    | 3:00     |
+| Stream to S3 and DynamoDB                    | 5:28     |
+| Visualization API & Redshift                 | 5:29     |
+| AWS Setup & IAM                              | 4:06     |
+| Create Lambda Functions                      | 2:33     |
+| Configure Firehose & Debugging               | 7:43     |
+| Power BI Setup                               | 12:16    |
+| Glue Crawlers and Jobs                       | 26:52    |
+
+---
+
+##### Option 2: Streaming Pipeline on Azure
+
+##### Description
+You’ll build a Twitter-like JSON stream pipeline using Azure Functions, Event Hub, Cosmos DB, and Power BI. You’ll learn how to set up API management, key vaults, and authentication.
+
+**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure)**
+
+#### Course Curriculum
+
+| Lesson                                               | Duration |
+| ---------------------------------------------------- | -------- |
+| Project Introduction                                 | 2:43     |
+| Local Preprocessing & Docker Setup                   | 7:06     |
+| Develop & Deploy Azure Functions                     | 5:52     |
+| Test Functions & Integrate with Blob Storage         | 6:26     |
+| Add Functions to Azure API Management (APIM)         | 7:05     |
+| Key Vault & Authentication                           | 4:41     |
+| Create Event Hubs and Bindings                       | 6:59     |
+| Write to Cosmos DB                                   | 9:03     |
+| Power BI Connection and Dashboard Creation           | 6:32     |
+
+---
+
+##### Option 3: Streaming Pipeline on GCP
+
+##### Description
+This project shows how to extract weather data via API, stream it with Pub/Sub, write it into Cloud SQL, and visualize it with Looker Studio. You'll also learn function deployment and VM/database setup.
+
+**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-gcp)**
+
+##### Course Curriculum
+
+| Lesson                                              | Duration |
+| --------------------------------------------------- | -------- |
+| Introduction & Setup                               | 2:43     |
+| Architecture & Weather API                          | 5:31     |
+| Enable APIs & Configure Scheduling                  | 4:00     |
+| Setup MySQL Database & Compute Engine               | 4:40     |
+| Create Cloud Functions for Data Ingestion           | 8:37     |
+| Use Pub/Sub for Messaging                           | 1:41     |
+| Write Data to Cloud SQL                             | 13:43    |
+| Test and Monitor Data Flow                          | 5:51     |
+| Setup Looker Studio & Build Dashboards              | 4:17     |
+| Monitor Pipelines                                   | 6:20     |
+
+---
+
+##### Week 14: Analyze Training Logs with Elasticsearch
+
+##### Description
+Wrap up your roadmap by learning how to monitor pipelines using Elasticsearch. You’ll deploy Elasticsearch with Docker, send logs from your training pipelines, and visualize them in Kibana dashboards.
+
+**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/log-analysis-with-elasticsearch)**
+
+##### Course Curriculum
+
+| Lesson                                           | Duration |
+| ------------------------------------------------ | -------- |
+| Course Introduction                              | 2:07     |
+| Elasticsearch vs Relational Databases            | 5:43     |
+| ETL Log Analysis & Debugging                     | 3:54     |
+| Streaming Log Analysis & Debugging               | 2:48     |
+| Solving Problems with Elasticsearch              | 4:37     |
+| ELK Stack Overview                               | 2:03     |
+| Setup Limiting RAM & Environment Config          | 4:26     |
+| Running Elasticsearch                            | 4:07     |
+| Elasticsearch APIs & Python Index Creation       | 7:31     |
+| Write Logs (JSON) to Elasticsearch               | 4:46     |
+| Create Kibana Visualizations & Dashboards        | 9:27     |
+| Search Logs in Elasticsearch                     | 4:57     |
+| Course Recap                                     | —        |
+
+---
+
+#### What’s Next?
+
+After 14 weeks, you’ll have built scalable, production-ready data pipelines and ML workflows. You can now explore more advanced projects, optimize performance, and contribute to production systems with confidence. Need help showcasing your skills or getting hired? Reach out to my coaching program!
+
 
 ### Roadmap for Software Engineers
 
