@@ -3,6 +3,10 @@ Updates
 
 What's new? Here you can find a list of all the updates with links to the sections
 
+- **2025-06-11**
+  - Released the first playable demo of the Spark Optimization Playground [click here](https://bit.ly/play-spark-optimization)
+
+
 - **2025-03-25**
   - Added a detailed 14-week roadmap to Data Engineering for Data Scientists [click here](01-Introduction.md#roadmap-for-data-scientists)
 
