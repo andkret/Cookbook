@@ -341,6 +341,22 @@ this document. I still need to sort them accordingly.
 -   What is the difference between Clustered Index and Non-Clustered
     Index - with examples?
 
+-   What are execution plans and how to understand one?
+
+-   How to write nested queries in SQL?
+
+-   What are primary and foreign keys in a database?
+
+-   What is normalization and denormalization?
+
+-   What is a view and how do you create one?
+
+-   What is a cursor?
+
+-   What is a trigger in SQL?
+
+-   What are the basic differences between a TRUNCATE and a DELETE statement?
+
 ### The Cloud
 
 -   What is serverless?
@@ -426,6 +442,22 @@ this document. I still need to sort them accordingly.
 
 -   Can you sync the batch and streaming layer and if yes how?
 
+
+-   What are python modules?
+
+-   What is PYTHONPATH?
+
+-   What is __init__ in python?
+
+-   What is a lambda function and how to write one?
+
+-   How to generate random numbers in python?
+
+-   What are the different types of loops available in python?
+
+-   What are docstrings in python and how do you use them?
+
+-   What are Pandas and NumPy and where are these used?
 
 ### Data Warehouse & Data Lake
 
