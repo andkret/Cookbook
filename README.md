@@ -330,6 +330,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 ## 130+ Free Data Sources For Data Science
 
 - [General And Academic](sections/07-DataSources.md#General-And-Academic)
+- [Climate](sections/07-DataSources.md#Climate)
 - [Content Marketing](sections/07-DataSources.md#Content-Marketing)
 - [Crime](sections/07-DataSources.md#Crime)
 - [Drugs](sections/07-DataSources.md#Drugs)
