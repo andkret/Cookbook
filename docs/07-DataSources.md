@@ -12,8 +12,11 @@ I haven't had the chance to check each link myself. Please let me know if someth
 
 You can find the articles on the bottom of this section to read more. They include even more data sources I haven't had time to add to this list.
 
-## Contents:
 
+
+## Contents
+
+- [Student Favorites](07-DataSources.md#Student-Favorites)
 - [Content Marketing](07-DataSources.md#Content-Marketing)
 - [Crime](07-DataSources.md#Crime)
 - [Drugs](07-DataSources.md#Drugs)
@@ -32,6 +35,37 @@ You can find the articles on the bottom of this section to read more. They inclu
 - [Source Articles and Blog Posts](07-DataSources.md#Source-Articles-and-Blog-Posts)
 - [Travel And Transportation](07-DataSources.md#Travel-And-Transportation)
 - [Various Portals](07-DataSources.md#Various-Portals)
+
+## Student Favorites
+
+In my Coaching program my students learn by doing a project. And the foundation of every project is selecting a dataset.
+That can be an API or a file source, depending a lot on the student's goals and interests.
+
+Working out goals for the dataset, figuring out the data modeling, creating the architecture and building it. 
+It's a fun way to learn and get better at Data Engineering. 
+
+Here's a list of my student's favorite datasets and APIs
+
+Learn more about the Coaching program: [click here](https://learndataengineering.com/p/data-engineering-coaching)
+
+### Datasets
+
+- [Fraud detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
+- [Industrial equipment monitoring](https://www.kaggle.com/datasets/dnkumars/industrial-equipment-monitoring-dataset)
+- [Energy demand & generation](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather?select=weather_features.csv)
+- [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail)
+- [Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- [Beijing Air Quality](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set)
+- [NYC Taxi](https://www.kaggle.com/datasets/diishasiing/revenue-for-cab-drivers)
+
+### APIs
+
+- [Content Marketing](07-DataSources.md#Content-Marketing)
+- [Crime](07-DataSources.md#Crime)
+- [Drugs](07-DataSources.md#Drugs)
+- [Education](07-DataSources.md#Education)
+- [Entertainment](07-DataSources.md#Entertainment)
+
 
 ## General And Academic
 
