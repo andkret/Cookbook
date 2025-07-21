@@ -329,6 +329,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 
 ## 130+ Free Data Sources For Data Science
 
+- [Student Favorites](sections/07-DataSources.md#Student-Favorites)
 - [General And Academic](sections/07-DataSources.md#General-And-Academic)
 - [Content Marketing](sections/07-DataSources.md#Content-Marketing)
 - [Crime](sections/07-DataSources.md#Crime)
