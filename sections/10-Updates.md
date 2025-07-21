@@ -3,6 +3,10 @@ Updates
 
 What's new? Here you can find a list of all the updates with links to the sections
 
+- **2025-07-21**
+  - Added a list of my students favorite datasets and APIs [click here](07-DataSources.md#Student-Favorites)
+
+
 - **2025-06-11**
   - Released the first playable demo of the Spark Optimization Playground [click here](https://bit.ly/play-spark-optimization)
 
