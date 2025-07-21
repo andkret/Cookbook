@@ -60,11 +60,12 @@ Learn more about the Coaching program: [click here](https://learndataengineering
 
 ### APIs
 
-- [Content Marketing](07-DataSources.md#Content-Marketing)
-- [Crime](07-DataSources.md#Crime)
-- [Drugs](07-DataSources.md#Drugs)
-- [Education](07-DataSources.md#Education)
-- [Entertainment](07-DataSources.md#Entertainment)
+- [Bike sharing Bluebikes](https://bluebikes.com/system-data)
+- [Bike sharing Divvy Bikes](https://divvybikes.com/system-data)
+- [Weather API](https://www.weatherapi.com/docs/)
+- [Bluesky API](https://docs.bsky.app/docs/advanced-guides/api-directory)
+- [Guardian news API](https://open-platform.theguardian.com/)
+- [Football API](https://www.api-football.com/)
 
 
 ## General And Academic
