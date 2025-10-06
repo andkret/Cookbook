@@ -14,7 +14,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@master
         with:
-          args: --verbose --no-progress --accept 200,204,206,406,429,999 --exclude-mail ./sections/*.md
+          args: --verbose --no-progress --accept 200,204,206,406,429,999 --include-mail ./sections/*.md
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v5
         with:
