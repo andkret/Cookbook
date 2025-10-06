@@ -394,3 +394,6 @@ I have a Medium publication where you can publish your data engineer articles to
 <br>
 *(As an Amazon Associate I earn from qualifying purchases from Amazon
 This is free of charge for you, but super helpful for supporting this channel)
+
+
+I am changing some data here.
