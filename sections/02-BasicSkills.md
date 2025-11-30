@@ -330,7 +330,7 @@ The Wikipedia page is also very good:
 
 Check out this network protocol map. Unfortunately, it is really hard to
 find it theses days:
-<https://www.blackmagicboxes.com/wp-content/uploads/2016/12/Network-Protocols-Map-Poster.jpg>
+<https://gist.github.com/CMCDragonkai/14a21fc387b8ea6f585c882d0d0d9334#file-network_communication_protocols_map-pdf>
 
 ### IP Subnetting
 
