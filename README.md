@@ -19,7 +19,7 @@
 <br>
 
 ## If You Like This Book & Need More Help
-Check out my Data Engineering Academy at LearnDataEngineering.com trusted by almost 2,000 students!
+Check out my Data Engineering Academy at LearnDataEngineering.com trusted by over 2,000 students!
 
 **Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
 
@@ -28,8 +28,6 @@ Check out my Data Engineering Academy at LearnDataEngineering.com trusted by alm
 - Proven process based on years of experience and hundreds of hours of personal coaching
 - Over 30 prepared courses on the most important techniques, fundamental tools and platforms plus our
 - Associate Data Engineer Certification
-- Academy Discord server with over 1,000 members
-
 
 
 ## Support This Book For Free!
