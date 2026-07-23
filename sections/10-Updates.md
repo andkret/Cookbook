@@ -3,6 +3,10 @@ Updates
 
 What's new? Here you can find a list of all the updates with links to the sections
 
+- **2026-07-23**
+  - Added more student favorite datasets and APIs, now with descriptions and organized into tables [click here](07-DataSources.md#Student-Favorites)
+
+
 - **2025-07-21**
   - Added a list of my students favorite datasets and APIs [click here](07-DataSources.md#Student-Favorites)
 
