@@ -5,6 +5,7 @@ What's new? Here you can find a list of all the updates with links to the sectio
 
 - **2026-07-23**
   - Added more student favorite datasets and APIs, now with descriptions and organized into tables [click here](07-DataSources.md#Student-Favorites)
+  - Added a project README template to help you document your portfolio projects [click here](../Code%20Examples/template-readme.md)
 
 
 - **2025-07-21**
