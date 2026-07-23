@@ -92,10 +92,19 @@ For each layer, also say what you considered and rejected. A choice with a rejec
 Not every project has all five layers. If you have no buffer, say so and say why you did not need one. An empty section with an honest sentence in it is better than pretending.
 
 ## Connect
+*Everything for data ingestion — pulling data or receiving it, and the tools and processing that make that happen.*
+
 ## Buffer
+*Everything to do with message queues (e.g. Kafka, Kinesis, Pub/Sub) that sit between ingestion and processing.*
+
 ## Processing
+*Everything with processing — Python scripts, Spark, dockerized apps, orchestration and observability.*
+
 ## Storage
+*Where the data lands — OLAP and OLTP databases, data lakes and lakehouses.*
+
 ## Visualization
+*How people and systems consume the data — apps, dashboards, BI tools and, of course, APIs for clients.*
 
 # Pipelines
 
@@ -107,8 +116,6 @@ Link to the files, do not paste the whole pipeline in here. The code already liv
 Say what the pipeline does when something goes wrong. Retries, what happens to a bad record, whether the job fails loudly or writes garbage quietly. This is the part people forget and it is exactly the part that separates a project from a tutorial.
 
 ## Stream Processing
-### Storing Data Stream
-### Processing Data Stream
 ## Batch Processing
 ## Visualizations
 
@@ -151,4 +158,4 @@ Add the link to your LinkedIn profile.
 
 # Appendix
 
-[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+This template comes from Andreas Kretz's Data Engineering Cookbook. If it helped you, point people back to it: [The Data Engineering Cookbook](https://github.com/andkret/Cookbook)
