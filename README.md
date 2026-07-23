@@ -48,6 +48,9 @@ If you look for the old PDF version it's [here](https://github.com/andkret/Cookb
 ## Here's what's new:
 Find the change log with all recent updates here: [SEE UPDATES](sections/10-Updates.md)
 
+## Building a Portfolio Project?
+Use my project README template to document it like a professional would: [Get the template](Code%20Examples/template-readme.md)
+
 # Contents:
 - [Introduction](sections/01-Introduction.md)
 - [Basic Engineering Skills](sections/02-BasicSkills.md)
@@ -55,7 +58,8 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
 - [Free Hands On Courses / Tutorials](sections/04-HandsOnCourse.md)‚
 - [Case Studies](sections/05-CaseStudies.md)
 - [Best Practices Cloud Platforms](sections/06-BestPracticesCloud.md)
-- [130+ Data Sources Data Science](sections/07-DataSources.md)
+- [130+ Data Sources for Portfolio Projects](sections/07-DataSources.md)
+- [Project README Template](Code%20Examples/template-readme.md)
 - [1001 Interview Questions](sections/08-InterviewQuestions.md)
 - [Recommended Books, Courses, and Podcasts](sections/09-BooksAndCourses.md)
 - [Updates](sections/10-Updates.md)
@@ -327,7 +331,7 @@ Find the change log with all recent updates here: [SEE UPDATES](sections/10-Upda
   - [Containerization](sections/06-BestPracticesCloud.md#Containerization-2)
   - [Best Practices](sections/06-BestPracticesCloud.md#Best-Practices-2)
 
-## 130+ Free Data Sources For Data Science
+## 130+ Data Sources for Portfolio Projects
 
 - [Student Favorites](sections/07-DataSources.md#Student-Favorites)
 - [General And Academic](sections/07-DataSources.md#General-And-Academic)

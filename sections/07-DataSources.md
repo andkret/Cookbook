@@ -46,6 +46,8 @@ It's a fun way to learn and get better at Data Engineering.
 
 Here's a list of my student's favorite datasets and APIs
 
+Building a project? Use my project README template to document it properly: [template-readme.md](../Code%20Examples/template-readme.md)
+
 ### Datasets
 
 | Dataset | Description |
