@@ -46,26 +46,38 @@ It's a fun way to learn and get better at Data Engineering.
 
 Here's a list of my student's favorite datasets and APIs
 
-Learn more about the Coaching program: [click here](https://learndataengineering.com/p/data-engineering-coaching)
-
 ### Datasets
 
-- [Fraud detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
-- [Industrial equipment monitoring](https://www.kaggle.com/datasets/dnkumars/industrial-equipment-monitoring-dataset)
-- [Energy demand & generation](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather?select=weather_features.csv)
-- [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail)
-- [Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-- [Beijing Air Quality](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set)
-- [NYC Taxi](https://www.kaggle.com/datasets/diishasiing/revenue-for-cab-drivers)
+| Dataset | Description |
+|---------|-------------|
+| [Fraud detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection) | Simulated credit card transactions labeled as fraudulent or legitimate, ideal for classification and imbalanced-data projects. |
+| [Industrial equipment monitoring](https://www.kaggle.com/datasets/dnkumars/industrial-equipment-monitoring-dataset) | Sensor readings from industrial equipment (temperature, pressure, vibration) for predictive maintenance and anomaly detection. |
+| [Energy demand & generation](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather?select=weather_features.csv) | Four years of hourly electricity consumption, generation, prices and weather data for Spain, great for time-series forecasting. |
+| [Online Retail](https://www.kaggle.com/datasets/tunguz/online-retail) | Transactional data from a UK online retailer, useful for customer segmentation, market basket and RFM analysis. |
+| [Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) | Olist's public dataset of 100k+ orders with customers, products, payments, reviews and geolocation for end-to-end analytics. |
+| [Beijing Air Quality](https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set) | Hourly air pollutant readings across multiple Beijing stations with weather data, good for time-series and environmental analysis. |
+| [NYC Taxi](https://www.kaggle.com/datasets/diishasiing/revenue-for-cab-drivers) | New York City taxi trip and revenue data for cab drivers, useful for revenue, tipping and time-series analysis. |
+| [E-commerce clickstream & transactions](https://www.kaggle.com/datasets/waqi786/e-commerce-clickstream-and-transaction-dataset) | Simulated online shopping clickstream and transaction data — user sessions, page views, clicks and purchases — good for funnel and behavior analysis. |
+| [IESO Ontario electricity data](https://reports-public.ieso.ca/public/) | Public report files from Ontario's grid operator: electricity demand, generation by fuel type, market prices and more, updated regularly as CSV/XML. |
+| [IoT device temperature readings](https://www.kaggle.com/datasets/atulanandjha/temperature-readings-iot-devices) | Temperature sensor readings from IoT devices with indoor/outdoor tags and timestamps, great for time-series and anomaly detection. |
+| [IoT agriculture 2024](https://www.kaggle.com/datasets/wisam1985/iot-agriculture-2024) | Smart-farming sensor data (soil moisture, temperature, humidity, etc.) for agriculture monitoring and IoT analytics projects. |
 
 ### APIs
 
-- [Bike sharing Bluebikes](https://bluebikes.com/system-data)
-- [Bike sharing Divvy Bikes](https://divvybikes.com/system-data)
-- [Weather API](https://www.weatherapi.com/docs/)
-- [Bluesky API](https://docs.bsky.app/docs/advanced-guides/api-directory)
-- [Guardian news API](https://open-platform.theguardian.com/)
-- [Football API](https://www.api-football.com/)
+| API | Description |
+|-----|-------------|
+| [Bike sharing Bluebikes](https://bluebikes.com/system-data) | Trip and station data for Boston's Bluebikes bike-share system, including GBFS real-time feeds and downloadable trip history. |
+| [Bike sharing Divvy Bikes](https://divvybikes.com/system-data) | Trip and station data for Chicago's Divvy bike-share system, with GBFS real-time feeds and historical ride files. |
+| [Weather API](https://www.weatherapi.com/docs/) | Weather API with current conditions, forecasts, historical data and astronomy; generous free tier. |
+| [Bluesky API](https://docs.bsky.app/docs/advanced-guides/api-directory) | API for the Bluesky social network (AT Protocol): posts, profiles, feeds and social graph data. |
+| [Guardian news API](https://open-platform.theguardian.com/) | Access to The Guardian's articles, tags and sections; great for text and news analysis, free with an API key. |
+| [Football API](https://www.api-football.com/) | Football (soccer) data API: fixtures, live scores, standings, teams, players and statistics across many leagues. |
+| [HSL Helsinki public transport](https://www.hsl.fi/en/hsl/open-data) | Open transit data for the Helsinki region: routes, schedules, GTFS feeds, real-time vehicle positions and a routing API. |
+| [Digitransit map API](https://digitransit.fi/en/developers/apis/4-map-api/background-map/) | Background map and vector tiles API for building transit and mobility maps (Finland/Helsinki region). |
+| [Open-Meteo](https://open-meteo.com/) | Free open-source weather API with forecasts, historical data and air quality, no API key required. |
+| [Finnish Meteorological Institute open data](https://en.ilmatieteenlaitos.fi/open-data-sets-available) | Weather observations, forecasts and climate data for Finland, served via open WFS/download APIs. |
+| [OpenWeatherMap](https://openweathermap.org/price) | Weather API with current conditions, forecasts and historical data via the One Call API; free tier plus paid plans. |
+| [SMARD German electricity market API](https://github.com/bundesAPI/smard-api/tree/main) | API for Germany's electricity market data: generation, consumption and prices from the Bundesnetzagentur (documentation in German). |
 
 
 ## General And Academic
