@@ -142,6 +142,40 @@ Andreas
 
 ## SQL
 
+These questions cover the SQL topics that come up most often in data engineering interviews: joins, aggregation, window functions, and query behavior with NULLs.
+
+1. **What is the difference between WHERE and HAVING?**
+   - **Answer**: WHERE filters individual rows before any grouping happens, so it cannot reference aggregate results. HAVING filters groups after GROUP BY has been applied, so it is the place to put conditions on aggregates like `HAVING COUNT(*) > 5`. A query can use both: WHERE first reduces the rows, then HAVING reduces the groups.
+
+2. **Explain the difference between INNER JOIN, LEFT JOIN, and FULL OUTER JOIN.**
+   - **Answer**: An INNER JOIN returns only rows with a match in both tables. A LEFT JOIN returns every row from the left table, with NULLs for right-table columns where no match exists. A FULL OUTER JOIN returns all rows from both sides, matching where possible and filling the rest with NULLs. In interviews, the follow-up is often about row counts: a LEFT JOIN can return more rows than the left table if the right side has duplicate join keys.
+
+3. **What is the difference between RANK(), DENSE_RANK(), and ROW_NUMBER()?**
+   - **Answer**: All three are window functions that number rows within a partition by some order. ROW_NUMBER() gives every row a unique number even on ties. RANK() gives tied rows the same number and then skips (1, 2, 2, 4). DENSE_RANK() gives tied rows the same number without skipping (1, 2, 2, 3). Which one is correct depends on how the business wants ties handled.
+
+4. **How would you find the second-highest salary in a table?**
+   - **Answer**: Two common approaches. With a window function: number rows with DENSE_RANK() ordered by salary descending inside a subquery or CTE, then filter for rank 2 — DENSE_RANK handles duplicate top salaries correctly. Without window functions: `SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees)`. Interviewers usually probe the tie-handling difference between the two.
+
+5. **What is the difference between UNION and UNION ALL?**
+   - **Answer**: UNION removes duplicate rows across the combined result, which forces a sort or hash deduplication step. UNION ALL simply appends the results, keeping duplicates. UNION ALL is faster and should be the default when duplicates are impossible or acceptable.
+
+6. **How do NULLs behave in comparisons and aggregates?**
+   - **Answer**: NULL compared to anything with = or <> yields NULL (not true or false), which is why `WHERE col = NULL` matches nothing and `IS NULL` / `IS NOT NULL` exist. Aggregates like SUM, AVG, MAX ignore NULLs, but COUNT(*) counts all rows while COUNT(col) counts only non-NULL values. NOT IN with a subquery that returns a NULL matches nothing — a classic interview trap.
+
+7. **What is the difference between a CTE and a subquery, and when would you use each?**
+   - **Answer**: A CTE (WITH clause) names an intermediate result so it can be referenced (possibly multiple times) and read top-down, and it is required for recursion. A subquery is inlined at the point of use. Functionally they are usually interchangeable, and most optimizers treat them the same; the practical argument for CTEs is readability of multi-step transformations, which matters in review-heavy data engineering work.
+
+8. **Why can adding an index make reads faster but writes slower?**
+   - **Answer**: An index is a separate sorted structure (typically a B-tree) that lets the engine locate rows without scanning the table. Every INSERT, UPDATE, or DELETE must also maintain each index on the table, so each additional index adds write overhead. Indexes also do not help — and can be skipped by the planner — when a query filters on a low-selectivity column or wraps the indexed column in a function.
+
+9. **A GROUP BY query returns "column must appear in the GROUP BY clause" — why?**
+   - **Answer**: Once rows are grouped, every selected column must be either part of the grouping key or wrapped in an aggregate, because the engine needs exactly one value per group. Databases that enforce this strictly (like PostgreSQL) error out; MySQL in older modes silently picked an arbitrary row value, which hid bugs. The fix is to add the column to GROUP BY or aggregate it explicitly.
+
+10. **How would you approach a slow query someone hands you?**
+    - **Answer**: Read the execution plan first (EXPLAIN / EXPLAIN ANALYZE) rather than guessing: look for full table scans on large tables, join order and join type, and row-estimate misses. Then check the usual suspects — missing indexes on join or filter columns, functions applied to indexed columns, SELECT * pulling unneeded columns, and exploding joins from duplicate keys. Fix one thing at a time and re-measure.
+
+More SQL questions with answers are freely available at [PrepNPlaced SQL Interview Questions](https://www.prepnplaced.com/sql-interview-questions).
+
 ## Integrate
 ### APIs
 
