@@ -127,6 +127,7 @@ PS: Don't just get a book and expect to learn everything
 | The Bits and Bytes of Computer Networking | This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. | https://www.coursera.org/learn/computer-networking |
 | Learn SQL \| Codecademy | In this SQL course, you'll learn how to manage large datasets and analyze real data using the standard data management language. | https://www.codecademy.com/learn/learn-sql |
 | Learn Python 3 \| Codecademy | Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today. | https://www.codecademy.com/learn/learn-python-3 |
+| DataDriven.io | Practice 1,400+ real data engineering interview questions for free. Covers SQL, Python, data modeling, and system design with an interactive coding environment. | https://www.datadriven.io |
 
 ### Data engineering courses
 
