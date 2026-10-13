@@ -257,6 +257,7 @@ Use my project README template to document it like a professional would: [Get th
 
 
 ## Hands On Course
+- [Community Practice: A Local Fintech Data Warehouse](sections/04-HandsOnCourse.md#community-practice-a-local-fintech-data-warehouse)
 
 - [Free Data Engineering Course with AWS, TDengine, Docker and Grafana](sections/04-HandsOnCourse.md#free-data-engineering-course-with-aws-tdengine-docker-and-grafana)
 - [Monitor your data in dbt & detect quality issues with Elementary](sections/04-HandsOnCourse.md#monitor-your-data-in-dbt-and-detect-quality-issues-with-elementary)
