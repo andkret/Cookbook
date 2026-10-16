@@ -8,6 +8,7 @@ Data Engineering Course: Building A Data Platform
 - [Monitor your data in dbt & detect quality issues with Elementary](04-HandsOnCourse.md#monitor-your-data-in-dbt-and-detect-quality-issues-with-elementary)
 - [Solving Engineers 4 Biggest Airflow Problems](04-HandsOnCourse.md#solving-engineers-4-biggest-airflow-problems)
 - [The best alternative to Airlfow? Mage.ai](04-HandsOnCourse.md#the-best-alternative-to-airlfow?-mage.ai)
+- [Community Practice: A Local Fintech Data Warehouse](04-HandsOnCourse.md#community-practice-a-local-fintech-data-warehouse)
 
 ## GenAI Retrieval Augmented Generation with Ollama and Elasticsearch
 
@@ -237,3 +238,23 @@ In this insightful video, Andreas introduces Mage, a promising alternative to Ap
 7. **Conclusion and Call to Action:** Andreas concludes by praising the direction in which the industry is moving, with tools like Mage simplifying data engineering processes. He encourages viewers to try Mage and engage with the content by liking, subscribing, and commenting on their current tools and the potential impact of Mage.
 
 Overall, the video shows Mage as a highly user-friendly, scalable, and versatile tool for data pipeline creation and management, offering a compelling alternative to traditional tools like Airflow.
+
+## Community Practice: A Local Fintech Data Warehouse
+
+**Free community resource:** [Fintech Data Engineering Roadmap](https://github.com/antony502189-max/fintech-data-engineering-roadmap)
+
+Build and inspect a synthetic payments warehouse with Python 3.12+ and SQLite. The local examples cover exact monetary amounts, duplicate-safe ingestion, historical joins, reconciliation, and backup recovery. Forty foundation exercises and eight scenario labs provide starters, hints, references, and a grading CLI. Core practice uses Python's standard library and requires no paid cloud account or API key.
+
+Try the payments demo, then initialize the SQL report debugging lab:
+
+```bash
+git clone https://github.com/antony502189-max/fintech-data-engineering-roadmap.git
+cd fintech-data-engineering-roadmap
+python -m fintech_lab --out work/first-demo
+python challenges/run.py init C07
+python challenges/run.py grade C07
+```
+
+The C07 starter runs but produces incorrect results. Repair `work/challenges/C07.py` to handle join fan-out, equal-value events, currency boundaries, and captures without fees or attempts. The initial grader failure is intentional. Other labs explore multi-batch rollback, schema migration, bitemporal reporting, and leakage-safe training data.
+
+The first edition was authored with AI assistance, with executable checks and linked provenance. These are teaching implementations using synthetic inputs; they do not reproduce a production financial platform or establish regulatory compliance.
