@@ -1312,7 +1312,7 @@ Snowflake has revolutionized the data warehousing space with its cloud-native ar
 
 The "Snowflake for Data Engineers" course in my Learn Data Engineering Academy provides comprehensive training on Snowflake. From the basics of setting up your Snowflake environment to advanced data automation with Snowpipes, the course equips you with practical skills to leverage Snowflake effectively in your data projects.
 
-Learn more about the course [here](https://learndataengineering.com/p/snowflake-for-data-engineers).
+Learn more about the course [here](https://go.learndataengineering.com/dtjapkdr).
 
 ![Snowlfake thumb](/images/03/Snowflake-ui.jpeg)
 
@@ -1328,7 +1328,7 @@ dbt is a powerful transformation tool that allows data engineers to transform, t
 
 In my Learn Data Engineering Academy you find the perfect starting point for mastering dbt with the course "dbt for Data Engineers". The course covers everything from the basics of ELT processes to advanced features like continuous integration and deployment (CI/CD) pipelines. With hands-on training, you'll learn to create data pipelines, configure dbt materializations, test dbt models, and much more.
 
-Learn more about the course [here](https://learndataengineering.com/p/dbt-for-data-engineers).
+Learn more about the course [here](https://go.learndataengineering.com/zcqw3nge).
 
 ![Snowlfake thumb](/images/03/dbt-ui.jpeg)
 

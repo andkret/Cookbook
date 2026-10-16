@@ -69,8 +69,8 @@ Python is a great choice. It is super versatile.
 
 
 Where to Learn Python? There are free Python courses all over the internet.
-- I have a beginner one in my Data Engineering academy: [Introduction to Python course](https://learndataengineering.com/p/introduction-to-python)
-- I also have a Python for Data Engineers one one in my Data Engineering academy: [Python for Data Engineers course](https://learndataengineering.com/p/python-for-data-engineers)
+- I have a beginner one in my Data Engineering academy: [Introduction to Python course](https://go.learndataengineering.com/ywjaj3ym)
+- I also have a Python for Data Engineers one one in my Data Engineering academy: [Python for Data Engineers course](https://go.learndataengineering.com/cxzqhhxw)
 
 Keep in mind to always keep it practical: Learning by doing!
 

@@ -71,7 +71,7 @@ plumbersofdatascience\@gmail.com anytime.
 ## If You Like This Book & Need More Help:
 Check out my Data Engineering Academy at LearnDataEngineering.com
 
-**Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
+**Visit learndataengineering.com:** [Click Here](https://go.learndataengineering.com/k3dzbsxp)
 
 - Huge Step by step Data Engineering Academy with over 30 courses
 - Unlimited access incl. future courses during subsciption
@@ -386,7 +386,7 @@ Here are all the courses currently available February 2024:
 
 ### Roadmap for Beginners
 
-Start this roadmap at my Academy: [Start Today](https://learndataengineering.com/p/data-engineering-for-beginners)
+Start this roadmap at my Academy: [Start Today](https://go.learndataengineering.com/tfwcmrj8)
 
 #### 11-Week Data Engineering Roadmap for Beginners & Graduates
 
@@ -458,7 +458,7 @@ This roadmap is structured to help you understand the full data engineering work
 
 Data pipelines are the backbone of any Data Science platform. They are essential for data ingestion, processing, and machine learning workflows. This training will help you understand how to create stream and batch processing pipelines as well as machine learning pipelines by going through the most essential basics—complemented by templates and examples for useful cloud computing platforms.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-pipeline-design)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/2jwv7wcg)
 
 ##### Detailed Course Curriculum
 
@@ -489,7 +489,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 One part of creating a data platform and pipelines is to choose data stores, which is the focus of this training. You will learn about relational databases, NoSQL databases, data warehouses, and data lakes. The goal is to help you understand when to use each type of data storage and how to incorporate them into your pipeline.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/choosing-data-stores)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/fxmwqeue)
 
 
 ##### Detailed Course Curriculum
@@ -524,7 +524,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 Schema design is a critical skill for data engineers. This training covers schema design for different data stores using an e-commerce dataset. You will see examples of how the same dataset is modeled for relational databases, NoSQL stores, wide column stores, document stores, key-value stores, and data warehouses. This will help you understand how to create maintainable models and avoid data swamps.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-modeling)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/thgaa33k)
 
 ##### Detailed Course Curriculum
 
@@ -556,7 +556,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 This course covers everything you need to know about relational data modeling—from understanding entities, attributes, and relationships to normalizing data models up to the third normal form (3NF). You will learn how to design conceptual, logical, and physical data models, implement primary and foreign keys, and ensure data quality through constraints and validations. Practical exercises include setting up a MySQL server with Docker and creating ER diagrams using MySQL Workbench.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/relational-data-modeling)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/hh23h5yp)
 
 ##### Detailed Course Curriculum
 
@@ -586,7 +586,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 This course offers a comprehensive guide to using Python for data engineering tasks. You’ll learn advanced Python features, including data processing with Pandas, working with APIs, interacting with PostgreSQL databases, and handling data types like JSON. The course also covers important programming concepts like exception handling, modules, unit testing, and object-oriented programming—all within the context of data engineering.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/python-for-data-engineers)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/cxzqhhxw)
 
 ##### Detailed Course Curriculum
 
@@ -618,7 +618,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 SQL is the backbone of working with relational databases, and if you’re getting into Data Engineering, mastering SQL is a must. This course provides the essential SQL skills needed to work with databases effectively. You'll learn how to manage data, build efficient queries, and perform advanced operations to handle real-world data challenges.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/sql-for-data-engineers)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/99jg746m)
 
 ##### Detailed Course Curriculum
 
@@ -651,7 +651,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 Dimensional data modeling is a crucial skill for data engineers working with analytics use-cases where data needs to be structured efficiently for reporting and business insights. This course covers the basics of dimensional modeling, the medallion architecture, and how to create data models for OLAP data stores.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-modeling-3-dimensional-data-modeling)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/85az5w5c)
 
 ##### Detailed Course Curriculum
 
@@ -679,7 +679,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 Snowflake is a highly popular cloud-based data warehouse that is ideal for beginners due to its simplicity and powerful features. In this course, you will learn how to set up Snowflake, load and process data, and create visualizations. The course covers both SQL and Python methods for managing data within Snowflake, and provides hands-on experience with connecting Snowflake to other tools such as PowerBI.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/snowflake-for-data-engineers)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/dtjapkdr)
 
 ##### Detailed Course Curriculum
 
@@ -713,7 +713,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 This course introduces dbt (Data Build Tool), a SQL-first transformation workflow that allows you to transform, test, and document data directly within your data warehouse. You will learn how to set up dbt, connect it with Snowflake, create data pipelines, and implement advanced features like CI/CD and documentation generation. This training is ideal for data engineers looking to build trusted datasets for reporting, machine learning, and operational workflows.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/dbt-for-data-engineers)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/zcqw3nge)
 
 ##### Detailed Course Curriculum
 
@@ -749,7 +749,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 Airflow is a platform-independent workflow orchestration tool that offers many possibilities to create and monitor stream and batch pipeline processes. It supports complex, multi-stage processes across major platforms and tools in the data engineering world, such as AWS or Google Cloud. Airflow is not only great for planning and organizing your processes but also provides robust monitoring capabilities, allowing you to keep track of data workflows and troubleshoot effectively.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/learn-apache-airflow)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/uy8cvvzg)
 
 ##### Detailed Course Curriculum
 
@@ -787,7 +787,7 @@ Participants need to select **one** of the following cloud platforms to complete
 
 The AWS project is designed for those who want to get started with cloud platforms, particularly with Amazon Web Services, the leading platform in data processing. This project will guide you through setting up an end-to-end data engineering pipeline using AWS tools like Lambda, API Gateway, Glue, Redshift, Kinesis, and DynamoDB. You will work with an e-commerce dataset, learn data modeling, and implement both stream and batch processing pipelines.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-aws)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/e8y5kvvy)
 
 ##### Detailed AWS Project Curriculum
 
@@ -856,7 +856,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 The Azure project is designed for those who want to build a streaming data pipeline using Microsoft Azure's robust cloud platform. This project introduces you to Azure services such as APIM, Blob Storage, Azure Functions, Cosmos DB, and Power BI. You will gain practical experience by building a pipeline that ingests, processes, stores, and visualizes data, using Python and Visual Studio Code.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/7z4xu5ed)
 
 ##### Detailed Azure Project Curriculum
 
@@ -884,7 +884,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 The GCP project is designed for those who want to learn how to build, manage, and optimize data pipelines on Google Cloud Platform. This project focuses on building an end-to-end pipeline that extracts data from an external weather API, processes it through GCP's data tools, and visualizes the results using Looker Studio. This project offers practical, hands-on experience with tools like Cloud SQL, Compute Engine, Cloud Functions, Pub/Sub, and Looker Studio.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-gcp)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/7b5j22b3)
 
 ##### Detailed GCP Project Curriculum
 
@@ -924,7 +924,7 @@ After completing this roadmap, you’ll have the confidence and skills to not ju
 
 ### Roadmap for Data Analysts
 
-Start this roadmap at my Academy: [Start Today](https://learndataengineering.com/p/data-engineering-for-data-analysts)
+Start this roadmap at my Academy: [Start Today](https://go.learndataengineering.com/c6knqxwa)
 
 #### Go Beyond SQL and Learn How to Build, Automate, and Optimize Data Pipelines Like an Engineer
 
@@ -981,7 +981,7 @@ This comprehensive training program is designed for data engineers of all levels
 
 At the end of the training, you will have a strong foundation in Python and data engineering and be ready to tackle complex data engineering projects with ease.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/python-for-data-engineers)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/cxzqhhxw)
 
 ##### Course Curriculum
 
@@ -1014,7 +1014,7 @@ Data pipelines are the number one thing within the Data Science platform. Withou
 
 This 110-minute long training will help you understand how to create stream and batch processing pipelines as well as machine learning pipelines by going through some of the most essential basics - complemented by templates and examples for useful cloud computing platforms.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-pipeline-design)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/2jwv7wcg)
 
 ##### Course Curriculum
 
@@ -1041,7 +1041,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 ##### Description
 Relational modeling is often used for building transactional databases. You might say, 'But I'm not planning to become a back-end engineer'. Apart from knowing how to move data, you should also know how to store it effectively which involves designing a scalable data model optimized to drive faster query response time and efficiently retrieve data.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/relational-data-modeling)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/hh23h5yp)
 
 ##### Course Curriculum
 
@@ -1070,7 +1070,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 ##### Description
 In today’s data-driven world, efficient data organization is key to enabling insightful analysis and reporting. Dimensional data modeling is a crucial technique that helps structure your data for faster querying and better decision-making.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-modeling-3-dimensional-data-modeling)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/85az5w5c)
 
 ##### Course Curriculum
 
@@ -1098,9 +1098,9 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 ##### Description
 Week 5 covers two crucial topics: containerization using Docker and building APIs with FastAPI. Docker is essential for creating lightweight, self-sustained containers, while APIs are the backbone of data platforms.
 
-Check out Docker Fundamentals in my Academy: [Learn More](https://learndataengineering.com/p/docker-fundamentals)
+Check out Docker Fundamentals in my Academy: [Learn More](https://go.learndataengineering.com/qvr9xtxb)
 
-Check out Building APIs with FastAPI in my Academy: [Learn More](https://learndataengineering.com/p/apis-with-fastapi-course)
+Check out Building APIs with FastAPI in my Academy: [Learn More](https://go.learndataengineering.com/avb8wtka)
 
 ##### Course Curriculum
 
@@ -1145,7 +1145,7 @@ Participants need to select **one** of the following cloud platforms to complete
 
 The AWS project is designed for those who want to get started with cloud platforms, particularly with Amazon Web Services, the leading platform in data processing. This project will guide you through setting up an end-to-end data engineering pipeline using AWS tools like Lambda, API Gateway, Glue, Redshift, Kinesis, and DynamoDB. You will work with an e-commerce dataset, learn data modeling, and implement both stream and batch processing pipelines.
 
-Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-aws)
+Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/e8y5kvvy)
 
 ##### Detailed AWS Project Curriculum
 
@@ -1214,7 +1214,7 @@ Check out this project in my Academy: [Learn More](https://learndataengineering.
 
 The Azure project is designed for those who want to build a streaming data pipeline using Microsoft Azure's robust cloud platform. This project introduces you to Azure services such as APIM, Blob Storage, Azure Functions, Cosmos DB, and Power BI. You will gain practical experience by building a pipeline that ingests, processes, stores, and visualizes data, using Python and Visual Studio Code.
 
-Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure)
+Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/7z4xu5ed)
 
 ##### Detailed Azure Project Curriculum
 
@@ -1242,7 +1242,7 @@ Check out this project in my Academy: [Learn More](https://learndataengineering.
 
 The GCP project is designed for those who want to learn how to build, manage, and optimize data pipelines on Google Cloud Platform. This project focuses on building an end-to-end pipeline that extracts data from an external weather API, processes it through GCP's data tools, and visualizes the results using Looker Studio. This project offers practical, hands-on experience with tools like Cloud SQL, Compute Engine, Cloud Functions, Pub/Sub, and Looker Studio.
 
-Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-gcp)
+Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/7b5j22b3)
 
 ##### Detailed GCP Project Curriculum
 
@@ -1282,7 +1282,7 @@ Currently, Snowflake is the analytics store/data warehouse everybody is talking 
 
 This training covers everything from the basics of Snowflake and data warehousing to advanced integration and automation techniques. By the end, you will have the knowledge to prepare, integrate, manage data on Snowflake, and connect other systems to the platform.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/snowflake-for-data-engineers)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/dtjapkdr)
 
 ##### Course Curriculum
 
@@ -1316,7 +1316,7 @@ Check out this course in my Academy: [Learn More](https://learndataengineering.c
 
 dbt is a SQL-first transformation workflow that simplifies the process of transforming, testing, and documenting data. It allows teams to work directly within the data warehouse, creating trusted datasets for reporting, machine learning, and operational workflows. This training is the perfect starting point to get hands-on experience with dbt Core, dbt Cloud, and Snowflake.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/dbt-for-data-engineers)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/zcqw3nge)
 
 ##### Course Curriculum
 
@@ -1354,7 +1354,7 @@ Apache Airflow is a powerful, platform-independent workflow orchestration tool w
 
 Airflow not only helps in planning and organizing workflows but also offers robust monitoring features, allowing you to troubleshoot and maintain complex ETL pipelines effectively. As one of the most popular tools for workflow orchestration, mastering Airflow is highly valuable for data engineers.
 
-Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/learn-apache-airflow)
+Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/uy8cvvzg)
 
 ##### Course Curriculum
 
@@ -1395,7 +1395,7 @@ After completing this roadmap, you’ll have the confidence and skills to not ju
 
 #### From Notebooks to Production: Build, Deploy, and Scale Your ML Workflows
 
-#### Start this roadmap at my Academy: [Start Today](https://learndataengineering.com/p/data-engineering-for-data-scientists)
+#### Start this roadmap at my Academy: [Start Today](https://go.learndataengineering.com/3rp88s9c)
 
 ---
 
@@ -1450,7 +1450,7 @@ This roadmap provides a step-by-step approach to gaining production-grade data e
 ##### Description
 Data pipelines are the foundation of any data platform. In this 110-minute training, you'll learn about stream, batch, and ML pipelines. You'll also explore platform blueprints, architecture components, and Lambda architecture.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/data-pipeline-design)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/2jwv7wcg)**
 
 ##### Course Curriculum
 
@@ -1477,7 +1477,7 @@ Data pipelines are the foundation of any data platform. In this 110-minute train
 ##### Description
 Docker is the go-to container platform for engineers. This training covers key concepts, hands-on Docker usage, building and running containers, and how Docker fits into production workflows.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/docker-fundamentals)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/qvr9xtxb)**
 
 ##### Course Curriculum
 
@@ -1504,7 +1504,7 @@ Docker is the go-to container platform for engineers. This training covers key c
 ##### Description
 Learn how to design efficient and scalable relational models. You'll go through conceptual to physical modeling and normalize your schema. You'll use MySQL and MySQL Workbench for hands-on practice.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/relational-data-modeling)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/hh23h5yp)**
 
 ##### Course Curriculum
 
@@ -1533,7 +1533,7 @@ Learn how to design efficient and scalable relational models. You'll go through 
 ##### Description
 APIs are the backbone of modern data platforms. You'll learn how to build and test APIs using FastAPI, design schemas, and deploy them in Docker. Postman and Docker are used for testing and deployment.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/apis-with-fastapi-course)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/avb8wtka)**
 
 ##### Course Curriculum
 
@@ -1556,7 +1556,7 @@ APIs are the backbone of modern data platforms. You'll learn how to build and te
 ##### Description
 This hands-on project teaches you how to build a real-time ML pipeline on AWS. You'll pull data from the Twitter API (or The Guardian API), apply sentiment analysis with NLTK in a Lambda function, store results in a Postgres database via RDS, and build a Streamlit dashboard. Finally, you’ll containerize and deploy the dashboard using AWS ECS and ECR.
 
-**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/ml-on-aws)**
+**Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/yrduzf3c)**
 
 ##### Course Curriculum
 
@@ -1594,7 +1594,7 @@ This hands-on project teaches you how to build a real-time ML pipeline on AWS. Y
 ##### Description
 In this project, you'll build a lightweight ETL job that pulls data from a public weather API and writes it into a time series database. You’ll dockerize the job, schedule it using AWS Lambda and EventBridge, and visualize the data using Grafana.
 
-**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/timeseries-etl-with-aws-tdengine-grafana)**
+**Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/98ys4nmd)**
 
 ### Course Curriculum
 
@@ -1624,7 +1624,7 @@ In this project, you'll build a lightweight ETL job that pulls data from a publi
 ##### Description
 This week, you’ll learn how to combine data lakes and warehouses into a Lakehouse architecture. You’ll implement a full data analytics stack using tools like S3, Athena, BigQuery, Glue, Quicksight, and Data Studio.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/modern-data-warehouses)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/r4pmbqjh)**
 
 ##### Course Curriculum
 
@@ -1652,7 +1652,7 @@ This week, you’ll learn how to combine data lakes and warehouses into a Lakeho
 ##### Description
 This training will guide you through installing and running Apache Airflow in Docker, creating DAGs, using the Taskflow API, and monitoring workflow execution.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/learn-apache-airflow)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/uy8cvvzg)**
 
 ##### Course Curriculum
 
@@ -1687,7 +1687,7 @@ This training will guide you through installing and running Apache Airflow in Do
 ##### Description
 This training introduces Apache Spark fundamentals, showing you how to process large datasets using Spark DataFrames, RDDs, and SparkSQL inside Docker and Jupyter Notebooks.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/learning-apache-spark-fundamentals)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/nan5ft5r)**
 
 ##### Course Curriculum
 
@@ -1731,7 +1731,7 @@ You only need to complete one of the following three options:
 ##### Description
 You'll use AWS services like API Gateway, Kinesis, DynamoDB, Redshift, Lambda, Glue, and Power BI to create a complete streaming solution. You'll work with e-commerce data and build multiple ingestion and batch pipelines.
 
-**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-aws)**
+**Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/e8y5kvvy)**
 
 ##### Course Curriculum
 
@@ -1760,7 +1760,7 @@ You'll use AWS services like API Gateway, Kinesis, DynamoDB, Redshift, Lambda, G
 ##### Description
 You’ll build a Twitter-like JSON stream pipeline using Azure Functions, Event Hub, Cosmos DB, and Power BI. You’ll learn how to set up API management, key vaults, and authentication.
 
-**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure)**
+**Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/7z4xu5ed)**
 
 #### Course Curriculum
 
@@ -1783,7 +1783,7 @@ You’ll build a Twitter-like JSON stream pipeline using Azure Functions, Event 
 ##### Description
 This project shows how to extract weather data via API, stream it with Pub/Sub, write it into Cloud SQL, and visualize it with Looker Studio. You'll also learn function deployment and VM/database setup.
 
-**Check out this project in my Academy: [Learn More](https://learndataengineering.com/p/data-engineering-on-gcp)**
+**Check out this project in my Academy: [Learn More](https://go.learndataengineering.com/7b5j22b3)**
 
 ##### Course Curriculum
 
@@ -1807,7 +1807,7 @@ This project shows how to extract weather data via API, stream it with Pub/Sub, 
 ##### Description
 Wrap up your roadmap by learning how to monitor pipelines using Elasticsearch. You’ll deploy Elasticsearch with Docker, send logs from your training pipelines, and visualize them in Kibana dashboards.
 
-**Check out this course in my Academy: [Learn More](https://learndataengineering.com/p/log-analysis-with-elasticsearch)**
+**Check out this course in my Academy: [Learn More](https://go.learndataengineering.com/33uprgke)**
 
 ##### Course Curriculum
 

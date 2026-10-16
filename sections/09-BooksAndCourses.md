@@ -133,39 +133,39 @@ PS: Don't just get a book and expect to learn everything
 | Course name | Course description | Course URL |
 |---|---|---|
 | **1. Data Engineering Basics** |  |  |
-| Introduction to Data Engineering | Introduction to Data Engineering with over 1 hour of videos including my journey here. | https://learndataengineering.com/p/introduction-to-data-engineering |
-| Computer Science Fundamentals | A complete guide of topics and resources you should know as a Data Engineer. | https://learndataengineering.com/p/data-engineering-fundamentals |
-| Introduction to Python | Learn all the fundamentals of Python to start coding quick | https://learndataengineering.com/p/introduction-to-python |
-| Python for Data Engineers | Learn all the Python topics a Data Engineer needs even if you don't have a coding background | https://learndataengineering.com/p/python-for-data-engineers |
-| Docker Fundamentals | Learn all the fundamental Docker concepts with hands-on examples | https://learndataengineering.com/p/docker-fundamentals |
-| Successful Job Application | Everything you need to get your dream job in Data Engineering. | https://learndataengineering.com/p/successful-job-application |
-| Data Preparation & Cleaning for ML | All you need for preparing data to enable Machine Learning. | https://learndataengineering.com/p/data-preparation-and-cleaning-for-ml |
+| Introduction to Data Engineering | Introduction to Data Engineering with over 1 hour of videos including my journey here. | https://go.learndataengineering.com/6bxy7wz4 |
+| Computer Science Fundamentals | A complete guide of topics and resources you should know as a Data Engineer. | https://go.learndataengineering.com/zy3manxp |
+| Introduction to Python | Learn all the fundamentals of Python to start coding quick | https://go.learndataengineering.com/ywjaj3ym |
+| Python for Data Engineers | Learn all the Python topics a Data Engineer needs even if you don't have a coding background | https://go.learndataengineering.com/cxzqhhxw |
+| Docker Fundamentals | Learn all the fundamental Docker concepts with hands-on examples | https://go.learndataengineering.com/qvr9xtxb |
+| Successful Job Application | Everything you need to get your dream job in Data Engineering. | https://go.learndataengineering.com/qud2zb25 |
+| Data Preparation & Cleaning for ML | All you need for preparing data to enable Machine Learning. | https://go.learndataengineering.com/du6qa5yr |
 | **2. Platform & Pipeline Design Fundamentals** |  |  |
-| Data Platform And Pipeline Design | Learn how to build data pipelines with templates and examples for Azure, GCP and Hadoop. | https://learndataengineering.com/p/data-pipeline-design |
-| Platform & Pipelines Security | Learn the important security fundamentals for Data Engineering | https://learndataengineering.com/p/platform-pipeline-security |
-| Choosing Data Stores | Learn the different types of data stores and when to use which. | https://learndataengineering.com/p/choosing-data-stores |
-| Schema Design Data Stores | Learn how to design schemas for SQL, NoSQL and Data Warehouses. | https://learndataengineering.com/p/data-modeling |
+| Data Platform And Pipeline Design | Learn how to build data pipelines with templates and examples for Azure, GCP and Hadoop. | https://go.learndataengineering.com/2jwv7wcg |
+| Platform & Pipelines Security | Learn the important security fundamentals for Data Engineering | https://go.learndataengineering.com/bchye99n |
+| Choosing Data Stores | Learn the different types of data stores and when to use which. | https://go.learndataengineering.com/fxmwqeue |
+| Schema Design Data Stores | Learn how to design schemas for SQL, NoSQL and Data Warehouses. | https://go.learndataengineering.com/thgaa33k |
 | **3. Fundamental Tools** |  |  |
-| Building APIs with FastAPI | Learn the fundamentals of designing, creating and deploying APIs with FastAPI and Docker | https://learndataengineering.com/p/apis-with-fastapi-course |
-| Apache Kafka Fundamentals | Learn the fundamentals of Apache Kafka | https://learndataengineering.com/p/apache-kafka-fundamentals |
-| Apache Spark Fundamentals | Apache Spark quick start course in Python with Jupyter notebooks, DataFrames, SparkSQL and RDDs. | https://learndataengineering.com/p/learning-apache-spark-fundamentals |
-| Data Engineering on Databricks | Everything you need to get started with Databricks. From setup to building ETL pipelines &amp; warehousing. | https://learndataengineering.com/p/data-engineering-on-databricks |
-| MongoDB Fundamentals | Learn how to use MongoDB | https://learndataengineering.com/p/mongodb-fundamentals-course |
-| Log Analysis with Elasticsearch | Learn how to monitor and debug your data pipelines | https://learndataengineering.com/p/log-analysis-with-elasticsearch |
-| Airflow Workflow Orchestration | Learn how to orchestrate your data pipelines with Apache Airflow | https://learndataengineering.com/p/learn-apache-airflow |
-| Snowflake for Data Engineers | Everything you need to get started with Snowflake | https://learndataengineering.com/p/snowflake-for-data-engineers |
-| dbt for Data Engineers | Everything you need to work with dbt and Snowflake | https://learndataengineering.com/p/dbt-for-data-engineers |
+| Building APIs with FastAPI | Learn the fundamentals of designing, creating and deploying APIs with FastAPI and Docker | https://go.learndataengineering.com/avb8wtka |
+| Apache Kafka Fundamentals | Learn the fundamentals of Apache Kafka | https://go.learndataengineering.com/x6zvr6zy |
+| Apache Spark Fundamentals | Apache Spark quick start course in Python with Jupyter notebooks, DataFrames, SparkSQL and RDDs. | https://go.learndataengineering.com/nan5ft5r |
+| Data Engineering on Databricks | Everything you need to get started with Databricks. From setup to building ETL pipelines &amp; warehousing. | https://go.learndataengineering.com/xc4azyha |
+| MongoDB Fundamentals | Learn how to use MongoDB | https://go.learndataengineering.com/un4fucnr |
+| Log Analysis with Elasticsearch | Learn how to monitor and debug your data pipelines | https://go.learndataengineering.com/33uprgke |
+| Airflow Workflow Orchestration | Learn how to orchestrate your data pipelines with Apache Airflow | https://go.learndataengineering.com/uy8cvvzg |
+| Snowflake for Data Engineers | Everything you need to get started with Snowflake | https://go.learndataengineering.com/dtjapkdr |
+| dbt for Data Engineers | Everything you need to work with dbt and Snowflake | https://go.learndataengineering.com/zcqw3nge |
 | **4. Full Hands-On Example Projects** |  |  |
-| Data Engineering on AWS | Full 5 hours course with complete example project. Building stream and batch processing pipelines on AWS. | https://learndataengineering.com/p/data-engineering-on-aws |
-| Data Engineering on Azure | Ingest, Store, Process, Serve and Visualize Streams of Data by Building Streaming Data Pipelines in Azure. | https://learndataengineering.com/p/build-streaming-data-pipelines-in-azure |
-| Data Engineering on GCP | Everything you need to start with Google Cloud. | https://learndataengineering.com/p/data-engineering-on-gcp |
-| Modern Data Warehouses & Data Lakes | How to integrate a Data Lake with a Data Warehouse and query data directly from files | https://learndataengineering.com/p/modern-data-warehouses |
-| Machine Learning & Containerization On AWS | Build a app that analyzes the sentiment of tweets and visualizing them on a user interface hosted as container | https://learndataengineering.com/p/ml-on-aws |
-| Contact Tracing with Elasticsearch | Track 100,000 users in San Francisco using Elasticsearch and an interactive Streamlit user interface | https://learndataengineering.com/p/contact-tracing-with-elasticsearch |
-| Document Streaming Project | Document Streaming with FastAPI, Kafka, Spark Streaming, MongoDB and Streamlit | https://learndataengineering.com/p/document-streaming |
-| Storing & Visualizing Time Series Data with InfluxDB and Grafana | Learn how to use InfluxDB to store time series data and visualize interactive dashboards with Grafana | https://learndataengineering.com/p/time-series-influxdb-grafana |
-| Data Engineering with Hadoop | Hadoop Project with HDFS, YARN, MapReduce, Hive and Sqoop! | https://learndataengineering.com/p/data-engineering-with-hadoop |
-| Dockerized ETL | Learn how quickly set up a simple ETL script with AWS TDengine & Grafana | https://learndataengineering.com/p/timeseries-etl-with-aws-tdengine-grafana |
+| Data Engineering on AWS | Full 5 hours course with complete example project. Building stream and batch processing pipelines on AWS. | https://go.learndataengineering.com/e8y5kvvy |
+| Data Engineering on Azure | Ingest, Store, Process, Serve and Visualize Streams of Data by Building Streaming Data Pipelines in Azure. | https://go.learndataengineering.com/7z4xu5ed |
+| Data Engineering on GCP | Everything you need to start with Google Cloud. | https://go.learndataengineering.com/7b5j22b3 |
+| Modern Data Warehouses & Data Lakes | How to integrate a Data Lake with a Data Warehouse and query data directly from files | https://go.learndataengineering.com/r4pmbqjh |
+| Machine Learning & Containerization On AWS | Build a app that analyzes the sentiment of tweets and visualizing them on a user interface hosted as container | https://go.learndataengineering.com/yrduzf3c |
+| Contact Tracing with Elasticsearch | Track 100,000 users in San Francisco using Elasticsearch and an interactive Streamlit user interface | https://go.learndataengineering.com/3wu4bfj7 |
+| Document Streaming Project | Document Streaming with FastAPI, Kafka, Spark Streaming, MongoDB and Streamlit | https://go.learndataengineering.com/45fnhctg |
+| Storing & Visualizing Time Series Data with InfluxDB and Grafana | Learn how to use InfluxDB to store time series data and visualize interactive dashboards with Grafana | https://go.learndataengineering.com/h33jacy9 |
+| Data Engineering with Hadoop | Hadoop Project with HDFS, YARN, MapReduce, Hive and Sqoop! | https://go.learndataengineering.com/dk5zjgr6 |
+| Dockerized ETL | Learn how quickly set up a simple ETL script with AWS TDengine & Grafana | https://go.learndataengineering.com/98ys4nmd |
 
 ## Certifications
 

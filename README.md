@@ -21,7 +21,7 @@
 ## If You Like This Book & Need More Help
 Check out my Data Engineering Academy at LearnDataEngineering.com trusted by almost 2,000 students!
 
-**Visit learndataengineering.com:** [Click Here](https://learndataengineering.com)
+**Visit learndataengineering.com:** [Click Here](https://go.learndataengineering.com/k3dzbsxp)
 
 - Learn Data Engineering with our online Academy
 - Perfect for becoming a Data Engineer or add Data Engineering to your skillset
