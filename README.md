@@ -386,6 +386,9 @@ You can also open an issue and put your thoughts there.
 
 Please use the "Issues" function for comments.
 
+## Preview the Book Locally
+
+This repository contains Markdown source files and does not currently define a book-generation or build command. To preview local edits, open `README.md` or a file in `sections/` in Visual Studio Code and run **Markdown: Open Preview** from the Command Palette (or press `Ctrl+Shift+V` on Windows/Linux). No project dependencies are required. GitHub also renders each Markdown file when viewed in the repository.
 
 ## Important Links
 
