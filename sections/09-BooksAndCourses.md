@@ -132,6 +132,7 @@ PS: Don't just get a book and expect to learn everything
 
 | Course name | Course description | Course URL |
 |---|---|---|
+| DataDank | Free Data Engineering learning resources, interview questions with worked answers, and a structured 90-day interview preparation plan. | https://datadank.com/ |
 | **1. Data Engineering Basics** |  |  |
 | Introduction to Data Engineering | Introduction to Data Engineering with over 1 hour of videos including my journey here. | https://go.learndataengineering.com/6bxy7wz4 |
 | Computer Science Fundamentals | A complete guide of topics and resources you should know as a Data Engineer. | https://go.learndataengineering.com/zy3manxp |
